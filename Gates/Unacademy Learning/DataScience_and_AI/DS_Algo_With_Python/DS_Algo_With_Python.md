@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86d6f0d2-c510-4b26-9159-bd665edc28d3)# DS, Algo Using Python
+# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -2554,113 +2554,273 @@ for i in range(0, 5, 1):
 
 * **id** -> It gives the **address**.
 
+## function-and-recursion (9)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe94e3de-dc84-4786-a710-cf43cd826d0a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9499d459-3263-4e25-99f5-3f2ef9722bc9)
 
+* File Handling.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83d0ea0f-5268-4fb4-af49-1c0e6fae7afd)
 
+* Example.
+* rt -> We are reading the file and the file is opened in **text mode**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0e3eb5a-9e58-4dfb-9c04-d1f3a0677f25)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6caca255-97ff-48f0-b7f9-bd8d3f37bac5)
 
+* Example.
+* By default it is going to read the whole file.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47e4dd9-c9d2-4929-8acf-fc2af95074ba)
 
+* Read
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f364716-a86b-4206-885d-dec94f7eb329)
 
+* readline()
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d674190-36aa-42f8-b602-af7988e840d4)
 
+* It is giving the output of **each character** in the **next line**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/137b8277-ac6e-4488-aa59-82619903d20e)
 
+* Close File.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8b21ea5-affc-492a-b073-6d66172d4f15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11219472-64b1-409c-9b9b-7a3285f5b6b0)
 
+* If instead of **a** we have **w** then the content/text already written in the file is overwritten by the **new line**. The new line overwrites over the old lines and the **new line** comes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a75a6d18-2966-449c-8d53-9628018f6ed9)
 
+* If a file with the name of **newfile2.txt** doesn't exist then we don't get an **error**, a **new file** is created with that **name** and then the **new content** is appended to it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3691cec-1842-4d40-89d4-46ac6fcff560)
 
+* Existing file.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b69deeb8-b926-474a-9b7f-168877d37721)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62b47d86-e157-49ad-85ed-99834b110409)
 
+* Delete File.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f931236-3c6a-4c0e-93a6-e618ed8ef94c)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3ffa879-2e26-425f-a82b-2854de5e4733)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be634bc6-efea-4b20-b1e8-ff36147919d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2025ab7-64f8-4c7d-8168-07241f5858c1)
 
+* **rmdir** -> It is used to **remove directories**.
+* All of the files/content within the **directories/folder** will be **deleted/removed**.
 
+## Time and Space Complexity of Algos
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db88e924-ac73-4444-abc8-52db8344cd3e)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8961097a-31d2-4997-9a63-af955cb8b343)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05650bdd-28de-43f9-a7a2-986664025ece)
 
+* Time and Space Complexity 
+* **Space** complexity is **auxillary space or code execution space plus(+) data space**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bb50b3e-5c4e-4d8c-96f7-ed9ab6aef7ba)
 
+* **Space** complexity
+* **Input space** is not counted in the **space** complexity of an **algorithm**.  [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9a85ba7-ca3b-4246-baff-c0510091f4b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab195b9d-d5d4-4080-a9bc-77091a99ab44)
 
+* Types of Algo.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/650a35fe-55e0-4bde-bc86-e330d8145dd6)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16e238ee-71c7-4aa9-823b-f6eec3385ae5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8146803-9f7a-43d1-aa69-88de0c5cfb58)
 
+* Asymptotic Notations.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4fac179-4715-415b-8ce8-cf4c06b08824)
 
+* Constant time.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/264b1e11-b1c4-4f21-b2e1-ca1d064f1c2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c862d40f-3a53-430c-93cb-51de9f624714)
 
+* Examples.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ed589de-a1be-4406-9568-50e0090710b8)
 
+* Big-O notation -> Upper Bound.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b09a6c0a-0b81-439f-9916-87bc7aec92a7)
 
+* This point is called as the **n0** point.
+* Whatever has happened before the **n0** point it doesn't matter but after the **n0** point g(n) is always **greater** than f(n).
+* So it means that **g(n)** is **greater** than or a **bigger function** than **f(n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ecf3f6-bfc3-4666-81f2-64723c635bdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf374cad-c3f7-4515-925d-ccdbcee0e918)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30a968dd-64ce-4d5c-b279-35ee416178eb)
 
+* Arrange functions in their growth rate in **ascending order**. [Question]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f17169bb-a439-41ff-bead-d67f4ac7c3dc)
 
+* Take **examples** and compare. [Example] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eb9688c-9a04-47ca-9f17-9ba0ce0aa66d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee4e5aa6-cc12-44e5-b0c7-440d556776a8)
 
+* We can say that **g(n)** is approximately always **double** than that of **f(n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f21944-b28c-46ad-9aae-eaa2dfc1e0d2)
 
+* If we multiply with **constant** then growth doesn't change. [**IMPORTANT**]
+* If multiplying by **any constant**, **f(n)** is **greater than g(n)** or by multiplying with **some other constant**, **g(n)** is **greater** than **f(n)**. This is possible in **only one condition** which is when the **growth rate** of both the functions we are comparing is **similar**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8e318cb-1727-4fb5-8892-797627cb9ae9)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0349d79a-76ca-4de0-b4b4-7147f3587f9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6faab80-5e14-44f6-9dc6-196115d9c2da)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d24f4af3-8229-40c7-be69-48433bee0175)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de44fd63-0313-47c5-9155-014480139cb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28f4b762-0596-4dda-ae4e-07719170dc4b)
 
+* Solution. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa178981-8d87-4b34-96ab-3c06d0bd11d2)
 
+* Yes, **add, mul, div, sub** to **n** doesn't matter to the **growth rate** of **n**. They all are ultimately **n** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41962f72-a3be-4454-97f7-013717751c65)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fda5f026-3f77-46ea-bd82-b63a27ed0a49)
 
+* Option **C**.  
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba16d12a-5da0-42b0-8117-ce03f3e954cc)
 
+* Omega Notation. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51ba542d-c8fc-4ba7-b09f-c683f12ddf47)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a07c71b9-64c4-472c-a218-07fc78b8fe13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efff8499-edc2-4045-b75a-2c7e7dfa7c95)
 
+* Option **A**.
+* Growth rate of **f(n)** is less than that of **g(n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ada7ad79-0eb1-48c6-b9b4-e10a6c3b6728)
 
+* Answer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c562a4bf-b7f4-48e3-84c0-be445cb7638f)
 
+* Answer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c769db7-bc95-4891-acee-94f2b50d24df)
 
+* Theta Notation -> Equal Bound. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac336da8-4837-4edf-8825-ddb1d34c05ee)
 
+* Example.
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541ffefd-b281-4fc2-b64d-8e23e3dc272a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f6e2f4d-0fbc-4693-bce7-aef009826651)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dfbfdbe-789f-4d72-af6c-6cf4f7fac9a0)
 
+* Answer [**IMPORTANT**]
+* So ultimately if two functions have **equal growth** then we can use **Big-O, Theta, Omega** notations in any order there is no issue. We can use **all three** of them.
+* To represent the equal growth which notation is the best representation? [**IMPORTANT**]
 
+> All options are **correct**. The **best representation** will be **theta** notation. **Theta** notation is dedicately used to represent the **equal growth**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793cf27c-513b-4190-b90c-d3fc9764a909)
 
+* little oh notation(o) [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c48108-f69e-4414-8a0a-a06e185a6c1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66febaca-5287-4874-92ad-b2dbb72c3918)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76d9234a-66c5-4c59-9576-d6ad6d7f3742)
 
+* Option **D**.
+* **f(n) and g(n)** have the **same** growth. [Example]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e738c11-e4ba-42f2-b787-fa74d749113a)
 
+* little omega notation [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7074fd3-f900-4d43-8b23-f9f39d7a04dd)
 
+* Question. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ae12ef0-a493-4815-b30a-b2874364d65a)
 
+* Answer. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9706a60f-a56f-4b78-9330-02c597603990)
 
+* Logarithmetic formulas [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb00c799-23ce-4a55-8e84-d5db26e8924a)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f788e6e-8a03-4235-9ae1-cd84fd88b0c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5e1b876-9020-4e6a-8f87-25a667aaa63c)
 
+* Solution [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/936a8280-2e32-46f1-ace0-107cff998a70)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/266816dc-36b1-4382-bc29-81e555315197)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b3c4567-d7ad-4944-bec5-29062bc3e3df)
+
+* Among the **smallest** it is **7 and 1**.
+* **Exponential** functions have the **highest growth(2 to 6)**.
+* Lowest -> Highest [Growth Rate]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6c7077c-4a19-463f-8f4e-86f6d0891388)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f244daac-6060-4c1d-88d1-4f7a7bff0ff1)
+
+* We are applying **log** on the **exponential functions**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d5726e2-0216-4de2-ba48-0d6cce21f6eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/151f0a71-8c9b-4833-9615-d96ce9cd01ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c3c9b54-14a2-42f0-b0db-bfe7c1873329)
+
+* Answer [**VERY IMPORTANT**]
 
 
 
@@ -3126,3 +3286,4 @@ for i in range(0, 5, 1):
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f27bc3d-0938-4ea1-93d6-bffd7da05c1f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b1cdf3d-91b4-4204-959e-985a21cfaf15)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/900de2d0-f514-4a87-8943-b2c35f49d463)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c790c4d2-51d8-42c9-9566-2326b1984787)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86d6f0d2-c510-4b26-9159-bd665edc28d3)
