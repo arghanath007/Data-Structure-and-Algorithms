@@ -2822,45 +2822,92 @@ for i in range(0, 5, 1):
 
 * Answer [**VERY IMPORTANT**]
 
+## algorithms-and-complexity-calculation-part-1 (10)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eb11870-b9cd-4f55-be41-6930890411e6)
 
+* Question [Example] [**IMPORTANT**]
+* How to calculate growth rate of functions:- [**VERY IMPORTANT**]
 
+1) By putting the value of 'n' (larger value).
+2) If exponentail function then take log of functions to reduce the growth and compare the resultant functions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff8f9584-ee93-4c11-b5fd-854eb997e0e6)
 
+* In case of **exponential** functions we take **log** and then we compare the functions. [Example] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90442b54-edcc-460b-8cad-6b645aab65f4)
 
+* example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65ae188e-bf8d-45c3-9bd3-bf6fd2a80c47)
 
+* example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9173ba9e-d71c-47d3-a739-e381c1fec673)
 
+* example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b20bb3f7-8ba0-4d16-9345-44ea52dc2af2)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79c48db0-86aa-4619-b482-530ad69e2e97)
 
+* Answer -> All are **True**. All are **satisfying**. [Solution] [Example] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75b157a1-5d78-4ee3-b898-063cba64bc80)
 
+* Transpose [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1835e075-a284-4c43-841c-cc0d3545f452)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9741b672-84f5-4b73-af5d-3022e2f08748)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6da92c9-7618-4f5c-b541-0b397cc5c179)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e124c2d-ad20-44a0-863a-3d28efaba726)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d26b7101-93b2-4b1e-b9c1-341038ec7869)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9560c73f-b78c-4a29-9930-bb4546ed321d)
 
+* Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69241a5a-979b-4749-a94b-0d69cefd533f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f200bbf8-db0b-4897-9661-4d3e34fa9bfd)
 
+* Option **C**. [**IMPORTANT**]  
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c30ccd2-884a-4c53-99f8-15359e409dab)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb9877bf-caa3-4063-ba01-459a69202040)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b41fe028-db77-4a4b-9709-efb8527b79fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2da11389-aea2-4fe9-9d7d-037980461467)
 
+* Option **B**. [**IMPORTANT**]  
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5d8e333-c007-40ac-a2ee-942eae243a0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc1df57b-c71f-458e-91bb-5eb9d6eeddeb)
 
+* Option **I, II **. [Doubt]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/908b75b7-2c5d-4de5-b1f6-c1f64af7d439)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ea3c07f-de1a-4c6a-a7b8-f57aaed54bdc)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/026dbf77-31b8-4f5e-be75-3746160e4434)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cfef7f5-5660-475a-9f64-0b59bc54efdf)
 
-
-
+* Option **A**. [**IMPORTANT**]
+* Start from **1hrs 25mins**.
 
 
 
