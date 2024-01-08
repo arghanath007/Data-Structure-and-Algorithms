@@ -2544,6 +2544,7 @@ for i in range(0, 5, 1):
 * Abstraction
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/498ec325-ab40-4091-9f05-7b3440895fb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05b0a461-233f-46fc-a30f-f705873f39fb)
 
 * Doubt [**IMPORTANT**]
 * Run it once and check **output**.
