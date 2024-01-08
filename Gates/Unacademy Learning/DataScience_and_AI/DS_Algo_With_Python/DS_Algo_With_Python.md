@@ -1,4 +1,4 @@
-# DS, Algo Using Python
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86d6f0d2-c510-4b26-9159-bd665edc28d3)# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -1942,156 +1942,339 @@ for i in range(0, 5, 1):
 
 * Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d561bad8-6d94-48da-adc2-3126ca947470)
 
+* Question
+* fact(5) -> 120
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5e3f6bd-281e-4f8b-a1f3-6367e48535f9)
 
+* Question
+* return 0. [Read the questions carefully]
+* Answer -> 0
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c534d141-589e-43dd-85c2-32ea66adc486)
 
+* 4
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d9f8da0-bbac-47d4-9806-62bf2ea252e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a4bab8-07c8-4396-9a80-9fd777392c4d)
 
+* Answer
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c5de2ae-220d-4c77-954b-7d64afe30515)
 
+* Hi Bob
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b2255d-417b-46e5-a6fb-f3f6b0277cc1)
 
+* Answer
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d9ece0-8688-4a27-995a-12972d8097f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/164a4a0d-92d0-47dc-868d-ee006744244e)
 
+* Answer
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e547aa4-e5a3-4031-85e2-aec08de19669)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82aadeeb-5ad7-4974-8c4c-fd6433f6405e)
 
+* We are getting **error** because of the **no. of arguments** we are sending.
+* Option E -> None. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/001258a8-9c18-47d0-891c-5fb0faba9633)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/678d887e-f7dc-4f56-b82f-36a9cb97ee96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47025cca-104d-42a2-bc42-9ada475f5138)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ded98f56-99b6-4b82-8e32-1cab6206bc7e)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08009e73-7c3b-4525-aef0-610ce72f53bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e4de1d3-84b8-4edd-93cd-d70575c1f36a)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52502682-2953-49ed-a855-3258b5279706)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8b3bdb6-c86a-4d54-a688-5e0cceb0ba45)
 
+* Option **D**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6de3061-c9fd-4359-8cc9-7a2b4954365f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/078c938d-c5fa-4b56-a460-8e146b8752dd)
 
+* Option **A**.
+* Whatever **first error** which is coming we have to focus on that.
+* If asked for **total no. of errors** then we have to find all errors.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac310e02-2a25-406a-9b68-567301bf6702)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5501277e-0201-4a81-9c4e-283b4eb55ba4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3a03708-a86c-4220-8670-dccb58bb970a)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd989524-543e-4202-a399-88c650ebe77e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27be026b-1bc9-4526-9d9d-a479b2274e95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a3ca6dd-e79e-40ef-a016-a480dcb91391)
 
+* In **python** we cannot keep **body of a loop empty**, we have to write **pass** within the loop otherwise we will get an **error**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75d98515-0b56-40ec-9638-7ddce65b3d6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36f51acc-f0b3-4a6d-8234-01ca7c1917d9)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed67ab39-34c2-41d6-9ba4-2969eefad64c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b32b794-3897-4248-b29a-b43186e70402)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5be1237-0192-4579-9126-32a089d33c55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0ae5b4a-0ba9-4c4a-a5dc-507c5d13e4f9)
 
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02286e4c-3b96-46e1-bd12-f05843975915)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6adbb1a3-771a-44e3-8cef-149269338d62)
 
+* pass [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/962945c7-a355-4263-ac74-e23931a7ba55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4721a11a-57e6-4943-937d-66870229f07c)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d51f610b-fff7-467e-8a41-c54288a6cf65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b003187-a6ba-4f16-bfcc-ec5a61eb9f3b)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6bf82ae-6cf6-438e-8e8d-2923b1cdcbe7)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e64d949e-2d57-4cd9-86a4-a3a032255a38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/898ab6f4-d671-4ff4-8078-94d692766c04)
 
+* No indentetion error, miss print.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4edbbde-cea9-46a4-8109-f7852114ae46)
 
+* Answer.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efe8a1a6-4572-4924-9d52-049444709745)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ebf092b-7ceb-4fd1-a5f5-fc220d66f87d)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec2482fc-382d-42c1-93e1-443af01f9e92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29614737-9707-4b77-bc94-5611cb5abf83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97d8b854-d7c7-4641-a325-cdcb42fa97e7)
 
+* Explaination [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c37b406-abd1-40c9-bf00-713d8123f044)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6662e9e-0a3a-47e6-854d-dc4228745c8d)
 
+* Python **lambda** [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06e16cf8-4b28-45d1-81de-8e02f150ab3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb0ddb2d-61b7-4b0a-83af-fb2e2d007da7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98d21f06-36ce-4f70-a278-fb711316ec98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/622a8886-23d7-4189-ae31-c5b96e20dbe9)
 
+* Example [**IMPORTANT**]
 
+## Array
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90bb4ccd-f936-4958-af9a-f94248fb54c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/408151da-9fac-4069-bef4-7619c1e60852)
 
+* **list** stores **different types** of elements.
+* **Array** cannot store **different types** of elements.
+* If we have to use **list** as an **array** then **store similar type** of elements and not **different types** of elements to make the **list** act/work like an **array**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2216335-7daa-411d-ad7a-3391d9a6754b)
 
+* Types.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/223882a0-58c3-4d7c-bf3a-825d33e3b009)
 
+* Array Operations.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ac2cf0f-669b-4714-86ee-fb3820e8852a)
 
+* "from array import *" -> We are importing the **array** module to our python program.
+* Now we can make an **array**.
+* Typecode -> The type of data we want to store in the **array**.
+* Initializers -> The no. of elements we want to store in the **array**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a99a451-e0d2-4f48-a222-d928bdd8d244)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4459ca9-ba0f-4c47-b140-72b7e677874e)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daa909f1-9fd6-43ec-8138-afeb9fa0c840)
 
+* Typecodes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5f95512-cb40-46c5-85d5-896eea16adb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/819605ff-2206-46af-a0dd-b0e143b9244e)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ed9cf07-a728-431d-a2d1-c541d66a79a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/745f2106-3098-4650-9460-a3582c1d7993)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ff33877-fb25-4664-88f6-d0b1dd5ba6a8)
 
+* **i** is a **character** anyways even though it is representing **integer** here. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb9f2de-541d-439f-89a1-e14013156bff)
 
+* **Insert** operation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d8b23f9-a74c-4a59-9638-dc7a31a5b0f6)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58aa14f9-8ab1-4204-bbe7-6afc587d49e4)
 
+* **Deletion** operation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/280da4af-fa17-4084-abc3-25276774298c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9412be6-362a-424a-a76d-4d5785856788)
 
+* Example.
+* We can do **both**, we can either send the **position/index** of the element to be deleted or we can send the **element** which is to be deleted.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd3a6ae-b424-490f-a900-08c31c51e5cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/484e93ee-3ea8-4d74-b45e-fae901bb7572)
 
+* **Search** Operation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4661fd00-a0f0-4113-b2af-b3d670a2fc2f)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d178e35-e867-453a-acac-b3fc5e8d66d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86c47097-019a-428e-a03e-5037aac800ff)
 
+* **Update** Operation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90585745-b9b8-4d61-b30f-474415c8f8c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26c83db0-fadd-48c6-b4ef-d5fd41caf5bc)
 
+* Example
 
+## practice-questions-part-1 (8)
 
+## OOPS
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47814d3d-58f8-42ad-b6e2-1c158c3c72a3)
 
+* Python OOPS
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e58b8bd-3639-4683-9acc-b6244139f391)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf2ececa-4307-4333-a259-e602f93c9b34)
 
+* Class and Objects.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5e9e00b-2e7a-46ca-99a7-fcd85511afe8)
 
+* Object.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72ef57f9-2a0e-4543-ab6e-4fa29f9fb655)
 
+* **__init__()** function.
+* **self** -> It means it is **self** pointing, it is pointing to itself. It is used for **pointing itself**. It is used to **access** the **instance variable** of that particular method. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5824d257-6159-4c36-9a12-f78a33a4fa2f)
 
+* Example 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d34f8a8-52aa-4195-a35b-a24dbb3137f8)
 
+* If we access a **variable** using **P2** then we will get the information of **P2**.
+* If we access a **variable** using **P1** then we will get the information of **P1**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/310189f7-0fad-4add-9599-890da2419414)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bcb9950-b2a1-4574-802d-85458c5f3cc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f42dbeb-7ea7-42e5-ad8f-0daea5bbf435)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20f10455-7b45-49e2-85d4-8ff1a63b3e98)
 
+* **__str__** function.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51c77e01-dd26-4508-888e-6fb867448036)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad6a2ddb-e392-4978-a0a8-6da87439551c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11d50cab-73bd-4aeb-a70a-1718097de8f1)
 
+* Example. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a5bd341-a6f9-471c-a34e-b58be05933b5)
 
+* Output.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af63502d-50ee-42a6-82d3-a8dec990bab8)
 
+* yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b826f88-d12e-4fb9-9dd5-953dc7f51c77)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0b13693-cfb9-4ff7-ae85-2288da150703)
 
+* object Methods.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45768ba5-c830-404b-bb1a-b63624ca956c)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8b610c9-2d5a-4566-ac13-9f1914177ed9)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547a4d45-83cc-4540-b438-eab2c3c8bcbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c838c7a-aadb-46ac-8a5c-b3dcc79cafc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2e4859e-291c-428a-a901-48005ae1f60b)
 
+* Example.
+* **String-string** concatenation we can do but **string-integer** concatenation we cannot do.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b1f2cc1-84e7-4fb9-8405-df3a4d7badd6)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0879acc1-4d0a-43d1-bfc8-8e0eed0337f6)
 
+* **self** parameter.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcb3d48c-3fc7-4a6f-a121-e159057ef845)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e65271f-fa1f-4b15-8d06-5a8b9483f2a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f28b4adb-0594-4389-bac9-1fab2b0cd981)
 
+* **Object p1's** age got deleted and not the class **age**. [Example]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b32e7428-5564-4193-b8bb-f85863da855b)
 
+* **pass** statement.  
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/092dd08b-1f3e-4f46-a008-0adc04820db0)
 
-
-
-
-
-
-
-
-
-
-
-
-
+* Example
 
 
 
