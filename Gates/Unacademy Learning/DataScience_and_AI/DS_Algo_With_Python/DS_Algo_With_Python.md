@@ -3411,49 +3411,131 @@ for i in range(0, 5, 1):
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38503259-5416-4b42-b89d-92ea2f62994d)
 
 * **Space Complexity** is dependent on **auxillary space**.
+* Whatever **parameters** which we are passing to the algo all those fall under the **input space**.
+* CES -> Code Execution Space
+* DS -> Data Space.
+* The **auxillary space** is dependent on **Data Space and Code Execution Space**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6a8e12b-a65d-4408-b40e-202c93ee5acf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efbd9502-1337-4d5a-92b0-653a72924b64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab8f0346-e366-4f43-bfd7-41f97592d3ca)
 
+* For **Sequential and Iterative** algorithms the **Code execution space** is always **constant(1)**. It is **fixed space**.
+* For **recursve algorithm**, the **Code execution space** increases.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fc2e8cc-37a0-42c5-9963-35ce881a08b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/892fcd79-3662-41aa-a2e5-c2eb23bbafd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fedee09-fb08-46cc-a3da-64c10eb99549)
 
+* Time Complexity -> O(10) -> O(1) -> Constant. [n -> 10]
+* Loop will run for 10 times.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1dd2f54-2914-4335-b3e4-036d752e8b6d)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88a9b4de-f280-43d6-9ac8-6ebfc9bcc277)
 
+* Example.
+* Time -> Theta(n)
+* Space -> 3 * n -> Theta(n). [For storing all of the 3 Arrays(A, B, C)] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23fe755d-56a5-4065-b11a-aaff7cab9e37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61fccd7f-7036-44c5-b74f-5ff23cccccc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcebca39-7d6d-4ac3-9687-ded8c4154ab4)
 
+* Example.
+* Time -> Theta(n ^ 2)
+* Space -> Theta(n ^ 2).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5a6f186-fae7-4b7d-90e4-b90e761e0050)
 
+* **CES** is **constant(1)** since there is no **recursive algo**. Until **recursive algo** comes, **CES** is **constant(1)** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99e71eb6-2639-4b5f-b0d7-db80a33767dd)
 
+* The **time and space** complexity for the whole program will be **constant(1)** because as we know that the program will run for **8 times** which is **constant times only**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19354baa-f91c-4743-bb43-8a4f68bb8a3d)
 
+* Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8362924-adce-4994-8cb2-ce3e1550d48a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e40a892b-be92-418e-91ee-e1b335e35c57)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f04041c-d04d-46aa-8ba4-8c381e7f4187)
 
+* Height of tree is **n**.
+* Time and space is both **Theta(n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2fa0164-119f-4710-8d98-09d60891699a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e9f6a20-02bd-43c7-a8f6-2865795cae22)
 
+* Time Complexity -> Theta(n ^ 2).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be15709a-d7ab-43c1-9179-28c5e374dd59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ccd66ec-0980-4832-9313-563ee5ba80ce)
 
+* Space Complexity -> Theta(n). [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f539356d-1259-4604-8391-57fe5e507b47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81d84221-6b1d-4c16-ae1a-7bf8686e3537)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abdd18d1-5665-40ec-87d7-ecff0bc576ec)
 
+* The value is getting **halved** everytime the function is being called so it falls under **log or logarithmetic** time.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1c4e4ee-3702-49d2-8e4b-0d8300d37101)
 
+* There is no **data space** as it is **constant** and everything is coming from **CES**.
+* Solution [**IMPORTANT**]
 
+## Sorting Techniques
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31549e05-3565-48de-933a-73caed0a6cf1)
 
+1) Bubble Sort
+2) Selection Sort
+3) Insertion Sort
+4) Quick Sort
+5) Merge Sort
+6) Heap Sort
+7) Radix Sort
 
+* Comparision Based.
+* Counting Based.
+* Substract and Conquor
+* Divide and Conquor
+* Tree Based.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd5d0ddf-cd19-4545-b92e-bdb95221b5f5)
 
+* Bubble Sort.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c8972d3-1aaf-4d14-89b9-389ede4b3882)
 
+* Complexity [Type of Question]
+* No. of swap operations are performed here? [Type of Question].
+* No. of comparision are performed here? [Type of Question].
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4165f8e8-82d5-497b-9eca-2fb96b0792c8)
 
+* **Swaps** are not fixed they vary from **min to max** which is from **0 to (n * (n - 1)) / 2**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c55c63b2-2b27-4d74-87d2-cc56caa19f68)
 
+* Question
+* n -> 5
+* Comparison -> n * (n - 1)/2. [Formula] [**IMPORTANT**]
+* n * (n - 1)/2 -> 5 * 4 /2 -> 10
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2da26ab9-aeed-4cb3-88c9-b75c7766309e)
 
+* example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fff55931-15e1-43aa-b670-d6a2b5dc48ed)
 
+* [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a30a4065-387c-45f4-91ae-53ffd167aba8)
 
 
 
