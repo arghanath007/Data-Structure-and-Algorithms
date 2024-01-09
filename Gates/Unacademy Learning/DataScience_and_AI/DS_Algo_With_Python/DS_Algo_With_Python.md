@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9442f9f3-c62b-4840-aa17-9c1bc713514c)# DS, Algo Using Python
+# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -3303,6 +3303,8 @@ for i in range(0, 5, 1):
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55f4659f-6307-4ce2-a2ac-ed9af9d6ce52)
 
 * log.
+
+## sorting-techniques-part-1 (13)
 
 
 
