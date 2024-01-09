@@ -3306,51 +3306,111 @@ for i in range(0, 5, 1):
 
 ## sorting-techniques-part-1 (13)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3df430f2-f21f-4c22-8fb2-fc5043ee6ac3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc22615f-a6bb-4a9d-a7d6-a221e0f5cb2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0de6704d-1ae7-49b1-98c5-117d2209c4f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196fa97b-754d-43e6-80d4-9bcf59a2e31f)
 
+* This is series for the function of **log n**.
+* Option **A**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c115cec-de66-403e-ac5f-235e80b978a5)
 
+* Polynomial equation cannot be **negative**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a73eb84-0cdf-4d92-9e3f-26d567dc4db8)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9bf96de-8f9b-435d-ad5a-42c2facfbb91)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2ae5786-4495-4f4c-866c-6c5f4655c0f8)
 
+* option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d578eac5-a7c3-4075-ae77-77f2fb5b07cb)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08c608ee-ea04-4cc5-8a95-15c5e7151e69)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/046aa980-31c9-4dea-a11a-a64322a5b4f4)
 
+* Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f7b81b7-de6c-43ff-b1da-9aad6d548eb3)
 
+* We cannot apply **master's theorem** here because this is **substract and conquor** and in that **f(n)** should be a **polynomial**.
+* We have to use **iteration method**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cfdccf6-0a17-4f74-a976-b558c6e6c038)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac72f974-f2d6-4f9c-bfb2-9849785d5dd1)
 
+* For **n!** the equivalent higher to it is **n ^ n** even though **n ^ n** is **greater** than **n!**.
+* If **n!** is not given in the **options** then we can put **n ^ n** instead of **n!**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/784f82ce-7d70-4a70-8710-eb5b3f10dac0)
 
+* So we can go with **n * log n**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2d72af2-783f-4aa3-a73e-d94e9968ac66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dcac8a6-c322-418e-82eb-7979038298e4)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ada83043-4099-45e9-a8f1-36c60a7afcdd)
 
+* We have to use **tree method**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c2c2dbd-e62e-437b-b819-c616cef3c149)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1295861a-02fa-4a10-b0d1-0af8696e64fc)
 
+* As the addition of **n/3 and (2 * n)/3** gives us **n**, so we can say that the answer is **n * log n**.
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f4860e4-8b6b-41c0-b02a-911af55d5451)
 
+* **n** is the **cost**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2c2ed47-e2c0-47de-bb51-d000f1880fb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b96b879-7cc6-4d02-863e-a803cc1c0f40)
 
+* In the series we are multiplying with **GP** then in the series then value of **r** is **9/10** which is **less than '1'** so we can ignore the **series** and we can take **n**. So ultimately the value will be dependent on **n**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfe85a69-122c-4522-8b2b-b489e5475627)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b13c5063-2595-4754-98d1-4d7a70f8325f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0080df1-b69f-4fae-a636-246b38b68fc1)
 
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0b705a9-4a7d-4dd0-8d3e-0c94cb1dcf34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88447a06-8f60-4628-8f7d-4d245abcb531)
 
+* Option **A** [Already done in last class]
+* Solved using **tree method**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c191b97b-bef2-413b-bdf1-1ed222961047)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36821aac-cbc9-4ea6-b918-96960fcad8a9)
 
+* Example
+* **Base terms** do not alter or have any effect on the **complexities**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7bcc171-3b91-43c6-ad3a-36066680e022)
 
+* log [Formula]
 
+## Space Complexity
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38503259-5416-4b42-b89d-92ea2f62994d)
 
-
+* **Space Complexity** is dependent on **auxillary space**.
 
 
 
