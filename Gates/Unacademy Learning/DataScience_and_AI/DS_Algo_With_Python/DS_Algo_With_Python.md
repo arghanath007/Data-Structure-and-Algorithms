@@ -2905,70 +2905,141 @@ for i in range(0, 5, 1):
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/026dbf77-31b8-4f5e-be75-3746160e4434)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cfef7f5-5660-475a-9f64-0b59bc54efdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6e52895-b39c-4de1-a2e2-57f996fd5764)
 
 * Option **A**. [**IMPORTANT**]
-* Start from **1hrs 25mins**.
+* Always check with **larger values** like **10 ^ 10** and for **exponential functions** use **log** to convert them into **smaller functions** to compare them with.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a10711f6-5ea6-4d29-8b93-b4695eea1432)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1a902b1-6eec-4fc9-bde2-b0d2fb9072f8)
 
+* Take **more larger value** than **10 ^ 10**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/127d40f5-ac2e-4009-9f80-9da995195c27)
 
+* Solution [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3db81705-ad21-4c57-ab11-16eb72faf4c0)
 
+* Tried first with **n -> 10 ^ 10** but got **same output** which is **10 ^ 5**, that's why took **more larger value**.
+* n -> 10 ^ 100
+* f(n) -> 10 ^ 50 -> 50 0's
+* g(n) -> 100 ^ 5 -> 10 0's
+* f(n) > g(n)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/432729b5-fc96-445e-9abc-ca720e968751)
 
+* Option **C**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0201ef73-47d2-4640-b858-fe06a1a4a63d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b939233-a332-43b8-8b3c-06ee0f4fd1d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7362f71f-c96b-4a10-be61-fddaf99f33b3)
 
+* Option **B**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70ac64d8-42ed-4ac4-8df5-2e8fb77de1f5)
 
+* Types of Algos.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70f3a0a4-f9af-4c1c-a728-11f4510b033a)
 
+* Question
+* **Iterative algo** time complexity will be dependent on how many times the loop is going to execute, the **no. of iterations** that are happening.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/046d3255-2c49-45db-8b6c-3765cd927bb9)
 
+* Time Complexity -> Theta(1)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86065ede-4e73-4654-aa88-b16b62a6dd44)
 
+* Time Complexity -> Theta(n)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab3ebac0-c0dd-45ba-83bd-ee5354b16708)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/538db22e-bcd1-4702-894c-c135c9cad3f2)
 
+* Time Complexity -> O(n ^ 2)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dff75b6c-3f2a-472c-ba44-bc677380c3ac)
 
+* Time Complexity -> O(n ^ 2) [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf4b062b-58cb-4dfb-9705-f06a07e69909)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48405ce2-2ee1-4724-b360-77830be485b7)
 
+* Time Complexity -> O(n + n ^ 2) -> O(n ^ 2)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c601da5-ec36-4989-ab42-14cb942204c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f944fe54-9171-470d-a071-8e2609548bfd)
 
+* Time Complexity -> O(log n base 2) 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00c060ba-cdb5-4abc-986f-f225e5505dbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/039dbf04-06bf-4c62-b066-d9eb0b5e7907)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae64d2b3-32c1-44ad-b015-8e10d033c8d4)
 
+* Time Complexity -> O((log n base 2 ) ^ 2)
+* We can simply **multiply the complexities** and we can say that when the **inner loop** doesn't depend on the **outer loop**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dec6e8e7-9702-4d2e-a1f7-c6bfa795ecdc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a77bf9a4-e615-487e-bf95-53fa3b3d7e91)
 
+* Another way of **solving** when the **inner loop** is dependent on the **outer loop**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86bef49e-dd2b-426c-bc83-c40a2791154f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac141f07-ea67-4ea6-a149-28acb8e4c1b9)
 
+* Time Complexity -> O((log n base 2 ) ^ 2) [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8284567c-5ae3-4d1e-aa1f-b83123c12785)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f4b729-25ed-4ce5-a4ec-b1d815b7c8b4)
 
+* Time Complexity -> O(n * log n)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12c1b4a7-5cdd-47a8-a619-bcdbae46ebad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41b8e913-7df4-4d5b-82aa-d940dec221c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be03bc83-c1a7-4593-9cb0-f6749757ec57)
 
+* Time Complexity -> O(n) [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2176693b-265f-4e1c-934a-e213a229cc64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3def4a8-0577-4042-8c7c-a3fc65f2592b)
 
+* Time Complexity -> O(n * (log n base 2 ) ^ 2) [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e59baf05-cc22-4790-810f-aaa030a00885)
 
+* Base of the **logs** doesn't matter in **time complexity**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a0df03c-4c51-4304-bffb-47ee8351314a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31742e10-149b-48bd-9034-a995ee6c3546)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b73a6b4-da25-4d00-af3b-b4ed5ec046a5)
 
+* Time Complexity -> O(log n) [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c7c8b5d-5963-4eef-af7a-eb139c8c4035)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ef2c23-7186-41bd-94dd-256b2ef00771)
 
+* Time Complexity -> O(n * log n) [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd851589-1a2a-4c38-a20d-8219ec3057c8)
 
+* While loop [Example]
+* Time Complexity -> O(n)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86f40252-4703-4f52-9ae8-b7381c524d70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54ad409c-8319-4ede-bd28-25e155e8ae5a)
 
+* Time Complexity -> O(log n)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87072f42-17b0-445a-8f6f-5d0b9ff0385e)
 
+* Example.
+* **Class 11** -> Some Error, class not taken.
 
-
-
-
-
-
-
-
-
+## algorithms-and-complexity-calculation-part-3 (12)
 
 
 
