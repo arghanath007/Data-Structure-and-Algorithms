@@ -1,4 +1,4 @@
-# DS, Algo Using Python
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9442f9f3-c62b-4840-aa17-9c1bc713514c)# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -3041,98 +3041,268 @@ for i in range(0, 5, 1):
 
 ## algorithms-and-complexity-calculation-part-3 (12)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59ca53a-1bfd-4162-95fb-5d04a4e458fe)
 
+* if the value of **n** is **1** then we have to execute **only one statement**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f7ca537-3c03-4898-a139-31ba184ea5c4)
 
+* Recurrence Relation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0990b496-afd1-4bad-a0dc-3dbcdb7fc3cd)
 
+* The **multiplication** is going to take a fixed amount of time.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1afd7f6b-b77f-4eda-8cb1-59f829a11c1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3322762-9c4f-4c0f-aa47-b150e692acb1)
 
+* We can **ignore/remove** the **constants**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59b856c9-ddfa-4a8f-a316-2ea88cedb93c)
 
+* Questions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56a83bbf-3dbe-4e54-be68-fedb7ee7545c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fd63ace-b02a-4cc0-9dee-9b5cf83e244f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ee99613-380e-4252-9de6-0bec717573a3)
 
+* Solution [**VERY IMPORTANT**]
+* Be it be **multiplied with '2' or 'n'**, it is multiplication only. We have to see **how many times it is called**.
+* In **Q1**, the function is being **called twice(2)**.
+* In **Q2**, the function is being **called once(1)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7ef9646-47ac-42f9-834e-e6dab7d7cd36)
 
+* Recurrence Relation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/246883bf-9605-4c60-9b3b-5ec3b0b9a726)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1755670-43ba-4bb5-b9ed-1d1ed6947872)
 
+* We assumed that.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce5fbf4b-ba21-4ba4-ae3d-4e1389111976)
 
+* The **terminating condition** is given in the question. It is terminating at **1**. Whenever the value is not **1** till that time we have to run the program. Whenever it reaches **1**, it will terminate.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a2128f0-430b-410a-abeb-2f7626316422)
 
+* Question.
+* In the equation wherever there is **n** put **(n-1)** inplace of **n**.
+* When **(n-k)** will be **1**, we will stop as that is the **terminating condition**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31d7ae14-7651-482b-8cbd-7d066672eb20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/532c9b9d-b03b-4b24-b5ac-871fcdadd88c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1403e9a6-cc13-4b62-acac-c73b95f096eb)
 
+* Time Complexity -> Theta(n ^ 2). [**VERY IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/949c0bf0-2218-4a4a-8e90-f0b0fd8a0e48)
 
+* Constant.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/757dd2bd-4db6-486e-87a9-9525375b748e)
 
+* Everywhere replace **n** with **(n-1)**.
+* We are repeating the steps **k** times.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcf6c5a9-b4b0-4f9d-a150-fca713ace3d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeec2de9-e99e-4e90-91dc-d1a0817228ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a160d65f-353c-4407-aefb-957dc0aefa85)
 
+* Solution [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a2c0f53-0793-4f96-9ed6-602ec13c29dc)
 
+* Master's Theorem. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cc8503c-826e-4fc7-acc5-f0b30fe83398)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a42c9b46-8070-4a6e-8a5f-6c5827ce0289)
 
+* Example. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99c6a19c-3c94-4be2-b4b7-95acdbcae5de)
 
+* Questions
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e67295a7-75b8-4382-b77f-59d20b13804f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bea1878-ca29-4d59-b545-c2f56c18a190)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53cddcc3-1e61-4291-9a8d-b2bb02a74780)
 
+* Solutions. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fcb07b9-850f-4cc8-a092-b46a11e5273d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3f52ebd-a2cb-436a-b62c-3a7eb9f415ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d47b29a-0e89-45f6-af9f-04a674150803)
 
+* Master's Method [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/166f5689-3d6e-455e-81e3-8b9decd6a625)
 
+* Example. [**IMPORTANT**]
+* **k = 0** as there is **no log** term.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7984ec17-075d-4723-9359-78b9cfc4b394)
 
+* Example. [**IMPORTANT**]
+* **k = 0** as there is **no log** term.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bbe692c-6325-4409-982e-d58e035d7051)
 
+* Question.  [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d5f6091-a5d4-4dee-9664-d765651ea8f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e9acb2-71ec-4e40-b28c-a7ce8a78f06c)
 
+* Solutions.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a43a0cc-2dcd-4914-be1c-1e395dbd380f)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92ef612c-8e70-4aac-a706-caf662231668)
 
+* Solutions. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a1bdaf0-16ae-4f0c-8df6-077d9f31bce1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15435c7d-7b44-4a62-b9eb-8bc580dde302)
 
+* Master's Method 1. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08a2f7ee-3ef8-4c4b-9635-ea5a6c54f6b6)
 
+* Master's Method 2. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f875a48-6086-4f6b-87a3-7715e4f52ce4)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/477af3db-2ead-4011-8902-0dce09f95b04)
 
+* Solutions. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03b22b52-c26e-49f5-bbc9-e9bd65e647c2)
 
+## Tree's Method
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9e73312-50f4-4aa9-a12e-3d8d60b76715)
 
+* Here we can apply master's as all of the conditions apply.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60a50b4d-d783-42a5-b6f7-65b5d030c067)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/765415c4-723c-427d-9eea-08e5f5c86ea1)
 
+* We can't apply master's theorem here as it says that it wants **equal division**.
+* We have to apply **tree's method**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d51262-90f0-4886-a280-e9c7182b9490)
 
+* We can apply **master's theorem** and we got **theta(n * log n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f6de75f-5dc3-483a-9592-74ca6119d5c5)
 
+* We have to compute cost of every level. The cost is **n** here.
+* When the value is **n/2** then the cost is also **n/2**.
+* When the value is **n/4** then the cost is also **n/4**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed100a42-5900-4fc8-a944-5dce41097462)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/175767d7-d240-4b72-96d9-b3db903c4f4b)
 
+* At every level we are getting **n** as the result of the **addition**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72ce7f28-4973-4533-b6ee-cc7389d2fa7e)
 
+* We have gone from **2 ^ 0 -> 1** to **2 ^ k** which is **(k + 1)** times.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6de9522c-76c6-4ea4-a262-cdfeea5e69ba)
 
+* What is the value of **k**?
 
+> It will terminate when **n/(2 ^ k)** is equal to **1** but a **termination condition** is not given. We can assume that if **n/(2 ^ k)** is equal to **1** then the program will stop/terminate.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9194f64-1ec3-4d1a-b0f1-a109f44e4f58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6d151c4-e57b-4a36-9f02-00e3df455d97)
 
+* **n * log n** is **greater** than **n**, so the time complexity is dependent on **n * log n**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6540983-905b-4233-aed7-3373ea7f4384)
 
+* Yes.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04de40bb-6a6b-4ef1-89c3-db78ef34fb8e)
 
+* Cost is **n** for **T(n)**
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6ebca87-50b6-4b4c-946d-5a4d7d1d1704)
 
+* It is **addition** of **n**.
+* We will get the value of **k** when **((3 ^ k) * n)/(4 ^ k)** is equal to **1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59182d81-0689-4855-8ab2-7e484cfee54a)
 
+* Solution [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f986db7-2ffc-4483-9bd5-156e27c53e24)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d4749c3-061e-4a0a-aa10-17027a15fddd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f603d9a6-64b0-4f42-8afb-ae91741db80e)
 
+* Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9288957-6341-4ed9-b637-823347e98fbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb79b66f-bd9b-47a9-ad3f-678d95103c76)
 
+* Complexity is **n * log n**.
+* In everyone of them the **base** is **changed** but complexity has **not changed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccb84ca5-5b5b-4aaa-be51-c09bbbe8e361)
+
+* yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b59073c-bf48-48d9-8999-e75dbd4e901c)
+
+* Question.
+* Cost is **n ^ 2** for **T(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ea17002-93f7-4d36-af2f-5de3d0768816)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fb64fde-e021-4608-965d-126ab7d21425)
+
+* If in **GP**, the **r** value is **less than '1'** then we can **ignore** the **GP series** in the **complexity**. The **complexity** is only dependent on **n ^ 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d3c697e-07f3-49bd-8fef-1437a88f8f18)
+
+* Solution
+* Time complexity -> **Theta(n ^ 2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/956d4c40-2d88-41b1-a60e-b7e1fe8961b3)
+
+* We cannot solve using either **master's or tree** method.
+* We an solve everything with the **recursive method**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0a6473a-36a0-473a-8f81-091d4ee57be1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c418d20-79e7-4b6a-aa18-aa871dd41af6)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfa6a5f3-ec12-40c2-9947-b002e7c1dea1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31128a0d-5be0-47fe-b326-8dd9b73fb257)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51b09d05-9f50-4860-a278-5a8eed85c6e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab31f011-6563-43b8-95af-bbec433100a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/359705da-8556-4111-aa08-525977fa58bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d8d3f71-cc01-43a2-9d83-b564877f8afd)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55f4659f-6307-4ce2-a2ac-ed9af9d6ce52)
+
+* log.
 
 
 
