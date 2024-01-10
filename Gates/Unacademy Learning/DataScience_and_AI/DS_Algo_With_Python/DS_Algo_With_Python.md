@@ -3537,19 +3537,58 @@ for i in range(0, 5, 1):
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a30a4065-387c-45f4-91ae-53ffd167aba8)
 
+## searching-and-sorting-techniques-part-2 (14)
 
+* Video started from the **middle**, recording issue.
+* BC -> Best Case
+* WC -> Worst Case
+* AC -> Average Case
+* **CES** is constant(1) for every **iterative algorithm** case.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14d6849f-343a-435f-98bf-be281b1385f1)
 
+* Space Complexity is dependent on **CES** as it is a **recursive algo**.
+* The stack will go **max to 'n'** elements as there are **n** elements in the array.
+* So **CES** is **n**.
+* **DS** is **constant(1)**.
+* So the **Space Complexity** for **recursive algo** is **theta(n)**.
+* So the **Space Complexity** for **iterative algo** is **theta(1) or constant**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b44c7920-2875-4124-b276-fccf64a45f94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84047eed-f86a-4b87-a841-665d28757c80)
 
+* Recursive Algo.
+* Bubble Sort -> Complexities.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bad2e1c-159f-4e57-ad59-5d64d9f30aa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16e839cf-aae1-4d9e-9c6a-9d8d3429e257)
 
+* Inplace and Outplace Sorting Algorithms. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d30f04b-3dcf-4d60-9f51-b8c288213b9f)
 
+* In **bubble sort**, the **data space** is **constant(1)** that why it is an **inplace** sorting algorithm.[**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75c76031-c022-4e23-b937-018d863eadef)
 
+* Build-in sorting methods -> Sort(), Sorted().
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6caca9e-f2fe-4e2b-a20d-d3087dd5ccf9)
 
+* Sorted()
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4e9dec5-020a-4c8d-8ba8-f6af71a116ec)
+
+* Whatever we give as **input**, the **output** is always in the format of **list**. The **list** is in **sorted sequence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bd81401-bccf-4362-be23-6c2743322ee3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fb2770f-0241-4057-9c95-1fc7c1ff404d)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abe17573-6328-4f39-a8d4-4d940b403e9b)
+
+* Sort().
 
 
 
