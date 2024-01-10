@@ -3825,55 +3825,165 @@ for i in range(0, 5, 1):
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f814c0e9-4a76-4a3f-851d-4f12103a7404)
 
 * The data is not in **sorted sequence**.
+* If we see the **unit positions** of the data and by looking at only their **unit** positions we can see that the **numbers** are arranged in **ascending order**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/309f214c-37f2-4cce-a46f-d96e7f9b0af4)
 
+* Earlier we did with the **unit position digit/LSB**, now we are going to do with the **tenth position digit** or the **2nd digit** from the **right hand side** of the numbers.
+* **Queue size** is the **no. of elements** we initially had.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/636df34a-df3a-4616-85dc-8b7cc108a334)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffab0d59-2c8e-4028-ba1f-53d1411a1735)
 
+* The **data** is not in **sorted** sequence.
+* If we see the **last two digits** of the data and by looking at only the **last two digits** we can see that the **numbers** are arranged in **ascending order**. [**IMPORTANT**]
+* Complete **data/keys** are not in ascending order but the **last two digits** of the data are in ascending order. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5c1a455-f3fb-4433-8119-e70341d2b5da)
 
+* We have a two digit number which is **95**, we can write it as **095**, so we will put **95** in the **0th queue**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d121c92-7bf8-4cfb-b30b-2361bb0799ef)
 
+* Now we can say that the **data/keys** are in **ascending order**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08c8f6c6-f178-4186-9db3-6c961b02b233)
 
+* Example. [**VERY IMPORTANT**]
+* We have to insert the **n** elements.
+* We have to delete the **n** elements.
+* d -> digits.
+* n -> No. of elements.
+* We have to do the **'n' insert and 'n' delete** operations depending on the **digits**.
+* It means that if the digits are **3 digit long** then we have to do **3 insert and 3 delete** operations.
+* It means that if the digits are **4 digit long** then we have to do **4 insert and 4 delete** operations.
+* The complexity is dependent on **n and d** and we can say that **n** is **far far greater than 'd'**. We can have **thousands of elements**.
+* So we can say that the complexity is dependent on **n** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77f12617-ffbc-470d-964c-288c2e6b424e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5461298-6d5c-4bb7-8b0f-ab946ca57967)
 
+* Complexity -> Theta(n). [Radix Sort] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9c13cc2-8120-4542-9a90-c6c424e10390)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b3e02df-224d-4b22-add1-39428351057b)
 
+* If we have **n** elements and each element has **n** digits which is **n = d** then the **time complexity** will be:-
+* Time Complexity -> Theta(n ^ 2). [**Worst** Case of Radix Sort] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b6c5fea-dbcd-4bf9-aaaf-2ef5f4f9aef5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92fbf67c-d790-4378-a3b5-17786fa019aa)
 
+* Max. size of one queue -> **n**.
+* As the numbers are **base 10** numbers that's why we are taking **10 queues**.
+* **n * 10** is the **space** but **10** is constant so the **space** is dependent on **n**.
+* Space Complexity -> Theta(n). [Radix Sort] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b328f6-9332-4d02-b397-d395a7696481)
 
+* As for **time complexity**, it is also dependent on **n** only as **d** is **much much smaller than 'n'**.
+* Time Complexity -> Theta(n). [Radix Sort] [**IMPORTANT**]
 
+## Stable Sorting VS Unstable Sorting
 
+* Stable -> Bubble, Selection, Insertion, Merge, Radix
+* Unstable -> Quick, Heap
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73818b5a-d437-48ff-8d22-1fdf05fe0286)
 
+* Example.
+* Get the **definitions** of **stable and unstable** sorting.
 
+## Adaptive Sorting VS Non-Adaptive Sorting
 
+* Adaptive Sorting -> If complexity of algorithm **depends** on **order of input** -> Insertion, Quick, Bubble.
+* Non-Adaptive Sorting -> The complexity of algorithm **does not depends** on the **order of input** -> Selection, Merge.
 
+## Searching
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ce54d76-c03e-426b-a365-4f816b91e380)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83b4947c-ce93-4d4c-96c7-5238bc5005ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/994754e3-7556-4b3e-b710-6171eaae7bde)
 
+* Linear Search.
+* Best Case -> When element found at 1st position -> Theta(1).
+* Worst Case -> When element not found or at last position -> Theta(n).
+* Average Case -> We are adding all of the **no. of comparisons** and we are **dividing by** the **total no. of cases** in the **linear search** -> Theta(n). 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8022eba0-24cf-4742-ae15-df5bfb499ce5)
 
+* Linear Search Complexities. [**IMPORTANT**]
 
+## Binary Search
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bafed04f-2733-4243-978b-1ea6639ae7fa)
 
+* Data should be in **sorted sequence**.
+* Best Case -> When element is found at the **mid** position -> Theta(1).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6371bb0f-1592-4331-9da8-918cc8b8c603)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3270c775-c238-4674-9219-0b86426682aa)
 
+* Recurrence Relation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f3fda3-cfe6-4da7-8770-e351b8c6e17b)
 
+* Question.
+* It is not about **complexity** it is about the **exact value**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07905b03-de2e-4e48-b404-692ee89ba4e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50525193-d9c8-4e40-8f66-e5754f439039)
 
+* Answer -> 5
+* **Optimial** asked that's why we did **binary search**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b911522-8633-4a77-be83-55676adbf136)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad3c98da-ce7a-4019-9630-59bc96187dbb)
 
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d2fd33e-0708-494c-b6d8-c2097ee52966)
 
+* By checking the **mid element** we got to know for which element we are **searching for**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d9bef8e-fdbd-45f4-b1b2-9bf00b21e54b)
 
+* After checking the **mid** we find out which element we are **searching**. We are not doing **any comparison** at the **mid**, we are just finding out the **mid element**.
+* Now check if **a[mid] == a[High]** if it gives **True** which means that the **mid element** has appeared **more than (n/2)** times in the **sorted array**. [**IMPORTANT**]
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/435f92c3-56b9-43f0-b3bb-2d517621f87c)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/071e67e0-6096-4d83-a5b4-1ff561b59677)
+
+* **Linear Search** in **Python**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e83a33ed-0854-4a28-a8c9-953de131a5a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f65092e9-5d25-4479-bd96-7f1d7fa89a40)
+
+* **Binary Search**. [Iterative Algo] [**IMPORTANT**]
+* Time Complexity -> Theta(log n) [Worst and Average Case]
+* Time Complexity -> Theta(1) [Best Case]
+* Space Complexity -> Theta(1).
+* **Floor division(//)** gives **integer value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0a2e7d2-55d2-40c4-a2c8-55229f0fef2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1afae84b-72e9-4d8a-aaa7-e74f78cf89df)
+
+* **Binary Search**. [Recursive Algo] [**IMPORTANT**]
+* Time Complexity -> Theta(log n) [Best, Worst and Average Case]
+* Space Complexity -> Theta(log n). [Stack space used]
+
+## Hashing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83a5b306-e22d-43ea-b403-b580c9ad7ded)
+
+* To remove unnecessary no. of comparisons we use **hashing**.
 
 
 
