@@ -1,4 +1,4 @@
-# DS, Algo Using Python
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ecc4331-af1a-48ec-b958-ec488b12d9e0)# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -3590,76 +3590,241 @@ for i in range(0, 5, 1):
 
 * Sort().
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adeefd84-0e37-4e79-9026-9870e439b25e)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c710a56c-bd90-4007-bd52-8410704fab83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c57ae4a6-9355-4e91-a268-cb0973f833e8)
 
+* Difference [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1177868f-1ffa-4114-9787-af87942dd33b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7323184-48e3-4793-9202-f72c59c7af7c)
 
+* Example.
 
+## Selection Sort
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/536a4606-dad6-4b51-9038-944815364ce4)
 
+* Selection Sort.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d6049f0-6a16-440e-a938-3069ceb257ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e478a93-6ec2-4073-9eba-2d01f90c9df5)
 
+* No. of comparison did we do?
 
+> The **no. of comparisons** we are doing still is **n(n-1)/2**.
 
+* Complexity -> Theta(n ^ 2). [In all of the cases] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44c7cd7d-a78e-4618-ac9c-56e510cc1865)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dc0209b-430a-435e-a89c-944c02eadb44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e7c906a-6599-4db2-95ab-be3b6c19c67d)
 
+* n -> Total no. of elements.
+* Swaps and Comparisons [**IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d8a1964-1166-4c2f-a91c-b019af1fdba5)
 
+* Calculating **no. of swaps**. [Example]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30c5cde3-1177-45df-b54a-1e4909660f2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03d12206-7ebd-40c2-9633-1d14836ecec6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2742c3ad-8a30-4db8-914a-5d897862efab)
 
+* **No. of swaps** -> 3. [**IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f484063-3a79-4f33-a6a1-c6a767423c6d)
 
+* Selection Sort complexities.
+* It is an **inplace sorting** technique because **DS** is **constant(1)**.
 
+## Insertion Sort
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6cd8401-95b3-4715-a739-dc4978522738)
 
+* No. of comparison -> n(n - 1)/2
+* Complexity -> Theta(n ^ 2) [**Worst Case** of Insertion Sort]
+* The **insertion Sort** algo depends on the way we have **taken the input**. [**IMPORTANT**]
+* If input is in completely **descending order** then it gives us **theta(n ^ 2)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9aeecbbc-5f19-4fb5-adf9-eb80e7849ef7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aafbcd8b-911b-4abc-a171-5383c9329d56)
 
+* **Input** is **ascending order**.
+* We have **n = 5** elements so **no. of comparison** is **n-1 -> 4**.
+* Complexity -> Theta(n) [**Best Case** of Insertion Sort] [**IMPORTANT**]
+* The **complexities** varies in **Insertion Sort**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd1cf929-3c37-45c1-9fd3-764e29acda74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/691a9ede-4fcd-4c3a-9de2-fe4cdf2fa5ed)
 
+* Find **no. of comparison** using **insertion sort**. [Question]  [Example]
+* **No. of comparison** -> 3.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/232c37f4-e026-4276-8787-a71bed57953d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47850c0-7a6f-469f-b0f6-50d4dd7d86f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7fd74c8-8541-466e-86f9-d7055c56aea0)
 
+* Insertion Sort complexities [**IMPORTANT**]
+* It is an **inplace sorting** technique because **DS** is **constant(1)**.
 
+## Merge Sort
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/668ff4d7-81a6-4b50-b88c-66ad2f2728a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/961d23b6-122f-4ad3-97ad-10f8986029d0)
 
+* Divide and Conquor
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc265f47-2cc6-4576-bcaa-cb19fac65597)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d302e844-7f79-4e0d-973f-a0134e6ae17e)
 
+* Merge Sort
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad2f26f4-87d1-480f-8f98-41d5ff3b29a6)
 
+* Example.
+* **Merge sort** depends on the **merge algo**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83d171b0-353d-4c63-a816-a0ff319e5475)
 
+* x -> No. of elements on the first array.
+* y -> No. of elements on the second array.
+* No. of comparisons -> x + y - 1 -> Theta(n).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2721535-45a2-4958-851b-8a8f057828f8)
 
+* So the **merge sort** complexity will be dependent on **n** only which is Theta(n).
+* Recurrece Relation.
+* Using **Master's method**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98f0271b-8002-45e4-af9a-e452e5444ff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d6b96c8-22af-4aa1-aa5c-c8ca596f00f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd752de-69aa-454e-88a6-1c6783f38948)
 
+* This is for **all cases** in **merge sort**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a4821fa-cf49-41b1-ac75-f8c096a5e8c8)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3eb106b-9cbd-4452-92b2-e4fb124eb92e)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b1e52da-6dfa-44f2-9380-fdfa82187786)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/730863e7-fd71-4e6a-9f11-25a24f9cd15d)
 
+* Merge Sort Complexities.
+* In merge sort the space complexity is dependent on **DS** as it is not **constant** here it is **n** here in merge sort.
+* It is an **outplace sorting** technique because **DS** is **not constant(n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1dd1480-98a5-487a-ae3e-bc5d549fd922)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac67c1af-826b-4949-aa90-6212db0ef0f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69524bd9-a6f0-42d4-95fd-ed01f4d65047)
 
+* In **space complexity** if we are creating a **tree** then the **space complexity** is **equal** to the **max. height of the tree**. [**IMPORTANT**]
+* It is **logarithmetic** growth of **log n**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f30ab28a-9990-4f97-ab73-2426f89c7d43)
 
+* This is **linear growth** of **n**.
 
+## Quick Sort
 
+* We have to scan from **right to left**.
+* After **swap** increase the position of **left pointer** with **+1**.
+* When the **position** of **left and right pointer** have crossed each other then we have to stop the **algo**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91b05492-b8ef-4385-9ca1-618acecc7d28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16474389-621c-48c1-97f6-d48b281af9f2)
 
+* This is the work of **Partition Algorithm**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a690245b-2450-4d63-99d7-523cc29d3dc1)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/458c63e8-b042-4d82-b92d-99e0eabe6a09)
 
+* Complexity -> Theta(n * log n) [Best Case for **Quick Sort**]
+* If **pivot** is the middle element of the array. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe5e6c26-0871-4c61-859f-5eef265deeb1)
 
+* Complexity -> Theta(n ^ 2) [Worst Case for **Quick Sort**]
+* The elements are in **ascending order**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3558ad52-4ee8-4c2c-8b1f-1a3a01e97dc2)
 
+* Complexity -> Theta(n ^ 2) [Worst Case for **Quick Sort**]
+* The elements are in **descending order**.
+* In **quick sort**, either **ascending or descending order** gives us the **Worst Case** for **Quick Sort** which is **theta(n ^ 2)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/615746b5-5e5b-493f-838e-2e0f6522d52f)
 
+* When **two equal division** is happening that is the **best case(BC)**.
+* WC -> Worst Case
+* AC -> Average Case
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56780e10-c79a-411a-bed8-a29cca6ce8f5)
 
+* Quick Sort Complexities [**IMPORTANT**]
+* It is an **inplace sorting** technique because **DS** is **constant(n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f19ee6ae-b2da-4649-8f2f-b614b441bef9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/005d194d-2747-48af-b1e5-a0bcf22f1560)
 
+* Between **Quick and Merge sort** who is **better** and where? [**VERY IMPORTANT**]
+* Space -> **Quick Sort** is the **Best**.
+* Time -> **Merge sort** is the **Best**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96e18457-0d30-4db3-8327-90ef759fc18a)
+
+* Summary of **complexities** of algos [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/580c5ac3-d85e-444f-a338-97130306bd83)
+
+* Types of questions to come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc379b8c-2850-4c6e-bc19-f6638956dd20)
+
+* What is result of merge sort algo after two pass?
+* Question [Example] [**IMPORTANT**]
+* Typos fixed.
+
+## hashing (15)
+
+## Radix Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e017485-faee-4f77-83ce-5135548aed24)
+
+* Counting Based sorting technique
+* Base or Radix of number.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d9a75e1-eb32-402c-808a-071942d498a1)
+
+* Whichever numbers we have to do **sorting** either in **ascending or descending** order then we have to check first in which **base or number system** they are in. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bce1bbd-96f5-4830-806d-89657a6bdb4b)
+
+* Example
+* They are in **decimal number system**.
+* We are taking **10 arrays** and each array size is **n**.
+* **Radix sort** is **outplaced** sorting technique because for one array content we have to sort in ascending order but we have to take **10 arrays** to do so. **Data space(DS)** has **increased** that's why it is called as **outplaced** sorting technique.
+* We are using **queue** data structure.
+* We could use either **queue or array** as the data structure.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c37b254-f38c-43f6-9b71-f5ebd7fe8d94)
+
+* The **keys** which are given to us and based on the **unit place or Least Significant bit(LSB)** of the keys, whatever that **digit** is based on that number we have to store that particular key in the **array/queue** data structure we have taken.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/568f1809-1080-4ead-9c86-551af6344764)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f814c0e9-4a76-4a3f-851d-4f12103a7404)
+
+* The data is not in **sorted sequence**.
 
 
 
