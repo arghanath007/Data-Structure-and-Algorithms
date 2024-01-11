@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ecc4331-af1a-48ec-b958-ec488b12d9e0)# DS, Algo Using Python
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82384ebf-fa24-4de0-b8b5-d4be10d58190)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ecc4331-af1a-48ec-b958-ec488b12d9e0)# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -4156,6 +4156,246 @@ for i in range(0, 5, 1):
 
 * **Infinite loop** issue.
 * To resolve the **primary clustering(PC)** issue in **linear probing** we use **quadratic probing**.
+* In**quadratic probing**, the problem of **secondary clustering(SC)** and **infinite loop(IL)** problem there.
+* To resolve the **secondary clustering(SC) and infinite loop(IL)** problem we used **double hashing**. There is **no clustering** in **double hashing** but we still have the problem of **infinite loop(IL)** in **double hashing**.
+* All of the **three probing** techniques have a **common problem** which is **deletion** which is if we **delete** one element then it will be possible we cannot find the **other elements** which are still in the **hash table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff9efa2c-222a-41fe-aed8-020a12f7a238)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c24783d8-fc95-45c2-a1c5-973809dca7a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c494886-62fb-4ff9-b204-204014b966c3)
+
+* The **common problem** of **open addressing** is **deletion** that's why we are going to **chaining** to resolve the **open addressing** problems.
+
+## Chaining
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b5adaa-fa9b-4806-8222-b32c5ddb3beb)
+
+* Advantages:-
+
+  1) We can store more keys than hash table size(HTS).
+  2) No infinite loop problem.
+  3) No issue after deletion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6467a31-9a36-491d-be57-53fa91f4c88e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26fe7293-0419-45be-95e9-907e224d01fb)
+
+* **load factor or avg. chain length**, they give the **same answer/result** only.
+* **load factor or avg. chain length** = No. of keys/ No. of slots. [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0b128e6-5a88-4034-8eb7-6965dd05dc67)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/307e733a-28ac-4626-ada8-8c6e267bf5e7)
+
+* Option **B**.
+* Finding the **correct hash function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9f1dc1b-3398-4a7e-8927-387e45f3b997)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dc8fcf0-3619-4808-90c1-79b582b8df76)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/401ab1af-2072-4cbb-b1ad-b891d3da7dd6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae464e1b-973b-4c72-af14-4c95b787731d)
+
+* Option **C**.
+* **Closed hashing and open addressing** mean the **same thing**.
+* If nothing mentioned in **Closed hashing and open addressing** then by default we should use **linear probing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01e318b2-8e66-4a7a-b2da-179b22db06d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b068b5a4-14e0-436c-b675-3a0d42a31e34)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e3accb6-d292-4659-9db7-1ebc021bde7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e1dd7b-ff13-4c10-b979-8d33d8317a7f)
+
+* **Option A and B** doesn't have all of the keys, so they are **incorrect options**.
+* Option **D** has more than one key in a single slot which is **not possible** so it is also an **incorrect options**.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cca0ab4e-5b36-4731-a27e-b36890e25457)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a2d96a-f963-4994-a27f-6a2f420d0641)
+
+* Option **C**. [1]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2b8cc06-f87e-4d61-8c36-5b4b8e6be51f)
+
+* If we have **n** keys and we have **zero or no collisions** then we can say that we have **n!** ways to store the keys into the table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/266b35b2-8bc7-4118-b4c8-fb5b8a12e185)
+
+* We have to send **52** before **33** always otherwise if **33** goes before **52** then **33** will collide and take the **position '5'** which is reserved for **52** accoding to the given order in the **hash table**.
+* **42, 23, 34 and 46** elements can been arranged in **4!** ways to store in the **hash table** which is **24** ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5a5c83a-29e2-4b29-87da-d8bd84e0a918)
+
+* We can bring **52** before **46** because **46** is always taking the **position '6'** even if **52** comes before **46**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b45dc3ef-60d7-4aa6-9196-08eb6988c4aa)
+
+* 24 + 6 -> 30.
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/496c68cd-b597-4c04-af78-9aa2e4334d7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e54a30a-09b0-4165-ac11-f391275edc84)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59b73ef5-1e7f-404c-938e-c62902c334a9)
+
+* Max -> 3
+* Min -> 0
+* Avg -> No. of keys/No. of slots -> 9/9 -> 1 [Formula] [**IMPORTANT**]
+* 3,0,1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01e676f1-c226-47ac-9c4c-a3f9ec7f180d)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d23e507a-6cbf-4bbe-9485-b3fc22c47d21)
+
+* Answer -> 2000/25 -> 80 [1]
+* We are checking the **last digit** of the elements/keys. **Last digit** will be between **0 to 9**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b6a1a41-7621-4784-9586-216b70091934)
+
+* The **hash functon** in option **A**, it has taken **some slots** in the **hash table** and left out **some slots** from the **hash table**. Whatever we take those will be going to these(above) **slots** only. It is not utilizing all of the **slots** in the **hash table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f559e4-2c25-412b-ad2c-d14ea04ef440)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d029b36c-e490-4794-b270-ba716f47d6ee)
+
+* The **hash functon** in option **B**, it is utilizing all of the **slots** in the **hash table** and we have **little to no collisions** in the **hash table**. [**VERY IMPORTANT**]
+* Option **B** [2] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ac55abc-ff7b-4651-bfd2-79b93ea9585d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ad8c8e2-6de5-42b1-ae76-98f735b3bb8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e07fca17-a919-4959-bbf4-1ddbbb6c682e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3ef76ef-5d49-4bf5-8898-0929dd8d8c18)
+
+* Answer -> 13 [**IMPORTANT**] [Example] [Questiom]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d12403d-4ab5-4c82-9136-317337530616)
+
+* Example [Question]
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb29dd20-5e70-4bbc-bffe-fd83cd5fd220)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f47d08e3-ccc6-4798-9de2-580a460be7bb)
+
+* Example.
+* Both give the **same output** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15a96781-5422-4b59-8c4b-c9ca6c906369)
+
+* Example.
+
+## array (17)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a38134e-bdfd-4914-a183-b35a7ebff2a8)
+
+* Hash Functions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d78e0c91-160d-4cbe-830e-9a5cb85a8fef)
+
+* **Hash Functions** is highly responsible for **collisions** between the **elements/keys**. [**IMPORTANT**]
+* Hash Functions -> Keys -> Hash Table [1 -> 2 -> 3]
+* **1** being **highly responsible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2153a3e-583c-4410-ad57-cc6eb87fadcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c24502c4-8f2e-4b1b-afda-4478833853da)
+
+* Properties.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24bfc095-be33-4d79-b922-eaf0563475c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/485af8cc-5b7c-48e8-9f5a-231e7b43a66e)
+
+* Types.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dad84886-cf7b-4395-8ab6-ab9461a77cd1)
+
+* Type
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a97447b-d398-4b03-af23-4600ece24a0f)
+
+* Type
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2120cd07-ab73-49a4-8f41-0b82e38b2273)
+
+* Type
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b69a7511-0948-49dc-a879-331e127e458b)
+
+* Type
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b613df2-d715-4134-a848-fb761b3ad115)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f06502f8-7129-4645-bc92-79b20ed5ff6e)
+
+* Type
+
+## Static and Dynamic Hashing
+
+* In **static** hashing, the size of the hash table is **fixed**.
+* In **dynamic** hashing, we can **increase or decrease** the size of the hash table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b050639b-e7f3-4b16-990b-2664b819167d)
+
+* Till now the different hashing techniques we have learned they all are **static hashing** techniques.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c48a0ae9-bbae-4275-a863-2cc0e1648b62)
+
+* **Static** hashing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/623dd6c0-85c8-4d78-bbf7-3b77c2b775c2)
+
+* Open Hashing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73e0591a-85d9-4688-80c3-b1a3e6a9a55d)
+
+* Closed Hashing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93972b7b-2b19-4bb6-96ac-9fa6edec9738)
+
+* Open and closed Hashing.
+
+## Dynamic Hashing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f04c34b5-e8d7-4cb3-9133-17877579cc05)
+
+* Dynamic Hashing
+* The **size of database** repeatedly **grows or shrinks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b99e268e-a9a5-4f45-81b9-c2125b0a1d08)
+
+* **D3** cannot be **stored** as **D3** should come in **position '1'** but **position '1'** is already full.
+* We have to grow the **hash table** which is **dynamic hashing**. We can **grow**.
+* Initially we took **1-bit address**.
+* Now increase the **hash table** size and we will use **2-bit address**. **Hash table** size has **increased** and now we have **'4' slots**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58f3399e-3198-45d4-a038-4e2530ba9447)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/882cf2f9-7d36-4362-96df-868c2e365fa1)
+
+* For **D3** we have **10** and at **position '10** we already have **D1** so we got **collision**. We have to use **collision resolution technique** to resolve the **collision**. The **collision resolution technique** would be mentioned in the **question**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89742986-8523-48c0-98e2-8171a6fe6a0b)
+
+* Question [Example] [**IMPORTANT**]
+* Option **B**.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
