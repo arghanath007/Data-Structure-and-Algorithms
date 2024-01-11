@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82384ebf-fa24-4de0-b8b5-d4be10d58190)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ecc4331-af1a-48ec-b958-ec488b12d9e0)# DS, Algo Using Python
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a5093fc-d80e-4476-85ba-a39f42775e7e)# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -4383,8 +4383,438 @@ for i in range(0, 5, 1):
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89742986-8523-48c0-98e2-8171a6fe6a0b)
 
+* Question [Example] [**VERY IMPORTANT**]
+* **Dark bubbles** are the **keys**.
+* We can see that in option **A** we have **4** which is **0100 -> 00** but in the **hash table** we can see that there is **no element** at the **'00' position**, so option **A** is **not correct**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/609fecab-4235-4941-8182-9527e8fd9d63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a7d8be7-78db-4933-a805-be7820576fa2)
+
+* For option **B** we have **'3' in '01', '0' in '00', '2' in '01' and '1' in '11'**.
+* Don't jump to conclusions check the rest as well. [**IMPORTANT**]
+* Also check how the **tree** is made by option **B** keys.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe35b07b-afb3-44c8-bd71-b190a2360b24)
+
+* Option **B** tree but in the **hash table** the tree is growing on the **right side** so option **B** is also **wrong**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1e52fac-030a-448c-a571-a518bb49eb65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/952fc220-0dcf-400f-bd8d-1697ccdf1741)
+
+* Option **C** tree is in the **correct way** as in the **hash table**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55ae41f7-e3ef-4505-8b38-78bd41e9b015)
+
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ed461ba-a248-455b-82a1-3b22b9786f0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0fe4e6c-850c-4b89-bc68-0ea210cfc86a)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/296fa0bd-5556-4788-a35e-6c385ad4b5da)
+
+* Example.
+
+## Data Structure
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4df89d63-ac7d-490e-a7af-4c5c9f7dde79)
+
+* Data Structure
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e51c34d5-97dc-4507-9902-586acbac8024)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/498b7811-bffc-4d1e-82c0-7dcba45fac9a)
+
+* Types. [Examples]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed45a894-24d3-4136-b1d9-0ea17211d9aa)
+
+* If data is available at the **same level** then it is a **linear DS**.
+* If data is available at a **different level** then it is a **hirerarcial or non-linear DS**.
+
+## Array
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5be6771a-1b21-4007-9892-265c1d4d3401)
+
+* Contigous Memory Allocation
+* Homogenous elements collection
+* Random access is possible in **constant or Theta(1)** time.
+* In python if we need to use array we can use it via **list** or via **importing 'array' class** in python.
+
+## Linked List
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87386b5b-9cdb-4252-aedd-ec74fc44ca93)
+
+* Linked List.
+* Back-traversing is not possible in **singly linked list**.
+* In python, we say **None** instead of **Null** as **Null** is not a keyword in **python**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f61e585c-0723-46b1-a13d-0d2979f3af82)
+
+* Singly and Circular linked list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c94d17cd-1edd-47f4-b53e-e399f7cdb2af)
+
+* Back-traversing is possible in **doubly linked list**.
+* Doubly and Circular doubly linked list.
+
+## Stack
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de6b0980-4872-4f42-93fc-f2155d8fbdfa)
+
+* Example.
+
+## Queue
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b1fb4b5-166a-425f-a321-8a29288a5c81)
+
+* Example.
+
+## Matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/773fec9e-9d51-4121-9b67-762bcbe8f37c)
+
+* 2D array. 
+* Example
+
+## Binary Tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f283528f-2284-4877-ad93-ecb5367fcd65)
+
+* Ternary and Binary Tree.
+
+## Heap
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/874c45af-e996-4eb2-ad54-6c768f0b34af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9ad62d9-3add-4bb1-9fbd-e772547dae3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/870afcae-5904-49c3-9e7b-72300bcedb82)
+
+* Max Heap.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8102560d-5fa1-4f09-bd4e-f5ff13805fe5)
+
+* Max and Min Heap.
+
+## Hash Table
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/431eced9-a58f-4178-a404-ce7d11ac8784)
+
+* Hash Table
+
+## Graph
+
+* Tree -> Acyclic connected graph is called tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93d9e392-72cd-456f-be7e-bea30e1c08cf)
+
+* Graph but not a tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/121571ca-3c90-4f42-b550-3a77526baea8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44dfcb08-807f-4198-9a43-dbeeabc01fa6)
+
+* Tree VS Graph.
+* Every **tree** is a **graph** but vise-versa is **not True**.
+* Graph can have cycles or cannot have cycles. Both are possible.
+* **Tree** should always be **acyclic**. There is **no cycle** in the **tree**. [**IMPORTANT**]
+
+## Python Specific DS
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f06f193-fd63-41d0-84ee-51c70687647e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a57f945a-fd48-473a-8d1d-7c57943f34d9)
+
+* List
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05c70e45-cf45-46d3-a534-d9127c4138b8)
+
+* Tuple.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/083f8ad5-155a-460f-8a50-f69051c1a6df)
+
+* Dictionary,
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c51aeee4-86ec-4515-b2b4-20258ce18214)
+
+* Data Structures.
+
+## linked-list-part-1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0886357-8cd3-4276-87e1-a3e09e6beb21)
+
+* Array
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc33d7f7-452d-4e0a-ab94-9c7e354a9ade)
+
+* Array Types.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fbba7c3-6339-41a6-b486-b28e11b338ef)
+
+* Example
+* UB -> Upper Bound(U)
+* LB -> Lower Bound(L)
+* BA -> Base address.
+* W -> Size of data type.
+* i -> Index.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96628d53-2e44-4b4c-b95a-3e467c786acb)
+
+* Address of ELement -> BA + W * (i - L) [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4b31652-8d03-4eb2-b6c7-f6120de76390)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e16fee9b-7369-43b6-8494-abde6299a775)
+
 * Question [Example] [**IMPORTANT**]
-* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7b975e4-11c7-48e9-bb70-e06249ee6bc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8f39aee-280a-4c8b-b0c8-22ad29ab0cda)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29359ea0-b610-48b0-bac6-8e88d25f28b2)
+
+* Question [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6405e4a9-016d-456d-8e62-47ac1f308d61)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c0fcc75-f0c1-4380-b54b-9e876406b005)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/033c52f3-48fd-49c1-9a8c-23b3fd71c55c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b633f2e2-bd0f-4e59-8562-79f2c5137577)
+
+* Example. [Formula] [**VERY IMPORTANT**]
+* L1 -> Lower bound for row.
+* UP1 -> Upper bound for now.
+* RMO -> Row Major Order
+* CMO -> Column Major Order.
+* m -> no. of rows
+* n -> no. of columns.
+* No. of elements -> m * n. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/371b6af2-02d6-4d1e-b203-951a9dc28101)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47611627-931e-4bd3-97bf-827e2bc55ad4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ea66bf3-d163-4b8d-b95d-c37f25473000)
+
+* By default value of **L1 and L2** is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07676e6c-1af3-4ab5-88f5-c66ffff15e62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc267dcd-9dc6-4cd5-8bcb-5a01409b4676)
+
+* [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f645d74-77db-4f23-a83e-939166a518f1)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66df7c54-2568-4c5d-beb7-bb896012fb15)
+
+* Question
+* L1 -> -6
+* U1 -> 7
+* L2 -> 4
+* U2 -> 10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac5c3110-244a-474f-9a24-94f23037f499)
+
+* Solution.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17ddcc1f-0798-49aa-beae-1664900540b1)
+
+* Array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfce4824-0a0f-4354-8dbb-f3947c2d27d2)
+
+* Typecodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d31fb73a-0ada-4c1e-a672-d637551df535)
+
+* Traversing of an array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e91eaa61-89b4-4ab1-8b7c-dc836dce6ad9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c163dc9-7a0e-4b40-9feb-a6706bdeb229)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7e6bcb3-5e6f-4337-bcb1-55746da01eed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4526e50d-7ea5-405f-b273-e561441815a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a36fff8-d060-4146-a063-d59fa86002fb)
+
+* Insert operation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29db0df2-55c9-4ccd-ae92-6f8cd515b142)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c6d3ad9-88f0-4d4d-a2a1-8520a94f1ee2)
+
+* Deletion operation.
+* The **output** will be printed in **next line/new lines**.
+* If the element we are trying to **delete/remove** and it is not present then **remove()** will give us an **error** saying that the element is not available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ad940bc-e580-4d77-9e22-e3d422443824)
+
+* Search operation.
+* If the element we are trying to **search** and it is not present then **index()** will give us an **error**.
+* If element is available then it given us a **location**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9e1a85e-1687-43da-acf9-2dfc207fbd03)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fb64814-c0d1-4f83-bf11-e8a670df1998)
+
+* Question.
+* There is no concept of **local or global variable** with the **done** variable name. All of them are the **same** only.
+* We are checking in both the **directions**, 1st for loop in the **forward** direction and the 2nd for loop in the **backwards** direction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ff9400e-d6f7-467f-8b99-cc83ef90bb7a)
+
+* Doubt. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75a21f0d-8631-4820-8180-8b1c35cec1ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b994d27c-60b0-4d24-b89d-995cf50d6cf0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16218139-3b96-4fe2-8b67-b4f1ed51ae2e)
+
+* We had to do **5 shifts** only.
+* Answer -> 5 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3353b29b-6183-4551-9071-5b08f69ffd35)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95919390-2ac4-463b-ad56-e4634eedb4b1)
+
+* Solution
+* Answer -> 0. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2817d97-cc07-4785-8b1a-6a0a91c75864)
+
+* Solution [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad5dc2da-fef4-4691-b4cb-ce3d3c8435bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b646696-4ce1-4a91-b9ea-d1564d9a8a5c)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc4bd166-e9ad-4c54-a932-b172a63cd0b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e4364fe-a32e-4e0e-b83a-5440f517e3af)
+
+* We need to ultimately apply two for loops.
+* We can write it anyways it doesn't matter.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c139c388-7c65-4c07-bc91-00014c25e282)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63711ef4-6901-48de-a4b4-6dbcd2a56ab7)
+
+* Option **B**. [**IMPORTANT**]
+* By default they are in **row major order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10827b5f-0755-4a2f-9e50-994436dd6463)
+
+* N -> Set of natural nubers [Universal Set]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fc33d40-90cc-436f-ac08-20510f17e6e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2acb5f53-49e6-415f-84cc-922a850d9c1f)
+
+* Option **D**. [**IMPORTANT**]
+* OR -> Union
+* AND -> Intersection.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df9ebce6-1397-4d65-8bbc-748a2135b4ff)
+
+* We can see the **last two element sum** as it is a **sorted array**.
+* Check the **sum of 1st two elements** if it is **ascending order**.
+* Check the **sum of last two elements** if it is **descending order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbef02af-d9ce-4afe-b9e3-284618b2b1ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc4dc125-daad-4283-902a-bd4758dcd961)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22de44e6-054c-42dd-8e53-10d26d374dc9)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34c57870-3bfa-4989-9199-d2ea21f16b59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55776c84-8fc4-41c3-9019-b54a5b6db543)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b0d2044-cc2b-4c98-9ae7-ad6c33b9355e)
+
+* Option **A**. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4410,3 +4840,4 @@ for i in range(0, 5, 1):
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b1cdf3d-91b4-4204-959e-985a21cfaf15)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/900de2d0-f514-4a87-8943-b2c35f49d463)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c790c4d2-51d8-42c9-9566-2326b1984787)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86d6f0d2-c510-4b26-9159-bd665edc28d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82384ebf-fa24-4de0-b8b5-d4be10d58190)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ecc4331-af1a-48ec-b958-ec488b12d9e0)
