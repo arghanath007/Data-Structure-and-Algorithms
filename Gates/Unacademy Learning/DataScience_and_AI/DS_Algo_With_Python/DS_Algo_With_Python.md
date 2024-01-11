@@ -3985,40 +3985,177 @@ for i in range(0, 5, 1):
 
 * To remove unnecessary no. of comparisons we use **hashing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc0ff8d7-f325-4b5e-b41d-c60144ec2378)
 
+* Hash table, Hash function and key.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a9a47db-70cf-4d34-94ec-6fa49640e460)
 
+* This is **storage**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4634d07-9dbf-4f2d-82d6-d3341e5bb5c1)
 
+* When we want to **search** an element then we send that element to the **hash function** and the **hash function** gives us the **location** where the **element** should be inthe **hash table**. So we can **search/find** the element with only **one comparison** which is **constant(1) time**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce352d46-763b-4232-a39d-f36bd8b2b080)
 
+* Hash Collision.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff301bc8-ac82-4908-838b-b03c77233722)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3dc21d8-929c-489c-8396-30504c8f7664)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4f964e2-627b-496d-b496-c8561323aa36)
 
+* Good Hash Function
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e72fd64-b4d5-4ff3-bf29-ca356c6bc20e)
 
+* Different Hash Collision resolution techniques.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07385e4c-aa26-4b2e-99b0-19b9d2eb00b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4c00b84-6569-45f8-b530-bc219a8845f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1213a933-8631-4bb8-b7d2-4d09848b2d23)
 
+* HTS -> Hash Table Size.
+* Linear Probing.
+* Total no. of collisions -> 6.
+* To search an element we first send the element to the **hash function** and the **hash function** gives us a location in the **hash table** so if the element is there then we will stop otherwise some other element is there in that location then we will assume that **collision** has happened and we will go to the **next location** using the **probing** technique we are using, we are using **linear probing** so we will go to the **next location** which is **one after the current location**. We will check till we find the **element we are searching** or we find an **empty space** in the **hash table** which means that the **element we are searching** is not present in the **hash table**.
+* **More collision** which means **more searching**.
+* We want **min. to no collisions**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc7bdf4-d5a8-4cd9-ad94-0a955cf1753d)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f18d3086-e516-4561-85c4-cecc1a68a42d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/543b63e1-885a-4377-97d8-0bc4843baf03)
 
+* Successful probing/probe -> To search an element how many comparisons are needed till we find that particular element. This is **Successful probing/probe **
+* Successful probing/probe = **No. of collisions for that particular element** + 1. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d606547-7288-4172-ad46-73e6d0ffc7bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a6a917-bf01-481f-a278-a88b760b024b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61490a15-08dc-4893-8e68-46323a63b4c3)
 
+* **Unsuccessful Search** -> The **element/key** we are trying to search in the **hash table** is **not present** in the **hash table**.
+* **Successful Search** -> The **element/key** we are trying to search in the **hash table** is **present** in the **hash table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d85fd16-d49e-4122-8f4c-1e8788f9d531)
 
+* We need to do the **5 comparisons** to see that the **element/key** we are trying to search is not present in the **table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a16fa39-69e1-4213-a12f-a269c24683eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edae08ec-31a3-4123-8ba9-a10e97a0a764)
 
+* We are calculating the **total no. of unsuccessful searches** and then dividing it with the **no. of slots** in the **table**. we will get the **average no. of probes for unsuccessful search**. 
+* Solution. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/422b8466-435f-4fa9-91ba-3032dd941f0d)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/087d33c3-b872-4139-9d37-401a976715bd)
 
+* Good Point.
+* In case of **mod 10**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02962501-c423-4042-9352-94b61f28696f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c2f61b4-4a9a-453a-a607-3fd0f828992d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47ec78c7-4a52-4856-96af-77703e22ca1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8099e34-f36c-4ef6-8fdd-7abbfd08c343)
 
+* No. of keys -> 7.
+* No. of collision -> 2
+* Avg probe for **successful search** -> (No. of keys + No. of collision)/ No. of keys -> 7 + 2 / 7 -> 9/7 -> 1.2 [Formula]  [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/244d251d-f4d0-426d-9087-5c40acb967f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eb617bd-fd97-4e50-9d6e-9413aab77a4b)
 
+* Avg probe for **unsuccessful search** = No. of unsuccessful search / No. of keys [Formula] [**IMPORTANT**]
+* Solution.
 
+## introduction-to-data-structure (16) 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38da83e2-9c6f-4efb-ad9e-4c6ea54dd7e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f01c4d-1ac0-4ffc-ac34-a54d448d01e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7694cf5d-d6ca-4050-975e-9ecb8bd66985)
+
+* Problem with **linear Probing**:- [**IMPORTANT**]
+
+1) Primary Clustering
+2) After deletion sometimes searching is failed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3e24c74-d658-4ff8-a0a7-4a8187147611)
+
+* Un-necessarily **no. of collisions** are getting **increased** in that particular location of the elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed6689c9-1cfd-4009-86cb-f63cb24efd43)
+
+* After **3** comparisons we are able to find **35**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b806a8e-eee8-4d5f-947e-e787819dbe31)
+
+* Deleted element **25** from the **table**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f18f0512-3108-4561-90db-93c1a5dc2c89)
+
+* Now we are trying to search for element **35** but as we deleted **25** in the middle and we found the **blank space** first and we are thinking that **35** is not in the table even though **35** is in the table. This is a **problem/drawback** of **linear probing**.
+
+## Quadratic Probing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b9fdd54-649d-4f2c-a67f-1f9607b81156)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b34bca20-07bb-4596-aceb-9da9a8190059)
+
+* Example.
+* We are doing **mod(%) of the hash table size**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/408120fb-bd81-45ca-aac2-2887f41e82a1)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/743030c5-f6f5-4548-bc2f-6430c899bb91)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71da1939-fb38-4b15-b879-a6f013096b33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/319ce32a-1674-4cc1-b95a-8802481267a5)
+
+* Solution. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87521c1-964f-454e-8ab9-4b8322dd5a59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f09927a-4974-42a1-bbcc-72a72f864090)
+
+* Problems with **Quadratic Probing**.
+* After deleting keys sometime searching fails often for other keys.
+
+## Double Hashing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88bb1d68-cfcb-4a02-8375-3d1d822202c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29fa5bd6-92a2-46cd-acd0-b67b86b26787)
+
+* There is **no clustering** here. There is no **cluster** creation concept. [**IMPORTANT**]
+* **Keys** have **different paths**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f522873-ff69-459f-8642-106b72fa1ed3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c78c9c1d-9f24-42fb-90dc-036507440d72)
+
+* Question.
+* For **65** we got the location of **5** from the first hash function(h1) but there is already one element there in location **5** so we got collision. Now we will send **65** to the second hash function(h1) and we got the location of **5 + 5 -> 10 -> 10%10 -> 0** where we will again get **collision** at location **0**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a605c55c-a1b1-4c8c-883f-cb9993a5f57a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7de4f408-67fe-4414-af7b-6235a3eddea5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68d94487-63bf-4521-8d36-e4eb57eff13f)
+
+* We are getting **infinite loop** as it is going from **5 to 0 to 5**.
+* **Infinite loop** can happen in **Quadratic probing, double hashing**. [**IMPORTANT**]
+* **Infinite loop** doesn't happen in **linear probing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e1a1e92-4d8f-494a-a2ae-10b69ee40df9)
+
+* **Infinite loop** issue.
+* To resolve the **primary clustering(PC)** issue in **linear probing** we use **quadratic probing**.
 
 
 
