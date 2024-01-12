@@ -4941,6 +4941,497 @@ for i in range(0, 5, 1):
 
 * i = i + 1 [Miss print in the code]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f8ad677-dbf9-419f-8011-676896d5edb0)
+
+* Example.
+* Node **3** is not in the path.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b7327ff-ed02-48e4-b381-e343025242c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ea235f9-6b12-465c-965f-8f95cfe34628)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b679484-992c-45bc-8925-f85fe82da0da)
+
+* Complexities.
+* Singly linked list(SLL) with **two ends/pointers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2111a7e-1dd0-4859-8fc2-4f84585c596f)
+
+* Insertion at required position.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37a8a7b1-c4e5-4156-a37a-1c16aabc23aa)
+
+* Deletion at required position
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56fa0fd0-59e3-4866-807f-99b97165cb73)
+
+* Circular Linked List.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c061a240-037c-4e1d-8878-9db6751b1aea)
+
+* Inserting node at first position using constant or theta(1) time.
+* We have inserted the **new node** in the 2nd position and then swapped the **keys values** of the **1st node and the newly inserted** node so that we don't have to change the link at the **end of the linked list** making it a circular list. For changing the **last link** we have to do **traversal** and the time complexity would have been **theta(n)** instead of **theta(1)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6442f63-e236-4217-a5d4-b05e16ef5761)
+
+* Deletion of the first node.
+* We want:- 20 -> 30 -> 40 -> 50 [Final output]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb5a043a-4d97-4c3a-a77c-8d262412907a)
+
+* Time Complexity -> Theta(n). [Possible solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f534235-a131-495d-b934-0242b3092f9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e77cc3bd-9ee8-49d0-882c-d89177c31d74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcd9b05a-e3b3-45be-8482-75ff04ccd8c9)
+
+* Time Complexity -> Theta(1) or constant. [Another Possible solution] [Better time complexity] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b88ec33-e3d5-4551-acb2-0ff16f39da7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1418362-1b4c-4158-bd00-ad5bc173d39d)
+
+* Insertion at first position.
+* Time Complexity -> Theta(1) or constant.
+* Output:-
+* Start -> 10 -> 20 -> 30 -> 40 -> 50 -> Start.
+* This is not possible in **singly linked list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6983f999-db7a-4043-a2a3-4850a2f8e837)
+
+* Deletion of the **last node**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b343d7-3201-4ea7-8553-075173db0d6c)
+
+* Time Complexity -> Theta(n)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f79e0fad-eff0-4820-897e-2dbb9d4d08ec)
+
+* We cannot go to the **node '3'** position without doing **traversing** the previous elements. That's why the only option is **traversing** and the time complexity will be **Theta(n)** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0be407f-d3da-4134-9b99-63fc0bb6e559)
+
+* Even if we had the **last node** address stored in the **'last' variable** then also the time complexity would be **Theta(n)** only because we need the address of the **2nd last node** from the list and we have to do **traversal** of the list . There is no way around it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45daefee-bebb-4e0f-8da6-8d898adf7899)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5e2634f-e33f-400f-8a46-d96524246530)
+
+* Doubly Linked List. [**IMPORTANT**] [Time Complexities]
+* We have the address of the **previous node** that's why we don't have to do **traversing** while **deleting nodes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/454e01bd-5589-40bf-bb41-1b747bec86b5)
+
+* Circular Doubly Linked List.
+* Insert at first
+* Insert at last
+* Delete at first
+* Delete at last
+* Insert at first -> Insert at last -> Delete at first -> Delete at last -> Theta(1) or constant.
+* It is **same** whether we have **singly, doubly, circular** linked lists.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c74deead-9c62-44c2-a7e7-8387e507eb76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c7a645d-1123-4146-b638-e6dfd2b90c8f)
+
+* When we have to **insert in a particular/specific position** then we have to do **traversing** and the **time complexity** is dependent on the **position**.
+* Time Complexity -> Theta(pos) [Pos -> position]
+
+* SLL -> Singly linked list
+* CLL -> Circular linked list
+* DLL -> Doubly linked list
+* CDLL -> Circular Doubly linked list
+* In **CDLL**, the previous address of **start address** is pointing to the **last node** of the **linked list**. It doesn't matter if we have the **last node addreess** because we can directly go to the **last node address** from the **previous address of the start address**.
+* We can only perform **linear search** in all of the **linked list** types.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/824f5281-3e7c-4e26-89ee-72f82810eb98)
+
+* **Concatenation** -> Linking two linked list/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49e3ac84-4504-4b03-8be5-43f81c85b638)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b8e8151-85b2-44ac-b24b-9a7f24c60f91)
+
+* We have to **traverse** the 1st linked list. If the 1st linked list has **n** nodes then it will take **theta(n)** time to **traverse** the 1st linked list.
+* Time Complexity -> Theta(n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e8cc81f-214d-43a9-a91e-182c100d13ca)
+
+* If we have the address of the **last node** of the 1st linked list then the **traversal time** is saved and we can directly link the 1st linked list with the 2nd linked list.
+* Time Complexity -> Theta(1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/272dd62d-d8f4-4007-8852-9b8b41611127)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87488d91-fa70-4371-8a0b-20200a1cd40a)
+
+* Linked List Time complexities [Summary] [**VERY IMPORTANT**]
+* Table Contents:-
+* Create **n** nodes list.
+* Insert First
+* Insert last
+* Inset pos
+* Delete first
+* Delete last
+* Delete Pos
+* Search(Linear search)
+* Traversal
+* Concatenation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da74bb9-5558-4254-8448-026335f6ddd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0971fc39-2df3-45cb-abe0-68200d69c83e)
+
+* Doubly Linked List.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6374604-46ba-4ba1-a56e-825f8e27481b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4074dbb1-9773-4eb1-a99d-367e5d5befbe)
+
+* insertion at first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5e09da2-8921-4396-a3c5-b938d3f39b42)
+
+* Doubly Linked List. [Code]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9225c5ee-4c4d-4149-8244-08d102d68ede)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc8919f3-8d60-4022-92dc-d6e67a2f4cac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ff75059-e878-42f8-ae3d-0fa9c25bf311)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b79d5e59-6742-4198-8aaf-8667c45dadac)
+
+* Circular Linked List.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a13e32c-493f-4f95-a045-15b7c98df6a4)
+
+* Option **C**.
+* Circular doubly linked list because we can go to the **last node address** directly. Whether it is single or double ended the time will be **O(1) or constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72199a3e-5505-4454-a96e-c48fcbf88d91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4ccb46-3fcf-4843-ad3a-3962c1473cd2)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2f5f4c1-b57b-4b6c-b1a9-8600fc43f030)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90252599-66ec-4e9a-a3dc-57a8e33d0a7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abaf8c43-cfa7-4a38-bf0d-bb4f5ec41c8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c474dff-8e9d-4406-aed8-127d2a7c7262)
+
+* Which sorting technique we need to perform over linked list? [**IMPORTANT**]
+
+> Insertion sort. Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/233c0484-25a1-4b01-b576-33f5a70168e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4818ff46-955f-4795-ad84-71ff4d588aef)
+
+* Option **B**.
+* If a list is empty and it is in **non-decreasing** order then that is **True**.
+* If a list has only **one element** then also it is representing **non-decreasing** order which is **True**.
+* That why we should tick option **B** instead of option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17d17ae6-5f78-4fc0-a257-7aa7dbf35ebf)
+
+* Membeship -> Searching, item is a part of the linked list or not.
+* Cardinality -> No. of elements, count.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef3a80e7-9e3c-4f0e-a95f-65c2417806dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/282cd51b-330a-43a9-b593-313ab479767f)
+
+* option **D**. [**IMPORTANT**]
+* Cardinality -> m + n.
+* membership -> m + n.
+* Union -> m * n.
+* intersection -> m * n.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f59fa7e-14c8-460b-9290-022e10462ae0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/567e2cfb-0bdd-4008-b37e-943d2fe7c16b)
+
+* option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5c39529-75dd-42be-8656-047a0c28745b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c3db2be-de86-481d-9a40-1d4ac3993a29)
+
+* Deletion.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3993a45-c7fc-4551-8318-382cbe7a05c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0625e87c-4628-4e0c-b8fc-28ae5cef1ad1)
+
+* Option **C**.
+* Decrease-key operation -> Decrease/reduce the key value.
+* Deletion Time -> Theta(1)
+* Decrease key Time -> Theta(n)
+* Since as it is a sorted linked list after decrease key operation, we may have to perform **sorting** to make the linked list sorted again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7760ebe-aaac-4bb1-a0fa-241cb2a74469)
+
+* Doubt. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e759dee-b5d7-41f2-8bfc-cbec142177db)
+
+* Option **B** [Answer] 
+* Finding **median** in an array -> Theta(n) [Unsorted array] [Worst case] [**IMPORTANT**]
+* We have **n** unsorted arrays -> n * n -> Theta(n ^ 2).
+
+## stack-and-queue-part-2 (21)
+
+## Stack
+
+1) It is linear DS
+2) LIFO(Last in first out)
+3) Top(Single end)
+4) Stack implementations
+ * Array
+ * Linked List
+
+5) * PUSH -> To insert element at the top.
+   * POP -> To delete element from the top.
+   * PEEP -> To display element from the top.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/597216e9-519e-43e9-b605-1a870a3d292e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/704d05f7-3df9-4e63-88e0-ceffe0e0d53c)
+
+* top = -1
+* It means that the **stack is empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71a4ebd6-79a0-433e-845f-861ce2ccd1f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b17a60e7-8ebb-40bb-8e29-fc4cfc49bd86)
+
+* Pushing element onto the stack.
+* If we are taking a **fixed size** array or a linked list for **stack implementation** then we have to check the **following condition** which is **if top == maxsize - 1**. We are checking if the stack is **full or not**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db79b1d7-87ef-4373-93bf-8d888048c5f9)
+
+* Algo to perform **PUSH()**.
+* Time complexity -> Theta(1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76548c99-d83f-4e56-8e9b-c36ab8b79d98)
+
+* Algo to perform **POP()**.
+* Time complexity -> Theta(1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ad97b1-acd6-44c2-8548-dc0ff259e776)
+
+* Time complexity [Summary] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26825a92-395f-4375-931c-f070dc01ee78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4bb092a-5cf6-4eec-a4d5-94c250b7d8f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d69be4bd-9ef6-4a35-806d-5439547e7f4c)
+
+* Stack application
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0113f587-28bb-40f9-b599-b4063c1bacdb)
+
+* Expressions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92d0a812-f8cf-49b1-ba3f-a5f8866c8177)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2364117c-473c-44fe-a508-dc41fbd5837c)
+
+* Example
+* Precedence and Associativity. [Left(L) and Right(R)]
+* We have to read the expressions from **left to right**.
+
+1) If the **precedence or priority** of stack[top] **lower or less than(<)** that of input operator then push the input.
+2) If the **precedence or priority** of stack[top] **higher or more than(>)** that of input operator then pop the stack[top] and insert in an array.
+3) If **precedence or priority** of stack[top] is **equal to** the input operator then:-
+
+* If it is **right to left** associative then push the input to the stack[top].
+* If they are **left to right** associative then pop the stack[top] and insert in an array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f877ba5b-0804-418b-a57b-568ae6bec4a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15a3d064-4b73-411c-9fb1-e3369c73d506)
+
+* Steps and conditions. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff4dedbc-5ab7-4fb5-bbe4-073ae1a24bf8)
+
+* Between **multi(*) and add(+)** the precedence of **multi(*)** is **greater** and **multi(*)** is the **input operator** so **condition '1'** applied here which is push the input.
+* **Multi(*) and div(\)** has the **same precedence** so **condition '3'** and as they are **left to right** associative so we will pop the stack[top] and insert into the array. That's why we inserted the **multi(*)** into the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d1acbc4-46f6-415f-be77-23595c976d45)
+
+* Now we are checking **div(\) and add(+)**, the precedence of **div(\)** is **greater**, so **condition '1'** and push the input which is **div(\)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae1ead97-df0c-461d-b3e7-7c0c27279d41)
+
+* Now we are checking **div(\) and minus(-)**, the precedence of **div(\)** is **greater**, so **condition '2'** which is pop the stack top and push in array that why **div(\)** pushed in array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2799185e-7511-44fb-a45f-a7a28b227150)
+
+* Now we are checking **div(\) and add(+)**, they have **same precedence** so **condition '3'** and they are **left to right** associative so pop the stack[top] and push in array that's why **add(+)** pushed in the array.
+* Finally **minus(-)** is in the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d13fb55-8102-4eae-93fa-a3037ffcd4cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06e1377c-929e-464a-8bb4-69ca02dde902)
+
+* As **input** is finished so whatever operators are left in the **Stack** pop them and push them into the array.
+* Answer -> abd*e/+f- [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d7b0aa9-4ea9-4ec9-a1de-c528b9e7c95f)
+
+* Question
+* Precedence of **power(**)** is greater than that of **multi(*)**.
+* **Power(**)** is **right to left** associative.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1f68e4a-a952-4407-aa50-8cf195657564)
+
+* Postfix -> abdef** ** *+g- [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdd07a4a-c8e4-4bbd-84fa-6b6ba4e9d0da)
+
+* Max growth of the stack? [Question]
+
+> 4.
+
+* Min. size of stack required? [Question]
+
+> 4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99f3b79b-c98e-4957-8c84-d9de5a748aed)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be6b0169-25b5-49ee-8821-1369e4f3f4dd)
+
+* Question.
+* Min. size of stack = Max growth of stack -> They are the **same** answer only. [**VERY IMPORTANT**]
+* Priority of **minus(-)** is more than that of **equal(=)**.
+* **No. of PUSH** operation is **equal to** the **no. of POP** operations.
+* **No. of PUSH** operation = **no. of POP** operations = No. of **operators**.
+* The No. of **operators** we have pushed that no. of **operators** will be popped. This is for **postfix** expressions. [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cda5c85e-ec33-45ec-b367-d971b837341a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa76ee98-2559-4e0d-bc35-f2436980b31f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62c689e9-cd95-41a2-bfd0-695bb282c2f2)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f157ee3-636a-4c98-916b-b467c4aa47a4)
+
+* If we have **brackets** then the solutions will be a **bit different**. [**IMPORTANT**]
+* Always push **opening bracket** onto the **stack**. [**IMPORTANT**]
+* After the **opening bracket** whatever **operator** comes next that has to be **pushed into the stack always**, the **precedence doesn't matter**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f66741a2-bd0c-4ade-991f-e77de2bb9b59)
+
+* **Minus(-)** came and **add(+) and minus(-)** have same precedence and they are **left to right** associative so **add(+)** is inserted into the array and after **add(+)** opening bracket is there so we will just **push minus(-)** into the **stack** as after opening bracket the **next operator** is always **pushed into the stack**. [**IMPORTANT**]
+* Never push **closing bracket** onto the **stack**. [**IMPORTANT**]
+* As **closing bracket** comes we start **popping**. We will continue **popping** till we find the **opening bracket**. Now remove/pop the **opening bracket** from the **stack** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f29fe18d-27f0-4947-b510-a157a13e0393)
+
+* Stack is now left with **assignment/equal to(=)** operator.
+* **Brackets** never come in the **post or prefix** expressions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b8ae8b3-3ae1-4161-ae8d-278e9989b79f)
+
+* We are left with **multi(*) and assignment/equal to(=)** operator and the **inputs** are finished as well. So will be insert the remaining operators into the array.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ab12523-723b-4422-969c-fd3534f2e1c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b35d17c-3b4f-49ea-9b40-8c9b74590da2)
+
+* Solution  [**VERY IMPORTANT**]
+* No. of PUSH operations? [**IMPORTANT**]
+
+> **8**. Don't **count** the **closing bracket** while counting **PUSH** operations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1086f4b9-de0c-4027-9fec-a6b2da24dbe8)
+
+* Prefix conversion.
+* Rules are the **same** only.
+* We are popping **add(+)** operator from the stack then we have to pop two operands from the **operand stack**.
+* Push the result back into the **operand stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b50f8722-5158-4aed-9042-537f0ab18762)
+
+* End of the **input string** so we will pop from the operator stack.
+* The pop will be **one by one** pop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8646916a-5281-4c38-ba7a-278158e31bae)
+
+* Solution.  [**VERY IMPORTANT**]
+* Priority of **div(\)** is more than that of **assignment(=)** operator.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74aa2a40-658b-48dc-b7f3-b021edf62351)
+
+* Solution.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80016e40-4300-44f5-a261-4f24f1d8390b)
+
+* Question
+* **Multi(*) and div(\)** have the same priority but they are left to right associative that's why we are doing **multi(*)** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe27bd99-8ee3-4d0a-927b-166623192b77)
+
+* Another way [Solution] [**VERY IMPORTANT**] [Faster Way]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af48854f-f835-4089-b36d-c4d3e9aa2fed)
+
+* Solution.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4072f42-c6a4-4ec7-b479-3f7e49ac1865)
+
+* Expression length -> 7
+* No. of operators -> 3
+* No. of push -> Expression length + No. of operators -> 7 + 3 -> 10.
+* No. of POP = No. of push = 10
+* Solution.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c549de3-13c5-49e0-818a-16d8f109b564)
+
+* Another way
+* No. of operand -> 4
+* No. of operators -> 3
+* No. of push -> No. of operand  + 2 * (No. of operators) -> 4 + 2 * 3 -> 10.
+* Solution.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b4e629e-35c8-4fb8-bb63-aa983afcd8dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13e423f6-c0ec-42b2-add6-0bb676c0e44a)
+
+* Expression length -> 15
+* No. of operators -> 6 [Brackets are not included]
+* No. of push -> Expression length + No. of operators -> 15 + 6 -> 21.
+* No. of POP = No. of push = 21
+* Solution.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6661545-9997-4cb0-acf1-9b6f07aeebf7)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc96fa1f-26cf-4d7d-a4c9-73938cdc9f82)
+
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d053921-d646-4da2-82ca-221f7d749db9)
+
+* We are going from **left to right**.
+* When doing **evaluation** we are using **operand stack**. [**IMPORTANT**]
+* When doing **conversion** we are using **operator stack**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c033c0fb-756b-4641-b717-8a2c77bac9f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d6be04d-28a2-4181-9c5e-658a0c24018d)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d30f48-0539-48ec-8c9c-6f8502978f78)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c4a1f0a-b0bb-494f-90fb-5455ea0c0e2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0200f83a-385f-4166-a4f4-98505b311a41)
+
+* Solution.
+* Answer -> -20. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/189855a4-4eee-4ecd-adc9-25bfdd9aeda5)
+
+* In **prefix** the reading is form **right to left** and we are using **operand stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2109c056-212d-48b1-85bc-d09dbd167662)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b41b9dcb-b07e-45f1-ab59-fea2b0c706ea)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c6b17e-ad30-4b64-9790-ddccdb1744de)
+
+* Answer -> 0 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11492059-92a2-4e2a-87ec-4f82259d411a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9ee03d0-b985-4505-b707-bdbf7e83c368)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7fe3a1c-9a07-493f-9bd5-c4da158b5d45)
+
+* Explaination
 
 
 
@@ -4975,25 +5466,7 @@ for i in range(0, 5, 1):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
