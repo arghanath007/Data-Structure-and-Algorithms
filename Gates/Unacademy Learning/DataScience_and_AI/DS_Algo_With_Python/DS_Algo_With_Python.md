@@ -4752,38 +4752,194 @@ for i in range(0, 5, 1):
 
 * Option **A**. [**IMPORTANT**]
 
+## linked-list-part-2 (19)
 
+## Linked List
 
+1) Non-contigous Memory Allocation.
+2) Effective use of memory.
+3) Data stored in the form of node.
+4) Node consist minimum of 2 fields. 1st field contains the information and the 2nd field contains/points to the address of the **next node**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aefd62a1-6fe0-4bdf-bfd5-729fa5541104)
 
+* Linked List.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6741fd4c-9617-4b6e-abb3-7e3302ec035e)
 
+* Singly Linked List.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42a9c7bf-bfff-4031-a3e4-cc6368dd9ef0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b69a10af-7aa4-4f0d-a238-87cea2783424)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/724bed98-98f7-458e-9dfb-732e41e076d7)
 
+* With the help of the **last** variable we can access the **last node**.
+* With the help of the **start** variable we can access the **first node**.
+* Types.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f784ab28-f897-44fe-b80c-8565cf9b6dda)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1dec5a0-9f06-4e16-ac88-fb67c07048d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052bed23-fff8-43c4-b0d4-a744d4e5d9a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d4976bc-df72-4250-bd64-ef9c71f3ea8a)
 
+* Operations.
+* We can perform **linear search** in **linked list** but **binary search** is **not possible** because we cannot directly go to the **mid or middle element** of the **linked list**, we have to **traverse the list** and go to the **mid or middle element**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a875a7d-48ac-434b-9cdf-75bc52cd66e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0a04693-41ab-4ff2-91e6-3ebb6b08b47b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2773979f-0c0f-4d51-addb-c2d32d4ae529)
 
+* Node creation. [Python]
+* Create a **class** for a node.
+* In **C** we have to create a **structure** of the node.
+* In **python** we have to create a **class** of the node.
 
+## Insert Node at First Position
 
+* **p** is an **object** of the **node** class. [**IMPORTANT**]
+* **start** is an **object** of the **node** class. [**IMPORTANT**]
 
+1) Create Node
+2) Store information in **info field**.
+3) Address part of 'p' should point to the **next node** in the **list**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5413fc9-dc13-4c21-90c5-ed1312739206)
 
+4) **start** should now point to the **new node** which is created.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bada986c-e7be-4e7f-96d0-f676ab337efe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d7477c6-a000-43d4-be17-dc1e2dca3937)
 
+* Insert Node at First Position [Steps] [Example] [**IMPORTANT**]
+* Time Complexity -> Theta(1) or constant.
 
+## Insert Node at last Position
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38e3941a-7bfe-46d3-80fb-382c352cdd9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d89e075-ece9-4bc0-b9d0-6890f7b21506)
 
+1) Create Node P
+2) Store information in the **info** field
+3) Store **None** in the **next/address** field of the node.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe8d51ad-78a6-4022-a22c-78bb8e90c91c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27507d5a-32ab-4340-a34a-8c317c42dd82)
 
+* **q** is an **object** of the **node** class. [**IMPORTANT**]
+* **n** is the no. of nodes available in the linked list.
 
+4) We need to traverse to connect 40 with 50.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1b93c67-695a-462e-bc83-041561f7e7ea)
 
+* Time Complexity -> Theta(n).
 
+## Insert Node at any given position by the user
 
+* **q** is an **object** of the **node** class.
+* **Pos** is the **user position** where we want to **insert** the **new node**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/047b77fc-c85e-4d5f-a396-54be4a2bc3a3)
+
+* We want to insert **35** node at the **3rd position** of the linked list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0888c98-0d67-48e4-bdaa-149e5750e8bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4b6e4b5-87bd-4015-8bcf-701268f432a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cf17eb4-a076-4792-80c9-308d1fc018b8)
+
+* Insert Node at any given position by the user [**IMPORTANT**]
+* Time Complexity -> Theta(pos).
+* It is **position(pos) dependent**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/232be668-703d-43ff-a570-cc340c001908)
+
+* Time Complexity -> Theta(n). [Worst Case]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ca14330-0865-49ef-a86d-6bad8028a2be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af25b81d-af46-4f45-a968-e2813e10c2af)
+
+* Example
+* It is going to **insert** at the **1st location/position** of the linked list. 
+* IF -> insertion at first position.
+* Print all of the elements -> Kind of **traversing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a704795e-025d-4ee5-a368-5e8f6cab9d04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fc9ba10-a84a-48a0-93ed-7c517c6d80e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd8f12e3-5fc8-4fba-af14-955d22350755)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2262518-e336-491a-afe0-69cf9b80ea82)
+
+* Question.
+* **head == None**, means that the **head** pointer is not pointing to **any node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41c4d82-ac81-4b92-bff0-eac0d136594e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bae9301-9934-4462-9215-fde701d31218)
+
+* Insert node at the **end**. [**IMPORTANT**] [Code]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fe2d4a3-3ab4-4805-af6d-1121c0184f61)
+
+* It means that via an **object** the function will be **called**.
+* The **object** will be passed via the **self** parameter.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9970dbb0-71a9-44b5-8b94-1ed94d649bed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95708fa1-b159-4a99-bb15-44a1508d151b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b052b495-8499-484f-96ab-415c58f80f69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02052243-b15a-4ba4-8793-29d7e2bd4d36)
+
+* Inserting a node at any position of the linked list. [**IMPORTANT**] [Code]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d1b549e-23e0-4ff6-ab34-71c55d416d11)
+
+* Doubt.
+* **self** keyword doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5eef01a-cbbc-4c4f-af3f-9789cfc52d6c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/389d839a-af5c-471d-a58a-ee41ccb5e9ad)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86875ffa-04a9-4bce-8368-7672b44b8812)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc4ab16-d9c1-4548-86c2-203de9b985d0)
+
+* **Worst case** for **min. no. of exchanges** which means we have to apply the **best algo**.
+* If only **worst case** was mentioned then we would have written **(n - 1)** which is option **A**.
+* Actual Answer -> n/2 -> Half comparisons.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cfbf73c-f492-42d8-b243-28b4c3145d90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e36f06d-d425-42f1-9b36-9257a8d0063f)
+
+* Option **B**. [**VERY IMPORTANT**]
+
+## stack-and-queue-part-1 (20)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4842c94-c177-4307-b639-365410851dd0)
+
+* **Insertion** in linked list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eb79427-746f-4699-9c90-6d762f377a38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d71d27e-abec-46a1-971f-56737c47a29e)
+
+* **Deletion** in linked list.
+
+1) Deletion from 1st position.
+2) Deletion from the last position.
+3) Deletion from required position.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a55fe4ce-4940-4c82-9eb7-48b72c3f6946)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/185cd33b-f262-4e9f-a918-c4b5dd2e4972)
+
+* Example.
+* To remove an element from a specific position the linked list. [**IMPORTANT*]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/208a920b-e9f0-4841-ba60-55ddaafbfe7d)
+
+* i = i + 1 [Miss print in the code]
 
 
 
