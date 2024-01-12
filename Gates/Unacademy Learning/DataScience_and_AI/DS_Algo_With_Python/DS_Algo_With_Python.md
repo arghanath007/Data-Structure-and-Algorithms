@@ -4513,7 +4513,11 @@ for i in range(0, 5, 1):
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44dfcb08-807f-4198-9a43-dbeeabc01fa6)
 
 * Tree VS Graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad4e909f-2b43-4143-8d33-cdf43b37aaf9)
+
 * Every **tree** is a **graph** but vise-versa is **not True**.
+* **Null Graph** -> A graph without any **edges**.
 * Graph can have cycles or cannot have cycles. Both are possible.
 * **Tree** should always be **acyclic**. There is **no cycle** in the **tree**. [**IMPORTANT**]
 
@@ -4530,21 +4534,29 @@ for i in range(0, 5, 1):
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/083f8ad5-155a-460f-8a50-f69051c1a6df)
 
-* Dictionary,
+* Dictionary.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c51aeee4-86ec-4515-b2b4-20258ce18214)
 
 * Data Structures.
 
-## linked-list-part-1
+## linked-list-part-1 (18)
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0886357-8cd3-4276-87e1-a3e09e6beb21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1c76222-49b4-4874-a3e4-82663c1c25f1)
 
 * Array
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc33d7f7-452d-4e0a-ab94-9c7e354a9ade)
 
 * Array Types.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db8e37c9-334b-428f-9d1b-e92c23d9ee32)
+
+* Operatiosn of an **array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a787a31-d94e-4a64-876b-d52348f7c868)
+
+* Array example.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fbba7c3-6339-41a6-b486-b28e11b338ef)
 
