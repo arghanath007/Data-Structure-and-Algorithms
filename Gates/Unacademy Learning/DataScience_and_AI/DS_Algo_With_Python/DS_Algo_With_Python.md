@@ -5855,6 +5855,8 @@ for i in range(0, 5, 1):
 * **Linear Data Structure** -> Array, Stack, Queue, Linked List.
 * **Non-Linear Data Structure(DS)** -> Tree, Graph
 
+## tree-part-2 (24)
+
 
 
 
