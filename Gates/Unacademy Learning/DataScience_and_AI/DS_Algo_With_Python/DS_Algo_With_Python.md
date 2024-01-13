@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bffc2f0-f616-47b2-856e-2a7900b6e9f4)# DS, Algo Using Python
+# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -5857,6 +5857,222 @@ for i in range(0, 5, 1):
 
 ## tree-part-2 (24)
 
+## Tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a9e9960-2deb-499e-9a88-a854bcbb5372)
+
+* In tree data structure the data is stored in **levels**. That's why it is called as **hierarical data structure**.
+* Sibling -> The nodes having common parent. **B and C** are siblng. **D and E** are sibling. **F and G** are sibling.
+* Height of a Tree -> There are two different definitions. Based on the definition given, height of a tree can start from either **0** or **1**. If **height of tree** starts from **0** then the height of tree is **3** and if the **height of tree** starts from **1** then the height of tree is **4**.
+* Degree of Node -> There are two different definitions. Based on the definition given, degree of a node can be either **no. of it's children** then the **degree of node(B) is '2'** or **no. of it's neighbors** then the **degree of node(B) is '3'**. By default we use the **no. of it's children** to calculate the **Degree of a node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/831f65f2-f161-4fa6-87c6-1d45c28f2687)
+
+* Degree of tree -> The highest degree of any node is called as the **degree of the tree**. The highest degree in the tree is called as the **degree of the tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/836dd86f-d953-4e0a-a2a4-89977e062e55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b702952b-09cc-4efb-8794-7e4433f0644d)
+
+* Types of tree.
+* If the **degree of tree** is **2** then that tree is **binary tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21d034bb-3b18-4d2b-a883-05ee8b8ccce6)
+
+* Full Binary Tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/560b853f-fb84-4165-b905-480c8c160369)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/877a6bcc-71f7-4a73-88b8-bdf834ff65e0)
+
+* The **no. of children** the nodes have that is their degree.
+* The highest degree is **3**.
+* So degree of tree is **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fd6c4c9-fde1-4d4b-adff-53f70e059091)
+
+* Examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fad41a5d-c3f1-45d1-ab9c-fdd72d333114)
+
+* One node has **degree '1'** so it is not a **full binary tree**.
+* One node is missing at the last level so it is not a **perfect binary tree**.
+* The data is filled from **left to right** but there is a right node but there is no **left node**, so it is not a **complete binary tree**.
+* Every node degree should be **1** which is not there, so it is not a **degenerate tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d46243f2-089b-45f3-bc10-aa47de684a74)
+
+* Option **E**. [Binary Tree]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/381bfd07-74f9-4fa8-81d5-1e119ca649e5)
+
+* Root node is at height **zero(0)**. [Formula] [**VERY IMPORTANT**]
+* Max. no. of nodes means that it is a **perfect binary tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a73e4f8a-dbf6-45ab-9036-cb263b1b1cc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7222f939-fcb4-4f4c-811c-aaef7ee3fefb)
+
+* Root node is at height **one(1)**. [Formula] [**VERY IMPORTANT**]
+* No. of leaf nodes = (No. of internal nodes) + 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/792df572-3cd0-4b70-9278-5e1a405282a7)
+
+* Total nodes = (2 * (leaf nodes)) - 1 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec96e75-89f0-4ae3-b612-140f93dc3752)
+
+* [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8390c8ac-fbd8-479d-8be5-4e53216f8fda)
+
+* When the root node is at **height '0'** and we are storing the root node at **index '0'**. [Formula] [**VERY IMPORTANT**]
+* We have to take the **floor value** when finding the **parent location** from the **child location**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cf3b6a8-15a2-4829-803f-8392bd854a6d)
+
+* When the root node is at **height '1'** and we are storing the root node at **index '1'**. [Formula] [**VERY IMPORTANT**]
+* We have to take the **floor value** when finding the **parent location** from the **child location**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d7c6efc-9433-4b72-9848-2b90740fd3f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d0c69eb-6d58-41c6-9b68-ad3cd8a869bb)
+
+* We have to take **floor value** for both of them.
+* Representation of binary tree. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/162c00ac-d5aa-4c65-b8b6-94825f1d5ec1)
+
+* Linked List representation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3f0af4e-36dc-4714-b3b1-dadc2771d417)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84527602-9074-4f1f-a177-32ae2128cf85)
+
+* Insertion algo.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb72970f-68a2-49fb-a2cb-394907b0c978)
+
+* Tree Traversal Technique.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9f4cc49-adff-4f3b-b9d6-b06d1a2a82f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f49921b-fe7b-4328-a961-be9087b568a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/397ca32a-3324-45f7-af07-8d3ae71248f5)
+
+* Converse Inorder -> reverse of Inorder [Formula] [**IMPORTANT**] [Example]
+* Converse preorder -> reverse of postorder
+* Converse Postorder -> reverse of preorder. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1953bab7-2cd7-4c30-87b4-e5bdb2699a90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e69fb16a-c17f-4f0a-a97b-4ae737e82fd1)
+
+* Inorder traversal(LnR). [n -> root] [Example]
+* Recursive approach. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54955e20-11a7-48c1-9e7d-b58ec9b1a3b4)
+
+* Postorder traversal(LRn).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/982f35b5-b108-4a31-8eac-e0f7c390ccc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56110e37-ee7e-43df-8b7e-25767c58f868)
+
+* Tree traversal. [Example]
+* Converse(C).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/876e724f-4448-41b3-8caa-66063893c8e7)
+
+* Preorder traversal(nLR).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b3cad81-1485-48a8-b0a3-3f2f24e5a928)
+
+* Question. [Example] 
+* In -> DBFEHGIAC
+* Pre -> ABDEFGHIC
+* Post -> DFHIGEBCA
+* Converse IN -> CAIGHEFBD
+* Converse Pre -> CIHGFEDBA
+* Converse Post -> ACBEGIHFD
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2d00efc-d9df-41bf-9a2d-a8d145418471)
+
+* Solution.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f403ef60-2850-4c58-a1f6-27d6cf5a22f7)
+
+* Question. [Example]
+* In -> DGFHBACYIKE
+* Pre -> ABDFGHCEIYK
+* Post -> GHFDBYKIECA
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d9a52a8-0769-4433-8c21-a325932f851a)
+
+* Solution.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/151a47c9-4d6e-417f-a1b9-9fec28957951)
+
+* Question. [Example]
+* In -> BDCEAIHKJLG
+* Pre -> ABCDEGHIJKL
+* Post -> DECBIKLJHGA
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23a54304-6edb-4388-b55e-4d80b9c9985e)
+
+* Solution.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/948a28aa-ffc9-462e-a2e4-ad28aeb0bb46)
+
+* Question. [Example]
+* In -> DCBAEFG
+* Pre -> ABCDEFG
+* Post -> DCBGFEA
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e0dc9c8-be27-4ab1-9b57-5c744a3415f4)
+
+* Solution.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b80197c-af67-4fc4-afff-060535c3fb20)
+
+* Question. [Example]
+* **Brackets** have the **highest priority**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8563039a-f93b-42e6-89ee-6f0bdeb52464)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aed1b4a8-c989-4373-9491-1821e8716501)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3d8bed2-2433-4927-ab19-231f21cd870e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a11444de-a380-42ec-93c9-bc8af8be2f2d)
+
+* 1
+* **Root** always has the **lowest priority**.
+* Expression in question is inorder without brackets but it not always represents the **infix** expression. [**IMPORTANT**]
+* Preorder -> Prefix.
+* Postorder -> Postfix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b7689cb-bd08-487f-b6f9-b99423eee76d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b79a4d4e-614f-47b9-baf0-e52f3aa79d45)
+
+* 2
+* For **infix**, remove the **brackets** from the **expression** and write it as it is. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16f6a52b-35df-4081-b415-bbe09819141b)
+
+* 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d9c6870-c6d6-4736-8a34-c19598dad157)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c1931a2-0208-4092-a970-6c2118237ae4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea0966a4-8f49-4dde-9daa-cefb6f1ef38a)
+
+* 4
+* **Infix** is exactly **same** as the question.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5886,3 +6102,4 @@ for i in range(0, 5, 1):
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86d6f0d2-c510-4b26-9159-bd665edc28d3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82384ebf-fa24-4de0-b8b5-d4be10d58190)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ecc4331-af1a-48ec-b958-ec488b12d9e0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a5093fc-d80e-4476-85ba-a39f42775e7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bffc2f0-f616-47b2-856e-2a7900b6e9f4)
