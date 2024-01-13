@@ -5772,6 +5772,10 @@ for i in range(0, 5, 1):
 * If we have done **random order priority** then we have to search the **whole queue** to delete an element.
 * With the **priority queue** we can do **stack, queue** or any other **operations** and accordingly we have to set the **priorities** to the operation as the **highest**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a5c73c-b392-4b3f-be04-70166d446cf7)
+
+* Option **B**.
+
 
 
 
