@@ -5773,8 +5773,88 @@ for i in range(0, 5, 1):
 * With the **priority queue** we can do **stack, queue** or any other **operations** and accordingly we have to set the **priorities** to the operation as the **highest**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a5c73c-b392-4b3f-be04-70166d446cf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/056bcf81-0254-416a-a5ae-72961d61cbe0)
+
+* Option **D**.
+* The last element that is inserted into the queue should get the **highest priority**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e740d2-8ae7-4242-bf46-711f0521fc96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/017bc33d-a52d-4023-b374-5ceb77cc0d6e)
 
 * Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bc0432f-3307-41dd-b265-206b22254d76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/500c11a2-21fc-4a1d-babb-13ac698d2e79)
+
+* Ascending order
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60898d9c-6dd1-4ecc-8858-2964d786fed6)
+
+* Descending order.
+* We had taken **3 elements**. The **no. of iterations** was **3 ^ 2 -> 9**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76586166-3747-4bd5-a8c9-b7d0f92a3fd0)
+
+* Answer => 256 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e376716a-1998-43a4-834c-6d53f2c19218)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa670293-c7f0-419a-a3f5-0e6fa5c08a73)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef3cacc5-dc22-4430-bf9a-faa2a8ac74ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebaa15d2-3475-492a-9bb7-85a88a077844)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47444ef3-4781-4b50-a6c6-905ccca162d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2b2c020-3a3a-43a0-b07c-d65f774e1ec4)
+
+* Option **B**.
+* Insertion will happen when the current function call is **terminated**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7cf9756-ed72-4e8d-b54e-eec319b6e6a8)
+
+* Option **A**.
+* As we are starting from **0** that why it is from **0 to (n-1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64f6ac3d-df44-46cb-a101-1ced2ec6834f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f6e5a4a-40ff-407d-8a0f-9bf480b94415)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/debfa247-19ae-4344-82de-2caf40782307)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/963cd2a1-17ae-4ecc-b3ac-d9bc37657d0c)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77c58ac7-f125-4f20-af09-b061f8402712)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07ef9757-929e-4520-957d-6170efed8575)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39567620-5d03-4db0-9fda-89ac2b75865a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7ecea89-9f29-48bf-8600-f03c75e17154)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abf63774-e7cf-48dd-ac4f-9d7fc7252461)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ec939c2-79e9-4cb2-a9e5-2d3470b07d8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aa4d5fb-abd1-4db5-b9d7-c8aedc32b46d)
+
+* Answer -> 86. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f0373f9-cc01-435c-af34-bbce8617b825)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57cbec31-caf5-4e65-9c87-a47ea8bb47b4)
+
+* Answer -> 8. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b80bed8a-5ceb-4c93-99aa-e8090897c5f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71da2cde-e8b1-49b7-b19a-331198e69155)
+
+* **Linear Data Structure** -> Array, Stack, Queue, Linked List.
+* **Non-Linear Data Structure(DS)** -> Tree, Graph
+
 
 
 
