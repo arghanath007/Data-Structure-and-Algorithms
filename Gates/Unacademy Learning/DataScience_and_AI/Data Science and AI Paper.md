@@ -1,5 +1,10 @@
 # Data Science and AI Paper
 
+## Sample Paper
+
+* Solution -> https://www.youtube.com/live/fV7NXA0XBYs?si=3jg37VESyVltas2g [**VERY IMPORTANT**]
+
+
 # Syllabus
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5b6ddb8-723b-415c-857e-3c914defaa51)
