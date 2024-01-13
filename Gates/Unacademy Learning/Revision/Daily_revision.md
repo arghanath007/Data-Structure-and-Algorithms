@@ -40,14 +40,10 @@
 
 # DS with Python.
 
-# Engineering Mathematics
+# Engineering Mathematics(EM)
 
 * RIC Course Link -> https://unacademy.com/course/ric-on-digital-logic-design/VR0E7ZWC
 
+## Sample Paper
 
-
-
-
-
-
-# EM
+* Solution -> https://www.youtube.com/live/fV7NXA0XBYs?si=3jg37VESyVltas2g [**VERY IMPORTANT**]
