@@ -1,4 +1,4 @@
-# DS, Algo Using Python
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bffc2f0-f616-47b2-856e-2a7900b6e9f4)# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -5433,13 +5433,269 @@ for i in range(0, 5, 1):
 
 * Explaination
 
+## stack-and-queue-part-3 (22)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f33998fb-9318-415c-bd8a-3bb17b01c688)
 
+* Question
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8811673-d7c4-4ce5-bdee-f33a909c191a)
 
+* Answer -> 41 [**IMPORTANT**]  
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/567072ec-b223-4c4d-af0f-b7ab6834766a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dfd1e48-897e-46b2-8d86-5bfa4690e603)
 
+* Option **A**.
+* option **C** is for **prefix** conversion.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8993594e-2119-43ad-9df9-e29e577fb521)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d346300-6a9b-43f6-bbc8-b6b9b4931848)
+
+* Stake life of element **1** is **y** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d02598b2-ce43-4e95-a134-cf23bc9a1c05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b66e2c4-2083-4ffd-b52e-4fdbf5c1278b)
+
+* Solution.
+* Stake life of element **3** is **y** only.
+* Take a **bigger example** for solving the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92cc1f33-a361-44c5-933f-895368e7ffde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/113ddf8c-44dd-4a6d-8b1f-8f755f9d8b35)
+
+* Option **A**.
+* Directly solve it using the **shortcut method**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90d2c9dc-9072-41ba-8394-85c7a06ddac0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21deb83d-dac4-43c7-8927-0a54eb5c8928)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd9b316-695f-420a-afa6-c7d18df9e274)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c88e430-c2c4-4125-b72c-91fac8ce5e08)
+
+* Answer -> 15 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c297122d-e67d-43ca-b90a-c5ff9dadfebe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a99c2f3-790f-4c39-8cf6-be72d3600f41)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e9b1947-34a9-432a-a30a-884c44988515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/829423b4-9d4a-4f67-8abc-9007ef4b0e32)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaaaa6f3-5f59-4430-a53b-bcebcbfe72cc)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5753b91e-d7d7-4295-aee8-0f60b40ada10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7ff9343-d7c0-4f67-8fe0-e920058f6c92)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57517153-c864-4641-9c5d-449d95e981b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cc5bf7e-6c74-42d6-b828-44355e6abcc0)
+
+* Option **D**.
+* Take an **example**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/321d356b-3fa8-4fe9-a30d-1f7e48f7af6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0221c8c-cbd5-4255-a70e-f081482fb785)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/772db596-74df-4a06-8414-d8e8cdf9ec15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c31d2d7e-b0ae-4a9c-a02c-ff40f379051a)
+
+* We are doing **evaluation of postfix expression**.
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e089e6c-6c9d-4681-859d-3e9e003561d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eb61c2d-354e-42c5-bb7f-a843b189e266)
+
+* Option **A**.
+
+## Tower Of Hanoi
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/408013d3-9c7a-418f-93ae-1a647eba5073)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e1b14ce-81da-43fc-8a72-e1fd4e51f650)
+
+* We needed **7 moves** to displace/move the **3 disks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8493122d-0ff1-4e1c-92b5-0067f1eca162)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/133f4be0-2155-4259-9bf7-3733eb3cb4a7)
+
+* Final movement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55d69639-74f3-4b8b-a92c-ad3a73c07e16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ac97998-c972-4b59-920a-5466d7105882)
+
+* 2nd Recursive call.
+* The function is calling itself **two times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c68a663f-ef84-43b6-a9ca-303a9ac2cd46)
+
+* Time Complexity -> Theta(2 ^ n)
+* Solved using **master's theorem**.
+* Recurrence relation, T(n) = 2 * T(n - 1) + 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea78a3fb-8295-4686-b754-55ad4cf0fa0d)
+
+* In all of the **cases** the complexity is going to remain the **same**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a93d4999-e9c2-4c40-af9b-621b9e290f8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4d30926-6b01-4902-954e-7534f31904f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77629bc1-6527-4a4e-8948-854fe4cc2c3e)
+
+* Code.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/736a17de-469e-45ca-912f-55ade214934f)
+
+* No. of movements?
+* No. of function calls?
+* Expection questions [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b9e3db-0f93-4f4c-be59-3380f1f758c5)
+
+1) 4
+2) 14
+3) 2 ^ (3+1) -1 -> (2 ^ 4) - 1 -> 15
+4) (2 ^ 3) - 1 -> 7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9262669-44c1-47ee-a579-142583f71ca7)
+
+* Between the recursive calls, one value is getting printed.
+* **1st print** happens after **4 recursive calls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76e6c8c4-fe85-4673-8baf-5fd7a70785ad)
+
+* Solution [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95911262-6f8f-4d6a-aaea-6b26c1228e2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abb9ce74-5fa4-4277-8c1a-7e6ca7161aff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7576c33-068d-47da-b0aa-425ac28f509e)
+
+* Total **no. of function call** -> 19. [Yellow]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fd0260c-5d5d-4a6c-9cd9-fa80f2fbd183)
+
+* Output -> 10 [Green]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdbfc074-a0e9-4e04-9b07-8722e30e0963)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89e94e76-7826-48a6-a477-e2bd1b3cc7ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db952b21-28cc-48dd-a493-7c233228f6cc)
+
+* Addition -> 9 [White]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30cd1901-7807-490e-8cfc-bc992b67f9b9)
+
+* Solution [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1703ff74-afa1-474c-93fd-5e91cb80b001)
+
+* Output -> 21 [White]
+* Addition -> 33 [Yellow]
+* Function Call -> 67 [Green]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf08cfe1-73f2-4b76-838f-cc5cd29d2ac7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ce04424-2d6c-4281-a484-59a764575187)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63e6e39a-32f6-4e0e-ab6e-b5745486bd14)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fe7c3f6-67e7-4177-a2f1-4193ed75db04)
+
+* F(9) function calls.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f86adb5a-67bc-4f3c-8f1e-794bab4f1cbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de90995f-b802-47bd-91ef-54e015d64d3c)
+
+* Answer -> 16.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05668928-946c-41af-b82d-573c2ca729b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62a11f5e-451b-4f33-85bc-ae33b91fbc9a)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12329739-4bca-4189-8515-136163bf0779)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39614d5b-5c5e-4c02-bd0a-86c8abeb8bc6)
+
+* Answer -> 10011
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/933be8e3-c2b6-4be3-ba5e-338dd6718eab)
+
+* Done earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5736348-7125-4167-b630-5b522abf1c0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bff93ee9-77f4-477f-ad5b-72f961a1f555)
+
+* option **A** possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d0c8be1-fc1e-4884-a585-e6ce9840f642)
+
+* Option **C**. [Answer] [**IMPORTANT**]
+
+## Queue
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d691dcb4-5950-4e37-9301-94a44c5c7764)
+
+* Next class.
+
+## tree-part-1 (23)
+
+## Queue
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06040032-5ee6-45aa-b3a7-c97615a19482)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/235fb82d-4150-4c37-8eee-de282d0ec2ce)
+
+* Algo.
+* We are setting **read = front = -1** because the array indexing is starting from **index '0'**. **Index '0'** means we have inserted some element in the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d208e44f-0025-45d4-96f8-51282c4b607b)
+
+* Static Implementation.
+* Enqueue and Dequeue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9853a94-9378-4fef-9d5c-04e9af7e0b19)
+
+* SLL -> Singly linked list
+* **Enqueue** -> Insert at last in SLL.
+* Time Complexity -> Theta(1).
+* As we know the address of the **last node** of the linked list.
+* **Dequeue** -> Delete at first from SLL.
+* Time Complexity -> Theta(1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ae6afcd-cbaa-49aa-83de-c878d67fec19)
+
+* Queue using Array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc855c6e-2b22-4b7b-9c8a-886c09695985)
+
+* **Enqueue**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5bd1a57-a4b0-432c-a026-a3466af201a6)
+
+* **Dequeue**.
+* Queue -> **FIFO** concept
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4ce698-df1b-42f2-b42d-ee0096015eb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e47f4d9e-898b-4254-93a6-4ed3dbdcf12b)
+
+* Queue using linked list.
+* Enqueue.
+* Time Complexity -> Theta(1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e544dd9b-f739-455f-9f16-36a910899b82)
+
+* **Dequeue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/494e7242-65f6-43b5-9fa9-72206d6bb895)
+
+* Limitation of **linear queue** -> Once **rear(R)** has reached to the last position of the linked list we cannot insert any new item.
+* To overcome the above limitation we use **circular queue**.
 
 
 
