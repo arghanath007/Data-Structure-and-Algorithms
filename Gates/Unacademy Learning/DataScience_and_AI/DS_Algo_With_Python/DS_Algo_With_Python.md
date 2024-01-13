@@ -5697,19 +5697,80 @@ for i in range(0, 5, 1):
 * Limitation of **linear queue** -> Once **rear(R)** has reached to the last position of the linked list we cannot insert any new item.
 * To overcome the above limitation we use **circular queue**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43da26c9-2be1-41a9-9e95-08b96e4d72a9)
 
+* Circular Queue
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5817c4b-fcb7-4e3c-8c52-7fc1b64c0618)
 
+* Queue is full.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4501964-37e5-4aee-b842-868bd5d19979)
 
+* Deleting elements from the queue.
+* MS -> Max size.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ed65684-6184-460d-a2cc-6b9200dae97f)
 
+* Condition for **Circular Queue** to be **full**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3730d184-5fa2-471d-9196-f8dbad391d17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ade26522-e6ae-4b70-81d0-22bb2d91528b)
 
+* Circular Queue using **Array**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/883ae952-a045-405c-a0ef-29cdbf8dc5e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72c12592-263b-4338-bf9f-c71d2f00a156)
 
+* Enqueue.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bce0f7ac-c5bd-4e9f-b751-34eeefcff91f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f74ac8a1-edd9-4983-879b-8112fbf9bd88)
 
+* Dequeue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bac0965d-eb17-4086-a8dd-7ed30a49ea3c)
+
+* Enqueue(EQ)
+* Dequeue(DQ)
+* Time Complexities [Stack] [Linear Queue] [Circular Queue] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef392185-86a1-42e8-b185-68e108720912)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a57f8869-1a48-4e5b-bd4d-e34c83e9df60)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01533ed1-a8a9-4c4e-8f35-e2eaccb00d77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7e92908-f20d-479a-80d4-66ceeae39385)
+
+* Time Complexities.
+* If we only have **rear address** in **linear queue** then we cannot perform **Dequeue(DQ)** operation as we have lost the address of the **first node** in the **queue**.
+* In **circular queue** if we have only the **rear address** then also we can perform both **enqueue and dequeue** operations because **rear.next** is **front** only. We always have the **front** address as well via the **rear address**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11ca20bb-aba2-4f56-86b0-d9e92faf8fc7)
+
+* Double Ended Queue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e9dfaaf-66d0-4e9b-8537-fbf691f6725f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb948a49-72a9-44fd-83f1-1cc82580b051)
+
+* Operations
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ea0ae89-5502-40b9-9974-546ef46d71b5)
+
+* All of the **operations** have **theta(1)** as the **time complexity**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0c63d99-9b2c-45a5-b2cf-965504de82c4)
+
+* Priority Queue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06e49c84-3bea-4abf-bc76-9a1a51c90c35)
+
+* We want to make either **FIFO or LIFO** from **priority queue** and it is dependent on us.
+* We are doing **ascending order priority** and **number '6'** has the **highest priority** which means that it has become **LIFO**.
+* We are doing **ascending order priority** and **number '1'** has the **highest priority** which means that it has become **FIFO**.
+* If we have done **random order priority** then we have to search the **whole queue** to delete an element.
+* With the **priority queue** we can do **stack, queue** or any other **operations** and accordingly we have to set the **priorities** to the operation as the **highest**.
 
 
 
