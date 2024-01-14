@@ -1,4 +1,4 @@
-# DS, Algo Using Python
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0e8a96b-216c-4a4e-9741-ec2f99d4dc3c)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36ef8af0-86a0-4503-bd94-13e700ad66c7)# DS, Algo Using Python
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
@@ -6625,10 +6625,76 @@ d) Because of **10**. Not a **min heap**.
 
 > Time Complexity -> Theta(n). Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45031164-2f41-4f5e-b601-a5e5f19b17e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e20a0147-6487-42c2-8fca-c96d563e5934)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2668de1d-2dec-4adb-8dbe-d6fe47c376ad)
 
+* Option **C**.
 
-* Start from **1hr 22mins**.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36de6657-a181-4cc6-a3e8-33f9bcbc7ea3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2eb3c45-03fa-4d0f-bf31-b1bfb1f2629e)
 
+* Option **A** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df592b81-e495-4f1f-b45b-6bc90c3862c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea3a424f-d58f-4764-b123-579a375e7c34)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d359befa-5b66-4088-8ed8-80db7da3d739)
+
+* Option **D** [**IMPORTANT**] [Graph]
+* DFS 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a30f71af-e5be-450b-813a-1e066fda8769)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/120a3cbf-9903-416f-ab85-f53e31aa3628)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f899aa9-8422-4a3a-9da6-cd61e8bcf0f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/680862ef-76ee-412d-9219-628d24dc0299)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4f04abb-c08e-4252-8141-ba826a5825f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e753cc13-f7bc-46f0-b883-bbf46c35d71a)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3095fc0c-ae83-45f2-bf6d-6805b6e47ca7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9e47bd9-3a1b-438c-9a40-f66bad0e0b7c)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c47cc38-a0f2-4ee5-bb8f-34186be25900)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9c3b9dd-1730-48c2-aa7d-440324b81a36)
+
+* All parent values are larger than their children.
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caab8eba-2666-4234-94f9-7492a975057d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d54d56f-045b-4f2b-992d-cb4cbd895675)
+
+* [2]
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1a5a8c7-3ea0-48f0-bb8d-d41d1023b5d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fbc050e-d918-4631-8898-8f81b642f531)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5b1f9ae-1e91-4c93-9d68-edb932183c5a)
+
+* Option **D**.
+* Max nodes -> (2 ^ n) - 1 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8f83f7e-4a03-4983-8914-f9845faa0e1d)
+
+* Question
+* Link -> https://gateoverflow.in/974/gate-cse-2006-question-13
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4a12509-267c-45c7-978a-057e88ddd8e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa46b1a3-406a-4f81-9be2-ee2b5fee1988)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82208793-7f93-4842-81cb-953f3e07381f)
+
+* Solution.
 
 ## Questions
 
@@ -6639,9 +6705,519 @@ d) Because of **10**. Not a **min heap**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb30afb4-1f06-47d0-8d83-80f0bde70fad)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d9f49cb-8a6a-4ee2-be99-bb2a14aab866)
 
+## practice-sessions (28)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad3e7de-35ea-45e1-865d-73a1cfcc90dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8182b401-f1bf-42b1-9c88-35986016427b)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1708be6f-b4a0-448b-b09a-d3f93c4f3a44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c98fdc8-637a-4ad4-a348-5429c4b608a1)
+
+* Option **C** [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5328803-7af0-40de-9999-0a13cb5c693a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff3cfb38-8047-4556-b481-a1690b780096)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb89b91f-2cb7-46b1-b9d7-0b639315c604)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/174471ea-e6a4-4bff-a982-efd4c1a26c28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f72c0a75-609b-4236-89e6-3442adde1516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6f7d345-4a93-46af-bed6-491722e315b8)
+
+* Option **B**. [1]
+* Option **C**. [2] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb64ef68-0c1d-453b-ad5a-cd7d399c521e)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a95bb47-558b-4213-b089-b66fc331137b)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a84214b-22b0-41ae-a3cf-443d796938aa)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6026051-b89f-4223-9bf6-2308016c2801)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/326e9536-279e-44ee-a847-20d75c20380a)
+
+* Option **D** [1] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98528f8c-b586-495d-855f-dbbd020e6c8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c02a2f8-f50d-40c2-879e-c712bb4376ca)
+
+* Option **B**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb431f8-3175-4a37-83f3-67f3f3ad559f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69135500-4bdd-47ca-bcd9-3e25f8a3f33c)
+
+* Option **A**. [1] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/399d532a-9091-45b7-bfdf-3723e6b2d3c6)
+
+* Option **B**. [2] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19ad5803-4eae-47c1-951e-7c469c9d9c4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/249d8926-ac6b-4629-86cd-d92de207d0c9)
+
+* In the question we are given **n distinct elements and an unlabeled binary tree**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a9dd49b-b762-471e-bb44-a9b9d807ac44)
+
+* If structure is **not given** then we will use the formula of **2nCn/(n+1)**. [**VERY IMPORTANT**]
+* If structure is **given** then we need to insert the **keys/elements** into that **structure only**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb3131ce-671c-4c2d-9af5-a73f4daaaa01)
+
+* Unlabelled structure.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1938f51d-e8bd-42e0-a118-1fa584caa748)
+
+* Explaination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01353a57-b2e7-4800-83ca-9c13a28fbcd9)
+
+* Question [1]
+* Link -> https://gateoverflow.in/2183/gate-cse-2010-question-10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd9503a7-2ce2-438a-9d8c-f65891860e47)
+
+* Solution. [**VERY IMPORTANT**]
+* Zero Child -> 1 descendant -> Odd descendant
+* 2 Child -> 3 descendant -> Odd descendant
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/219c5684-84b2-459c-aaa7-c20a85ae9eaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b531a08-72e1-434f-8832-0b7b7e625897)
+
+* Option **B**.
+* Heap Property -> CBT.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6bd0a1e-17fb-4af8-903b-6da284acf4e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a521f39b-0968-4117-8ddb-e1e3a1a24f87)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbdd6ebd-0362-46c5-84bb-50c5fc95a869)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97f2a0ed-7d05-42bf-aa85-69be93cd4a4e)
+
+* Option **D**. [**IMPORTANT**]
+* If we know the **preorder** traversal of a **BST** then do **normal insertion** into a **tree** there will be **no problem**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dc6e047-a018-4c81-8dbb-c1d4198dd99e)
+
+* We know that **inorder** traversal is **ascending order**,
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b18a0df7-88bd-4bdc-a371-128f8eac84b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cee29bf-d98d-4945-9418-14f62299ff7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/335946c0-7b25-4118-aef3-8c16f8722ff6)
+
+* Option **C**.
+* Tightest Upper Bound -> Worst Case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a742c4c1-9618-4d66-bc62-9580e780bbb5)
+
+* **log n** time required to find **L and H**.
+* Between **L and H** we have **m** keys.
+* To find the sum of **m** keys we need **m** time.
+* So the total complexity is **theta(log n + m)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4519607c-ffc0-4dfc-b3b8-3f7693147027)
+
+* Answer -> 110 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f10116aa-2f99-4b78-977a-081f730a8fd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56a4ef44-bdf4-4b9d-9ac0-d304e5802fd4)
+
+* Inorder -> SQPTRWUV [**IMPORTANT**]
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c82fcfe3-ff13-4b92-b01c-b118c151e5a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64e20078-c528-400f-a50a-f7b62da6579b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32404b63-2054-4e8d-ae06-ccc32c3a63c9)
+
+* Answer -> 6 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d50fab2-e098-411c-af71-6c20cb2ceaf4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc158350-0d72-4f33-9124-cac4341a40bc)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/924550a3-a357-4f67-91b7-8bb39fb88956)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d057686-e7d6-472d-8826-33d020437398)
+
+* Answer -> 199 [1]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1270a96f-fe25-4a2c-bed8-979dc889955b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ff302f-740c-4d02-9523-f91e4acb54fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cdfb032-961a-421a-8c07-383d56423d5a)
+
+* Option **A** [1]
+* In **Full Binary Tree**:-
+* No. of internal nodes(I) = Leaf nodes(L) - 1 [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc36cfce-1b1a-40ee-b699-ad58334fa662)
+
+* Take an **example** if not remembering **formula**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/401adcb4-2ed9-4c1f-a5c4-622326b3bf06)
+
+* Option **B** [2]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9b6940b-9a1c-4a99-b3c0-4e7cb6ecd846)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edbea984-be97-456b-9341-ec4e5d2d3950)
+
+* Option **D**.  [**IMPORTANT**]
+
+## graph (29)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/798424e4-78cd-4daf-aa30-4db3058977d6)
+
+* No **PDF file** download available.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb7f8e3-c1cd-4f72-af33-5be3f2b86b32)
+
+* Edges are **optional**.
+* Vertices are **not optional**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/292420a2-4b74-46c5-a98d-1648b0e0022d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8a10a4c-0718-4433-8b06-fe3b6d6a9096)
+
+* Graph representation.
+
+### Degree of Graph
+
+* Degree -> how many neighbors of that particular **vertex**. [**VERY IMPORTANT**]
+
+1) Undirected Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fba751cc-3c8d-45a5-9ee8-f71903cfd20d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ea351d0-fa63-4fc3-b431-0688ccfaebf0)
+
+* Example
+* Sum of degree = 2 * (No. of Edges). [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0063165a-73bc-4825-b4e7-cb5d1d43c843)
+
+* Points [**VERY IMPORTANT**]
+* Sum of degree of all vertex is always **even**.
+* Number of all odd degree vertex in a graph is always **even**.
+
+2) Directed Graph
+
+* Indegree -> No. of incoming edges to that vertex. [**VERY IMPORTANT**]
+* Outdegree -> No. of outgoing edges from that vertex. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3279806-b5dd-445d-89f6-7bbdebd42d78)
+
+* Example
+* Sum of **Indegree** = Sum of **outdegre** = No. of Edges(E). [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9441cd69-3e28-46d4-9f05-891cbc8ea24a)
+
+* Types
+* Connected Graph
+* Disconnected Graph
+
+## Connected Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c797f5be-3bf7-4e05-8f8c-0af7c33c9241)
+
+* What is the **min. no. of edges** in connected graph of **n** vertex? [Formula] [**IMPORTANT**]
+
+> **(n - 1)**.
+
+* What is the **max. no. of edges** in **simple connected graph**? [Formula] [**IMPORTANT**]
+
+> **(n * (n - 1))/2**.
+
+## Disconnected Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/882728e9-3def-4f2e-b45c-4f64e2603a3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08e6b73d-fb7d-47f5-a5ed-69b1d2a4cf53)
+
+* Min edges -> Zero(0). [**IMPORTANT**]
+* **n** is the **no. of vertex**.
+* **k** is the **no. of components**.
+* Max. no. of edges(E) in disconnected graph :-
+* E = ((n - k) * (n - k + 1))/2 [Formula] [**IMPORTANT**]
+
+## Simple Graph/Multigraph/ Pseudo Graph
+
+* Simple Graph -> Without parallel edges and self loop
+* Multigraph -> With parallel edges but no self loop
+* Pseudo Graph -> Both(parallel edges and self loop) are allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a47b70e-51da-4af7-980b-d6322254f0bd)
+
+* Example [**IMPORTANT**]
+
+## Complete Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b05fefb2-9688-4a6e-9aa2-6967e657abb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/796ef19e-1625-4eba-98e1-d0afb10c57f0)
+
+* Complete Graph -> It is a simple graph in which all vertex is directly connected to each other.
+* kn -> E = (n * (n-1))/2
+* n -> No. of vertex.
+
+## Regular Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b21cee12-1488-4f0d-b85b-3d8ca8c88503)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abf625a4-241b-4f3a-9f83-12eda3f5f7a2)
+
+* Regular Graph -> A simple graph is said to be regular if degree of each vertex is **same**. If degree of each vertex is **K** then it is called as **K** regular graph.
+* Every **kn** is **(n - 1)** regular graph. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50fe05c1-9e9a-4aea-baa8-f7f831e11b90)
+
+* What is the **no. of edges** in a **regular graph**? [**IMPORTANT**]
+
+> E = (k * n)/2
+
+* k -> Degree
+* n -> No. of edges.
+
+## Cycle Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfd19a59-a7f1-4711-871e-df0093b78384)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c92a1a5a-eb5b-4f07-a610-07c886c78320)
+
+* Every **Cn** is **'2' regular graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/247b6f65-7233-4092-b78a-0dd964b443e5)
+
+* No. of edges(E) = No. of vertices(n) [**IMPORTANT**]
+
+## Wheel Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ab11d24-67f1-472b-bd18-a83ccfdf156c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b84667-1728-442e-9ab3-bbc08bef7da8)
+
+* n -> No. of vertex
+* E -> No. of edges -> 2 * (n - 1).
+
+## Null Graph/Void Graph/ Empty Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4df982f9-bf1a-4248-89a0-2c0437ec6d83)
+
+* A graph without a graph
+* No. of edges in the graph is always **zero(0)**.
+* E = 0.
+
+## Star Graph
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f32879bf-c294-454d-a85f-716e429a3c0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f78afe01-180b-4e96-b9b8-86fec4861842)
+
+* No. of edges(E) are simply **(n - 1)**.
+* E = n - 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/832be658-53e2-4e0f-b756-4ed791e59199)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe13280a-78a5-4c10-a93a-cca1b7ef496c)
+
+* If we identify the **cardinality** of the **set(1,4)** which is **2**.
+* **Cardinality** of **vertex** is the **degree** of that particular vertex. [**IMPORTANT**]
+
+## Adjacency Matrix
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/852302b7-e683-4fd6-9b45-b55604f164ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/483e3804-62c5-4410-b1e4-dfb75ae2fe63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6cf8560-f680-4d46-a9bd-bf88cf53dc08)
+
+* If we do **sum of row or sum of column** then we will get the **degree** of that specific vertex.
+* This is for **undirected graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f60ba951-d7c9-4930-98c0-dce88b5e5ffb)
+
+* Example.
+* **Sum of row** represents **outdegree** of that vertex.
+* **Sum of column** represents **indegree** of that vertex.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1687ce46-cc2b-4e82-9d75-81e155253f76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a6742c1-e059-4d74-b751-71a88af7299b)
+
+* In the **rows**, the **positive values** are **outdegree**.
+* In the **rows**, the **negative values** are **indegree**.
+* In the **column**, the **positive values** are **indegree**.
+* In the **column**, the **negative values** are **outdegree**.
+
+## Incidence Matrix
+
+* Vertex(V)
+* Edges(E)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2b5aa30-4e25-4469-b8b4-e534fd040980)
+
+* As we can see that **e1** edge is between **0 and 1** that's why in the **column of 'e1'** we are putting **1** in the **0 and 1** rows. [**IMPORTANT**]
+* As we can see that **e2** edge is between **1 and 2** that's why in the **column of 'e2'** we are putting **1** in the **1 and 2** rows.
+* This is for **undirected graph**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2628a49a-1088-45e7-91fc-0e39b917d60e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d634d98-4b26-47a6-b447-c8dc348b0716)
+
+* **Sum of row** represent the **degree** of the **vertex**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/379930fb-c71f-4c97-980b-6f6f58b2117e)
+
+* This is for **directed graph**.
+* We can see that the **e1** edge is between **A and B** and the direction is from **A -> B** so in the **'e1' column** we are putting **1** in **B** as it is directed towards **B** and we are putting **-1** in **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/375001fb-53fb-447a-bb9a-f4b2eef0d2b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a820e051-ef03-44e3-8164-d4892d817aae)
+
+* We are get the information in the **rows** only.
+* The **positive values** in the **rows** is **indegree**.
+* The **negative values** in the **rows** is **outdegree**.
+
+## Linked List Representation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42ede66f-edf1-420c-820e-30d550367574)
+
+## Hybrid Representation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74114c29-2a07-43e3-b46d-859fa082a91a)
+
+* Each array hold the address of that vertex and it will say how many **edges** it is **connected** to.
+
+## Graph Traversal Technique
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c594adb-d7d3-4491-bc9b-be45601b919a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03ba74d2-e3c6-4abd-9c52-874fae6f7d64)
+
+* BFS and DFS
+
+## BFS
+
+* It is using **Queue** data structure.
+* SV -> Source Vertex.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99e2f344-b787-4ffb-8132-f14d608a5d8b)
+
+* The **vertex** which are connected to **A** those vertex will be **inserted** can be in **any order**.
+* The **vertex** which has already gone to the **queue**, no need to repeat that **vertex** because it is either **already visited** or **it is about to be visited**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be0a786a-389f-47b1-a3b5-f23edbfa38eb)
+
+* We are visiting **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae7df18-88b1-46d1-b553-44681579a372)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46187347-550b-4007-b27c-891e927034fe)
+
+* Example [**IMPORTANT**]
+* **BFS** traversal.
+* More than 1 BFS traversal possible?
+
+> Yes, more than 1 BFS traversal possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8631485e-2dcf-40ee-ba3f-debe71ce73fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e35fd44-ef27-4a60-b5d1-37334811c55e)
+
+* BFS Tree [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/874272cf-113e-48a5-aeb3-64b2d542be5e)
+
+* SV -> A
+* Find **BFS traversal**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76be9d39-45e9-4a05-b2e4-ad37a9e095aa)
+
+* Option **B and C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65ed5f34-ae81-4bd4-896e-df284517c347)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/878db94d-56aa-47a8-9b40-c23f3ecf6a89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1246c98e-cf5d-40ed-adf2-9139f88c86c0)
+
+* Question
+* Option **B and C**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2420eddf-998e-4fb5-b2fd-bfb62888a75c)
+
+* Question
+* Inserting.
+* Starting vertex **A** -> ABCDEFGHI
+* Starting vertex **G** -> GEFHIBCDA
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/169a0b4c-b51e-438d-8d37-fae6b0433d02)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ede19a21-e9c1-436f-bb85-c4e8d5e384b3)
+
+* Question
+* Reverse lexographical order.
+* Starting vertex **G** -> GIHFEDCBA
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a381164c-1540-4ea7-8ab1-a660f5d1c553)
+
+* Soltuion. [**IMPORTANT**]
+
+## DFS using stack
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e9fc96a-2843-4c50-882a-921d68cd631e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c9df665-954e-4bc0-a215-224c38ee0086)
+
+* We have to do **Backtracking**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8169bcf1-34f7-47c2-b39e-dfceffbcfe75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18e081a0-bdc7-425f-bd36-1c8990c5b866)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7009cc8e-45c2-4560-ad71-d84b35488c24)
+
+* At the end the **stack** is empty. [**IMPORTANT**]
+* When we do not get any path or unvisited vertex then we will do **backtracking** and go back to the **previous path** and start searching for a **path** from there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21255220-9c64-4539-85c6-6d45980d5aa5)
+
+* Another **DFS** traversal.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20ceda9a-cdad-473d-8069-a11398c25d3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a574341-c7c1-44b3-84ec-876a2773402e)
+
+* Question
+* 12687453
+* Option **A** -> Wrong
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58774e5c-24a0-4b32-9f08-0c36cd3c497f)
+
+* Option **B** -> Correct. [Red Color]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46941757-ee72-468f-8eb3-0b8d13b58745)
+
+* Option **C** -> Correct [Yellow]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cdfef68-53ab-410d-b415-c9c79f99e5ce)
+
+* Option **D** -> Correct. [Blue]
+* Answer -> Option **B, C and D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15faa372-8b16-4305-aecf-8cf3b7f634be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2613dd8-6213-4d04-8184-c8f9fb58a74a)
+
+* Time Complexities [BFS and DFS] [**VERY IMPORTANT**]
+* Vertex(V)
+* Edge(E)
+
+## Single Source Shortest Path(SSSP) algo
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f97259-2ef6-4703-ad12-b1547c186872)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/159ba059-8764-4120-a2c5-db4044ad6647)
+
+* For **unweighted graphs** only we can use the **BFS algo** to find the **shortest path** instead of **Dijkrsta's algo**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ac05809-82cc-4fa6-a235-cd1801080be4)
+
+* **I** is the destination.
+* **BFS** is used if the graph is an **unweighted graphs** to reduce the **complexity**. We can apply **Dijkrstra's or bellmanford's algo** but their **complexities** would be **higher** compared to **BFS**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26c8a0f3-bd72-4746-bab6-cef856db9271)
+
+* Next Class.
 
 
 
