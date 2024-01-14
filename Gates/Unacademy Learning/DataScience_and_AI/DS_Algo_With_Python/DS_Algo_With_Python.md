@@ -6625,11 +6625,20 @@ d) Because of **10**. Not a **min heap**.
 
 > Time Complexity -> Theta(n). Option **B**.
 
+
+
 * Start from **1hr 22mins**.
 
 
+## Questions
 
- 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac9d8a18-615c-499a-9685-4fb8f50932a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f28a30fd-be8e-4647-b024-85e2715f95bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f74a4876-5996-44c4-a9ce-806f6ea035d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b71d4c8-e995-4278-88bd-2d677b05d56c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb30afb4-1f06-47d0-8d83-80f0bde70fad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d9f49cb-8a6a-4ee2-be99-bb2a14aab866)
+
 
 
 
