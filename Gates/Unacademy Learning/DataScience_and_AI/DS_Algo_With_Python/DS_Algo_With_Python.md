@@ -6433,19 +6433,199 @@ d) Because of **10**. Not a **min heap**.
 * If the **left side** is empty and the **right side** is filled then it is not a **CBT** and hence it is not a **heap**. [**IMPORTANT**] [Example]
 * If it is an **n** level tree then **(n-1)** levels of the tree should be **filled/full**. [**IMPORTANT**]
 
+## graph-part-2 (27)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3363002-c096-41cd-89a9-e2341bda04ca)
+
+* Max Heap.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dee38301-e182-450e-8d6a-82a30de221d9)
+
+* Structure is **fixed**.
+* If not following the property of **max heap** then we have to just **swap** the elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29173848-2122-45f1-a55c-51c3699313b7)
+
+* Total swaps = 5 [**IMPORTANT**] [Solution] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4082dac9-1745-45cf-8388-29a969ff7148)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28fd5ab4-d0ee-4ca6-bae6-3b5fc20672d7)
+
+* Total Swaps -> 6 [Solution] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b29432f7-e5ff-4a3b-8976-d947c5673bf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/972ec74f-23d6-4bda-b142-ad784763837b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fb4aa75-af9c-4456-a562-33fee0668ee8)
+
+* Max VS Min Heap. [**IMPORTANT**]
+* The **smallest** element in **max heap** can be anywhere in the **leaf nodes**.
+* The **largest** element in **min heap** can be anywhere in the **leaf nodes**.
+* We have to do **(n/2)** comparisons atleast to find the **smallest** element in **max heap** or the **largest** element in **min heap**. [**VERY IMPORTANT**]
+* In **worst case** we have to do **swaps** similar to the **height of the tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b00784c-d25d-4ab1-b239-b659f9b58122)
+
+* Time Complexities. [Heaps] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd7937a0-da45-462f-85d5-8a1ff297084b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cd1472d-b0de-492f-b56a-0ce1d8b628fe)
+
+* Example.
+* The **last value/element** of the **above** tree is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a5810bf-ec42-4128-83e1-d32eb64c0731)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65cbee57-fa2f-4946-9ed5-a91bee61419b)
+
+* We have **deleted** the element **200** from the **max heap**.
+* We are deleting from the **root** and root is **100** so **100** is **deleted**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5093823f-9b90-42ca-99e9-f265e135f536)
+
+* In place of **100**, the **last element of the heap** will go to that place as **2** is the **last element of the heap** so **2** goes to the **root**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbdf0947-9270-41fa-b7cd-472931fd6341)
+
+* We are deleting **50** as **50** is the root now.
+* After deletion of a node we have to do **heapification** so that the **heap** is in **max or min heap**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82dd6816-12a6-4a98-b096-a8e469212a30)
+
+* Heapifying [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/044421f1-bb05-4472-83f2-814baa64574b)
+
+* Elements are in **sorted order**. [Heap Sort]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fd3ef1d-129c-4ded-b2b1-ec66482febe9)
+
+* Time Complexities.
+* Time Complexities of **Heap Sort** -> **Theta(n * log n)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d9dc32a-00ae-4985-a774-43b24e2751c7)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7b53e55-93c1-4abb-970d-0ce2f2168932)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36ea061f-e2e9-4451-8598-5b27ca947e3c)
+
+* No. of swaps -> 4 [Solution] [**IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be76bf4c-0717-4713-b069-da2fa7ead88a)
+
+* Question. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d03198-79a9-45de-aa83-059114b0bb40)
+
+* Total Swaps -> 3 + 6 -> 9 [Solution] [**IMPORTANT**] [Example]
+* Build Swaps -> 3
+* Delete Swaps -> 6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb97d782-1122-4bf4-bcaa-1dcb26215a60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c292907-bed0-4675-b1a4-789ab33371b6)
+
+* We have to send the **last element** of the **heap** to the root of the heap when deleting the **root of the heap**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e35095b-9ceb-4ff0-8672-e419a08ee751)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b15289b-4b3b-4a8f-9467-4999c2b60db5)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8f2bfc5-ff95-4e50-aca5-b61797d147cd)
+
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a83aa37-b239-4663-8fee-29cd63a57023)
+
+* **n** unlabelled nodes.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5aa4b1c-eb94-4388-9390-2ee654a783bb)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a036cf2-a7dc-44cf-b0f6-1d13bf5524bf)
+
+* Inorder -> 41673258
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b01d5a-2482-4168-8a67-372972c053e1)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bce45fac-90f8-4525-b694-db8a09600693)
+
+* **Trick** -> Instead of drawing the tree we can just count the **no. of elements** on the left side and the **no. of elements** on the right side of the **root** node. [**VERY IMPORTANT**]
+* We know in **BST** the first node is the **root** node so **50** is the root node here. So the **elements less than '50'** are on the **left side** and the **elements greater than '50'** are on the **right side**. Just count the **less than 50** elements and count the **greater than 50** elements. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb841251-d8ee-4c88-b768-25c58e832ff8)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/784efda3-abf9-4f60-ae6b-51b5a82623c5)
+
+* Option **B** [1]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41cc3d5e-5d9f-40e9-adec-fdbc71c4f9c2)
+
+* Post -> gcdbfea
+* Option **C** [2]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6afb517-1916-4fdf-90e4-916283dd21c4)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9cc6ded-23f4-4ea9-a6d4-26f2d764d7c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51957343-80ee-424c-9f4a-37c3f896ba18)
+
+* Option **D** [**VERY IMPORTANT**] [Practice Again]
+* The **inorder** of **BST** is always in **ascending order**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3082958-53e5-47d3-98fd-bb35deca9371)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8934ba3-2260-4b13-bddb-6a69bd8eb1bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3c5157e-74ce-4c9a-b419-bf08bc8f1281)
+
+* Option **D**.
+* It is not necessary that the **last element** of **pre and in** order will be **same** as they have **Right(R)** at the **end**. If the **right child** is missing then the **pre** will end with the **left child** and the **in** will end with the **root**.
+* If the **right child** is there **guranteed** then we can say that the **pre and in** order **last element** will be the **same**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c265a675-d014-48f6-8a67-eb44a0946b0c)
+
+* Question.
+* As **7th smallest** is the fixed value so we have to do **comparison** of all the elements that are present in the **heap**. So we have to do **constant** no. of comparison.
 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93cf63ac-324c-4bc6-af06-fceec15e3802)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5077dea-ddca-45f0-8ba2-b954f0261833)
 
+* Option **D**. [Doubt] [See the below video]
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/88E84AF95E
+* **7th smallest** is a **constant number**.
+* It is going to take us **constant or Theta(1)** time.
+* In case we were given some variable like find the **nth smallest number** or **n/2th smallest number** then in that case the **time complexity** will differ.
+* Link -> https://gateoverflow.in/1110/gate-cse-2003-question-23
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7af2017-c685-48cc-aece-9d79983547dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b32a9ede-d93e-45b7-9716-feb8eda06355)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f367c7fe-03eb-495f-b109-396d4243ac46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f632b4e-58aa-428f-a81f-abe82166bdf4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dde72f0-20ef-47da-81b0-7e2725afbe42)
 
+* Option **D**. [Theta(1)] [**VERY IMPORTANT**]
+* The **max.** the **7th smallest element** can go is the **7th level** and it cannot go **below the 7th level**.
+* If **nth smallest element or n/2 element** then the **time** wouldn't have been **theta(1)**, it would have been **different**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69a61aee-44c7-46fc-bcfc-83079294c228)
 
+* **nth smallest element**? [**IMPORTANT**]
 
+> Time Complexity -> Theta(n). Option **B**.
 
-
-
-
-
+* Start from **1hr 22mins**.
 
 
 
