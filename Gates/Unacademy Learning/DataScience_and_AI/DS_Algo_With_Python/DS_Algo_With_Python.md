@@ -6060,16 +6060,378 @@ for i in range(0, 5, 1):
 
 ## tree-part-4 (25)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3845186-79d3-43d3-be2f-fd07612548f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95da4c54-7db7-4903-b0bb-9cfe7c332a5d)
 
+* Example [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/757fac80-6979-4bc5-a133-081c344cc7e1)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe8873f4-b86f-46b3-964c-188b7f707ca0)
 
+* Solution. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed83830c-e400-4024-8bbd-4beb226b1852)
 
+* Solution. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f05b1fc5-222a-4265-94c4-7bff18917cfe)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c85bfdd-1485-44e8-8737-78dc1202a4bc)
+
+* Solution. [**IMPORTANT**]
+* Check the **tree** once with the orders given in the question. For **verification** purposes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f974fe22-81b9-4bb1-82ee-cc57ca7ecd8f)
+
+* With **Pre and post** order we cannot make a **unique tree**. [**IMPORTANT**]
+* We need **inorder** either with **pre or post** order to make a **unique tree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ceb75bd-a406-4e7f-81b6-64a9c93de11c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/860683ce-aa31-447c-b1fb-d32b9c48fd3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dda6a38-dedd-45a2-ada0-8d9685dfa455)
+
+* **Degree = 0** means further expansion of the node is not there. [**VERY IMPORTANT**] [Example]
+* **Degree = 2** means that it has both the **left and right** nodes. [Degree -> No. of children]
+* Postorder = Left Right Root(LRn).
+* After tree drawing they may ask for **pre or in** order traversals. [Expected Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1eb57d1-8579-4d12-a060-3cce8757be6c)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5fab38d-5bad-4b26-9390-552c78fc7469)
+
+* Solution. [**VERY IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9752d27-f757-48b8-be2e-431f67540aab)
+
+* Not correct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76185a5e-2e8a-4048-90ce-bfc4451a7e14)
+
+* Preorder -> Root then left to right. [**VERY IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/056d5585-5812-4a75-83f6-f49c2e620ad6)
+
+* Postorder -> left to right then root. [**VERY IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d9223eb-756a-46ac-af4b-4b99f60d2dfd)
+
+* Inorder -> Left Root then remaining to right. [**VERY IMPORTANT**] [Example]
+* First children of any node is considered as the **left child** of that node in **N-ary** tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86af7d30-268f-4a73-8669-cd421d34e4ac)
+
+* Question  [**VERY IMPORTANT**] [Example]
+* Pre -> ABCDEFGHIJKLMNOPQRSTUVWXYZ
+* POST -> CDEBHIJKGLMFONQRSUVXYZWTPA
+* IN -> CBDEAHGIJKFLMONQPRSUTVXWYZ
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88a1ffe0-fcac-4760-bba5-6acb23faa0ee)
+
+* solution. [**VERY IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf5251c4-886c-4977-88bb-6fae2907cb46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e6d255b-d717-4515-b79e-4a69e4a9a8b5)
+
+* Pre, Post and Inorder -> They are all **traversal** techniques and we have to visit each and every node. We have to go to each and every node.
+* Time Complexity -> Theta(n) [For all three tree traversals] [**VERY IMPORTANT**]
+* n -> No. of nodes
+
+## Binary Search Tree
+
+* First key becomes the **root**.
+* Number less than **root** -> Left subtree of root.
+* Number greater than **root** -> Right subtree of root.
+* If **number** is equal to the **root** then that will be mentioned in the question what to do with it. It can go in either the **left or the right** subtree.  [**IMPORTANT**]
+* **Inorder** traversal of a **BST** is a **sorted sequence**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92551be9-8a4e-45a9-bd03-77418beb38c3)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d72716d-2149-423e-8688-e78d32b8c3db)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2cdd4bd-ab32-41fb-9503-500cd626f4d7)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b7ed0ef-3a9b-4d70-b300-df82bece6d03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a103a422-98bf-4691-9173-439a7b76f8c0)
+
+* Example.
+* No. of BST -> 2nCn/(n + 1) [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da84a028-9280-4f7f-b872-f3e5a7721f3e)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/293bb495-ea50-4e8a-aa97-6176886b07c3)
+
+* No. of BT -> 2nCn/(n + 1) [Formula] [**VERY IMPORTANT**] [Example]
+* The no. of **binary search tree(BST)** possible those many **binary trees(BT)** are possible but in the case of **unlabelled nodes**. [**VERY IMPORTANT**]
+* The no. of **binary search tree(BST)** possible for **label nodes** those many **binary trees(BT)** are possible for **unlabelled nodes**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b09d7b50-ab85-42c8-b68d-efc0c7e2a9ab)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c9c4e45-8017-4e96-b87b-3f92681bc869)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8a095ce-cb7a-4208-9a47-96318079725f)
+
+* Solution [**VERY IMPORTANT**]
+* Answer -> 30 ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04c95573-4ad5-4aa6-9dcb-67d1760873b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da328ef5-22bd-445c-9926-11c2cb8347cd)
+
+* How many **Binary Tree** possible?
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbbc0ff9-eac4-4839-9e29-b02ba38297b2)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00402df8-f5ae-416d-85fc-1a106d8814ff)
+
+* Answer -> 1 way. [**VERY IMPORTANT**] [Solution] [Example]
+
+## graph-part-1 (26)
+
+## BST
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f083ad3e-29cc-4072-83ed-457184dcc0d7)
+
+* Height -> Max no. of edges from root to leaf is **height**. [**IMPORTANT**]
+* Height of the tree?
+
+> ** Height -> 4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e0cc1de-3873-42ad-9614-03d3fb11437e)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c31d5052-b0a6-4445-80a6-83f221e1e357)
+
+* **Leaf node** we can **delete dirctly** after **searching** of the node is done.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c72183a-64fa-4fc7-bb2e-6f68fef48759)
+
+* When deleting **17**, inplace of **17** we are putting the **child of 17** node in that place.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cded79fd-0524-4775-9e3d-57c6fd012bf8)
+
+* Deleted **17**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/031490c1-40a0-413c-93fe-e4b66d604a14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a44552c-0bb8-4a68-af0a-7eb9b22d27ac)
+
+* In place of **10**, we are going to send either **inorder successor of '10'** which is **3** or **inorder predecessor of '10'** which is **11** here.
+* Either **inorder successor of '10'** which is **11** or **inorder predecessor of '10'** which is **3** will take the **position of '10'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a84a7c68-5b0f-4a0b-8813-4d949eef5b27)
+
+* Either the **order of inorder successor** or the **order of inorder predecessor** will be there in the **options** as the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4db998c-b5ae-439a-b2b4-3785f9f4f4ad)
+
+* Question.
+* What is the **max height** of the tree after **deletion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63877ce4-48dd-447f-9c65-d8bb23e2853a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/158d458f-bdad-4721-a1eb-27b4e990d6a1)
+
+* Solution. [**VERY IMPORTANT**]
+* If we take the **inorder predecessor** which is **5** then the **height** of the tree is **4**.
+* If we take the **inorder successor** which is **11** then the **height** of the tree is **3**.
+* So we have to find for **both** and check who has the **max height** of the tree. [**IMPORTANT**]
+* Delete the **elements** one by one only and draw tree after **each and every deletion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59b725df-bcc9-476e-a1dd-4e34b51b8c1a)
+
+* Worst Case
+* **n** nodes tree then we have to do **n** comparisons.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e24f4ab-1c03-48ab-87c5-b60f903dea73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/740b96f6-829e-4ef5-b8be-50fad1741634)
+
+* BST complexities. [**VERY IMPORTANT**]
+* Insert/Delete/Search -> Operations
+* Time Complexity -> Theta(1) [Best Case] [Operation performed on the root]
+* Time Complexity -> Theta(log n) [Avg Case]
+* Time Complexity -> Theta(n) [Worst Case] [Operation performed on the leaf nodes]
+* To reduce the **worst case** time complexity in **BST** we use **AVL** tree.
+
+## AVL tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b311cfc9-a1a7-4f40-806c-ba68052e1671)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a0ef37-1019-4374-8333-ddad2e2b6641)
+
+* Rotations.
+* Balancing Factor -> -1,0,-1
+* Unbalanced Factor -> -2,2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10355b14-c601-49a2-aa31-e707b80a5f8c)
+
+* **LL** rotation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35465c6c-0e39-4538-a6ab-3673a10054f3)
+
+* **RR** rotation.
+* **LL and RR** rotation are mirror image of each other.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6c7a32a-ee82-4155-bc07-ae07431215ee)
+
+**LR** rotation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22347b89-5e76-479e-bdad-055e4a2e2474)
+
+**RL** rotation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/618030c7-4e84-4acb-973a-ec721b20cdd2)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec8ca04e-41f9-4c48-8f8b-b60cba01ac36)
+
+* We have to do **balancing** of the **lower node** because if we do the **balancing** of the **lower node** then the **higher node** will automatically be **balanced**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0460f0d9-6446-4c60-98e8-a7062bad310a)
+
+* Solution [**VERY IMPORTANT**]
+* Proper height tree
+* The **input** is the **worst case** for **BST** we would get **theta(n)** as the **time complexity**.
+* With **AVL** the **worst case** for **BST** is changed to **avg case** and we would get **theta(log n)** as the **time complexity** for the **height** of the tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e0c926d-ebff-4874-9b3b-9d3718a9646b)
+
+* Total no. of rotations in the **AVL** tree?
+
+>  **4** LL rotations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bfa459b-f078-4bc5-9c07-29fd949a1bcf)
+
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acfea5ff-309d-4af3-8e93-1cdcc3b626bd)
+
+* Example [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dd9beac-6532-4000-bba6-50e9d972a897)
+
+* Example [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d4bb5ab-3164-402d-aea0-04c787c57951)
+
+* Example [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/720a7ca0-274a-43ca-bbf2-f02fa9ff6dee)
+
+* RL at 4 -> LL at 7 then RR at 4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e01da6-ca8b-49d7-ade4-5abd6c6bbcfc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209f275b-104f-4ae2-a577-d3cc4a0e7456)
+
+* Deleting **14**.
+* **RR** rotation.
+* After **any operation(insertion, deletion)** the tree should be **balanced**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8320669e-4a0a-4744-b0c1-15383a43d96d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9d1f982-51ff-4631-9c47-c5d45630f429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecc5ea9b-dbb5-4da3-bc48-abe30197de40)
+
+* **AVL** tree complexities. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac4536d1-2cff-4eba-be78-04b5ba0eb1cd)
+
+* [Formula] [**VERY IMPORTANT**] [Question] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3107445e-4052-4df3-a419-e45ffd9c77e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd16cf1f-a3b1-4075-a75b-6ae6e4198aa7)
+
+* [**VERY IMPORTANT**] [Question] [Example]
+* After getting to the required height check if the **nodes** are balanced or not. If they are **not** then try to **add min. nodes** to make the **unbalanced nodes** into **balanced nodes** to get an **AVL** tree. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b394134-dcc1-4603-8b29-270bbb3f42c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61e7961c-9db0-4bac-bc6d-50f9928cecc5)
+
+* [Formula] [**VERY IMPORTANT**] [Question] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22c4783b-d3ba-4eba-a04b-3a3fa77ccfc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b994d34-0bff-47a6-b760-1e945b643681)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84d90a26-0c23-4cc3-a97a-29476ac9b81f)
+
+* Example. [**VERY IMPORTANT**] [Question] [Example]
+* Or use the **below formula** and find the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2c36eea-347a-497c-bfcc-663ffba89d1f)
+
+* **Max height** can be found out this the **above data**.
+* **Max height** -> **Min nodes**. [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a63502ba-adfa-41f1-a114-fc6858fbcdba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4745a392-1b13-4abf-a874-2f25e826a0be)
+
+* This is used to find the **min height**. [**VERY IMPORTANT**] [Formula]
+* **Min height** -> **Max nodes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05bb8e59-508d-4e7b-b2ce-b757cee5bcbd)
+
+* Height finding.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b3e2a97-33aa-4c4d-8f68-65ae2086647d)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfd19652-438f-47c0-9a00-f94c05af079a)
+
+* Height -> 5 [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83e79468-cc4b-4844-932f-ad2a2ee72e37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/694f155b-6d55-49f6-bd4e-05a999c68676)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3efa3958-3cc6-4de7-aee7-9480d2185803)
+
+* Min Height -> 5 [Solution] [**VERY IMPORTANT**]
+* Max Height -> 7 [Solution] [**VERY IMPORTANT**]
+
+## Heap
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3185b2-e3f7-4abf-a4bc-94fed4e218e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27fba12d-ff01-491c-a6bd-2804c56e0a48)
+
+* Max and Min Heap.
+* CBT -> Complete Binary Tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1382baf-0ec6-467e-8310-59dd70a06fe6)
+
+* Complete Binary Tree. [Example]
+* We have to insert the nodes from **left to right** into the tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a298ed66-9ec8-4af0-9a3a-76b66d001905)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b45b55e9-0890-4a12-84f7-093f9f0915be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0293672a-3ce0-4c30-a5af-812c9d3a1928)
+
+a) Doesn't follow the rules of **CBT**. So not a **max heap**.
+d) Because of **10**. Not a **min heap**.
+
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdee8b03-f6e4-4ce1-9830-da5ff4ffa87c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9590cb7-ccf0-4ba3-bc9d-64f6544a9a88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41e23db1-ae63-4565-b8ca-13f1f732b374)
+
+* If the **left side** is empty and the **right side** is filled then it is not a **CBT** and hence it is not a **heap**. [**IMPORTANT**] [Example]
+* If it is an **n** level tree then **(n-1)** levels of the tree should be **filled/full**. [**IMPORTANT**]
 
 
 
