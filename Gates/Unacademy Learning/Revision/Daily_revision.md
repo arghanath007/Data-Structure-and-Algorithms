@@ -40,6 +40,10 @@
 
 # DS with Python.
 
+* Sample Paper Questions Done.
+* Topic covered.
+* Revision -> To be Done.
+
 # Engineering Mathematics(EM)
 
 * RIC Course Link -> https://unacademy.com/course/ric-on-digital-logic-design/VR0E7ZWC
