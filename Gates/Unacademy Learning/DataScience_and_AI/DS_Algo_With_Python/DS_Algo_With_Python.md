@@ -7219,6 +7219,318 @@ d) Because of **10**. Not a **min heap**.
 
 * Next Class.
 
+## tree-part-3 (30)
+
+## Dijkrsta's Algo
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9faeb08-d6f6-464d-b752-62686b5a32c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0416246b-799c-4839-a2b7-03631277f294)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67fb41a8-98af-4827-87d9-f7ad1ca69efd)
+
+* A
+* Next we are visiting **C** because **C** has the **smallest value/number** among the others.
+* As we got to **C** via **A** so we are taking the **edge** of **A -> C**.
+* E -> 1 + 4 -> 5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ae00269-14a9-4953-a551-098f03c712b9)
+
+* C
+* Next we are visiting **B** because **B** has the **smallest value/number** among the others.
+* As we got to **B** via **A** so we are taking the **edge** of **A -> B**.
+* D -> 2 + 3 -> 5
+* E -> 2 + 2 -> 4
+* We got a **smaller value** for **E** that's why we updated the value of **E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0b8e04e-f7a9-4801-9d51-92f30a4d549c)
+
+* B
+* Next we are visiting **E** because **E** has the **smallest value/number** among the others.
+* As we got to **E** via **B** so we are taking the **edge** of **B -> E**.
+* F -> 4 + 4 -> 8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18ff9cbc-2a88-416f-84a4-ab1847c5e0cf)
+
+* E
+* Next we are visiting **D** because **D** has the **smallest value/number** among the others.
+* As we got to **D** via **B** so we are taking the **edge** of **B -> D**.
+* F -> 5 + 2 -> 7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce8feb31-923e-482d-beba-4141247666ef)
+
+* D
+* Next we are visiting **F** because **F** has the **smallest value/number** among the others.
+* As we got to **F** via **D** so we are taking the **edge** of **D -> F**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/201a7aef-c018-4141-8e6b-ce7d07ccf9ea)
+
+* F
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d9767f-4429-4242-9812-66334befb572)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98e3298e-407c-44df-b929-9be84babe35a)
+
+* Final Tree
+* The **tree** shows us the **shortest path** from the **source vertex(SV)**.
+* Solution [Working] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/844918c3-8a17-438c-a38e-2767219c4dcb)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15306ad3-4aec-49d1-80b7-33ef80571d2e)
+
+* There might be possible that there are **multiple shortest paths** for the **two vertices(A -> D)** but we will give the one which is given by the **algo**.
+* The path given by the **algo** is the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98961725-56d6-4c4c-9543-f997b0eee7e9)
+
+* Solution [**VERY IMPORTANT**]
+* We will only update the **cost/value** of the node when it is **strictly decreasing**. If the **cost/value** are **same** then we will **not update**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb02783-678c-4950-a6f8-c517663096fa)
+
+* Question.
+* Find the **shortest path** from **A to I**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d2e8b15-8aad-4301-a770-1ec5be361622)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a6169c-6d5c-463b-b99a-8f96fa2b77e6)
+
+* Solution [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33e6d88e-14d5-47ba-8d94-356ce8d47355)
+
+* Dijkrsta's Algo may fail in case of **negative edge**. [Problem]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a327e13-52d1-4b38-8eff-729063368abb)
+
+* In the **B** vertex the **cost** has **reduced**.
+* If the **visited vertex cost** is **decreased** then the **algo** is not capable of calculating the **shortest path**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce61b01c-c521-41d7-a7ab-b0d88b43c6ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7db92fc-1b66-486e-a24a-8985e1968996)
+
+* Dijkrsta's algo -> Greedy Approach.
+* Time Complexity -> Theta((V + E) * log V) [Vertices(V) and Edges(E)]
+
+## Bellman Ford Algo
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ed27d29-7fa2-4564-8719-23a13a107e0c)
+
+* Bellman Ford Algo -> Dynamic Programming approach
+* It works correctly for **negative** edges in the graph but does not give shortest path in case of **negative cycle** in the graph.
+* No algo can give **shortest path** in case of **negative cycle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b4621cd-24ac-4d70-867d-f504092a64da)
+
+* Negative Edge
+* **Bellman ford** can find the **shortest path** for **Negative edge**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8bed9a1-3cec-45b4-8ebb-e49b82d9d7af)
+
+* Negative Cycle
+* The no. of times the **cycle** rotates/loops the **cost of the edge** will **decrease** everytime.
+* No algo can give the **shortest path** for **Negative Cycle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2495fd44-cfa5-45b5-8131-5afcd20205ec)
+
+* Bellman Ford
+* We need to relax all the edges of graph **(V - 1)** times.
+* After **(V - 1)** times we got our shortest path but we need to relax all the edges **1 more times** if path is reduced i.e there is **negative cycle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65b2f092-e4bc-4df7-a874-883a61e7773a)
+
+* We have to run the **relax algo** '2' times as the **no. of vertex** is **3(A,B and C)**.
+* We can go to **B** via **2 paths**, one is from **A** which is **0 + 3 -> 3** and the other path is from **C** whch is **infinity - 4**. As **3** is the **shortest cost** so we will take that as the **cost for 'B'**.
+* For **C** we have **only one path** which is **infinity + 2** from **B**, so the **cost** of **C** is **infinity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/783dc07e-326a-47ea-b854-ccfb36bc5027)
+
+* For **B** we still get **3** as the **shortest cost** so we will take that as the **cost for 'B'**.
+* For **C** we have one path which is **3 + 2 -> 5** so the **shortest cost** of **C** is **5** so the **cost of 'C'** is **5**.
+* This maybe the **final result** if we do **relax algo** again and we get the **same costs** for the **vertices**. [**VERY IMPORTANT**]
+* If the run the **relax algo** again and the **path** gets **smaller** then we definitely have a **negative cycle** in the graph. If the **path** remains the **same** then there is **no negative path** in the graph. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eeb6595-d207-47bc-a6b6-9d35ea135d29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0f8a7f1-b604-42b9-815a-a9e003a1d742)
+
+* Relax **III**.
+* Value is **updated** so we have a **negative cycle** in the graph. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/842c9fb9-95c3-4750-ada1-c11cf23eb2be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ee6664c-50a9-44dc-b5d3-e4399100dd9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/880adb92-8514-40a7-bb45-35eae7c53a22)
+
+* Time Complexity -> Theta(V * E) [Generalized Case] [Vertices(V) and Edges(E)]
+* Time Complexity -> Theta(n ^ 3) [Worst Case] [Complete Graph(kn)] [Bellman Ford Algo]
+* n -> no. of vertices.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5476d0c3-42c7-43c9-b7df-beaab8953e53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02c9d459-bb28-4182-98b0-2d248e0907eb)
+
+* **Cycle Graph(Cn)** of **n** vertices, then the **no. of vertices and no. of edges** are **equal** which is **V = E = n**.
+* Time Complexity -> Theta(V * E) -> Theta(n * n) -> Theta(n ^ 2) [V = E = n] [Cycle Graph(Cn)]
+* All of the **graph based** algos for all of the **different-different graphs**, the relation between the **vertices and edges** and from there we can calculate the **Time Complexity**.
+* **(V * E)** means the **multiplication of vertices(V) and edges(E)**.
+* If a graph which doesn't have **any edges** which is **Null graph** then the **Time Complexity** is **constant or theta(1)**.
+* If the graph is a **cycle graph** then the **Time Complexity** is **Theta(n * n)**.
+* If the graph is a **complete graph** then the **Time Complexity** is **Theta(n ^ 3)**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02ed258b-7016-421a-b62b-3519dafbe84a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2a769ae-636d-41f1-a45b-6f20ac348158)
+
+* **Bellman ford** algo is used because it can find **shortest path** for **negative edges** as well. [**VERY IMPORTANT**]
+* Bellman ford can correctly find shortest path for **negative cycle** -> **FALSE**.
+* Bellman ford is correctly work in case of **negative edge** -> **TRUE**.
+* Time Complexity -> Theta(V * E) [Generalized Case]
+* Time Complexity -> Theta(n ^ 3) [worst Case]
+
+## Sample Paper Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cfdf41d-1b49-4ebb-b562-5e58c63249ba)
+
+* 21
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e817356f-3d25-4e72-ae4e-f65316604fbd)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bee172c-41ff-4b4b-a5d4-dadc00848a87)
+
+* 22
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00b5dba5-0bfb-4ade-a546-2576ed75f93f)
+
+* Option **D**. [**VERY IMPORTANT**]
+* We have to find using **recurrance relation** and using **master's theorem**. [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3fb6510-bb1d-47a9-b096-6bba31633c38)
+
+* 23
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9fb9249-5911-400e-aa26-2e30383f002b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20768b3a-7efe-436d-8331-f7b762dbf814)
+
+* Option **D**.
+* We are diving the array into **two parts** but we are not using both the **parts at the same time**, we are either going to the **left part** completely or we are going to the **right part** completely. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/320c6819-3c81-446d-8d54-03259d8cc39d)
+
+* 24
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e993e7f7-3d54-4820-bc43-5c2bd9d7e110)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22645fe7-9ad9-4efc-bec1-8c05bac25230)
+
+* Answer -> 1022
+* Trick there, need to understand the **logic**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc3d694b-e114-47fe-8947-158f75ce86e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbbe514a-9a61-4fba-a10f-18dd6e230b5a)
+
+* 49
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01ee3622-db82-46e4-aa55-56a1d0331ee9)
+
+* 50
+* Option **A**.
+* We are implementing **stack** using **two queues**.
+* **D** should be **dequeue** only as it is in the **POP** part.
+* Initially **Q1 and Q2** are both **empty**.
+* **A** should be **enqueue** otherwise there is no significance of **A** being a **dequeue**.
+* Let's say that **C** is **dequeue** then we are deleting the element from **Q1** and we are assuming **B** to be **enqueue** so we are pushing the deleted element to **Q2**.
+* We are ultimately getting **stack** output as expected.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a0b1c2-a7db-45e6-88c1-cd2b1402f4b5)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c923731d-d797-44e8-95c1-60adb11de0a5)
+
+* 51
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5174a829-d531-4b12-a4f6-1daa1ccebbf5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed7752a5-d502-45ff-b224-520b394797b8)
+
+* In option **Q and R** we can see that in the **b** array we can reduce them by taking **common** like in option **Q**, we can take **common of '2'** from the **b** array which is **2 * [1,2,3,4]**. In the option **R** we can also take a **common of '10'** from the **b** array which is **10 * [1,2,3,4]**.
+* The combination are possible in **Q and R** options.
+* If we do **square root** of the same numbers then we will get back the original numbers only which are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3a844bb-7c22-4f10-a3a8-4fb0e7874334)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a77fa62-384d-405d-bdca-2f8a1bf54f10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69346dc0-e079-420c-99f1-3689df714d13)
+
+* 52
+* As initial vertex is not given so we can choose any vertex as the **starting vertex**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98365fb6-12b8-4e28-b286-efce0a9bb39a)
+
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eca6c3c-3d2d-44ca-8938-5d2baa76a525)
+
+* 26 [DBMS Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a591f44-2173-43fa-86e0-d54c691d47f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df4ecb76-9f74-43e1-b262-898faa36ba7a)
+
+* All are **false**. [Wrong Question] [marks will be given to all students]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/401f5f06-0307-411b-b06c-1826e960319b)
+
+* DBMS Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c7db7ee-9245-4a97-840f-47061e534d83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f38e0a9-9ee1-483e-b8c9-9f1538b4c6e5)
+
+* The query gave the name of those employees who have **good reviews** from customers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bece8664-6331-42eb-a872-14b699df5f1c)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f5d2dab-fe15-43c0-af67-80fed93dfcc7)
+
+* TOPIC.
+
+## Exam Tips
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cbcf0f5-24db-45e9-86d9-5dd704c4ed27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd3ba2c1-b489-4824-a0e1-06a2768a9ef7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03cfde56-c221-498b-b6c8-9bf145411fb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ead6a9b-7f9a-4e31-97b3-e2364318603d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaacec52-443e-4548-ab39-b0ea22a3ae17)
+
+* MSQ.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
