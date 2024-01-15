@@ -2,6 +2,10 @@
 
 * Link -> https://unacademy.com/course/revision-course-on-engineering-mathematics-199/ZE7GO6F5
 
+# RIC
+
+* Link -> https://unacademy.com/course/ric-on-digital-logic-design/VR0E7ZWC
+
 # Probability
 
 ## practice-session-on-probability-part-i (1) [26th Aug 2023]
@@ -3365,6 +3369,31 @@ If R1 row is multiplied with **3** then we get the **R2** row values.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b122e69-4cc4-4ef0-aadb-89e9a0be6ddd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33225d92-503a-47e0-a6c4-9d9c2ae99fa7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9e33e7-33c6-4e98-bdc8-bb180ecfa9a7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Misplaced Images
 
