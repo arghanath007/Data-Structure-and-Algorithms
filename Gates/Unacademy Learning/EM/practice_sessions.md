@@ -2,10 +2,6 @@
 
 * Link -> https://unacademy.com/course/revision-course-on-engineering-mathematics-199/ZE7GO6F5
 
-# RIC
-
-* Link -> https://unacademy.com/course/ric-on-digital-logic-design/VR0E7ZWC
-
 # Probability
 
 ## practice-session-on-probability-part-i (1) [26th Aug 2023]
