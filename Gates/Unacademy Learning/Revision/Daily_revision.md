@@ -47,6 +47,7 @@
 # Engineering Mathematics(EM)
 
 * RIC Course Link -> https://unacademy.com/course/ric-on-digital-logic-design/VR0E7ZWC
+* Started.
 
 ## Sample Paper
 
