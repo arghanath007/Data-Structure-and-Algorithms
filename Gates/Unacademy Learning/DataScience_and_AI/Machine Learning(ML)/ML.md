@@ -705,6 +705,208 @@
 
 ## regression-classification-part-iii (4)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2878900e-f064-4639-821c-399ec1c38140)
+
+* In **underfitting** we focus on **high bias** more than the **high variance**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe5936d4-5899-4c5d-b727-e619a22eb5af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82e0c812-bda6-4323-80fc-8026c10ef3b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43da1641-b94e-4119-b924-267445629543)
+
+* Outlier [Examples]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ca70cb9-e3e8-44e7-af58-7a29a08ccc8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18f1b2eb-e837-43fc-92c2-d1f51e587141)
+
+* Multicollinearity.
+* The more no. of **features or variables** there in the **data points**, the **accuracy** of the model will be **less only**. If the **complexity** of the model is **high** then the **model accuracy** will be **low/less only**.
+* If the **complexity** of the model is **less/low/simpler model** then the **model accuracy** will be **high/higher only**.
+* If we **reduce** the **features or variables** then the **model accuracy** will be **high/higher only**.
+* The **less** is the no. of **features or variables** then better is the **model accuracy** only.
+* We can detect the **duplcate features** and **delete them**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d38f67ec-98a5-435c-b737-de3e3cd1c721)
+
+* Co-related features. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc82f6c3-fce3-48f8-829c-491b3b78ea14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1de2809c-a7fb-401f-a032-3f361fbe09fd)
+
+* Correlaton Coefficient.
+* Pearson's Correlaton Coefficient [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bca884eb-956a-4926-8b59-0846eb5262ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30213b02-26ab-4325-acd6-6403ed3cec46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32bb553b-86ef-464e-a5d4-e845e060c467)
+
+* Correlation. [**VERY IMPORTANT**]
+* The model wants to see out of all the **features** which **features are correlated**.
+* The model can easily identify the **highly correlation** features.
+* To find the **correlation** values then we have to use a **formula** for that.
+* **0.6** closes to **1** so it is **highly positive correlated**.
+* **0.4** closes to **0** so it is **highly negative correlated**.
+* **0.5** will be considered in **low positive correlated**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6398c7d-13b0-4c8e-8d59-557f2f698bf3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d39d9c82-0443-4ed2-af76-e511e3543850)
+
+*  Pearson's Coefficient Correlaton(r) -> This **formula** is used to find the **correlation** values** we studied **above** [Formula] [**VERY IMPORTANT**]
+*  **n** is the **no. of data/values**.
+*  To calculate the **Pearson's Coefficient Correlaton(r)**, use the **above formula** than the **below formula**. Below one is **time consuming**. Still **Learn both**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c37d57d4-c30e-40c9-9484-2667f272556a)
+
+* Cov -> Covarience [Formula] [**VERY IMPORTANT**]
+* Var -> Variance.
+* **n** is the no. of elements/data/dataset.
+*  Correlaton Coefficient(r)
+*  Standard Division(Sigma) from **maths**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50c79e2f-02f3-4826-aa8a-1398d3b054f1)
+
+* Question [**VERY IMPORTANT**] [MSQ]
+* We have to use the **above formula** which is **Pearson's Coefficient Correlaton(r)** for this **question**. [**IMPORTANT**]
+* We have to apply the **formula two times**, so it will be **time consuming**. So trying to do with the **graphs**. [**IMPORTANT**]
+* If exact value was asked then we had to **compulsorily** apply the **formula** and find the **values**. [**IMPORTANT**]
+* As **exact value** is not asked in the question, so we can use **graphs** and try to find out the **answers** of the question. [**IMPORTANT**]
+* The **correlation** between **X and Y** is **0.9** which is **high positive correlation**.
+* The **correlation** between **X and Z** is **-0.5** which is **low negative correlation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7869f7f-7a10-43e1-965c-83d17baeaf54)
+
+* **X-Y** correlation.
+* The **graph** clearly shows that it is a **high positive correlation**.
+* Option **A** [Correct]
+* When we are making between **X-Z**, in the **Z** column the values are **decreasing** as we go down the **'Z' column**. The values are **decreasing** so it is **negative**.
+* So we will look at option **C and D**.
+* Option **C** is **incorrect** as we already know that **Z** is **decreasing** which means it is **negative** and not **positive**. So,
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9ae74fb-f2d8-43e6-a550-1946133958a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7338a4b-5cdb-4b8b-80eb-9c92328dd587)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/817977f9-c829-4fdd-b369-43f4e006ccc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7af236c-5e04-4648-8a81-499a24196113)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3e53e43-8060-44b3-a8b5-f9c84ddd9b4d)
+
+* Option **D** [Correct]
+* Option **A and D** [Answer] [**VERY IMPORTANT**] [Practice it again]
+
+## Regularization
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6c91ee6-7cd5-4d0f-8897-758ed357b0b2)
+
+* **Regularization** is a technique which is used to **overcome** the problem of **overfitting** and **feature selecton**. [**VERY IMPORTANT**]
+* **Feature selecton** indirectly reduces **underfitting**. [**VERY IMPORTANT**]
+* **Feature selecton** is removing **redundant features**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0d398d2-8c88-4e30-86b5-116bb9e55c56)
+
+* **Lasso** regularization is also called as **L1 regularization**. [**VERY IMPORTANT**]
+* **Ridge** regularization is also called as **L2 regularization**. [**VERY IMPORTANT**]
+* **Elastic Net Regularization** is also called as **L1 and L2 regularization**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96bf3669-8b0c-45d5-9878-eb2deabde735)
+
+* Outlier [Example]
+
+## Lasso Regularization(L1)
+
+* Lasso -> Least Absolute Shrinkage and Selection Operator.
+* slop(m)
+* n -> No. of datapoints/values/data.
+* m -> No. of features(independent variables).
+* Lambda -> Hyperparameter.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2729e918-5592-4b04-92d4-62993c2e18d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fa1140e-841f-4f82-8fe3-21b89eb575b5)
+
+* **Lasso** is used for **regularization and feature selection**. [Formula] [**VERY IMPORTANT**]
+* The **formula** is the **addition of slope**.
+
+## Ridge Regression(L2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46758f03-5133-4c31-8616-ae5a6e6020ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e2c954-629e-47a2-8c1e-21b6a02073fc)
+
+* In this we add squared magnitude of the **feature/independent variable co-efficient** in the **cost function**.
+* Cost Function -> ((1/(2 * n)) + lambda * (summation of (ai) ^ 2))
+* The **formula** is the **multiplication of slope**. [Formula] [**VERY IMPORTANT**]
+* With the **Ridge Regression** the problem of **overfitting** wll be **reduced**. [Formula] [**VERY IMPORTANT**]
+
+## Elastic Net Regularization (L1 and L2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68a209ad-4b72-4530-8e45-16ab0928f25f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196aa556-e3ad-4287-9b4a-d279d7232dff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a198f8e8-7c72-428d-b92b-2699c5972060)
+
+* Cost Function [Formula] [**VERY IMPORTANT**]
+* Helps in reducing **overfitting** and also helps in **feature selection**. [**IMPORTANT**]
+
+## Logistic Regression(Classification)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/651ea12e-8b97-4fd9-82a7-ff0c57b2da0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d78254b-3c30-4545-b51c-62545fbcb1f7)
+
+* It is a **classification** algorithm.
+* It will be like **boolean values** either **True or False** or **Yes or No**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da91099-8b01-4c73-adb8-076c3fd3dfef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02a69560-78a5-4914-ae71-3f10b7d96f65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88570037-0d4c-41f1-8647-4ff7d5fe5444)
+
+* Types.
+* Classification means **class**. We have to find how many **classes** are there. How many different **class** are there or are made.
+* Binary -> Two classes -> **True or False** or **Yes or No**.
+* Binary -> Two classes -> Pass Or Fail.
+* **Output** is **fixed** either it is **Pass Or Fail**.
+* **Logistic Regression** works/based on **probability**. It cannot go out of the range of **probability**.
+* We cannot use **linear regression** on a **classification** problem. The range cannot go beyong the **linear**. [**IMPORTANT**]
+* In **probability** the **max** value is **1** and **min** value is **0**. The **output** should lie between **0 and 1**. It shouldn't go beyond that.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b2899b6-ce94-4dc4-bb92-4e443723b37a)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9ee3614-ab6e-45da-bbc7-4a217db0dd39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fb3fa28-3e9b-45b4-9e24-a7e61e1e2501)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31e474be-65cb-4a38-88d8-9c69c211655e)
+
+* Using **sigmoid** function we implement the **logistic regression**.
+* **Binary,ternary** these type of **classifications** use **logistic regression**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed26c44a-b84d-4b7e-9fa3-0d3ab62271f4)
+
+* Sigmoid function or logistic function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c7761e9-2c51-4dbb-b62d-a52932a7742a)
+
+* Sigmoid function [Formula] [**VERY IMPORTANT**]
+* With the help of the **Sigmoid function** the output is between **0 and 1** only.
+* We are making **probabilistic model** for that we need **Sigmoid function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ffa21d7-3f62-4ade-a567-542232e8963e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c405def-2c86-4c59-8479-0c62479dd38a)
+
+* **y** -> Dependent variable.
+* **x** -> independent variable.
+* Theta0 -> Intercept.
+* Theta1 -> Slop.
+* **Theta0 and Theta1** value will already be mentioned in the **question**.
+* Logistic Regression [Formula] [**VERY IMPORTANT**]
+* **Logistic Regression** will tell either **one of the classes**, it will never go out of the **classes**. [**IMPORTANT**]
+* **Linear regression** can throw us outside of the **class** as well.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fbae368-04f5-4865-86d6-d8a46b27e1f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b459f87-7424-4148-af03-f0b28920afc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/043f5956-fd3a-4e42-a711-a977b8c358f5)
+
+* Example.
+* The name is **logistic regression** but it is working for **classification** problems. [**IMPORTANT**]
+* To solve **classification** problems we cannot use **linear regression** algo. It is never possible. We have to use **logistic regression**. [**IMPORTANT**]
+* The **sigmoid** function value is always between **0 and 1**. [**IMPORTANT**]
+* The **outlier** problem will be fixed/removed using **sigmoid** function. [**IMPORTANT**]
+
+
+
 
 
 
