@@ -905,6 +905,360 @@
 * The **sigmoid** function value is always between **0 and 1**. [**IMPORTANT**]
 * The **outlier** problem will be fixed/removed using **sigmoid** function. [**IMPORTANT**]
 
+## regression-classification-part-iv (5)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f05fd552-6db3-4f36-a5d5-a28b6a8ab522)
+
+* Formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abe81402-e169-431c-af97-9053ac45c8d1)
+
+* What is the probability of pass for the student who studied for **33hrs**?
+
+> It is obviously **one(1)**/
+
+* Study hours(x) is the **independent variable**.
+* **Pass/Fail(y) is the **dependent variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96052f17-d60f-4208-b928-18a5f3043b05)
+
+* Solution [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc8f006a-986d-4dfd-a6c0-b77663cfc2b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6361664e-e759-4d23-b8db-e0520d6f3810)
+
+* The probability of chance that the **student** will pass with **33hrs** is **0.88 or 88%**.
+* Answer -> 0.8 or 88%,
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fa4e6ba-b441-4a11-9550-267937baa442)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae30908-ea9c-4b36-b36c-69a0d2af13e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28dd21eb-d473-43c5-86a9-446e862afacc)
+
+* Solution [**VERY IMPORTANT**]
+* hours -> 33.47hrs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ba696f5-d5d9-4fc7-b86c-0e40dd1300f5)
+
+* Logistic Regression [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f04d136-16c0-466c-9aa4-28985162a99f)
+
+* Cost Functon of Logistic Regression [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/749781ae-26dd-4c93-9581-a678760a2331)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d0321ba-31bf-4ca7-a079-6792f117585b)
+
+* We will not get **global minimas** we will get a lot of **local minimas**.
+* The reason we don't use the **above formula** which is the **cost function of linear regression** because we get **multiple local minima**.
+* To remove the **above problem** we use the **Cost Functon of Logistic Regression** formula.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6c3bbdc-e17c-4b7d-b915-80f42cc49037)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdd56780-4b15-4628-bfc9-98331d9a961e)
+
+* ln [Example] [**IMPORTANT**]
+
+## KNN
+
+* K-nearest neighbour.
+* It is both a **classification and regression** algo.
+
+### KNN classification
+
+* classification -> classes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b63db97-42f3-401c-a32f-da94a0d31505)
+
+* **x1 and x2** are the **features**.
+* dot(.) -> Class 1
+* plus(+) -> Class 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ed30cde-9f74-41c5-945a-b69aa5f0b0fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb700c2f-d2a2-40f6-be3e-99ca94fd12c8)
+
+* **New data** has been given and we have to find out with the help of the **data** what will be the **class** of the **new data? We have to identfy it. It is not given. [**VERY IMPORTANT**]
+
+> Let say we have **k = 4** neighbors which means around the **new data** it will take the **4 nearest neighbors** from it. It will identify the **classes** of the **4 nearest neighbors**. Let's say that the **1st neighbor class is '0'** then the **2nd neighbor class is '1'** then the **3rd neighbor class is '1'** then the **4th neighbor class is '1'**. The **class** which is **coming come in-terms of count** then we will just consider that partcular **class** as the **class** of the **New data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12dcc7ec-ad10-4a74-a675-e80081da1102)
+
+* To calculate the **distance** we will use the **Eucledian distance**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33c695b5-cc59-4541-a556-a2072aa036e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/477accc2-2d42-43ed-b7e3-988bb72a48ac)
+
+* **Eucledian distance** [Formula] [**VERY IMPORTANT**]
+* **Distance** between **P and Q**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46bf35bf-8cc9-445f-97ff-0ada62208c40)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cbfab33-d238-4ba1-82c2-c94206243c49)
+
+* As **K = 3** so the **3 nearest neighbors** are **2.5, 3.04 and 1.11** and their **class** are **0, 0 and 1**. So the **class** of the **new data** is **class 0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cbb574d-b747-4a99-b75e-a513fb3e96ca)
+
+* Answer -> Class **0**. [**IMPORTANT**]
+
+### KNN regression
+
+*  In which we 1st find the **K-nearest neighbor** and then find the **average** of their **output feature/parameter**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f419daa8-d4b9-46ea-af11-29781eadcea1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10bbe3b5-ae69-4fba-83d1-be76e9f78813)
+
+* We have to find the **average** in **regression**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed23a5c-9c52-47c6-adf6-22afecca7ee3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13639a84-ab14-4324-b11c-152b0b64baca)
+
+* Example.
+* **Distance** can be **same** because the distance can be mentioned equi-distant from each other.
+
+## Performance Matrix
+
+* Normally used in **classification**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0edf0b8d-2414-4ea7-b504-5141b60fdaa1)
+
+1) Confusion Matrix -> We will calculate **accuracy, precision**.
+
+* 1 -> Yes
+* 0 -> No.
+* We are counting how many times we have actually gotten **Actual '1' and predicted '1'** as well. **3** times.
+* We are counting how many times we have actually gotten **Actual '0' and predicted '1'** as well. **2** times.
+* We are counting how many times we have actually gotten **Actual '1' and predicted '0'** as well. **1** time.
+* We are counting how many times we have actually gotten **Actual '0' and predicted '0'** as well. **1** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ffe248a-3949-47c7-be92-5a00926c1d21)
+
+* The **Actual '1' and predicted '1'** and the **Actual '0' and predicted '0'** are the **cases** where we should get exactly **correct** answers which means whatever **class** was there and the model was able to **predict** that class.
+* Correct Prediction -> 3 + 1 -> 4
+* Total Cases -> 3 + 2 + 1 + 1 -> 7.
+* Accuracy -> Correct Prediction / Total Cases -> 4/7 -> 0.57 -> 57% [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c71b09c-e4f9-41b7-a1f2-875afb26cf70)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b7a3fbc-be26-4688-9644-15ea310a7310)
+
+* Calculated the **accuracy** parameter. [Example]
+* Only with the **accuracy** parameter we cannot analyze any **model**. Maybe some data is **wrong**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de58966d-2697-40e7-a6cd-81f26fc327eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/691660b1-5073-4171-bf87-b5ee76948c77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b980e907-06d9-4ec7-ae34-ba4b83e3d38a)
+
+* **Point 2 and 3** are the **predictions** which we want.
+* We will try to reduce the **false positive(FP)** where the mail is **not a spam** but the model predicts it as a **spam emal**. [We will try to reduce these case]
+
+* Spam = 1 -> Positive
+* Not Spam = 0 -> Negative.
+* TP -> True Positive
+* FP -> false positive
+* FN -> false Negative
+* TN -> True Negative
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39167ad1-5268-4f67-b317-10cca20d167a)
+
+* We want to reduce the **cases** where the mail is **not a spam** but the model predicts it as a **spam emal** which is called as **false positive(FP)**.
+* We want the **false positive(FP)** to be at the **minimum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72e3d3ef-7c5f-4ef8-8c90-a52243ab0141)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9359d9b0-9410-4b07-a49e-3463f1ad36c5)
+
+1) **Precision** -> TP/(TP + FP) [Formula] [**VERY IMPORTANT**]
+2) **Recall** -> TP/(TP + FN) [Formula] [**VERY IMPORTANT**]
+
+* We have to focus on which value has to be the **minimum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03d22345-778a-49fd-9668-fc3333c0f9e5)
+
+* Example.
+* In the **medical field** there should be **no False negatives(FN)**.  [**IMPORTANT**]
+* It will vary from **one field/area**.
+* In someplaces **FN** would be more important and in someplaces **FP** would be more important. [**IMPORTANT**]
+* Maybe in some fields both the **FN and FP** are  more important.  [**IMPORTANT**]
+
+### F-Beta Score
+
+* We want to focus on both the **FN and FP** as they are more important in a **particular field/area**. [Both of them should be **minimum**]
+* In that case we will use **F-Beta Score**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28688c72-2047-4359-962e-779f2d804042)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/141a5554-bcec-47e8-b241-cdc498d9050d)
+
+1) If both the **FN and FP** are **more important** then **Beta = 1**:-
+
+* F-Beta Score = (2 * (Precision * Recall))/(Precision + Recall) [Formula] [**VERY IMPORTANT**]
+
+2) If **FP** is more important than **FN** then **Beta = 0.5**:-
+
+* F-Beta Score = ((1 + (0.5) ^ 2) * (Precision * Recall))/(0.5 ^ 2) * (Precision + Recall) [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55895ded-e3a3-4f73-a46f-7b87413523d7)
+
+3) If **FN** is more important than **FP** then **Beta = 2**:-
+
+* F-Beta Score = ((1 + 2 ^ 2) * (Precision * Recall))/(2 ^ 2) * (Precision + Recall) [Formula] [**VERY IMPORTANT**]
+
+* We are trying to **minimize** the problems.
+* **TP and TN** are the **good** cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62c0324f-acf0-4ec5-b198-3060fac701e1)
+
+* Actual
+* Predicted. [**IMPORTANT**]
+
+## Naive Bayes Classifier
+
+* It is on **classification** problems.
+* x1, x2, x3 -> Independent variables/event
+* y -> dependent variables/event.
+* c1, c2 -> Different classes.
+* **Event** because we have **probability**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ed0cfa-5ef6-4be0-a374-6fe9219cda03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/376d3a63-84d9-4d1c-af2e-7a860f27f5ab)
+
+* Next class.
+
+## cross-validation-part-1 (6)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d659948d-9c0f-4f13-83d0-8a006c9b4ef2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/475ce4ad-353a-4ee6-b010-f70901c29fe9)
+
+* Classification Algo
+* Category -> Class.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f69dbb4f-7cc3-4178-86dc-23cec817e191)
+
+* Applications.
+
+## Naive Bayes Classification
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70e11ddd-f3cf-4204-8819-9043238ddeff)
+
+* Naive Bayes Classification
+* It works on **probability** of an object.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b000ee6-576c-4c57-a140-7c90d0806b82)
+
+* Why?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7f5c6ea-f5d2-4521-babe-cc1917d85c09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e30d5e5-33b2-49f1-a41e-9c07847311be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2577b6f4-dd57-4614-9989-ba06c2f7712f)
+
+* Bayes Theorem Probability. [Formula] [**VERY IMPORTANT**]
+* P(A|B) -> Probability of **A** given **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc66590-5740-47fa-862e-8136bd5f5bd3)
+
+* Working.
+* **x1, x2 and x3** are **independent variables/events**.
+* **y** is the **dependent variables/events**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00532104-29c2-4dda-95fe-b2a1911fd1db)
+
+* The **output** is classified either it will go to the **Yes** class or the **No** clas. There are **two** different classes.
+* No. of Class -> 2 (Yes, No)
+* No. of feature -> 3 (x1, x2, x3)
+* Datapoints are now **4**.
+* No. of value of each feature -> 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac3e32d9-630d-4fc4-a0db-c6ac1e5c9943)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/346338e0-2b69-48b0-b59d-f315d3535094)
+
+* The **no. of classes** we have that many we have to **calculate**.
+* VDK + K
+* V -> Samples
+* D -> Value of that Feature.
+* K -> Class
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcce578e-bbf1-4b35-9318-d462f2b19166)
+
+* Total cases -> 12 + 2 -> 14.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab1b2915-bd24-4d2e-b583-dde5d8badaf3)
+
+* Formula [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e446e49d-5b8f-433e-ac94-1b0a82787994)
+
+* For every separate feature there is a **table** for it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97f321ac-54d2-4a42-8301-f4a140cf82c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee8dc5b-3fbf-4486-896f-d064e79140c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd228a4-7479-4bdf-a7f6-51ea24ba64de)
+
+* We have to predict the value of dependent variables.
+* Probability of **y**, P(y | Sunny, Hot)
+* We will solve by **removing** the denominator because **denominator** is the **common part** and it will get **eliminated** eventually and we want to calculate both the conditions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c506fbc-c884-4bcc-921f-38813f061108)
+
+* The total probability of **Yes(Y) and No(N)** doesn't add upto **1**. It should be **1**. For these reason we have to calculate for **Yes(Y) and No(N)**. Those are not **normalized** value. We are doing **Normalization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcb44e5a-9079-4bb8-ba0e-665121463bda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b2878f-e240-4cff-832f-7e5780c98569)
+
+* Now **Yes(Y) and No(N)** add upto **1**.
+* We will go to the **No(N)** class because it has **higher chances/probability**. [**VERY IMPORTANT**]
+* We are using it to predict the **classes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75c46a47-b89b-46b3-8b42-7140d8c615e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b26a6026-8147-41aa-b722-34cab50fc4d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2182ce82-e8ef-42cd-b329-27556fbe4cb9)
+
+* **5** places have **Sunny** and the total no. of places is **14**.
+* P(Sunny) = 5/14.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41ad9a96-910e-47e9-8e37-8a78f8893aec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cce5b71a-3a6e-4f0e-b6fe-c7691309372f)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a94a9f-6fb2-45c2-9e24-1c2aaa51f94f)
+
+* f1 -> 6
+* f2 -> 6
+* 6 + 6 -> 12
+* We also have to find out the **P(C1), P(C2) and P(C3)** which is **3**.
+* Final is **6 + 6 + 3 -> 15**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/879017b2-e7f4-464b-a514-cc085c5ed06b)
+
+* For the values of **D = 2, V = 2 and K = 3** we are getting **15** as the **answer**.
+* Now check which option is giving **15** by inserting the values of **D, V and K**.
+* D = 2, V = 2 and K = 3
+* (V ^ D) * K -> (2 ^ 2) * 3 -> 12 [Incorrect]
+* (k ^ V) ^ D -> (2 ^ 2) ^ 3 -> 4 ^ 3 -> 64 [Incorrect]
+* V * D * K + K -> 2 * 2 * 3 + 3 -> 15 [Correct]
+* K * (V + D) -> 3 * (2 + 2) -> 12 [Incorrect]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7930410-2044-4d62-84e4-a5783c44516a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee26108e-0de1-478b-9417-2cd6daac8dce)
+
+* Option **C** [Answer] [**VERY IMPORTANT**] [Practice Paper Question]
+* We didn't take **K = 2** then option **D** would have given **8**, we wouldn't be able to **eliminate** the options. That's why took **K = 3**.
+* We will **reject** the others.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a510f8a-1f68-4f86-8bea-57a5099035d2)
+
+* Take an **example** and try to solve the **question**.
+
+## SVM
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/268e1d0b-15b9-4b37-9d65-63d3b6bc46fd)
+
+
+
+
+
+
+
+
 
 
 
