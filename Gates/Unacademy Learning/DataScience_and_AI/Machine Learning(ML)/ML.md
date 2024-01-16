@@ -1252,16 +1252,78 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/268e1d0b-15b9-4b37-9d65-63d3b6bc46fd)
 
+## SVM Classification
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d5fa103-c329-49f7-bf9d-9caafc10d0a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05e67e14-3491-42cd-917d-2bc5814ab863)
 
+* The **line** is called as the **hyperplane**.
+* The **points** are the **vectors**.
+* We have to draw the **line** in such a way that the points/vectors get **max. margin**. That **line** we have to draw.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86a28a03-d923-4355-aa57-177f3fd05419)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/647d346f-3715-4c0b-98be-e371d9304f4d)
 
+* We have **two lines**. Which line is the best?
 
+> The line which is properly dividing the vectors then that line is the **best line**.
 
+* To select the **best hyperplane** we have to find the **max. distance** between the nearest data points on either side of the **hyperplane**. The distance should be **max** then that **hyperplane** is the **best hyperplane**.
+* Between the two lines which line is the **best** and for that reason we are looking at **margins**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/954fcb79-e4c4-4fe8-813e-04eb5c51d8c0)
 
+* The inbetween distance among the **margins** should be **max.**.
+* Distance between margins should be maximum.
+* Marginal Line.
+* Maximum margin from nearest data point.
+* If we have drawn the **best hyperplane** and the **vectors** helped in making the **best hyperplane** are called as **support vectors**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67d85eab-803f-416b-bb78-e7ca482c0c6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a030210d-e4eb-49d8-9da5-8b69b76d1dbe)
 
+* The data points are called as **support vectors** through which the **margin lines** are passing.
+* **Support vectors** are those **data points** which helped in making the **margin lines**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2a68030-2bad-4b08-9f0a-f84765f0cc5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfebbd0a-d101-47a2-ad5f-3b76bc884c68)
+
+* **G1 and G2** are **Two margins**.
+* **B and D** are the **hyperplane**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9236e739-8d10-4a65-92c3-736d17dd999d)
+
+* Which hyperplane is better **B or D**? [**IMPORTANT**]
+
+> We can see that the **Max. margin(M1)** in **'B' hyperplane** is **more/greater** than the **Max. margin(M2)** in **'D' hyperplane** which is **M1 > M2**.
+
+* We have to consider the **noise/errors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe0f033d-8d37-44f1-b393-40f5ad9cfe02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb6daf35-bde1-4648-b38f-b471055f11dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b06d599-4452-4afb-ab4b-2950ae69d716)
+
+* Soft and Hard Margins.
+* Hard Margin -> No errors we can tolerate and the **margin** should be **maximum**. [Not Practical]
+* Soft Margin -> Some errors we would tolerate but the **margin** should be **maximum**. [Practical]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b114003-f52d-42f3-95d0-c2ff7974a756)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/765c8a74-519f-4a32-a8e0-c86569ff0326)
+
+* Support Vectors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de5fd71a-7a7f-45f0-8463-65b5940bf1d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92879a98-224f-400f-a682-6cbcdd98fa83)
+
+* Hyperplane
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccf26713-b640-41d3-865d-df4124db3438)
+
+* Comparisons.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59711f7b-3eb1-4ba1-bffd-dd362a584a93)
+
+* Degree of tolerance.
 
 
 
