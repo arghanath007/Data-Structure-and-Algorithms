@@ -1616,6 +1616,173 @@
 
 * We calculated the **Entropy of the complete data** which is **S(y)**.
 * We also have to find the **Entropy** of the **individual data**.
+* **x1** feature/independent variable has two variables(a1 and a2).
+* We have to find the **entropy** with respect to the **output** variable only.
+* True -> Positive Class.
+* False -> Negative Class.
+* We have **'3' times a1** in **x1** and we got **2 times 'True' and '1' time 'False'**. So **a1** is going to the **positive class** for **2 times** and to the **negative class** for **1 time**.
+* We have **'3' times a2** in **x1** and we got **2 times 'False' and '1' time 'True'**. So **a1** is going to the **negative class** for **2 times** and to the **positive class** for **1 time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d25c6fb-c218-4d5c-a02b-e4aa2083262a)
+
+* We have calculated **entropy** for individuals in **x1**.
+* Out of all the **datapoints**, in **x1** we have **'3' a1's and '3' a2's**.
+* Probability of **a1** in **x1**, P(a1) -> 3/6
+* Probability of **a2** in **x1**, P(a2) -> 3/6
+* S(a1) -> Entropy of **a1**.
+* S(a2) -> Entropy of **a2**.
+* Total **a1** with respect to **x1**.
+* Total **a2** with respect to **x1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf4136b7-829d-46af-86a2-3171734d7dc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20826819-e042-4737-9cd0-94d52720ade0)
+
+* Gain(X1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6c5229a-9e37-4041-a71a-2e9745b98ebf)
+
+* X1
+* Now we have to find for **X2**.
+* **X2** has two class which are **b1 and b2**.
+* **b1** is **'4' times** and we have **'2' times 'True** and **'2' times 'False'**. We have **equal distribution**.
+* Whenever there is **equal distribution** then that is the  **best case** for **us**. Whenever we solve for it we always get the **entropy** as **1**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9b72799-c3c2-4c73-a7d8-076a190bf5f5)
+
+* **b2** is **'2' times** and we have **'1' time 'True** and **'1' time 'False'**. We have **equal distribution**.
+* Whenever there is **equal distribution** then that is the  **best case** for **us**. Whenever we solve for it we always get the **entropy** as **1**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9e11e08-705b-448b-b35f-ede3b7b9eb7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e597fb1-e09b-488d-b41c-300cbb6cfbc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8feacf90-1edf-4b10-bf39-ecbcb9f7ae43)
+
+* Entropy for **X2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1861cbe-01bd-4f74-8d8b-b030978777ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50fa32d6-1213-4e7c-8917-c34cbad14bb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8445f337-33f8-40fc-a515-58d16e7795e7)
+
+* Whenever the **entropy** is **1** which means that there is **100% change of inpurity** or **impurity is high** **completely/complete impure**. [**IMPORTANT**]
+* Whenever the **entropy** is **0** which means that there is **100% change of purity** or **completely pure** or **pure**. [**IMPORTANT**]
+* Probability of **b1** in **x2**, P(b1) -> 4/6
+* Probability of **b2** in **x2**, P(b2) -> 2/6
+* S(b1) -> Entropy of **b1**.
+* S(b2) -> Entropy of **b2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/779f5794-3826-4ac4-aa44-e366abe3a30d)
+
+* Gain(X2).
+* **Gain** means **information gain**. [**IMPORTANT**]
+* The **higher** is the **no. of Gain** the **more amount of information** we are gainng. [**IMPORTANT**]
+* The **Gain** in **X2** is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0d919ca-eecf-4c7d-9de4-bce5e7218de9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93aae590-f97b-4c62-9cc5-43aee75c8ad4)
+
+* Select those **variable/feature/independent variable** whose information gain is more. [**IMPORTANT**]
+* So **X1 > X2** which means we have to select **X1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00e2b8db-ed0a-456e-8166-732d3ebf2f25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39d66266-98f0-4719-8382-60cff107e576)
+
+* Decision Tree.
+* As the **Gain** of **X1** is **greater** than the **Gain of 'X2'** that's why we put **X1** as the **root node** of the final **decision tree**. [**IMPORTANT**]
+* Inside **X1** we have **two classes/features** which are **a1 and a2**.
+* When it is going to an **individual class** then no need to expand further.
+
+### Converting the base in logs [**IMPORTANT**]
+
+* Link -> https://www.purplemath.com/modules/logrules5.htm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f65abad5-c02d-4799-a885-3c0404015a26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b6072d6-9d43-4e70-a32c-0f2ad9186973)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1744e5d1-cf44-40ef-84e5-6e4e18755e3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72511f90-58b0-455d-90c2-1c3c85180f96)
+
+* Conversion. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3c99942-8b5e-4156-b640-d13a16eaeac3)
+
+* Gain(). [Formula] [With Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73b3ae01-39e7-4c3d-bc14-55db948a9555)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcceb82a-fbe0-45fd-b2dc-c510321dc793)
+
+* Question [Example]
+* First we will find the **Gain()** of all the **'4' features** which are **outlook, temperature, humidity, windy**.
+* **Outlook** will have the **highest Gain()** so **outlook** is the **root node** of the **final tree**. [**IMPORTANT**]
+* **Outlook** has **'3' parameters** and we had written them. We wrote **Yes** in **overcast** and we will not expand it further as it is going to a **particular class** which is the **Yes** class. We will expand **Sunny and Rain** as they are not going to any **particular class**.
+* We have **'5' times 'sunny'** in **outlook** and they are going to **'3' times in 'No' class** and **'2' times in 'Yes' class**.
+* As it is **'3' times in 'No' class** and **'2' times in 'Yes' class** so we have to further expand the **Outlook** node.
+* We have **'4' times 'overcast'** in **outlook** and they are going to **'4' times in 'Yes' class** only.
+* **Overcast** is always going to the **same** class which is the **'Yes' class**. That's why we didn't further expand the **overcast** node and directly written **Yes** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dd318b3-36bd-4129-85eb-41a5ebe727a7)
+
+* The **decision** we are taking is that if it is **outlook** and it is **overcast** then we will **definitely play**. We don't have to see anything else.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fed88c79-bc3f-4431-93b3-684fe0b748a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76cbd8f9-9028-4f0d-b477-5aedfffafd04)
+
+* When there is **equal distribution** or 50/50 change of whether we will play or not play. These type of **data** is **100% impure**. [**IMPORTANT**]
+* In **overcast** we had **4 "yes"** which means it is a **pure** data. [**IMPORTANT**]
+* As **sunny** was not going to a **single/particular class** so we expanded **sunny** and calculated the **Gain** values and the **highest Gain** was of **Humidity**.
+* The features of **Humidity** which are **high and normal** are going to **single/particular class** which are **No** and **Yes** respectively. So no need to **expand further**.
+* As **rain** was not going to a **single/particular class** so we expanded **ran** and calculated the **Gain** values and the **highest Gain** was of **Wind**.
+* The features of **Wind** which are **Strong and Weak** are going to **single/particular class** which are **No** and **Yes** respectively. So no need to **expand further**.
+* We didn't need to expand **temperature** because the tree has already reached the **leaf node**. [**IMPORTANT**]
+* We are going to expand still the tree reaches the **leaf nodes**, it doesn't mean we have to expand all of the **features**. It is not necessary. [**IMPORTANT**]
+* Whatever the **temperature** is, we will **play**. Indirectly we can say that the **play** is not dependent on the **temperature** feature.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/529e79fb-4ce1-4803-8ac0-7c396fd5fb6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24e7784d-15eb-477b-8cff-f6772c824502)
+
+* Example. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c29e5c-afd4-4f90-a17e-3693df1220d7)
+
+* H(S) -> Entropy of **play**.
+* C -> Class.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4802597e-be40-4077-bc30-ba26664e6b51)
+
+* Entropy of **play**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e78359d0-6b92-492d-9ffa-7b1e1a41f666)
+
+* In **sunny** we have **'3' times 'No' and '2' times 'Yes'** class. Total is **5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3adbe3b3-0608-4304-ac88-2b4d873b4dfa)
+
+* The **entropy** of **overcast** is **zero(0)** which means it is **pure data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e242dca7-d386-44fd-94ab-523ad79930d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85ae1886-7f69-4ff2-a0bd-7490bc8f8cd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87218543-f0dd-42f5-b483-8fdb18c3a1c8)
+
+* As **outlook** has the **highest gain** so it is the **root node**.
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e811010d-d5a1-41ce-9210-a5f8feb65378)
+
+* Information Gain.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cca92dae-7f24-45cf-b170-c9e73d0ee2e4)
+
+* Information Gain. [Example]
+
+
 
 
 
