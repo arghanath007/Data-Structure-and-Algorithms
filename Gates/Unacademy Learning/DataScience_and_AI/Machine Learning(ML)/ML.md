@@ -1325,6 +1325,122 @@
 
 * Degree of tolerance.
 
+## cross-validation-part-2 (7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6934661-c0e4-4c36-9774-c6e13541a93f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80220033-b5e7-45b3-bcf8-8c421397f6cb)
+
+* Hyperplane [Formula] [**VERY IMPORTANT**]
+* W1 and W2 are **slope**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cbda122-0a49-40a2-b8d7-113098e7b143)
+
+* Degree of Tolerance.
+* * **C** is a **hyper-parameter** and the value of **C** represents the **count of misclassified points** we are allowing .
+* We cannot allow/take more than the value of **C**.
+* If it is more than the value of **C** then the model is not perfect for that particular data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c9d15c6-a9e9-4cb7-bf10-57764a8edcc8)
+
+* According to the hyperparameter(C), we will allow that many **misclassified points** as is the **count/value of 'C'**.
+* If **C = 50** then we can allow **50 misclassified points**.
+* The **greater** is the value of **C** the higher is the penalty for the **SVM** when a **misclassified points** comes.
+* Degree of Tolerance -> How many **misclassified points** we will allow in the **SVM**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a4c1281-d4ce-423e-b639-0815174dae74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7776fbd2-83e1-4ff8-ab5c-461e3131b588)
+
+* The line we are making for the **margin**, there is a **positive and a negative side**.
+* The points on the **hyperplane** are on the **positive side** then they are in **one class say 'C1'**.
+* The points on the **hyperplane** are on the **negative side** then they are in **one class say 'C2'**.
+* It is a **binary classification**.
+* We ar considering the points on **positive and negative side**.
+* Some vectors/points are given directly and we are asked to create a **hypeplane**?
+
+> We will say that some points lie on **positive side** and some lie on the **negative side**. Between the **positive and negative side**, the **hypeplane** is created.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1075687e-ff65-4bba-972b-8bea7d2c5ddd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/943594d9-6024-4990-968a-e42d7a1c9850)
+
+* Explainations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f13b5ce-ffbc-4779-a33e-08d5b458e97e)
+
+* We want the **max. margin** between these **two lines**.
+* The difference between the **two lines** should be **max**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66c6e076-9554-42b4-85c0-d09ae33d3656)
+
+* W ^ T -> Transpose Value.
+* **k** is any **positive integer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9210869f-f7ec-4054-806e-df10756b24a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9049212a-5f4f-444e-aaa5-1e6abcb2ebb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/385f20f0-2dd0-41bf-abb2-69be06df86e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac837fbd-92c6-42d1-bf38-09a21e144f96)
+
+* The difference between the **two lines** is **2/(|W|)**. We want to **maximize** the **difference** which is **2/(|W|)**.
+* **2/(|W|)** will be **maximized** when **|W|** is **minimum**.
+* The distance between the **marginal plane** is **2/(|W|)**. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf32bb56-3a3f-48d1-b65f-2aa08d9ed1f1)
+
+* Cost function [Formula] [**VERY IMPORTANT**]
+* We want to **maximize** the **2/(|W|)**. In terms of **cost function** we want the equation to be **minimized**.
+* So we need to **minimize the **(|W|)/2**.
+* We always want the **Cost function** to be **less**.
+* We can say that it is a **perfect line** and we are not creating any **misclassified points**.
+* We have some **misclassified points** and have to calculate the distance of them from their **margins**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae67b18a-e4ca-4bb7-bec5-6161ba4c959c)
+
+* Explaination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7e63f78-a0e7-48c2-95eb-b1aeaf306055)
+
+* Maximize and minimize.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ee3da0d-fc5a-4443-b6cd-bcaf23fe5e2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88bdd9ce-c881-438e-bb7f-4d08d312d004)
+
+* We have to calculate the distance of all the misclassified points.
+* C -> No. of misclassified points.
+* Eta -> Distance of each misclassified points from **margin**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbcafec1-7250-458b-8021-38af650a0b27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/483642d7-6cbe-4f33-acc8-bf3b4c7058d1)
+
+* We want to **minimize** the **cost function** equation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e12a6228-6836-431f-83e6-74a7b8bacb24)
+
+* Which is the **best line**? Which one is to be considered? [Example] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35d92780-61ae-4258-8de7-67f49b5fe642)
+
+* Hyperplane -> a1 = 2, a2 = 5
+* Hyperplane -> a1 = 20, a2 = 50
+* With the help of the **coefficients** we have calculated the **value**.
+* **H1 and H2** are nothing but **|W|** only. H1 = H2 = |W|
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b85fb18-51f5-448c-b917-c198c5e6519e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb4fda21-c1b5-4e8a-ad80-2cb565f011f7)
+
+* **0.37** is the **distance**.
+* We need to take **H1** as the **best line**. [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc41b475-0e4a-4d94-8762-13eb2c233cce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc18de42-78bf-4ca7-adfa-73dc12b0a6d9)
+
+* Example
+* **Positive Class** means that the **points** are **ahead/above** the **hyperplane**.
+* **Negative Class** means that the **points** are **behind/below** the **hyperplan**.
+* We can get the **Positive and Negative Class** as well.
+* **49mins**.
+
+
+
+
 
 
 
