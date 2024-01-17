@@ -1436,7 +1436,187 @@
 * **Positive Class** means that the **points** are **ahead/above** the **hyperplane**.
 * **Negative Class** means that the **points** are **behind/below** the **hyperplan**.
 * We can get the **Positive and Negative Class** as well.
-* **49mins**.
+* We have to identify the **support vectors** in both of the **classes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d077689d-d423-4ac2-8c1b-86c7ef889d7f)
+
+* We are plotting the points on the graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61951885-9201-41b3-baa4-c6c987aca2ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78375333-5985-4fc1-87b3-64e803349432)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c05e31d6-6835-496f-a5c5-060705c18e39)
+
+* We found **three support vectors**.
+* We need to find the **hyperplane equation**. We need those **three support vectors** to find the **hyperplane equation**..
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d806d5e5-7c38-4fe3-b9e2-1abe58d87339)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af356f86-c206-4686-9d20-81f231cd48d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02609925-5d88-483c-bf0f-357c38803798)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/886860b9-34a0-4093-ab09-16120d77bc2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2508ea6-4d20-4728-b3c0-4bda1ba2fd3e)
+
+* We **biased(bias)** the vector. We added **1** at the end of each vector.
+* We added **1** at the end of each vector because we want to find the **intercept(C)** also.
+* As we have **three vectors** so we will have **three equations**.
+* We have to solve those **three equations** to calculate the **co-efficients**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2dffa08-958f-4466-876f-0e47ce58ea67)
+
+* The value of **a1,a2 and a3** will tell us at the end what will be the **line**.
+* **a1,a2** -> Slop
+* **a3** -> Intercept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac8a637d-668e-4465-adf3-8991c3948294)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d5466b9-9c5d-4039-9752-58b7f5da453a)
+
+* y = (W ^ T) * x + b
+* (W ^ T) -> a1, a2 [Slop]
+* b -> a3 [Intercept]
+
+* We are talking about the **1st vector** which is **S1' -> 1, 0, 1**. In all of three vectors we will multiply with **S1'**. As it is **1, 0, 1 -> 1,0**, it belongs to the **negative class(C2)**. As it is from the **negative class(C2)** so we will write **-1** on the right side of **equal to(=)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2841b542-29bf-4081-bb9a-706d7626272e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cd0a477-0dfb-4aa5-97fd-6f6ce541fd1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ed67f86-db15-4b31-b796-dd48f867b4a1)
+
+* We are now calculating for **S1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3485274c-2611-4171-a0ea-c6eb48682b6f)
+
+* Vector multiplication. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44bbeea6-a6a7-4347-b628-eab830be4d5a)
+
+* For **three variables** we will get **3 equations**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74b48faf-c173-4306-9f58-b11d530ff348)
+
+* We are now calculating for **S2**.
+* We are talking about the **2nd vector** which is **S2' -> 3, 1, 1**. In all of three vectors we will multiply with **S2'**. As it is **3, 1, 1 -> 3, 1**, it belongs to the **positive class(C1)**. As it is from the **positive class(C1)** so we will write **+1 or 1** on the right side of **equal to(=)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eb8c7f4-587a-49f5-aaa7-783e113f70d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66af7552-3ed9-4754-b465-0f65df833753)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64109fa8-49e4-4580-b164-daf0e22ec36d)
+
+* We are now calculating for **S3**.
+* We are talking about the **3rd vector** which is **S3' -> 3, -1, 1**. In all of three vectors we will multiply with **S3'**. As it is **3, -1, 1 -> 3, -1**, it belongs to the **positive class(C1)**. As it is from the **positive class(C1)** so we will write **+1 or 1** on the right side of **equal to(=)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78f583b5-7197-4b12-b58c-f8340856ac11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cc76688-5230-4f47-8d69-9804d29a5f15)
+
+* Equation **III** is correct only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cc4ee31-ebd5-40b9-b709-7069c1b5df8f)
+
+* Equation 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dacaa8c-7b9f-4c75-aa71-6f09e13f2af5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74e24d5d-ce1f-47b9-9449-2cd82b966a0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7ccffa8-7fa7-486f-8cbe-916b6e484351)
+
+* We got the values of **a1, a2 and a3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c8e1bff-dd0c-4927-8c04-086f71ba0069)
+
+* Original vector was of **two points** only and we added the **bias** for the **intercept**. So the Original **two points** are the **slop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be1e0e53-f963-4e77-8a72-abf21d7534c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb75f9c7-88fe-40e4-8486-aa386c06fc60)
+
+* x = 1, y=0.
+* As it is **x,y -> 1,0** so the **line** will be parallel to the **y-axis**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f4849bd-da27-486d-9716-162dca5114ea)
+
+* **-2** is the **distance**.
+* b = -2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cdb1e6d-6fa7-47f5-85a9-3070e1d96996)
+
+* It means that we have to take the **line** at a **distance of '2'**.
+* The line is parallel to the **y-axis**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a78af763-71a6-4886-a46a-78f9dd57d0f7)
+
+* Found the **hyperplane**. [Solution] [**VERY IMPORTANT**] [Numerical] [Practice it again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8be67ff7-12ef-495a-b118-74f454cb2072)
+
+* Representation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/887dae2d-d657-422f-833d-09978419c44d)
+
+* To solve the equation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35a378fb-c60a-440a-9fe6-de2a19a1068d)
+
+* This is the **generalized equation**, we have to use it everytime for any vector. [Formula] [**VERY IMPORTANT**]
+
+## Decision Tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e10c4712-6ac3-4c7d-9cf1-05157d5468d6)
+
+* Decision Tree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cadaaa85-bc65-4184-b174-d02cd8af3d3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58e56276-0e54-4983-bac9-ee0253fc7554)
+
+* **Leaf node** is telling/showing the **output/dependent variable** which means that it is showing which **class** it is belonging to.
+* **Internal node** is telling/showing the **feature/independent variables**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a05cd20b-ca5c-458d-a9b8-3394ac386f36)
+
+* Algos.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16cf79f4-2af2-42a4-9567-bd9cb76e0b6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f46e8a3-e39f-4c94-ac4e-b28f429e3191)
+
+* Example.
+* On **every node** in **every level** we have to take a **decision** whether we have to go to the **left side or the right side**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09a92b7b-a7ed-464b-8a12-1ccfe34c9199)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82a48886-23f1-4cab-acb7-67ad2a8d0e50)
+
+* Example.
+* Class ended abruptly.
+
+## artificial-neural-network-part-1 (8)
+
+## Decision Tree (Classification)
+
+* **x1 and x2** -> independent variables.
+* **y** -> dependent variables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5bfd4a6-9cd8-4599-ab7e-504f992840b1)
+
+* We will calculate the **entropy** of every node.
+
+## Entropy
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4c925d0-6cda-4e7d-87c5-6ba293de5e2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7715115e-5476-4b8a-9d0b-f2b9f45245f4)
+
+* Entropy formula [Formula] [**VERY IMPORTANT**]
+* p(x) -> Probability of that particular node(x).
+* Entropy -> S() [Representation]
+* We have **True '3' times** and **False** also **'3' times**.
+* Take either class as **positive or negative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c30e2a5-510a-4c4c-b7d9-b9b963f28ed7)
+
+* S(y) -> Entropy of the complete data.
+* Probability of P(True(T)) = 3/6 [P(y)]
+* Probability of P(False(F)) = 3/6 [P(y)]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a8fe61a-2808-43b3-9df6-949b335f4771)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c530e74-b620-43da-b30d-f572bb9ba4fc)
+
+* We calculated the **Entropy of the complete data** which is **S(y)**.
+* We also have to find the **Entropy** of the **individual data**.
+
 
 
 
