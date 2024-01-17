@@ -1764,15 +1764,29 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87218543-f0dd-42f5-b483-8fdb18c3a1c8)
 
 * As **outlook** has the **highest gain** so it is the **root node**.
+* We got the **root node**.
+* Entrophy is **zero(0)** means **pure data**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3896f42-2de1-44ef-bf22-c6eb9d5e368b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f40e6415-7aa8-4ea2-a2c3-ebe1e5a45b52)
 
+* When the data values are going to a **particular/single class** only then the **entropy** is **zero(0)**. [**IMPORTANT**]
+* When the data values are going to a **two class** and in **equivalent/equal amount** then the **entropy** is **one(1)**. [**IMPORTANT**]
+* When the data values are going to a **two class** and in **unequal amount** then we have to use the **entropy formula** to calculate the **entropy**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a823352e-85b5-4422-882e-12ab3a046cf2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6895c943-3b27-47e8-bd17-4de567c244be)
 
+* Gain calculation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c3170bd-9d3e-4d61-9c2c-d8afe5fcffbb)
 
+* Humidity.
+* If every types value belongs to same class for particular variable then information gain of that variable s same as parent node. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/271a070e-399c-4d75-b708-54aa335244c6)
 
-
+* ID3 -> Classification.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e811010d-d5a1-41ce-9210-a5f8feb65378)
 
@@ -1781,6 +1795,107 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cca92dae-7f24-45cf-b170-c9e73d0ee2e4)
 
 * Information Gain. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5e3a898-77c6-49ce-b895-945256dee299)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c196ad90-77db-4074-8f39-e54994452ba1)
+
+* CART. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29ce220b-a852-43d1-9428-3fb53e6b8be9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf2950c2-dd34-4eb5-81bf-9e6182696043)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec64dae8-f801-4b56-9c9d-0cb2d92c1b5b)
+
+* Overall Gini for **outlook** feature.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3852d8cc-199f-43e1-85b9-026823265746)
+
+* Temperature
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/791b0d68-9361-43a6-80eb-3e344ce681e2)
+
+* Humidity and Wind
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c0d4646-a6dc-4557-b0cc-524844401c69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a11ae7aa-493c-4e52-854c-314a27a44c03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/480c92ce-9bbb-4b50-aa67-1a07cc692fb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a92690e-391e-4637-a486-866175dcc00a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6512f434-19b1-4f4f-80d4-6ae661a85e6f)
+
+* Temperature, Humidity and Wind Table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c69b2396-f8bf-4dd1-8ae5-21da26cd361a)
+
+* Temperature
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83e11316-3858-4254-8314-56c60dc9391c)
+
+* Humidity and Wind
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56bcafac-ce9f-46e2-8cca-cd4dd8ed2d69)
+
+* In the **previous example** we were selecting the **nodes** based on who had the **highest Gain**.
+* In this **example** we were selecting the **nodes** based on who had the **minimum Gini index/value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0322f156-acbb-449e-b9b7-b98083fd2bed)
+
+* Final Tree [Solution] [**VERY IMPORTANT**].
+
+## Doubts
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fd18479-afbc-470f-9951-6f10b5e3e995)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ebe0720-fa44-415c-a901-bcb167d517e9)
+
+* Wanted to represent in **y = mx + c**.
+* Both are **same** in this case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cc1139f-be2e-4614-b089-780cc45b9672)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1203aaf1-1101-4b1a-8dfc-15439ebf0754)
+
+* Cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/611aa95f-0630-4901-9f1c-b06f81bc4df4)
+
+* Exanple.
+
+## artificial-neural-network-part-ii (9)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a66d41b6-e8a1-4e21-9fa2-e801e9fb5757)
+
+* Decision Tree -> Regression
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce006178-a610-4831-b3d6-6d71c21c7851)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c3f1ee-2a41-4a3c-8fdc-08f0323af1e1)
+
+* Decision Tree Algo
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bff0b734-9ccd-4c17-8969-d45d52cc6d0a)
+
+* We are calculating **Standard Deviation(S)** here. [Formula] [**IMPORTANT**]
+* Hours Played -> X -> Output Variable/Independent Variable.
+* Average -> X'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05415d70-7cd4-44f4-96e3-307622f6e7d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06de31e1-e1eb-4b7d-a327-67d85db54559)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff8fa241-21ac-4493-82ec-95f4ab36d542)
+
+* Standard Deviation(S) and Coefficient Deviation(CV).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33c4ef95-a2f3-4d14-96ba-9f67d981469a)
+
+* Standard Deviation(S) for two attributes. [Formula] [**VERY IMPORTANT**]
+* P(C) -> Probability of the variable(x).
+* S(C) -> Standard Deviation of the variable(x).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/512469d6-24e7-433c-8390-a00d985334b6)
+
+
+
 
 
 
