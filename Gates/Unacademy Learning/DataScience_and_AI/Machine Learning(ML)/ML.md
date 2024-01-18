@@ -2603,9 +2603,134 @@ b) Bipolar Sigmoid Function
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7411467-96e0-4128-b34d-56a33d297296)
 
-## Multilayer 
+## Multilayer Perceptron Feed-Forward Network
 
-* 1hr 8mins.
+* **Feed-Forward Network** can contain **single layers** as well. Doesn't necessarily needed to be a **multi-layer**. Can work on a **single layers**.
+* If **Multilayer Perceptron Feed-Forward Network** is written then there is a **minimum of '1' hidden layer** there. The **hidden layer** is the extra layer that should be there in the **middle**.
+* **Hidden layer** can be **more than '1'**.
+* **Input and output layer** can be **only '1'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82f63c6f-56d5-4d1f-a398-9e146fb3653c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffbc355f-1af3-4b80-8869-0915c6a60f31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c41d3a1-04ae-4f0e-b000-257f2e080ce9)
+
+* **Multilayer Perceptron Feed-Forward Network** is a fully connected network. Every **input** is connected to every hidden layer's neurons.
+* We are using **Activation Function(AF)** in the **Hidden layer and the output layer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb875a9c-0738-467d-a46e-7c6a4db9533a)
+
+* We have to apply **bias** to the **neurons** of the **Hidden layer and the output layer**.
+* We have to understand the **formula**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba079fb9-ad88-4846-8aba-3ee511312ce2)
+
+* For the **Activation Function(AF)** we are using the **Sigmoid Function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c17a9e-62a2-49ef-ab7c-f21fc7f982bb)
+
+* NN.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f08456b-6be5-49c5-810e-fa03e893b173)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bc8b676-08ad-468b-a2c5-ec166f1edd44)
+
+* Formula [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2205742b-162c-46da-b3dc-0dc558867e53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95c16354-144f-4db6-b2cb-33444ff205aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/915d3b76-9ffd-4bd2-89d6-9b41a8a81183)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deff65ca-4fa0-4c08-a454-e02a7b26d359)
+
+* With every **neuron** we have to add the **bias**.
+* It maybe possible that with the **output**, the **bias** is given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ece9f3fd-9a8c-4be6-9aff-f409a1758ce6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb3c1959-aec1-4489-90d2-3693377d3bd4)
+
+* Weight modification in the case of **outputs.
+* To calculate the **error** we have **hidden layer and output** layer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b438164-e6ad-4ba1-8c23-97685a15d68a)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6de50c4-d5b8-47ef-8a7c-234b6bda24e6)
+
+* Error. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5216990-9794-4d61-9d31-23f9c8bdd9c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c911ac1b-89f7-449d-ac38-fd19b0b59c75)
+
+* Updation of weights and Updation of bias [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcbca0cb-9580-4d85-a636-966495ca991a)
+
+* 12 are the **inputs** from the **4 neurons** and the **4 bias** required for the **4 neurons**. So **4 combination** for each **neuron**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e8e2385-979f-48a4-be05-a38e7ed5be2d)
+
+* Total paramemters in all of the neurons -> 31 [Addition].
+* **Bias** is added to both the **hidden and the output** layer.
+
+## clustering-part-3 (12)
+
+## Clustering (Unsupervised learning)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d9d1df-0426-4585-a064-4d1bf5e40997)
+
+* Clustering:-
+
+1) K-mean
+2) K-medoids
+3) Hierarchical
+
+* Top-Down
+* Bottim-Up
+* Linkage (single)
+* Complete/Multi Linkage
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f98c2bcb-21f6-4597-a5c3-011ce32922d0)
+
+* K-mean Clustering Algo.
+* Cluster -> Similar type of data is put/made into a group.
+* The **various/different** categories we have that many **clusters** will be formed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2e6504d-d098-4b4c-a8ce-289425893e1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b58fe5a3-e1b9-46c7-84ac-59f636f5c857)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80f34856-3de7-446c-b6eb-92e6a555737f)
+
+* Working of **K-means** algo.
+* We will execute the steps until we get **proper clusters**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52265409-c535-4c2e-84f2-18341fe7d06b)
+
+* Example.
+* We have to calculate the distance from the **centroids**. We will use the **Euchidean distance**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8502f52d-4a0d-4467-8d36-eca8eb51fbf5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02897cf0-69a3-40a9-bfc5-360f40f0ac22)
+
+* **Euchidean distance** formula -> sqrt((x1 - x2) ^ 2 + (y1 - y2) ^ 2) [Two points]
+* **Euchidean distance** formula -> sqrt((x1 - x2)) [Single point] [formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e32f9bc8-1fab-4429-bd4e-3595b44437cb)
+
+* The intial **centroid** will be mentioned in the question.
+* **Centroid and cluster** should be mentioned in the question.
+* We have **2 clusters(K)**.
+* **Centroid(C1)** is **(2,8)** and **Centroid(C2)** is **(4,9)**.
+* We have to find the **minimum**, so we don't have to calculate the values fully.
+* **'3' data points(P1, P2, P4)** are going to **C1** centroid.
+* **'2' data points(P3, P5)** are going to **C2** centroid.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9611c68-f627-4c4f-8e2d-52bff49a5349)
+
+* Now we are going to make the **clusters** now.
 
 
 
@@ -2623,3 +2748,25 @@ b) Bipolar Sigmoid Function
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
