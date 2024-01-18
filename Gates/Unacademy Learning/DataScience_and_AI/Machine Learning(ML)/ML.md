@@ -1894,10 +1894,209 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/512469d6-24e7-433c-8390-a00d985334b6)
 
+* We have to find **standard devision** for the **outlook** as well.
+* **Outlook** has **three** values **Rainy, Overcast, sunny**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f4c60ca-d5fd-41b0-b460-e4e39f8a5505)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0cc96d4-7578-48e6-8011-81635d752d67)
 
+* Mean of **Overcast**, X' -> (46 + 43 + 52 + 44)/4 -> 46.25 [Hours played in overcast]
+* Standard Devision -> sqrt(((46-46.25) ^ 2 + (43-46.25) ^ 2 + (52-46.25) ^ 2 + (44-46.25) ^ 2)/4) -> sqrt(48.75/4) -> sqrt(12.1875) -> 3.491.
+* We we use the **above formula** to calculate the **Standard Devision(SD)** for **rainly,sunny**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03917178-f291-4441-a749-002cbd4d156f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af773b81-c30b-4454-9e45-f350e41c1307)
 
+* The **formula** is same as when we were finding **Gain** after **entropy**. Instead of **entropy** we have **SD** here.
+* We are finding the **SD** of whole **outlook**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f738e4a4-22ef-40df-b4e7-a89fae8740e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c35741c9-0ca4-4cc0-afd1-eb3d52471b8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56e5edb3-2bc8-449b-ace1-a57f386924af)
+
+* Standard Deviation Reduction(SDR).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/238979bf-994b-4044-a428-03492ba4b89b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c606a1c5-317a-47b3-9f18-8b9d957a6d5a)
+
+* The one who has the **highest Standard Deviation Reduction(SDR)** make that one the **root node**.
+* We can see that **outlook** has the **highest SDR** so **outlook** is the **root node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af1e45cc-016b-46fa-a6da-00ebbe6e29e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9e42867-4869-4983-b280-0e25a028a494)
+
+* We have to see if any of the features will expand next.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a7c6aaa-05c2-45ac-be79-9fdb82bf92a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d6855e0-8784-42e5-85e4-4b27f1480ff1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/253d7271-face-4b3d-8977-2ca67aad2e8b)
+
+* Coefficients = (SD/X') * 100 [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d6bcd99-cc1b-4301-8cc7-a0c209330ecc)
+
+* As the **Coefficients** of **rainly and sunny** are more than **10%** so they can be further broken down.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bc3a72-ad87-42cb-a2e8-d51a4b394585)
+
+* The one who has the highest SDR is considered the **root node**.
+* S -> Standard Deviation.
+* **Wind** has the highest SDR so it is the **root node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e521bf0b-8d5f-441b-8b79-0f402cc46514)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b88e1984-c282-4919-bdc4-f1f02db43898)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79ef9480-d884-4b64-8ff5-bc346ca0bd33)
+
+* Child(C) node. [Formula] [Summary] [**VERY IMPORTANT**]
+* P -> Feature.
+* P(C) -> probability of the node(C).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c023b4f-d793-4c23-ab83-1634a2f600d6)
+
+* Alpha -> No. of instance. [Hyperparameter]
+* If the **no. of instance** is **less than equal to 200** then we will not **expand further**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d976edb2-5263-4b8b-8746-ef9b781a9c87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c98d4f6-eac5-495c-8324-f6728d9c9882)
+
+* We know that when there is **equal distribution** the data is **highly impure**.
+* We will get the problem of **underfitting** when we have kept the **hyper-parameter** value **too high or more**.[**IMPORTANT**]
+* When the value of **hyper-parameter** is **more**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204a3053-b856-4091-8d12-ac1c23c01a75)
+
+* **Depth limit** -> It means that we cannot go below that **depth**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5056f671-af75-4731-9d55-6aaaa188edf1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2bab00c-39e9-4c92-9e51-deab194eb4c0)
+
+* **Hyper-parameter**
+* Apply limit on **no. of instance(data points)** i.e alpha <= 200.
+* Apply **depth limit**.
+
+1) If the **depth limit** is **very low** or the value of **alpha(no. of instances)** is **very high** then there is a problem of **underfitting**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e89cdda-7d42-4a3b-8d17-96a39ee9763e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc32a67d-b7ae-4add-909c-bd2f9d7472a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb4c4d19-c1f3-434a-97dd-27f1a4e092c7)
+
+* This is the problem of **overfitting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/230e812e-cbaf-4ed4-903b-b8a0cc61cafd)
+
+* If value of **alpha(no. of instance)** is **very very less** or if the **depth limit** is **very high** then there is a problem of **overfitting**.
+* In **decision tree** there is **pruining**.  [**IMPORTANT**]
+* **Pruining** means that we just **prune/remove/don't use** the remaining nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dd9affd-f20f-4dd0-8d63-bbbff4699f6e)
+
+* By applying **depth limit** of value of **alpha(no. of instance)**, we just **prune** the node of the tree. It means that we are not exploring the nodes below the **depth limit**. [**IMPORTANT**]
+* First we create a tree and afterwards we realized that the tree is too big and we have to do **pruining** on the tree. We applied a **depth limit** and we did **pruning** and removed the **unwanted nodes**. That is **post pruining**.
+* If we have applied the **depth limit** while **creating the tree** or before **creating the tree** that we will not go **below** a specific **depth** then that is called as **pre pruining**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22707a3c-8a65-4775-bf7b-489b7052373d)
+
+* Pre pruining -> Apply depth limit **before** tree construction.
+* Post pruining -> Apply depth limit **after** tree construction.
+
+## Bias-Variance Tradeoff
+
+* We want to get a value between the **underfitting and overfitting**.
+* When we **increase the complexity** of the model then there is **some possibility** that the **error value or error chances** of the model also **increases**.
+* Error -> Actual Value - Predicted Value.
+* When the model is **less complex** which means we have worked on **very less data point/sets**, in that case there is a **higher chance** of **errors**.
+* As we start to **increase** the **complexity** of the model, the **chance of error** keeps on **decreasing**.
+* After **some point** if we **increase** the **complexity** of the model, the **chances of the error** keeps on **increasing**. After **some point** the graphs goes **unwards**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c4f413-d6cf-4ba5-9608-a872bc44b576)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/775a5d58-4d17-4f40-97e1-027d639b7353)
+
+* Why **Overfitting**:-
+* The model will work on the **training data** and the **error** is nearing to **zero(0)** which means the model is **perfect** on the **training data** but it will **give error** in the **test/unseen data**.
+* Why **Underfitting**:-
+* As we have **less data** and the **chances of error** are **more** which means **underfitting** only on the **traning data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/098a00fd-1f23-4452-b974-b78209d4fd23)
+
+* The main model should be a **trade-off** between the **Bias-Variance**. The **complexity** shouldn't be **much more** nor the **errors chances** should be **very high**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdd3ae24-2440-45e4-97e1-7d8362b9856e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0237266-b8a2-424b-9e22-41dbfd3625d0)
+
+* Training Data -> The model on which the data is trained on.
+* Test/Testing Data -> The model on which the data is tested on.
+* Validation Data -> Part of the **training data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cacae2f4-9b8a-45f6-95eb-746168b037e1)
+
+* Data Types.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cce2b57-971d-4022-85f2-16793bfae03e)
+
+* Training Data 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1ec8617-f56e-4b19-ae76-93c4b18823b1)
+
+* Test/Testing Data 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e707d6c-1234-4bfc-9419-06a0450e6597)
+
+* Validation Data
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/220304cf-edc7-4ee1-b460-cc8b8a37a19a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77840191-031c-4f2b-bacc-607c473c20f7)
+
+* Example.
+* Works as **Test data** during model construction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83501898-51d5-4498-85c6-c38e1c818e1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65675cb5-7756-41fd-ac06-9174b9da9e51)
+
+* Purpose.
+
+## Cross Validation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2f919b4-0cbe-47a3-8149-2b98a51ca640)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32320a2a-0b7c-4a8f-b39f-5f990a404428)
+
+* Cross Validation -> How much data we are taking from the **training data** and keeping as **validation data**.
+* Inbetween the **training data**, we are using the **validation data**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/297343cc-a337-4148-8abf-ae526cf9e179)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec3244f4-9e5b-4e6a-90f8-e086d12ec4b9)
+
+* Types.
+
+## Leave P Out
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6591fd71-8407-420b-a399-2f2781475a62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d577bca3-8f00-465f-958e-31ea407f0802)
+
+* We are taking a portion of the **training data**.
+* If we have **50  data items** then we are taking **'p' no. of data** as the validation data and the rest is used as the **traning data**. As we have **50  data items** so we have to run it for **50** times.
+* It is a very time consuming task.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c699f2c-30d9-418a-a049-7418521c9816)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c7786f6-8c84-4bef-8fe8-b342969d133d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71a86d37-8bc0-4b39-91a4-60fb83ac7a8b)
+
+* Explaination.
+
+## Leave 1 Out
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/330bda53-e9ca-4756-82c1-bb786ad81838)
+
+* **Leave P Out** and **Leave 1 Out** are **same** only.
+* In **Leave P Out** we can take **more than '1' data** at a time but in **Leave 1 Out** we can only take **'1' data** at a time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62737090-de2d-4121-b36d-d90f4cbc2e4a)
+
+* Explaination.
+
+## clustering-part-1 (10)
 
 
 
