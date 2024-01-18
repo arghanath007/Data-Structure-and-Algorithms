@@ -2419,6 +2419,197 @@
 
 * Error(e) is used to **modifying the weights**.
 
+## clustering-part-2 (11)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/920cfc92-a318-40ae-b3a9-7d5f7de6a7d2)
+
+* Example [Perseptron]
+* We have to perform **AND** operation of **two inputs**.
+* We can design **logic gates**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99808093-2c97-4f27-8b00-22204397637f)
+
+* **X1 and X2** are always binary inputs.
+* Threshold(Theta)
+* Learning Rate(Alpha)
+* We are going to use **binary step function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/391ac5a5-34d5-44dd-be7f-c52096d369d7)
+
+* First we have to find the **summation** and the **output of summation** is sent/applied to the **activation function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b00be59-c00f-4b63-883e-66d076129fae)
+
+* Bias(b)
+* We can **add bias** as well.
+* weights can also be sent along with the **bias(b)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cf693d6-30ce-4249-95d1-d49ca75ff453)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0254c06c-3e6f-4632-af73-d6ef21ed1f3a)
+
+* The predicted output(y) = 0
+* The actual output = 0.
+* The **predicted and actual** outputs are **same**. So we don't have to do **any modifications**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94b0da6a-54c9-436f-a6d0-308876f65efd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b027f9d3-7a6d-4679-8b4a-694b1f4f8101)
+
+* We have to do **modifications** when the **output** from the **activation function** is **different** from the **actual output**.
+* W1 = 1.2
+* W2 = 0.6
+* X1 = 0
+* X2 = 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3546769f-34ba-4d4a-b18e-c7e45a9489fd)
+
+* This is for **second output**.
+* We got **q = 0.6** and it is **less than '1'**, so **y = 0**. The actual output it also **zero(0)**.
+* So the **predicted(y) and the actual** output are the **same**.
+* So we don't have to do **any modifications**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f469e63-8d74-4320-8188-2c17571e63ba)
+
+* W1 = 1.2
+* W2 = 0.6
+* X1 = 1
+* X2 = 0
+* This is for **third output**.
+* We got **q = 1.2** and it is **more than '1'**, so **y = 1**. The actual output it **zero(0)**.
+* So the **predicted(y) and the actual** output are **not the same**.
+* So we have to do **modifications** of the **weights**.
+* Weights -> W1 and W2
+* Error -> Actual Value - Predicted Value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50effd26-f5ce-45ec-9d3e-43f3bc48a1a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1d86f9-7e90-4a4c-8a3c-3cf19891c7eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d726c1d-7797-4738-beac-8c9f429396bd)
+
+* **Modifications** of the **weights**. [**IMPORTANT**]
+*  We have to apply new **W1 and W2** for the **same inputs of X1 and X2**.
+* If the **q** is **less than '1'** then **y = 0** otherwise it is **y = 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de3c94e6-7a19-4dbb-8b43-2f4c8f2bcff8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44e1618a-6935-4dc2-926f-76b9a3060ac5)
+
+* We got the **final weights**. [**IMPORTANT**]
+* How many times we have modified the weights?
+
+> **1 time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4d6c9a1-327e-4b5f-967d-772320388bba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/681b35d8-9a83-4a63-9edf-aafc1f06d7a3)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bc313a9-c9c5-449e-b864-8174b46b031b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/222f7a9c-e7b7-4ae7-9b2f-3dec1cfe6899)
+
+* We know that **X0 = 0 and X1 = 0** for the **1st input** and the **actual output** is **0**, so the **1st output** is dependent on **W2** and we want the **output** to be **0** and in order to get the **output** as **0** we want the **summation** to be **less than '0'**. For that to happen **W2** should be **-1** then the **summation** would be **-1** which is **less than '0'** which we wanted then the **prediction** for the  **1st output** will be **0** which matches with the **actual 1st output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62e8d821-435e-4720-a798-374fff76b664)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc2ffe60-2da3-4ed7-a076-1019caf5aa93)
+
+* For the **4th output** we have **X0 = 1 and X1 = 1**. The actual output is **1**. To get **1** in the **predicted output** we have to have the **summation** to be **greater than 1**.
+* We already have **W2 = -1** from the **1st output**. For that we can have **W0 = 1 and W1 = 1** and the **X0 = 1 and X1 = 1** so we get **2** from **W0 * X0 and W1 * X1** then **2 - 1 = 1** which is **greater than 1**.
+* As the **summation** is  **greater than 1** so the **predicted output** is **1** which is **same** as the **actual 4th output**.
+* So we got **W0 = 1, W1 = 1 and W1 = -1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f3d48db-b874-4acd-8490-754c95a65097)
+
+* It is dependent on the **weights**.
+* Option **B**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed610f1c-72f0-492e-974a-9026eef4a6e7)
+
+* Question.
+* From the **1st ouput** we can have **W2** as either **0 or -1** both satisfy the **actual output**.
+* From the **2nd ouput** we can have **W2** as **0** only which will satisfy the **actual output** which we want and if we put **W2 = =1** then we will get **summation** as **0** and as **0** is **less than '0'** so the **predicted output** will be **zero(0)** which is **not equal** to the **actual output**. So **W2 = 0** to get the correct **actual output** for **4th output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6a7ece1-360e-4547-b620-0179068252d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0933736-8860-403f-ba98-f1fe068f54a5)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1839cfbb-b291-495e-83a7-0bf043e3b24d)
+
+* Remember the **truth tables** of the **Logical Gates**. [**VERY IMPORTANT**]
+
+## Types of Activation Function
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/399b5dab-f232-4f0b-9460-3082152e9fcf)
+
+1) Linear/Identity Function:-
+
+* Final output is same as input of the activation function.
+
+2) Binary Step Function:-
+
+* Theta -> Threshold Value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90cabd5-25c6-4cb8-b2c3-14fa685958eb)
+
+* **Threshold Value** is given here.
+
+3) Bipolar Step Function:-
+
+* It is exactly like **Binary Step Function** but instead of **0 and 1** as the **output** we have **1 and -1** as the output.
+* Theta -> Threshold Value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a1bced8-d261-44b5-8dd4-eb109d0fc75c)
+
+4) Ramp Function:-
+
+* Theta -> Threshold Value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fc11e13-c579-4d03-b0c0-da308b71e7b5)
+
+* Giving **ternary** output.
+
+5) Sigmoid Function:-
+
+a) Binary Sigmoid Function:-
+
+* lambda -> hyper-parameter or steepness parameter. [Sometimes **lambda** is considered as **1** and it is ommitted]
+* By default **lambda = 1** is considered.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7c61458-98c8-4ae4-bf7f-135f111f10ef)
+
+* Binary Sigmoid Function [Formula] [**VERY IMPORTANT**]
+
+b) Bipolar Sigmoid Function
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb34a9bc-e94f-40e7-bfcb-de6f9e9c1c44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56378383-bb3b-4714-ae2e-cae6d671f57f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dabd077-61a9-41d3-9f86-ac9c340ca584)
+
+* Bipolar Sigmoid Function [Formula] [**VERY IMPORTANT**]
+* lambda -> hyper-parameter or steepness parameter.
+* By default **lambda = 1** is considered.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/098fb302-4905-4737-99d2-6e5080f4a251)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8cd49c4-5163-4de6-98c1-1f4778c1efc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d237a6e-0611-427c-bc34-ae5a16463d6c)
+
+* x = yin = x1 * w1 + x2 * w2 + x3 * w3 + b
+* b = 0.3
+* Sigmoid function = 1 /(1 + e ^ (-x))
+* Inplace of **-x** we can write **-yin** as well.
+* We will compare the **predicted output** with the **actual output**.
+* This is for **single layer**.
+* **x1, x2 and x3** are **feature** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7411467-96e0-4128-b34d-56a33d297296)
+
+## Multilayer 
+
+* 1hr 8mins.
+
+
+
+
 
 
 
