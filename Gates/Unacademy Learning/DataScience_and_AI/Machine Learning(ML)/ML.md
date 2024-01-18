@@ -2098,6 +2098,326 @@
 
 ## clustering-part-1 (10)
 
+* The problem in **Leave 1 out or Leave P out** was that we are taking **1 or more than 1** data points each time and if we have **n** data points then in the **worst case** we have to do **validation** for **n** times.
+* Time taken will be **more**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8876b088-9606-4c7f-a6fd-0c076a5b0567)
+
+* There will be problem of **overfitting** as well for **Leave 1 out or Leave P out**.
+
+## Hold Out Method
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dea3f6c2-3cf1-450c-a5f4-f4fedd4e5593)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2d58313-cdf5-489e-832b-d3949d106b55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/792c8a12-635b-4360-b938-c8a0fd970b68)
+
+* Out of the whole **training data** we are **holding/hold** some of the **dataset** for the **validation data/dataset**. We are not taking **single data**, we are taking a **chunk** from the **training data** for the **validation data/dataset**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e6c5e19-d760-4ad6-bd50-f5b22bba57d9)
+
+* Explaination.
+* We are selecting the **dataset randomly**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76ea3ed3-a9ff-40df-811f-d70cb75d4fa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95137db9-653a-40d7-89d9-13fc0d52ff65)
+
+* The problem is that the **Hold Out Method** may not work properly for the **imbalanced data**.
+* **Imbalanced data** -> Max. data belongs to a **single/same/one class**.
+
+## K-Fold Cross Validation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f72922ff-469c-4109-9ce8-314653a57e26)
+
+* We will consider **K** times the data of the **training data**.
+* We are **validating** for **k** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e9fa1bc-b02c-438b-9c4d-dad7229864c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e60f3879-afa0-4f03-ba56-7e5860181a33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24a04f9d-2168-4bd4-90e0-833989ee590c)
+
+* Explaination.
+* The problem is that the **K-Fold Cross Validation** may not work properly for the **imbalanced data**.
+* **K-Fold Cross Validation** is better than **Hold Out Method**.
+* We will take an **avg. of the accuracies** and tell the **avg accuracy** as the **accuracy of the model**.
+
+## Startified K-fold cross validation
+
+* In the **data** we have equal distribution of data in all of the **classes**.
+* We consider equal portion of data that belongs to both the class of dataset.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87fcece1-1521-42c1-bcff-0c108a408934)
+
+* Data repeatation is possible.
+* **Startified K-fold cross validation and K-Fold Cross Validation** are **similar/related**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9c42742-eacc-43da-83a5-b7ebd9de76a7)
+
+* Limitations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99321659-e1d7-46cf-9d93-857b904e72ee)
+
+* Applications.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60bb9cd6-3f18-45c2-93b0-f20f19ec9565)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae1edcb3-773f-4f59-9967-f63c7c4a4e73)
+
+* Question
+* We have **two classes(Slow and Fast)** and they are **equally distributed**.
+* Whenever we are finding **entropy** and it is an **equally distributed**, so the **data items** are going to **equal class** which means that the data is **highly impure**.
+* We know that **highly impure** means **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44dc6f11-dda6-4f41-a48a-d77af6a0e675)
+
+* Option **C** [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd4de0bf-3daa-4ae0-ae86-fcb0016117c1)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6da64c1a-4c2f-4c70-99a5-56bfcd58ba93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceae683b-4617-43cb-aaae-8dfec7000d11)
+
+* When **one feature** totally goes to **one class** then the **entropy** of the **feature** is **0**.
+* This is what happened with the **entropy** of **flat** from the **Elevation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e39ace-6052-464a-bc14-897d9dd86df6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df20c6fe-e062-4ef2-8bdc-884a5dbfdaaf)
+
+* Entropy of **steep**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/672026ec-aaa6-44a7-b58c-3d05da2fe109)
+
+* Entropy of **S**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c54fea9-4ab4-4302-adc4-224e2b426d13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20a173b2-32f3-480c-910b-21f13d60d9d1)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c376ead-b492-4c27-856a-1168327f8b86)
+
+* Question.
+* **Entropy** of **speed limit** is **zero(0)** because it has **Yes and No** as **data** and they are belonging to the **same speed classes(Slow and Fast)**. 
+* **Entropy** of **speed limit** is **zero(0)**.
+* **Entropy** of **Road Type** is **one(1)** because it has **Uneven and smooth** as **data** and they are **equally distributed** to the **same speed classes(Slow and Fast)**. The data is **highly impure**.
+* **Entropy** of **speed limit** is **one(1)**.
+* We also know that when the **Entropy** is **zero(0)** then the **information gain** is **one(1)** because **1 - 0 -> 1**.
+* So **information gain** of **speed limit** is **one(1)**.
+* We also know that when the **Entropy** is **one(1)** then the **information gain** is **zero(0)** because **1 - 1 -> 0**.
+* So **information gain** of **Road Type** is **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a8a9a7-668e-4fa9-a070-692955e3442c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e54414b6-d81a-4815-bed9-2056d6da1dac)
+
+* Option **A**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df13548b-be2b-4aaa-bd07-c00ecf1c2b68)
+
+* log calculation. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfc179fc-e9fb-46ad-9acf-e56c45fd7222)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54659d26-94aa-4d1b-a864-7c56f3489dc0)
+
+* Question
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee896c21-8223-4a59-b73e-0bd24c12f7e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ed60ae-358f-4a6a-a592-b1d8d2fabbc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf9c4db4-6ad9-4010-ba01-d103724a05d8)
+
+* Question
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/811084ca-d399-4504-90bc-75bf827e2576)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bff78c69-ce52-45ed-9dcc-4c0e1f651372)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7109198-e8eb-4041-9eca-5d331db1df44)
+
+* We will get **1** as the distance for both **(0, 1), (1,2) and (1, 0)**.
+* So the **3 nearest points** are **(0, 1), (1,2) and (1, 0)**.
+* All of the **3 nearest points** have the **plus(+)** class.
+* So the point **(1, 1)** belongs to the **plus(+)** class as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b7e058a-f2ca-4a9c-9c23-0fadd6eeeddf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/782428b9-20b4-4810-bf63-dff45f8819ca)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b432bf9-75ea-44d6-bb9f-275dfda1c5f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae6a7828-761d-4e5a-a0f0-26fd9464ad27)
+
+* Question
+* Option **D**.
+
+* Out of all the training algos we have studied, which model rejects the **feature**?
+
+> Decision Tree. It is not expading all of the **features**.
+
+* L1 and L2 regularization.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeed7884-75c3-4b02-8ae6-d522ff5c11de)
+
+* Question [MSQ]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/445d342c-0fcd-49d6-a6b5-59ac2fb9087b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2d426a5-8089-402d-b801-4e3cabc211df)
+
+* Option **B and D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d806b11c-4682-4591-8142-f0b8b16d5590)
+
+* Question
+* Whichever is generating more we will put **k** in that **class** and that is the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bce8b22b-d7f7-4c9f-bcf5-0c7ff411dff4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b759889e-bbbf-4c6e-b43f-3b2a76aa1489)
+
+* P(a = 0 | 1) -> We are checking where **K = 1** and then we are checking for **a = 0** and seeing if any of the **a = 0** has **K = 1**.
+* We can see that there are **3 '1' in 'K'** and we have **2 '0' in 'a'**. Only **1** of **a= 0** gives us **K=1**. So the probability is **1/3** as there was **3 '1' in 'K'**.
+* P(b = 0 | 1) -> We are checking where **K = 1** and then we are checking for **b = 0** and seeing if any of the **b = 0** has **K = 1**.
+* We can see that there are **3 '1' in 'K'** and we have **3 '0' in 'b'**. Only **2** of **b= 0** gives us **K=1**. So the probability is **2/3** as there was **3 '1' in 'K'**.
+* P(c = 1 | 1) -> We are checking where **K = 1** and then we are checking for **c = 1** and seeing if any of the **c = 1** has **K = 1**.
+* We can see that there are **3 '1' in 'K'** and we have **4 '1' in 'c'**. Only **2** of **c= 1** gives us **K=1**. So the probability is **2/3** as there was **3 '1' in 'K'**.
+* P(K = 1) -> How many times **'1'** is coming in **K**. We can see that there are **3 '1' in 'K'** and the total is **6**. So the probability is **3/6 -> 1/2** as there was **3 '1' in 'K'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f56ecc-13ef-4110-9678-1c63b9a09647)
+
+* P(K = 1) -> How many times **'0'** is coming in **K**. We can see that there are **3 '0' in 'K'** and the total is **6**. So the probability is **3/6 -> 1/2** as there was **3 '0' in 'K'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f21a84d6-fe05-4959-a2ba-c6ac0515db4a)
+
+* We haven't done **normalization**.
+* To find the **actual probability** we have to do **normalization**.
+* Whatever we multiply with to **2/27 or 1/27**, **2/27** will always be **greater than '1/27'**.
+* So the class **k = 1** is **greater**.
+* Class **1** greater.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a9e0b4f-0ac2-434c-8974-f816547c4888)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05439053-0681-463a-b702-cb1bcd7616d6)
+
+* Option **B**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e516dd43-d537-4479-864b-353cedf6b96a)
+
+* Question.
+* When we are talking about **exact probability** then **normalization** is needed.
+* P(K = 0 | a = 1 | b = 1) -> P(a = 1 | 0) * P(b = 1 | 0) * P(K= 0) -> 2/3 * 2/3 * 3/6 -> 2/9 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c802743-a6de-42cb-b2a6-bbf001c1d4cb)
+
+* We have to do **normalization**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81f4a64f-83ba-44bd-bfd3-ee6ce1a30fef)
+
+* 2/9 / (2/9 + 1/9) -> 2/9 / (3/9) -> 2/9 * 9/3 -> 2/3 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38de08f5-46d8-42c3-8441-f78daccef21a)
+
+* Option **B**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3688b9cb-3768-4782-9011-92db94206a27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6ab8dea-35c4-419f-93c9-f6a62de45cf4)
+
+* Option **C**.
+* Seeing the **nearest data points**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f327c52-e67b-49ae-a9bc-1b93dac9b14c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9337607d-0ce7-4e3b-92b2-654aa291ec78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6da5aea-2397-4608-a7f5-43ff49135574)
+
+* Question
+* Option **2** -> Soft Margin.
+* Option **1** -> Hard Margin.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/465f7b4a-2f88-4be1-8375-a039629b84ef)
+
+* Question
+* If we remove any of the **support vectors** then the **decision boundary change** will be **affected** by the removal of the **support vectors**.
+* With the combination of the **support vectors**, we draw the **hyperplane** line.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1928111d-c27d-4ee0-94e2-809362d6c726)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3034d24a-6642-49c1-a76d-787a542db644)
+
+* Option **A**. [**VERY IMPORTANT**].
+* If we had removed the **non support vectors** then we wouldn't have **any problems**. The **hyperplane** line won't be affected.  [**IMPORTANT**].
+
+## Artifical Neural Network
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f340584-7c85-4f57-96f9-db44764233cd)
+
+* ANN.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d8b911e-a4ee-48c7-84eb-cb9fab26d882)
+
+* NN.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c382d56-85d7-4fd0-ae59-bc0488476e32)
+
+* Perceptron -> Single Layer Perceptron -> If there is **no hidden layer** then also it is fine.
+* NN -> Input layer, Hidden layer, Output layer.
+* Perceptron are used to build **ANN**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7f5bc4c-96aa-4ed5-bdb4-027fe5a5949b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5438345c-4deb-44c7-ad51-26b1e3e4bacd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a8741fb-82df-4aea-bdfe-20f0dd880bc6)
+
+* Neuron.
+* Activation Function.
+* We are training then we are modifying then again we are **training** and then we are **modifying** and so on and on.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c36a0382-d347-4a64-ac6e-1b4acf6edff2)
+
+* Implementation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fa6de04-c64c-4851-b77a-d009734477b1)
+
+* Activation Function identifies a **threshold values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/951a92da-3c79-4763-bbd4-7f60d63700df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5279129-ce30-487e-b0e9-10b8e539027a)
+
+* Bias -> Without any data, the output should give/generate some response. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32289f26-77b6-403c-b225-053d41c03a1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/094fa016-05b4-42e6-a4e4-2a6316c0d587)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/847be023-6c95-4624-9632-42968b22610b)
+
+* Equation.
+
+## Activation Function
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03a6545e-687b-4728-86d0-a3319b742619)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eefa20d7-6466-423c-9794-c7b8d6611ebf)
+
+* Step Function.
+* We are setting a **threshold value** and if we get a value/result **greater than** the **threshold values** then the **output** will be **1**. 
+* We are setting a **threshold value** and if we get a value/result **smaller than** the **threshold values** then the **output** will be **0**.
+* We are not talking about the **sum** as the **output**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a2f7329-7f45-4636-b211-a17df63b2a25)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19f28d5f-3b3b-4cc4-81fa-19da17471729)
+
+* Error Calculation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67c79d6e-685a-437a-a35e-664f906d4cc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2440eca1-6629-4a3e-89da-3b8485c22f3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/503ecf9e-a927-497d-8bbb-47a47823e4d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/078221c9-641c-4102-80c7-f0d10886b1c6)
+
+* Alpha -> Learning Rate -> It is a **hyper-parameter** with which speed we are changing the **weights**.
+* e -> Error
+* Xi -> Input
+* We are modifying the **weights** and we are modifying with what **rate**?
+
+> That is the **Learning Rate** which is **alpha**.
+> The **hyper-parameter** helps in **increasing** the **accuracy** of the model. [**IMPORTANT**]
+
+* Error(e) is used to **modifying the weights**.
 
 
 
