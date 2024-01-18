@@ -2725,23 +2725,40 @@ b) Bipolar Sigmoid Function
 * We have **2 clusters(K)**.
 * **Centroid(C1)** is **(2,8)** and **Centroid(C2)** is **(4,9)**.
 * We have to find the **minimum**, so we don't have to calculate the values fully.
-* **'3' data points(P1, P2, P4)** are going to **C1** centroid.
-* **'2' data points(P3, P5)** are going to **C2** centroid.
+* **'3' data points(P1, P2, P4)** are going to **C1** cluster.
+* **'2' data points(P3, P5)** are going to **C2** cluster.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9611c68-f627-4c4f-8e2d-52bff49a5349)
 
 * Now we are going to make the **clusters** now.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26b7c9ea-ff0a-4807-b17e-1b996a0dc542)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36bf3234-b0e6-4c31-a9f7-ec2fd430e67f)
 
+* Now we are going to find the **minimum** distances of the **points** and find their **new clusters**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6d151d3-6071-4c75-ac41-8395226cf30b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93f846fa-ca6d-421e-aa2c-70ce5a362201)
 
+* Except **P1** point, all of the other points are going back to their **old clusters**. **P1** point is going to a **new cluster** which is the **C2**.
+* It means that we haven't still found the **correct/right centroids**.
+* We have to **continue** till all of them are in their **same clusters**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a778ffc-17b3-42d4-8265-5386d3ba694e)
 
+* We have to calculate for **centroid** again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/973ce446-254e-4008-83c7-aa5f1f72007f)
 
+* Now we are going to find the **minimum** distances of the **points** and find their **new clusters**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd96b85c-4b68-4e9b-91e1-12b89fcd2c73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44491883-7342-4bfa-be0b-755d3f98732a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e65c21e-47ac-4c48-8d96-0fb0c81d53f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dd70b1d-3154-42e9-b963-da82b1d3965d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b43cc493-5044-4345-b180-7db3d9536c2d)
 
-
+* Example.
 
 
 
