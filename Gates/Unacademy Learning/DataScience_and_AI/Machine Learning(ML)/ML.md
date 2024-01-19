@@ -2760,6 +2760,87 @@ b) Bipolar Sigmoid Function
 
 * Example.
 
+## clustering-part-4 (13)
+
+## Hierarichica Clustering
+
+1) Agglomerative -> Bottom Up [This is **more** important, more questions are asked about it]
+2) Divisive -> Top Down.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb0eef00-f7ed-4918-9f86-41512565f31c)
+
+* Grouping the nearest points.
+* Clustering structure [Example]
+* We don't have to make the **clusters** before hand only.
+* How to identify the clusters/Clustering?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da1fced8-2d02-415e-8bd7-b3c8546ac16a)
+
+* Dendrograph. [Which is the correct dendrograph from the options] [Expected Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cffa1a23-446d-4665-a8a0-8c77e9e808a7)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/421fba70-24d3-497c-8d80-46c76c48a861)
+
+* Write the points in **increasing** order.
+* **21 and 22** are in the **nearest order** that's why we are merging them. As the distance between them is **1**, we can calculate the **normal distance**.
+* We can merge **22 and 24** or **24 and 26** as the distance between them is **2**. We can **merge** either of them as we want. So we merged **24 and 26**.
+* We have **17 and 21** who have distance as **4** and **22 and 24** who have distance **2**. So we will **merge** the **22 and 24** as their **more closer/nearer**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec28f9ed-67f4-4f7f-bbd1-958698554c37)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
