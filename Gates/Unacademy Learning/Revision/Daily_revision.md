@@ -44,10 +44,19 @@
 * Topic covered.
 * Revision -> To be Done.
 
+# ML
+
+* Topics Done.
+* Sample Questions Done
+* Revision Left
+
+## AI
+
+* Sample Paper question in **ML** PDF file.
+
 # Engineering Mathematics(EM)
 
-* RIC Course Link -> https://unacademy.com/course/ric-on-digital-logic-design/VR0E7ZWC
-* Started.
+
 
 ## Sample Paper
 
