@@ -3210,6 +3210,144 @@ b) Bipolar Sigmoid Function
 
 ## sample-paper-question-analysis-of-aiml (15)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18e9807c-a440-401e-87e7-403fd3b67a5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52d11004-b479-45d2-8c55-65a7d5d33501)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e438cde-5b21-49cd-98fd-f048b8395df5)
+
+* Within class **scatter matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/596ed4f6-1e57-42b2-83e8-b43961c1f4d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34b0e402-cc3b-47e8-a70d-1fbc49eb1f14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e84b5df-29bd-47eb-bd0e-39a8aec29e06)
+
+* Between class **scatter matrix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9a16a92-9a63-41fe-ae85-0ec21f66afbb)
+
+* PCA.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1db30db6-57de-4e2d-8756-c6612cced772)
+
+* SB -> Max
+* SW -> Min.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b8d15f5-e5f6-47d6-bdd0-56fb30957a8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b5fb53-f222-4240-bded-15d4c802ceda)
+
+* Remember the formuals. [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e10561ce-b100-49c3-aad7-cd1bc670b9ff)
+
+* Comparisons. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd930199-37a2-4441-a370-196ed496c834)
+
+* LDA
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3263110-b952-40a2-9175-b73f65d0a3d1)
+
+* PCA.
+
+## Sample Paper Questions
+
+## AI
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98939e99-7a80-43d6-bebf-d7c137a3623c)
+
+* Question.
+* action -> Cycles run.
+* Iterative deeping -> We are increasing the depth and we are running the algo again.
+* limit(l) = 2
+* It means that we can go to a **depth** of **2** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17260ca7-5db0-4688-a2d8-095b1bcf3768)
+
+* We are calling the algo **d** times as it is said **d** actions.
+* In 'IDA*' we talk about **F** value instead of depth.
+* As **initial state/node** is mentioned so we will explore that the **no. of times** the algo is **ran**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33bf526e-6c50-4f0e-9ad4-42d43d82d50f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e24f410c-c914-4df6-b9a0-0377ffc6b6e8)
+
+* It is explored **d** times as we are taking **d** actions.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/489e1f04-afea-43a8-9e4f-95fe38faed8e)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9837ca9e-e471-4760-a1ee-68505df526d7)
+
+* Models -> How many times it will be **True** for a given combination [**IMPORTANT**]
+* As we have **3** variables so it will be **2 ^ 3 -> 8** combinations which are possible. Out of the **8** combinations, **1** will be **false**. So **7** are **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea11e1d7-058b-473d-a99b-7255a788f62d)
+
+* Instead of **B** we have **negation of 'B'**. So we will **negate** all of the values in the **'B'** column.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a46a2646-2f23-430e-8ef4-07ca36f17934)
+
+* Whether it is **A or B or C***, we will always have **8** combinations and only **1** of them will be **False**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c27c053d-178f-4bf5-9765-33643ad00294)
+
+* We don't have to **draw** the table.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ac1bfdf-8e0d-49f0-8bb6-edd03cf14bb0)
+
+* Answer -> 7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74329248-d154-43e4-9bfc-f9c9749972d0)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27f6c6dc-f359-4d90-a809-fa8e61dd6682)
+
+* **There exists** shouldn't come with **all students**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c47f1dc-8fe6-47f7-9355-9d8e08566cd5)
+
+* Option **B**.
+* We are talking about **one event only** which is the **student**.
+* Both **x and y** are compulsory that why we put **and(^)** there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bc31555-2592-44cc-87bd-2cc33a819a7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54a9b72f-f1f0-4d9b-8848-1dae93cf29c8)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2d0ce44-f29c-4502-8972-d9efb8aad66f)
+
+* Question
+* Min -> Beta
+* Max -> Alpha
+* For every node **alpha** is **negative infinity** and **Beta** is **infinity**.
+* **Alpha** is **greater than beta**, we need to do **pruning** as **alpha = 2 and beta = 1**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64869b2d-3ac9-4b33-8e18-93d1e3bb7e54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b37d3e1-dd9a-4058-946a-03a9498f6eca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f6136fb-583a-4b0b-9069-1df2964234d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e43c417d-736d-4965-99bb-bacc2c65f40b)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aabf5d30-6181-4ced-bdd4-a7e860b1523c)
+
+* Question
+* Those are **not evidence** we will write **1** for them. 
+* We see **not 'C'** in two places so it is dependent on it's parent. It's parent is **B**. **B** is saying **not 'B'**. So we have to see **not 'B' and not 'C'** which is **3/5**.
+* As **B and D** are **not evidence** we will write **1** for them. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82924852-a00b-49a5-aaf3-840d30f3d585)
+
+* In **S3**, the **d** is **+d** and whether **d** is **positive or not**, it doesn't change the **output** as **d** is **1**, so **S3** is also **0.48**.
+* All of the samples values in **A and B** are **same**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5b0c2f3-e272-4207-93e6-9fde7e8d3808)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09e57de5-4dd0-4490-830d-c6bbf200543d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d76e6bc8-085d-4b59-bfe4-41dec98a3e63)
+
+* Option **A**.
 
 
 
@@ -3226,27 +3364,137 @@ b) Bipolar Sigmoid Function
 
 
 
+## ML
 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80aa6319-2bb7-4d72-8298-120d039b28ec)
+
+* Question.
+* Overfitting -> Low bias and high variance.
+* We will **increase** the **bias** and **decrease** the **variance**.
+* The **error** will **increase** which means the **bias** also **increases**.
+* When **error** increases then there is **less chance** of **overfitting**. When **overfitting** is **less** then **variance** is also **less**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d721ead0-016b-47f0-808a-a641b11e7686)
+
+* Option **B**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6704572a-515d-4061-9803-2d5848942d11)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b632afa-d82a-47f8-8cb7-0c83ed4a5858)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b7da368-7f44-46b8-be51-facd979d19df)
+
+* Test -> Variance.
+* Training -> Bias.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69b87c1a-3350-470d-9743-3452bcc8a860)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11f40c4a-1c01-45f7-8062-9372b29a32b0)
+
+* Question.
+* We will take **S** first.
+* From **S** we can go to **A, B and F**. To which node we will go next that will be calculated using the **
+* F(A) -> 10 + 3-> 13.
+* F(B) -> 8 + 4-> 12.
+* F(F) -> 6 + 5-> 11.
+* **F(F)** is the **smallest**, so we go to **F** node next.
+* F(D) -> 6 + 4 + 3-> 13.
+* F(H) -> 6 + 4 + 6-> 16.
+* The nodes we have already explored those will not be explored **again**. The cost will be **high**. No need to go to that particular node **again**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f2eb35f-4d7a-412c-9fea-88a43e66d377)
+
+* We have **A** and **D** with **13 cost**, so we will take **A** because when there is a **tie** we resolve it by using **alphabetic order**. From **A**, only place is **B** but **B** is already explored.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1350a9c-944f-4d8a-a32b-0e790f973b05)
+
+* h(n) <= h *(n)
+* Heurestic value of **h(n)** should be less than **h *(n)**.
+* h(n) -> Estimated value.
+* h*(n) -> Actual value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a5a3097-65ed-46f4-be6d-a407ac6360a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7d07c7f-6294-4b52-bf52-b40644c68ff4)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4d40fbb-6e4a-4eb8-a43f-d92c3d6b88ed)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a0c8835-b8ea-44c7-bfe9-0e9de10d1378)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07a856bc-ec4d-4bce-b241-8f29d3d56865)
+
+* Option **C**. [Solved Earlier]
 
 
+* **Margin distance** is **maximum**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4be7be59-145f-4b04-a3fa-275c598e7135)
 
+* Option **C**.
+* Both are **equal**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8801483e-fadb-45f7-986c-b50394a12e9b)
 
+* Question.
+* I -> Perpendicular to each other.
+* II -> Perpendicular to each other.
+* III -> Parallel.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/255e37c5-f4b2-4120-a4e9-5f6b6883d75b)
 
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbfab7c2-0dd0-453e-9a59-8789c181f0ea)
 
+* Question.
+* We have to distribute the **points**.
+* We are distributing the points based the **closest distance** of the points to the **clusters**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9db1ab33-b9af-4dd2-b681-57c6045c8d74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d10b67eb-d347-4cc9-8486-ba36025910ba)
 
+* Answer -> 7.5 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e56d702-c2bf-4a4e-88bd-d953a6a8afda)
 
- 
+* Question.
+* Every **input** is connected to **each neuron**.
+* Every **neuron** has **'1' bias**.
+* We have **'5' input neurons** connected to each **'10' hidden neurons** which is **5 * 10 -> 50**.
+* All of the **'10' hidden neurons** have **'1' bias** each so **10** more connections.
+* We have **50 + 10 -> 60** connections.
+* The **10 neuron** are connected to each of the output neurons and they have **'1' bias** as well. So the **output neurons** have **11** connections.
+* We have **3 output neurons** so it is **3 * 11 -> 33**.
+* Total is **60 + 33 -> 93**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad2ad754-1e4b-40c3-8814-34e887f43012)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d224197e-093c-48c3-a2aa-8aaca7e90386)
 
+* Answer -> 93.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbedc6f3-7be2-48b5-b2ac-2661bdaf9a5f)
 
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c85dbaf-5d9c-40e1-afc2-eaff714064c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2adbf96-60e1-48a8-934e-1b1375ad8b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d8929d6-63d4-4453-b213-ab8ea3eda087)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7886fb8a-a198-44b2-806b-060abc0db6c9)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a8efe9d-0550-4708-b8be-2b9d3c0e8601)
+
+* Option **C and D**. [Doubt]
 
 
 
