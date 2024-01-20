@@ -3161,6 +3161,72 @@ b) Bipolar Sigmoid Function
 
 * Final Vector.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c555b3-4228-4b21-8297-b5ba34a4d150)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/713c41a5-bd1a-4c62-a2b4-d8c2b55090a5)
+
+* We have to select **one eigen vector** and we have to select that **eigen vector** which is **max/high**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2352b522-7226-4fa2-9445-29ac4a013cb4)
+
+* **e1** vector.
+* We are not taking **e2** because **e1** is a **principal component**.
+* **e2** is a **second principal component**.
+* From every **principal component** a line is drawn. **e2** will give us **two lines**.
+* We have to convert the **2D** into **1D**. All of the points should be in a **single line**.
+* Which line we should take?
+
+> Take the line which has **higher eigen value**. That is the **concept**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d27d9d3e-08c5-4885-9437-84f24f061ec3)
+
+* We don't have the requirement of **two lines**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e8f4768-6f71-4d41-9ae2-0b2fbd713497)
+
+* Typo in **e1** value before.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f06f6113-544f-40fe-8ac9-52ee1e9b16c4)
+
+* **e1 and e2** are **perpendicular** to each other.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2863b1a9-da5c-424d-8ad7-6ff3cc456559)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/745b4e48-588b-4a66-947c-5063d1f9d0c8)
+
+* Concept of principle component analysis.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd3c38b7-7ded-4c7e-86a2-918ddc7671c7)
+
+## LDA
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d0db786-faf7-4e30-8765-85cc4858413d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91f7f956-878c-463b-b808-39a83e21a88b)
+
+* LDA.
+* If we have **n** classes then we have to take **(n - 1)** points.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7d6c86e-1482-4616-95e2-656d2e105625)
+
+* We have to do **max of 'SB'**  and we have to do **min. of 'SW'**.
+
+## sample-paper-question-analysis-of-aiml (15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3177,3 +3243,15 @@ b) Bipolar Sigmoid Function
 
 
  
+
+
+
+
+
+
+
+
+
+
+
+
