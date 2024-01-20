@@ -3013,10 +3013,33 @@ b) Bipolar Sigmoid Function
 
 ## principle-component-analysis-and-lda (14)
 
+* **Supervised** -> We get labelled data which means input and output is given.
+* **Unsupervised** -> We get unlabelled data which means only information is there i.e **no output** is there. We are predicting the **output**. We have the **input** and we are predicting the **output**.
 
+## Dimensional Reduction
 
+* Transform the higher dimension dataset to lesser dimension dataset.
+* **Feature removal** is something else. That is different that **Dimensional Reduction**.
+* **Feature extraction** is a part of **Dimensional Reduction**.
+* From many of the **features** we are **extracting** the **important features** that is **feature extraction**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e044a9d8-a932-4fdd-83cd-a44282ff9bb4)
 
+1) When **X** is increased, **Y** is also decreasing. This is **negative corelation**.
+2) When **X** is increased, **Y** is also increasing. The relation between the data points is a **positve corelation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1024ba9b-afda-4a41-9008-b113b344f327)
+
+* The range **corelation** is from **+1 to -1**.
+* If the **corelation** is **0** then they are **not corelated**. 
+* **Dimensional Reduction** means between the **variables/elemetns** we have to see the **dependency**. How much they are **dependent**. How much one variable is dependent on another variable.
+* Why we are doing **dimensional reduction**?
+
+> Why we are reducing **features**. We have to **remove** the unimportant/not important features.
+
+1) Feature Selection
+
+* We have many **independent** features.
 
 
 
