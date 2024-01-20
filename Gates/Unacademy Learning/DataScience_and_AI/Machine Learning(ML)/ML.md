@@ -3041,6 +3041,125 @@ b) Bipolar Sigmoid Function
 
 * We have many **independent** features.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83f2a074-ffe2-454c-9582-c2d1fb8d9be3)
+
+* No feature is dependent/co-related to **f4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/582b8b6a-e305-400f-959a-27acd66712c0)
+
+* PCA is based on **unsupervised** learning.
+* LDA is based on **supervised** learning.
+* In **dimensional reduction** we are mainly doing **feature extraction**. We are not doing **reduction/reduce**. Does not look the **feature/property**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/589a9918-9d4e-4590-84f5-e180dc23969b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/221d45a9-db0e-4438-86f5-53e76e4036d8)
+
+* The main motive of **feature extraction** is selecting the **important features**.
+
+## PCA
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f13e013-f27a-4373-b911-e42cd65f5738)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9861acc6-98a5-4cfb-bfff-ab4fa743f668)
+
+* We are taking the common properties of the **two**.
+* We had many **specialized entity** and we took the **common properties** and made it **generalized**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fef953f0-51b0-45e1-8cde-ffb0efe0873e)
+
+* PCA. [Step By Step]
+* The **value and feature** are **very important** and through them only the **data** is **dimentionally reduced**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/251989ac-a45e-4bcc-a669-05c38142578e)
+
+* **n** -> Features(X1, X2 and X3).
+* **N** -> Value of the features.
+* To extract the **value of a feature** we need the **feature-value** combination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56e977ae-b0c5-4155-ba16-dde2de8329cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d89e76e-2680-42d1-9ac0-5b44fb6acca0)
+
+* X15 -> 1st feature and it's 5th value.
+
+1) We need to find the **mean** of the **datapoints**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69f2eda4-02d9-440d-82e8-0ae49bbefea3)
+
+* Mean [Formula] [**VERY IMPORTANT**]
+
+2) Find **covariance** between the variables.
+
+* We need to find the **covariance matrix**.
+* We have to find **covariance** between every two variables. We will get an **n X n** matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fb73b63-e465-4c63-9404-86b3268d285e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af0ccfa1-49a8-45fd-8bba-06d12144e195)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d6b9626-61de-41a2-b5c9-b87a8e8a90a9)
+
+* We are calculating in terms of **values**.
+
+3) calculate Eigen Vectors and values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18b3a7d9-61a8-4034-9b47-94baeb22704c)
+
+* We have to find the values of **V1, V2 and V3**.
+* Eigen Values -> Lambda1, Lambda2, Lambda3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37dcf000-0e1e-475e-bda9-332c4b743a4e)
+
+* Put value of each eigen value to find vector
+
+4) Normalize Eigen Vector
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d752c68b-eb60-46a9-b54c-6223b24b1b1a)
+
+* Formula [**VERY IMPORTANT**]
+
+5) Design New Dataset
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c4787e9-57b0-493c-8d34-019d679e9a26)
+
+* Will see using a **question**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6b8b701-0a65-457e-99da-5f4d33c64f70)
+
+* Question.
+* N = 4.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80b10dde-88a9-4d36-9cb2-3a415b07d41b)
+
+* Mean.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2d6b1f9-ee4b-45ff-be2b-7380454e6033)
+
+* Covariance between **X1, X1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd08d951-83bc-4c82-90fa-89a26dd98131)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/628ac367-70c3-4583-9370-a6a79bdf33c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b50c2221-0d97-4c56-bce5-6d65f8a64cf2)
+
+* Covariance between **X1, X2**.
+* Instead of **8.8** would be **8.5**.
+* Covariance of **X2, X1** is **same** as Covariance of **X1, X2**..
+* Covariance of **X2, X2** is **23**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45620ebc-9c85-4a8b-8921-c1865426d3c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/521fea9d-9ba4-43bb-a832-08d7ab6cb639)
+
+* I -> Identify matrix
+* We have to calculate the **determinant** of the matrix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95291453-fd85-4aa8-b929-87bb0bb18ee8)
+
+* We will get a **quadratic equation** and from that we will find the **roots of the lambda**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a7a9298-4dbc-46d3-af8f-b97d2b9dbb0d)
+
+* We will equate the equations with **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/524a2670-bc8b-44a8-a111-c9851129121c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1ceb2b4-2414-48cf-ad02-c1f9e518dc3c)
+
+* Final Vector.
 
 
 
@@ -3053,3 +3172,8 @@ b) Bipolar Sigmoid Function
 
 
 
+
+
+
+
+ 
