@@ -2791,80 +2791,242 @@ b) Bipolar Sigmoid Function
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec28f9ed-67f4-4f7f-bbd1-958698554c37)
 
+* Next we are merging **17 and 21**.
+* Next we are merging **17 and 40**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/503f7860-7392-4254-bb81-6f061d429cd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adbf8965-b0a2-4360-905a-8aae11a833fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e27035f4-e2ae-4702-8d06-0be7151c4c50)
 
+* Output
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/966ae933-f81e-448b-b95c-1af016e9f671)
 
+* Bottom to Top -> Agglomerative
+* Top to Bottom -> Divisive.
+* We have to do pairing of the **closest/nearest** numbers.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5205f8f-379c-47e6-9961-b72dcc256aca)
 
+* Divisive.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d2ffe9b-bd16-473a-8be2-e608702a7d47)
 
+* We have to find the **difference** between these values.
+* We have to write the **differences** between their **distances**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/977a4f8e-0dd9-496e-8de4-f966dcfb3b10)
 
+* **Symmetric or proximity** matrix.
+* We have to find the **smallest** value? [Expected Question]
 
+> There is a difference of **1** between **21 and 22** also between **26 and 27**. **21 and 22** rows will be **merged** into a **single row**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/571b41fe-db49-46eb-9e63-e3314457cb56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83134a4d-924f-423d-a628-6981c227262f)
 
+* **21 and 22**.
+* Now we will do for **26 and 27**.
+* In the **Symmetric or proximity** matrix, we have to find the **minimum** value.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90827f26-2e78-4224-9994-ddf4c47cafde)
 
+## Single Linkage Heirarchial Clustering
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeb2dee8-ad6b-4130-9770-8901adaa31d3)
 
+* We use **Agglomarative method(Bottom-up)** and by default we use **Euclidean distance**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c03033c4-424f-4744-9b1c-b70869d4f699)
 
+* Formula [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1928d2f3-274f-4dd3-aeb8-c25ea547156b)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10eeff2c-d2b7-4d1a-bf57-73cf7ee59f8d)
 
+* We are finding the **distance** using the **Euclidean distance**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a617a50b-4875-4a0e-9cc7-4b174d716bb8)
 
+* **sqrt(5)** is the **min.** value.
+* **2** is the **smallest value**. So we have to **merge** the **(2,3) and (4,3)** values.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11b22a6a-3920-491c-ba6d-f60fce36992b)
 
+* We have to seen the **non-diagonal values** when filling the **merged matrix**. [**IMPORTANT**]
+* Next smallest is **sqrt(5)** we can do merging with **((2,3), (4,3)) and (5,6)** or **(3,5) and (5,6)**. We can do either of them.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4ad9a57-05f8-4a28-94f6-64d2a258967a)
 
+* We are making the **(3,5) and (5,6)** cluster.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22e6faff-b05e-4646-b29c-00a2e980e584)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7aea7bec-52fb-4e59-8b72-3f9514b8b64c)
 
+* We don't have to write the values below the **diagonal** of the matrix. They will be the **same** values** as the **above** ones.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e924eb32-3958-4bdb-b57c-49d6ce1d14f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2e33d38-e396-4a69-b7ac-96e448df92f5)
 
+* Solution.
+* How many clusters are there? [Expected Question]
 
+> A **threshold value** would be given and from that we have to find/identify the **clustering**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63faaecc-ff72-4256-81ee-1cc30059a1f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f15afb44-1df0-443c-b3dc-ea060df57169)
 
+* **Threshold value** is **4** [Example] [Given]
+* It means from point **4** we have to draw a **straight line**. The groups below the **Threshold value** point line, they are called as **clusters**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ef5eb5-f605-41f0-85ec-580f51200b00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08bbafde-b6fc-45ac-99fd-77b8b6417954)
 
+* I did a mistake would be **4-clusters**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bed306d1-87fd-4b0b-9a34-0fb91f098b29)
 
+* **4-clusters**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fa52f62-6b5d-4645-86ce-5b645c646f54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ae4f6de-dbb0-47ff-937c-dabfcb86ea02)
 
+* **Threshold value** is another **hyper-parameter**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfc77533-cc22-4f58-b3b7-a02672c05439)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31dd4b93-e498-454c-bc9d-223f1dd303e4)
 
+* To find **cluster** in **Heirarichal linkage(For all of the tinkages)** clustering we use some **Threshold value**, that is a cutting point or value of **Euclidean distance** in **dendrograph** from that point we design a horizontal line and all the group below that line is the **total no. of cluster**. [**IMPORTANT**]
+* Select the longest vertical line(Max distance) that do not intersect with any horizontal line.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2a23022-6aa9-46de-b0d3-1f793b0a7dd0)
 
+* **2** clusters.
+* In comparison to **K-means**, the **above** one is **better** because in the **linkages** the calculations are more so time taken is more as well so the complexity is also **more** but in comparison to **K-means** the problem of finding **cluster** is not there in **linkages**. We don't need to find pre-defined **clusters**.
+* When we talk about **dataset size**, when there is **large dataset** we use **K-means** and in **small datasets** we can use **hierarichal dataset**.
 
+* **Linkage** disadvantages:- [**IMPORTANT**]
 
+1) Compared to **K-means**, **linkages** are **more time consuming** hence **more complex**.
+2) We cannot use it for **large datasets**.
 
+* **Linkage** advantages:- [**IMPORTANT**]
 
+1) Good for **small datasets**.
+2) No need to define number of cluster in the beginning.
+3) Point can not be moved from one cluster to another cluster.
 
+* In **K-means** the point can **move** from one cluster to another cluster. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b51925e7-a357-46fb-a70b-13e774d385ee)
 
+## Complete Linkage
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/018f54ae-e51b-4f1b-a8c3-333b15fcacbe)
 
+* Same as **single linkage** but at the time of merging for the remaining points we need to take maximum distance.
+* Doesn't need to me in **increasing or decreasing** oder.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fe14dec-e104-4ba9-8051-b8300bfee474)
 
+* Example
+* We have to find the **min. distance** or **min. value** cell.
+* Symmetric Matrix.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5a099e4-e4b4-4861-805b-349b87a10513)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16a782c7-dbc2-4460-8288-1cab581af125)
 
+* 1st row and 5th row are affected.
+* We are **merging**, 1st and 5th row. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c8f907e-4588-4828-aa01-e581edef71e1)
 
+* Finding the **values**. [**IMPORTANT**] [Formula] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b93db18-ce94-40c6-ad95-2bf3319b10bc)
 
+* Whatever we are getting in **(1,2) and 5**, the same thing we will get in **5 and (1,2)** as it is a **symmetric** matrix.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c6cd0ad-7839-4086-9ce1-8bae6c598bf0)
 
+* Find the **next min. values**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ab164a7-665a-4e5a-9fdc-f7c04271c472)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a0b8175-7cdc-483a-87d0-14fd9f2c751d)
 
+* So, we will merge the **3rd and 4th rows(8 and 10)**.
+* The **last table** is the **bast table** when we are solving in the **new table**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/caa3fd68-7103-462d-8935-824f4f1e69fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c371058-08c5-46f3-806e-467ee643a15c)
 
+* Finding the **values**. [**IMPORTANT**] [Formula] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb4f3ddb-451f-42fe-af4e-5ac700a61ce9)
 
+* Next min is **4**.
+* So we will merge **(1,2) and 5**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/534dafe2-7848-4e1c-9d1c-5b1e3cbe8b47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3580c545-58bc-4cd4-a115-b4dfa74cecb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7357ab0-b219-4387-ae50-f234ca9d5ba5)
 
+* Finding the **values**. [**IMPORTANT**] [Formula] [**IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fba198aa-2efc-49e9-b8bd-49dda62996be)
 
+* We will **merge** them into a **single cluster** and get **0** value. That's the **final table**.
+* The **graph** making part will remain the **same** as the **last linkage** one.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03efb8d5-1b26-4987-be2b-1b2a78ed64a3)
+
+* Dendograph.
   
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c473b05-b45d-429a-a1ac-c5b6b6638dc4)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c42ff6b-fd1e-4837-ac68-37a3478d5e1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beceff40-7ffc-47b1-b73d-f5cd73a3306d)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bdd5036-c5e5-4526-899f-f8c14d0463a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77930759-e3e1-4f86-b0a9-45ee4caf66c2)
+
+* Question.
+* Find the **min** value in the **distance matrix** table where we can do the **merging**.
+* The **min. value** is **0.1100** which is between **p3 and p6**, so **p3 and p6** are **merged** first.
+* Now find the **next min.** value which is **0.1388** which is between **p2 and p5**, so **p2 and p5** are **merged** first.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c13d18ea-23ea-45a2-be77-5ccbac59ca2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0126dfd-4c4d-426b-85fa-6d591a851d08)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b0f059e-a8c7-41c3-af64-f5db8e079dcf)
+
+* **AI** doubt.
+
+## principle-component-analysis-and-lda (14)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
