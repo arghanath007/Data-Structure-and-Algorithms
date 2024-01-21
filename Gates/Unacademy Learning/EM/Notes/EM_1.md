@@ -371,6 +371,9 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1315c11-4b0c-43d5-b4cb-fdf57a54dfd5)
 
 * A's winnings.
+* f= a / (1 - r).
+* a -> 1st term
+* r -> 2nd term by the 1st term -> 2nd term / 1st term. [GP series] [Formula] [**IMORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac9708fd-b774-45dd-89c5-90b6017587c8)
 
