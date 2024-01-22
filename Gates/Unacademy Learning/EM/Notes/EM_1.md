@@ -776,6 +776,14 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3e72fd9-92da-489c-809c-b431f0ba6a2a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20f5ca82-3076-4d98-9321-fa5590f5f21f)
+
+* Link -> https://gateoverflow.in/41499/gate2014-ec-1-ga-10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d748ac0e-6955-4153-b561-b57cf174a9f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa4e22b-f879-4c3a-b580-180c123b9bc7)
+
+* Solution.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a969f89c-f005-4070-8468-de1e84134051)
 
 * Yes.
