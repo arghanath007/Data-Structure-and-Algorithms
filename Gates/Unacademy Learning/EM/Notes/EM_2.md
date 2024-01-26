@@ -1388,8 +1388,10 @@
 * Same values as **Above question**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4afbd2f4-811b-4083-9ce1-342a6125ecff)
-![image](https: //github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/650edf81-94e7-4d82-afe5-707177b513ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/650edf81-94e7-4d82-afe5-707177b513ed)
 
+* Link -> https://unacademy.com/goal/gate-cs-it/NVLIA/doubts-and-solutions/doubt/D687427069
+* Sum Of Eigen Values -> Trace Of the matrix.
 * [**IMPORTANT**]
 
 ## doubts-clearing-session (25) [28th Aug 2023]
