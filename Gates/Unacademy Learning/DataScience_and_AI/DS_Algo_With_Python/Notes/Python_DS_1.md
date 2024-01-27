@@ -550,7 +550,9 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7db9975b-89b1-459c-8600-26b040f0b3fc)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578ea067-ff6b-4619-805a-74e9696eb79f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/330af5d1-0839-4445-82c7-7d49ec8517d4)
 
+* No output. [**IMPORTANT**]
 * Example.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3182ada-f6dd-4c4c-a47d-0761ede13370)
