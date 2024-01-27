@@ -313,6 +313,11 @@
 
 * Example. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92f86703-f6a8-44fa-a38b-655e9fd73669)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0d15bad-ac7d-4112-aea6-2c451bce9124)
+
+* **sep** is the **separator** which is creating a **separation** between the two words which are **Welcome** and **Hello**. [**IMPORTANT**]
+
 ## operators-and-control-statements(2)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2999eaf3-ed4a-498d-a04e-2517c19c55f8)
