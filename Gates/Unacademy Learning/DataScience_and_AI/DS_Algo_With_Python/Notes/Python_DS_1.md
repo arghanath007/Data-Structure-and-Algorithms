@@ -193,6 +193,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6412b25e-a528-4b95-9221-29fc4e2c32c7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5926f48e-3670-4374-9c2a-3ec3474f6be3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd0c1fa8-78e5-4e51-abf0-3ac5011208a6)
+
+* This is giving **error** because we are **concatenating** the **integer '5'** with the **string** values.
+
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54b4c9fd-6ed5-461c-b0a1-5517d780d68e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bc2d23f-a7ad-4f04-954f-77f2c668def1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e704b5db-5194-4ebe-b391-c34457a3eacf)
