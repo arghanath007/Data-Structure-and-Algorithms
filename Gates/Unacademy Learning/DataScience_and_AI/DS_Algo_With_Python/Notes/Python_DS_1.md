@@ -238,7 +238,14 @@
 * **Immutable** example.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91adcde1-c78b-40de-8e23-3d4a9cb1e553)
+
+* Doubt
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/671a08e1-9fa0-4ef5-b492-ca66c1924273)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/804ae885-bf1c-460c-b260-f854ab814bb1)
+
+* Example [**IMPORTANT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/762c71b9-b442-408e-9f49-f0b5ae72db08)
 
 * Taking **input** in python.
