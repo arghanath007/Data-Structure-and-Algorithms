@@ -647,10 +647,16 @@ for i in range(0, 5, 1):
 
 * range() -> It works on **integer** values only that's why we are getting an **Error** in the above loop. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57464f7-db38-4795-b95e-1cd1f3fadab8)
+
+* **float** values cannot be used in **for** loops.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68c55c74-9bd3-422b-bc4d-b6e02942a636)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df74dc8f-b33c-4ff0-af59-b897762ea4c4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af3dc5c-31de-4118-8d63-758351dbee97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/517126d7-d92c-457a-89b3-2fe866d32680)
 
+* **2** at the end of the **range(0,5,2)** is the **no. of skips**, we are doing.
 * range() [Example]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04fcce1f-e3da-417f-9c65-75610c7f4017)
