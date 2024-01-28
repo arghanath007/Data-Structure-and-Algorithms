@@ -651,6 +651,14 @@ for i in range(0, 5, 1):
 
 * **float** values cannot be used in **for** loops.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a39716dc-84f1-4f3c-8e23-39beb778a1a5)
+
+* **int** object is not **iterable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/760ee3fa-845c-4189-83a3-6ec958766b3c)
+
+* **string** object is **iterable**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68c55c74-9bd3-422b-bc4d-b6e02942a636)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df74dc8f-b33c-4ff0-af59-b897762ea4c4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af3dc5c-31de-4118-8d63-758351dbee97)
