@@ -822,7 +822,9 @@ for i in range(0, 5, 1):
 * Starting with **Zero(0)** happens in **positive indexing**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec341692-bcfb-4fb4-8f09-d4a7ff68ff25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51757d8c-c79e-45a5-8620-1a0151e3e38d)
 
+* Example.
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba1a2ea7-38e2-4e28-8ec7-072bf42f1a32)
