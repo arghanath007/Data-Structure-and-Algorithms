@@ -304,7 +304,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ed8c960-35bc-4a96-aa96-3ac9ac0610c0)
 
-* Can we use **plus(+)** inplace of **comman(,)**?
+* Can we use **plus(+)** inplace of **comma(,)**?
 
 > **Yes**, we can use **plus(+)** no issue. 
 
@@ -336,6 +336,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1fd4ade-f98c-4913-9841-8279d64b0699)
 
 * Arithmetic Operators.
+* 3/2 -> 1.5 [Normal Division]
+* 3 // 2 -> 1 [Floor Division] [We take the **floor** value]
+* ** -> Exponential/Power
+* ^ -> XOR.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5a4fb47-86c7-4003-8863-47cad78ba1a5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f2dfbe1-1919-493b-8175-452e986db032)
@@ -474,7 +478,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c653a7e-f1ae-4a3c-9548-7cf302b09f6a)
 
-* Right shift.
+* Right shift. [Floor Value]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e40029a4-f380-46cf-a856-c3c6266f0ebb)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac7f6630-ac2e-4ee5-a390-882a0139d1db)
@@ -3324,6 +3328,8 @@ for i in range(0, 5, 1):
 
 
 
-## Misc
+## Misc [Ignore them]
+
+* Misplaced Images.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0e8a96b-216c-4a4e-9741-ec2f99d4dc3c)![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36ef8af0-86a0-4503-bd94-13e700ad66c7)
