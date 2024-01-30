@@ -554,7 +554,9 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7db9975b-89b1-459c-8600-26b040f0b3fc)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/578ea067-ff6b-4619-805a-74e9696eb79f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/330af5d1-0839-4445-82c7-7d49ec8517d4)
 
+* No output. [**IMPORTANT**]
 * Example.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3182ada-f6dd-4c4c-a47d-0761ede13370)
@@ -649,10 +651,24 @@ for i in range(0, 5, 1):
 
 * range() -> It works on **integer** values only that's why we are getting an **Error** in the above loop. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57464f7-db38-4795-b95e-1cd1f3fadab8)
+
+* **float** values cannot be used in **for** loops.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a39716dc-84f1-4f3c-8e23-39beb778a1a5)
+
+* **int** object is not **iterable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/760ee3fa-845c-4189-83a3-6ec958766b3c)
+
+* **string** object is **iterable**.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68c55c74-9bd3-422b-bc4d-b6e02942a636)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df74dc8f-b33c-4ff0-af59-b897762ea4c4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af3dc5c-31de-4118-8d63-758351dbee97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/517126d7-d92c-457a-89b3-2fe866d32680)
 
+* **2** at the end of the **range(0,5,2)** is the **no. of skips**, we are doing.
 * range() [Example]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04fcce1f-e3da-417f-9c65-75610c7f4017)
@@ -810,7 +826,9 @@ for i in range(0, 5, 1):
 * Starting with **Zero(0)** happens in **positive indexing**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec341692-bcfb-4fb4-8f09-d4a7ff68ff25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51757d8c-c79e-45a5-8620-1a0151e3e38d)
 
+* Example.
 * [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba1a2ea7-38e2-4e28-8ec7-072bf42f1a32)
