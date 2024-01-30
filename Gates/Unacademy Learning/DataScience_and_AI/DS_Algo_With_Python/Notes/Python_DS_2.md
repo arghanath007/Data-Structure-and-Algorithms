@@ -257,7 +257,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bad2e1c-159f-4e57-ad59-5d64d9f30aa8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16e839cf-aae1-4d9e-9c6a-9d8d3429e257)
 
-* Inplace and Outplace Sorting Algorithms. [**IMPORTANT**]
+* In-place and Outplace Sorting Algorithms. [**IMPORTANT**]
+* For an **algo** to be an **in-place** algo the **data space(DS)** needs to be **constant or Theta(1)**.
+* For an **algo** to be an **out-place** algo the **data space(DS)** is **not constant**.
+
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d30f04b-3dcf-4d60-9f51-b8c288213b9f)
 
