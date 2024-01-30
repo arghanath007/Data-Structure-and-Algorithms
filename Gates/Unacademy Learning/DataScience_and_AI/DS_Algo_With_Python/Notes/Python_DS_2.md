@@ -1817,7 +1817,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17d17ae6-5f78-4fc0-a257-7aa7dbf35ebf)
 
-* Membeship -> Searching, item is a part of the linked list or not.
+* Membership -> Searching, item is a part of the linked list or not.
 * Cardinality -> No. of elements, count.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef3a80e7-9e3c-4f0e-a95f-65c2417806dc)
@@ -2917,11 +2917,11 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c31d5052-b0a6-4445-80a6-83f221e1e357)
 
-* **Leaf node** we can **delete dirctly** after **searching** of the node is done.
+* **Leaf node** we can **delete directly** after **searching** of the node is done.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c72183a-64fa-4fc7-bb2e-6f68fef48759)
 
-* When deleting **17**, inplace of **17** we are putting the **child of 17** node in that place.
+* When deleting **17**, in-place of **17** we are putting the **child of 17** node in that place.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cded79fd-0524-4775-9e3d-57c6fd012bf8)
 
