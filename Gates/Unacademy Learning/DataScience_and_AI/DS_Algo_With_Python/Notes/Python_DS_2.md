@@ -469,7 +469,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56780e10-c79a-411a-bed8-a29cca6ce8f5)
 
 * Quick Sort Complexities [**IMPORTANT**]
-* It is an **inplace sorting** technique because **DS** is **constant(n)**.
+* It is an **in-place sorting** technique because **DS** is **constant(1)**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f19ee6ae-b2da-4649-8f2f-b614b441bef9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/005d194d-2747-48af-b1e5-a0bcf22f1560)
