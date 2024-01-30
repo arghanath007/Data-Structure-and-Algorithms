@@ -106,8 +106,8 @@
 
 * **Space Complexity** is dependent on **auxillary space**.
 * Whatever **parameters** which we are passing to the algo all those fall under the **input space**.
-* CES -> Code Execution Space
-* DS -> Data Space.
+* CES -> Code Execution Space -> Variables, data types, etc.
+* DS -> Data Space -> **Stack**.
 * The **auxillary space** is dependent on **Data Space and Code Execution Space**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6a8e12b-a65d-4408-b40e-202c93ee5acf)
