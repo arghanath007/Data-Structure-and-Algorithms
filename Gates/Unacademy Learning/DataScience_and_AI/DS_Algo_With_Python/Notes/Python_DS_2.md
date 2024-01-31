@@ -673,7 +673,8 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1afae84b-72e9-4d8a-aaa7-e74f78cf89df)
 
 * **Binary Search**. [Recursive Algo] [**IMPORTANT**]
-* Time Complexity -> Theta(log n) [Best, Worst and Average Case]
+* Time Complexity -> Theta(log n) [Worst and Average Case]
+* Time Complexity -> Theta(1) [Best Case]
 * Space Complexity -> Theta(log n). [Stack space used]
 
 ## Hashing
@@ -1302,8 +1303,11 @@
 * n -> no. of columns.
 * No. of elements -> m * n. [Formula] [**VERY IMPORTANT**]
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/371b6af2-02d6-4d1e-b203-951a9dc28101)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47611627-931e-4bd3-97bf-827e2bc55ad4)
+
+* This is **correct**.
+* Link -> https://search.brave.com/search?q=row+major+order+formula+2d+array&source=web
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ea66bf3-d163-4b8d-b95d-c37f25473000)
 
 * By default value of **L1 and L2** is **zero(0)**.
