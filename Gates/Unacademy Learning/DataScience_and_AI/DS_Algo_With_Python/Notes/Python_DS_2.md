@@ -891,7 +891,9 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9f1dc1b-3398-4a7e-8927-387e45f3b997)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dc8fcf0-3619-4808-90c1-79b582b8df76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af963fd6-5beb-42bd-8013-5e2ff919cd63)
 
+* Link -> https://gateoverflow.in/2717/gate-cse-1996-question-1-13
 * Option **C**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/401ab1af-2072-4cbb-b1ad-b891d3da7dd6)
