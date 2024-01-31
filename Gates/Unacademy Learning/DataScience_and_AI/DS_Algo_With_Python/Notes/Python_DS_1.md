@@ -2,6 +2,15 @@
 
 * Link -> https://unacademy.com/course/data-structure-and-algorithms-using-python/XAK8Q1SL
 
+# Revision
+
+* Data Structures -> https://search.brave.com/search?q=difference+between+the+list%2C+tuple%2C+dictionary+and+set+in+python&source=web                                                  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96e18457-0d30-4db3-8327-90ef759fc18a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87488d91-fa70-4371-8a0b-20200a1cd40a)
+
+* Time Complexities. 
+
 ## introduction-to-python-programming (1)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/595e361b-5966-4ded-b2d2-7765c6304b6e)

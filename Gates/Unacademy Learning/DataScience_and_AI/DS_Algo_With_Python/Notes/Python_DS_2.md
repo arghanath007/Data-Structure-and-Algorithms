@@ -2134,7 +2134,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9ee03d0-b985-4505-b707-bdbf7e83c368)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7fe3a1c-9a07-493f-9bd5-c4da158b5d45)
 
-* Explaination
+* Explanation
 
 ## stack-and-queue-part-3 (22)
 
@@ -3220,8 +3220,8 @@ d) Because of **10**. Not a **min heap**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d03198-79a9-45de-aa83-059114b0bb40)
 
 * Total Swaps -> 3 + 6 -> 9 [Solution] [**IMPORTANT**] [Example]
-* Build Swaps -> 3
-* Delete Swaps -> 6
+* Build Swaps -> 6
+* Delete Swaps -> 3
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb97d782-1122-4bf4-bcaa-1dcb26215a60)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c292907-bed0-4675-b1a4-789ab33371b6)
@@ -4199,6 +4199,20 @@ d) Because of **10**. Not a **min heap**.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f5d2dab-fe15-43c0-af67-80fed93dfcc7)
 
 * TOPIC.
+
+## Question
+
+* Link -> https://gateoverflow.in/458/gate-cse-2008-question-46
+* Link -> https://gateoverflow.in/459/gate-cse-2008-question-47
+* Python Code Executions -> https://colab.research.google.com/drive/1fkT49soxbIkxLvKE7AF3-yVGLH8VTBa5#scrollTo=YuT0nNZbrwRK
+
+* Finding the working of insertion sort, selection sort. [Find for all of the sorting algos with example]. Find the no. of comparisons and swaps in all of the sorting algos.
+
+* Stable and unstable sorts.
+
+* Find the time complexities of the searching algos.
+
+* Time complexity of the operations on array, linked list, stack, queue.
 
 ## Exam Tips
 
