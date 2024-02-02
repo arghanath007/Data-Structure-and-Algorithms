@@ -3496,6 +3496,200 @@ b) Bipolar Sigmoid Function
 
 * Option **C and D**. [Doubt]
 
+## Revision
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f48b9429-2eb1-4777-b125-f0f30ab9fc15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ef11a4b-7fd6-49e1-a191-0e16fedbc374)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/160286a6-dee4-466e-971c-6d5c24c3f516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1d66259-5b84-4c4d-ba1e-adcff73027e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c334bd36-ffc2-4503-9dc2-4f6604c54ac9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec61629d-ec00-4091-b216-11ba54c3b2e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ee1f07d-fdfd-480c-8c2f-4ba2fdc3a846)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd1dceb-3fc2-4a82-90d4-6e8ff55dc2ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/daae6625-cce4-4a1b-9a3f-ac4ede523c2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ee984af-b862-40c3-ba0f-77b0ba7eb07d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0abc3ec5-49ce-4b62-920e-ebe76d544722)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/971600eb-797c-4933-8336-437ab1e49c60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1906221b-2bb8-4fea-963b-c8f6404ec0bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74ff68e8-ee64-4b1b-a807-ec1929dc0eea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f59eb04-3618-4b56-bfcb-81dfbdd7b157)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48826495-5c64-4652-98df-ffd2da362c1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c77ae449-5bc2-4400-8760-09561a5b7fc6)
+
+* The line will be in the form of a **slope**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49067b5c-ae12-41bd-bb35-c724dfb717ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12401af5-feb8-4afd-88e4-8409c787bb5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd1e4f86-8281-4b3b-8397-0fae54e3be13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc845723-23ca-491f-bf19-1cba94cd7a35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/660b3477-1e2a-4841-853f-a1c474d70f08)
+
+* Minimization is the main goal.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e54db8b-0d2b-4855-ace3-bee72a61e23a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3289e164-fe65-4c30-91be-2b937cc16d73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/259b36a9-ff09-4d92-83c3-dce71e9dfb87)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8fb7448-44f4-4b39-9591-0c8f2ebd60aa)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecb85de9-66cd-44fb-bb4f-b9d92a78df88)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/365b64aa-49f5-4813-b3cb-8a722faef223)
+
+* Solution. [**IMPORTANT**] [Numerical]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb3ef158-c889-4c7d-91c9-d92bc9d5ec3a)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75a02b5c-cee7-4825-8363-6bc7fa2bf5ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/248716d5-97d4-4996-be37-a5d39070ec6b)
+
+* Solution. [**IMPORTANT**] [Numerical]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17a6b38f-2ab9-40d2-b2c0-bc50f761225c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dc36aeb-8bb3-459f-a26a-2291129f7a0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22fe57ee-06ea-46af-821d-e3a387eec7ae)
+
+* Linear and logistic regression, logistic regression works on **classification problems** and the **linear regression** works on **regression problems**.
+* **classification problems** -> predicted binary/boolean output.
+* **regression problems** -> predicted continuous integer(number/numerical) output.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25fd10f0-6e58-4f14-99b7-295a75e48b77)
+
+* Threshold Value(Theta) -> 0.5
+* Above is the **Sigmoid Function**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/785e2a50-b359-4089-8e8f-9593fd999741)
+
+* SL -> Supervised Learning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c9a7c9c-08fe-4f6d-a606-38351f0ad510)
+
+* 0.8 > 0.5
+* 0.4 < 0.5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683a6154-2088-4ec0-8bed-85f665ee221c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98a7c156-42ca-4149-ad48-cc5215550fda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4d59ba7-f470-462b-9e52-b34c15868fe9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d0113c8-2051-410d-b42d-1286c9f65635)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b757c93-f164-49b5-a98a-f18e7299e9b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a921856c-99b3-4a19-b6d6-244e929e03bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cd0d309-7543-4d72-9e46-8c7799cb92bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3563c51b-6657-4d28-854e-1acb93662461)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/720fff98-c62b-456a-9987-9e00121467b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfd00a8f-35a5-4158-b297-03a4f2332c69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dd5f7d6-de6f-4016-a38a-4608abeffbb9)
+
+* When asked to find out the **class**, we don't have to do the **normalization**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85c2ab31-5be6-4fd4-b6e0-60a8ea69014a)
+
+* Already normalized.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90f68ce3-81e9-475c-87a9-5df84a2e332b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9aa79482-0760-4bb2-b3b4-1442ae22e204)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88dd0b2a-2de6-467d-ad86-1b844c9e3b1e)
+
+* Distance [Fomula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e10cb851-57da-41bf-9ec2-b2356995cf1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf78b8df-b6b7-4a15-ac38-d5c7032c065f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8246210a-eefb-4b42-830d-6a5c42178dfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a85d7df9-6709-4f32-8c94-cc4b790ca249)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05cae77d-4afd-418c-a999-67df95dd9166)
+
+* USL -> Unsupervised learning
+* SL -> Supervised learning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f08e817a-51fe-4530-a162-5c87a0e0f9ff)
+
+* PCA -> Maximum Variance.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ee4b93-9dbc-435f-afc3-53d7fbf34099)
+
+* PCA -> Principal component are perpendicular to each other.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9ccbdf4-d5d4-4bbb-afb4-c0ff3041b861)
+
+* Question.
+* We are basically **increasing** the features/independent variables. We are making the model **more complex**.
+* We will have higher chances of **overfitting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fca60d80-b597-4402-b709-6986485b30d8)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d4570e6-474c-4d3c-b1e8-70cbac27a77c)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b96c517-0835-4e8d-893b-0c5b4e01161d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f57909a-5245-4106-8960-06945a08c2f2)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6d3cdf0-cb0d-43a4-a596-c0c844c314a8)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e91ce7b8-dc57-4e90-8719-44bbe53b8ee7)
+
+* Question.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d83b9bfa-9361-47f6-b357-3766dffd2459)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Questions
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f54affb-834a-40e8-839a-561945eb4f0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d001cc5d-d9dd-4fc2-b019-5412d290dd1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12cd6855-76a4-4377-bd33-521b2233b895)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c61630fc-a175-4758-a770-2148e54755db)
+
+
+
+
+
+
+
 
 
 
