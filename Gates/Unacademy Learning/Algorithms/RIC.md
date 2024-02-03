@@ -3074,15 +3074,126 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f2a5610-ce99-4a55-80ec-fd932a16ea2c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1bfd0d1-9506-4950-9cc1-de0a56eb2c38)
 
+## Revision
 
+* Link -> https://www.youtube.com/watch?v=TfaOXHgO_uA
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a32450f6-ac93-4676-9384-41b0e25e3dfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65d66aa7-4d67-4f0d-89a7-e5f145e467c2)
 
+* We usually look at **time complexity**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793f4f82-3eb5-4c32-94a8-1a6c78f7b0fa)
 
+* Average -> Worst -> Best
+* We first look at **average case**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3549c730-6133-40d5-9882-d97efc15549e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1fe558b-b8f4-4759-b5e4-8b23c3811d25)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d0a9ce9-b041-46c0-a08c-3bbbecb152e6)
 
+* Growth rate should be higher after a specific point. 
  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d594f9d3-7c63-44d8-ab3c-0473bbe30200)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78304524-f51c-483e-83b0-1888061beb38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2561c415-2222-4515-af84-c5a1480011dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2752c201-36c3-4eed-8c0c-26ef413c8d61)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e474f62-a0c6-4977-b71b-20f30f9be0fb)
+
+* All are **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a532b7e-5598-40a9-9a34-a128229744b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbabdd54-e7b7-475c-bde6-125e9b1bedc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de1932df-87c7-473f-816f-79e11a4bf834)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a4c07c6-2801-4802-8fe6-7907b 4abbc30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8e00837-2a74-462d-9c44-19bacd3a00ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/630fb9ea-557b-4403-a42d-f39c85e2aaca)
+
+* By putting the value -> Hit and trial method.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f39a399-9d45-46be-8b78-76e854ca80bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9308afaa-f806-413e-9b93-0f3f2d6a9923)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/938cb954-17c3-401e-ba5c-dc26fa7c8e3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/709c15b7-0a49-437f-8be4-54d6af0220c5)
+
+* Ways to check **growth rate**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e8c892e-d38a-40da-848f-ef5a2eace3a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b514e59-7e7d-473e-b2db-2e11243b67d0)
+
+* Don't do this.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df63c1c6-6fc4-4ae4-ac04-0580894f3861)
+
+* Exponential fuctions -> We use **log**.
+* If any **constant** comes after the **log** then do not remove them they are **not constants**.
+* If any **constant** comes before the **log** then we can remove them they are **not constants**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d01a3245-9910-40dc-aba4-043d6a339e16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/648b15b2-4931-4c69-ac41-f0ef39e32e33)
+
+* Notations. [Summary]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/452653e7-b25a-4933-802e-b235b9359289)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c18b4b0f-b60a-4e6f-a95a-10c66e52111f)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abfa017a-47dd-47cf-93b2-9a51b2016ed0)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d66f1976-81a4-4aa5-abe9-7a8e46104922)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/295b8b95-7c94-4dcd-a2bc-461e77de13c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/950bccc1-6c5f-49b0-8b62-02f843429034)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a861132f-1748-4dbd-8546-cf350e75d891)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b8e626a-1e76-44c6-a939-f5739ee0ad91)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee9fa583-dcd5-4024-ba0d-55f6c4b5beea)
+
+* Example.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
