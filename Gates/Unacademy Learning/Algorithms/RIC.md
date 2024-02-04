@@ -3689,17 +3689,127 @@ ff![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60a07e28-34ed-4ac7-80b9-3ae9e230adf0)
 
 * [**IMPORTANT**]
+* Link -> https://www.youtube.com/watch?v=xEfBIEFKD-Y
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b55b5b4f-f3d7-4d57-bc8a-6315e9c041d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1fe13ea-37ee-4eac-a09b-1975d2480816)
 
+* Option **B, C and D**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71180134-0a0c-42d9-a03e-873859ac0c16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce18bd86-b997-47f4-931b-c6e2f4da4e40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbf99766-1a29-4f90-8443-c7ee6f07bef3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d4df45-e910-456f-9d50-f23445c52eba)
 
+* Option **B**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ee43a89-92d5-4ea1-acea-f0ce2359aec5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec5a2b9b-0a82-4130-8610-87faedd66d33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40d8403a-fefe-4989-aa56-df7a24851673)
 
+* Option **A, B and C**.
+* Program is **faster** means that the **complexity** of the **program** is **less**.
+* Program is **slower** means that the **complexity** of the **program** is **more**.
+* [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f6553c5-0618-4830-afca-23ad5c5d8b1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1895be8-7a30-4830-b8cc-7b5b5091071e)
 
+* Option **C and D**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d81a441d-cc91-4cc6-afaa-7e35b9d3502d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b8238f3-06b5-40cd-9647-2fba6e914525)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd61875b-f824-4bf8-ba9b-5c127126f122)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f6e895-03d5-4220-9628-afb031facf54)
 
+* Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc7a8a46-cb5f-4066-8242-e92658d4a2ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5ec9245-112a-403a-8895-971b730bfb87)
 
+* Option **A, C and D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98d15b82-c772-41b5-baef-fc113fdd4046)
+
+* Notations. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fb96075-fb3c-41cc-8580-0a6c8f81ddcc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78b84ca3-094c-4a23-8217-e109b8e4e2db)
+
+* Option **A and B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8f69475-1600-4285-ae3d-4a0771e00d81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eca756b-8cb9-4ff8-be87-747ba6a8887c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c981e22-a5aa-4503-9b3e-8b9e4f570397)
+
+* When we represent **complexity** we do not represent **complexity** in **constant form** when it is given in **notation form**. **Constant** doesn't matter in **notation form**.
  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8972da0-3a94-47ba-81fc-e265e1c7792e)
+
+* Next class.
+* Link -> https://www.youtube.com/watch?v=WE-DU5Q3NLo
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a7e3333-40d6-482d-9bae-f3880de24da9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3afaf957-cb6a-45cb-880b-f13930f304fc)
+
+* Option **A, B and C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7684e4fb-14cb-4cc8-912d-bfb7c8a8dc3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ea1ea21-ae19-47e1-ac05-06e878db3054)
+
+* Option **B and C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ac91974-0dc1-4009-8969-f8cfdf222ebf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ec46ca6-79c1-4970-ab43-802454886156)
+
+* [**VERY IMPORTANT**] [Formula]
+* We will use the formula of **(m + n -1)** when the **values** in the **lists** are **mixed** like in **A and B**.
+* We will use the formula of **max(m, n)** when the **values** in one of the **lists** are **smaller** than the values in the other list, like in **A and C**. All the values in **A** are **smaller** than the first value in **C** which is **9**. We can say the same for **B and C** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8dc24cb-18e6-4569-9005-644e6dcedf24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/715442ca-dcde-43b4-8f24-d3b4c43bb38b)
+
+* **A and B** and **B and A** are **same** only. No difference.
+* Sir did a **type** it will be **max(m,n)** instead of **min(m,n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bc15bab-956b-4154-89ed-706de71310e2)
+
+* Option **A, B and D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2d0ccfc-bd57-4926-821c-4cdd2830caf6)
+
+* For **bubble sort**, for every element we have to check how many elements are **less than that element** on the **right hand side** of the element.
+* For **7** element, we will look at the elements to the **right hand side of '7'** which are **less than '7'**, we see **'2' elements** which are **6 and 4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e5b822c-d2c8-4fec-9fb0-4c0b82f6feaa)
+
+* No. of swaps in **bubble sort**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f4312d7-7fd9-4d40-9f15-f0e8317d7242)
+
+* In **selection sort**, we take the smallest element and swap it with the **1st element**.
+* In **selection sort**, we take the 2nd smallest element and swap it with the **2nd element**. We will continue like this.
+* **8** was already in it's **correct position** only, so **no swapping**.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f93c61fa-f7f8-4145-b335-4d8c310abffd)
+
+* Option **A and B**.  [**VERY IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
