@@ -1,4 +1,4 @@
-# Algo RIC
+ # Algo RIC
 
 * Link -> https://unacademy.com/course/rank-improvement-course-on-algorithms/4KS8RGAE
 
