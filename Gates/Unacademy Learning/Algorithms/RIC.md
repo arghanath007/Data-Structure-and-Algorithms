@@ -3074,7 +3074,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f2a5610-ce99-4a55-80ec-fd932a16ea2c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1bfd0d1-9506-4950-9cc1-de0a56eb2c38)
 
-## Revision
+# Revision
 
 * Link -> https://www.youtube.com/watch?v=TfaOXHgO_uA
 
@@ -3274,6 +3274,178 @@
 
 * Sorting Algo Time Complexities.
 * In **iterative algo** of the**Merge sort**, the **space complexity** is **theta(n)** due to **data space(DS)**, that's why **merge sort** is called as **outplace sorting** technique.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6055ff6-a783-4b6a-94f8-6d972f73ec60)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d0bb329-45a0-4aaf-9aeb-75acf360ae3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24d5e28c-03a6-4684-b43f-ff759db53baf)
+
+* Stable and unstable sorting techniques.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/965aca53-41fc-48a6-8d38-b0b1aac8b917)
+
+* If the **data space** of the algo is **constant or 1** then it is an **in-place** sorting technique.
+* If the **data space** of the algo is **not constant** then it is an **out-place** sorting technique.
+* Between **merge and quick** sort which algo is better?
+
+> The **avg case** of them is **theta(n * log n)**. The worst case of **merge** is **theta(n * log n)** but that of  **quick** is **theta(n ^ 2)** which is slower. **Merge** is an **out-place** sorting technique whereas **quick** is an **in-place** sorting technique. If our concern is about **space** then **quick sort** is **better** than **merge sort**. If our concern is about **time** then **merge sort** is **better** than **quick sort**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3819017-079b-4093-ab89-92cb6cf615d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89aac943-d9f3-4560-a867-54d432e6c83b)
+
+* Greedy.
+* We have to remember the **complexities, formula, numericals, working**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d181b98-00f4-4fbe-9666-b8c5f13b2497)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c4b286d-ccd1-4c86-9e42-e704d64aca71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e15fc9b7-2ef0-4352-b512-04b7b4131bf0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b1995e0-df7d-4c74-af5d-e5c21311f347)
+
+* Question.
+* Which has the **highest profit** by weight ratio, we will **insert** that **first**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4e4db83-a2f3-4cff-9f96-fe9020cdffbd)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be09d0e6-0af1-423b-a313-52e227634e3b)
+
+* Time Complexity.
+* If it is not sorted then we have to sort the **items**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4af221cc-7b38-461d-b34b-31b0b9af674c)
+
+* Max **deadline is '5'** which means we can execute **max of 5** jobs only.
+* The job with the **highest profit** is executed **first**.
+* As the **deadline** of the **highest profit** job is **2**, so we place it as **slot '2'**.
+* For **J2**, it's deadline is **3**, so it should go in **slot '3'** but as **slot '3'** is already full so we will check **easier** i.e **slot '2'**, as **slot '2'** is also full we will check **slot '1'** as **slot '1'** is **open/empty**, we will keep **J2** as **slot '1'**.
+* Last job which is **J6** will not be **executed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24cba4f1-ebcc-42b3-8326-cac67210920d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2df35713-7cd1-4ae1-ac0a-f9c85225f3e3)
+
+* The job will be executed in the **above order** which we find out. [Example]
+* Job Execution:-
+* J2 -> J4 -> J3 -> J5 -> J1. [Optimal Schedule]
+* Max profit -> Add of the **above job's prfits**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59d3dd8a-1f7f-4765-9b2e-67825ef9ec54)
+
+* Optimal merge pattern follows the concept of **min heap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f79c2140-400a-49a9-a7c0-9a4595dc0aa0)
+
+* Here also we make the **optimal merge tree**.
+* Add the two smallest frequencies.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5564f38-19ad-409d-958f-0dd7323d147e)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7309fd59-50a8-4b6e-aba1-0073be34d4a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae0ffb01-bf1b-4424-86a2-635993d64a06)
+
+* Optimal merge pattern(OMP)
+* Min. no. of comparisons -> 22 + 9 + 12 + 4 [Internal node value - 1, i.e (23 - 1), (10 - 1), (13 - 1), (5-1)]
+* No. of record movement -> 23 + 10 + 13 + 5 [Add the Internal node values]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d08cc00-0706-49aa-b20b-020e7b49372b)
+
+* In **Huffman** we have to assign codes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5d0740b-9905-4e8c-b9d7-ac2247fdbb60)
+
+* **Huffman** is used for **data compression** and **encryption**.
+* **Data compression** -> **a** is character which is **1 byte** which means it requires **8 bits**. With **huffman** for **a** we got **000** which is **3 bits** only.
+* **Encryption** -> **a** is converted to **000** which is **a** is **encrypted/hidden**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36dbaa71-467b-4d1f-9a69-b9aaa8000668)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4968162-3e6f-421f-b90f-91bfcdd2311c)
+
+* **Code length** is **inversely proportional** to **1/(frequency)**.
+* Using huffman code how many bits we need to send?
+
+> Add the **internal node** values which is **23 + 10 + 13 + 5** bits.
+
+* 1 character size -> 8bits, unless mentioned in the question.
+* Without huffman code, we have to send **23 * 8** bits.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76a3a030-e2bb-476e-8cb0-971cd21b62a3)
+
+* Bits we are saving with huffman code?
+
+> **23 * 8** bits minus(-) **23 + 10 + 13 + 5** bits.
+
+* Time Complexity of **huffman or optimal merge pattern** -> theta(n * log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/062b6537-2469-4e2c-a3fb-75de302db523)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d9ba44-26c8-4e9e-b4b0-d27d3d3cc607)
+
+* Time Complexity of **Prim's and Kruskal's**. [**IMPORTANT**]
+* E -> Edges, V -> Vertices.
+* **Kruskal's** -> theta(E * log E)
+* **Prim's** -> theta(V ^ 2). [Using Adjacency matrix]
+* **Prim's** using **heap** -> theta(E * log V).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3008541e-2081-46c8-9076-8b2fd43892c4)
+
+* Example.
+* Taking the **smallest edge** values.
+* Don't take the **edges** which are making **cycle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ab8c2e5-3981-475d-a3e5-397fd62cb8b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1e6595c-a60e-4fd2-8b22-02b0e677cad7)
+
+* No. of MST -> 1
+* Cost of MST -> 42 [Add all of the edge weights which are in the MST]
+* If **distinct weights** are there then there will be in **'1' MST** only.
+* If **similar weights** are there then it doesn't mean that **many/multiple MST** will be formed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d746b9c-8d49-4fe6-bff9-d085743a381d)
+
+* Question. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e44415c0-dcc3-4029-b727-6631746d8bb8)
+
+* No. of MST possible -> 24.
+* 3C2 -> It means that we have 3 edges and out of those **3**, we can choose only **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9098450-7988-47fa-8163-66b19e8bd639)
+
+* Dijkrsta's algo and Bellman ford. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7b168b8-355b-4f7e-9aef-f06266e56c9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c6afda2-d9b1-41e2-a114-71f2ee306768)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fba7913d-8803-482b-bf31-0e630a828dac)
+
+* Dijkrsta's algo and Bellman ford [differences] [Summary] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a4b547f-7ff4-4408-a40f-e097a162e914)
+
+* Dynamic programming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bab5eb86-dfad-49d1-b261-27cc943bb1e0)
+
+* Longest Common Subsequence.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/952a1c87-0e25-4745-8dc3-bec5218a94a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd79b5e7-4cae-45bc-8a35-b0033b5cef85)
+
+* Matrix Chain Multiplication.
+* It is **associative**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fab923f-0d35-4b48-aebd-f68afd4d65b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1016089-e541-4669-8b83-364c14792236)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3099dc22-5326-4af1-af25-9c0bbc2c9ec9)
+
+* [**IMPORTANT topics**].
+
+* Link -> https://www.youtube.com/watch?v=rB0M2SxT56I
 
 
 
