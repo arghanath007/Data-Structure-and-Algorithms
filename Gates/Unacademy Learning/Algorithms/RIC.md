@@ -3447,6 +3447,53 @@
 
 * Link -> https://www.youtube.com/watch?v=rB0M2SxT56I
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3db879d2-b2f7-4cb4-b758-3e9453e7dac5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97689e68-537c-4abb-87c3-19d2212dc684)
+
+* Algo with **polynomial rate of growth** is **more efficient** compared to **exponential rate of growth**.
+* polynomial -> slower rate of growth.
+* exponential -> higher rate of growth.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bb961f8-8116-456d-ae26-6941eeeeec19)
+
+* W(n) -> Worst case time
+* B(n) -> Best case time
+* A(n) -> Average case time
+* B(n) <= A(n) <= W(n) [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f1c0c01-66a0-4dc4-b352-f7d25fd3e3f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f2290d7-f9c5-4031-83fc-1c4c7fb3fde0)
+
+* Notations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/660525f7-74b4-4dc5-ab24-7959e38be872)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/713598f0-c805-438e-8840-8430ef087778)
+
+* Big O notations.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/574fef09-1dc0-4801-b4ad-4869e68bb5c0)
+
+* Omega Notation. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80151f03-193b-43fb-8e67-60af0095d93b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c291bc1c-608d-4b72-a26c-f6773abc5f8a)
+
+* Theta notation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d3a6816-0cb9-43e8-8496-d50a351e16a0)
+
+* Notations [Summary] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/379210d9-e9b6-4bc1-87c9-e1a67230253a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f286d355-4c25-41bb-bfa8-0b9aee5bb691)
+
+* Notations [Summary] [**IMPORTANT**]
+
+
+
+
+
+
 
 
 
