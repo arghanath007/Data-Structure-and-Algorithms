@@ -3151,6 +3151,9 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d66f1976-81a4-4aa5-abe9-7a8e46104922)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/295b8b95-7c94-4dcd-a2bc-461e77de13c6)
+
+* Master's Theorem.
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/950bccc1-6c5f-49b0-8b62-02f843429034)
 
 * Example.
@@ -3167,33 +3170,122 @@
 
 * Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80e54810-e736-4da2-bee4-fb6204b6b2dd)
 
+* Master's Theorem.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/099eb129-ad04-4789-b5b7-b9e502f40e4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/206752bb-5987-4dc3-abda-d2825b75bf76)
 
+* Solve.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d341c81a-7dd7-4609-97b0-49097003b72e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4185c5d3-e6c3-4bd1-8b53-1e5e95d00e0c)
 
+* Master's Theorem.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7801ea95-563f-4638-bd76-697daf54cd74)
 
+* Recurrence relation solving.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14b3a907-ac54-4763-8338-5c2b1c34a5df)
 
+* Tree method.
+* This is happening because the **addition** of the values equal to **n**, like **n/3 + 2n/3 -> 3n/3 -> n**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d50b43c-a497-4305-9213-a6414201fe66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae81efac-a3f1-445f-a9c5-8293da431ee9)
 
+* We are getting a **GP** series and the term we are multiplying with is, the value of that **term** is **less than '1'** then **ignore the series**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fffe3923-a757-4808-813f-210e8cb05dcc)
 
+* Space Complexity Calculation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd28abbe-0c1d-48fe-a708-ec07146ff731)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15354f0b-432b-495b-8025-224b8fb8258d)
 
+* Sequential Algorithm **space complexity** is **constant only**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c09ecad7-aaac-413f-9e1d-3c93ae28b679)
 
+* **Code Execution Space** for any **iterative algo** is **constant or O(1)** or fixed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae5a749c-8341-46a9-9948-a2c5ff0f571f)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d2d3a70-c153-4017-9daf-ea262b1b705e)
 
+* Example.
+* For **recursive algo's** space complexity is dependent on both **DS and CES**.
+* Whatever **tree structure** we are getting and the **max. height** of the tree is the **CES** of the algo.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3616b0ae-f77c-4fb1-b117-9dc0a12f5302)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a25bab0a-0618-41c2-8027-9649e70c1c5e)
 
+* Space Complexity -> log n.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8685ba9-723c-410d-9ca4-8d881ffd795d)
 
+* For passing **n = 3**, we are getting the height of the tree as **3** so if we pass **n** then the height of the tree is **n**. So the **CES = n** and **DS = 1**.
+* Space Complexity -> n.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9801acd5-5cf5-4562-85d3-a1ea148eb10a)
 
-
-
+* For the 2nd algo as well for **n = 3**, we are getting the height of the tree as **3** so if we pass **n** then the height of the tree is **n**. So the **CES = n** and **DS = 1**.
+* Space Complexity -> n.
   
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/642bba6f-c333-4fd6-a029-1383c6065956)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a59c7f-5404-42bd-8b32-fed3b1ba3a0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/529677dc-a80c-4306-ae64-d0a0edcfa3ba)
+
+* Divide and Conquor.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2bcaf6f-f731-4a05-b719-48fceeaa55e9)
+
+* If we have **unsorted array** then which algo is best? Linear or Binary search?
+
+> **Linear search**. Because if we want to do **binary** then first we have to do **sorting** after that we can apply **binary search**. **Sorting** will take a lot of time.
+
+* We cannot do or have the time saving significance of **binary search** in **linked list** that's why we perform **linear search** on **linked list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6ac857c-f19a-4ccf-8a58-c1904504126d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36e3d58d-976e-4349-bf9f-47419fbc25e0)
+
+* Binary Search.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6665d58c-0b45-4122-8781-f6eae39da2ae)
+
+* No. of comparisons have been **reduced**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d1ee872-713d-4a20-971c-476aea0bbf41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/840ae5c8-86f5-4990-ae28-e3ba55cc0688)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4291b293-8175-4a57-af1d-25cd4a53cabf)
+
+* Matrix multiplication.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c95ac14-95df-4183-b493-6440ebe74acb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fefd535a-5ff6-4e9d-a7c4-83646f8baf83)
+
+* Starssen's Matrix multiplication.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/861ce574-f6f9-4a2e-b4be-d0aa2208af1c)
+
+* Sorting Algo Time Complexities.
+* In **iterative algo** of the**Merge sort**, the **space complexity** is **theta(n)** due to **data space(DS)**, that's why **merge sort** is called as **outplace sorting** technique.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
