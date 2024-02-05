@@ -3792,11 +3792,78 @@ ff![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/
 * **8** was already in it's **correct position** only, so **no swapping**.  [**VERY IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f93c61fa-f7f8-4145-b335-4d8c310abffd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff0ad89c-a505-45d7-8533-9bbe8af306f0)
 
 * Option **A and B**.  [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e500b5d0-69bc-4e14-8cf5-c6e1a825f011)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28d29bff-f677-4f21-9f51-d5d1140dc0df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10fb2206-149d-41bc-a86b-07a90fc30cdb)
 
+* All options are **correct**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5ba6f34-a885-4c34-8267-7cc9fdcc980d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3f3639f-c9a3-46d7-8aac-8300687786fa)
+
+* Option **B and D**.
+* Time complexity of **selection sort** is **O(n ^ 2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/562b5d51-03c2-474c-8d87-6b9266a46597)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9f37844-1444-4159-9a78-1a2370cfeb94)
+
+* All are **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e295162-ce67-41ab-b769-21fe7ca83691)
+
+* Length/frequency of A -> 1100
+* Length/frequency of B -> 1101
+* Length/frequency of C -> 111
+* Length/frequency of D -> 10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7443a1f7-e36c-4a70-b1cb-343749a46a9b)
+
+* In **Option 'B'** the frequency of **C** is **greater than** the frequency of **A**, then **option 'B'** would have been **correct**.
+* **D** is at an **upper level** compared to **A**. So option **C** is **correct**.
+* **E** is at an **upper level** compared to **D**. So option **D** is **correct**.
+* The messages who have **higher/longer** frequency those messages will be **added** first and the messages who have **smaller/shorter** frequency those messages will be **added** later. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f87c9544-fc64-4d74-a24b-e8b71e72dc95)
+
+* Option **C and D** [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faa69a6b-b88b-4722-881f-a83f566752c1)
+
+* As the **max deadline** is **4** so we can execute a **max of '4' jobs** only.
+* The slot is based on the **deadline** of the job.
+* Usually we take the job which has the **highest profit** but here we are picking up the job which has the **highest penalty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92cc6931-e9ff-41db-a660-702f09b748c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a77698b1-394c-4147-9318-f5973f935a22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdfcbc4e-2615-4214-b4cf-7d1db0e8c6f6)
+
+a) Min. total penalty incurred -> 3 + 4 + 2 -> 9.
+
+* Order of execution of jobs:-
+* J3 -> J2-> J1 -> J7.
+* Option **A and B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af69e65-115b-4950-b1d5-c551fad802fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e829228-7d92-43bc-83fd-de28bd749ed1)
+
+* Option **A, B and D**. [**VERY IMPORTANT**]
+* Link -> https://www.youtube.com/watch?v=PH1X861lv4M
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dd291bb-f100-4102-8210-b449a6270b49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15312d74-346b-425a-821b-9e6e0111cacc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39baf18c-57d3-432a-83d3-cbe46f04064e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/601658fa-fea8-4d97-8ca9-328c8f334390)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b9f617e-8de1-46f7-ac8f-993dbada27f5)
+
+* 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bf82f63-db79-44c2-bfce-6bcd02372a4c)
+
+* 2
 
 
 
