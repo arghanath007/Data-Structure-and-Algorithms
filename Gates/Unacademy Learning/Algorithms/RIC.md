@@ -3916,6 +3916,89 @@ a) Min. total penalty incurred -> 3 + 4 + 2 -> 9.
 * Option **B**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4b1dae6-0e04-4eeb-aee3-1c099500b1ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec823e2c-a76b-4ad0-a30a-fa701159d3be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f838958c-e4db-4b42-84c5-c857465b44a6)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5813506e-fcab-4455-8808-f63b35a21849)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5551e98a-bf77-49ce-ba14-f4f575c351f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbb809c8-f37a-4037-a774-e8e5cefa3c92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4cca525-cb24-4c77-94c2-f493ced676f4)
+
+* **Selection sort** is the only sorting technique which has the **least no. of swaps** in the **worst case**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2f5dcc-d4c9-427f-8347-32c55d8fddeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df5f6ee3-db31-40b7-8fe1-d13e4c18bfb1)
+
+* If it was **balanced binary search tree** -> O(log n).
+* If it is **binary search tree** -> O(n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae5ac53f-1b0a-4c2c-81d7-7e9567e36525)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b186ae5-e229-4c40-977c-81ced2066fb4)
+
+* If the **no. of elements is order of '1'** then the time complexity is also **O(1)**.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09b94bac-23e9-4f1e-8ed7-be80b0ff3d7d)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0adf1508-cd7e-4901-ae90-ea9de9f8ff39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e32b89d1-7a61-49c4-aff5-3b2b079c90c3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69952b4a-ab13-44de-9bb6-5244c36e5913)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7188c682-51e6-4c37-9aad-73d3e5f35ee3)
+
+* 158 + 93 + 64 + 43 -> 358 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34580ed7-4413-4e8d-9126-4a1a74d30ad2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dded964-f4ed-423a-954f-d039e273d39e)
+
+* Huffman code is a **prefix code**.
+* As **d** is occuring last/at the end in the dictionary that's why it is having **more length** than **b and c**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6627ba25-eb3c-4199-afb2-f6824069fe76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a95de230-aa9d-46ec-bd3d-564b027bf895)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1ce219a-f47a-4d3f-9f3b-f28e73a51734)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc153772-0cb6-4f64-928c-739adfa523dc)
+
+* We have to take the edge weights of **1 and 2**. With the edge weights of **3**, we can have that **3** is causing **cycle** and we cannot take it. If we cannot take **3** then we have to compulsorily take **4**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e54b76c2-4415-4cca-8413-1282cdf73628)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81d3379e-4fef-4976-aa27-127eafaedfa3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06b5a514-1dfc-4d7c-af9d-5cd0f94d72f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b98cf0ca-50f0-4beb-8c12-4adace996194)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03e71d16-87f7-4f96-bf1a-8da0b3dff681)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/618c50ab-7ed4-40b7-8f1b-aaab3c61ecb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a6977fc-022b-4b56-8766-234d97caafd3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4532f09e-bb9b-49d9-bae8-160148989fbd)
+
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196fdbda-ff7f-4ccc-bfbb-f925e54347b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e343680-4c19-4969-a7de-5c734fe2be45)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6620cd5-2a1d-4c21-80f7-04bc4562b9ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4622b87-fc13-4384-ba25-1270ca19f0e3)
+
+
 
 
 
