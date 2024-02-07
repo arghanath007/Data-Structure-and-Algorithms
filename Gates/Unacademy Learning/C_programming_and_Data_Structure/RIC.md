@@ -2371,6 +2371,157 @@
 
 * Solution.
 
+## Revision
+
+* Link -> https://www.youtube.com/watch?v=kNyztjCYDmE
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c0cc588-bb6e-420b-911e-a74b95d60b1a)
+
+* 7 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eed530fd-c03a-4a29-ac95-c58aef1a9214)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cdb5bd3-d5c3-4b1d-81a3-97553f27a896)
+
+* Activation Tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/190e0603-8803-4950-8e2e-69583603c5fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd4bb50d-c805-49a5-a2b1-d66903f8a98d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6ff3c34-5768-4621-8562-0514684f29fb)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ec7539d-4b05-49cb-903d-97c2ae0c4260)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14fa5e89-f61f-4136-9480-58472f591fe0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d5b58f9-6238-4097-898e-3f9ff264384f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3348923e-af6e-4b61-ae3c-fe78d68d9c58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc1cf3d4-f6d3-414b-a867-5f98c11ebd4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccab0c13-dedc-4f9e-8ad2-bbaafa4e6831)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1938ff3b-56c1-44f4-9661-94b4aacb7564)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/803bf361-176c-470f-b03f-7adf5aac57dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75cb52b1-1fad-48e4-8b25-ac75272f19d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6369a2f-a4c2-4048-83d0-d190b2bbbbf9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ed2a25e-9dac-4bd0-86ef-3a13e3d51b57)
+
+* Working of **fun1()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09d13887-c411-428d-a76f-655f37b8dd0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b8f32be-d646-4f9f-85ce-c15cca32c23a)
+
+* Answer -> 55.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8254a063-ef73-4b7b-a98c-2a53fd4d2d24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6aa9422-f215-4315-bfd4-5a5ebac24499)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b84fed5-4b8e-4905-b5cb-b336b042bb22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a26b10b7-33ab-4884-b40a-3fdba7d65af5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/959ccafa-1543-4706-b6d4-bf00a922aa4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/019c646a-674c-410b-beee-cef0f863f9cd)
+
+* Infinite function call.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7454e4e0-7627-49fc-a9f5-b21f5ba99250)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78bdc28c-12ae-4b92-9ab4-26430032be82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fba07d3-a831-4804-b64a-5b84b5b1138b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1f643a3-2bf2-43f2-834c-ad70154835e9)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1f05623-b97e-43e2-acc8-2cbb62b50b99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dff66937-e974-4218-b1ca-aea246a13f2d)
+
+* Option **B**. [**IMPORTANT**]
+* Dereferencing -> *().
+* No Dereferencing happening in **fun1()**.
+* Dereferencing happening in **fun2()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fdf9d1f-64ee-44c3-86d5-a3560ad6ba97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6be72986-18c5-4031-9224-776b00b7166a)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/221dab4f-0101-4346-bfaf-912f09c64806)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16c6b9bf-77c9-4c21-8dd0-ddb4441c34b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4740646-835d-4440-854b-6edc3cf869c1)
+
+* 0 [Answer] [**IMPORTANT**]
+* n -> 0
+* n1 -> 10
+* m -> 12
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f28b362f-a2e8-49c5-a721-b68f8be5df1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eef6ce1-428a-49dc-9dc8-45a50cdfab01)
+
+* We got **c + 10**. **c + 10** is an **address**. When we give **strlen()** a **string** which is an **address** and we got **17**. **strlen(17)** is **2**.
+* 2 [Answer] [**IMPORTANT**]
+* If instead of **strlen()** we had **sizeof()** then it would have been **3** as the **answer**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfd3b729-9082-4fd3-bed2-0d2ea59d6a43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2152c9c-c468-4f15-8746-53c6095a14f8)
+
+* Option **A**.
+
+* Type of character **c** is **unsigned**.
+* Whenever **comparison** happens it happens in **same** type only.
+* As **c** is **unsigned** so the **unsigned** value of **-2** is calculated.
+* As **-2** is a negative value so it's **unsigned** value is **very large** positive value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/692b403e-7f5d-4cb0-9bd9-656fa7ee5f43)
+
+* 3 [Answer] [**IMPORTANT**]
+* Start from 2hrs 11mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
