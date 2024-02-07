@@ -3897,6 +3897,28 @@ a) Min. total penalty incurred -> 3 + 4 + 2 -> 9.
 
 * Time Complexity [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a89719-4da7-46aa-b1fd-1611894bdabd)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfd2df96-bc4b-4ffd-97fa-4f42f6bc0f7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2cebc89-fdb0-4c49-ae68-654044784fbd)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b1e5019-1ace-4294-b136-6ea33816b610)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c2d21c-fbe7-4e0a-b138-5ac42e875aa3)
+
+* Options. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/241ed583-67be-4e5c-b929-7e9e0cc66492)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4b1dae6-0e04-4eeb-aee3-1c099500b1ab)
+
+
+
 
 
 
