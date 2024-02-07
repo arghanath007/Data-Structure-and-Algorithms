@@ -3864,6 +3864,38 @@ a) Min. total penalty incurred -> 3 + 4 + 2 -> 9.
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bf82f63-db79-44c2-bfce-6bcd02372a4c)
 
 * 2
+* Link -> https://www.youtube.com/watch?v=NbO2v8MdFZE
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c93b1faa-3bb7-4a02-8e20-5e3a54b14b91)
+
+* Best case, B(n) time is **less than** the **Average case**, A(n), is less than **worst case**, W(n).
+* B(n) <= A(n) <= W(n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8499fc6-e45f-4318-9ddf-dcffd91961dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5365722b-1de3-40e5-8272-9349f9463487)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da158e8e-1d96-437c-ad0b-52dbdbbcd4b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/676b8385-f11d-47a5-8193-826c98da6203)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/619ed5df-91e0-46fa-863f-6fe144c4de58)
+
+* In terms of **time complexity**, **package 'B'** is better than **package 'A'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a582dffd-19a1-4b1e-aab6-d7ff9eb7a24c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37d334db-da9f-4686-9dc0-8c3741f6dca1)
+
+* Value of K -> Option **B**.
+* Time Complexity -> O(n * log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/048ce944-4951-43c5-954d-35412a534c5c)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da74d16a-25be-483f-ba07-370e6e2fe4e9)
+
+* Answer -> log * log n [When q = 0].
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15eaa2b8-6432-4f6d-95a0-9069a439370f)
+
+* Time Complexity [**IMPORTANT**]
 
 
 
