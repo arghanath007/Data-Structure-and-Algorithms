@@ -2476,7 +2476,58 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/692b403e-7f5d-4cb0-9bd9-656fa7ee5f43)
 
 * 3 [Answer] [**IMPORTANT**]
-* Start from 2hrs 11mins.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c4268b1-5327-4a01-ab4e-671ae7d4a25c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/436834f1-5fb0-4c9f-99b0-863b0fbf3f9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8457722c-010e-4786-a41d-9f68329aba31)
+
+y = a = 3
+la = 1|2 
+x = la = 2|4
+2 * 2
+print -> 4, 4. [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/943a8260-23f5-4f85-ae5b-45b5903ca67f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2920c28c-5d6b-4355-bee2-6f5b134b52ae)
+
+* Option **D** [**IMPORTANT**] [Doubt]
+* Link -> https://gateoverflow.in/39701/gate-cse-2016-set-1-question-36
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/997ae2e0-c412-4d83-953f-0273686247be)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ac31a2a-aa4a-4749-b629-6b453604fbd0)
+
+* Option **A**.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2ddd24d-5661-4e01-af0f-7895c1e09db0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d66f6bc-5a5a-4b18-8285-4eeca05bbc17)
+
+* We are not doing any **dereferencing** in the **mystery()**. That's why the values in the **main()** remain the **same** only even though the **address of the values** are sent in the **mystery()**.
+* 2016 [Answer] [**VERY IMPORTANT**]
+
+x = 1 + 26 + 51 + 100 + 52 = 230
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f6a3665-ae98-475e-ae8b-9c594744a62e)
+
+* 230 [Answer] [**VERY IMPORTANT**]
+   
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58f83f30-798a-4e65-9dd3-0c7e956e2e11)
+
+* Option **B**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98896193-8691-4421-abe3-a624878f77bc)
+
+* Whenever there is a **difference/minus(1)** operation in **addresses**. We are doing **minus(-)** of their actual values then divided by the **size** of the data. [**VERY IMPORTANT**]
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53aad098-6a66-4326-bef9-92208cf38154)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a92ea42e-f396-4f88-8afc-e62320b53631)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/605384f7-d33e-42b1-ae22-8b05bdb61c97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5afd297-d906-454c-9ae2-ca5b515f34c8)
+
+* Z = 0 [Answer] [**IMPORTANT**]
 
 
 
@@ -2512,6 +2563,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
