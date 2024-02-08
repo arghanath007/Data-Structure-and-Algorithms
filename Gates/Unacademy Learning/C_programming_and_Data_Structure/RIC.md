@@ -2529,17 +2529,218 @@ x = 1 + 26 + 51 + 100 + 52 = 230
 
 * Z = 0 [Answer] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8591f352-3b3b-401f-882c-27bdc58b4927)
+
+* Option **A** [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e43ca22-48a3-467b-9b39-d43d567869ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4313e61-39f8-49b6-bd4a-6dbeb3a3f66e)
+
+* [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20070bca-cd03-45e1-b072-47f34b73990b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35d7038e-2b79-40f8-afb1-285618a6c533)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75e74399-314a-4620-aab7-51d90549eafc)
+
+* No need to insert into **Q1**. We have to do **zero(0)** insertions into **Q1**.
+* 0 [Answer].
 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/257536a3-1a36-44ea-bd0c-5208bc1534fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9d498e8-1273-44d2-b22d-621eb8b22ce2)
 
+* 86 [Answer]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f18369a7-4b22-4d4b-afd3-ccad326c10a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa80a32b-4d32-4c78-9e70-c8a545ed379c)
 
+* Option **B**.
+* If it was **Doubly linked list** then answer would have be option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbed77e9-f2fb-447b-af9e-814b8f75f6c1)
 
+* It is asking the **reverse** of what is mentioned in the question.
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3da6a849-bb62-45ac-8f7c-a391241bad04)
 
+* Efficient implementation -> Circular Queue we have to implement.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1533225-4abe-4596-8257-c994178df224)
 
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a95b5bf1-cefb-4601-b8a4-1f4a49839f30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c44ea8f7-f4ee-482d-b811-9da0090677e0)
+
+* 15 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ed8faab-ca82-467b-aafa-1b8c8099de2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052a52b8-4137-45a4-9619-a61a723b1f75)
+
+* We want to implement **queue** using **stack** then either we will make the **enqueue** operation costier or make the **dequeue** operation costier.
+* One of the operation will run in **3** instructions and the other operation will run in **1** instruction.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/025d6638-7f91-45ab-ad4a-c706050f2845)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bcd011c-d739-47e9-8531-67af9b088d6a)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e04190ad-a448-413e-9fd2-79b66e01c249)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88756276-ce8a-4261-846c-b390c72c0557)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bc66abf-01d6-472b-8454-e613dd615aaf)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7656931a-008e-4c0c-8f4c-874fd0af8536)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22dd7c0e-b0fd-48dd-a7e6-51f42ee79dac)
+
+* Valid null terminated linked lists -> There is **no loops** within them. [**IMPORTANT**]
+* They can be **empty** as well as **non empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de2e0e3c-3dd2-474e-a56f-c3155446c39d)
+
+* Case 1 -> LL not empty.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/408284d4-3abb-498d-b955-09a38a55ec9a)
+
+* Case 2 -> LL is empty.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bc4a16a-c467-45fb-8349-a117266a1379)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31ade2e8-cec0-4e4f-8ea3-72a7b56d9e85)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5c53b03-7460-4ee2-aec0-8f14add865d5)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5199cafb-b3bb-493d-864d-72bfe7d77dce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34304bc9-66c4-44c2-ab47-f0b7bfc90a42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d4f5ce9-516f-4ded-8949-724038bf39a0)
+
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/628da773-be03-4627-8761-70886822e9b1)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9543b1e5-8d71-4ca3-af58-b21856843dd8)
+
+* Draw it.
+* No. of leaf node = Ceil(n/2)
+* n -> No. of nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6729f756-b899-4f18-ad15-d9d61d75a73e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b363ed47-7102-4481-9834-92382cc1aa6f)
+
+* Construct the tree and from there find the **height** of the tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aec315b-6b4a-439a-8330-eb8645413fb9)
+
+* We took **7** keys in total.
+* Only one key can be the **root** of the **min-heap**.
+* Now we are left with **6** keys. We have a **min-heap** on the **left(L) and the right(R)**.
+* From the **6** keys if we take any of the **3** keys, it will be a **min-heap**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fd8135b-aef6-42f1-910b-31990bbf21b8)
+
+* 6C3 -> Left side keys, min-heap.
+* 3C3 -> Right side keys, min-heap.
+* We saw that with **3 keys** we can have **2** min-heaps.
+* After the Left side min-heap, we are left with **3 keys**, so for the right side min-heap we have **3C3**.
+* [**VERY IMPORTANT**]
+* n -> Distinct keys.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ba99817-bf64-4d7c-82db-cba053df1b09)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3c07181-ba0b-4da3-9fdc-19afb3e647b0)
+
+* BST. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca45bdc2-d462-45bc-bb2e-652a65d3a22c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13f02b7b-aef3-4b07-a44c-1e809ab57bb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4713524f-b6d4-49f4-9e5d-8c9ec14fddc0)
+
+* Max height -> 14
+* Min height -> 3.
+* Option **B**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db980244-2f68-4c5a-927e-1ba5acfa2787)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c296fbf9-f5f1-4db4-b3f9-9efb1336d37a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/500af2c2-dd22-4bfb-8668-c086168f6492)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94126615-178b-4fb1-8342-5d4a06a67193)
+
+* 2 ^ (no. of elements/nodes - 1).
+* 2 ^ (n-1).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21a00026-0f88-4520-bad8-6357c57fe10b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d5b5995-05fe-4e4d-af88-ddd244bd75a8)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fc9492f-24c0-40da-91ca-6485bd69c4ac)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/086c7a7e-3a65-4ec9-bef9-f519d7d5b266)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbd5e1ca-3dc7-4245-be43-47632cca509e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6678ba65-be77-4db5-9495-cabcf9aabfb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c57ced2-6e3a-462b-9e35-e8390e85b9d6)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4584c1e0-ea7a-4b2d-8b16-c046fbeff1ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/227843f8-ef95-473f-a3d8-1047e31dbc8a)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2aeee2-dc80-4c29-a223-4ba2a6074af9)
+
+* The **inorder** of **BST** is **fixed** which is the **ascending order** of the keys.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd93b6a4-0b0f-4700-bde1-5549e44f9caf)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fee2bf07-ec81-454d-81aa-ef4bd47ffa1d)
+
+* We will get **max height** whenever there is **min. nodes** in a level.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eceb1907-7cce-44e4-b9c1-2ef2d889a720)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b416cd9-a2ef-4b5b-b9bb-c11d2c9fdd6b)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91d732e8-0522-4e27-a058-1d5592877bed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4999fd8-c73b-4258-b301-dceb0b3af7b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce5f3d06-7587-492f-b1c4-a15b7bf59845)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71cf9b26-d3a7-4094-ac9f-1e5442dca2fb)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75469c56-ee03-4bac-97fb-0954fe53bf5e)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90bd468c-1a79-4228-8844-34f0c2335a8e)
+
+* [**IMPORTANT**]
 
 
 
