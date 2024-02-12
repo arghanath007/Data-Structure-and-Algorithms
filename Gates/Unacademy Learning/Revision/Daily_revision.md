@@ -42,7 +42,7 @@
 
 * Sample Paper Questions Done.
 * Topic covered.
-* Revision -> To be Done.
+* Revision -> Done.
 
 # ML
 
