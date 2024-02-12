@@ -38,10 +38,21 @@
 * NIT Calicut(2nd NIT) ->
 * NIT Warangal(4th NIT) -> They don't release every year. Have to check.
 
+# Exams apart from GATE
 
+* Link -> https://www.youtube.com/watch?v=aCxZaK1xOZs
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33df8740-a1db-4a54-9c6f-d2cb2df53f80)
 
+* Opportunities.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1feb2568-27aa-488f-a150-a5952b202797)
+
+* IIT Patna -> Check this as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbcbb555-ae7a-4942-b7c0-9a90e93dac9e)
+
+* Requirements.
 
 
 
