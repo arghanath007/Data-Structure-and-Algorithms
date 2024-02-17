@@ -54,10 +54,28 @@
 
 * Requirements.
 
+## IIITH or PGEE Exam
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4585d11a-9884-486a-b4cd-1fbd763df2e4)
 
+* Syllabus.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da7869f7-63a7-4bfa-af4c-4982c2dc4c60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47461dfc-b3ef-4f06-8a32-a61f7342d829)
 
+* Syllabus of 2023
+* Check syllabus of 2024 once.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fdc2af1-99ab-4797-b8de-2ebc742974c0)
+
+* Syllabus of 2022
+* Some topics from 22 are missing in 23 exam.
+* Links:-
+
+1) https://www.youtube.com/watch?v=hN4k5nyQ0FA
+2) https://www.youtube.com/watch?v=VRSDbNPMI-g
+3) https://www.youtube.com/watch?v=LZVNe-MDlds
+4) https://www.youtube.com/watch?v=qnM7hbJZuR8
 
 
 
