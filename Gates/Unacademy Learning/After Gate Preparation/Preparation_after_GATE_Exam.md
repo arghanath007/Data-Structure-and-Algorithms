@@ -117,8 +117,42 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ed3da59-3b24-4af2-8f6b-d2ff409d5243)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f7912b0-d290-416e-bb33-79cfe41900d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a877ad1a-e70f-48ce-8dea-04757c1d0944)
 
 * Two ways of solving it. Directly do it or indirectly do it.
+* PSU.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e03e088-7828-439c-a3da-44a5e7d88f82)
+
+* Question.
+* UPSC.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d342c2f8-8e27-4b10-8d37-84eeca14ca0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16035ac5-9c1d-45c6-9008-cbd6fdd0dc8e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f21d245c-2a8c-47d7-ae66-c2cd39ca11d6)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/725cf3cf-da65-4be6-a57d-4f2d9279d1ef)
+
+* Percentage Change. 
+* Profits/Gain/Increase
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37602d59-2a42-4d07-a901-1c30464d881b)
+
+* Discounts.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa150cb5-0d52-4879-97dd-5c18d06c9684)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e36bf60a-4293-4b99-ab89-f1cff9e7d8ba)
+
+* 10 % increment [Answer]
+
 
 
 
