@@ -77,18 +77,48 @@
 3) https://www.youtube.com/watch?v=LZVNe-MDlds
 4) https://www.youtube.com/watch?v=qnM7hbJZuR8
 
+###  How to Prepare General Aptitude GATE PSU CAT BANK CSAT SSC
 
+* Link -> https://unacademy.com/class/how-to-prepare-general-aptitude-gate-psu-cat-bank-csat-ssc/9OM5AAM5
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34df0c73-4434-4cd5-8f03-ead15722fbca)
 
+* Doubts.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/706e0407-2af5-44a2-b4ad-1490232ad734)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c734008f-c116-4e1e-be09-2b3b2fe459ed)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90f7f9ce-2b20-4a72-8de8-82c6ef0ee9e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67510b27-cf0d-4d85-bc3d-38bcffbb94ee)
 
+* Decimal(10) to Binary(2) convertion [Trick]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b2d9c12-40db-4e73-9fd0-2f759c511c2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/094c6e18-0a71-4cdc-b406-817c2f138e0d)
 
+* Decimal(10) to Octal(8) convertion [Trick]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3790af0-696b-4474-a2f5-be7f68389ab4)
 
+* Octal(8) to Decimal(10)  convertion [Trick]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc638ede-3618-4406-873e-b439f93f9a2e)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d75eeb0-b25d-46e9-a218-92c333b862f5)
+
+* Directly convert octal(8) to decimal(10). [Trick]
+* 1 + 2 -> 3
+* 3 + 7 -> 10 -> 12 [8 -> 10, 9 -> 11, 10 -> 12]
+* 7 + 6 + 1(Carry) -> 14 -> 16 [11 -> 13, 12 -> 14, 13 -> 15, 14 -> 16]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ed3da59-3b24-4af2-8f6b-d2ff409d5243)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f7912b0-d290-416e-bb33-79cfe41900d8)
+
+* Two ways of solving it. Directly do it or indirectly do it.
 
 
 
