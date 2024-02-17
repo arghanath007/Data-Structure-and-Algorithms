@@ -153,8 +153,52 @@
 
 * 10 % increment [Answer]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f842cdf8-0598-4b0a-bbcf-c0eb1df45f1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e639f6b2-3925-4dcf-bc4d-70544fc8536e)
 
+* Between/Beside/Next/Opposite/Adjacent -> Excluding upper and lower limt. [**IMPORTANT WORD**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/947d8815-a8dd-4f17-a267-d7ab0b6e018e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5864914c-6184-4c1a-9534-a6c827f096fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3d6e0c3-65db-4e44-8076-6030c80b59a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a15e5ae2-be0a-449c-b869-b76d35984921)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/784b586f-2f0c-44e1-a401-5f830d79fed1)
+
+* Path/Pathways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e830908-6be4-4331-96ae-1657885be4e2)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cc80986-e531-4b61-bbc4-3aeb017307c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ccfc45f-0769-4345-8f13-fdc66fb5a5cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a58962d3-7d40-402d-8610-2c92f7d5d0c3)
+
+* Hz -> Horizontal.
+* Vt -> Vertical.
+* (Hz + Vt)! /(Hz! * Vt!) [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88adc93a-e28b-47c6-b2c4-ce45e8754a59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1206c6be-ddd7-4ff5-a71d-4290694fff8b)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e09c185-5738-42dc-ad76-882e96ff230c)
+
+* Another Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c3c8c96-878e-4e91-b97e-b684c73612fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6d974b7-75a4-4bd2-9b2b-b014865da9f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e6c1ea4-636c-47cd-a15a-f4a1d97b03f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73238461-5326-41ff-bd49-44994cf85143)
+
+* Probability Question. [**IMPORTANT**]
 
 
 
