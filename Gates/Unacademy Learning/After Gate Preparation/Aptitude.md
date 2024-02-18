@@ -1,12 +1,13 @@
 # Aptitude
 
-###  How to Prepare General Aptitude GATE PSU CAT BANK CSAT SSC
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34df0c73-4434-4cd5-8f03-ead15722fbca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ffd23dc-d417-46e3-a440-d592c3e470e7)
+
+* Doubts. [**IMPORTANT**]
+
+##  How to Prepare General Aptitude GATE PSU CAT BANK CSAT SSC
 
 * Link -> https://unacademy.com/class/how-to-prepare-general-aptitude-gate-psu-cat-bank-csat-ssc/9OM5AAM5
-
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34df0c73-4434-4cd5-8f03-ead15722fbca)
-
-* Doubts.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/706e0407-2af5-44a2-b4ad-1490232ad734)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c734008f-c116-4e1e-be09-2b3b2fe459ed)
@@ -171,3 +172,192 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf888ac5-057e-4d62-b403-f0ae36ac564c)
 
 * **5** is also same as **2**.
+
+## Special Session I How to Prepare Aptitude for any Exam
+
+* Link -> https://unacademy.com/class/special-session-i-how-to-prepare-aptitude-for-any-exam/VQDH3JG8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcc91677-d684-468c-81c1-8dd0d1c03885)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7e6a9ae-d829-4b19-900f-bc4cbe6ba420)
+
+* 3B [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a13c3ad-44b9-4179-a230-b638bd7aed67)
+
+* Increase the power of **numerator** and divide it by **denominator**. We will do this till the **remainder is '1'** or there is a **pattern** forming.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea19b6a1-0cd6-40e8-bb4f-32ab9aa550dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbfc9c85-3a5c-4a57-87c7-667b944b5671)
+
+* Example [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2645ec6-c555-4034-bcdf-067192dbbe6e)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1e6c7e0-f270-43b6-bd5f-7922dffda765)
+
+* Question.
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39265189-27e1-4449-bf39-a60c28483889)
+
+* Solution. [Cyclicity]
+* 11/7/13 -> IMPORTANT numbers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03360526-966d-444a-b6db-aecf220bbb5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e756adef-793c-4906-8d47-43b446e9f539)
+
+* 11 [Example]
+* We are looking from the **right to left** side of the number(N).
+* Sum of odd digits - Sum of even digits.
+* 11 ^ 2 -> 121
+* Odd -> 1 + 1 -> 2
+* Even -> 2
+* Odd - Even -> 2 - 2 -> 0
+* 121 is divisible by **11**.
+* 11 ^ 3 -> 1331
+* Odd -> 1 + 3 -> 4
+* Even -> 3 + 1 -> 4
+* Odd - Even -> 4 - 4 -> 0
+* 1331 is divisible by **11**.
+* Number -> 517
+* Odd -> 7 + 5 -> 12
+* Even -> 1
+* Odd - Even -> 12 - 1 -> 11
+* 517 is divisible by **11**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9d229f0-6a82-4813-b0a1-ed89cb7eb337)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c90aeed3-85f9-4341-b095-788e519beb43)
+
+* 7/13 [Numbers] [Example]
+* If **triplet** is not coming then add zeroes(0) at the front. [**IMPORTANT**]
+* Here also read from **right to left** of the number.
+* Sum of triplets(odd) - Sum of triplets(even).
+* If result is **zero(0) or multiple of 7(7n)** then the number is divisible by **7**.
+* If result is **zero(0) or multiple of 13(13n)** then the number is divisible by **13**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4fd8cb4-5ffe-43f0-85e2-17c5e3211055)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecb3f224-1357-4c7e-8ba6-144f798d94c3)
+
+* Number **7** [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa4a9396-13d1-488f-b52e-9d0e3bd040a2)
+
+* Number **13** [Example]
+* Always break numbers into **prime numbers**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3934a5cb-d85f-49a8-9983-a37a465ba360)
+
+* 14 -> 2 * 7 [Number] [Example]
+* 700014 / 14 -> 700014 / (2 * 7)
+* As the last digit(4) is divisible by **2** so the number is divisible by **2**.
+* Odd -> 014
+* Even -> 700
+* Odd - Even -> 700 - 014 -> 684/7 -> Divisible by **7**.
+* So **700014** number is divisible by **14**.
+* 700014280 / 14 -> 700014280 / (2 * 7)
+* As the last digit(0) is divisible by **2** so the number is divisible by **2**.
+* Odd -> 280 + 700 -> 980
+* Even -> 014
+* Odd - Even -> 980 - 014 -> 966/7 -> Divisible by **7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18f463bd-411d-40b5-a2f3-3c9f4d9a732e)
+
+* So **700014280** number is divisible by **14**. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6272bf8-e994-4d23-8c48-b6b78d6f380a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e43b47f-1c60-411a-9d32-13307b17a966)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d550eb1-523c-45fe-9581-55681f6b9c90)
+
+* 26 -> 13 * 2 [Number] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b249b7fd-e510-477d-a634-a350bbac4ed3)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85d25f94-8bfb-458d-b7ee-c068c8b6fc7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5d990a-74e3-41e0-b9ac-c095cc3f2f70)
+
+* Option **B**. [P = 6]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dda24b0-6677-42ee-afa0-82ae2f0e4d23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0e7aa74-2282-4a2a-a3e0-1d1c622bfb24)
+
+* Percentage [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33468a7f-0a95-48f6-aafa-646b5c2e3443)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71395ad0-7dd8-4bd9-9697-26e2ed7d8c66)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef41c85f-db1f-4eea-86c7-c55ed7d9db64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bd6660e-5af0-42f0-ae2b-411974edcedb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3848696c-4fcd-4e30-a8b5-5df9deff0d7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cfca14a-9661-47cb-8132-17ddc1f2d097)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6478b6b-ba2f-4c2e-a0a3-b687fbb62b49)
+
+* Answer. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
