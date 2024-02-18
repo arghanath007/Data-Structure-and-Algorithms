@@ -305,27 +305,61 @@
 
 * Answer. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e8a62c0-07d4-48f9-84f2-d851a304e8be)
 
+* Spatial Aptitude.
+* Mirror Image
+* If nothing said then the mirror is **vertical** placed. [**IMPORTANT**]
+* Vowels -> 5.
+* Consonants -> 21.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23020fcc-e695-4ec1-b026-3528efe45e1d)
 
+* Questions.
+* Which **consonants** shapes have **changed** when seen through the **mirror**.
+* Option **B**.
+* **K** is the most used **letter** in **competitive exams**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/175796f6-6235-4042-9ece-1cc1cd141849)
 
+* Solution. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/194047b7-77d4-442d-8861-c4d4daddfb96)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3126dd3-cfb0-4528-b963-f63e3732626c)
 
+* Concept. [1hr 32mins]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b8bcdf8-8b80-482d-823d-03d44ce9a26e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/523974d0-97a9-408c-a9cd-bac5eb0ea164)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4528daf8-7e9a-4140-a0d1-46cf92460f33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd0ba5e0-2357-4819-a8fd-ec5a255aef4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9090c6c4-e056-43cd-a8af-60fe38515c24)
 
+* Doubt.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5edff5c7-0888-44cd-baec-7e5e558bf6cd)
 
+* 2024 question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbaa3a0e-7b86-41c3-9dd6-9cb5ccdb2c00)
 
+* LCM(3,7) -> 21.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/420b6ac6-73fa-44e3-9ca4-f4d276460c68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57771aa8-146e-4ef1-bac0-76b3bdd0cfd8)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eafafad-d633-4cb4-b226-0c7be4881dc1)
 
+* Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8338ff7-e258-483c-a8ff-31849545fcac)
 
+* HW.
 
 
 
