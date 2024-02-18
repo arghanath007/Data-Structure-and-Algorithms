@@ -77,6 +77,67 @@
 3) https://www.youtube.com/watch?v=LZVNe-MDlds
 4) https://www.youtube.com/watch?v=qnM7hbJZuR8
 
+## Programs Offered
+
+* Link -> https://www.youtube.com/watch?v=RqjnzKQQUZg
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a114eb85-585b-408b-990a-6d0331c03bd2)
+
+* Different Programs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11fba395-b64d-4dbf-97e5-af8440433598)
+
+* Area of Specialization.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db618c44-6ec3-49dc-8411-c07091dc1b99)
+
+* Some of the Best Clgs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4b456c6-7678-4af8-a72f-7be12b7b549c)
+
+* Other Clgs.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a86c72f-7209-4494-9121-8aebd26c9bf3)
+
+* Requirements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e1df377-df2b-4269-8716-9ce89db5e7e2)
+
+* Phd.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17690218-0201-4a4f-9c4b-98d4d91e9d27)
+
+* PSU.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e6a377b-b1f9-4e00-b0e3-10560b7db08e)
+
+* NITIE Mumbai [MBA]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42e0de7b-0114-49de-a400-fc71273aa48c)
+
+* MS in clgs outside India.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
