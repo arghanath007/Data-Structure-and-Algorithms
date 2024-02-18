@@ -197,13 +197,57 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6d974b7-75a4-4bd2-9b2b-b014865da9f9)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e6c1ea4-636c-47cd-a15a-f4a1d97b03f5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73238461-5326-41ff-bd49-44994cf85143)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5abf9de3-7760-4376-b2f8-ec025c88d0ac)
 
 * Probability Question. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee9aae3e-eb6c-4415-a826-a5cb39b35091)
 
+* Formula.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/208059ac-362d-43c5-9305-f3b5c414d9f4)
 
+* Chess board.
+* No. of squares are asked in **interviews**.
+* 1 X 1 square -> 8
+* 2 X 2 square -> 7
+* 3 X 3 square -> 7
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7a4ffe5-495a-4898-84c5-e83186c61cfd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/202ef7eb-a069-4f3a-9bcd-38cc3ada796e)
+
+* 3 X 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3206e9c-1f07-4116-897c-e3d85d2f42dd)
+
+* No. of squares [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab6434e-f3a7-4dd5-b3b2-976317d81ffc)
+
+* To make a **rectangle**, we have to take any 2 lines from horizontal(Hz) and we have to take any 2 lines from vertical(Vt).
+* No. of rectanges. [Answer] [**VERY IMPORTANT**]
+* Square is basically a **rectangle** only.
+* Square is a special case of **rectangle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40fe7f73-9c58-4f46-b57e-323bb607aace)
+
+* In the **1296** the **204** is included in it as well.
+* No. of rectangles excluding the no. of squares -> 1296 - 204 -> 1092 [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/912057bc-0f4a-4e86-b530-b96201ba1c1a)
+
+* Divisibility Rule.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e406c5ec-ca05-47d6-ab39-58f359bf8709)
+
+* 2 -> 2 ^ 1 -> Last digit of the number should be divisible by 2 then the no. is divisible by 2.
+* 4 -> 2 ^ 2 -> Last two(2) digits of the number should be divisible by 2 then the no. is divisible by 4.
+* 8 -> 2 ^ 3 -> Last three(3) digits of the number should be divisible by 2 then the no. is divisible by 8.
+* 16 -> 2 ^ 4 -> Last four(4) digits of the number should be divisible by 2 then the no. is divisible by 16.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf888ac5-057e-4d62-b403-f0ae36ac564c)
+
+* **5** is also same as **2**.
 
 
 
