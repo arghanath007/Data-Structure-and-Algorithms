@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad4fe8a9-7786-4a34-884c-d87096963170)# Aptitude
+# Aptitude
 
 # Topic
 
