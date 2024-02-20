@@ -1,4 +1,4 @@
-# Aptitude
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad4fe8a9-7786-4a34-884c-d87096963170)# Aptitude
 
 # Topic
 
@@ -282,6 +282,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e801dfd0-9303-4c33-9f01-eaadc387c726)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f20c07b0-502a-4bb1-8e27-0c191b2ab56e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/486fd29f-a472-44ae-9528-030345e053e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d00a78ba-09b7-4f5a-8747-70bec2c2124d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fef1a580-d3dd-42fc-8f7b-68f2655d93ff)
 
 * First find out that the **N** in the **N!** is a **prime or a composite** number.
@@ -290,6 +291,74 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/282b8a56-c753-4373-af92-937c32068656)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cad5acc-3086-417d-a1e1-817c0f2b29f5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf6e48a8-1632-4f82-b7d1-083cac5a2722)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c34a4c5c-54a2-4ae2-9c20-85a7cbb8e9da)
+
+* Prime Number.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b55c1ae-f005-4860-970c-e4ff99195bbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b1adfdf-9282-4fc7-bfe8-efe166df6f6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9854aaf8-6f5d-4e51-960d-d85af35da99a)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57233efc-479b-4167-a79a-80a1484e8115)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d839fa98-256d-423d-a774-3e0ba559fee4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44596aa0-eb7a-420e-9e9e-8daecf30c093)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e03116b7-d96c-4b23-840d-20718c5bdfd3)
+
+* Example.
+* 3/5/7.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed3fac82-e109-46c6-96a9-9124d5bef649)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b470f9af-8387-4888-a206-d19e58ab3c3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a5ddbf3-e2d2-41a4-b6a1-2d6becb2c7c6)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71c57758-a553-44e7-ba83-f84cd1f1e7c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cbfd39f-ede2-4853-9277-352b5e74389f)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d948a2a5-63b0-4e7d-bd90-84fb6f03d6aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/695ceb6c-1d77-40e9-8a7b-3d3f0fdccfa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/512dd4a1-4687-40bf-a250-a9a18cecb614)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61067a5c-cc90-431a-b5bd-50f7d87e8b52)
+
+* Example. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bef64ce2-a7b0-4e84-a3b9-b0cae52eab2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1bf2ee5-9bf1-4aea-99a9-141f9c6884de)
+
+* Example.
+* For any **n!** number, the no. of zeroes(0) at the end is equal to the no. of 5s present.
+* Any factorial number which is **n!**, no. of zeroes(0) at the end is **equal/as good as** no. of 5s present. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b06d0bc9-a94b-4d28-8159-9cac569141c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69601b07-c727-40ab-929a-016e85063514)
+
+* Example.
+* Find no. of zeroes(0) at the end.
+* Give emphasis on the **prime factors**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94da1fb0-523e-4ade-a5e7-7cfcf21850d0)
+
+* Find no. of zeroes(0) at the end -> 3 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff0ab42f-2e7f-4d3c-a978-5099e5509393)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b00d9b9b-3fd7-4c93-b437-08c67cac8600)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1352dfcb-9fef-447c-add0-7e887a09e72c)
+
+* Answer -> 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/580daf3b-df88-4e32-a87e-dd26a811eeb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10b6e8da-98c1-467d-9ac7-45149553e804)
+
+* HW
+* No. zeroes(0) at the end. [21st Feb 2024]
 
 ### When No. is a **Prime Number**
 
