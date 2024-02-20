@@ -359,6 +359,19 @@
 
 * HW
 * No. zeroes(0) at the end. [21st Feb 2024]
+* 100!:-
+* 2's -> 50 + 25 + 12 + 6 + 3 + 1 -> 97
+* 5's -> 20 + 4 -> 24
+* 2 ^ 97 * 5 ^ 24 -> 10 ^ 24 -> 24 [Answer]
+* 150!:-
+* 2's -> 75 + 37 + 18 + 9 + 4 + 2 + 1 -> 146
+* 5's -> 30 + 6 + 1 -> 37
+* 2 ^ 146 * 5 ^ 37 -> 10 ^ 37 -> 37 [Answer]
+* 250!:-
+* 2's -> 125 + 62 + 31 + 15 + 7 + 3 + 1 -> 244
+* 5's -> 50 + 10 + 2 -> 62
+* 2 ^ 244 * 5 ^ 62 -> 10 ^ 62 -> 62 [Answer]
+* [Solutions of HW] [Above] [**IMPORTANT**]
 
 ### When No. is a **Prime Number**
 
@@ -513,9 +526,18 @@
 
 * HW.
 
-## Number system part-III (3) [13th June 2023]
+## Number system part-III (3) [13th June 2023] [21st Feb 2024]
 
 ### Number system
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3a51fdb-6d8c-4079-ad0b-356fc18e0469)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ad6f67-3c57-42eb-83b1-cfeb2f900a3c)
+
+* Power Cycle of **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4db3288-5fef-49e0-98df-070f56080091)
+
+* Power Cycle of **3**.
 
 ### **Unit Digit Value(UDV)**
 
@@ -524,7 +546,7 @@
 
 ### Power Cycle
 
-* Whichever nos' **highest power** such that at the nos **unit place** there is **no repetition**.
+* Whichever no's **highest power** such that at the no's **unit digit place** there is **no repetition**. [**IMPORTANT**]
 * It is the **highest power** of any no. such that there is **no repetition** at the **unit place**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d11c3703-7327-4929-9f67-a58fc96bd6cb)
