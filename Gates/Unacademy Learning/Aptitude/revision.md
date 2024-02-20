@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e5a77cf-11f8-4a84-8cf8-fc1682f96472)# Aptitude Revision
+# Aptitude Revision
 
 * Link -> https://unacademy.com/class/mission-gate-2024-i-general-aptitude-1515-pyq-special/CUYXENKJ
 
@@ -147,7 +147,9 @@
 
 * 1
 
+### Extra Image
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e5a77cf-11f8-4a84-8cf8-fc1682f96472)
 
 
 
