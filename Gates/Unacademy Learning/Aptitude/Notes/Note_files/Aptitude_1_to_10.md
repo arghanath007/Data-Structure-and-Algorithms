@@ -26,7 +26,7 @@
 
 # Newer Courses
 
-## Number system part-I (1) [13th June 2023]
+## Number system part-I (1) [13th June 2023] [21st Feb 2024]
 
 ## Prime and Composite
 
@@ -38,6 +38,113 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3086383c-c855-491d-8b06-31f16754adbe)    
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0928a572-f665-4bf1-b5b7-cf071516c76a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fcf7c9d-9bb8-441b-b6a1-97fc093f731a)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb05c137-ab4c-4526-b821-4a58e0d77131)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/687bcc70-5c64-4bc9-a230-f709326dacb4)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d1a536-3d4d-4ad5-bf2b-486bcda61f3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2cbd60d-2906-491b-9733-76cd08759ba5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee1651b3-4cd9-43d7-84f7-6546ecc4ab91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00db90c4-f5f3-4d11-9391-2620bb538e25)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3ec30a1-9347-4103-9c71-63f854391f0b)
+
+* Sum of digits.
+* Digit Sum.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4418dcd6-f5f4-4687-b4e9-c41dc2e8270c)
+
+* For divisible by **3**, sum of digits should be **3**.
+* Remainder is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dda992f8-dd5d-4891-b720-5b715ddba886)
+
+* Min. no. to be added to the number to be divisible by **3** is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/002876db-4e04-4bbd-a949-5b8ea54b02a3)
+
+* For divisible by **9**, sum of digits should be **9**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f24cfa1-8474-4928-85a3-9d08e5be0d79)
+
+* Min. no. to be added to the number to be divisible by **9** is **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2e50ae6-049b-4fe3-9318-7a0850d1ad35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e817502-93de-413f-9849-cd58194e5f9c)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79f920e9-e601-4b82-b54b-0136b3d90a35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd418b0c-4ed6-4557-ad1b-9ae4f40a9dcb)
+
+* Unique Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a182e7a-c222-4c03-b60a-a14c66732cf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aed41a37-db9f-4aa3-ae92-f30f2c2a61e5)
+
+* Option **D**.
+* No conclusion -> No **unique conclusion**.
+* **Inequality** is an **IMPORTANT** topic in **aptitude**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a0ee83e-4320-4762-b764-30046e5985a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ac0535d-6dfc-4f23-84b0-dc9e87cec954)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a852793-71a9-40ed-8d37-b8464d06c9b8)
+
+* Analogy.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb660a68-7ff9-4e51-9148-8c076709210d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a6f6c03-1bb3-4ad8-ba5e-7b1638c4a98f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a76ce26-63bf-408f-a731-561f44e30cf1)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53fdac79-2f69-428e-995f-8c77b2f1fc91)
+
+* Pretext -> Give the **reasoning/context** behind something. [**IMPORTANT**]
+* Pristine
+* Jiffy
+* Peril
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e5e0c36-7ce1-46fb-b39b-d5cc6bc75455)
+
+* Break
+* Brake.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74a812f2-e3b2-45d3-b7f3-47a4acb0b373)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f23dbf36-429d-4a79-8be6-9eaf04121000)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6443392d-2b74-4c15-b2e9-450658dd7c05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42fd8df1-3605-491e-9fbf-7ac9c60a4b8c)
+
+* Option **B**.
+* Yore
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e024b937-8c7a-4931-81e3-376343287554)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08f2e1fd-e211-4f90-bc16-020f8c44e23c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4303feb-ce5d-439f-8f2b-15674df85f0c)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f746fda2-c3c2-4d57-9b8c-1301c3ec311c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7857c89b-8685-4e7e-881e-94543a6ecf59)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83b1ce8e-cbac-4e49-ac67-8861905a2b40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b90742b-3634-403d-969b-8a88137199a4)
+
+* Option **D**. [21st Feb 2024]
 
 ## Perfect Squares
 
@@ -168,8 +275,10 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1a94a79-2fd5-4685-b8a3-b8ce02fd22c1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e96eb8fc-048d-42c1-9a37-91acc04009b8)
 
-## Number system part-II (2) [13th June 2023]
+## Number system part-II (2) [13th June 2023] [21st Feb 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91654eae-b4e8-46c7-ba95-fa7610acc917)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18ac17b2-50a2-4ae0-a73a-827eb5e01271)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e801dfd0-9303-4c33-9f01-eaadc387c726)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f20c07b0-502a-4bb1-8e27-0c191b2ab56e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/486fd29f-a472-44ae-9528-030345e053e4)
