@@ -26,6 +26,44 @@
 * Some **mandatory subjects** of **IS(Information Security)** are included in **CSIS** which students have to complete in **every semester**. [**IMPORTANT**]
 * **CSE** don't have any **mandatory subjects** like **CSIS**. **CSE** students can choose any subject they want.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eee909ed-1f3a-4bfc-be75-fcdaa5f3c515)
+
+* Time Management.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b60c406-ed28-4c12-ab4f-d7caf04c429c)
+
+* Aptitude.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14d7147a-af83-46d0-9ca3-7e2492ecc539)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d78c7ea5-618d-44c8-adc6-5933f5226d5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f017ddd6-f740-494a-9351-e65abd13d7a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9776b833-6fd4-4db7-a8df-f7cfcbff0364)
+
+* Syllabus. [**IMPORTANT**]
+* They may ask to write a **complete/whole program**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d070b894-5bf5-47fc-9540-10d55ba1fb46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df60eb8e-1cb9-42a1-98e1-6a4fc6d0d2ae)
+
+* Support.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a23434d-fb20-485f-803a-baaefcd45b9d)
+
+* Fees -> 2500.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77a4fe58-3280-4fb5-b670-d3fbffc688ca)
+
+* Opportunities.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd6adb19-14c8-4c43-b54c-3895e8769747)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3457785-effc-46df-a8a6-bdf754fbbb09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2c6c104-e56e-46a6-9606-6b53f4eecf92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61077c2d-affc-49d0-ae49-d8b90e147d70)
+
+* MS vs M.Tech
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fa3bea1-8293-4332-ae66-3c049f07fba2)
+
 
 
 
