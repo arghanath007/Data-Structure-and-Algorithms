@@ -877,7 +877,144 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b480d918-e1ed-41c3-8a68-e384f1dfd3d5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a0552e7-c9a7-410f-a470-21e9164283a2)
 
-## Doubt clearing session (4) [13th June 2023]
+## Doubt clearing session (4) [13th June 2023] [21st Feb 2024]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7465af03-b117-4de5-ab12-7b14dd7ed50d)
+
+* Numbers.
+
+## L2D (Last 2 digits)
+
+* We are talking about the **last 2 digits(L2D)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/168033eb-bddb-463c-9849-91125ad33b89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94bccd73-c0ac-4a97-adab-6625a4dfe0be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ee96c5f-609c-4aa5-9fa9-558079fae429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fea467e-ac9a-48e2-9a35-864d85399dbc)
+
+1) UDV = 1.
+2) UDV != 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ae1cf16-d348-4b4f-89b8-bfa1f4a3ce48)
+
+* In **5**, the last 2 digits(L2D) is always **25** only.
+* 5 ^ 1 -> 5
+* 5 ^ 2 -> 25
+* 5 ^ 3 -> 125
+* 5 ^ 4 -> 625
+
+## L2D: UDV = 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9240cc76-e800-4524-aa37-00bd55f0d62f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/175fd8c6-3a4d-4be5-a22e-5407cd479663)
+
+* Example.
+* 21 ^ 27 -> (2 * 7) 1 -> 141 -> 41 [We want L2D]
+* We are just taking the digit at the **unit place** of the number and placing it at the **unit place** of the result. Then we are multiplying with the **tenth place** of the digit which is **2** with the **unit place of the power** which is **7**. We got **2 * 7 -> 14 -> 4**. We will put the **4** at the **tenth place** of the **result**. So the **result** is **41**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5195255f-03e2-4345-8fa2-4baffd5749f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b17b50a4-639b-4240-9d2b-970f27cdfcff)
+
+1) (3 * 3)1 -> 91
+2) (5 * 8)1 -> 01
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/357a8d88-af46-4b1d-92af-2ece290464b6)
+
+* The no. of digits that are asked in the question, focus on those no. of digits only.  [**VERY IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d88aba2e-ffcd-47af-9f24-40db2bc68e62)
+
+* Rebel.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/601ea99f-28d8-41c6-b0e9-b98ee4801c04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c60ca2-f524-4c3b-94e5-849ffbcaa2eb)
+
+* We need to **form '1'**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39a27e5c-1083-4fb3-aed9-df9515caf469)
+
+* For **3 ^ 4 = 81** and we are getting **1** at the **unit place** which is what we want. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a84effa5-2a8a-44b1-89e6-419e1c4b4ff9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b1e1ec0-19dd-4120-992e-15bb15d31c88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec36035d-5c04-42a2-9fc3-4e02b193fb7d)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aefaf3f-cc24-499d-a965-10561b7ca6ff)
+
+* We have to **form '1'** for **number '9'** as well, like **3**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9dd2572-71da-4ad3-9c0a-c3042900bf52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/362b34ae-480c-42e8-8ba8-edb4dfabb522)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85fb76c2-80a4-47db-88a4-82d67626d556)
+
+1)  ((9 ^ 2) ^ 24) * 9 ^ 1 -> (81 ^ 24) * 9 -> ((8 * 4)1) * 9 -> (32)1 * 9 -> 21 * 9 -> 89
+2)  (81 ^ 14) * 9 + (3 * 9)1 -> (8 * 4)1 * 9 + 71 -> 21 * 9 + 71 -> 89 + 71 -> 60
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50b29dc6-41e9-4ba3-81c0-70337ee6a312)
+
+* L2D, with the **number '7'**.
+* **7 ^ 4 -> 2401**, because we are getting **1** at the end which we want.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed7a7b11-4cb6-44a7-8da9-3886f0f1c6bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ab9f425-ad29-4ff0-bc4b-2e3ffbd9f811)
+
+* Reason. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/901f435e-be35-428e-83c4-ff78ac74f902)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83357690-5013-45aa-bd75-0ba033dec036)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3053f270-ba4c-4ec3-9f67-691ebc9c8211)
+
+* (3 ^ 4) ^ 8 * 3 + (7 ^ 4) ^ 11 * 7 -> 81 ^ 8 * 3 + 2401 ^ 11 * 7 -> (8 * 8)1 * 3 + (0 * 1)1 * 7 -> 41 * 3 + 07 -> 23 + 7 -> 30
+* (3 * 8)1 * (7 ^ 4) ^ 12 * 7 ^ 2 ->  41 * (2401) ^ 12 * 49 -> 41 * ((0 * 2)1 * 49) -> 41 * 49 -> 09
+* [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5dce547-5ea4-4502-b915-4aa206030a4c)
+
+* [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/639d6989-1194-42ae-8ef4-765d9d9ef48c)
+
+* 24 ^  Odd -> 24
+* 24 ^  Even -> 76
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/810871af-a050-4ee8-96fb-90db925c1d45)
+
+* Using the **number '21'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f227e05-9c3c-4336-ad06-6478ffc639ce)
+
+* (2 ^ 10) ^ 5 * 2 -> 1024 ^ 5 * 2 -> 24 ^ 5 * 2 -> 24 * 2 -> 48
+* (2 ^ 10) ^ 8 * 2 ^ 4 -> 1024 ^ 8 * 16 -> 24 ^ 8 * 16 -> 76 * 16 -> 16
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7b78425-68aa-4d16-8c2c-048ca03eabcd)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae820d25-a2e4-4bcf-aeb3-0409be6a6c44)
+
+* Using the **number '4'**. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d9a006-229e-4ab2-bd26-a6a42bdd5e85)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78c8755f-431e-4d46-a180-2eff230730b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f279f382-6bc9-48cc-a1ce-798c7ff02b95)
+
+* [**VERY IMPORTANT**] [Example]
+
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5aec60be-76b2-4252-a708-2b399055c1bc)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58becc90-ffb3-44fc-bb65-7484d38204a6)
