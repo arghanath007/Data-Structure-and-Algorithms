@@ -533,11 +533,59 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3a51fdb-6d8c-4079-ad0b-356fc18e0469)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ad6f67-3c57-42eb-83b1-cfeb2f900a3c)
 
+* Power Cycle -> It says no. of unique values at the **unit's place**. [**IMPORTANT**]
 * Power Cycle of **2**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4db3288-5fef-49e0-98df-070f56080091)
 
 * Power Cycle of **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae421038-6f71-4f37-a7f9-7170eec5e604)
+
+* Power Cycle of **7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ebe847f-98fa-4685-be51-db0a78b854af)
+
+* Power Cycle of **8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f52fbea3-d711-4395-ad77-6feca23b0885)
+
+* Power Cycle of **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2d3c969-53b0-40b8-b273-a04c1256794e)
+
+* Power Cycle of **9**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/842386ef-de07-4185-bf23-576b9fd8c5c8)
+
+* **Power Cycle** and **UDV** [**VERY IMPORTANT**]
+
+## UDV - 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee47bdeb-441d-41a0-9a8c-affefa9d8803)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a11f577-3718-4be9-ac43-875b504f6408)
+
+* Example.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### **Unit Digit Value(UDV)**
 
