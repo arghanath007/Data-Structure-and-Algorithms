@@ -564,8 +564,123 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee47bdeb-441d-41a0-9a8c-affefa9d8803)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a11f577-3718-4be9-ac43-875b504f6408)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c85d9401-3fa2-4371-b7d4-d752ea324fb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4f4a06f-e70f-47be-afdc-389c518ec75d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b81d82da-70bb-4b46-8ef7-a5134a2ed395)
 
 * Example.
+* Divisible by **4** -> The last two digits of the number should be divisible by **4** then the number is divisible by **4**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/405555d1-b3eb-4652-893a-f4d061cdea47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a262d5e-3d8b-421a-a0ac-58f5f4c5e57b)
+
+* **6** has identity crisis.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7d360d6-a417-4d4e-9838-1cb67b4073e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0c81e53-ca46-4c79-bd91-a0faa5b62b92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84b7eee6-b5ed-49a0-8f5c-c3ae0a86b199)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91a35c73-f953-4932-9b3f-5012aa272515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a713dc06-30bf-4538-b592-44648bc18896)
+
+* 8,2 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca1b537-7329-41e3-af11-2004fd33a73a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/994b158b-8d23-42d5-a025-679da665dd18)
+
+* **2 and 8** are brothers.
+* With Number **8**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1047e715-5e21-4a41-83b6-ef7827088e1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc13f090-dd07-4931-9097-642f0e16b855)
+
+* With number **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a23fd4f-0b19-4fea-9721-e959176e1dfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63203267-371e-4f8b-8157-29147cda6e9e)
+
+1) 4 + 7 -> 1
+2) 2 * 3 -> 6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d49dcb-f5f0-40fd-a1cb-b8207e9a7d8c)
+
+* With number **7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a22e325-f4cb-4776-86a9-80062f6a1f57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a424361-2cf1-4f29-a8ba-f64da8608736)
+
+1) 8 + 9 -> 7
+2) 2 * 7 -> 4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd6c3ed5-1e8b-46dc-a15b-3ed2fffa20c8)
+
+* When number is **4**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c996cb1b-d81d-4732-98ed-00ef7419fd6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff0da82b-4e21-4c06-a2ae-f0b116c389ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0905eb22-1fd1-4f38-acb1-367054e4f102)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32f03edf-c5d2-46f3-a4b9-8950459ffd82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/729f37ef-b239-4dc3-9288-df363ed5a70a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36bf11b2-b778-4826-abf2-7e65aab0c868)
+
+* **Even** to the power of any natural number will give us the **6**.
+* **Odd** to the power of any natural number will give us the **odd number** itself back.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7d28bf3-4bf7-4d48-928b-23defe2ce66d)
+
+3 * 6 -> 8
+3 * 9 -> 7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/734ed16a-aa03-44d8-8c9b-13c17c2eabf8)
+
+* With number **4 and 9**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ec5ec47-7766-4d82-b5f5-bc3bb9b8f750)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/651f9473-09d0-4005-9d8a-41144c498687)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6006f691-bec7-4498-875c-a8a476dea8d1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83fc7336-19ab-49fc-9dfa-767583a2101f)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46d4f8ed-8e08-4065-8322-455e3b372620)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1b9acdc-cea1-4e15-b3b7-51f03e9cc242)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24f78d30-9cdb-4754-a4a6-7b414c218c0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37504205-4ebd-49f2-94c1-1ba17221435d)
+
+* 1 + 6 + 1 -> 8. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8166091-6e62-4031-9a6f-de341adc4e41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23f934e8-8014-4e98-a2ca-5c7ebc6d58c2)
+
+* 1 + 2 + 7 + 4 -> 4
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46527c1b-3d62-4c83-9d83-4bee0bbfde1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d939f7-5c49-43b2-9e3a-b7fbfe1e2f52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/038ced22-936a-400e-a404-b9f576ddcdf0)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13b5f2ac-34e5-4e09-a9b6-1a521a62c1c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09633451-7b7f-4a3b-a7cf-27d06b75f8ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4791ee0-afa3-4844-af5e-eafe4ce76cdd)
+
+* 7 * 1 -> 7
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/358aa3c3-7fa4-4ed7-9072-fcfd8f9636b9)
+
+* For complete division in **2** we will get **6** as the remainder. [**VERY IMPORTANT**]
+* For complete division in **3** we will get **1** as the remainder. [**VERY IMPORTANT**]
+
 
 
 
