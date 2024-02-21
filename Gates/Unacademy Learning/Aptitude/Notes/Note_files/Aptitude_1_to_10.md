@@ -1142,7 +1142,174 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2e2f45a-7c2b-4c7f-95da-23c77b3497b4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b5430bc-d873-44ca-bc0f-e09a7ed25400)
 
-## Number system part-IV (5) [14th June 2023]
+## Number system part-IV (5) [14th June 2023] [21st Feb 2024]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9196ce6-7a6d-4753-8f2c-4cf8f8cdd3cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fb4cd46-d807-4b8e-a083-6c10a4d97a57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d4cf7da-6be1-4734-a6cf-a0b5fe45ddd6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b63401ce-fea9-40d1-a00c-50c8768a4d13)
+
+* Factorization.
+* Sum of factors(Sn)
+* Product of factors(Pn)
+
+* We have to break the number into it's **prime factors**.
+* N -> Natural number.
+* a,b,c -> Prime factors.
+* p,q,r -> Respective powers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8a2b5ff-194e-4fe2-b481-80c8eded07b7)
+
+* n -> No. of factors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fff73f2-a7a8-4bd4-b97f-da2e83e6fc65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6749b812-0dbe-4261-a9eb-f35aa256165e)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75625d23-5582-480b-b90a-7a2c4562dc4e)
+
+* Stares
+* Staires
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27146a58-6c8b-4823-9670-f9735c3287e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f0ec7bb-0f4a-445b-bb5f-9a9c432582fb)
+
+* Option **A**.
+* little -> Nobody helped her. [Negative Word]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5f412da-c2cd-43b6-a189-a08064b2f033)
+
+* Find the **no. of factors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0965dde4-afe5-4011-88c6-fea647b9c7aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b3e8b10-3794-40a6-9ed8-2ac453f422bc)
+
+* In case of **perfect squares**, **no. of factors** must always be **odd**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28731ab7-ff44-455e-af87-c9070683099b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f13592-4784-4d65-b78a-c2062519c577)
+
+* Min, with which to be **multiplied** to get a **perfect square**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9b04c07-69f4-49a2-a2a6-fc9e502c72f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79343256-7bc3-4b76-8578-2044555326b5)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abbe73ba-6b88-4f65-9014-c2bebf85b399)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82d5502a-3b99-4834-9a07-7add9d1bed28)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c24652-3437-4660-b888-cf7e54449506)
+
+* Even and Odd.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb860af-cc45-4b20-a955-8b5bb1216d7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee66dfb6-f46c-4e57-806a-f6107f8bd82b)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b04e7a78-58ae-4fa1-a7b7-a1ef75d7fd27)
+
+* Which of the following **could** be **True**?
+
+> option **A** and **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71d3b510-b3f1-4286-a6fb-367acf82fde2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a96fce0-2dc5-46c6-baaa-ee719c222d90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2ca7e5d-b87f-4e24-a51c-c01fa5e112c9)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8dadfbe-7100-4268-b3a8-9b6629accbe6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d150b4a5-f932-4cfa-b27a-347a10dbf583)
+
+* CADB [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/379b4862-4fbc-4c60-b481-f878b5beb7d2)
+
+* Find the **LCM** of the powers of the numbers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb205435-3386-42f0-9eda-afdf751d39af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/747ff7b4-ef01-4fbd-8763-2ad16de5a25f)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbd03a51-8944-49d1-ae1f-f51903b29be1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9e4420f-f2bc-4bda-80bf-96a6d57a26f7)
+
+* [example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24912081-3a26-4f48-b4d2-ea7c84fa632d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c288e6c4-a898-406a-a12e-d7d9dc5cff19)
+
+* Option **C**. [**VERY IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Factorization
 
