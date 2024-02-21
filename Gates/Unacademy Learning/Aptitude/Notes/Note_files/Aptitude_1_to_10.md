@@ -1,5 +1,9 @@
 # Aptitude
 
+# Revision
+
+* Link -> https://www.youtube.com/watch?v=4jKX1Lbvt9I&t=48s
+
 # Topic
 
 * Inequality Questions -> **IMPORTANT**
