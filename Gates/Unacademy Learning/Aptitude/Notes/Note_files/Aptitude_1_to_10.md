@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc2ec14a-6a8b-45c6-af6c-7cd8027886a8)# Aptitude
+# Aptitude
 
 # Revision
 
