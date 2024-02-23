@@ -418,7 +418,95 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3e5b6f7-011c-496d-af2a-d2dba1623380)
 
-## Doubt clearing session (12) [15th June 2023]
+## Doubt clearing session (12) [15th June 2023 [23rd Feb 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39709059-e28e-4d43-b74e-ebf037a5ec2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f195b39-0803-4e27-a161-37e9e6748abb)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1889041-d74e-4ef6-a580-cfa9af3a21e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10e38fff-1b4d-4a1a-aab7-46fbf4637ec3)
+
+* Questiopn.
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae07af3e-2763-4240-8ce7-389db9fdb753)
+
+* Repeatation is **not allowed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/348b4803-0196-466f-b56b-8d820811d2ea)
+
+* Exactly **two 5's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2e303e5-c637-4d61-a6a9-d0fe9121b915)
+
+* Question [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00062954-b6af-493f-9c1b-a43527fe96de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ac6dde-66c3-43f3-81c9-20ec39f3bad0)
+
+* Atleast one **3**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fb8b942-a25d-49f0-986a-b1d31492be7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa2bb559-0b12-48e8-b690-8edbca03be9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80fb22aa-16a5-49b3-a20c-dcdee56dc9b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a136fff5-a497-4f93-942c-c72081fdf3c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c497c3e1-218a-4863-8c99-57676d81a06b)
+
+* Tenth place digit is bigger than the unit place digit. [**VERY IMPORTANT**] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8794057e-2d2f-46ad-bb59-6a4de2426364)
+
+* **NOTE**. [**VERY IMPORTANT**] [Formulas]
+* Sum of **n** natural nos -> (n * (n + 1))/2.
+* Sum of **n** even natural nos -> n * (n + 1)).
+* Sum of **n** odd natural nos -> n ^ 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54e2acff-5851-449e-9579-a478e45cc82e)
+
+* Questions [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c3db56-dcab-4af5-adde-5129d4988a43)
+
+* Min. value at unit place is **1** and min. value at tens place is **2**. [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0954aa11-76ab-4120-b4b4-7bff500440ac)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c88b8725-1dca-4dd3-8896-0d27ac95d934)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eb15984-e444-43c8-9fdb-8c44f400b9b6)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b575dcbf-a305-4fcf-8ff0-c0f4b7d2e345)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19791786-7627-462d-a987-6befe271ac20)
+
+* Option **C**. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5d86194-ae0d-48fd-8f58-c203e3835789)
 
