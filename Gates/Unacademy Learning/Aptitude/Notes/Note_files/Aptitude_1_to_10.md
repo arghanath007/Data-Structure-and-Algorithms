@@ -1440,7 +1440,7 @@
 
 * Smallest Value -> (1/x) -> Option **B**.
 
-## Number system part-V (6) [14th June 2023 [23rd Feb 2024]
+## Number system part-V (6) [14th June 2023] [23rd Feb 2024]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9755428e-f437-4d5a-a8e6-b9497d3409c4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/599433fb-1372-4795-a670-c67ad5045c04)
@@ -1691,7 +1691,70 @@ N -> No. Or Number
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/584b3d85-215b-41d1-81be-632e63512ae5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a3841b2-462b-4f54-8613-553d1456f9b3)
 
-## Number system part-VI (7) [14th June 2023]
+## Number system part-VI (7) [14th June 2023] [23rd Feb 2024]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3256ed1-bbbc-4f10-9358-43f7e785753f)
+
+* Face and Place value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40c2c81f-789c-4115-a68b-1f810fad7654)
+
+* Examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d19d0fe0-748e-4de2-a9f5-04927b4c0dea)
+
+* Examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbac31db-22c2-4968-95c0-899232db0857)
+
+* Option **D** [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10528809-f272-4448-a6cb-488ef5127f09)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f41ac9d9-0f14-4e95-83b7-c6867967af54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ade2df6-d58f-420c-9255-b69cb875066a)
+
+* Break the numbers into their **prime factors**. [**VERY IMPORTANT**]
+* HCF -> The factor that is common amongst all.
+* LCM -> Whichever prime factor we are considering and take it's highest power.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08302c6a-87ce-4e31-b2f2-3f7c5b0142ec)
+
+* 24 -> (2 ^ 3) * 3 ^ 1
+* 30 -> 3 * 2 * 5
+* 144 -> (2 ^ 4) * (3 ^ 2)
+* HCF -> 2 * 3
+* LCM -> (2 ^ 4) * (3 ^ 2) * 5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14aa514f-4ce3-45a1-9039-b30b3bb48d0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8598bdd3-1eb7-4664-af4e-2daf4a17251d)
+
+* Ratio.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0fe0a78-9815-43a1-ba60-409c2f80a8d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d554238-14a9-4704-86dc-61347ec100a4)
+
+* LCM(2,3,4) -> 4 * 3 -> 12
+* x -> 1/2 * 12 -> 6
+* y -> 1/3 * 12 -> 4
+* z -> 1/4 * 12 -> 3
+* (6 + 3 - 4)/4 -> 5/4 -> 1.25
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7244cc14-60ea-4385-be07-664d2e4c7337)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b3e423b-f905-4576-ac3a-dec9d638ef11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd4865be-f318-47b2-8c8f-ebac0656424c)
+
+* Find the **LCM** of the numbers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aab80ff-d1ee-4bf2-9b76-0d50e367edd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b222e09d-903f-46c7-8ea0-60a1513da3b0)
+
+* LCM(20, 30, 50) -> 300 mins -> 300/60 -> 5hrs.
+* 12:00pm + 5hrs -> 5:00pm
+* Option **A**.
 
 ## Concept of Remainder
 
