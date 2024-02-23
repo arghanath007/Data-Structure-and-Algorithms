@@ -238,7 +238,110 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ae22e9b-96bd-426b-9d2b-a514e2a54f77)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0efc89b-cd78-4dcf-898c-7d92912deb1a)
 
-## Verbal reasoning part-II (11) [15th June 2023]
+## Verbal reasoning part-II (11) [15th June 2023] [23rd Feb 2024]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e07bf828-fe58-4de0-a1c2-e13440aae39d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45688b7e-d4a8-4625-bf81-8cac18dcba5e)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42598708-0405-47a5-98da-8a8a08ed4171)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b6dc43f-0014-4962-a055-39b30ed6c02d)
+
+* Blood Relation.
+* Male -> Plus(+)
+* Female -> minus(-)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0ce8ce0-19fd-4aef-938e-93bb00d88713)
+
+* Example [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adbe71c5-62d3-4d85-902e-885dfa1e3ff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62df5aef-0ff7-45aa-8282-c99bb875f027)
+
+* Option **B**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be2cd48e-c1f0-45e9-9b8d-5c8dd69d3323)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dc79524-14e6-49f8-b326-5339f1b5d4b2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be6ddd5-28df-412e-8fcd-6d67e97146c2)
+
+* Option **B**.  [**VERY IMPORTANT**]
+* Nationalist -> positive word -> Nation first believe.
+* Jingoism -> We are aligned with a particular belief/philosophy/person/idealogy. Extreme idealogy.
+* Properly -> Abstract work.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d27cfddd-a1f0-4772-bdee-106a7baf1929)
+
+* Concentric Circles.
+* Topography.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de5e3d99-85ba-4804-8a34-138f9485e2fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1b5351a-b8e0-4ef3-9496-0851a38e1070)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8ec0fd9-655d-469f-9770-8ba0350b77a4)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee80aba0-2b9e-4768-9f77-acbd64c1a8b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2c72c4b-6409-404b-b2e6-3f3e989e50ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39e1c9e0-2065-4c89-8a34-34ee19507b1d)
+
+* Option **C**. [**IMPORTANT**]
+* From **P to X** -> Down
+* From **X to Y** -> Up
+* From **Y** -> Down
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21dc5993-671b-46a9-8ed1-4140c06fd9d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c90f528-47e5-4fe0-9312-155290ac3342)
+
+* Option **D**.
+* Novel -> New idea.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09b0bae6-4f25-42db-9f55-9838153bab28)
+
+* Adjacent/Opposite [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32e09726-6bb6-49d1-aeda-227d7cc542a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0337c6d-4fe4-4701-973b-e47e3fd6bbba)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e3f4b6f-3b74-4e06-8bf7-63acf793f468)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db00ea1b-8c0a-4960-a1f4-92c79a7fd965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43dadadc-ec63-4a83-8f20-e224ad1ec04b)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bb030e7-ae0f-4aee-b862-76acc3548f0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56342d7e-314b-47a6-be28-fccbcb631fe7)
+
+* Option **C**. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a56316c7-ab90-47aa-8462-b680612aa365)
 
