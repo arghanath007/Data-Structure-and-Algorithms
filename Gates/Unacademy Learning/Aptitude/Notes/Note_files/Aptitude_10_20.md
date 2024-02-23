@@ -1,4 +1,97 @@
-## Verbal reasoning part-I (10) [15th June 2023]
+## Verbal reasoning part-I (10) [15th June 2023] [23rd Feb 2024]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c1f4e62-39a2-453a-90c3-ea2baa3633cc)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e09fcf6-c9b2-4e99-9d8c-5f5911fe9e95)
+
+* Reason/Premise.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32519f85-39ce-4db9-9b17-9ad6e8100bfa)
+
+* CID -> Conclusion, Inference, Deduction.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6a24514-7b48-435a-9493-6bb84e543e98)
+
+* Option elimination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19fdb689-5938-4527-a5c5-0c77438a9aa5)
+
+* Option **B**.
+* Unique Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47999924-0d84-4207-bc26-b379e4c3dc9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57ebd0d-f8c6-4e0e-a9e1-7045b317d778)
+
+* Option **D**.
+* No conclusion -> No unique conclusion is possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae596a14-3e64-41e9-bd11-6589bbd7acbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a799314-c8cf-49bf-95c5-ac5f1dfd70e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91a67dc3-22da-4d97-aadb-13dad73ed2d6)
+
+* Option **B**. [**IMPORTANT**]
+* All/None/Only -> [**VERY IMPORTANT** words] Need to pay attention to them.
+* Option **D** -> We are only talking about **psychiatric** illnesses. Others are **beyond the scope**.
+* Certain -> Kuch.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec9d01f6-43ea-4329-b9b7-679cc94b3bfd)
+
+* 180 degree words.
+* Although/Though/however/but/yet/despite/in spite of ->  180 degree words [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1de443ea-6ce0-41eb-aa7c-c78dbfbd74ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a58b690-2cc2-4fc8-b720-205e06c1fd68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/777c57c8-eb00-41ee-9a71-68cb25ea7902)
+
+* Option **B**. [II and III] [**IMPORTANT**]
+* Unlikely -> Strong negative word.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa91678c-064f-4537-ba5d-91e29c16d1cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61b057f0-0e44-4075-b047-e99b0e082b27)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f10538e-6817-4c1e-9f90-892df22086ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f28522b-1f6a-4539-bdb5-6c2449dbb1d2)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683e4e96-cd36-4ec0-8d37-5f1a2db33dd4)
+
+* Errant. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5238c1de-a863-4df3-b6db-f64a26e85536)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3f02fbd-8a59-4ba4-9703-bd387e150409)
+
+* Option **D**. [**VERY IMPORTANT**]
+* Phobia -> Fear
+* Xeno -> Unknown
+* Xenophobia -> Fear of the unknown.
+* The word **attractive** can have **multiple meanings**. It is **subjective**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb9ae529-009f-42b6-ba04-4893c2850878)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09daaadc-d320-4b4b-91be-335422688de0)
+
+* Option **B**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b10e1ca-58f3-42fe-8f22-77054242e893)
+
+* This is **inequality**.
+* **Inequality** in terms of **Age, weight and height**. [**VERY IMPORTANT** for exam]
+* T > E
+* C > T
+* C > T > E
+* E > C
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6edb1222-d506-46f3-84d0-3665a6f3886b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/793bf45a-6433-442b-b9b9-9023c79486ae)
+
+* Elder/Eldest -> For **living being** that to for **human beings** and that to for **blood relatives**.
+* Older/Oldest -> It can be used for both **living and non-living** things. Anyone.
+* Comparative degree.
+* [**VERY IMPORTANT**]
 
 ## Verbal Reasoning
 
