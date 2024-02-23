@@ -1879,7 +1879,169 @@ N -> No. Or Number
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0557176-7c6b-4d47-a71a-7b660da93253)
 
-## Doubt clearing session (8) [14th June 2023]
+## Doubt clearing session (8) [14th June 2023] [23rd Feb 2023]
+
+* Quiz - 1
+* Link -> https://unacademy.com/quiz/quiz-part-i/OSM4C0G2DU/solutions/SP_NQ7VEUY8UO00KRHT8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa29d3ef-381b-408a-ba2b-272f19d66b26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e60acba0-b9c8-4c29-9a13-222702aeb6d7)
+
+* 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4684df8-7861-45c6-9a29-c28eec02f011)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c41d032a-70e7-4a5e-a65b-c92065f4fc85)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c520ed8-141d-4b25-bb2a-572f3e5281f5)
+
+* 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d3b585-e262-4a3a-9f8f-726f39f2e166)
+
+* These number rules are **VERY IMPORTANT**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23d46daf-ff41-4620-b11a-455753139e95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7e18914-9c4b-49fb-a5a9-cc2198968469)
+
+* 3 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a45a8549-6c91-4b6f-b111-abdde7bc3b6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec1b9f02-ff06-441a-81c6-dcf02e6356c9)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c49efd90-c7d4-4183-ac3d-5b84c1eeadce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14b19121-68eb-4132-a788-d9062670f1c3)
+
+* Option **C**.
+   
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b33c020e-7f70-445e-99e9-340ac6841612)
+
+* Definitely True. [**IMPORTANT WORD**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58cdf5ab-2ac3-4989-ad87-5cd13ee9cf7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7591bf22-db39-4233-bfe0-e1826645c05e)
+
+* Probable Solutions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b65f31d-7f3b-475d-bb0c-bd9fd1e541f9)
+
+* Option **D**.
+* Always. [**IMPORTANT WORD**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b3fde93-41d4-4bc5-aea1-49e5940c7dce)
+
+* 4
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/058a8d0b-c2f5-4be1-8fd1-c65d9605f99a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0bc189f-00af-49fb-9f13-bb4cfcdcdeb0)
+
+* Option **C**.
+* Z YX WV UTS RQP ONML KJIH GFEDCBA
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebfa39aa-b19a-484d-ba5e-6bdf59041456)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae24797e-b586-40c5-a4ef-7055816a7102)
+
+* 1 + 6 * 1 -> 7 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61b3326e-e020-44c9-86b0-3a02355c964b)
+
+* 5
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8235f33-69f9-49d6-8c7f-251280838bd0)
+
+* 6
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3684a619-493e-4115-9dfa-ec920fb0bb69)
+
+* 7
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c88617-af58-4399-b1ed-2b645bb96c79)
+
+* 8
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95743f7e-04f4-40aa-9eaa-42a3807842a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eeb12792-162f-488c-a001-915d1ae2c8db)
+
+* Option **C**.
+* CID [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d11fd412-0c9b-4528-8efe-e649f83e88cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/742cf150-cc70-4e26-ba32-ff81c432c30c)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58d8eede-4257-4251-8fd6-81c2f91c6da0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86dc982c-7f69-4a0f-8b97-0d9a6e6a2ed0)
+
+* 9
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7921b17-8393-45bf-8711-5b20c525042e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b590f4f8-9291-41dc-89ff-872db576c17d)
+
+* 10 [Got Wrong] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42869faa-0305-45ee-8727-f60e3c6c442f)
+
+* We will have **25 zeroes(0)**.
+* Remove all of the zeroes(0) and then find the **unit digit value(UDV)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/184db48c-f827-41ef-a4f2-c316e86b5aa7)
+
+* Example. [Another Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4882f3e0-9b76-419f-ba2d-c61cc59a362d)
+
+* Solution [**VERY IMPORTANT**]
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ab1426c-707a-4d4e-8193-a178a2952c55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72b35300-6067-4bb9-8d4c-cb682628ce30)
+
+* Option **C**.
+* Acceptance.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/466eed39-bc20-4007-8adc-54e925cc4ad7)
+
+* This world is a drama, staged in a dream. I am enjoying the show, wake me up tomorrow.
+* We are not human being on a spiritual journey, we are the spiritual beings on the human journey.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cee2df0-43f1-4eca-abb4-eb9586a1715f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49ed2679-619b-4711-8de3-23b1938662f4)
+
+* Option **A**.
+* roar -> lion/tiger's sound.
+* hiss -> Snake
+* patter -> Dance sound.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab7265ac-3fa4-412d-aed1-b420dccb230e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94e57fa7-8815-41e5-8169-bd1252013a0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7efcfd6e-908d-461e-84fa-41a4031d232d)
+
+* Option **C** -> Dinner -> Beyond the scope.
+* Option **D** -> No idea.
+* Option **B**. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Quiz- 1 solutions
 
