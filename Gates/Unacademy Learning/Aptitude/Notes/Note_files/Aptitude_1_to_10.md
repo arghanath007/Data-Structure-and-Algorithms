@@ -1,4 +1,4 @@
-# Aptitude
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09db4fba-efe2-4bf5-8070-5df42ab829a6)# Aptitude
 
 # Revision
 
@@ -2133,7 +2133,120 @@ N -> No. Or Number
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c334f830-77c0-477d-a18c-ee34e00f8679)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a23a205-65d2-4572-9e41-7cf7491a4f12)
 
-## Number system part-VII (9) [15th June 2023]
+## Number system part-VII (9) [15th June 2023] [23rd Feb 2024]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9125b38-973f-4ea7-a34c-9cca7577c207)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c903458-f614-4e37-aab3-a56095323fd7)
+
+* P&C -> Probability
+* Choice -> OR -> plus(+) -> Union -> 2 boys or 3 girls
+* No Choice -> AND -> multiply(*) -> Intersection -> 2 boys and 3 girls
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1047eb27-aed8-4b8f-b705-82c27ff028e9)
+
+* Repeatation allowed.
+* Give equal opportunity for the events to occur. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/332d5e76-5d82-416f-99bf-a3d82dbf4b7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63cb80c7-a2f8-4c11-bff8-21a95cda757d)
+
+* Repeatation not allowed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86ecb945-ef25-409d-a367-1bed91265999)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6f669f4-8958-417a-a0f4-68214c87113d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bf1adf3-d823-4517-aeac-c74102c35ed8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc945731-02f0-42b0-b111-9f87cda5cea3)
+
+* Examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90f5a94c-03bc-4a52-8bfa-4cb27d598fa9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a31051f6-c72d-491c-98c7-b03cfeab2f5d)
+
+* Examples.
+* 6, 4 [Answer] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdca27a4-1272-45c2-95f6-7cbf412a8f8b)
+
+* Attack the **condition** at the **first place**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34990b46-4e81-4240-8202-5f56d61e966e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c4b8519-b8c2-4373-b756-5fdfca18ab11)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6a669d9-6088-44d4-8a0a-3fb094c9e8c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68749f53-596d-4569-8b5d-71e7d94bf6a7)
+
+* Repeat -> 6 * 7 ^ 4
+* No Repeat -> 6 * 6 * 5 * 4 * 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ac24c3c-15ce-4974-8e0d-7167ae8f64bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/858147e4-5e98-4284-abe1-09eb0194a22a)
+
+* No Repeat -> 9 * 9 * 8 * 7 [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cc6242e-b116-4dea-bae4-65a84efbe18d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a5ed0c2-fabb-42d5-9c4b-1b612d4185f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7534e93e-9be8-43b4-ab96-5f97e13251ea)
+
+* Number is **odd** means that the **unit digit** must be an **odd** number.
+* 9, 6
+* 15, 12
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48c15dbb-d79e-48de-8053-8fe35ff8f319)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d738ba24-6a2d-4d00-a082-a7e8aaa4fa56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8e6d046-ccc6-4c8f-91b7-f7fe1fe5d4f6)
+
+* Example. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3189576a-80da-4520-81b9-9d4bdf2b4ac8)
+
+* Divisibility rules of **2/4/8/16**. [**VERY IMPORTANT**]
+* For **2**, we have to check the **unit digit** of the number as **2 ^ 1 -> 2**.
+* For **4**, we have to check the **last two digits** of the number as **2 ^ 2 -> 4**.
+* For **8**, we have to check the **last three digits** of the number as **2 ^ 3 -> 8**.
+* For **16**, we have to check the **last four digits** of the number as **2 ^ 4 -> 16**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bebc0e66-dd44-484c-84af-db56a622dfa9)
+
+* Divisibility rules of **5/25/125**. [**VERY IMPORTANT**]
+* Same as **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97ddfbd1-60dd-44a4-973f-cf6a9e4bca3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70e65eb1-9fd7-4c90-bd1d-e3f7532aa4e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d216580-85d6-49f2-a6fe-611d7d7f2f6a)
+
+* Repeat -> 9 * 9 * 4
+* No repeat -> 8 * 7 * 4
+* We have **non-zero(0)(NZ) digits** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f7021ef-bf35-42a8-8e1c-6c2906355d07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6abaee8f-b5e4-494f-95e2-2a426dc82de4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a213679f-6110-4d3e-95df-defcfe8e6fce)
+
+* Repeat -> 6 * 6 * 1 [**IMPORTANT**]
+* No Repeat -> 5 * 4 * 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7925d59f-b84f-4e23-86e5-df0c2240f218)
 
