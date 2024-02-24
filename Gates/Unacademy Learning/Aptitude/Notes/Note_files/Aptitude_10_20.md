@@ -596,9 +596,69 @@
 
 * Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b3fe1a0-d07a-43a5-94c5-977e3ce6c086)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f40bae82-2106-4c91-b6ce-1ba41ac7ae87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b5505ab-706d-413c-8b71-ca0887e7b617)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c4d4399-8593-4c35-a8fc-4c8cd7e420ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4157952-c75c-46de-a0c1-b40467be6b3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbcc8899-0434-466e-b8c5-a5b8f8245316)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1141dd9-b83b-4931-844f-393007eb5f9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb07e8a1-5606-4470-afb4-e9ef8f2e5696)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ce7543e-6acd-41ba-97b0-d4c6b6ba7cbb)
 
+* Complementary Combination [NOTE] [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/513934e2-18fb-457c-a9a1-a58363ccffd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6642611d-bf03-4b5a-a988-88bbe1f5c7ae)
 
+* If there are **n** no. of people and we want to **arrange** all the **n** no. of people then it it **n!**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e66df78a-d312-42a0-87a9-8c75b91b32de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e83878db-3599-4214-9daf-a80bc5086a2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e12cecc-166d-4243-b13a-f9980fbe4550)
+
+* Arrangement of **n** distinct things will be **n!**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18b807da-1855-4860-b58b-5e00ea90052d)
+
+* Example.
+* Check **repeatation** of **numbers/alphabets**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40a93c07-a500-496a-a00a-2ef97439ca68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/348d3766-6b12-401d-9228-4ac783c44896)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50787bf6-81be-4f86-9abf-3d3b59856a78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e9a7f51-c7de-42d3-93fc-faa2e147319e)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32e234a6-0aef-4a83-911c-45548ef1bfaa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76ee7081-46f6-44a1-8c1e-583c4d0e54fb)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cf80fcd-9bea-4593-867a-3c3d6e31744c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc889e5a-6381-44f1-b457-67e0d14f1440)
+
+* Vowels must be **together**.
+* Together -> Pick all of the **numbers/alphabets** and tie them together. [**IMPORTANT**]
+* When we tie them together they act like one single alphabet.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c043b49a-5630-4d7e-a10d-d0fa03ec136d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fe74a13-a25d-48bb-a720-bbf05a15f16e)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/609f4d11-01d8-4f97-8bb0-3912f6c6e190)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27102c37-374b-4431-91c4-4f15586a1a41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18077f0d-5b18-4b65-9eb6-c04bb12ebcab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d42c35b-c0f0-45f9-b620-af525e0881f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db730cc8-ad69-4d37-9e87-2bd613c3195a)
+
+* Questions. [Solutions] [**IMPORTANT**]
+ 
 
 
 
