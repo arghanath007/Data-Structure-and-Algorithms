@@ -116,10 +116,27 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42e0de7b-0114-49de-a400-fc71273aa48c)
 
 * MS in clgs outside India.
+* Link -> https://unacademy.com/class/gate-marks-vs-rank-vs-score-vs-best-college/N9L9U9TS
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c536c4-3ed0-4f5e-87e7-26685ae4f5b8)
 
+* Program Offered.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee3817af-333b-48b3-ab35-708b49d92869)
 
+* Area of Specialization.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35455e40-44b3-4c7c-b9f2-49ff70bdf257)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95749abb-82c0-4689-a706-4bfeaf853918)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f6b52af-fb82-49e3-baa3-41f288601085)
+
+* COAP admissions.
+* Will be explained in a **future video**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d74633b-2930-4ba9-89bf-ff49cd9f5c51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1aaa8c8-d12a-44a9-bf3c-bb3808998811)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a0a6eb8-4b41-4ad0-b90f-efbe80f71e24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ebf6e7f-dfdc-4d9b-ba43-e456c4103b23)
 
 
 
