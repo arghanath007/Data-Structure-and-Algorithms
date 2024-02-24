@@ -659,20 +659,6 @@
 
 * Questions. [Solutions] [**IMPORTANT**]
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * Where ever there is a **choice**, we want to select two black markers **or** three red markers. We want to select three boys **or** four girls.
@@ -922,7 +908,157 @@
 
 * HW.
 
-## Permutation combination probability part-II (14) [16th June 2023]
+## Permutation combination probability part-II (14) [16th June 2023] [24th Feb 2024]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afebccf5-fa02-45b4-bb6e-35025e8abbc2)
+
+* Summary.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cf0b9ef-29e6-49dc-867b-231422166764)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ca30269-c3fd-42c0-b632-682bb1e02843)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b86abd04-5b26-4e75-b138-94a08558631c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f92633ee-8e46-440c-a00f-3001fea285c3)
+
+* Example.
+* 8!
+* 7! * 4!
+* 5! * 6!
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209afd8d-e5e7-430f-afbd-1849aafbf4c0)
+
+* When nothing mentioned then it is **exactly**. [**VERY IMPORTANT**]
+* 1 vowel -> Exactly '1' vowel.
+* **2nd option** which is **2C1 * (3C2 * 3!)** is the **correct** answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecad99a1-f24d-46b0-9d4d-5f09a2d3b401)
+
+* **1st option** would have been **correct** if we need to form **3-letter words**, it must have **1 vowel** and the **1 vowel** must occupy the only **even place**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bab0d321-38c6-4d6a-bc9a-394f6acee093)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7408ccee-c0fb-4f81-95d9-772f85f484bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1513a42a-d6ab-4772-8763-c5d4d6be1378)
+
+* Question. [Example] [Solution]
+* 10C5 * 5!
+* 4C2 * 6C3 * 5! 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47c7b03-634f-4261-a694-8a9de9defd00)
+
+* No condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26ad53a2-ce76-48d5-9df4-7e987f9cce93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a07787eb-39e3-40bb-8707-51443b1a25c2)
+
+* Alternately.
+* No 2 boys can seat together.
+* NOTE [**IMPORTANT**] [Examples]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92efca6c-8d4c-4bdb-a0e5-a6cb32044a74)
+
+* Last one is boy at **first and last** position which is **2! * 2! -> 4**.
+* Another way of solving it. [OR]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69759648-2e67-4bf1-8afa-109ae0fa93eb)
+
+* **No two boys must sit together** question continued.
+* Although we have **two places** for the **two boys**. It seems as if we have **three places** for the **two boys**.
+* The **one additional** place is called as **pseudo gap**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/131cc26e-d9ea-45d7-9f10-82952cadedfb)
+
+* Example. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a7ba837-0566-462a-a85a-53ff11737727)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa8c0b7c-c694-45d0-abb7-d6527898d721)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9329d69c-5bca-4d1f-801e-655dab131d98)
+
+* Formula [**VERY IMPORTANT**]
+* We have **m** no. of boys.
+* We have **n** no. of girls.
+* Formula -> n! * (n+1)Cm * m!
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4193df7e-9775-4d56-83d8-2614b459af96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2408a6c2-bca4-4a28-8b91-1439bb8bae68)
+
+* Question. [**IMPORTANT**]
+* 10! * 11C5 * 5!
+* 100! * 101C10 * 10!
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c554b668-523e-4d73-baf1-7b55bbeb9fca)
+
+* All the **vowels** are together. [Question **1**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/654b1227-8c2b-43b0-bb5e-0e1b1587ae5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a966fed-0549-460a-b247-41010a47db10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/addcf57d-ecbc-4f39-afa1-4ac16876f48f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7883bf0c-f838-4b15-bd2c-ee894cc7d05e)
+
+* All the vowels are never together -> 1, 2, 3. [Question **2**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96d9b635-a187-494a-af33-4d812e9437d8)
+
+* Total - Not required -> Total - Together -> 10! - (7! * 4!). [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c5f05db-b84c-40c3-b852-d806b4c49b46)
+
+* No 2 vowels are together -> 1 [Question **3**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2205202-6561-44d7-a5ba-b50be65bd62b)
+
+* Consonants -> 6 [**VERY IMPORTANT**]
+* Vowels -> 4
+* 6! * 7C4 * 4! [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81909f22-a936-4c80-88da-acb8fb4ef627)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca3b8701-e6cb-410d-8291-0ddc5a3e4fce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa003e7-48c2-4a90-9f42-ade89feced58)
+
+* If nothing mentioned then it is always **exactly**.
+* Exactly 2 boys and 2 girls.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cfee662-d780-4ec9-8010-eff832023932)
+
+* Atleast **3** boys.
+* Atleast -> Minimum.
+* Atmost -> Maximum.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73f9a113-e9c5-4b64-9e30-4ef92d89af82)
+
+* Atmost **2** girls.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6659694e-f7f1-4b20-ad70-34e7ef514ce2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9903d9e5-06c4-446c-b85d-f87e7b9a399c)
+
+* 1 particular boy -> 1C1 -> 1
+* particular -> 1C1 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c717c8ad-b6c6-4f80-aab1-63c8adfe3b8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58a873bd-90e6-4044-b008-a593d53e329c)
+
+* **Particular** never means **4C1**. That is **incorrect**. [**VERY IMPORTANT**]
+* **Particular** means **1C1** always, which is **correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d1cbd9f-e1d1-48ff-8962-63825ad18104)
+
+* A particular person must never be selected -> 6C4. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dd48778-0f5e-4003-8d04-86d1680675c9)
+
+* HW.
+* Total -> 8 + 4 -> 12
+* 8C3 * 4C2 [A]
+* 4C2 * 8C3 + 4C3 * 8C2 + 4C4 * 8C1 [B]
+* 8C0 * 4C4 + 8C1 * 4C4 + 8C2 * 4C3 [C]
+* 1C1 * 11C4 [D]
+* 1C1 * 11C5 [E]
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Summary
 
