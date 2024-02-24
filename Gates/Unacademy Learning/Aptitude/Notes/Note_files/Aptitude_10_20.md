@@ -1054,9 +1054,16 @@
 * Total -> 8 + 4 -> 12
 * 8C3 * 4C2 [A]
 * 4C2 * 8C3 + 4C3 * 8C2 + 4C4 * 8C1 [B]
-* 8C0 * 4C4 + 8C1 * 4C4 + 8C2 * 4C3 [C]
+* 8C1 * 4C4 + 8C2 * 4C3 [C] [8C0 * 4C4 -> This is rejected because 4C5 is not possible]
 * 1C1 * 11C4 [D]
-* 1C1 * 11C5 [E]
+* 11C5 [E]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0e8999-648b-4234-8cb3-e1c1552a8392)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2157be5e-e3d5-47d5-8b28-e09f322c1b11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcd3117b-c207-4152-9882-505a90bcc9b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c49d7e7-510a-47bb-aeda-0fd1bc8efbfe)
+
+* Solution. [**VERY IMPORTANT**]
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1279,9 +1286,53 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/683bd2d7-e1e7-4965-85fa-3393c302a608)
 
+## Permutation combination probability part-III (15) [16th June 2023] [25th Feb 2024]
 
-## Permutation combination probability part-III (15) [16th June 2023]
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dd48778-0f5e-4003-8d04-86d1680675c9)
 
+* HW.
+* Total -> 8 + 4 -> 12
+* 8C3 * 4C2 [A]
+* 4C2 * 8C3 + 4C3 * 8C2 + 4C4 * 8C1 [B]
+* 8C1 * 4C4 + 8C2 * 4C3 [C] [8C0 * 4C4 -> This is rejected because 4C5 is not possible]
+* 1C1 * 11C4 [D]
+* 11C5 [E]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0e8999-648b-4234-8cb3-e1c1552a8392)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2157be5e-e3d5-47d5-8b28-e09f322c1b11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcd3117b-c207-4152-9882-505a90bcc9b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c49d7e7-510a-47bb-aeda-0fd1bc8efbfe)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d147d9c-312c-47e7-9958-b015687eef5a)
+
+* Example.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2440e351-78ab-4a12-ae4b-350743075461)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/037ce7ba-ab5f-4681-8230-794cf59309ce)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a3d2849-ed86-4a73-8a6c-c8d7b477b67f)
