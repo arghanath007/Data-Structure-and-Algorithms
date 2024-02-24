@@ -485,28 +485,7 @@
 
 * Option **C**. [**IMPORTANT**]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5d86194-ae0d-48fd-8f58-c203e3835789)
 
@@ -592,7 +571,49 @@
 
 * Option **B** [**IMPORTANT**]
 
-## Permutation combination probability part-I
+## Permutation combination probability part-I (13) [24th Feb 2024]
+
+### P&C
+
+* Combination -> Means **selection**.
+* Permutation -> **Selection** followed by **arrangement**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f51f1cc-a985-4703-9d2c-442d3c026a5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4ce5f26-ee44-46d0-acd3-3508f9965833)
+
+* Formula [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2d6c36e-06d9-4a98-84cc-a5a580fb3ae1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcc56a8c-9c0d-41ba-b7b6-17043f6325a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cecee056-bc2a-4c8b-a52a-1489bf6b9eec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcfdd7ec-1d11-44c1-83fd-cfa554dc4fc2)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/009e72e5-0f69-494a-828d-eec96c7dfa59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b93a9628-7a92-4a51-8a75-c406bd6f63aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/811d78b6-eaf8-4482-bf4e-3f485f248bad)
+
+* Example.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * Where ever there is a **choice**, we want to select two black markers **or** three red markers. We want to select three boys **or** four girls.
 * Where ever there is a **choice**, we say **OR**. In all such cases we use **plus(+)** and we use **union(U)** if we are studying **probability**.
