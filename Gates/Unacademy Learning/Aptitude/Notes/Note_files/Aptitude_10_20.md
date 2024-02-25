@@ -1,4 +1,4 @@
-## Verbal reasoning part-I (10) [15th June 2023] [23rd Feb 2024]
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73f3b3d6-c808-43e9-8d05-ba3941e49b6b)## Verbal reasoning part-I (10) [15th June 2023] [23rd Feb 2024]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c1f4e62-39a2-453a-90c3-ea2baa3633cc)
 
@@ -1890,8 +1890,265 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26d62ea8-74f3-45de-85b9-5fa45a2bdd09)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e2efffa-e5de-4340-a4fb-6a2224916962)
 
-## Permutation combination probability part-V (17) [17th June 2023]
+## Permutation combination probability part-V (17) [17th June 2023] [25th Feb 2024]
 
+* There is exactly **one straight line** between two points just that there is exactly **1** gift exchange between **2** people.
+* There is exactly **one straight line** between two points just that there is exactly **1** hand shake between **2** people.
+* There is exactly **one straight line** between two points just that there is exactly **1** match between the **2** team.
+* In all such cases, we may say **nC2**.
+* **2** transactions between **2** people and in such cases, we may say it as **2 * (nC2)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/312b57f6-ffd0-4541-9f16-3558ddb8ed7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8b955b7-6692-4e81-9f38-84a0e00e88b1)
+
+* To draw a **straight line**, we need **atleast 2** points. [**IMPORTANT**]
+* The **no. of vertices** we will have that many **no. of edges** we will have.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a34abc78-35ad-4654-94c1-9f286707305a)
+
+* Formula [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef74fa7d-f050-4a41-8bd3-5b15ea29598c)
+
+* Example.
+* Co-linear.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9942641a-efbc-4731-8361-36c4fcace218)
+
+* **A, B and C** are **Co-linear**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91b19978-20d0-436e-9d6a-d52d3d31071e)
+
+* We want to draw **straight line**.
+* In the **left one**, we have **10** points and for a **straight line** we always require **2 points** that's why **10C2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dea68ed-9e86-4e42-bfef-7b009ad1f12b)
+
+* In the middle one we can take both the points from **A** or from **B** or **1 from 'A' and 1 from 'B'**.
+* As we have **6** points in **A**, so it is **6C2**.
+* As we have **4** points in **B**, so it is **4C2**.
+* For **1 from 'A' and 1 from 'B'**, we have **6C1 * 4C1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba827ed6-b5e9-4676-8576-2908eee837bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fe6a65e-756c-49c6-bafe-61ecfcf3f826)
+
+* In the **right one**, we have a **co-linear** and it acts as **1 single line**.
+* As we have **6** points in **A**, so it is **6C2**.
+* As we have **1 straight line** in **B**, so it is **1**.
+* For **1 from 'A' and 1 from 'B'**, we have **6C1 * 4C1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b14a926-6dd1-43b0-a982-a8a6a7b089ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/911acf1c-37ce-427e-aa5b-4aa6b9b8685f)
+
+* Total no. of straight lines? [Question] [**VERY IMPORTANT**]
+* We have **10 points** which are **10P**.
+* We have **4 colinear** points which are **4C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0ddff76-1bc6-42e6-a696-21cede2f395b)
+
+* TotalC2 - Co-linearC2 + 1 [Formula] [**VERY IMPORTANT**]
+* 10C2 - 4C2 + 1 -> 40 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00d3aef0-e2e4-4f43-91c7-82f431223173)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32e3af47-9b18-4fc7-ac47-51a8846e60ec)
+
+* 20 points and 5 colinear points [Question] [Example] [**IMPORTANT**]
+* 20C2 - 5C2 + 1 -> 190 - 10 + 1 -> 181
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9761c6af-696b-49f0-99dc-8914b9e8913e)
+
+* Example.
+* 100 points and 10 colinear points
+* 100C2 - 10C2 + 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe3be465-fc39-4478-942b-7a892f93c7b3)
+
+* For **triangles** the **3** is **important**.
+* Take any **3** points.
+* We have **10** points.
+* No. of triangles -> 10C3 -> 120.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fce6e80-eff0-474b-9ce7-dc7a67e339ff)
+
+* As we have **6** points in **A**, so it is **6C3**.
+* As we have **4** points in **B**, so it is **4C3**.
+* For **1 from 'A' and 2 from 'B'**, we have **6C1 * 4C2**.
+* For **2 from 'A' and 1 from 'B'**, we have **6C2 * 4C1**.
+* Total is **120**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d72a5be-a829-43cf-abbb-163879ed4feb)
+
+* As we have **6** points in **A**, so it is **6C3**.
+* As we have **1 straight line** in **B**, so it is not possible which means it is **0**.
+* For **1 from 'A' and 2 from 'B'**, we have **6C1 * 4C2**.
+* For **2 from 'A' and 1 from 'B'**, we have **6C2 * 4C1**.
+* Total is **116**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ef222b9-fdbc-4c1b-b8c0-25f62f2e01dc)
+
+* TotalC3 - ColinearC3 -> 10C3 - 4C3 -> 120 - 4 -> 116.
+* Formula [Example] [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f55eb1a-0fce-4ff8-acdc-11218c0169bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c317a463-ce42-4bc7-abf1-3cea348d8797)
+
+* Question [**VERY IMPORTANT**] [Solution]
+* No. of straight lines -> TotalC2 - ColinearC2 + 1 -> 18C2 - 5C2 + 1
+* No. of triangles -> TotalC3 - colinearC3 -> 18C3 - 5C3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f057778-b376-4f36-819c-05a2739420d3)
+
+* We need **3** points to draw a **triangle**.
+* As both of the lines are **colinear**. So the **triangles** which are created in **one line** only like **lll** or **mmm** are **removed** and they are **zero(0)**.
+* No. of triangles -> 0+ 10C2 * 11C1  + 10C1 * 11C2 + 0.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7208a122-9d10-4754-b521-b4403c843006)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a006112e-0073-4858-a5fd-f7f7268b8bc0)
+
+* Another way, using **formula**.  [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aee0dc96-77c0-4829-a480-0da47815f88c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8257d12e-1b6a-4b4a-9f69-e974c9800bfc)
+
+* TotalC3 - (Not Required)C3 -> 12C3 - (3C3 + 4C3 + 5C3) -> 205 [Answer]
+* Example. [Question] [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/663b04cf-f913-4690-a0e3-e179e5b5fbab)
+
+* Chess Board
+* 1X1 squares.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7be75c0-7290-46a6-9edf-9addd3361f1a)
+
+* No. of squares. [Question] [**VERY IMPORTANT**]
+* Sum of squares of 1st eight(8) natural numbers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2426ccf3-12e3-4ab5-9986-c1716a827f76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/595eb24c-b430-44d5-ab7f-1d4ff7123dfa)
+
+* Formula. [Example] [**VERY IMPORTANT**]
+* Sum of squares of  natural numbers -> (n * (n + 1) * (2 * n + 1))/6
+* No. of squares -> 204.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d11322a6-0427-4a21-a7e2-42d5ca4c9766)
+
+* When both the pair of opposite sides are parallel and equal then it is a **parallelogram**.
+* When one side is **parallel** then it is called as **trapeziam**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc631c4d-1341-4319-80fa-14b0013e35d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c54c3017-7323-4737-a010-159ea2bd3fe9)
+
+* We have **9 vertical and 9 horizontal** lines in a **chess board**. [**VERY IMPORTANT**]
+* Horizontal -> Hz
+* Vertical-> Vt
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b816493a-969e-427f-a6f0-7de14f2d0733)
+
+* HzC2 * VtC2 -> 9C2 * 9C2 -> 1296.
+* No. of rectanges -> 1296. [Question] [**VERY IMPORTANT**]
+* All the **squares** are **rectangles**, the **opposite** need not be **true**. [**VERY IMPORTANT**]
+* The **1296** definitely includes the **204**, which are the **no. of squares**.
+* When we say **1296** rectanges that includes the **204** no. of **squares**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df1415f8-c69d-41cc-aee1-2c6bf2509327)
+
+* There are **m** parallel lines.
+* There are **n** parallel lines.
+* No. of parallelograms -> mC2 * nC2.
+* If **m = 10** and **n = 20**.
+* No. of parallelograms -> mC2 * nC2 -> 10C2 * 20C2 -> . [Question] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30490fd4-6aaf-4e16-8774-b178a093dd29)
+
+* //gram -> parallelograms ->  mC2 * nC2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24c8da8b-9ba0-429c-a992-d43fd086d39f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c5cd8df-fade-43d4-8279-811b0f275e4e)
+
+* If **no. of rectangles** are asked then we will say **Cannot Be Determined(CBD)** because only **m and n** parallel lines are given and it is not mentioned that the lines are making **90 degree angle**. [**VERY IMPORTANT**]
+* **Grid/Box** given -> It means that **90 degree angle** are given already. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a076372-468f-4154-a091-ed9b2b68e155)
+
+* Question [Example] [Solution] [**VERY IMPORTANT**]
+* Horizontal lines -> 4
+* Vertical lines -> 7
+* If a **grid** is given then find the **no. of rectangles**?
+
+> HzC2 * VtC2 -> 4C2 * 7C2 -> 126
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/765b54a0-70ed-4190-880d-42e190d7d14e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68fe6ae9-afcb-4a1c-a602-42f68739e6de)
+
+* Hz -> 3
+* Vt -> 5
+* No. of rectangles -> 3C2 * 5C2 -> 3 * 10 -> 30
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e6bc5d4-a253-4d4d-9446-2d5b4d501430)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d564ed2-6b5a-452a-bc20-c080d5099c49)
+
+* m -> 4
+* n -> 5
+* No. of parallelograms -> nC2 * mC2 -> 4C2 * 5C2 -> 6 * 10 -> 60
+* Option **C**. [**VERY IMPORTANT**] [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad22130b-ed53-4806-8a9b-e32265a0033f)
+
+* Total no. of handshakes -> 3.
+* If it is told that there is exactly **1 handshake** between **2** people. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c64b42b0-f668-4e21-b8ae-83f28df12d79)
+
+* We have **4** people. So it is **4C2 -> 6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f5245af-dd93-4497-96a0-003726d74cbe)
+
+* We have **20** people and it is told that there is exactly **1 handshake** between **2** people. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a82ebb3-156f-4486-a5f4-9d13588fbe85)
+
+* We have **n** people and the total no. of handshakes is **6**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/762b79e9-3b20-417f-ac7e-7e45d01b400f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea4fa523-22dd-43b0-b1fe-38679abbb7ee)
+
+* Find the **no. of people(n)**? [Question]
+* nC2 = 6.
+* n = 4 [**n** cannot be **negative**] [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6d0e5d3-fc77-4fbb-b97e-3f448dfe2d07)
+
+* Example. [Short cut] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51ca4070-df2e-4df1-aecb-a56fa1f791fe)
+
+* Question
+* (n * (n - 1))/2 =  66 [**IMPORTANT**]
+* n ^ 2 = 132
+* 11 ^ 2 = 121, 12 ^ 2 = 144
+* n ^ 2 = 132
+* n = 11 or 12 [11 * 12 -> 132]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feaf2f53-f217-44f3-b82f-3ed6ab606deb)
+
+* So **n** is **12**. [Answer] [**VERY IMPORTANT**]
+* Whatever we have discussed interms of **handshake**, it is **equally valid** if we are talking about **tournaments**.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5528eb9-517e-425b-8f9d-b9a3f9484d91)
+
+* If we have **100** teams and there is exactly **1** match between the **2** teams then it is **100C2**.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e8559e3-9cc3-458b-99e6-a1a0c87e2a15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2f37b59-3da9-4e0d-a6bc-006a9ba89cbe)
+
+* No. of matches -> 5C2 -> 10 [Answer] [Question] [Example] [**VERY IMPORTANT**]
+* Option **B**. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Permutation and combination
 
 * Total no. of ways in which these **4** people can be arranged in a straight line?
