@@ -1309,28 +1309,66 @@
 
 * Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/030834cc-afed-4b2b-9e49-3df59edf5fd1)
 
+* **Mrs B** got selected and **Mr A** is not selected. [Case 1]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27014a19-f706-4749-bbc4-f3a9180daba3)
 
+* **Mrs B** is not selected and **Mr A** is selected. [Case 2]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b15f2cdc-bfd6-4dc5-acfa-bc22373f1454)
 
+* **Mrs B** is not selected and **Mr A** is also not selected. [Case 3]
+* It is **9C5 * 7C6**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48f1ce19-8c62-4e2c-bd9e-2a2c8db426cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d79eb15b-ea92-43be-a49b-7531943957df)
 
+* Question. [Solution above]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6045955-3cb0-42ee-8017-7a84f4f3e746)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf2077ab-e604-4523-8dac-c8337ec233ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d41349cc-e449-4954-8f48-4716879716e7)
 
+* 9C3
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/821df31a-c8db-4e23-a250-880ae416b9b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f9aca61-5394-40d7-a053-defc56ce44ff)
 
+* In **passwords**, arrangement is equally important. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88ade785-167c-4b7a-b8a9-fda1504f5b78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84e4af20-5526-48b0-9488-969764aa47e7)
 
+* 10C1 *  26C1 * 26C1 * 3!.
+* Option **C**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e21cce98-1f85-4ace-98b2-12cfff4aa955)
 
+* Trap.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d1a763e-8dbc-453d-a14b-143bcc7ecd7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/466e3878-cf90-4315-8784-f7e23d534d61)
 
+* 9 * 9 * 8 * 7 [Answer]
+* Stares -> Ghurna.
+* Stairs -> Steps.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fd92750-c226-4463-82d3-9c10a2da5946)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d94abfe0-6aff-4322-a876-cf96a5099dbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adac5866-15d0-4335-aec2-6390a0458e25)
 
+* 13 [Answer]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541ba418-43e6-4610-94f9-bc2704adb0cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42a269bd-8baa-4423-8091-678f2e138b1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a20a4d3f-f52d-4aec-9204-0a12b965d498)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d00cec-edc0-4fd2-8792-2bbe7b68fd3d)
 
-
+* Linear and circular arrangement. [Examples]
+* Regardless of **linear or circular** the **selection** remains the **same**. [**IMPORTANT**]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2440e351-78ab-4a12-ae4b-350743075461)
