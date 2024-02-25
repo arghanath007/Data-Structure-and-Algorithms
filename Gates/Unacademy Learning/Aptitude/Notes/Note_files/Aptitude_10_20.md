@@ -2381,7 +2381,131 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61e6b986-aa2e-4a4e-81e8-60ebd588522e)
 
-## Doubt clearing session (18) [17th June 2023]
+## Doubt clearing session (18) [17th June 2023] [25th Feb 2024]
+
+* If all of the letters of the word **FOR** are arranged as per **English dictionary** then what would be the **3rd word, 5th word** etc.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3ea2044-5a46-43ed-9682-9ad7c8f1bc0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfebfd18-3beb-4a91-951d-756234183610)
+
+* Example.
+* Alphabetical Order -> FOR
+* Total -> 3! -> 6
+* Distribution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fddb85d-c155-437e-b827-dc50b4e1ba9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46bb5d41-ec40-453a-982b-8f714294efbb)
+
+* Example. [Question] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ba1819-c4af-4b2c-a29f-c130f42ed807)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98f6d075-6fbe-4dc0-870b-e74d987cab10)
+
+* 10th word and 20th word.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0afa486f-a551-44a7-b86f-4e9520f28132)
+
+* Solution. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57b5b85f-ceee-4a0e-a2f5-06d73f3d4c48)
+
+* Question
+* Order -> FMOR
+* Total -> 4 * 3! -> 4 * 6 -> 24.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc844e55-a5c1-4970-b6c9-260f6854bdb0)
+
+* 12th word -> MROF [MRFO -> 11]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49ab9e8b-9424-4439-8f01-c82966beb073)
+
+* 19th word -> RFMO
+* Example [Question] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e42acb81-250b-4263-b862-6625088e3021)
+
+* Word -> DELHI
+* Order -> DEHIL
+* Total -> 5 * 4! -> 5 * 24 -> 120.
+* 50th word -> HDELI
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e841ddd-e6c2-4cd8-85fb-09a21939a783)
+
+* 21st Word -> DLHEI.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c250bf0-dd95-4154-a7b0-be215306e203)
+
+* 65th Word -> HILDE.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35a55766-5d53-401b-851d-17ff32b0fbb4)
+
+* 100th word -> LDHIE
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb0e4cdf-518b-4306-96d4-8a2df51f3041)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e01fb677-9044-4b34-ac3d-711ae48e1313)
+
+* Word -> KUMAR [Example] [Question] [**VERY IMPORTANT**]
+* Order -> AKMRU
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eca39712-5913-4978-a6e3-1251ad72d879)
+
+* 50th word -> MAKUR
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8c0a966-6a0f-484c-9474-0530a0130223)
+
+* 100th word -> UAMRK [UAMKR -> 99]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/874b320d-318a-4f3c-9d3a-66ba5455ce46)
+
+* Word -> AGAIN
+* Order -> AAGIN
+* There is **no difference** between the **A's**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d495fedf-f359-4714-907a-309089774603)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8a4d8b5-ed43-4801-a8ed-ee8c2c52f40e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/580ad629-e554-42d6-a8e3-e71b2a5df865)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee3f1a58-b5bb-4db7-b3fb-409adde3f994)
+
+* 20th word -> ANAIG [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f683dec6-6e2e-4156-b3f1-f56a4b06a3c2)
+
+* 50th word -> NAAIG [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbd467c6-2684-4452-bc75-d7c08f8a790b)
+
+* No. of words -> 5!/2! -> 60 words.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c86b0ee4-fc06-4bf9-b6bc-4abb508959b7)
+
+* 39th word -> IAGAN [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c88f4b3-3d83-4aae-b7b7-b1baa0271783)
+
+* Word -> OFFER [**VERY IMPORTANT**]
+* Order -> EFFOR
+* Total -> 5!/2! -> 60
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a4410cd-8740-4aff-a385-35600ad14feb)
+
+* 50th Word -> REFOF [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6585ccd-ecbf-4551-aee5-62501c949d30)
+
+* 30th Word -> FORFE [Practice Again] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d817d713-6e5a-41c1-9678-7d7c727a0ed5)
+
+* 40th Word -> OFEFR [Practice Again] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78289f54-f14a-42ec-9e91-224d345a21f2)
+
+* Example [**VERY IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Quiz-3 discussion
 
