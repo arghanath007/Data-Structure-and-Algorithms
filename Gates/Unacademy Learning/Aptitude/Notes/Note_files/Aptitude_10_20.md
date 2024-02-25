@@ -1469,8 +1469,183 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c59678a1-39be-4ab2-929f-0bb70ca81530)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/894d90ec-11cf-4f1a-89aa-cd7ce20b87a3)
 
-## Permutation combination probability part-IV (16) [17th June 2023]
+## Permutation combination probability part-IV (16) [17th June 2023] [25th Feb 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37bdd406-be08-4559-9f71-afc443de74a2)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e9997cc-916f-480a-b177-288b3f57c22d)
+
+* No **2** Hindi medium students must sit together. [**IMPORTANT**]
+* **Arrangement** of **6** english(E) medium students will be **6!**.
+* The moment we have written **6!** for **6** english(E) medium students. This is where we establish the **fact** that this is a **linear arrangement**. **Linear arrangement** has been **established**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/696e8b75-61bf-47d9-93eb-91f3fc2ddd75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39a767be-89c0-4c87-be0f-91dfbe2a542f)
+
+* The **X** represent in the **7 number** places. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b9e79ae-eac2-4939-8423-cdfbb2f2cc64)
+
+* Pseudo-gap [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee58c33a-6905-4d99-a47c-04b121921490)
+
+* Question Paper.
+* Attempting **0** question -> 4C0
+* Attempting **1** question -> 4C1
+* Attempting **2** question -> 4C2
+* Attempting **3** question -> 4C3
+* Attempting **4** question -> 4C4
+* Total -> 16
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c1f19b3-0b57-4a83-8d1e-5b408856e831)
+
+* We are **directly** like above. [Formula] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bf1d9ef-b6d7-429f-b90b-87c9921317b0)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2884b8af-0618-4e2c-9b7b-a4c0a5037ca2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb69b5d3-3784-4f03-b337-00b12dd7e592)
+
+* Atleast **1** attempt. [Question] [Example] [**IMPORTANT**]
+* Total Cases -> 2 ^ n
+* Not required -> nC0.
+* n -> 1,2,3,4 -> Total **4**.
+* Total cases - Not required -> 2 ^ n - nC0 -> 2^4 - 4C0 -> 16 - 1 -> 15 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/652edeb4-3e60-4463-acf7-1bbfab43e37b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5be13972-7135-42ea-92ac-d6d7c0f5a166)
+
+* Atleast **2** attempts. [Question] [Example] [**IMPORTANT**]
+* Total Cases -> 2 ^ n
+* Not required -> nC0 + nC1.
+* Total cases - Not required -> 2 ^ n - (nC0 + nC1) -> 2^4 - (4C0 + 4C1) -> 16 - (1 + 4) -> 16 - 5 -> 11 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf2ffee9-870a-4ebe-8a3f-ae78b69d69ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c8bc38b-c054-4409-bb77-68fca02160b2)
+
+* Atmost **3** attempted. [Question] [Example] [**IMPORTANT**]
+* Total Cases -> 2 ^ n
+* Not required -> nC4.
+* Total cases - Not required -> 2 ^ n - (nC4) -> 2^4 - 4C4 -> 16 - 1 -> 15 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d554ee8-8ae1-4b9d-87cd-0c0a9f7c6c0f)
+
+* The no. of ways the question paper can be **attempted**.
+* 2 ^ 5 -> 32
+* 2 ^ 5 - 5C0
+* 2 ^ 5 - (5C0 + 5C1)
+* 2 ^ 5 - (5C5)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44de8112-37c3-4e10-9c00-f23036635ff5)
+
+* Solution. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01d39601-8b1f-4ca3-94bd-cd77ad1268a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/495db3ae-c892-4f3f-9a0d-f8d9210ab27e)
+
+* The no. of ways the question paper can be **attempted**.
+* There is **no condition** in neither **A or B**. [Question]
+* 2 ^ 7 -> 128 [Solution] [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f27f6a04-1fbe-428a-98dc-59a80c817c42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4517fd13-5733-4a43-9afd-4830c01e3a51)
+
+* There is a condition now. We have to take **1** question from **A** or take **atleast '1'** question from **A** and no condition for **B**. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cf73495-1b69-4986-8d00-863501853242)
+
+* There is a condition now. We have to take **atleast '1'** question from **A** and **atleast '1'** question from **B**. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2dd39288-c37c-450f-8c95-179d82529247)
+
+* (2^4 - 4C0) * (2 ^ 3 - 3C0) -> (16 - 1) * (8 - 1) -> 15 * 7 -> 105 [Answer] [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f107f120-5b62-463b-96a1-ed3c2bda00d6)
+
+* There is a condition now. We have to take **atleast '2'** question from **A** and **atmost '2'** question from **B**. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c5c73f5-8d94-4643-9020-3ceba20d0760)
+
+* (2 ^ 4 - (4C0 + 4C1)) * (2 ^ 3 - 3C3) -> 16 - (1 + 4) * (8 - 1) -> 11 * 7 -> 77 [Answer] [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42e5cf71-a062-4083-acde-7d30ebcf75d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a7a6979-e962-400a-8b54-5db19fab1a7c)
+
+* Question [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d85a827-d05f-4940-ba80-45e964d20618)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2da2838a-b48a-4c3d-a542-6520d82de97a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/766f74a3-8623-4946-9e46-636a19779dea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df1ce128-ec5e-4766-a9b3-21cafd511fb6)
+
+* Solutions. [**VERY IMPORTANT**]
+* 2 ^ 4 * 2 ^ 3 * 2 ^ 2
+* (2 ^ 4 - 4C0) * 3 ^ 2 * 2 ^ 2
+* (2 ^ 4 - 4C0) * (3 ^ 2 -  3C0) * (2 ^ 2 - 2C0)
+* (2 ^ 4 - 4C4) * (3 ^ 2 -  3C3) * 2 ^ 2
+* Instead of **question paper** we have **teams**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14d6b830-916a-413a-b0c1-e6a94e5862e6)
+
+* With **teams**. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/494a75a4-0609-4bd1-86cc-24d8269a7fd2)
+
+* (2 ^ 3 - 3C0) * 2 ^ 3 -> (8 - 1) * 8 -> 56
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bade7111-14dc-4bc6-ba5b-96b4c77c1ad0)
+
+* Option **A**. [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35e37b6d-940d-45c8-be48-43aeba07d4f0)
+
+* Girls are seating on the **4** corners.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/142fb975-3d68-40da-af2e-dea8b2c29014)
+
+* There is **1** handshake between **2** people.
+* There is **3** handshake between **3** people.
+* Whenever there is **1** transaction between **2** people then it is **nC2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25934334-59e2-4d04-97eb-b92a0000beff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1357bc5e-28ca-4997-bcc2-5f2bcf625512)
+
+* There is exactly **2** transaction between the **2** people. It is for **2 * (nC2)**.
+* This is **gift exchange**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Permutation and combination
 
 ## Combination
