@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73f3b3d6-c808-43e9-8d05-ba3941e49b6b)## Verbal reasoning part-I (10) [15th June 2023] [23rd Feb 2024]
+## Verbal reasoning part-I (10) [15th June 2023] [23rd Feb 2024]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c1f4e62-39a2-453a-90c3-ea2baa3633cc)
 
