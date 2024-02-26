@@ -1,5 +1,76 @@
-## Doubt clearing session (20) [18th June 2023]
+## Doubt clearing session (20) [18th June 2023] [26th Feb 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/394be26e-fce2-483d-9c8b-8805cf56eeca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4499395-733b-4d35-9bc5-b1776b002bfa)
+
+* D2 > D1 [Example] [Question] [**VERY IMPORTANT**]
+* The outcome of the **2nd dice(D2)** must always be **greater** than the **1st dice(D1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/750ee2c7-7d00-4c28-9275-78d4f4c9c923)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c108ca83-b222-426c-9d9a-ee6a78ef9efa)
+
+* Question. [**VERY IMPORTANT**] [Not able to solve it]
+* In case of **dice** there is **arrangements**. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Permutation and Combination
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eee310c-c595-4d11-bc70-4361aa80b6cd)
