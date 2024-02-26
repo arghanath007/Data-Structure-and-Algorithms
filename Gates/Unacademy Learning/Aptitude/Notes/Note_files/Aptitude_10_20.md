@@ -2688,8 +2688,321 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b4a09f9-5fff-4562-ab6e-bf2b8577a0e3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c18315-735b-475e-84e6-18a5a58db640)
 
-## Permutation combination probability part-VI (19) [17th June 2023]
+## Permutation combination probability part-VI (19) [17th June 2023] [26th Feb 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2a4f0d8-2697-4000-bbb4-3f52e653ffa5)
+
+* Using the digits **1 and 2** exactly once, find the sum of all the **2 digit nos** that can be formed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d503d99f-a2dd-4eb7-aa0a-bb5c1b318653)
+
+* Using the digits **1, 2 and 3** exactly once, find the sum of all the **3 digit nos** that can be formed using the digits **1, 2 and 3** exactly once.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db8273cf-7376-486d-843b-d32e7feef6f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f17ac3bf-570a-46b1-ac2f-09e25f32d202)
+
+* The sum will be **same** for the **tenth** column as well.
+* The sum will be **same** for the **hundredth** column as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0c9d3b3-8877-4850-9c27-1c29cfcb69f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a29a19ee-44ea-447b-b536-127369ff9028)
+
+* Place and Face value. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c6bbc77-a2b7-450a-8a76-5bdcf359880f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd9de85d-31dd-438b-b160-6b767f7e61d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35361f53-399a-4a42-9542-7d8d7b48f19b)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc4cdb7d-1d22-4b5d-a682-fa80be2e737b)
+
+* No. of digits -> 4 
+* How many nos?
+
+> 4!.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f99c9893-b6c4-4107-84c7-ab4b28c90865)
+
+* We have **n** distinct numbers.
+* Sum of all the **n** digit number that can be formed using the digits **1,2,3,4 ...n** exactly once would be:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98b6e9a5-0549-47ad-99d0-d707a201b68b)
+
+* **n!/n** -> The no. of times each number is coming at every **single vertical** column. [Average]
+* **n** is the total no. of distinct numbers.
+* **n!** is the total no. of keys/numbers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e1ef8cb-abb2-4fd8-b2e9-eec0006acfe5)
+
+* This is the digit sum of every vertical column.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0e38589-1501-49dc-8c5c-a2c4830dfbea)
+
+* Sum of **place values**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4acbbe49-c287-4325-a145-086af7247df7)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1cb06de-6c07-4a71-b7a9-975d5712a859)
+
+* Even if **random numbers** are given then also it doesn't matter. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97d33b90-9efe-4240-94e2-742fb6fd1e08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc67de16-5dbb-4d82-ba7c-4e1ada9a03dd)
+
+* When numbers are **repeated**. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79e3e942-8a9c-44c4-b099-350c7638a74c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed609db5-5ac0-4429-9884-1a896d5d0f0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abe39ae2-d3e9-4456-afdc-91fb2f6f3d12)
+
+* (5!/5) * (1 + 3 + 5 + 7 + 9) * (11111)
+* Option **B**. [**IMPORTANT**]
+
+## Probability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a6aa0cd-7bbd-4cb6-9265-55b83c63d026)
+
+* When we **know** the **outcome** of the experiement then it is called as **deterministic experiment**.
+* When we **do not know** the **outcome** of the experiement but we know the **range** of the **outcome** then it is called as **probabilistic/random experiment**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27a93a02-9441-45d7-ac5e-5ab0cfc49cc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a893932-7a60-4a02-ae57-d6cae9152fbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5abe8ba2-1203-479f-8ad9-bb83a9f6fc7c)
+
+* S/S -> Sample Space
+* F/E -> favourable Event
+* P(E) = (F/E) / (S/S). [Formula] [**VERY IMPORTANT**]
+* Favourable event is a **sub-space/sub-set** of the **sample space**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4860230f-fb71-4931-9670-215dbf7d7696)
+
+* If we throw **n** coins then the **sample space** is **2 ^ n**. [**IMPORTANT**]
+* Coin has **2 faces**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/234638a7-b7eb-4fb3-bf20-916edb5d89b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad5fe2bb-f958-4e25-8925-0111ec160390)
+
+* (faces) ^ (No. of throws). [Formula] [**VERY IMPORTANT**]
+* If we are throwing **10 coins** then it is **2 ^ 10**.
+* If we are throwing **1 coin, 20 times** then it is **2 ^ 20**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60ea1c05-db19-452e-89ee-8a1a11fb9d63)
+
+* Example. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f854dab5-739f-4343-956d-26425243d749)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbd008d9-92a0-4b0b-b366-3cbb4ecd2008)
+
+* P&C logic applied here.
+* Example. [**VERY VERY IMPORTANT**]
+* We are considering the **H and T** as normal english letters. So in **HHT** we have **3 english letters**. As **H** is repeating **2 times**, so it is **3!/2!** because of the repeatation. As **3 letters** so it is **2 ^ 3** in the **denominator**.
+* P(HHT) = (3!/2!)/ 2 ^ 3
+* In **HHHTT** we have **5 english letters**. As **H** is repeating **3 times** and **T** is repeating **2 times**, so it is **5!/(3! * 2!)** because of the repeatation. As **5 letters** so it is **2 ^ 5** in the **denominator**.
+* P(HHHTT) = (5!/(3! * 2!)/ (2 ^ 5).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c794a09d-e071-4585-81d8-74fd7db8bcec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55ab0768-a983-4632-89ea-5041efd2ff9b)
+
+* P(HHHT) -> (4! / 3!) / 2 ^ 4 -> 1/4. [Example] [**IMPORTANT**]
+* P(TTTTT) -> (5! / 5!) / 2 ^ 5 -> 1/32.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d689f34-b291-4471-87b3-f5d8eef98b50)
+
+* Example.
+* Here also it is the **same case**. If nothing is mentioned then it is **exactly**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06686d79-90d8-4ac8-90d5-e02fde0d5bb7)
+
+* **Atleast** word. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b0246f9-813b-4726-a91b-61dd7aa2a6c9)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d23b834-5343-479e-ba63-3144343c9074)
+
+* Find the **probability** that the **no. of times head(H)** show up is **more** than the **no. of times tail(T)** shows up.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/769b740d-2e1d-4832-93f6-fe7cb7bc7acd)
+
+* Fair Coin. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec2074ac-6f1d-4f38-928a-9b4d42a9b268)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a83981c3-2ac6-4b84-b574-469591a7bbf0)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1dc1a67-dcd4-4e24-9bac-c9144120cee3)
+
+* P(HHHHTTT) -> (7!/ (4! * 3!)) / 2^7 -> 35/128
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e868822-1e21-4cba-85ef-e00ecbdfbd54)
+
+* P(Atleast 6-H) -> P(HHHHHHT) + P(HHHHHHH) -> 1/2^7 * (7!/6! + 7!/7!) -> 8/128
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfd96dce-ba74-4b47-90fb-b2a4954a19bd)
+
+* P(Atmost 2-T) -> P(HHHHHHH) + P(HHHHHHT) + P(HHHHHTT) -> 1/2^7 * (7!/7! + 7!/6! + 7!/5!) -> (1 + 7 + 21)/128 -> 29/128
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6093f14-82f5-4f77-bb67-9de01917e7fd)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c39d6efc-ab4c-4e46-a719-6e0ce51d521d)
+
+* Visualizing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbaa0cf0-2128-4407-b07d-1d7ec78bda17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26df6290-5deb-44b2-bd8e-864bf9f21f21)
+
+* 4.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e50c5732-f013-4093-a8df-d23136c2da89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95c684fb-43d4-4ef2-be19-45c2029d3b69)
+
+* 5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbd0592a-32cd-4001-997e-d99d44bc3981)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9612435a-61d5-4d4d-93d3-c9f3d362da0d)
+
+* 6 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/766dbcd9-d3d8-4d35-8bcc-4163fc0c01fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e38ef28f-59d0-4e2f-8b3e-45b81224f370)
+
+* We have **4** fair coins. [Question]
+* P(Atleast 1-H and atleast 1-T) -> 1 - (2/16) -> 14/16. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51dc9d5a-1f10-4710-b527-59be0022739a)
+
+* Dices.
+* If we throw **n** dices then the **sample space** is **6 ^ n**. [**IMPORTANT**]
+* Dice has **6 faces**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a0073ff-9ff7-4173-be77-c1024cc5c342)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec453f3b-7602-4865-ac09-53857d05cd9f)
+
+* Even(E) and Odd(O). [Question]
+* We are taking/treating **E and O** as **2 english letter words**. So we can have **EO and OE**. So we will have **2!** for the **arrangement** as well.
+* We have **2-dices**.
+* P(1-E and 1-O) -> 3 * 3 * 2! -> 9 * 2 -> 18/6^2 -> 18/36 -> 1/2. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfde16ed-6170-49c6-a719-884ec953af8e)
+
+* (1,6) and (6,1) are two different cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68a16286-f63a-4c0f-b4e7-2adbe7b35b3f)
+
+* Sum of **numbers** in **2-dices**. [Formula] [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a698ff7-eae1-4d45-bff5-f0830788c59b)
+
+* Example. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22230778-df33-4ec3-838e-8909ab02b431)
+
+* Example. [** IMPORTANT**]
+* Perfect Squares -> 4 and 9.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0798310-e987-4d79-ac3e-d2221b0ff1c5)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33aaa143-68c3-47da-8ffa-15b3f34037b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ffae524-5871-430a-87cb-2a25f8fd3b29)
+
+* Sum is **atleast '10'**.
+* P(Sum >=10) - > 3 + 2 + 1/6 ^ 2 -> 6/36 -> 1/6. [Question] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/335e2f94-c079-4959-a2df-66088531be72)
+
+* **Circle** represents the nos that are **divisible by 2**.
+* Nos divisible by **2 and 3** means **LCM(2,3) -> 6**. It means that the nos which are **divisible by '6'**.   
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a87dcd12-d9e2-488d-852c-6f5b6fd96515)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b598c7b-4a41-4482-b206-2f6e65275c06)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e17490-6cae-4245-b106-2c6409f1c80b)
+
+* P(Sum = 9 or Sum = 10). [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3ab4c82-17be-4872-85f9-e976d6ef5873)
+
+* P(Sum not 8 or Sum not 10) or P(Sum = 8' or Sum = 10'). [Example] [**IMPORTANT**]
+* P(Sum = 8' or Sum = 10') -> 1 - P(Sum = 8 or Sum = 10) [Formula] [**VERY IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a440729c-1589-4155-b00b-1da41db9f7f7)
 
 * Incase of **password**, **arrangement** matters. [**IMPORTANT**]
