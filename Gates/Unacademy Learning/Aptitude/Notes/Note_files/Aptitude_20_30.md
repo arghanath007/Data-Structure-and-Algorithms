@@ -12,63 +12,109 @@
 * Question. [**VERY IMPORTANT**] [Not able to solve it]
 * In case of **dice** there is **arrangements**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5796afb-dd6a-4bec-93d9-c521a50bd37c)
 
+* P(Exactly one 6)
+* 6' -> Not 6.
+* P(One 6) -> 1/6
+* P(Not 6) -> 5/6
+* **3!** for the **3 numbers** we have and **2!** because **2 numbers** were repeated. [Example] [Question] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c1c5b36-7f75-422a-af8f-fa50448cb34c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/241f6596-55b0-47b0-a4ff-4f83b8b22d84)
 
+* Question [Example] [**VERY IMPORTANT**] 
+* P(333'3'3) -> (1/6) ^ 2 * (5/6) ^ 3 * 5!/(3! * 2!)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af8ed3ce-6db0-4815-9f1f-7b9c6b89d701)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3873b97c-1206-4990-87f3-29b74b73f5a3)
 
+* Question [Example] [**VERY IMPORTANT**] 
+* P(666'6') -> (1/6) ^ 2 * (5/6) ^ 2 * (4!/ (2! * 2!))
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/156a7754-ce5a-4689-a830-953689c11a16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4711d13f-0890-4f25-b0c9-94498998d1dd)
 
+* Question [Example] [**VERY IMPORTANT**] 
+* P(HHHT) -> (1/2) ^ 3 * 1/2 * (4!/ 3!)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/727b722c-5d10-4752-b739-848b12273f97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd6c0bd7-b9d4-4be0-aa68-96cb0901111f)
 
+* Example. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb054756-9ac4-4487-a9ee-1256c14155cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10d7d99b-81ea-4d13-8337-245768b27b8b)
 
+* Question [Example] [**VERY IMPORTANT**] 
+* P(11111') + P(11111) -> 1/6 ^ 4 * 5/6 * 5!/4! + 1/6 ^ 5 * 5!/5!.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4583aaa6-5c5d-406e-b91d-05b11cb9ae8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3223897-2ece-4c88-96ae-ff92f1402f06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d43b183c-3ca0-4914-ab90-fbe73769233e)
 
+* P(5th Head) -> P(HHHHHTT) -> 1/2 ^ 4 * 1/2 ^ 2 * 6!/ (4! * 2!) * 1/2
+* Solution. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b7c5699-e560-4380-8e15-deab28d97268)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beb7198a-e082-4d2d-802c-50bd56e48d52)
 
+* P(4th Head at 10th Toss) -> P(HHHTTTTTTH) -> 1/2 ^ 3 * 1/2 ^ 6 * 9!/ (3! * 6!) * 1/2
+* Solution [Example] [**VERY IMPORTANT**]
+* Practice the above questions again. They are **Very Important**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1af2d05-8a51-4a6f-bcd7-bb2a316342fd)
 
+* Example. [**IMPORTANT**]
+* For the range of **1 <= N <= 30** and with the **30/3 = 10**, we will get **3/6/9/12/15/18/21/24/27/30**. 
+* For the range of **11 <= N <= 30**, we have to **exclude** those nos which are **less than 11 and divisible by '3'** which are **3, 6 and 9**. As, **30/3 = 10** but **3** nos are **excluded** so it is **10-3 -> 7** and we will get **12/15/18/21/24/27/30**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1b8f6a7-32c9-4b0a-8416-504ec9d715df)
 
+* How many **2 digit** nos are there?
 
+> 90.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8edf8ead-cd2b-4f1f-82b5-f314f3cd6182)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feb9b8b6-06db-4466-826a-5ff7417822e6)
 
+* Question [**VERY IMPORTANT**]
+* Sample Space -> 90. [Not 100, because we are talking about 2-digit numbers]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feb5fd4e-7145-453c-8b50-6c14b7121c96)
 
+* Option **D**. [**VERY IMPORTANT**]
+* Practice is **again**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/931d5677-0df1-47cd-a310-5bc2bf15d8d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e98dcf8-f56d-4ee8-bc00-d33a732f61e5)
 
+* Playing Cards. [Numbers] [Formula] [**IMPORTANT**]
+* Face/Picture cards -> Jack/King/Queen -> 3
+* Honour Cards -> Ace/Jack/King/Queen -> 4
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b38c9480-846f-4322-82df-a7006240df25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce02bafe-481a-4c4d-be77-7185e1e2a407)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31bff30a-808c-45b5-bccc-c37c39dfbb78)
 
+* 3 cards -> One by One / One after another / Successively.
+* With replacements
+* Without replacements.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d92947ab-d83a-4069-b59f-c88d83acece8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6676f48-9260-4cf8-9de1-bf57aa937fbb)
 
+* Ace -> 4
+* P(Both Ace) -> 4C2/52C2 
+* P(Successon with repeatation) -> 4C1/52C1 * 4C1/52C1
+* P(Successon without repeatation) -> 4C1/52C1 * 3C1/51C1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7b6d456-8077-45ad-88cd-d8cce0840321)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Solution. [**VERY IMPORTANT**]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Permutation and Combination
