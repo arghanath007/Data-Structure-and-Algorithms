@@ -598,53 +598,6 @@
 
 * Yes.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Syllogism
 
@@ -937,8 +890,155 @@
 
 * Option **C**.
 
-## Verbal reasoning part-V (24) [19th June 2023]
+## Verbal reasoning part-V (23) [19th June 2023] [28th Feb 2024]
 
+## Syllogism
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59a64463-dc5f-4312-aeb6-f543a3744958)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c00b5206-8412-4b05-a3e2-2ca1e5114250)
+
+* Argument(A) -> Premise(P) + Conclusion(C)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcdb4b73-701f-406f-b3c4-945ec8e97bef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10ccf1ca-09f3-469d-8446-a3d68a2a51c7)
+
+* All X is y
+* All Y are Z.
+* [Therefore] X is z.
+* **Unique conclusion/solution** -> Single Solution -> This type of reasoning is called as **deductive reasoning**. We would refer it as **LN(Logical necessity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06458951-379b-4cb9-909d-5412aa5daa0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd1acb03-bb65-4574-9e45-3e5ed738670b)
+
+* This is why we try to find the **Atleast** case to get the **unique solution**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9483ce46-70f3-4234-a765-3094ab07b5d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b584731-eefe-4664-9bf8-765df9abb1de)
+
+* Inductive Reasoning(IR) -> Logical possibility(LP) -> When we have **doubt/dilemma/discrepency**.
+* Deductive Reasoning(DR) -> Unique solution -> logical Necessity(LN).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c619b10f-57fa-429d-a9da-5d4a04184652)
+
+* **NOTES** [**VERY IMPORTANT**]
+* A = P + C
+*  R -> DR -> Unique -> LN
+*  R -> IR -> LP.
+*  When solving **sylogism** questions always go for **LN**. Only in the case of absence of **LN** which is **unique solution** then only go for **LP**.
+*  maybe + LP = LN. [NOTE] [**VERY IMPORTANT**]
+*  **Kumar, beautiful, boy**, they are just mere **variables**, do not take them to the **heart**. They are just **variables**.
+*  If **grammatical errors** are there then also it is **not a problem**. [NOTE]
+*  If Subject Verb agreement is not given then also it is **fine**.
+*  We are not concerned with **factual truthfulness** we are concerned about **logical truthfulness**. [NOTE] [**VERY IMPORTANT**]
+*  Do not assume anything **external** in a given **premise**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab2d25b-5554-464c-8143-c838a38285e4)
+
+* Whenever in dilemma **quantify** it. [**IMPORTANT**]
+* **Every element** of **x** is element of **y**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e0092bb-30ab-45a4-a9a4-f0e15305ad7c)
+
+* **x** is a subset of **y**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3fcadf1-3a10-461a-89f1-018a8eac0d37)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2f944bf-7618-4705-a916-339ab8abb91d)
+
+* Extreme case.
+* Sylogism is all about **unique solution**. That is why to get a **unique solution** we always prefer **atleast case**. This is something that is regardless of any case/situation is **always true**. That is why in **sylogism** we prefer/draw the **atleast case**. [**IMPORTANT**]
+* Basic idea is to get the **unique solution**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51638d0c-cd1d-459a-bde2-7e071cb0fda8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea402ec3-a99d-427a-9c42-ddf45f88520d)
+
+* Not even a single element of **x** is an element of **y**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0d676a2-8434-4aa7-b0f3-deeb1cad21f4)
+
+* I ate some mangoes. [countables]
+* I ate some rice. [uncountables]
+* **Some** can be used with **countables as well as uncountables**.
+* When we **quantify** something it is easier to understand.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39a165ee-b23e-4ce6-90bc-ecf481060b8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4a8f01e-d184-4bbc-82fd-dc39bb9d1090)
+
+* Atleast one element of **x** is an element of **y**.
+* Some -> Atleast one.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7951b0b-43bc-4a87-93da-b445bed0aaf3)
+
+* **Maximum** will be that **all** of **x** is/are **y**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/981520c5-5726-4c71-9049-2895d27e0008)
+
+* **Some** eventually/gradually becomes **All**.
+* **Some** leads to **All**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2030cd7-8b68-48ef-a1bb-83dd158f6367)
+
+* Extreme cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/361e5600-a117-4c9b-9792-2c0a69fb746d)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da420231-1c19-4fb5-adba-8deb53ca7d7d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d02d49fd-ffd3-45f1-8cb6-cc5c9a063b39)
+
+* Atleast one element of **x** is not element of **y**.
+* **Maximum** case is that **x and y** are **disjoint sets**.
+* **Minimum** case is that **one element** is not common between **x and y**.
+* **Maximum** case is that there is **nothing common** between **x and y**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07bbf9d4-ecf9-49c5-a951-4da349368f98)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7db7e3ad-8002-4f12-8de3-5760e6bf07ae)
+
+* Syllogism -> Unique Solution.
+* Premise:- [**IMPORTANT**]
+
+1) Some -> All
+2) Some not -> None
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15f95460-57fc-4648-a30d-c6b28cb78f8f)
+
+* Two different kinds of **syllogism** which are **very important**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4062458c-df15-4ae7-9e8c-b9e3384898ed)
+
+* All **A** is **B**.
+* All **B** is **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f9f5b3b-7119-4818-9c21-cfe098e317bd)
+
+* All **A** are **B** and some **B** is **C**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35233835-2d4b-47dd-a3ca-a0a8ae0573a3)
+
+* All **A** are **B** and some **A** are **C**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d07897ec-71f2-4d93-95ac-1f294ba2f55e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e47d1406-5d7e-4023-845d-85c4046d0ecc)
+
+* Option **D**.
+* We always go for **unique solution** that's why we check **atleast** condition. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d78fad8-7ca3-4de3-ba44-5e9c216b0386)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff0d123e-3366-47fc-b618-00bb2a0ad37c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dae271a-bc94-409e-b532-36d2d471976a)
+
+* Option **D**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/761ac698-81b2-4332-8a16-0640b4548c76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3effb9d3-3e54-4957-b151-c8eaa1043add)
+
+* Option **C**. [**VERY IMPORTANT**]
+* We don't have enough evidence to comment to any of the conclusions.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f5bc259-772c-4f87-b0c8-2a4e46ce7a70)
 
 ## Logical Connectives/Connectors
