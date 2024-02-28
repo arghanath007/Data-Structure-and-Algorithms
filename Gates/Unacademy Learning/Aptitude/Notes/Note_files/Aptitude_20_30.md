@@ -494,7 +494,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d31c1cef-3b74-4d94-a61c-331db023d036)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fbe3f33-20f6-436d-8f9f-61c4ba9e20a6)
 
-## Verbal reasoning part-IV (22) [18th June 2023]
+## Verbal reasoning part-IV (22) [18th June 2023] [28th Feb 2024]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88cf978b-1b8d-48e9-9f42-7e444a4d21b3)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0179deab-6500-4b4f-a976-7e8ea425c5f4)
@@ -503,9 +503,107 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85740f4c-144a-46f7-8900-e75c0826c961)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3b4ad0d-909e-4cad-806e-dcf3b3d51535)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44f7dec2-c14f-4077-80b8-5b4b80efd808)
 
 * Option **C**. [**VERY IMPORTANT**]
 * Look at the **units**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a85dd977-4b16-40a5-8eca-60369cb1fb9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abbe6cf9-8af7-4d42-96fd-d12e68f39602)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83efe762-388d-4364-b43d-c97b3066f81a)
+
+* Option **A**. [**VERY IMPORTANT**]
+* Always -> Very very strong statement/word. Very tough word to justify. [**IMPORTANT**]
+* Must -> We Must/ought/should/ do this. It is an **opinion**. We are not concerned with your opinion. We are concerned with **CID(Con**. [**IMPORTANT**]
+* Origin -> Very very strong statement/word. But other options are **rejected**, so this is the **best option**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3258c6f8-92a2-4513-9c65-8c17e85e341a)
+
+* If nothing is mentioned then make sure they are facing towards the **center of the circle**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9aa0bb22-4270-4302-b9ac-b0ae6d4c9240)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b64f754-4c5b-4f48-b384-a39573d6d5f1)
+
+* **B** is sitting **opposite** to **vatsal(V)**.
+* **A** is sitting to the **left** of **vatsal(V)** .
+* Adjacent
+* Beside.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f94e4d4b-5a43-43be-84a1-5c513cdf9f1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bae90b2-65fb-493c-af5c-1ac969c16c77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5783130-fa50-4065-8363-da713325d303)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d74a77b-d287-4989-b375-3370655f6b48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b67168e-ede7-4067-9332-2f35acae0dac)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6066b2c3-c6f3-4db7-a876-de2e05c0eae7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f26bc7d6-0179-4cef-a178-7c22ac4c961e)
+
+* [**VERY IMPORTANT**]
+* Late ->  
+* Letter -> Formal letter -> Chitti
+* Later -> Badh meh -> For time.
+* Latter -> Position -> Former or latter.
+* Latest -> Latest news.
+* Last -> Position -> The last one.
+* Late -> Later -> Latest.
+* Late -> Latter -> Last.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c80993-0b93-4ecb-9ce9-ebbe04a16a1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45edf3d0-07b7-4413-99c2-2f4ca10ac936)
+
+* Alone -> solitary -> Being without anyone or anything -> Akala
+* Lonely -> Akala pan -> Feeling of alone -> Dejected by the awareness of being alone
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aef8260-105e-43ef-b7ac-cf6a82bf4e64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2668d11-466e-4122-b58d-d661acba99c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25fd768e-7da7-4ca3-b3be-a4f6f9e9b1ca)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/420aba19-a770-4bf6-86e6-a61568d18d47)
+
+* **It** is used for **3** different things. [**VERY VERY IMPORTANT**]
+
+1) Non-living things.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e143c4a5-beb5-4a06-86a7-6fc99b2b7947)
+
+2) When the **gender** is not specified. Neuter gender, **TRUE**.
+3) Temporary Subject(TS) 
+
+* It is raining. [Example]
+* It is 9 O'clock. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/847d841c-e59e-4100-859e-0e620bb372a9)
+
+* Uninterested -> Not interested, No interest at all. [**IMPORTANT**]
+* Disinterested -> Hatred. I hate that. [**IMPORTANT**]
+* Impeccable -> pristine/spotless/flawless. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4572b8b7-4d58-40eb-a89a-a1c11d198ee3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76491afa-4e5b-4469-9df5-a20c6bbf7c63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d89de29c-5975-4326-b169-4509df9dd16c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/986a4b3e-7752-47b5-b3b9-4c653536b109)
+
+* Option **B** is not a **wrong answer** but option **D** is a much better **answer**.
+* Minimalism
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb1ebb05-2325-40b6-8025-7478a25a20e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e6190b7-c286-4d03-a62c-a8ed78ae312b)
+
+* Yes.
+
+
+
+
+
+
+
 
 
 
