@@ -496,6 +496,58 @@
 
 ## Verbal reasoning part-IV (22) [18th June 2023]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88cf978b-1b8d-48e9-9f42-7e444a4d21b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0179deab-6500-4b4f-a976-7e8ea425c5f4)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85740f4c-144a-46f7-8900-e75c0826c961)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3b4ad0d-909e-4cad-806e-dcf3b3d51535)
+
+* Option **C**. [**VERY IMPORTANT**]
+* Look at the **units**. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Syllogism
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd98ac3a-ec07-4667-ab37-29623c47f41e)
