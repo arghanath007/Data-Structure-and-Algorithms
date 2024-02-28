@@ -261,8 +261,101 @@
 
 > **HW**.
 
-## Verbal reasoning part-III (21) [18th June 2023]
+## Verbal reasoning part-III (21) [18th June 2023] [28th Feb 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57325072-c288-4bfc-ba2e-07ffc9482fdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77b4699c-719d-449f-8a9c-75730f280ed9)
+
+* NPL -> Non Performing Loan.
+* NPA -> Non Performing Asset.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a1ddbe6-28e5-4c90-8daa-e4ce96776b10)
+
+* Prime and Sub-prime lending.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56cfae7d-e3d5-4931-91a7-86d2023023a0)
+
+* Consumerism.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e549aae1-3061-4a31-92f0-c3ba532b3984)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d7f4d1d-df9d-4af9-9147-de4bdd20cc42)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f4d65df-542b-4801-bdd8-a7209b177a2a)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/563d35fc-53e4-4bc6-9009-aee7d65418b3)
+
+* South Asia -> MBBS PAINful -> Maldives Bangladesh Bhutan Sri-Lanka Pakistan Afghanisthan India Nepal.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bbc4077-4ca4-4091-a0c4-07c71050375e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f02fd72-7a26-4520-95dd-69975e08a7dd)
+
+* Geopolitics.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88b81d78-8e79-49d8-8810-dafdfda2ce92)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f0dc84f-56ad-4274-a314-916d76c4413c)
+
+* Growth. [**VERY IMPORTANT**]
+* Recession.
+* Depression -> Great Depression of 1929
+* Recovery.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e24fce1f-c50a-443b-8598-eab906fc309c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fda6a5e-fa6a-4488-8f51-479f543edd8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a9a787d-40a2-4820-92e6-a35eb9faf572)
+
+* Question. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92f2be9d-4857-4953-b6f1-cb24cd5d346e)
+
+* Option **B**.
+* Lementing -> Grief/Grievance/Remorse/Regret.
+* However -> 180 degree word.
+* Optimistic -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28834ec2-ced9-41c0-b87a-b0a5189343d5)
+
+* Repentance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d80211a1-a2e3-4ea1-8efa-43c31158b5a5)
 
 * Question
