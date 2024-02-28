@@ -1428,8 +1428,162 @@
 
 * Option **C**.
 
-## Permutation combination probability part-VIII (25) [19th June 2023]
+## Permutation combination probability part-VIII (24) [19th June 2023] [29th Feb 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79cff770-87a2-468d-a90d-c9c5300bf5bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cc0f58d-ccf6-4e2f-bdc7-bf1d5faadb5c)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d82c0fef-f8ed-43b2-a8b7-94da590fa07d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92f9cfd2-5c99-4d15-9360-c8f92a87e670)
+
+* Option **B**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f1f6a73-be6a-477c-9200-a47bbeebec50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/881a5d74-030b-47db-abb2-1ca33ffe1b1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee8b9268-8e98-4399-966c-13c848864b7e)
+
+* P(H) -> Probability of husband getting selected.
+* P(H') -> Probability of husband not getting selected.
+* P(W) -> Probability of wife getting selected.
+* P(W') -> Probability of wife not getting selected.
+* P(H') -> 1 - P(H) -> 1 - 1/7 -> 6/7
+* P(W') -> 1 - P(W) -> 1 - 1/5 -> 4/5
+* P(H') * P(W') -> 6/7 * 4/5 -> 24/35 [Answer]
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43e86fa6-043b-4c80-8b60-a698f659a1ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5068f389-88fa-4a60-a94b-a0eb704857a5)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f9c9940-1696-4eb5-94f2-5f1e0194f46a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd4e17fa-a721-4c29-bda9-eca3adc57b41)
+
+* Option **B**.
+* 1 - ((1 - 1/7) * (1 - 1/4) * (1 - 1/6) * (1 - 1/8) * (1 - 1/5) * (1 - 1/3))
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87f65c39-a9e6-4723-b285-1dacc4c74d8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6562c0e8-ae28-4ebc-ab13-a9b1c4fb360e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c87a24d-913c-413d-9885-616e0fe3aa42)
+
+* Instead of finding probability for **EE, EO, OE**, we directly find probability of **OO** and substract it from **1**.
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fab40995-7154-4eb8-a8a4-18360c46fdc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/476c8b89-8a0e-42ab-9112-ec241f2cf2c1)
+
+* Option **B**. [**VERY IMPORTANT**]
+* We are removing the **ace of spades** that why we are reducing the **ace count** from **4 to 3** and the **no. of spades** from **13 to 12**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26ac3b2e-fce0-4cd0-be88-13c3b3cf8085)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f9d69f0-40dc-4096-91ff-b7c624f7f4b1)
+
+* Option **B**. [**VERY IMPORTANT**]
+* Not prime -> 4,6,8,9,10,12
+* Ways -> 3 + 5 + 5 + 4 + 3 + 1 -> 21
+* P -> 21/36 -> 7/12
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b680c2b-bcaa-4e41-a2d0-e57581b93d3c)
+
+* Questions.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8ae3af4-93f4-46d2-b8dc-5aac9a542bd5)
+
+* oligopoly -> market form in which a market or industry is dominated by a small number of sellers
+* Presupposes -> To believe or suppose in advance.
+* Mandate -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecc929dc-1b56-450e-86cd-64b66055fd65)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37ab7589-23ff-4902-81bf-a7f41ce17b0f)
+
+* Questions.
+* Cred -> authenticity
+* Credentials
+* Offset -> An agent, element, or thing that balances, counteracts, or compensates for something else
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe51c6c8-d1a8-4c67-812f-e8670ccbb596)
+
+* Most -> Superlative degree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af004148-3a23-4c8d-acb7-6b45c0d74fa1)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6ee0f8a-9038-441e-988b-9b2eee28459f)
+
+* Done already.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c98cb2-7475-4cea-8115-31a545ee6df4)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3145fcf9-291e-4ee3-8fa4-4e45e4d76eec)
+
+* So < R
+* S > A
+* S < R [Statement **1**]
+* S > So [Statement **2**]
+* Statement **2** doesn't give a **unique solution**. The **eldest son** could be either **Riaz or shiv**.
+* We are not concerned with the **exact arrangement**. We are only concerned with the **eldest**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6138e212-8f90-4999-93b2-e7aeb48c8e10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c67f3fbb-8a61-4a30-ab5c-3e36737bf314)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04038ebe-9a51-4c32-bf2a-4c09c2ab4c75)
+
+* G > R
+* G > L
+* L > S
+* M > G
+* 2, 4
+* Must be True -> Unique Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e49c26c8-52d0-4789-9c78-b7e5e0a60826)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf048ee8-69be-4ee1-b1d2-ec840056d852)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd9d7cc3-8eb0-490e-95ed-d2c583113fd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d221b8de-caaa-45fe-9d5b-36ce2689312e)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7067242a-65cf-4475-94d8-b1099dc715ef)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45c7340a-99b9-4cfd-a3e5-24b658469e85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c26c44e2-d000-48f5-9cb0-9d1db9884596)
+
+* Option **D**.
+* Not enough information.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de272ffa-2352-4368-b7e7-032ac648b6de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b90de00-a1db-4a4c-be6d-0892f310c3a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a9d02d-e8e1-44c5-8d79-cc2b2a95ef29)
+
+* Option **C**. [**VERY IMPORTANT**]
+* P and Q -> Sit together
+* R and T -> Sit together
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/929f89cd-0926-4282-9b1f-1d51e152e7a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec2d44ef-5d2b-4bbe-991e-8e3edcb009ff)
+
+* Option **B**. [**VERY IMPORTANT**]
+* Impress -> Impressed -> Appearance/semblance.
+* Repress -> To hold back or prevent by an act of volition
+* volition -> The act of making a conscious choice or decision.
+* Compress -> To press together
+* Suppress -> To put an end to forcibly; subdue.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Permutation and combination
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60054bde-725b-48be-bb97-961457f6ee97)
