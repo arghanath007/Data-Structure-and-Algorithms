@@ -1827,8 +1827,33 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99c5f10e-a4d8-414d-a975-f68b8d970613)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c09102-96b0-4b6e-b4bc-f4a978b5150b)
 
-## Doubt clearing session (26) [19th June 2023]
+## Doubt clearing session (26) [19th June 2023] [29th Feb 2024]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Permutation and Combination
 
 * Only **one** exchange between two people -> **nC2**.
