@@ -4,6 +4,14 @@
 
 * IIIT Hyderabad
 
+# Links 
+
+* IIITH -> https://www.iiit.ac.in/
+* PGEE -> https://pgadmissions.iiit.ac.in/pgee/
+* Syllabus -> https://pgadmissions.iiit.ac.in/monsoon_syllabus/
+* M-Tech Program -> https://www.iiit.ac.in/academics/postgraduate/mtech/cse/
+* PGEE/IIITH Video -> https://www.youtube.com/watch?v=qnM7hbJZuR8
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83eaf116-18c7-46dc-bf1b-b8d720119487)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d3e7c65-b5d6-4313-b9c6-be654de81e80)
 
