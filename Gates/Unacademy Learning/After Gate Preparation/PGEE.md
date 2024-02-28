@@ -4,6 +4,12 @@
 
 * IIIT Hyderabad
 
+# Important Points
+
+* Technical -> GATE PYQs, Revise Technical Subject notes.
+* Practice -> GO-classes PGEE Mock Test Series.
+* Aptitude -> RS-agarwal or Arun-Sharma(Level-1), GO-classes Topic videos,
+
 # Links 
 
 * IIITH -> https://www.iiit.ac.in/
