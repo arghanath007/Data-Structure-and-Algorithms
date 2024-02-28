@@ -389,45 +389,15 @@
 
 * 9:30 -> 2:30.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a31f9034-b311-4745-a101-31b172cfb029)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e647b3a8-d55b-4d6a-a69d-15238e037856)
 
+* Option **D**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61f527b4-4be9-484f-9381-8f3bd21705a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/509cf289-f254-4141-8128-344508e3d46e)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Option **C**. [**VERY IMPORTANT**]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d80211a1-a2e3-4ea1-8efa-43c31158b5a5)
