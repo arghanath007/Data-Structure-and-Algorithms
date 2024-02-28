@@ -310,6 +310,7 @@
 * Question. [**VERY IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92f2be9d-4857-4953-b6f1-cb24cd5d346e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/879ac534-91aa-4088-9a1d-74bdab153dac)
 
 * Option **B**.
 * Lementing -> Grief/Grievance/Remorse/Regret.
@@ -319,6 +320,79 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28834ec2-ced9-41c0-b87a-b0a5189343d5)
 
 * Repentance.
+* **Contrite** -> feeling or expressing sorrow or remorse for sins or offenses.
+* **Penitence** -> feeling of deep regret for past conduct, usually for some misdeed
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5bf2890-f241-4a35-9b4d-e1d7ece45f43)
+
+* Option **B**.
+* loose -> Not fastened, restrained, or contained
+* louse -> Lice
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50975722-d284-4bf2-9210-0202d396b525)
+
+* Its/It's
+* Ravi's notebook. [This is correct]
+* In case of **human beings**, **'s** means **posession**. On the **contrary**, **'s** means ** it is**.
+* It's my birthday. [Example]
+* It's raining. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/271345ce-52b7-43a1-a7e2-9f9d6c51e947)
+
+* My dog is such an idiot that it has broken its leg. [Dog's leg]
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a47ae84a-361f-4815-9293-c00c5ca6deeb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08b990dd-f672-4002-8b73-b94b320c9314)
+
+* Is it True?
+
+> We check the credibility of the statement. Truthfulness of something. Credibility.
+
+* Is it Real?
+
+> We are checking the existance of something. Physical Existance.
+
+* Cred -> Credibility/authenticity -> Incrediable India. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e553c330-870d-42f7-a41b-4d4f9588488a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ed3ae57-f322-4e85-8c97-82eb1d3ef04c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a00dd5ba-c4d3-4772-9e08-294155f77535)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce6e5d33-2159-4bc3-91ef-d41715850be1)
+
+* Clock.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a9c2b1d-c77e-4bf6-9ea2-47cdf8f6a91d)
+
+* 11:00 -> 1:00
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96192dee-f995-4f8c-afd3-a9efd82b3d7b)
+
+* 10:00 -> 2:00
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a71f1ee9-318c-4c7f-b90b-43c331e294b3)
+
+* Trick.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8579f2d-be64-45cd-bbf4-10d5307d74af)
+
+* 10:30 -> 1:30.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca6ef89d-6ccf-48b1-9a5c-21b2f2a00f11)
+
+* 11:30 -> 12:30.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce97add3-4cac-4098-83d1-a8f387174432)
+
+* 9:30 -> 2:30.
+
+
+
+
+
 
 
 
