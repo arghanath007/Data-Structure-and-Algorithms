@@ -1827,7 +1827,71 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99c5f10e-a4d8-414d-a975-f68b8d970613)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c09102-96b0-4b6e-b4bc-f4a978b5150b)
 
-## Doubt clearing session (26) [19th June 2023] [29th Feb 2024]
+## Doubt clearing session (25) [19th June 2023] [29th Feb 2024]
+
+* 5C2 -> It means that we have drawn the two balls at the **same time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b0e1876-9a39-46d6-ba48-c385746a9049)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5566b3a3-d175-4a7a-a6fa-cd2197e9113d)
+
+* P(Both Red)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d4a733f-04b4-4cc1-ba32-7d7597103b0e)
+
+* Selecting balls **one by one**.
+* **one by one** -> ek ek kar ke uthaege
+* WR -> Without replacement 
+* R -> Replacement. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa0883c7-40c0-47e6-970c-9ea1915b2163)
+
+* 10C3. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f55a9dfa-5537-40f4-8211-54dbaab29826)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42f71688-4dd7-4e1d-92a4-aa4547ef2a75)
+
+* One by One.
+* P(RRR) [Example]
+* P(WWW)
+* P(RRW)
+* We are considering the **R and W** as normal english letters. That why in **P(RRW)**, we are doing **3!/2!** because we have **3 letters** and the letter **R** is repeated **2 times**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd6f7240-5498-40e0-8500-f75f97c98426)
+
+* P(2nd ball drawn is a red colored ball)
+* First ball can have **2** possibilities, either it can be **red or white**.
+* We have to take both of the **possibilities** of the First ball. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02ee256b-65cc-43df-afcd-d1f1a6680531)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/925f4117-4e3c-4578-b522-6b30830d3d23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/829170af-eed5-4db8-b455-3ae72efc07fa)
+
+* **2nd ball** is fixed that's why there is **no arrangement** here.
+* Solution. [**VERY IMPORTANT**]
+
+### Conditional Probability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55e6b5e7-77fb-480e-bbab-e8561a67a0c3)
+
+* P(A/B) -> Probability of occurance of **A** when **B** already occured.
+* P(B/A) -> Probability of occurance of **B** when **A** already occured.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8421a2e6-1cc9-4f34-928b-701027ddea90)
+
+* If the events are **independent**. There is **no relationship** between the events. [**IMPORTANT**]
+* Independent Event.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed768b7d-1d3f-4896-b062-d99d70f83c91)
+
+* P(A intersection B) -> P(A) * P(B).
+* P(B intersection A) -> P(A) * P(B).
+
+
+
+
+
+
+
 
 
 
