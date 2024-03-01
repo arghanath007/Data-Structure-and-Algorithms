@@ -1886,36 +1886,86 @@
 * P(A intersection B) -> P(A) * P(B).
 * P(B intersection A) -> P(A) * P(B).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd027d3e-fa01-4769-a543-0f90a2be4403)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34bdcc90-138d-4071-bb26-644220a7f92d)
 
+* P(Atleast One head) -> 3/4
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5becc5e7-03ba-4b82-9d2e-be0f6e3ede21)
 
+* We have **3 * 4 -> 12** picture cards.
+* P(1 Picture card) -> 12C1 / 52C1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/182f71cf-1376-4efa-a96b-6fa761c45f9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d16ec88-84e5-4039-b927-f23107201767)
 
+* P(Sum of 2-dice) -> P(Sum < 9) -> 26/36
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af745d42-3ebe-4fc6-babb-b138bbc24a50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9fe2d84-80c5-40a1-90d4-b7c14cfa7948)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de2c74b1-bb2f-49f4-8680-ea17165a8455)
 
+* RRa' + R'Ra -> 1/6 * 7/8 + 5/6 * 1/8 -> 7/48 + 5/48 -> 12/48 -> 1/4
+* Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe3e528f-5ebf-44a6-af88-e59263380828)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb76743d-ce48-4e1a-8eb6-66e98b03cfd0)
 
+* Option **A**. [**VERY IMPORTANT**] [Example]
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48356fe3-edd3-4121-93c8-9e488017339f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27c84a83-50f0-462c-8995-c89ee56d0f4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/deaa2927-bf94-406b-987f-36cc21fb0255)
 
+* Formula [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b41a5788-c195-4e83-ad6d-2f36dd33dd57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35f62d41-b540-402c-98c2-ad4aeaa4ec6c)
 
+* A'B'C' -> 0.5 * (1 - 0.2) * (1 - 0.3) -> 0.5 * 0.8 * 0.7 -> 0.28
+* If only one doctor is successful then the operation is **successful**.
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f8b3a9e-9fdb-4540-b59d-1d33bd54ab49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a14ee7a-a9db-42de-a1ec-bb31bb0cda52)
 
+* Independents Events [Example]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b1ba9df-4758-4a4d-ad90-6e1ece527609)
 
+* Example. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f599728-76c8-4033-ac99-01ecbbefa2e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/662e3db5-f1e3-4371-9561-9c8c228ae86a)
 
+* Option **C**. [**VERY IMPORTANT**]
+* P(Atleast one meets design specification Criteria) -> 1 - None -> 1 - A'B'C' -> 1 - [0.2 * 0.3 * 0.5] -> 0.97. [**IMPORTANT**]
 
+* There are **equal** no. of **men(M) and women(W)** in the group.
+* E -> Employeed.
+* UE -> Unemployeed.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b41a5f6e-df94-4aba-bd99-f368205266db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef47fadd-f210-436d-bef3-9d3182714f95)
 
+* P(The person is employeed) -> 0.5 * 0.8 + 0.5 * 0.2 -> 0.50
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59c429aa-3783-4739-851a-ceec6a3649f2)
 
+* It is found that **2%** of the produce coming from **M1** is defective.
+* It is found that **3%** of the produce coming from **M2** is defective.
+* If a randomly drawn component from the combined slot of **M1 and M2** is found to be **defective** then it has been asked, what is the probability it is from **M2**?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c57be37b-b4d5-48c4-9f46-b0863d630461)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b458b1be-05d1-4510-8c16-4873c4bdf1e0)
 
+* P(Defective coming from M2)
+* P(M2/D) [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee5abd71-ad3e-4e32-9d6f-74d5dfab85ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd61bc24-9d87-493c-acba-1b9c6e104c22)
 
-
-
-
+* Option **B**. [**VERY IMPORTANT**]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Permutation and Combination
