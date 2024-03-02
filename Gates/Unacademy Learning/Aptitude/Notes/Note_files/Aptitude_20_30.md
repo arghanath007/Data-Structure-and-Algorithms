@@ -3589,4 +3589,134 @@
 * Returned
 * Ignored
 
-## Verbal ability part-I (30) [21st June 2023]
+## Verbal ability part-I (29) [21st June 2023] [3rd March 2024]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/101001b7-a1ce-404f-9f0e-d367bb49ef06)
+
+* Option **C**. [**IMPORTANT**]
+* mock -> 
+* deride ->
+* Ridicule -> 
+* praise ->
+* jeer -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64ee0f27-6101-433d-9df6-ba9641b76a9b)
+
+* Censor -> Censorship -> Censor board -> A person authorized to examine books, films, or other material and to remove or suppress what is considered morally, politically, or otherwise objectionable.
+* Censure -> An expression of strong disapproval or harsh criticism -> To critize.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/130aade2-1792-4d3c-b8c0-1419b6c35caf)
+
+* The -> God
+* Theist -> Believes in god. [**IMPORTANT**]
+* Atheist -> Does not believe in god.
+* Agnostic -> They want to believe in god with conditions applied.
+* Blasphemy -> Contemptuous or profane speech or action concerning God or a sacred entity.
+* God -> Ultimate being.
+* god -> Sachine tendulkar is the god of cricket.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35097c7e-cf7e-49bb-b9e8-3f7b35d500ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f806519-3d00-411c-b682-318b9b736f2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e33720ac-8c97-4306-9fce-f3b97799f360)
+
+* Epiphany -> Self enlightement -> Self reliazation.
+* Nirvana -> A state in which the mind, enlightened as to the illusory nature of the self, transcends all suffering and attains peace.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83dd2a1a-9afd-4b37-834b-05dfa15784ab)
+
+* Option **A**. [**VERY IMPORTANT**]
+* Inexplicable -> Something which is beyond explaination.
+* Incomprehensible -> Difficult or impossible to understand or comprehend; unintelligible.
+* Indelible -> Impossible to remove, erase, or wash away; permanent -> Something which/that cannot be erased.
+* inextricable -> So intricate or entangled as to make escape impossible -> We cannot separate them.
+* Infallible -> Something who cannot make mistake -> Incapable of erring.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4f56e62-5eee-4cf8-8edc-7db3f7954705)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8cdffd0-68c0-463e-90f8-cf3ffdd7f86a)
+
+* Intermnable
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6e68163-bdb4-4152-94a4-33c03ebbe4f7)
+
+* Melange -> Mixture.
+* camaraderie -> Goodwill and lighthearted rapport between or among friends; comradeship -> Spirit of friendship. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/398018d1-ffcf-451e-90be-4c7521eb7aff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7de0c5ce-b012-4645-a1a2-dc739040a991)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8095539-0333-4641-9636-ce1168427560)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56f3dee3-4c33-48f7-87de-3c2baf0e17c9)
+
+* Frugal
+* Parsimonious
+* Prudent
+* extravagant -> Exceeding reasonable bounds: synonym: excessive.
+* Spendthrift -> Spending more amount of money.
+* Exorbitant ->
+* Prodigal ->
+* prodigy -> 
+* Tenacious ->
+* Determined ->
+* Resolute
+* Spartan
+* Meander -> To move aimlessly and idly without fixed direction: synonym: wander.
+* serpentine -> Of or resembling a serpent, as in form or movement; sinuous.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b162dc9-a804-48de-bf7b-ce0a4b071fdb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3813851-d6df-436c-9fad-0ab680fba50e)
+
+* Option **D**.
+* Wanderer ->
+* Drifter -> One that drifts, especially a person who moves aimlessly from place to place or from job to job.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/268dbea2-18e5-41b0-bd2c-9618da6156a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b79e0e90-af08-4a25-874a-103d4bad1dd2)
+
+* Underlined word -> Thorough
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec703b62-be1c-4902-9dff-5c9c1895ddaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29075b0d-0165-4991-abbf-a16aaaf37fd7)
+
+* Naive -> Inexperience.
+* Novice
+* Virtuoso
+* Naif
+* Devaluation -> 
+* Deprication -> Depends on the image of the country.
+* Appreciated -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e4c8f12-1174-4434-abad-e4fd7c187a5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e058a2e1-ee85-4457-b121-910a8dc412b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7cd8622-2aff-4460-a117-4ad7dacbc022)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0463d5d8-50d3-40c3-833f-7ab889819393)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d77ce48-1d31-4516-936a-a669f476affb)
+
+* Option **D**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c93f7a9f-bf82-49ba-9088-617d17c6d080)
+
+* Stairs -> a contiguous set of steps connecting two floors
+* Stares -> To look directly, fixedly, or vacantly, often with a wide-eyed gaze. synonym: gaze.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2354e7b8-c982-41d9-aa08-d678826da2b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb1f407e-c795-4154-8477-628d7312d58f)
+
+* Option **A**.
+
+
+
+
+
+
+
+
+
+
+
+
