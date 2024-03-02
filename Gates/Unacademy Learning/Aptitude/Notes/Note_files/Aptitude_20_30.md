@@ -2306,33 +2306,123 @@
 
 * Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8633a8eb-a2aa-417a-a265-337e5e061daf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce2db2d2-1570-43a6-aa47-01623d72d1a3)
 
+* P(2 Same color socks) -> (3C2 + 4C2 + 3C2) / 10C2
+* Option **D**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fedd0bc1-3fdd-4e38-bda0-8741d317fc42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1fdef4e-17fb-420a-b0d7-43040148c3f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/891c64b6-f0bc-4537-a885-96e62a02c959)
 
+* P(DD) -> 3C1/10C1 * 2C1/9C1 * 2!/2! [**IMPORTANT**]
+* P(D'D') -> 7C1/10C1 * 6C1/9C1 * 2!/2!
+* P(DD') -> 3C1/10C1 * 7C1/9C1 * 2!
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1703119e-5a84-484f-9ef5-355839410ecd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cb62e41-7e3e-448b-92bf-1b4789505a3e)
 
+* Repeatation -> 4^3 -> 64
+* No repeatation -> 4 * 3 * 2 -> 24
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abcd244c-6ca8-4974-bfb9-b9786bad150c)
 
+* Divisibility rule of **4** -> Check the **last 2 digits**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a529cc85-5b2a-44b8-9746-7c28c3757729)
 
+* Multiplication of **4**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff9bf067-b9e9-425c-8fc9-2634b0f19a2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0880a986-25b7-4d4a-9f07-a04a3f38f9ba)
 
+* Zero(Z), Not Zero(NZ).
+* We have **25 cases**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/277b0008-9ed0-491f-a171-0ae12c9d7bb4)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb66adb2-1023-4903-b477-fee054f6486d)
 
+* With repeatation.
+* P(Divisible by 4) -> 4 * 4/ 4 ^ 3 -> 16/64 -> 1/4 [**VERY IMPORTANT**]
+* Last 2 digits -> 12, 24, 32, 44 -> 4 cases.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/971ebef0-8391-491a-91d0-3acb30c5780e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d71a0ad4-c122-40a4-9fd7-d1cabdb49114)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08de296e-2cc9-44be-a481-e1447f0ed9ce)
 
+* Without repeatation.
+* P(Divisible by 4) -> 2 * 3/ 24 -> 6/24 -> 1/4 [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4983854-bc29-4a0b-897a-00934eefe509)
 
+* P(5-digit no) -> 5 * 4 * 3 * 2 * 1 -> 5! -> 120
+* P(divisible by 4) -> 12, 24, 32, 52 -> 4 cases
+* P(5-digit no and divisible by 4) ->  3 * 2 * 1 * 4/120 -> 24/120 -> 1/5
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffc9cd75-7988-453b-8d76-da803d11375c)
 
+* Option **A**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c752179d-625e-48b8-bc59-fe8e44b81938)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87f4c47e-5b4b-4b0d-89e5-a8336b8cefac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eba646f-9bbb-41fb-a7db-7b686a441f8e)
 
+* Hundreth place is **independent**.
+* Inequality is between **unit and tenth** place.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb743e1c-8f5a-48d9-b733-8f04353e48ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26f37c82-12ab-4fe4-b7f1-f0538f2f0ccf)
 
+* probability.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cafcd3b-b1a1-43a8-b870-5d4e041fb6e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7327c75-cf3e-4c53-ac40-e4250b8007f1)
 
+* P(Tenth place greater than unit place) -> 1/2 [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/996455e6-c80a-40c8-bf9d-17bce7d2511a)
 
+* On an average of **5yrs** there is a floor.
+* Roughly between two **consecutive floods** there is a gap of **5yrs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc91f73b-65d4-4a18-b003-6f2d3ab37af5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b76035cb-ae9f-4711-9a42-be85462c82e8)
+
+* 0.04 -> 4/100 -> 1/25 -> 25yrs.
+* Average.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b502177-489f-49d3-abe4-4ff83ff0b706)
+
+* Independent Event.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb1b7a96-b52a-4b68-a682-981512e06e08)
+
+* The **4-gates** operate independently. [**IMPORTANT**]
+* P(F) -> Failure of each gate -> 0.2
+* They are **independent events**.
+* Gate-1 has failed and given that find the probability that Gate-2 and Gate-3 will fail -> P((G2 intersection G3)/G1) -> P(G1) * P(G2) * P(G3)/ P(G1) -> P(G2) * P(G3) -> 0.2 * 0.2 -> 0.04. [Answer] [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/438a89ed-77ff-4764-bb24-be781f21c8ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5072438f-a182-45d1-b0df-a862359214ca)
+
+* if the coin is tossed one more time then find the probability of getting a head(H).
+* They are **independent events**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e97d0360-7667-4b14-9f99-5446fea64c20)
+
+* A ball is drawn at random and it's  **color** is noted. When the ball is placed back at the **urn**, not only the ball is kept and we are keeping another ball of the **same color** to the urn.
+* Originally there were **12 balls**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d024f690-881b-421a-9f4f-92f0573dea29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd2aadb0-396e-4b61-841d-9467c39579b2)
+
+* P(Red color ball in the 2nd draw) -> RR + GR -> 5/12 * 6/13 + 7/12 * 5/13
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e773d6d9-c6c4-4e30-86ec-c37457de38f1)
+
+* P(3-thermistors are defective) -> Exactly 3-thermistors are defective
+* 10 thermistors are randomly picked and 3 are defective. [**IMPORTANT**]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Permutation and combination
