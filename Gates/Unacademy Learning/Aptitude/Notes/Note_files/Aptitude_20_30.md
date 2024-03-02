@@ -2748,8 +2748,264 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8394cc5e-34b4-492d-8db7-dcfcf701a9ea)
 
-## Doubt-clearing-session (28) [20th June 2023]
+## Doubt-clearing-session (28) [20th June 2023] [2nd March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/615b07b1-a42d-48a1-9947-ede670fbc623)
+
+* Total students -> 100.
+* n(M) -> People able to clear **mathematics** paper -> 60.
+* N(M') -> People who are not able to clear **mathematics** paper -> 100 - 60 -> 40.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c25e1c4f-be5d-4dc2-a9dd-c4108d7c8c5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91ddbbfd-7320-4703-aa11-7ca7c6690e0c)
+
+* Mathematics(M), English(E)
+* **a** represents the total no. of people who could only clear **mathematics** paper -> ME'.
+* **b** represents the total no. of people who could only clear **english** paper -> M'E.
+* **x** represents the total no. of people who could clear both **english and mathematics** paper -> ME.
+* **n** represents the total no. of people who could clear neither **english nor mathematics** paper -> M'E'.
+* Total = 100
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba5fa1b5-a66f-4f9d-a8f2-f671a8bb1ff6)
+
+* Total -> a + b + x + n
+* x = 20.
+* n(M) -> 60
+* n(E) -> 30
+* n(a) -> 60 - 20 -> 40.
+* n(b) -> 30 - 20 -> 10.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/200ea0aa-fa35-4b94-81b1-856a8e3446c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11e90118-ed27-4ea6-b7d7-042c00463926)
+
+* n -> No. of students who couldn't clear neither **english nor mathematics** paper:-
+* 100 - (a + b + x + n) -> 100 - (40 + 10 + 20 + 30) -> 100 - 70 -> 30.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bd7d5e2-d988-46d0-8728-fc613378f46f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c21adda2-dc52-41dc-81f3-0efd2b9a5c51)
+
+* Total nos divisible by 2 -> 100/2 -> 50.
+* Total nos divisible by 3 -> 100/3 -> 33.
+* LCM(2,3) -> 6
+* x -> 2,3 -> LCM(2,3) -> 6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70fca58d-bd55-45b4-995e-8df487e28e27)
+
+* x -> 100/6 -> 16
+* a -> 50 - 16 -> 34
+* b -> 33 - 16 -> 17
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/681a7bf0-91e1-4572-8d0a-5af4ecbeb407)
+
+* n -> 2'3 -> 100 - (16 + 34 + 17) -> 100 - 67 -> 33
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c894fe8-11c4-4656-b0b3-3009c5507db8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b26e6ca4-2f94-41ed-9f65-89f27a192c20)
+
+* NOTE.
+* Taking care of the **lower limit**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d32d54b-2dc4-46d7-bb9f-0db213d3b29d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa1a555f-e86e-4598-834e-efd5ec593c40)
+
+* Question.
+* Total -> 100
+* Divisibility rule of **4** is last 2 digits.
+* Nos divisible by 4 -> 100/4 -> 25 
+* Nos divisible by 5 -> 100/5 -> 20
+* Nos divisible by **4 and 5** -> LCM(4,5) -> 20 -> 100/20 -> 5
+* x = 5
+* a = 25 - 5 = 20
+* b = 20 - 5 = 15
+* n = Total - (a+b+x) -> 100 - 40 -> 60
+* n = 60.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/475ddd1d-12ce-4518-b944-3209805dbd34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c441580-96cf-4a69-a2a2-f29c178c9268)
+
+* Answers.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c8fd605-b24c-4f77-ba23-8f2c0bc4f7dd)
+
+* Leap year, Century leap year.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3b7c892-3c5a-47f4-b2e3-ad378d174ab8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a52ce73-4f25-481d-9b3b-daa7b4fcb040)
+
+* NLY or OY
+* LY
+* LY
+* LY
+* LY
+* Leap year(LY), Ordinary Year(OY). 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ff891e-16a6-4a34-a05b-0796d49ee4df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95a9874b-c858-4adb-8e3c-a2a3065f3a31)
+
+* LY
+* OY
+* LY
+* LY
+* LY
+* LY
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88fab862-1862-49e9-aa09-eacefd002dfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70ffea48-7a3a-48bc-9600-c14288061ae7)
+
+* There can be a **max. gap** of **8yrs** between **2 leap years(LY)**. [NOTE] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ae77da7-d028-4764-b370-9e4b2c0b51d2)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c3c8675-33c9-4873-9f86-19a740d866d7)
+
+* Encircling the **odd numbers**.
+* Odd(O), Even(E)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b43bbae-aac7-4242-b822-6bb70a15b822)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0d64fdd-71bb-4fc3-920e-9c645e72336a)
+
+* n -> Count of numbers.
+* We have written **conservative** multiples of **3**.
+* Half of the nos are **even** and half of the nos are **odd**.
+* If it starts with **odd** then it finishes with **odd**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76f16830-0824-486d-a362-1ddd10043b6e)
+
+* We have **3** odd and **2** even.
+* If we have written **consecutive nos** and if it starts with an **odd** no and finishes with an **even** no then divide it into **two parts** half-half.
+* If we have written **consecutive nos** and if it starts with an **even** no and finishes with an **odd** no then divide it into **two parts** half-half.
+* If we have written **consecutive nos** and if it starts with an **odd** no and finishes with an **odd** no or if it starts with an **even** no and finishes with an **even** no then the **odd** is **(n + 1)/2** and the **even** is **(n-1)/2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47875a80-4e9a-436d-8b2d-0ce092e8617d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/387cbc8f-7224-47f2-b1d7-59d6c8283c71)
+
+* Out of **33**, **17** are **odd** and **16** are **even**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d62c2842-a12d-4cd1-a132-0f13356683c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66bd0904-b4d1-471b-9b3b-3a74be42a17a)
+
+* **20** is an **even outcome** so **half** is **even** and **half** is **odd**.
+* **66** is an **even outcome** so **half** is **even** and **half** is **odd**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7412c5d1-7075-4d12-8678-e5a4e0b2a98b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b93b0535-16d5-4bb6-a3a9-83405bfc68de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1614b02-f6a5-44b5-9024-7b6a4ee1ba75)
+
+* Question. [**VERY IMPORTANT**]
+* n(RB) -> 13 + 44 + 7 + 12 -> 76
+* only RB -> 13
+* n(PS) -> 15 + 44 + 7 + 17 -> 83
+* n(WTV) -> 7 + 12 + 17 + 19 -> 55
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bb818c8-d2f2-446d-97f4-4a44dfb2f314)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/329139a9-cf08-408a-a157-2e37cc11fd44)
+
+* Question. [**VERY VERY IMPORTANT**] [Practice Again]
+
+* n(RB or PS) -> 13 + 44 + 7 + 12 + 15 + 17 -> 108 [All except 19]
+* n(RB and PS) -> 44 + 7 -> 51 [Intersection between the two]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1680bba8-0f19-4eef-ac62-47c396b0620c)
+
+* n(RB or PS but not WTV) -> 13 + 44 + 7 + 12 + 15 + 17 - (17 + 7 + 12) -> 13 + 44 + 15 -> 72 [Reject the numbers from **watch TV(WTV)**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/320da8e8-473b-4ad2-9638-7acf644f5546)
+
+* n(RB and PS but not WTV) -> 44 + 7 - 7 -> 44 [Reject the numbers from **watch TV(WTV)**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d82abd53-b144-4ece-bca3-cd03a269bacd)
+
+* Question. [**VERY VERY IMPORTANT**] [Practice Again]
+* n(S and So but not D or HP) -> 1 + 8 + 30 + 8 - (8 + 30) -> 1 + 8 -> 9
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43deb1f6-96f8-4c58-958a-c2c4558318c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c29b90e-1093-41ed-8f92-1a93c5f681ce)
+
+* Samsung -> 12 + 1 + 8 + 8 + 30
+* Samsung and Song -> 1 + 8 + 30 + 8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57392add-1ba1-4dc4-9823-a46fd2107a1b)
+
+* Not Dell or HP -> 8 + 30 -> 38
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/376bed79-ad1d-433d-8a28-574a80ba726f)
+
+* 8.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/868eed43-5602-4a8d-a84e-e369483b454b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1670f5fd-84c5-4d13-b27e-27d7e3742bf0)
+
+* 8
+* Option **B**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b551913b-0ceb-472b-99df-99fa2b4b9a40)
+
+* Question. [**VERY IMPORTANT**]
+* Total -> 1000
+* n(C) -> 300
+* n(F) -> 600
+* n(C intersecton F) -> 50 [x]
+* C -> 300 - 50 -> 250
+* F > 600 - 50 -> 550
+* Play neither -> Total - (C + F + x) -> 1000 - 850 -> 150
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acbeaabb-30af-43cc-ba69-88d2a39d99b1)
+
+* Option **A**. [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/063e5795-50dc-4383-83bb-05c25159e684)
+
+* n(C) -> 35
+* n(T) -> 40
+* n(C intersection T) -> 10 [x]
+* C -> 35 - 10 -> 25
+* T -> 40 - 10 -> 30
+* drinks neither -> Total - (C + T + x) -> 100 - 65 -> 35
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f8c26d9-55bf-4327-a246-732e6b71eadb)
+
+* Option **A**. [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b75810ff-eddd-40a0-bc33-155497147be5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e7e172f-a2d3-43cf-a073-b71f82c0ba59)
+
+* Negation. [Formula] [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e49ab9b-14f7-4339-8496-272743bc5dde)
+
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd300ee2-35af-4002-9d82-3fcc2a945fa0)
+
+* LY and OY [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/787496ce-ca5c-46e4-991f-3f2176c7ee29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe3934a0-93aa-453e-82ef-28af256de7fe)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29bbb27f-f6d1-4a50-810b-c394d9e4714a)
+
+* HW
+* First Odd Term -> 1
+* Last Odd Term -> 99
+* n = (99 -1)/2 + 1 -> 50
+* Odd Sum -> n/2 * (a + l) ->  50/2 * (1 + 100) -> 2525
+* n = (200 - 150)/2 + 1 -> 26
+* Even Sum -> 26/2 * (200 + 150) -> 4550
+* Odd_sum/Even_sum -> 2525/4550 -> 0.554945054945055
+* Option **C**. [**VERY IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Quiz- 4 Discussion
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cf9dfbe-5f86-4317-94ff-7c348e700a34)
