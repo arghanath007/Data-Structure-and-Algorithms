@@ -2748,7 +2748,7 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8394cc5e-34b4-492d-8db7-dcfcf701a9ea)
 
-## Doubt-clearing-session (28) [20th June 2023] [2nd March 2024]
+## Doubt-clearing-session (27) [20th June 2023] [2nd March 2024]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/615b07b1-a42d-48a1-9947-ede670fbc623)
 
@@ -3214,8 +3214,152 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eb6f304-4351-4d3f-ba0e-43b015006b3c)
 
-## Verbal ability part-II (29) [20th June 2023]
+## Verbal ability part-II (28) [20th June 2023] [2nd March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00121a1e-de65-4215-822a-ef8ce2af8d6a)
+
+* Blood Relation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54da649b-ed06-4520-930f-8c9712eb94eb)
+
+* Necessarily False
+* True, except -> False [**IMPORTANT**]
+* False, except -> True [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efeb8ccb-ebd1-4224-a602-a5177a674d41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/505574b5-05f0-42cb-b254-bbfdc0b52007)
+
+* Option **B**.
+* option **B** is the only option which is **not possible**. Other options are could be **possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b9867d7-f98a-423d-87bc-79e84c4d4505)
+
+* Voracious reader -> Avid Reader -> Person who reads a lot.
+* Vor/Vour -> Heavy eater. [**IMPORTANT**]
+* Carn -> flesh
+* Herbivorous -> One who eats herbs
+* Carnivorous -> One who eats flesh
+* Omnivorous -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc06fe8b-734d-4990-a2f9-1131fe7f7cc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16eaca9e-e13f-4c7c-b6ce-f7578e6f309d)
+
+* Voracious
+* Veracious -> Someone who always speaks the Truth -> Honest/Truthful.
+* Mendacious Men -> Someone who always speaks a lie.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58da252a-7b4d-4632-a660-e8312d43b5c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1d82cfb-5550-451c-883c-71f33f91b7af)
+
+* Words related to **men** like **men/man/male** are always **negative words**.
+* malnutrition
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/463ead71-075f-4fcf-afdd-d1001fde8aaa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c642317-bf22-4924-a554-a2ed34c92ff2)
+
+* Option **B**.
+* insatiable -> Something that cannot be satisfied.
+* indiscriminately -> Not making or based on careful distinctions; unselective
+* precocious -> Someone who gains maturity early in their life.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/916dbe6c-10ea-4775-adbd-18f23e5bf0ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58455741-1e87-476d-a8dd-1545e0058975)
+
+* Beside -> At the side of; Next to.
+* Besides -> In addition; also -> Moreover -> Other than.
+* Currant -> Grape
+* Current -> Electricity
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f36b4032-5260-47ae-a8f8-d8d2fa484028)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d3524d3-fae2-4b3f-8800-3419dd1b7a73)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0199d94f-4f76-4e90-a932-b59b45266b33)
+
+* Option **A**.
+* Option **A** matches the **requirements/conditions** given in the question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3d5c93f-6104-4560-9071-3eb5fde5ac75)
+
+* Som/Somno -> Sleeping/Sleepy.
+* Insomnia
+* Somnambulist -> Sleep walkers.
+* Somnolent
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/266f652d-005a-4b2b-9556-0afcf6559d7d)
+
+* Beside -> Next -> Adjacent.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/257bc8c1-639a-42e6-8d78-fc22556930d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93e71c77-952f-43fa-b06f-6c451b2d1c74)
+
+* PQSR, RQSP, RQPS, PQRS, QPSR, QRSP,  
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c47bf0b-7040-4fb7-9d53-52499313bf91)
+
+* Building the **different cases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fac51eaf-20ab-4174-b6d8-f52adef4fb51)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/524ea533-ed1e-42d2-b550-1ad58df59365)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0a3819e-17b9-4c1f-8af4-dbb7f6809cca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd1da20-a4a5-4122-b590-24d4f4c0a3e6)
+
+* Go for **atleast** wala case.
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec7e32e1-3da7-4db7-af5d-02e97c6659b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d96fb3d-520d-424b-97ee-39030c6ac034)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8a93a89-75fe-4ba0-b888-1282fb98eb70)
+
+* Option **A**. [**VERY IMPORTANT**]
+* We do not have enough evidence to comment on the relationship between the **professor and engineer**.
+* Conclusion II -> Out of scope.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cfef8f9-d85f-4df2-8b2f-b7fbec477331)
+
+* Done earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/076c1c17-24ce-4c9a-8411-ce4efb99f34a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99a5eaca-53d1-4863-8b23-3eef5b34bd35)
+
+* Option **C**.
+* However -> 180 degree word.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa4d6277-db0c-47fd-be32-518b55c2d5f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffb243d9-55cf-473e-bfb7-876093931c78)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9350f18c-1621-43f2-9049-dc0a6ab44666)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88ba7e97-6bd4-4992-b321-42013ba50d0f)
+
+* Option **D**. [**IMPORTANT**]
+* Every/All/Each -> Same meaning. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d20f72ed-1189-440f-a73c-c82705bc7ba4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bedd189-cbf5-4532-b1bf-982e2d8382fb)
+
+* Background
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdfe62c7-33cd-4604-8324-71410555a7e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37677e86-44e7-4c69-ac74-4c91c8dad93b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca61122-d2d7-4ebc-808a-6ecd9f421480)
+
+* Option **C**. [**VERY IMPORTANT**]
+* lev -> Upar uth jana -> elevator/levitate/alleviate.
+* latter
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4baa983c-b5e1-46a0-9ea2-2c0e0e2ad1da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38c7699a-03d4-43c2-93c1-10ff53e9b0fb)
+
+* Doubt.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Verbal Ability
 
 1) Verbal Ability -> Vocabulary
