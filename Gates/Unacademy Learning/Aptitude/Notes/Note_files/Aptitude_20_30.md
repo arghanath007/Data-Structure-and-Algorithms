@@ -2264,8 +2264,77 @@
 
 * Option **C**.
 
-## Permutation combination probability part-VII (27) [20th June 2023]
+## Permutation combination probability part-VII (26) [20th June 2023] [2nd March 2024]
 
+* Days in a leap year -> 366 days.
+* If nothing is mentioned then it is **exactly** case. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eeca240-55f2-46ab-a718-7ed2658fcb7b)
+
+* 366/7 -> 52 weeks and 2 days remaining.
+* These remaining 2 days can be **any** of them -> M/T, T/W, W/Th, Th/F, F/S, S/Su, Su/M -> Any of these **combinations** are possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dff49001-d91e-430c-8ee7-16c6a1c776bd)
+
+* P(53 sundays) -> Exactly 53 sundays -> S/Su, SU/M -> 2/7. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c921a39-7ead-4d94-9cf0-cacb276eff40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0b6a036-c752-42e3-8dcd-834a13bef3cc)
+
+* P(53 Sundays and 53 Mondays) -> Su/M -> 1/7 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f5a3429-5909-4c81-ac1c-a9514b1c8955)
+
+* P(53 Sundays and 53 Tuesdays) -> S/Su, SU/M and M/T, T/W -> Nothing common, no overlap -> 0. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8556510d-60d5-487b-9037-72773d7c5b8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/844caf2a-b206-4512-ae3e-b076c21ee443)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8e7f5ec-e69c-4f99-ae91-1f4068415ea7)
+
+* P(52 sundays) -> M/T, T/W, W/Th, Th/F, F/S -> 5/7 [**VERY IMPORTANT**]
+* We have to reject **S/Su, Su/M** because they have **53 sundays** and we want **exactly 52 sundays**. [**IMPORTANT**]
+* P(Atleast 52 sundays) -> M/T, T/W, W/Th, Th/F, F/S and S/Su, Su/M -> 5/7 + 2/7 -> 7/7 -> 1 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eb13730-89cb-4662-bebf-a8fe8153140a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ead61c41-3a2c-4566-9d44-56469b2fb361)
+
+* P(52 sundays and 53 mondays) -> M/T, T/W, W/Th, Th/F, F/S and M/T, Su/M -> 1/7
+* P(52 sundays and 53 tuesdays) -> M/T, T/W, W/Th, Th/F, F/S and M/T, T/W -> 2/7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f226f86-990b-4860-a316-ff861d95ab3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f8bc5ed-f9e8-439c-80ec-b10919e64b57)
+
+* Option **A**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Permutation and combination
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c604aa3-3dd0-4668-b636-19f844982512)
