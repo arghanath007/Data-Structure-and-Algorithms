@@ -3709,6 +3709,82 @@
 
 * Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa29d807-cf2f-4f77-a076-2229bcedcad0)
+
+* 180 degree words. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61da15e8-5bc5-4d2d-b39b-2372568882c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a80aafc7-b8c9-4af9-a096-eb4a1e9337d6)
+
+* Option **B**.
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddcbd74d-9ef9-444b-8d18-323fedcaff65)
+
+* Complement -> Complementing each other -> Something that completes, makes up a whole, or brings to perfection.
+* Compliment -> I love compliment -> An expression of praise, admiration, or congratulation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/feb00ada-ab06-47b7-b7d5-044085714139)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d484aef5-5eba-492a-ac07-0d16cfc2ed8f)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81758d4c-371d-4d9f-94f6-459a3888d150)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/776af833-bac1-4da2-abff-eb07c5fb4d1b)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81c5ca65-83ba-487d-9b9f-d782cae2ad57)
+
+* If you never ate then you feel **enervate**. [**IMPORTANT**]
+* Enervate -> To weaken or destroy the strength or vitality of.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acb83f7b-cca6-436b-874d-a0d5cccf1700)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/621d0ea5-d5cc-41ec-aded-4dd50b8986b2)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b7f2367-9c6f-4300-b9d2-c2424f9b1f8f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c5603ba-9bb9-4b61-8023-38f490dce795)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4addde3a-13c1-4fd0-b4da-dbd996edcc57)
+
+* Miso -> Hatred
+* Gamy -> Marriage
+* Misogamy -> Who hate to get married.
+* Misogyny -> Those who hate women.
+* gyny -> Women
+* Misandry -> Those who hate men.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a976c5d-bec1-4916-8651-e40f48e12a4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c3e3384-3441-494f-9f60-62869d8bcfba)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/862e32fb-1866-4dc1-aa3c-15c527107ba9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c488441-2020-40fe-9a9c-d15610e82ac8)
+
+* Option **D**.
+* Weary -> Wear and tear.
+* Wary -> Cautious
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a798b61-43a5-4c6d-b146-bd53d2e82e1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53e91702-ce80-47bf-b226-98176a10fff2)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31ec31a5-619e-4823-be12-c039d7fc32cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dbfbe67-7007-4076-a220-92d512d6e78e)
+
+* Option **C**. [**IMPORTANT**]
+* Personnel ->
+* Personal ->
+
+
+
+
+
+
+
+
 
 
 
