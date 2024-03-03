@@ -95,43 +95,102 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4545572b-8445-439c-a6c4-89d32680134c)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fc16c73-d543-4714-b2eb-21f495d34d46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8a0829c-d439-4856-acfd-daea61d7e559)
+
+* Option **C**.
+* Salubrious -> Fit and healthy.
+* ous -> Special [Adjective]
+* Salacious -> having or conveying undue or inappropriate interest in sexual matters.
+* Debauch -> destroy or debase the moral purity of; corrupt.
+* Tumult -> A disorderly commotion or disturbance.
+* tumultuous -> Characterized by disorderly commotion.
+* Chaos -> Rampant
+* Unroar
+* Mayham
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90d28bda-b1d1-4ce2-9649-4740787a6d75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eb7480f-7356-48d3-b4cb-69085e6cc953)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3917dbae-11dd-4104-89e6-c11402d688a6)
+
+* bedlam -> A place or situation of noisy uproar and confusion.
+* Abhor -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9965dfb5-d6cc-419f-95cc-e1e0e243d524)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28e09cdb-39c2-4210-aa34-19629c9616a9)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e35abb-b83d-4e49-b4a1-be07710fdcbb)
+
+* Sanguivorous -> People who feed on blood.
+* Sanguine -> Extremely optimistic in life.
+* Genuine -> Original
+* optimistic -> positive attitude towards life.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d248d44-5e47-4b44-ac30-74de55e165f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/088eeaaa-317c-433b-a8b7-0632dd04bacd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/285eddd4-7d00-4344-8035-c09857d9f678)
+
+* Option **A**.
+* Course -> Development in a particular way; progress -> Track.
+* Coarse -> Of low, common, or inferior quality -> Rough.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c7e8ef7-071c-48b8-8199-23d1cf011ffe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a252d23-4f31-483d-ac1c-14e736a99cf9)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a777a48-e960-456f-a181-f79eaae128de)
+
+* Abduct -> Kidnap someone.
+* Naive
+* Naif
+* Tyro
+* novice
+* Callow
+* Neophyte
+* Green
+* Greenhorn
+* puerile -> Immature, especially in being silly or trivial; childish. synonym: young.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a986a9c-7445-4929-b4cc-4973cf4338ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753b6598-c964-44e0-9970-a0626a54c7bb)
 
 * Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76942d38-9d98-4444-99b2-6add8a3e0672)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a35be8c-6754-490f-93d0-e791367869b2)
 
+* Childish -> Negative Word -> Lacks maturity, immature -> Of, relating to, or suitable for a child or childhood.
+* Childlike -> Positive Word -> Like or befitting a child, as in innocence, trustfulness, or candor.
+* Whimsical -> Characterized by, arising from, or subject to whimsy -> Sudden change in mood.
+* Mercurial -> subject to sudden or unpredictable changes of mood or mind.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2453016-20fd-4342-8fae-a1ada4ee1862)
 
+* Virtuous.
+* Eu -> Stands for **Good**.
+* phony -> Stands for **sound**.
+* Euphony -> Good sound.
+* Euphoria -> Extreme happiness
+* Euphemism -> A mild, indirect, or vague term for one that is considered harsh, blunt, or offensive -> a mild or indirect word or expression substituted for one considered to be too harsh or blunt when referring to something unpleasant or embarrassing.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d1c279a-ffa5-4076-b882-4447f4525fee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd3d8c67-7f4a-4640-b746-70d1f461a98d)
 
+* Option **C**.
+* Pass away.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/626425a6-4eb2-4874-bd15-eff00d502909)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2619067f-73e5-4816-a019-788f05e614ab)
 
+* Affect -> We are affected by what we know -> Impacted.
+* Effect -> Consequence.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08563207-f1c3-4c40-b387-2f0b37ff59b5)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* HW
+* Option **D and E** are same only.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## English Usage
