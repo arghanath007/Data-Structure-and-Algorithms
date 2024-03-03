@@ -403,8 +403,37 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/055e12f4-6e2f-4fc3-bf6d-44863f9704fc)
 
-## Permutation combination probability part-IX(31) [21st June 2023]
+## Permutation combination probability part-IX(31) [21st June 2023] [3rd March 2024]
 
+## Time, Speed and Distance
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df99d24b-28ba-4f8f-a42d-da2e753f7514)
+
+* 1 km/hr -> 5/18 m/sec
+* 1 m/sec -> 18/5 km/hr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Probability
 
 * Experiment
