@@ -408,30 +408,130 @@
 ## Time, Speed and Distance
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df99d24b-28ba-4f8f-a42d-da2e753f7514)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4331f39b-1a9a-4515-94f3-b9b5a1e62674)
 
 * 1 km/hr -> 5/18 m/sec
 * 1 m/sec -> 18/5 km/hr
+* Formula [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a836ac0-4975-4135-9aa2-d6a29973d5fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce6e9731-1959-446b-a61d-fd42d2bcb901)
 
+* 45 * 5/18 -> 12.5 m/sec.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/178e9566-f432-40fc-9bab-ba8d7fe52df9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cd85157-36f8-405d-917e-ad8e370de20c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7ab7eac-0888-48bd-937a-b6d9365d7f3a)
 
+* D = 500m
+* T = 50sec
+* S = D / T -> 500/50 -> 10 m/sec
+* m/sec to km/hr -> 18/5
+* 10 * 18/5 -> 36 km/hr [Answer]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72049d1c-b2b1-4788-9f6a-1564540a408c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/502f10be-baba-4efd-87c6-f7f05ecf0798)
 
+* Average Speed -> It is a **derived quantity**.
+* Average Speed -> (S1 * T1 + S2 * T2 + S3 * T3 + S4 * T4)/ (T1 + T2 + T3 + T4) [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23d5f294-4029-40fa-b63b-854dae054ceb)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cbef609-0326-48ed-85f0-a5092f6d1a27)
 
+* Find the average speed of the bird throughout the journey. [Question]
+* Total Distance travelled(Dt) -> 400KM.
+* Tab -> 100/100  -> 1hr
+* Tbc -> 100/200 -> 0.5hr
+* Tcd -> 100/300 -> 0.33hr
+* Tde -> 100/400 -> 0.25hr
+* Total Time(Tt) -> 2.0833 hrs
+* Avg Speed = Dt/Tt -> 400/2.0833-> 192..0000 -> 192 km/hr
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc537024-6e16-4e69-be57-b1baf5992987)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7a4db91-ee6a-4f67-bf13-d209f4eb05c3)
 
+* Avg Speed = (Total Distance travelled(Dt)) / (Total Time Taken(Tt)) [Formula] [**VERY IMPORTANT**]
+* Solution [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3113460a-bdff-456d-825a-803f9aef9d3f)
 
+* NOTE [Takeaways] [**VERY IMPORTANT**] [Formula]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e72dc9c7-eb49-46db-b9e7-5aa3e0b28a89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5f5dd40-8fdd-4f50-bfdf-cc594519bbce)
 
+* What is the average speed of the car throughout the journey? [Question]
+* Avg Speed = (8 + 6 + 16) / (15/60 + 15/60 + 15/60) -> 30/ 0.75 -> 40 Km/hr [Answer]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab56deb-15ac-4c7c-bede-de6c2a13b73f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80669693-81c4-4538-8cf9-e93a707b9f35)
 
+* Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca6b1f17-0d4f-4a04-9a24-fa5077f20ae0)
 
+* Shreyas covered **x km**.
+* Shreyas covered first half of the distance(x/2 km) via **train**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cd13a03-7d5d-4915-b7a0-46551198e37b)
+
+* Now he has covered half of the remaining distance -> x/4 km.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62619dc9-9b92-444e-8d18-57a130ad50bb)
+
+* What is the **average speed** throughout the journey? [Question]
+* Avg Speed = x/((x/2 / 60) + (x/4 / 30) + (x/4 / 10)) -> 24km/hr
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64eaa007-5f86-4beb-85f5-693476f1f34f)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3391ff5-9bd0-4a4b-8a72-8feac1bc7c8c)
+
+* Solution [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12927827-de6a-4f06-93e9-4a937d739657)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10a4203e-1d21-4b86-80b2-6f986e933790)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e6ea81c-1765-46c0-8c62-6e462a55f2e5)
+
+* Avg Speed = x + x /(x/30 + x/70) -> 42 km/hr [**VERY IMPORTANT**] [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5e5ad4e-2cec-41cb-bda8-c37ea810d4a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69a6e601-c23b-4e3c-8804-4c107782e744)
+
+* Avg Speed = x + x / (x/60 + x/90) -> 72 km/hr
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196d0c65-6d34-4d18-a29b-8f435096305d)
+
+* Option **A**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1baa07e2-e328-491c-bbaa-e81add1c9abd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2309614-d722-49e6-9bdb-031ca60e7d60)
+
+* Example. [Question] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01b92562-cede-4e95-97d4-2655182a2d06)
+
+* Time -> 7.5mins  [**VERY IMPORTANT**]
+* Bags -> 8.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a24e6948-f8f9-45e9-8096-2e5859bb1df0)
+
+* Time -> 5 mins [**VERY IMPORTANT**]
+* Bags -> 12.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf7f532f-fbc7-4220-a93b-1412f4ac059b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2c17fad-bd1f-4b0f-993d-31af59dc5f0e)
+
+* Max bags -> 12 + 8 + 4 -> 24 bags.
+* Maxima/Minima -> IMPORTANT words
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b029384d-ca67-48b0-b775-98adee780293)
+
+* HW. [Doubt]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Probability
