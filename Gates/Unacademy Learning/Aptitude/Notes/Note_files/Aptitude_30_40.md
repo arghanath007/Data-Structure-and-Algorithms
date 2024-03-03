@@ -1,5 +1,139 @@
-## Verbal ability part-I (30) [21st June 2023]
+## Verbal ability part-I (30) [21st June 2023] [3rd March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03353aa7-ab4d-43cc-bdda-debb04b26dfa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36471eb9-86b3-4321-8062-1fa273bb2ef1)
+
+* Option **D**.
+* Resurgence
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aae9413-23db-42ab-84fd-a05e2a78f021)
+
+* Debauch -> Someone/somebody who lacks character -> Tharki.
+* Pervert
+* Turpitude
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d6c4bd7-6775-4abb-ae81-9e56460121af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62f1764a-b6a1-408d-988a-ca7a7ddffb07)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f6f4fbc-6c33-4853-a8ab-87a612959a17)
+
+* Yes.
+* Umpteen -> Something that is uncountable.
+* Profuse -> Plentiful
+* plethora -> An abundance or excess of something.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd2a61d7-b43e-430c-aa0d-19762b158953)
+
+* Infinite opportunities.
+* Copious -> Yielding or containing plenty; affording ample supply: synonym: plentiful.
+* Resurgence.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7da37544-66ed-4a76-9c1c-e4b960e1994e)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b64c81eb-4f02-41c1-9b5a-de2cb41cc5a4)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bf3f8d4-f949-4dc0-bf14-1f97efcadd59)
+
+* Melencholy
+* Happy/colorful
+* Plentiful
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/480bd092-4389-4467-a510-fd52575a9a31)
+
+* Galore
+* Vilify -> To attack the reputation of (a person or thing) with strong or abusive criticism. synonym: malign -> To speak ill of someone.
+* Demean -> To lead; guide; conduct.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2711aa1-a108-4bb7-ae53-aa2650f22383)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51c0d246-002c-4ed2-80d7-2c08010bed99)
+
+* Option **B**.
+* Villians love to **vilify**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d844e95-0a88-4b29-ad08-d629bc33d7a9)
+
+* Alone -> All alone -> Being apart from others; solitary.
+* Lonely -> Dejected by the awareness of being alone. synonym: alone -> Without others of a similar kind; lone; solitary.. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb44f6b8-0572-43dd-967d-6e6794144aa7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ebcfe32-f973-4aea-99a6-0f6acf2326e3)
+
+* Tier -> level.
+* Tyre -> a thick rubber ring that fits around the edge of a wheel of a car, bicycle, etc. a front/rear tyre. [Car Tyre]
+* Tire -> Exhaust -> feel or cause to feel in need of rest or sleep.
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c11bb219-8db0-4210-80c1-a28424e4f984)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/883e336d-ba2a-47bf-bc9c-a1d3b793f7cd)
+
+* Dessert -> A usually sweet course or dish, as of fruit, ice cream, or pastry, served at the end of a meal.
+* Desert -> To abandon, either in a good or a bad sense; forsake; hence, to cast off or prove recreant to: as, to desert a falling house; a deserted village; to desert a friend or a cause.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52babad0-acf7-46eb-b6d3-fd0e5dba1a82)
+
+* He is carrying a **ponderous** burden on his back.
+* Ponderous -> Heavy -> Having great weight.
+* It is also used for **heavy thinking**.
+* Tenacious -> Hard working -> Extremely persistent in adhering to or doing something; stubborn or relentless.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/695b6e44-0424-4c3d-8169-cb8744bb3d2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fc8f052-9b33-4cf4-9f6a-346550aaedef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5a41fd9-ba26-4767-8b98-a079be8f4e94)
+
+* meticulous -> Showing or acting with extreme care and concern for details.
+* Diligent -> 
+* Fastidious ->
+* Precision/Precise ->
+* Germane ->
+* Laconic ->
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4545572b-8445-439c-a6c4-89d32680134c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fc16c73-d543-4714-b2eb-21f495d34d46)
+
+* Option **C**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## English Usage
 
 * Similar words.
