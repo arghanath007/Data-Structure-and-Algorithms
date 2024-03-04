@@ -765,9 +765,252 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac843d65-4bb7-4d4c-8b60-9f520caa6b4f)
 
+## Time speed distance work and time part-I (32) [22nd June 2023] [4th March 2024]
 
-## Time speed distance work and time part-I (32) [22nd June 2023]
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86b5f4b7-1183-4312-b674-47e8632b05cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7fa8cc1-8f04-419d-9848-a1297c368855)
 
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15983cc8-4fc0-4012-b2fa-8da85af694bf)
+
+* Warmonger -> One who advocates or attempts to stir up war.
+* Fearmonger -> Someone who spreads fear, or needlessly raises the alarm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da9d6831-d018-4d39-99d2-5844d9340b55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae9f1bac-3343-4c70-96d0-0ab387de0f05)
+
+* Debauch
+* Salacious
+* turputide
+* tumultous
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbd14cf8-49a2-4c5d-bdf5-c72220e40945)
+
+* Umpteen
+* Plethora
+* Copious
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d043fe52-6048-4a0e-99f4-a93908b0bb8f)
+
+* impenetrable -> Impossible to penetrate or enter.
+* impregnable -> Not pregnable; not to be taken or reduced by force: as, an impregnable fortress.
+* Sangfroid -> composure, self-possession or imperturbability especially when in a dangerous situation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0eb8801-b067-437d-bf27-4adaeb3352ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50742c77-7d8d-45c0-a854-f401f46f1e68)
+
+* Resolute
+* Tenecious
+* nonchalant
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33c8058d-2fc4-4c7b-b023-2887f8ff18d4)
+
+* Dessert
+* Desert
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c853a7d-6c81-4dc8-b132-c28cb13ceb20)
+
+* Topiary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b7f92d2-cd41-4a37-94c6-17d945cc9b30)
+
+* Pruning. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58de2799-954a-4d9b-a5eb-7bc971728f89)
+
+* Option **D**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5950554d-cf7d-42bd-88c4-ac3423870e12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e68538db-9d29-4760-8069-029685d21ad6)
+
+* Mal/Male/Mael/Men/Man -> Negative(-ve) meaning word. [**VERY IMPORTANT**]
+* Lack of Nutrition -> Malnutrition.
+* Menice
+* Malice -> To have bad feelings towards others.
+* Malefactor ->
+* Malediction
+* Malevolent
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1b62ed7-7fdb-428e-a176-8312e2b4f0a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c42d3fc4-8482-4254-95c5-1678b0ba0298)
+
+* Ben -> Positive(+ve) meaning word. [**VERY IMPORTANT**]
+* Malign
+* Benediction
+* Benign
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/940c45f5-6262-42ff-8f3d-9b2bf1fd81a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1762d0e6-09d6-4389-ae6c-f4bd16b57ee7)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61ae2a5d-2461-4c08-b769-139f702dca04)
+
+* Cog -> knowledge/Mind/Think/know related words. [**VERY IMPORTANT**]
+* Cognitive ->
+* Cognizant ->
+* Cognoscenti
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a4d588a-db98-42d4-a63d-a6b98585b4fc)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1192c11f-17d2-4311-9bef-71d1a0cae417)
+
+* Quaff
+* Teetotaller ->
+* Abstain -> Refrain -> To avoid
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ca3b6b6-c062-4405-b882-fb56f2e7d668)
+
+* Salubrious
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71ce9132-7e65-4c85-9926-e1b58443fb8a)
+
+* Ponderous
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80dcbfcc-854a-4812-85b6-21693a437523)
+
+* Sanguivorous
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb809ada-a12f-4b56-82aa-ceeb5460993e)
+
+* Tumultous
+* Bedlam
+* Mayhem
+* Rampant
+* Uprora
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b5ff8fd-1264-470a-bdf7-9576b31e1985)
+
+* Aplomb
+* Poise -> balance
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c074f7e8-6084-4ea0-8989-ae3eea1a84fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc2359a6-20a4-49fd-a3e7-9cb9c0fbe3c2)
+
+* Hedonistic -> Pleasure seeking society
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d28ed322-e740-480c-a895-5443c70d1e9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e3a3f4d-8135-43ae-9a8b-f94346869c54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da66e1a-45d1-4de9-8dd8-6719304980b5)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28f149ac-5971-43cb-ab99-935c03224e91)
+
+* Few -> negative word
+* Barely any -> almost nobody
+* A few -> Positive word -> Some
+* The few -> Not many but all that I have. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c976ce94-bc78-42cd-a4a1-5aa54d6199b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/308dc090-2d9c-46f0-9c91-46324e34c71d)
+
+* Option **D**.
+* quite -> To the greatest extent; completely.
+* Quiet -> Making or characterized by little or no noise.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07ebb913-f7c8-4091-8e4b-0706e18ce371)
+
+* Belittle 
+* demean
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b6912bb-c7f0-4b5a-9441-c8a4d79bdb8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/415e6d39-39ec-4934-88d7-13ef4436de6d)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e231c9e5-f008-4d83-a63a-285a4d7ecc94)
+
+* Grudge
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64fea635-029d-43ec-b58c-ef4cd9800818)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0af74cd3-88c1-4a80-b5e5-d23e22806ddd)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85f285ab-f8bb-433e-88c5-ccdab705eeb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e06ef39-9fbb-4e30-8aea-c4f1c17093bb)
+
+* Uninterested -> Boring.  [**IMPORTANT**]
+* Disinterested -> unbiased. [**IMPORTANT**]
+* We want the **judge** to be **Disinterested** and not **Uninterested**. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3edd515d-e59c-4f0c-b9fa-6eaa33cab702)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d98726f0-9902-4eae-ac01-449a28f429b4)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e68189-2541-4eec-a48d-da6cc6a41d91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e5bd784-8bbe-4038-9ee8-ef846ee54e2e)
+
+* Some boys are blue.
+* No boys are blue.
+* These two above statements cannot be simultaneously True.
+* Anyone of the statements can be True.
+* These are mutual exclusive events.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de243290-69eb-46ad-96fd-5c7659794dc7)
+
+* Unique solution (LN).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bde40b3b-2232-42a2-a4ee-79b9bf4cd54f)
+
+* Atleast -> All [Max case]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7d1eca6-d69f-4c5f-bec3-cb7bf4d561e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/355ae1d2-f07f-41af-a267-54deae3d3c50)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e773e342-71db-47bb-8d5a-605da3d80259)
+
+* Statement 2 and 3 are the best answer but they are not there in the options so the **2nd best answer** which is statement 1 and 3 are choosen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4742e9e1-3656-4c6b-b2da-207d202e5b36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddf726c6-4913-4f26-8fef-08f4996bd16a)
+
+* Option **B**.
+* In option **A**, **only** is a very difficult word to justify.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2b14b8e-d16b-4d20-856a-0d4e92bdc06a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc24cda2-e165-47b7-8e35-f9dc3513d70a)
+
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29a366c5-73b1-45cd-b3a3-00cf3b212521)
+
+* Option **E**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9535c5c-fb41-4973-888a-0c011fdc1417)
+
+* HW.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Probability
 
 * For **n** different thing's **arrangement** is **n!**.
