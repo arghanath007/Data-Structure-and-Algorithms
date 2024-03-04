@@ -1206,8 +1206,115 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eeaee5b-aa3e-4c34-a5a6-8dd53fc516e5)
 
-## Doubt clearing session (33) [22nd June 2023]
+## Doubt clearing session (33) [22nd June 2023] [5th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd7bcfd8-0979-42ee-ba63-15a53e2f5ef5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac6597d9-eec1-422d-beb7-ed7f7a3cd37d)
+
+* **x km/hr and y km/hr**.
+* Summary [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81d58b12-3052-4cdd-afca-1d3577b62fbb)
+
+* Distance between **P and Q**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7ad4aad-aea4-41b6-a6f1-8c15e70bcbb3)
+
+* t = 25mins. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c97899d3-fe0e-4083-9b1a-16bf5d28d264)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88c883a4-960e-432b-8b4b-486172a495e4)
+
+* D = 10 km. [Example] [Question] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0842258b-bd01-4fe8-a0ef-f43454ec11a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6c381e9-d94a-445d-a5e5-e84c625fff8d)
+
+* D = 60 Km.
+* **Speed** is **10 km/hr** and **Distance** is **60km**.
+* Time(T) is **6 hrs**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4eb1f19-b1da-4de5-a9eb-21c7d251e6e3)
+
+* At what time has dipanshu started his journey?
+
+> It is **6 hrs** prior to ankit. It is **7 am**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7419288-c2bb-4e2b-baea-29ca176b5e67)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c06964c2-7639-4b60-a5d1-e8a797162c4e)
+
+* Speed is **12 km/hr**. [Example] [**IMPORTANT**]
+
+### Relative Speed
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aecf2026-3500-41ef-8053-53eac7e0926d)
+
+* Summary [Formula] [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5253b2de-6bdb-4f60-a575-c7a35a4021f1)
+
+* Speed of Van(Sm) -> 3 km/hr.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc4644cf-d02f-4649-9d2a-bf12b4ab0196)
+
+* The carriage was visible for a distance of **100m** and for a time of **4mins**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b12aba9b-3427-4fe4-a88f-a7f470b76028)
+
+* If shreyansh was **sitting/stationary** and had given the **above statements** then the speed of the **carriage** would have been **1.5 km/hr**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/310f38aa-5429-4db1-88bc-9ce87a6ee783)
+
+* Shreyansh said the **above statements** when he was in **moving** condition.
+* Speed of shreyansh(Sm) -> 3 km/hr
+* Speed of carriage (Sc) -> ?
+* ScM -> 1.5 km/hr
+* Speed of the carriage with respect to someone moving(ScM) -> Relative Speed -> Sc - Sm
+* Speed of carriage (Sc) -> 4.5 km/hr
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/266ba10f-5a5f-49ac-a4ab-44973169f94f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2f723e7-9fe8-4c03-b08b-1a1c0b685ee6)
+
+* Absolute Speed of carriage -> 1.5 km/hr
+
+### Train, Telegraph-Platform Pole
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06d03b3d-d989-4bfe-b4f0-7974d6b9eea0)
+
+* How long will the train take to cross **shubham(S) or the pole**? [Question]
+* Time(T) taken to cross **shubham(S) or the pole**:-
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85de6400-7bcc-445c-bcec-f59de01d24c9)
+
+* T = D/S = Length of the Train(LT) / Speed of the Train(ST). [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b10f863a-c125-4a5e-8ac0-67c67ff3b71a)
+
+* LT -> 140m
+* ST -> 36 km/hr -> 36 *  (5/18) -> 10 m/sec
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/518a7d10-1b93-404a-96de-6c5b955ca1af)
+
+* T -> LT/ST -> 140/10 -> 14 secs [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6b02ffe-e662-4669-a8ef-917109d7c5c9)
+
+* LT1 -> 120m
+* LT2 -> 150m
+* T1 -> 10 secs
+* T2 -> 15 secs
+* S1 -> LT1/T1 -> 120/10 -> 12 m/sec
+* S2 -> LT2/T2 -> 150/15 -> 10 m/sec
+* Magnitude of Speed Difference -> S1 - S2 -> 12 - 10 -> 2 m/sec
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03088de7-dd37-4f9d-abd1-9e87d24c3861)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08c67ec1-db1e-42a1-8032-e5c04d55c561)
 
 * We have picked **10** thermistors. We don't have **3** defective thermistors. We are finding the probability of exactly **3** thermistors being **defective(D)**. 
