@@ -1879,42 +1879,131 @@
 * Rate of stream(y) -> 1km/hr
 * Option **A**. [Practice Again] [Example] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56d2c0b4-1fd9-4154-beb4-33afeff12a08)
 
+* Pattern.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36babaf8-6926-40f2-907e-10e5236e0ffa)
 
+* x -> 8 km/hr
+* td -> x
+* tup -> 3x
+* y = ?
+* D = S * T
+* (S * T)up = (S * T)d -> (8 + y) * x = (8 - y) * 3x -> 8+y = 24 - 3y -> -16 = -4y -> y = 4
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1c51a8f-82fe-4b2f-b0a7-a32afc956d4f)
 
+* Steam velocity(y) -> 4 km/hr [Practice Again] [Example] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1fb3b38-94bd-439b-97cf-2f06cab9d835)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca73b4e-00d2-44e6-be83-672091bb108f)
 
+* HCF and LCM
+* 2 -> 2 ^ 1
+* 4 -> 2 ^ 2
+* 8 -> 2 ^ 3
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef9e9c24-521a-4526-8dea-60ade26e9ef0)
 
+* HCF(2,4,8) -> 2
+* LCM(2,4,8) -> 2 ^ 3 -> 8
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78fa3559-1e2f-4677-bf5d-40b89748ce49)
 
+* Factor -> Divisor [Another name of **factor**]
+* GCD
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2655d412-b66a-4bf1-8adc-2cf0b57aa456)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72f644d3-5dcf-4f79-bb24-5c5e5817ec13)
 
+* Example. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84f7531b-63db-44e1-a392-7cb223078072)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/332837f5-363f-4434-b456-b84f4f041608)
 
+* [**VERY IMPORTANT**]
+* LCM -> Find the **highest power** of the prime factors. [**VERY IMPORTANT**]
+* HCF -> Find the **highest common factor** among the prime factors. [**VERY IMPORTANT**]
+* 24 -> 2 ^ 3 * 3 ^ 1
+* 90 -> 2 ^ 1 * 5 ^ 1 * 3 * 2
+* 288 -> 2 ^ 5 * 3 ^ 2
+* LCM -> 2 ^ 5 * 3 ^ 2 * 5 ^ 1
+* HCF -> 2 ^ 1 * 3 ^ 1 -> 6 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b8ec596-414f-446a-bd61-26597ffc4ef3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31a063ac-e5a0-4143-bf24-637d635d2ddd)
 
+* Question.
+* HCF -> 2 ^ 3 * 3 ^ 2
+* LCM -> 2 ^ 5 * 3 ^ 10 * 5 ^ 3 * 7 ^ 1 * 11 ^ 1  
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc8c8fc-f221-4554-b638-492f6141d912)
 
+* **LCM and HCF** with **factorials(!)**. [**VERY IMPORTANT**]
+* The smallest is the **HCF** and the largest is the **LCM**.  [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b763cc88-4294-4cbf-81dd-5d721ad0fdc5)
 
+* Formula [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46dec1d7-8355-40fd-bd3c-efc827d94e52)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/213e2c32-0d33-4624-8880-a1564b5615df)
 
+* B
+* 24 -> 2 ^ 3 * 3 ^ 1
+* 60 -> 2 ^ 2 * 3 ^ 1 * 5 ^ 1
+* 120 -> 2 ^ 3 * 3 ^ 1 * 5 ^ 1
+* LCM -> 2 ^ 3 * 3 ^ 1 * 5 ^ 1
+* HCF -> 2 ^ 2 * 3 ^ 1 * 5 ^ 1
+* C
+* LCM -> LCM(2,4,7)/HCF(3,5,9) -> 28/1
+* HCF -> HCF(2,4,7)/LCM(3,5,9) -> 1/45
+* D
+* LCM -> 9999!
+* HCF -> 99!
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28b40319-eb1b-4f4a-828b-b8a600f04997)
 
+* Solution. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0e4c128-258c-43e6-ab42-2c51b7b2c8f4)
 
+* These are **given**.
+* Find the **3rd number**. [Question]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb1fbc0f-6def-4693-bd67-11e91b903d76)
 
+* Putting the **HCF** nos in the **3rd number**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29895730-f72c-4b28-9069-55a7c58cec78)
 
+* **2 ^ 4** can be either in the **2nd or the 3rd** number but if it was in the **3rd number** then we would have **2 ^ 3** common in all of the **3 nos** and that **2 ^ 3** would have been written in the **HCF** but it is **not written in HCF** which means that **2 ^ 4** in the **LCM** came from the **2nd no** and not the **3rd number**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb7a079-8811-4619-bc10-27e65c25ee00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e5e5ca-f652-4547-ab86-225540161f65)
 
+* **1st and the 2nd** no do not have **3 ^ 5** anyways so the **3 ^ 5** in the **LCM** came from the **3rd number**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24ab586a-5a6e-4102-b03c-a626025ecf4c)
+
+* We have the dilemma if **5 ^ 2** in the **LCM** came from the **2nd or 3rd** no but we can see that if **5 ^ 2** came from **3rd no** then we would have **5 ^ 1** common among all of the **3 nos** and we would have to put the **5 ^ 1** in **HCF** but **5 ^ 1** is not there in **HCF** so the **5 ^ 1** didn't came from **3rd no** rather it came from **2nd number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d61e1b49-cec7-4b10-8e9d-900f21051ba5)
+
+* **7 ^ 2** came from the **3rd number**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70b79782-ef5d-4b4a-91cd-d20a65abb9dc)
+
+* **3rd Numbers -> 2 ^ 2 * 3 ^ 5 * 7 ^ 2  [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92e6e95a-a513-414a-b57e-d652bba13f86)
+
+* Find the **LCM** of the times. [**VERY IMPORTANT**]
+* HW
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d92fa09-402a-4c98-9869-4c3d7dea414e)
