@@ -1471,8 +1471,186 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72905c81-cdf9-44f0-b390-ad97d2fd9da0)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb21d67c-676f-4602-bc3d-29c0558f8d01)
 
-## Time speed distance work and time part-II (34) [22nd June 2023]
+## Time speed distance work and time part-II (34) [22nd June 2023] [5th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e7cbea0-f691-4f9a-992c-19b7c27e2e83)
+
+* Summary [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11eb0873-2f7e-489f-aecc-627aa51eec83)
+
+* Time to cross the telegraph pole/human. [Formula] [**VERY IMPORTANT**]
+* LT -> Length of the train
+* ST -> Speed of the train.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06584c0f-d0b9-4014-9182-8e9a72855748)
+
+* Lt -> Length of train. [Formula] [**VERY IMPORTANT**]
+* Lp -> Length of platform.
+* St -> Speed of the train.
+* Distance(D) -> Lt + Lp
+* Speed(S) -> St
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce108d77-cb76-4164-8ce3-413b087b2178)
+
+* If the person is **standing still** then it is **same/similar** to **Train-platform** which we have done **earlier**.
+* Train-platform.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d9d91c5-3774-400e-9590-f2688fc51ecf)
+
+* Train-person.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5e3e125-f66d-4abb-8a3c-177b27355f6d)
+
+* LT -> 280m
+* Tp -> 60sec
+* Tm -> 20sec
+* D = S * T -> S = D/T -> 280/20 -> 14 m/sec
+* D = Lt + Lp -> 280 + x
+* S -> 14 m/sec
+* D = 14 * 60
+* 280 + x = 840
+* x = 560
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35455b10-f61a-46e8-9904-434338e2df49)
+
+* Length of platform -> 560m [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e12401f-1431-4df0-9b2a-e65ce0ed093c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e4dd38d-9d0b-48bf-91c7-c2b275790ef6)
+
+* Stationary -> Stationary item [**IMPORTANT**]
+* Stationery -> Stationery Shop [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f2966af-5723-4dc1-b729-58535bed4877)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d511b59-3144-416c-9fdb-8e595d412709)
+
+* [**VERY IMPORTANT**]
+* Ingenious ->
+*  'i' -> I innovative
+* Ingenuous ->
+* 'u' -> you(u) innocent
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ddefd5d-b289-4510-824b-3a097efbdc1b)
+
+* Connect the dots [Book to read]
+* jugaad [Book to read]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee245c68-bede-41ca-b6ca-62748674dfde)
+
+* As in the **1st case** both the train and the man are moving in the **same direction** that's why for **speed(S)** we had to find the **difference** between the **St - Sm**. [**VERY IMPORTANT**]
+* As in the **2nd case** both the train and the man are moving in the **opposite direction** that's why for **speed(S)** we had to find the **sum/add** the **St + Sm**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abaf293c-1050-482f-acd8-75208de42dd2)
+
+* Tp -> 25 secs
+* St -> 54km/hr -> 54 * 5/18 -> 15 m/sec
+* Tm -> 14secs
+* Sm -> 9 km/hr 9 * 5/18 -> 2.5 m/sec
+* Train-Man
+* D = S * t -> x = (15-2.5) * 14/ -> x = 175 m
+* Length of train = x = 175m
+* Train-platform
+* D = S * t -> 175 + x = 15 * 25 -> 175 + x = 375 -> x = 200
+* Length of platform = x = 200m
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a90a6472-d9f7-45ed-be8b-885d70170382)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f7ecef-ca11-42c2-beb8-dd565336eab4)
+
+* Entire process started at **9:00AM** and the process completed at **9:15AM**.
+* The total **1000** nuts was manufactured in **15mins**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf632236-99bc-492e-8aeb-8ede6e47200c)
+
+* What is the **min. time** taken to manufacture the **9000** nuts? [Question]
+* 1000 nuts -> 15mins
+* 9000 nuts -> 15 * 9 mins
+* 9000 nuts -> 135 mins
+* The **last 5mins** are not needed to complete the manufacturing of the **9000** nuts, so we will remove **5mins**. The **final time** is **135 - 5 -> 130mins** which is **2hr 10mins**. [**VERY IMPORTANT**]
+* We are **removing** the **last 5mins** because we want to find the **min. time** taken to manufacture the **9000** nuts. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f43dcfd9-0e6c-4b3c-955d-b11fb7133544)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ef45a0c-624d-46d1-8537-0ff72ac7e561)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/792f4674-c7d5-4885-91a5-e39be624b61a)
+
+* Min. time taken to manufacture 9000 bolts [Questionm] [**VERY IMPORTANT**]
+* 1500 bolts -> 30mins
+* 9000 bolts -> 30 * 6 mins
+* 9000 bolts -> 180 mins
+* We need to remove the last **10mins** because before that only the **9000** bots are manufactured and we want to find the **min. time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebcf5dcd-0bd0-4a0c-afec-739b6a949184)
+
+* Time -> 180 - 10 -> 170mins -> 2hr 50mins [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfecb205-2399-407f-8d27-55ececb50f69)
+
+* 1000 nuts -> 10mins
+* 1000 nuts -> 15mins
+* 9000 nuts -> 15 * 9 -> 135 mins -> 135-5 -> 130mins
+* 1500 bolts -> 20mins
+* 1500 bolts -> 30mins
+* 9000 bolts -> 30 * 6 -> 180 - 10 -> 170mins
+* 170mins > 130mins
+* So both the **9000** pairs of nuts and bolts are completed in **170mins**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2363f5df-3bb9-40f4-82b3-9f923eabc84a)
+
+* Option **C**. [Question] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a4ef1ea-40d9-48cb-9c38-2758dee70acb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72439e7d-2fff-4214-9959-c955629f4862)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aa10ed8-e484-4004-8b68-313c38534361)
+
+* They are both running towards to each other which means they are running in **opposite** directions that's why the **relative speed** is being **added** here for that reason. [Example] [Question] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c11d13d0-8357-4b1a-b55e-a2fa25e81c0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0bf7412-04b9-425d-9fe1-111b3e808fcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a725250-487c-452f-a6e6-5f38a0319fdc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0feea064-2e33-45cd-bff7-87d69515818d)
+
+* Example [Question] [**VERY IMPORTANT**]
+* They meet at **12:12pm**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/057319ca-66c3-4625-abea-b19c6e33de02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d1bda61-73a9-471b-b26f-f7f5b68fd21b)
+
+* They meet at **10:00AM**. [Question] [Example] [**VERY IMPORTANT**] [Practice again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c10349-8b6a-40cc-8609-e57cb8ef0585)
+
+* As **S and R** are moving **towards each other** so we will do **add** in **speed(S)**.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86d12666-c110-401c-b2d8-8c9cbc5e0b2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed207266-361e-4593-87e6-e2666c2a3c90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9556eb97-b005-49a0-a422-ed3a944e3de2)
+
+* Formula [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aba5bb7e-3fa2-45d5-92df-87a251e6d361)
+
+* When bodies are running **towards each other** then we do **add** in **speed(S)**.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/772825e6-3ff7-4f63-890a-0d3e6e132664)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e4f58a3-e5a2-4d88-8109-0003b2e7d6d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/579669dd-8e30-4555-9754-6b055a819c8d)
+
+* Option **B**. [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a7a4154-f99a-46bd-9d04-e9622021224c)
+
+* Number **37**.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Time, speed, distance and work
 
 * **Distance(D) -> Speed(S) * Time(T)**
