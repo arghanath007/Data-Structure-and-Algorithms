@@ -1759,8 +1759,164 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b10c9957-7422-4c2b-adee-cb6ca06c4b3c)
 
-## Time speed distance work and time-part-III (35) [23rd June 2023]
+## Time speed distance work and time-part-III (35) [23rd June 2023] [5th March 2024]
 
+### Boat, stream
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04c5c555-4728-45e8-83cb-65da49aad5e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/612e68f8-7f1f-4b57-9567-1b74802ef538)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c868b45f-cfdb-4425-864c-eb9b93f0c74b)
+
+* **x km/hr** is the speed of the boat in **still/stagnant** water.
+* **y km/hr** is the speed of the stream.
+* Downstream -> (x + y) km/hr. [Same Direction]
+* Upstream -> (x - y) km/hr. [Opposite Direction]
+* Formula [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2d0c525-ccee-439f-a599-80a67c60a59d)
+
+* When the boat is going from **A to B** then it is **downstream**.
+* When the boat is going from **B to A** then it is **upstream**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ad2407d-7116-4366-982a-20ffc4a6d18b)
+
+* t_downstream(td)
+* t_upstream(tup)
+* Total time(T) -> td + tup
+* distance(d)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af67e5a7-7faf-4c08-93f0-1db4cf81fc08)
+
+* D = S * T
+* T = D/S
+* T = td + tup -> D/S + D/S -> d/(x + y) + d/(x -y) [Formula] [**VERY IMPORTANT**]
+* Downstream -> x + y
+* Upstream -> x - y
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf472366-109d-4644-8ece-f6cf40d3b9be)
+
+* Example. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5820c6c2-36e1-45e8-bb53-7d2af04cea73)
+
+* Distance is **constant** here.
+* td = 1hr
+* tup = 1.5hrs
+* y = 3 km/hr
+* x = ?
+* T = td + tup = 2.5hrs
+* D = S * T
+* As **distance(d)** is constant:-
+* (S * T)up = (S * T)d -> (x - y) * 1.5 = (x + y) * 1 -> (x - 3) * 1.5 = (x + 3) * 1 -> 1.5x - 4.5 = x + 3 -> 0.5x = 7.5 -> 5x = 75 -> x = 15
+* Speed of boat in still water(x) -> 15 km/hr
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2cbc669-ad7c-49f2-8ef9-e534422c1604)
+
+* Option **C**. [Practice Again] [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7c27b92-1dc5-4a3a-9d08-41cc53f69ff3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48a9cd82-4641-4ebd-81fa-391689eef984)
+
+* When nothing mentioned about the **distance** of **down and upstream** then they are **same/equal**. [**VERY IMPORTANT**]
+* **Distance(D)** of **down and upstream** are **same** here.
+* x = 15 km/hr
+* d = 30 km
+* T = 4hr 30mins -> 4.5hrs
+* y = ?
+* D = S * T -> T = D/S
+* T = td + tup -> 9/2 = (D/S)d + (D/S)up -> 9/2 = 30/(15 + y) + 30/(15 - y) ->  y = 5 km/hr
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e10d571-a0e5-4093-bda4-66474be41dfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c3e48a-8eae-45ae-9804-57112b0bf768)
+
+* Option **B**. [Practice Again] [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5acd1f76-24a2-4433-9042-06ed6732cb6d)
+
+* Downstream distance(dd) is **greater than(>)** the **upstream distance(dup)**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc221c9f-d317-40fe-afb9-313e5ae6f715)
+
+* Distance will **chance** obviously [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a1e1d89-bc11-4964-99db-899a6b48ae28)
+
+* x = 10 km/hr
+* dd = 26 km
+* dup = 14 km
+* **same time** means **time(T)** is **constant/same**.
+* y = ?
+* D = S * T
+* T = D/S
+* (D/S)up = (D/S)d -> 14/(10 - y) = 26/(10 + y) -> y = 3 km/hr
+* Speed of stream(y) = 3 km/hr
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2c2f76b-8a0a-484a-a4ae-8b1481bebbee)
+
+* Option **C**.  [**VERY IMPORTANT**] [Practice]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b2e398a-eb16-4ef8-b071-eec3aca19903)
+
+* Pattern. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e70969b7-028a-4103-90f6-4e21ca4d107b)
+
+* d = 48 km
+* T = 14 hrs
+* td = 4km
+* tup = 3km
+* **same time** means that **time** is **constant**.
+* T = td + tup
+* 14 = 48/(x + y) + 48/(x - y) [1]
+* D = S * T
+* T = D/S -> (D/S)up = (D/S)d -> 4/(x + y) = 3/(x  - y) -> x  = 7y.
+* We are putting the value of **x and y** in **equation '1'**.
+* 14 = 48/8y + 48/6y -> y = 1km/hr
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12ff6d6a-a554-42cf-8936-755bfe8589e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e473d5fc-4f6c-4e6a-acb0-07dbef5ead01)
+
+* Rate of stream(y) -> 1km/hr
+* Option **A**. [Practice Again] [Example] [**VERY IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d92fa09-402a-4c98-9869-4c3d7dea414e)
 
 * Summary [**IMPORTANT**]
