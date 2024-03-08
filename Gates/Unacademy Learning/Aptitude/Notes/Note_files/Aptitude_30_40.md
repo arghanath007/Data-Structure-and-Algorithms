@@ -2186,7 +2186,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8476c2e-d79b-4dc1-90b2-f775490b5869)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/603f2c90-f8e6-4b11-87c6-5c4b3e5af297)
 
-## Verbal reasoning part-VI (36) [23rd June 2023]
+## Verbal reasoning part-VI (36) [23rd June 2023] [8th March 2024]
 
 * Imminent -> About to happen but the time is **less/lesser**.
 * Eminent -> Famous personality -> important personalities.
@@ -2199,6 +2199,7 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ddaffb-8a3b-4a37-95ba-f4af39cf9fca)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12c8f047-a1e7-426a-994d-d2cbf38b690a)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd7f424-47d3-4b30-923f-6e67f824c1d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc4860e5-b895-4ba2-992c-5503031e1f96)
 
 * Option **A**.
 
@@ -2207,40 +2208,171 @@
 * an -> We are looking for a **vowel**. [**IMPORTANT**]
 * passed away -> Euphemism. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d6b8fcc-c900-462f-8acb-8b3a767ccbab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2ad544c-a0d3-490c-88f0-6c3d2b85328f)
 
+* Nadir -> [**VERY IMPORTANT**]
+* Nagir -> [**VERY IMPORTANT**]
+* Peak
+* Pinnacle
+* Zenith
+* Summit
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97457898-72f0-4f57-ae0e-2eebf4fe6622)
 
+* Apogee ->
+* Perigee -> 
+* Crest
+* Apex
+* Epitome
+* Acme
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd258a87-43a6-4153-a455-dc22be0c3124)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f41cb2d6-63b8-4ac2-b444-d1dd18f5a684)
 
+* Option **B**. [**VERY IMPORTANT**]
+* Closest in meaning -> Synonyme.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9c4dc85-2894-4ee1-8567-1e50868d0df3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f303bff-8f37-41a9-849c-b728c784e5c0)
 
+* Option **A**.
+* Unanimous -> One sided decision -> full agreement. [**IMPORTANT**]
+* anim -> spirit meaning.  [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73588cbc-5a9e-406a-8fb6-1090aebfc009)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/998f6f94-c8d4-4fc5-a87e-7793424bb9bf)
 
+* Hanger -> One who hangs something. [**IMPORTANT**]
+* Hangar -> Airplane garage -> Airport. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4ffa9e7-37a2-4fe5-9412-1526597b203d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7f1d3b-314b-430b-8e8e-59fe80a9662f)
 
+* Option **B**.
+* impel = propel
+* repel - could be true but not the best 
+* dispel - diffuse/ remove/vanish etc
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f39d3b4-1b06-47ef-a43a-d2846e27ccd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/025e3582-5a92-4c07-afe4-7ff337b90468)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1b7687b-a0ee-46e3-9d15-293f2050ff24)
 
+* Dialect -> vernacular -> local language.
+* loq/loc -> related to **speaking**.
+* loquacious -> Good speaker.
+* Gift of Gab.
+* Eloquent
+* Grandiloquent.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a8d1ee9-da34-4b23-94f2-920a613e84d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a51b026a-a375-4525-96e7-12f774e39162)
 
+* Option **A**.
+* Demos -> Related to **people**.
+* Demonstrate
+* Demography
+* Democracy
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8db948bb-89d3-43d2-a6e0-3c50db605dba)
 
+* Deadlock
+* Gridlock
+* Impass
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb2f6913-0dee-4a71-91f6-0612198dca01)
 
+* Removed the vowels of the consonents.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d0aa0df-b25b-42be-bb7f-78d9bdcbaeef)
 
+* Pattern. [Example]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/820582a5-eb4f-4a7f-a79d-ee5992f00897)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fceafb92-4635-4835-b7a1-55b16a5049a3)
 
+* Option **B**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdaa353e-573d-4353-a8a1-691da7c6a7b6)
 
+* Sum is **27** always
+* 26 + 1 -> 17
+* 25 + 2 -> 27.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eaadd088-6227-4ef2-aae2-ab8667c8d88f)
 
+* Example. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecba2a09-0593-4d1c-8ca4-7121320c3302)
 
+* Question.
+* 27 - 12 -> 15
+* 27-21 -> 6
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d7bcf10-108a-4d67-b59b-3edded08cd4d)
 
+* Solution.[**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1777fc1-cd66-4b50-98ed-5dbc3bf868ab)
+
+* Option **A**. [**VERY IMPORTANT**]
+* Dreadful -> Very bad occassion.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e777fb41-888a-4e69-b76f-fc6f01eebe84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93242fb6-062c-41ec-b011-39e4a6fc7893)
+
+* Pm -> Q
+* Q -> Rnm
+* Both cases cannot be simultaneous **true** at the **same time**.
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ff4a7ed-ca09-46d5-b7f1-3c5df0d63183)
+
+* Done earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adf83314-a4df-4b39-aa8c-4f7adde8fb25)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08a7b6e0-ea53-4705-9d8b-7f98cf34b6aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/545c7a7a-33b7-4610-84b7-73b489a275ef)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e5845f9-6092-4036-ba7d-a17a1967c7ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31b3bb07-4c3a-4f8a-a88b-055f39da9a51)
+
+* Option **D**.
+* Lukewarm -> Timid response.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae3a3d07-b5ff-4945-8f0f-737c3adbeba2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b318748-899f-456b-9218-ce1ea0b611a9)
+
+* Option **C**.
+* miserliness -> kanjusi -> excessive desire to save money; extreme meanness.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4787e7f1-7875-422b-9f9b-8cd1d323fa58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c00f62-4424-4eea-9302-d1365003a4c5)
+
+* Frugal
+* Parsimonious
+* Skinflint
+* Penurious
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08ab2c64-1ea5-4ac7-95bf-e571de836cb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7803041-11f5-4e8d-920f-fbec81a5e9c6)
+
+* Principle -> Beliefs [**VERY IMPORTANT**]
+* Principal -> First or highest in rank or importance. synonym: chief. [**VERY IMPORTANT**]
+* pal -> refers to a **friend**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c05db6c9-8cd3-4c18-a588-b9d5142f462e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b3cc25d-5cc8-4f84-afff-8aebf3f9f875)
+
+* Option **A**. [**IMPORTANT**]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Verbal reasoning
