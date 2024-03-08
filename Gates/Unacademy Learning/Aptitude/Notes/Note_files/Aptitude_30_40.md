@@ -2188,6 +2188,61 @@
 
 ## Verbal reasoning part-VI (36) [23rd June 2023]
 
+* Imminent -> About to happen but the time is **less/lesser**.
+* Eminent -> Famous personality -> important personalities.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ac42752-92f1-4234-9911-0b876c9bd33e)
+
+* Forthcoming -> About to happen but the time is **long/longer**.
+* Jiffy -> In a moment.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ddaffb-8a3b-4a37-95ba-f4af39cf9fca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12c8f047-a1e7-426a-994d-d2cbf38b690a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd7f424-47d3-4b30-923f-6e67f824c1d7)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1cd0212-66ef-45bd-8ec8-63050ff1e98b)
+
+* an -> We are looking for a **vowel**. [**IMPORTANT**]
+* passed away -> Euphemism. [**IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Verbal reasoning
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81067bc0-33ba-4c4b-824d-618ed2f8325e)
