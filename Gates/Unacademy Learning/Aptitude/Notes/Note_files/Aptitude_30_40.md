@@ -2484,8 +2484,111 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0cc8349-0e28-4bf8-ba11-dadf67a34b83)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92a52920-7cc2-4ddb-aab9-5033f23433e7)
 
-## Doubt clearing session (37) [25th June 2023]
+## Doubt clearing session (37) [25th June 2023] [9th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e251cc8e-d9bb-4120-8880-d5edd85f29c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7ebce72-c83f-4035-b8fe-13e47c558f49)
+
+* Option **A**.
+* circuitous -> Being or taking a roundabout, lengthy course.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce906535-39fb-426e-a99d-04dee289c08b)
+
+* Nonchalant ->
+* Insouciant -> Carelessness.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87b15d13-67d2-40db-a73c-791d76b1fd59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6122769c-1a58-47a0-af7b-e93e8e2f5a77)
+
+* Option **A**. [**VERY IMPORTANT**]
+* belied -> o give a false representation to; misrepresent -> To lie/contradict.
+* Quell -> 
+* Quench -> Thirst.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0439b7f-42ce-4ba9-ba31-7ef77df4c1af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91054df7-9643-46eb-94cb-37809f92e730)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8701e879-2752-4712-9eac-23f84db28725)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c68065f2-744a-437d-981f-1a27690afe15)
+
+* Option **B**. [**VERY IMPORTANT**]
+
+* Amalgamate -> To combine into a unified or integrated whole; unite. synonym: mix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ca1943e-ec6b-4b4a-99e3-e98afb86b340)
+
+* Because of application of force.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e493ec55-f6bb-4f6f-8b0d-731086c05c7b)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/042a1a25-e642-4525-80ed-1b12737616ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/041763d5-c162-4483-b504-056f71a4ed88)
+
+* inexplicable -> Difficult or impossible to explain or account for.
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7530cb0e-6d50-4a6a-9983-6af59a861a54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7689ddfb-fe89-4b07-a5b2-198ea1594585)
+
+* Option **C**. [**VERY IMPORTANT**]
+* yet -> 180 degree word.
+* We are not concerned with the cause of the death.
+* We are concerned with **logical truthfulness** and not **factual truthfulness**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfd37c4d-7df8-4c82-a545-8827bbea3685)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63a9cbcb-9283-431c-a821-c009a89dcb92)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f178670-64fe-4864-af7a-dbda929beb52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37f1ca72-dd67-4d01-9e0a-b456d9fc46a8)
+
+* Option **B**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6173b7a-ae56-453c-852c-52f66b28bba0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56e43dee-d1f6-4b19-830d-3ae372332e4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc00d279-003e-440b-8d93-d20f68936028)
+
+* Opton **D**. [**VERY IMPORTANT**]
+* Exile -> Vanvas
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eb8dab6-478f-43b0-8b42-f1a0180b2dd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff1df443-d19b-4b83-a417-d09ddaab0a20)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9cef008-c5c2-494e-a237-30d16290f298)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c26815b7-1007-4a3d-8305-96ec31bf3b11)
+
+* Days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bec880cd-365c-4237-92a7-e74f67b2618e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/581bf640-52b6-4888-a37f-717a242cd71d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac8ae984-095b-4609-ac40-2bc488ace88b)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0293232d-6ca2-424c-acb6-b64a906adb4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b81d116d-331b-4c21-9d11-115df6e35d9f)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fc1d020-8e28-495b-a7d0-b8fb4ab587f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d17b5194-8557-4386-8002-72870d876f0b)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52425296-373c-4757-be45-98d9fe1e6a33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cf9a558-d544-4bfe-bcd2-5e42cd512386)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7106ee01-2b9d-42d7-a76a-be4ee3569e59)
+
+* Option **B**. [**IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Time, Speed and Distance.
 
 ## Summary
