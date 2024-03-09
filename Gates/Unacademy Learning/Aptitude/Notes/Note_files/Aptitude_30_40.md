@@ -2730,8 +2730,208 @@
 
 * Option **D**, answer.
 
-## Verbal ability part-III (38) [26th June 2023]
+## Verbal ability part-III (38) [26th June 2023] [9th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e1c56ec-bf24-4989-921f-0553eafe6b65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beb44c7c-cb42-4743-92ee-eef62338f590)
+
+* 1)
+* 60 -> 2 ^ 2 * 3 ^ 1 * 5 ^ 1
+* 144 -> 2 ^ 4 * 3 ^ 2
+* 200 -> 2 ^ 3 * 5 ^ 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42a7e236-0364-47b8-8376-d10f6179025e)
+
+* LCM -> 2 ^ 4 * 3 ^ 2 * 5 ^ 2
+* HCF -> 2 ^ 2 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/264b4876-a90e-499c-8ca2-f59df0a9c65d)
+
+* 2)
+* LCM -> 2 ^ 5 * 3 ^ 3 * 5 ^ 10 * 7 ^ 7 * 11 ^ 1.
+* HCF -> 2 ^ 2 * 3 ^ 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab38b35e-c874-4295-a4dd-c2c7469c523b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e004b5a7-a7fb-42af-8949-a2cdf51edcbd)
+
+* Sum is **216** which is **given**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37fbe225-cbc5-4287-aaa3-f0c0ac4c0268)
+
+* No. of solutions possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7941095f-ef53-4474-a0b2-48d6cfc14ead)
+
+* Prime
+* Composite
+* Co-prime -> For the **2** nos to be called as **co-prime**, the **HCF** must be **1**, which is **HCF = 1**. It is not at a mandate that both the nos must be **prime**. The nos can be both prime or they are not prime. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1427c97-31f2-490c-9594-064f0ee2e688)
+
+* Examples of **co-prime** nos.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50bdd12f-4e24-4fa2-9621-5b8ae7313dbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e4e3e3b-0405-4e9e-aa80-83b00b4be7d1)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b012b9c-d86b-4797-a216-611b2c196cae)
+
+* We got **16** which is an **even no** so we can have **two** possibilities which is **Even(E) + Even(E) -> E** and **odd(O) + odd(O) -> E**. Either both the nos are **even** or they are both **odd**.
+* If both the nos are **even** then they can't be **co-prime**. So, we should focus on both the nos being **odd**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67278604-4436-4394-b723-0fc8d2eeb4b0)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73b562e6-55b8-4b9b-ae17-1089590e10cd)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c905dfff-4286-4759-98db-760e420fe0ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4689943-83fb-4b71-81c3-53b5beea55f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aedcdbd-d8ab-46c7-94a8-7869fa691652)
+
+* Only two solutions are possible. **2 * 6** are both **even** and hence they are **not co-prime** nos. 
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/427d1e74-6614-4a40-b70f-5279be5d8d7c)
+
+* LCM of the nos.
+* What is the **least no** that is exactly **divisible by 6,10,15**. [Question] [**VERY IMPORTANT**]
+
+> 30.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef93782-952b-439b-8824-1e10e2b550ec)
+
+* What is the **max 2-digit no** that is exactly **divisible by 6,10,15**. [Question] [**VERY IMPORTANT**]
+
+> 100/30 -> 3. 3 * 30 -> 90. Answer is **90**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb05a4f9-ca28-4e0b-abf6-27a03b0aa459)
+
+* What is the **smallest 3-digit no** that is exactly **divisible by 6,10,15**. [Question] [**VERY IMPORTANT**]
+
+> 4 * 30 -> 120. Answer is **120**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02692206-8923-4a86-83f4-c0705bbf4b19)
+
+* What is the **largest 3-digit no** that is exactly **divisible by 6,10,15**. [Question] [**VERY IMPORTANT**]
+
+> 1000/30 -> 30. 30 * 30 -> 900. Answer is **900**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94494f6f-b8f6-4dd5-bcbe-24f9a0f79ace)
+
+* 12 -> 2 ^ 2 * 3 ^ 1
+* 15 -> 3 * 5
+* 18 -> 2 ^ 1 * 3 ^ 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a493c645-39a9-40ea-a0d5-c2fd4bafe8d8)
+
+* LCM(12,15,18) -> 2 ^ 2 * 3 ^ 2 * 5 ^ 1.
+
+* What is the **min 3-digit no** that is divisible by 180? [Question] [**VERY IMPORTANT**]
+
+> 180.
+
+* What is the **max 3-digit no** that is divisible by 180? [Question] [**VERY IMPORTAN**]
+
+> Write the **min 4-digit no** and then divide it by **180**.
+
+* 1000/180 -> 5 [Approx]
+* 5 * 180 -> 900
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ccfc40-f2fc-4b72-9cbf-b04cad5131ef)
+
+* Answer -> 900.
+
+* What is the **min 4-digit no** that is divisible by 180? [Question] [**VERY IMPORTAN**]
+
+> 180 * 6 -> 1080 [Answer]
+
+* What is the **max 4-digit no** that is divisible by 180? [Question] [**VERY IMPORTAN**]
+
+> Write the **min 5-digit no** and then divide it by **180**.
+
+* 10000/180 -> 55
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2bf9ffe-52cb-400e-923f-52b2f256fd1c)
+
+* 55 * 180 -> 9900 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9acdf4f1-d138-40bb-824b-ce40119fe2ed)
+
+* Example. [**VERY IMPORTANT**]
+
+## Linear Races
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9181bd4e-4934-4ba4-a6dc-6e35bdc89b4b)
+
+* Example.
+* In **linear races**, **time** is **constant**. [**VERY IMPORTANT**]
+* **Distance(D)** is **proportional** to **speed(S)**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/389dbf84-060e-41a4-8608-aa0d941e8846)
+
+* Speed of **A**(SA)
+* Speed of **S**(SS)
+* Distance of **A**(DA)
+* Distance of **S**(DS)
+* DA/DS = SA/SS
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0f3cbb0-de33-471e-89b8-6ef6ab4cd5de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3da27ccf-294d-4af9-9006-8e8055c8ca6d)
+
+* SA/SS -> 5/4
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aaf7adda-19a6-4594-9565-7dea08ac206b)
+
+* DA -> 100
+* DS -> 80.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/075cec7f-ba00-4cab-9d98-a44f12f51ae9)
+
+* DS -> 60
+* DA -> 100
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddcb5ae9-6546-4564-9bcb-4fbfd44225c8)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa748600-2434-4af2-baf3-a471025d09d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e2b173a-be8a-4aa2-8ba4-4dd0fb269d31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e08785ac-4921-407e-8265-c05c3a42dde6)
+
+* When **S** has already covered **110m** then **R** has covered **99m**. [**VERY IMPORTANT**]
+* So **S** has won the race by a difference of **1m**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3cdc66d-16b8-4973-a23a-17de6e33bef0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54749cc1-f55f-4c96-bc54-043c282da6b3)
+
+* In case of **linear races**, the **time** is **constant** and the **distance(D)** is **directly proportional** to **speed(S)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7501c92f-6309-41f5-95bd-922091a5db3b)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ffd9791-9133-4673-826e-8786be71804e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e72b02f4-e2a1-45ce-a5e1-f2deb94754dd)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a89868b-93bf-4cee-9f40-086811c003c6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34becc42-d535-4434-80f9-8c8563134fa7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccb24831-ac8f-445d-af45-9306ec43fce8)
+
+* x = 48 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2382822d-85ca-4c2f-8b48-c0d63a80edb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5142fc19-4c7e-4968-b6eb-50b7b7577b1c)
+
+* **Q** only reached like **480m** so **P** won by **20m**.
+* Option **A**.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab48f0ab-9413-4050-87b4-b91f92b10fed)
 
 * Happyness : Euphoria :: Sad : ___
