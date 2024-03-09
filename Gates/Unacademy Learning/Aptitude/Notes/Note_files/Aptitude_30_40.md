@@ -3063,8 +3063,145 @@
 
 * you are -> you're -> Same thing.
 
-## Verbal-ability-part-iv (39) [29th June 2023]
+## Verbal-ability-part-iv (39) [29th June 2023] [9th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bffe7eb-c56c-47c0-92e5-589b46b93654)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81c77de6-9565-46f8-bf61-6a4c3cf3ab22)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f9fca28-52e3-4989-bf7c-4dbbb0f3c01a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7da5013f-b246-4c9c-9634-2b840e951613)
+
+* Option **B**.
+* Nostalgia.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a7a9fea-9370-4c2d-ac67-e3fdff008869)
+
+* 234987 -> 33 [Addition of nos]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91ca56f9-8e3e-4bae-b476-8259a8da9343)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/052ca494-915c-4080-9998-dcfdb4f98cb7)
+
+* Distinct Digit -> So the options **A and D** are not correct.
+* We want the **smallest no**.
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57400b54-0cdf-4d6e-bcdc-17611b407f3e)
+
+* Democracy
+* Demos -> Related to the **people**.
+* Cracy -> related to **rule**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3646fdb3-4446-4729-9d04-1abe3fcacf53)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adae0ca8-7767-476b-bb21-c52d1e2e23a0)
+  ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/500c44e0-1cf2-4ba3-b66b-7b63152aaf47)
+
+* amble -> To walk
+* pre-amble -> Before able to walk.
+* Sovereign -> 
+* Democracy ->
+* Republic -> 
+* Secular ->
+* Socialist ->
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a531e959-5818-43a1-8a92-1ade537dcf82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a1ca1b0-c4eb-4fee-8598-20bb29f66a45)
+
+* Option **C**. [**IMPORTANT**]
+* consensus -> An opinion or position reached by a group as a whole.
+* Conscience -> Inner self
+* Consent -> permission
+* Conscious -> Characterized by or having an awareness of one's environment and one's own existence, sensations, and thoughts. synonym: aware.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54223157-ca20-4fa8-a11a-6c37dccb8770)
+
+* Amoral ->
+* Immoral ->
+* Moral -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ee0ab1a-6c6b-412e-bc0f-a3e08b0cdf5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f01a122c-b267-45ab-8ffc-feafcbd58d59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82a1cd3b-bea2-475e-b21f-1b55705bcb89)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/763594cb-1a26-435a-87a6-4d9e74a6cf12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c593b93-33ad-4f84-b9e6-834f52ceb641)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9288c0be-db85-42c1-8e8a-73f83c79ff31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c22870-ca2a-434a-9586-ddcf0d30b46c)
+
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0221d9fe-b142-4bb2-889e-5aad5579236b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/889d9db6-2b53-4a85-816f-21dd10355494)
+
+* Asset
+* Liability
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79a10b92-1ed7-47b2-8880-416ce21c149d)
+
+* NPA -> Non-performing Asset.
+* NPL -> Non-performing Loan.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fce48718-7bc0-4c42-9361-35e3bb2a54fc)
+
+* Done earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cb5f3c3-78dd-493b-bc0d-9bf49bc99bd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/397e84d9-dd45-4e0f-aef1-c2be2c240051)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee02a9f7-7223-41c7-b099-091d08c47101)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d42a946-91f4-4d20-81c8-6ee44fc98003)
+
+* Anticipation -> expecting something from future -> expecting something **good** to happen -> Positive word.  
+* Apprehension -> expecting something **bad/negative** to happen -> Negative word. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79769f5c-2903-4c46-a176-b69c644a29cd)
+
+* Done earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86306eb3-dcff-4716-88c4-eaabfed3c1e7)
+
+* Done earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e76e20-8595-4a6f-9f26-b419be8eefc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60150065-6ea1-4b5e-84d1-62094f8ade2d)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4e31a22-dd00-45db-846b-a71deab0798e)
+
+* 180 degree words.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68bdd08c-a01b-45f2-9db3-ea18109dbb43)
+
+* Done earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7307d05d-723a-4ec6-b8f0-2ab438b5e2e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e5eb693-64b1-4dee-8fe9-0ac912020909)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12f79113-918f-4a30-81ce-d1d90e542962)
+
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff119fff-aa84-4573-aee7-ba4deabd36c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eead3625-ee62-4773-8767-c84ad2dc55ec)
+
+* + 2 - 3 + ((4 /2) * 4) -> + 2 - 3 + (2 * 4) -> + 2 - 3 + 8 -> -1 + 8 -> 7
+* Option **C**. [**IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c9df264-de22-48c9-9d93-2ff716f58363)
 
 * Question
