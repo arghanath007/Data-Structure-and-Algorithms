@@ -593,8 +593,143 @@
 
 * Answer.
 
-## Time speed distance work and time part-V (42) [2nd July 2023]
+## Time speed distance work and time part-V (42) [2nd July 2023] [10th March 2024]
 
+## Work and Time
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfee707b-174b-4ab8-9032-c953c84430fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/908f302f-4af4-47ca-8307-059bc1f2744f)
+
+* Summary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/814f92c8-3bbc-4df4-8218-21eb80e8a255)
+
+* 1-D -> 1/25 -> 4%
+* 5D -> 4 * 5 -> 20%
+* 17D -> 4 * 17 -> 68%
+* 24D -> 4 * 24 -> 96%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d086fc-76f9-4aa9-a2f4-44e701332abf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/197e9988-6c90-4076-a5aa-83461f50351e)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f91d9ce3-9c6b-4651-939f-63451832c9af)
+
+* 1-day work -> 16.66 -> 1/6 -> 6 days
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08b80e88-92a8-4c58-810b-a7fdd8226906)
+
+* 3-days -> 16.67 * 3 -> 50%
+* WL -> 100 - 50 -> 50%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab33094d-7ca9-4b82-a0ca-e88b53dfc6a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/712c9cb9-d9b9-4f53-88df-7ed6da16d4e5)
+
+* **R** is working only -> 50/6.67 -> 7.5Days
+* Total days -> 3 + 7.5 -> 10.5 days. [Answer] [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e280dedf-c4a2-4665-9d8a-5db43d0b98c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c98db971-8195-4ac1-a254-84da28cc13f4)
+
+* **A** is working only -> 50/10 -> 5Days
+* Total days -> 3 + 5 -> 8 days. [Answer] [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe47cf7d-e563-470c-8ff7-89030e65adb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ed2ac1d-08bc-42f8-a710-856390637742)
+
+* One day workd -> 14% [Together]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31f7e9a0-0123-43af-bf5b-b78de6849c39)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f534003-f121-458a-8bdb-90724bf60e92)
+
+* They are working **alternately**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5767b93c-0f74-4f00-ad85-793a4695e0c4)
+
+* Pattern -> They both are working for **14%** in **2-days**.
+* In **7 * 2 -> 14** days the work done is **14 * 7 -> 98%**.
+* WL -> 2%
+* On day **15th**, **D** will come and finish the **2%** work left.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f19c571-fd56-47b5-80f1-544e647e37a8)
+
+* Example [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cd99d8-32c9-4cc3-9996-6fbe72a7d2c7)
+
+* Example [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f01ba344-07e6-4948-82bb-aade69f9157b)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19aabe37-a0a7-4ace-a454-9d71c099602a)
+
+* **A and B** both working together. [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84f42e0c-cff9-4910-9539-3186a91e5d77)
+
+* **A** starts working.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0848348-802e-405a-9b53-11d8693cda02)
+
+* **B** starts working.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/295df83a-1970-438e-baae-3ab98979ad98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/499bc73a-2873-4356-8561-e88624f09ad9)
+
+* Question. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48500e0c-2857-4291-8be0-c0700fc43b4b)
+
+* **A, B and C** are all working together. [1] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85c6576f-b5b3-4975-aa11-ed19d541c339)
+
+* Yes. [For pattern 2] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f6a79cd-6b16-444f-8d60-f4e9e182cf35)
+
+* Pattern 2. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8264cccd-93c5-48db-9694-ce41acd44f7a)
+
+* Pattern 3. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5d4d3c4-739d-407a-9ab4-19a59f4ca36f)
+
+* Pattern 4. [**VERY IMPORTANT**]
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b89f29ff-4b44-4274-9790-bd094f2bd335)
+
+* Question. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed2619e6-1f52-4c50-b461-02e7854e0142)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1100a2ea-6e62-4d22-b359-3fb762636cf2)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68f0da55-2d78-4f40-9229-3674398b95ee)
+
+* Question. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a318f0c-3273-4e94-9ef7-6e23a07fdc89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/521bf476-10a9-495e-8c48-618109332dd3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed4a602e-8f81-4cf5-87bb-ae3891b24576)
+
+* As all of them are working **1/3rd** of the day that's why we are dividing the **one day work** which is **35%** by **3** which is **35/3 -> 11.67%**.
+* One day work -> 11.67% [Updated]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54e76231-d361-4465-aa52-92122779b97e)
+
+* Solution [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/756708ad-66aa-48e8-bbe6-ea0aabb3b839)
+
+* Note [Summary] [**VERY IMPORTANT**] [Formula]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f679a3c-de5a-4138-a5cc-587642fa7906)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8db96d2c-61a2-44b0-a74d-4b04796bcbf5)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a80a733a-40c0-438f-bce2-cb278b07d547)
