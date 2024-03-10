@@ -1,5 +1,125 @@
-## Time speed distance work and time part-IV (40) [29th June 2023]
+## Time speed distance work and time part-IV (40) [29th June 2023] [10th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e17ed182-ae82-466a-9c97-41cb9289ef07)
+
+* Option **D**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d15043c4-50ce-4a21-bc99-6fd01c0a27f8)
+
+* Yes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b68048ea-cf51-4a22-b07f-7e3a34d15267)
+
+* metaphors -> Used for **indirect** comparison. [**IMPORTANT**]
+* Simile -> Used for **direct** comparison -> as/like.  [**IMPORTANT**]
+* Euphemism -> Telling something in a way that someone listening doesn't feel bad about it. [**IMPORTANT**]
+* Eu -> positive word.
+* Euphony -> positive sound.
+* Cacophony -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36689ba4-8141-4156-8e75-26fd259d4780)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8821fe9b-0fb2-4e22-9375-367d407db4c1)
+
+* Benign
+* Ben -> positive word.
+* Malign
+* Mal -> negative word.
+* abyss ->
+* quench -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/097065eb-3792-4082-9898-dd022a9728a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5808db78-be59-4fda-97d9-5d4de8d917bd)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9da2f01-15a3-4eb3-b706-2c709f01dac4)
+
+* Communism
+* Jingoism.
+* West -> Western nations
+* west -> direction of west.
+* Urbanization
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11d5ae9b-d6e1-4f3f-ab23-73c12b9da366)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e37f7639-74d7-46a2-b75a-baa04efa83da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4e8b9b3-d6d4-4065-b07a-26b8ce8faaf0)
+
+* Marxism
+* Socialism
+* Democracy
+* Communism
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c7ac6cb-2839-489c-9d73-5f92497407ef)
+
+* Oasis ->
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9543257b-eb71-42cd-963e-d9ede77bda1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bf10700-7f07-4509-bb0f-779f2a7a6f07)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c6edcf-e1d6-4adc-966a-2399566dbe90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d26aebe5-8fb6-4d86-baab-cf492869749c)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8f3dc28-36f3-4b1e-907e-63c750ecef88)
+
+* abcdefg hijk lmno pqr stu vw xy z
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afb22c8b-c4a9-4bca-99a5-d9bff91c631f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea9e3e85-f1d9-429a-8b78-01b31b39d4c3)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5c67844-b7cc-4929-b166-6581c6c5f715)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c560666-e268-4945-b18c-686389622aa9)
+
+* Quarters -> 3months. [**IMPORTANT**] 
+* Financial Year ending **31st march**.
+* Financial Year starting **1st Apri l**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a2b166d-3d49-480c-b521-8b1ec83427d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87e74b24-c599-4164-89ed-bf03739a0f1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b26c1b7d-b462-42ce-8300-fbdc0bd85377)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96a6462f-eb2f-44ea-aace-5f9029d84fe9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d32038b3-d15b-419e-ad16-0fdb81a098d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b548119d-140a-44dc-a8c8-a23320e7cf2f)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01f87472-1dee-4f12-8651-45fcb5a51c2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b1be91c-02cd-471f-8e49-fceec03703bd)
+
+* Option **D**. [**VERY IMPORTANT**]
+* Enigma
+* Convoluted -> Having numerous overlapping coils or folds -> complicated.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e68250b-564e-4649-9e21-e15293260f38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccd99823-f522-4167-afd8-199fe3fe730b)
+
+* Option **A**.
+* Course -> 
+* Coarse ->
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44cdd0bd-3190-47c9-8172-5c3c06ba135e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bce9442c-c3ba-4a61-9b6c-815df964a32f)
+
+* Option **B**. [**VERY IMPORTANT**]
+* Adequately -> It is a difficuly word to explain. It is a **metric**. We don't know how much.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5be520e0-8747-4eb0-9003-0635831715ba)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6db59c7-5ad2-4b4f-a0b4-e9ef910f3e69)
+
+* Question.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6c61dd9-355d-4ad9-b1a8-a4d8ed530017)
 
 * Revision
