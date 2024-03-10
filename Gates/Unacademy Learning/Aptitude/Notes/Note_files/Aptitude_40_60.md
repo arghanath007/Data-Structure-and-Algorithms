@@ -256,8 +256,109 @@
 
 * Largest -> 3 ^ (1/3) -> 3 ^ 4 -> 81
 
-## Doubt clearing session(41) [30th June 2023]
+## Doubt clearing session(41) [30th June 2023] [10th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae807046-3419-415d-88f6-bf3f14ffc201)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09fee2d8-b423-461a-a6fe-0959c83ffd61)
+![ima  e](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/113e0f8d-1509-4d31-9711-5941efcf5833)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb21df69-557b-4756-b84c-b6b917aa369d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c2eed38-77cc-4cdb-869d-4c5f0cb94b07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b645d56-9b86-4fd9-aaf2-7ff62d45afc6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30510c5b-4db4-49e9-a34f-2ed9dcfdbb5b)
+
+* Playing with **numbers**.
+
+## Work and Time
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8e42edc-1e77-4aba-92cd-423ada34e657)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc60db88-0d37-4ea8-a3b1-5b55255c7b7d)
+
+* Example [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e5ac8c7-1517-4faf-99e9-f3989bbb75f8)
+
+* Question.
+* Work Left(WL).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b17db1c9-ce4c-48ca-97e5-b6f7be682381)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a7775d0-38d4-459f-8769-206388a8842b)
+
+* Example. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e00f830e-1a93-4e87-a690-1d8ca816474a)
+
+* Another way.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10acdb3e-74b4-49ff-b1f7-4e8d8cd8ef91)
+
+* In **1 day**, the work done is **15%**.
+* One day work -> 15%
+* Total days needed was **6 and 2/3days**.
+* So for **6 days** it is **15 * 6 -> 90%** of the work is done.
+* Work left(WL) -> 100 - 90 -> 10%.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eb1fbf5-61d0-4c4e-ada3-f08c1c77b13c)
+
+* WL/one day work -> 10/15 -> 2/3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17bcf1d3-a175-4228-92ac-c1fd2f081fa0)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb291236-4349-4df2-97a8-ad6813d5ff0c)
+
+* Solution. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ce496d8-2276-4822-af1c-1ba585b46c6a)
+
+* One day work -> (x + y)/(xy) [Formula] [**VERY IMPORTANT**]
+* Total Days -> 1/(One day work) -> 1/(x + y)/(xy) -> xy/(x + y) [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf47b580-59df-436d-9b3e-f8dd9a804a35)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/399ddf97-e4a8-48bf-95b3-76c2f1550b4b)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d8cd8c2-16f2-45c7-9483-48f0e4cb1970)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52590c59-c27f-441c-a635-7bfd324b2823)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c451ddf-1de0-4c23-9714-60b0d50d49e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d47507-fbc3-449e-92a2-c5265cdb5ab4)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/482b13e2-af53-4b9e-b0b3-cebec97515eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fdb60ae-0262-4139-a9f4-8da6d9dfe7e9)
+
+* Example [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/376cef26-2e76-41df-979f-23881b3d6101)
+
+* Example [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a91b6e0-c69d-46be-8a69-7f6bf37befe7)
+
+* Overall -> 28days
+* Gaurav -> 25 days.
+* Example [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1a2940a-f70b-4b44-b736-0356a88410ba)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2356c90e-72ea-42f5-a840-8fab4d01a4e2)
+
+* Example [Solution] [**VERY IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Linear Races
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/610d68c7-dc0c-49ba-bb8c-98cabd587b2e)
