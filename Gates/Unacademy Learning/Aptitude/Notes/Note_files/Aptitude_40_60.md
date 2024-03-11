@@ -1301,9 +1301,93 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f02bb89d-ec4d-4344-b5b9-ae0f0cdc3991)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b9737d0-4620-40de-aa0f-31ec874f3ace)
 
+## Doubt clearing session(45) [6th July 2023] [11th March 2024]
 
-## Doubt clearing session(45) [6th July 2023]
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fdbea0a-3b47-4db9-8046-aaaaf369a851)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec179395-a0e1-45f9-81dd-ff54ce80fa03)
 
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f714d4ef-a8a1-43ea-a2ac-eff5090c3455)
+
+* Solution. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fdcdf15-afe4-4dbc-bd37-3fd0f5fd42d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82da0e73-fcf4-4f47-8a95-e6d95f27810b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6512d804-be11-4d4f-9a74-b0ea34006092)
+
+* Example [**VERY IMPORTANT**] [Practice again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81c8b6da-4354-4ea8-b271-9fad833a3bd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdf726ac-d949-43fc-aa73-32b18aaffdd6)
+
+* Example [**VERY IMPORTANT**] [Practice again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4659bbdd-a85e-4937-9f4e-6df0f85540d5)
+
+* Question. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5b7d3b4-2494-479c-9b9b-2237639bfe1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b07155ce-5eee-4ed6-8dbc-0518bf506a5b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c48ed328-5df7-4e08-baae-ebbbe4142d65)
+
+* 100/19.44 -> 5.15hrs -> 5hrs 9mins
+* 0.15 * 60 -> 9mins [**VERY IMPORTANT**] [Calculating the mins] [Practice it again]
+* 7 + 5hrs 9mins -> 12:09PM.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77dc8fbb-0289-4604-93c6-ddd127c63bbd)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55f90f2c-84c9-4758-b425-89772d2c91b3)
+
+* 55.56/19.44 -> 2.8hrs -> 2hrs and 0.8 * 60mins -> 2hrs and 48mins
+* 9 + 2hrs 48mins -> 11:48AM.  [**VERY IMPORTANT**] [Practice it again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b9e5aaf-4e9f-414f-8a21-c241cd339bee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cc5a823-f997-4324-8b8f-c979644cbc13)
+
+* WL -> 100  - 50 -> 50%.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c655b24f-649c-463c-bc48-e5cbf7dd7fa5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da447cbf-c7a7-424a-ae7a-d5180c3344b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb63171a-0b3f-4052-aa7c-4b1ccb7f0f5f)
+
+* Overall time -> 4 + 6 + 4.5 -> 14hrs 30mins. [**VERY IMPORTANT**] [Practice it again]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/114d1776-ddc2-46ce-ab9b-2b9123d1b1f8)
 
 * Question.
