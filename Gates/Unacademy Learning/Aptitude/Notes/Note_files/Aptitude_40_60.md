@@ -1,4 +1,4 @@
-## Time speed distance work and time part-IV (40) [29th June 2023] [10th March 2024]
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c0155fb-1537-44b1-8f3d-77a8a66e517e)## Time speed distance work and time part-IV (40) [29th June 2023] [10th March 2024]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e17ed182-ae82-466a-9c97-41cb9289ef07)
 
@@ -1058,8 +1058,138 @@
 
 * Option **B**.
 
-## Time speed distance work and time part-VII (44) [5th July 2023]
+## Time speed distance work and time part-VII (44) [5th July 2023] [11th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94fc2204-479a-41f7-b41f-601292ed63c2)
+
+* Option **C**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a3b14cf-6abd-41a6-868a-f616bec20987)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e8802f9-9bc1-40f0-aacd-1df89fadfd65)
+
+* Tire -> Exhaust.
+* Enervate
+* Wary -> Cautious [**IMPORTANT**]
+* Weary -> Exhausted/Tired.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90b92047-50a5-403e-aec7-12ae983c4591)
+
+* Two important words in **arrangements** of seats -> **Adjacent** and **opposite**. [**VERY IMPORTANT**] 
+* **H and B** are **Adjacent** to **A**.
+* **E** is **opposite** to **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/651083eb-4993-4df1-ac0f-a9b49aceda61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4984d51a-b041-4b3e-8899-fc47de769de9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e81c767-cda9-47e6-ab16-78bbe4af41dd)
+
+* Option **C**. [**VERY IMPORTANT**] [Practice again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d40b9b8-4bea-4dba-bcf8-500fe1b64915)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32bde241-7b06-44dd-b05d-2fb743c31ef3)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af07328c-930c-419b-9253-f81ec4ce3b44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01661028-5f75-41a4-8845-cebc15351e8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a05fd1c-7c30-4089-93a9-cba45e755b8a)
+
+* Option **C**. [**VERY IMPORTANT**] [Practice again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03233e3a-f34f-4b8a-98b0-4826a152fb30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a75f2f25-640f-4eb6-99a4-8f40cc75d64f)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ec31f53-e056-465d-bf55-703d78bbc671)
+
+* Total -> 100
+* x -> 30
+* a -> Only Maths -> ME' -> 60 - x -> 60 - 30 -> 30.
+* b -> Only English -> M'E -> 50 - x -> 50 - 30 -> 20.
+* x -> Both Maths and English -> ME
+* n -> Either Maths or English -> M'E'
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f51b22b-973c-4b2f-bde0-100933c4fcf1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd7566a7-4bc5-487a-833c-ad1e1faf8f89)
+
+* Total = a + b + x + n [Formula] [Note] [**VERY IMPORTANT**]
+* n = 20 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9529a84a-0f31-4fe1-b127-67258c581064)
+
+* Total -> 100
+* a -> 35 -> 35-x -> 25
+* b -> 40 -> 40-x -> 30
+* x -> 10
+* n = ?
+* Total = a + b + x + n -> 100 = 25 + 30 + 10 + n -> 100 - 65 = n -> n = 35
+* % of employees drink neither(n) -> 35 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64712c0e-2cf5-41d0-8dea-3d8fe5afb5fc)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b2c50c7-31b3-4589-855e-4eaf4c3674fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e366f443-e56b-4c02-9314-bdfe54251419)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8b99639-2b6b-4d37-874d-e5c7939a4507)
+
+* 3 * 2! -> 6
+* Option **C**. [**VERY IMPORTANT**] [Practice again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/295c24fe-0ff7-4469-adf5-52c2361c983a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/610dc686-40c9-4cd0-9eb2-bc060fcabeac)
+
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d714bfb-3a1a-4e89-81ed-ce6b802e35a6)
+
+* fair -> unbaised -> not biased. 
+* fare -> money.
+* Unscruplous -> Unfair. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e3f89ea-d1e1-4bed-963e-34d0bf2adbcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/446ca842-cd3a-4b92-a04f-06fb64649e9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0ddcbd5-e6cc-43d2-8c36-87e7d6b50a64)
+
+* Moral -> Ethical
+* Immoral -> Unethical
+* Amoral -> Not affected by moral values.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79deb96d-cab4-4104-8c89-21a383547134)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df5e9d10-55c5-4e80-9775-1e35c1605a57)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/778a8e1d-679c-473c-a854-f406828496e0)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65da710f-d92b-499b-9477-a1e10290dbb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b17d856-e0c7-4c93-a406-7194a5560af0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f5c75fb-80b9-4b88-bc7a-9665eda8713a)
+
+* Option **C **. [**VERY IMPORTANT**] [Practice again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d8f3967-3741-4f22-b80e-5194e12fdb49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a33f3c62-1605-4d00-8d64-3408ce150254)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c78a4d6b-4e9f-40ea-80a7-14fc0ffe0759)
+
+* Policies. [Note] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1402576c-2593-4f55-ae27-710766095ef4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b748645-b506-4048-baa3-aa9448fc58ea)
+
+* TSD [Summary] [Note] [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7295683a-a727-4a25-8c46-c2a5e0dc276f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfec5837-5591-43dd-a32c-c848d88d14a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a87e7eb-bd6d-4b93-bdb7-fae4c4e938de)
+
+* 100 - 80 -> 20
+* Option **B**. [**VERY IMPORTANT**] [Practice again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec33943-0558-4e8a-901e-5db4b0188bdb)
+
+* Doubt.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * **Total No. of days** to complete the work **together** -> (X * Y) / (X + Y)
 * Formula.
 
