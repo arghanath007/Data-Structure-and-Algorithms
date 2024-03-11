@@ -1569,8 +1569,168 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7518c81d-bf06-44f8-a8e3-acffb5f471b7)
 
-## Time speed distance work and time part-VIII(46) [7th July 2023]
+## Time speed distance work and time part-VIII(46) [7th July 2023] [11th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bbd5b0d-5239-4af3-985a-94989d790224)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c648a107-d56b-4e05-867b-fabbfd9d0f05)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9bef4bb-4334-4e94-97aa-b23cb1d08456)
+
+* r -> No. of variables. 
+* n = 5 [Example]
+* r = 2 [x,y]
+* 2 * 3! -> 6.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65dd684e-fed2-45c9-9fd4-90be100a608b)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c63e80b6-e4fd-48cf-87bf-7f0db2dec435)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23b975f1-b138-472e-81f5-553750d2b57c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/151a12e4-6887-4caf-ad5f-d30dee179fe5)
+
+* Example [**VERY IMPORTANT**]
+* 1
+* n = 8, r = 2
+* Min value is **zero(0)**.
+* (8 + 2 - 1)C(2 - 1) -> 9C1 -> 9
+* 2
+* n = 7, r=2
+* * Min value is **one(1)**.
+* x + y =6
+* (6 + 2 - 1)C(2 - 1) -> 7C1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/433318e4-a099-43ac-aa52-a9c88a79ef67)
+
+* P(Sum = 8) -> (1,7), (2,6), (3,5), (4,4) -> 2 * 3 + 1 -> 7/8 ^2 -> 7/64
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb551ce1-5de0-42b4-8c93-1b477a05bf42)
+
+* Opton **D**. [Solution] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b1a6d11-b5bc-4bb2-9658-b44533e037cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/357255dd-4087-4f42-9756-cba65290033a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19bd9c86-c821-425f-b6df-c6ed00630c87)
+
+* [Example] [**VERY IMPORTANT**] [Practice Again]
+* No. of terms [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26088719-be4e-4932-bfbb-818985138962)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa6f7450-edd5-4752-8d0b-df45d73f4a82)
+
+* n = 20, r = 3 [Example] [**VERY IMPORTANT**] [Practice Again]
+* (20 + 3 - 1)C(3-1) -> 22C2 -> 231
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eb89fe0-7490-43d8-9c51-85976cab21a4)
+
+* Trick.
+
+## Folding
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6da28ef3-9c47-4f8d-8f98-2c6de340ab6a)
+
+* Operation -> Greater of the two values. [Example] [**VERY IMPORTANT**]
+* Perimeter -> 2 * (l + b) [Rectangle] [Formula] [**VERY IMPORTANT**]
+* Perimeter(P1) -> 2 * (4 + 2.5) -> 13cm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3840123c-3d42-487a-a7f8-833ea0b18d72)
+
+* Operation -> Smaller of the two values. [Example] [**VERY IMPORTANT**]
+* Perimeter(P2) -> 2 * (20 + 0.5) -> 41cm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a852a132-8399-4155-8d26-8c61aa216eca)
+
+* Ratio of P1 and P2 -> P1/P2 -> 13:41 [Ratio] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b426ab20-76da-4f33-b320-22ba15643254)
+
+* Trick [No need to draw]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aad6432-d392-434a-92a3-f77abab2cb9c)
+
+* 1
+* 6|4 -> 6|2 -> 6|1 -> 6|0.5
+* P1 -> 2 * (6 + 0.5) -> 13cm
+* 2
+* 6|4 -> 3|4 -> 3|2 -> 1.5|2
+* P2 -> 2 * (1.5 + 2) -> 7cm
+* Rato of P1 and P2 -> 13 : 7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2981870b-17a3-4907-9ea1-76ded3eec245)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86f8c5f3-9f88-4670-aa28-96285e59234f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98016848-d1f9-49a3-a61a-bb5ae130f61a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff224d1e-460b-4ae8-91d2-3f56a1f17c16)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49bf7c16-8d40-478e-a6e4-3b64a8afeb20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ba00301-0b8b-4aad-855f-224344438e29)
+
+* Money
+* Currecy -> Fiat Money
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a597f058-cd97-4bce-9bf4-584f476ad04e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a23b227e-5eea-4f74-9aa8-5dc22a34d53f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4c56e74-3684-44af-9379-cdbdbf80d97a)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bda7714-b42e-43bc-8689-ec44306deff2)
+
+* Unique -> Atleast one
+* Some -> All
+* Some not -> None.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1f4894d-8305-4c85-9516-be7abb40370d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51351936-997b-42c1-87a0-e1298bc032dc)
+
+* Option **C**. [Statement **4**] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e2711d4-9880-455c-963a-042b6936a3b7)
+
+* Done earlier.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe2f9741-7155-4999-9682-42555773fcc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4891fe2-7756-488d-a600-329cdbb4b481)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/593d01f1-b1bf-4b4a-9340-b30ed705c2a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dbef98e-99f0-40e2-b38b-b7793597e12c)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4dd8dc8-c506-4750-ac7c-800751c4ace7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26656843-0037-43b5-af1b-e2a81e3a6771)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dc11bc6-9d31-4eec-acf4-04e3dcb9a663)
+
+* 30 -> 2 * 3 * 5
+* 32 -> 2 ^ 5
+* LCM(30, 32) -> 2 ^ 5 * 3 * 5 -> 480 secs -> 480/60 -> 8mins
+* 10AM +8mins -> 10:08AM [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e7e7540-d7db-4cf6-8e5d-d7206be52cf1)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfa1ed60-4951-4f8b-b606-26df7f1a540c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48445721-82ec-4324-a1d7-a30ab73137c6)
+
+* Option **B**. [**VERY IMPORTANT**] [Practice Again]
+* Discussed in **next class**.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2ff1546-2a51-410b-94df-772a55c670d8)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cec690ce-2ee6-41e5-becf-d7df48af9fc7)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d867e65d-fcf5-49b4-9f30-a5d9324aa9bb)
