@@ -1875,8 +1875,172 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ce54471-4173-4df5-a190-71b782122107)
 
-## Time-speed-distance-work-and-time-part-ix(47) [11th July 2023]
+## Time-speed-distance-work-and-time-part-ix(47) [11th July 2023] [12th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3113a87-205b-4a90-afe9-26c3f8c8bb58)
+
+* Percentage change.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41864acf-b634-41bd-80a1-232c7f68b89e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7892619a-bb3b-44c7-a61a-ec127e984cf5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d7c9c7b-e7d4-434a-8351-40a7e4993a92)
+
+* FV -> Final Value
+* IV -> Initial Value.
+* % Change -> ((FV - IV)/IV) * 100%
+* Change -> Neutral word.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99e97b10-4417-4fd7-93e3-dd535d852866)
+
+* Highest % change -> Then just look at the **magnitude** of the percentages. Don't look at the **positive/negative** signs of the percentages.
+* Highest % increase ->
+* Highest % decrease ->
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0682cc5-bf5a-44cd-9713-67f7d2b12cad)
+
+* Total -> 10500
+* Savings -> 1500
+* Not Savings -> Total - savings -> 9000
+* % not savings -> 9000/10500 * 100 -> 85.71 -> 86%
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ddbccd8-9ba5-40e6-ad65-4e1df0bd4dc7)
+
+* Note [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e8021ec-c071-47d7-a82a-c685bcb016b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd48e495-20f7-4594-b8f4-ffdf3070bf55)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bee1a4e6-8e79-46fe-bb11-ee9bdc2aeaaa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64675bf1-f312-4184-9ab3-35fbb986bd89)
+
+* Note [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25cbbd9e-a1a5-45f9-94ea-e97a3129665f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17a60214-98eb-4fc4-944a-815ecd4e167c)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d029900d-b273-41d5-a94d-d9464ed954c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d587c305-9020-4426-b18d-0bc873a5b732)
+
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc0f5c1e-33e3-4fa8-9778-7a855bf203b9)
+
+* Successive % change [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0a4e82b-97bd-4684-8f64-aa982f72e20b)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a004133-59df-4920-b581-dda264ffa637)
+
+* Examples. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64f4e563-cff5-40e6-bef7-5fb0c1fb8ae8)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6620782-9fe6-4806-bc9e-b0e26e6daf23)
+
+* Solutions. [**VERY IMPORTANT**]
+* 1.2 * 1.3 -> 1.56 -> 56%
+* 0.7 * 1.2 -> 0.84 -> -16%
+* 0.7 * 0.8 -> 0.56 -> -44%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3f72761-5051-437a-84dc-7be1dfdc3b4d)
+
+* Circumference(C) -> 2 * pie * r
+* Circumference(C) is directly proportional to **radius(r)**.
+* Area(A) -> pie * r * r -> pie * (r ^ 2)
+* Area(A) is directly proportional to **radius(r) ^  2 or r ^ 2**.
+* Formula [**VERY IMPORTANT**] [Circle]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9776e4e6-2527-41d4-ac24-fe2ba919f91f)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb741e15-5ba1-4b52-bd83-2fd007a3e1ee)
+
+* 1
+* c -> 1.2 -> 20%
+* A -> 1.44 -> 44%
+* 2
+* C = 90%
+* A = 261% [1.9 ^ 2 -> 3.61]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/204a8c53-89cc-4784-be01-2ed91e0987d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fbe65da-edd6-46bd-bfe1-04fbcd9f6f32)
+
+* Solution [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b73bb3af-8e6e-4aa0-b49c-6d3403001ea8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd62548e-1a4e-4689-9889-075cc8fdfe17)
+
+* 0.2 * 0.3 * 0.4 -> 0.024 ->  0.024 * 100 -> 2.4%.
+* Option **B**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/222b4cf7-2ca2-4045-96a0-754458cdb40b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d61e74f3-53ae-460c-bea3-9e12b357d7bf)
+
+* A -> 20%
+* B -> 1.2 * 1.2 -> 1.44 -> 44%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d8a37f8-c335-4858-a7ef-ed42806ad7a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a28f261-e4d9-4ca7-88f1-fee1dbd16d78)
+
+* Area of Square -> pie * (r ^ 2). [Formula] [Square] [**VERY IMPORTANT**]
+* r -> 25% -> 1.25 * 1.25 -> 1.5625 -> 56.25% increase.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55da9509-ea4e-4cd4-af89-dbb020366b78)
+
+* In whole of **geometry**, the **height(h)** means the **altitude** which is **90 degree**.
+* height(h) -> Altitude
+* Volume -> 1/3 * pie * (r ^ 2) * h [Formula] [Circular Cone] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59eaadec-8d31-4faf-8a87-d242cc3c3510)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d21b2897-7034-40e7-9c73-e1943adb4828)
+
+* Example. [**IMPORTANT**]
+* If nothing mentioned about **height(h)** then **height(h)** is **constant**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6d3059f-4490-4025-9991-d435323734d5)
+
+* r -> 90%
+* h -> 90%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8017425-60e5-42c8-a04a-39453381f172)
+
+* Volume -> 90 ^ 3 -> 1.9 ^ 3 -> 6.859 -> 585.9% [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80a324a1-6986-4be1-bad1-260acf1ce73b)
+
+* r -> 50%
+* V -> 50% ^ 2 -> 1.5 ^ 2 -> 2.25 -> 125%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7141fa0f-1ba5-4c3d-952f-2802d6697d89)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e55c70eb-d288-4001-823a-2e593bdf1c93)
+
+* GDP.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48766849-209a-481d-aa6a-75e66c0aa7e9)
+
+* FD -> Fiscal Deficit -> Debt/loan.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7da8bcbf-ac23-4d4f-a761-699a6ead2317)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b020d325-142f-462d-a176-d1ba82e14b2d)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c732a0a3-cc63-4a8a-b88f-e405fdc05c16)
+
+* Example [Solution] [**VERY IMPORTANT**] [Practice Again]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddafc6a7-4d39-490d-a4bf-58dee2894aa6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c560b6d7-2041-401c-a51a-7ff655497ddf)
 
