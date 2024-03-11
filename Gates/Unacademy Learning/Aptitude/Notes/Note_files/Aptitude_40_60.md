@@ -1355,37 +1355,152 @@
 
 * Overall time -> 4 + 6 + 4.5 -> 14hrs 30mins. [**VERY IMPORTANT**] [Practice it again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58cc7c9b-3a74-4294-8e71-d78a71733393)
 
+* 1 work = 100% of the work
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dca7466-79fd-4a9f-8f7e-40c678a0126d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0172d612-8627-48d0-9748-bdebc7f2f950)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541560cc-8de8-4ea1-a76d-f05c4015ffc4)
 
+* Work done(W)
+* Days(D)
+* Men/Women(M)
+* Time(T)
+* Efficiency(E)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2d02f5f-c34a-4eb0-90fd-7a678c7e4c60)
 
+* Same work done(W) but two different cases.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6c71b26-93e1-4294-93e4-7e00e7074855)
 
+* Example [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4533e222-eb05-45ae-8d7b-5986d3fd0246)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab20a466-911e-4ed9-b6f0-594492f249a9)
 
+* Example [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03b93d3e-69f5-4592-aff1-d2f3acdb726d)
 
+* D1 = 60
+* M1 = x
+* D2 = 60 - 10 = 50
+* M2 = x + 8 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/144d1872-2889-488b-a235-8a17d543df16)
 
+* D1 * M1 = D2 * M2 -> 60 * x = 50 * (x+8) -> x = 40 
+* Original no. of mex(x) = 40 [Answer]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9dfabbe5-7de2-4635-a531-d817df9b4610)
 
+* Volume -> l * b * h [Formula] [**VERY IMPORTANT**]
+* Work Done(W) = Volume.
+* (D1 * M1)/W1 = (D2 * M2)/W2 = D2 = 6
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92216d64-fb32-4299-8686-9327fa3b0327)
 
+* D2 = 6 days [Answer] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97073d72-926d-4a6d-a906-28798d250611)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65adfdfd-7fd4-4f91-b2d5-a7f3b578297d)
 
+* Question
+* (M1 * T1)/W1 = (M2 * T2)/ W2
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/797e322e-1454-47b4-a05e-dbacca0fd4ad)
 
+* T2 = 7 mins
+* Option **B**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f49c5ea-f129-4606-a613-ec03f3ce54d4)
 
+* M -> No. of pipes.
+* (D1 * M1 * T1)/W1 = (D2 * M2 * T2)/W2
+* M2 = 15 pumps
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c071070-8277-4eb4-96b7-a406838585d6)
 
+* Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9de8e231-47bf-4361-9fbd-568292dbedb6)
 
+* 2 Men or 5 Women
+* It means that the **efficiency of 2 Men** is as good as the **efficency of 5 women**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09bee5a5-b72f-4d32-9fa1-4ce6623b5f61)
 
+* 2 M = 5W [Formula] [**VERY IMPORTANT**]
+* 1 M = 5/2W
+* 1W = 2/5M
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0519f28b-55e1-4a7d-81d0-ec7a8632a88b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/035d68a7-e12a-4fd0-be1a-0bb97f9eb6ef)
 
+* 10W + 3M.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d351bc5b-e887-4732-a8cc-1a0b6e13050b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6b45890-6b9a-43d8-b9b3-7736c1cd4e18)
+
+* Convert the **women into men** completely and have **men** only or convert the **men into women** completely and have **women** only. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1591e231-0986-4280-ab37-1b25846ece70)
+
+* 5M = 7W
+* 7W = 5M
+* 1W = 5/7M
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/789246eb-8c25-4968-9bb6-223811c072ac)
+
+* Example [**VERY IMPORTANT**]
+
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1413f878-3773-4235-a6f1-5a2a40da31a0)
+
+* 3 Men or 5 Women -> Either take the 3Men or take the 5Women in **M1**.
+* 6 Men and 5 Women -> We have to take both the 6Men and the 5Women in **M2**. We have to convert them into **men** as **M1** is **men**. We have to take the **M1** conversion which is **1 W = 3/5M**.
+* M1 * D1 = M2 * D2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7180d122-81f0-43c3-a7d1-e001e856613b)
+
+* D2 = 4days [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c8cb8a1-d00c-41ba-9dc6-aa1a32b7f8cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14eab0ac-1b4d-4499-8aa5-bd72afa0e13c)
+
+* Example [Question] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7c10dd4-84ff-422b-8959-eb059d24865f)
+
+* Example [Question] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b538812c-7a62-458b-bf55-9b971497dc20)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f25ddaf8-722f-48bc-9033-0e494f687b01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1aa9f13f-e520-42d0-83f6-dab7905111a1)
+
+* Solution. [Question] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d3f6ee1-65a3-4715-94a6-8ba87a93325e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/731c726f-76e4-4b7c-9388-09a10837bad5)
+
+* Question
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83c9a335-8183-44a8-8a5d-d594e5fdf079)
+
+* **1750** work is done in **25** days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3034f15c-73ad-46ac-9974-634f5ae77ca1)
+
+* Example [Question] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0554414-d392-450b-a862-a5500af94f22)
+
+* Summary [Formula] [**VERY IMPORTANT**]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/114d1776-ddc2-46ce-ab9b-2b9123d1b1f8)
