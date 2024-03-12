@@ -2250,8 +2250,222 @@
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## percentage-and-di-part-i (48) [15th July 2023]
+## percentage-and-di-part-i (48) [15th July 2023] [12th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b1aa97a-261d-4ee9-9301-67a258df48d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98e73bf0-2a64-48cf-8a9a-0fe21e70643f)
+
+* A -> 100000 * 0.5 * 0.7 -> 35000
+* Solution [Example] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4c5d034-fa44-4e5b-a299-b69171a33df9)
+
+* Income = Savings + Expenditure [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd7b2fd6-e1d6-4ed8-b6b9-2dca4532e958)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dee07bb4-5efa-4d5f-b195-121521e5f30d)
+
+* What is the **% increase**? [Question] [**VERY IMPORTANT**] [Practice Again]
+
+> 26%.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eab9ca94-69d5-40df-997d-69fe9662a74e)
+
+* E -> 3K
+* S -> 2K
+* I -> 5K
+* Inew -> 5 * 1.1 -> 5.5K
+* Enew -> 3 * 1.12 -> 3.36K
+* Snew -> Inew -  Enew -> 5.5K - 3.36K -> 2.14K
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6192d736-3a5a-4560-94e4-e1d18ebd6fc3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c45f7a98-25c7-409b-8862-c7f631df285d)
+
+* % increase in saving -> (2.14 - 2/2) * 100 -> 7% [Answer]
+
+* 100% -> 360 degree
+* 10% -> 36 degree
+* 2 * 10% -> 36 * 2
+* 20% -> 72%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b730192-b604-4541-98c1-4ee1d0c63c4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50b53263-bfe9-45b8-819f-31476dfb878c)
+
+* **Pie chart** is all about **distribution**. It is all about **breakdown**.
+* YoY -> Year on Year
+* QoQ -> Quarter on Quarter
+* Valuewise, Volumewise.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6829f778-59b2-4d2b-90ae-cfdbc1ac7c14)
+
+* 100% -> 360 degree
+* 10% -> 36 degree
+* 40% -> 4 * 36
+* 40% -> 144 degree
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/294ec6be-ac0f-4b8c-b833-e354fc3feeef)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d88b938-33be-4cf6-9aa1-09fb3f5800df)
+
+* Valuewise Graph -> It is about **money**.
+* It is a **YoY** graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/807f82fb-ceb0-445e-9ca8-98a5057ff174)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aa5dd52-31f6-4c0b-bc8d-a8eb15ac8de9)
+
+* 2002
+* 150crore -> 1500000000
+* HLL -> 450000000
+* P&G -> 1500000000
+* Hankel -> 225000000
+* Nirma -> 300000000
+* Other -> 150000000
+* 2003
+* 375 crore -> 3750000000
+* HLL -> 1500000000
+* P&G -> 750000000
+* Hankel -> 750000000
+* Nirma -> 562500000
+* Other -> 187500000
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65c13481-9f71-4b8d-84ae-3c15e5e9d849)
+
+* Now calculate the **% change** in all of them. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/306dda5a-e076-4fc3-9f6e-fd81ad52a318)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3550948-60f8-4517-b08c-58fbc43a9daf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3670bc0e-b037-45a1-a231-b66bcd6e75f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0b94fb5-f0d4-4fae-8f78-b301ba3f7186)
+
+* Option **D**.
+* Calculating the **% change** of the companies from **02 to 03**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b9e2daa-d6d8-48c5-97d1-20a2c9d12ff4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54156d14-4d45-43a1-abb3-86eda8042882)
+
+* ((150-45)/45) * 100 -> 233.33%
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c75bcd70-d775-450e-a144-d8f4dae3f4f7)
+
+* 03/02 -> 75/37.50 -> 2/1 -> 2:1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef665c92-fe50-4d6c-9df3-3daba61d213a)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b68c9330-069e-4d5d-9044-cc2b52deda00)
+
+* Instead of increasing every single component by the same percentage, we can achive the very same result by increasing the **overall value** by the **same percentage** to get the **same value**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb3f8b7f-0b50-4acf-ba71-98b508ed51fd)
+
+* 150 * 1.1 -> 165
+* 165 - 150 -> 15Cr
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dace7755-0aae-4538-9a6f-7a581cb7f162)
+
+* Option **A**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66b1afd7-0d05-404d-9b0e-cd46240a634e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adfedc5a-ab8b-4ffb-98c5-bfec130ce32b)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77020d83-ea48-4e7a-abdc-5250a2422c4e)
+
+* Successive Growth Rate
+* CI
+* CAGR
+* All of them mean the **same thing** only. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c169c9d-05ac-474c-8761-da5bda5747f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f21f201-f5b4-4f0a-a85f-ef2b40e828a9)
+
+* 375 * (1.1) ^ 2 -> 453.750 -> 453.75
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/451dea5d-1597-470b-a12c-663af8d016c9)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21604df0-20db-4f72-bff4-aeecd8f4740b)
+
+* Overall value is **600**
+* S -> 600 * 25/100 -> 150
+* R -> 600 * 25/100 -> 150
+* Q -> 600 * 25/100 -> 150
+* P -> 600 * 20/100 -> 120
+* T -> 600 * 5/100 -> 30
+* Increased by **15%**.
+* 600 * 1.15 -> 690.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86e0ae63-0903-4eda-9c19-0f35ab974a05)
+
+* Snew -> 150 * 1.4 -> 210
+* R -> 600 * 25/100 -> 150
+* Q -> 600 * 25/100 -> 150
+* P -> 600 * 20/100 -> 120
+* Left -> 690 - (210 + 150 * 2 + 120) -> 60
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee57612d-68c4-41c5-a027-5d74091c9085)
+
+* T -> 60 [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ddce99b-6fde-49eb-91ec-4240ec304b5e)
+
+* Done earlier
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ded1271-4460-4523-8167-b2954cd59725)
+
+* Done earlier
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4674223-0039-480d-a5fb-a62e475928a1)
+
+* 20 + 20 + 10 -> 50
+* 50/(70+50+40) * 100 -> 50/160 * 100 -> 31.25
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abfe3825-5643-4699-9d38-5d4b2ec0c103)
+
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38962c89-2903-4662-9863-e7524c2f731c)
+
+* Question
+* Revenue -> Sales.
+* Total -> 1940
+* Prime -> 465
+* % share of prime -> 465/1940 * 100 -> 23.969 -> 23.97%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57d61fed-31ec-4e86-bd7e-73229d739c60)
+
+* Option **B**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/062d0129-fee3-47f6-9cf3-7cd00ad56d83)
+
+* Another type of **question** asked in **CAT**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b9b7506-cab1-42a5-88a2-6846c7c70238)
+
+* 120 * (1.25 ^ 5) -> 366.21
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2734decf-f323-481c-b301-e610bc0c36f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31d49843-6fa5-4d84-b807-6af15b26661c)
+
+* Option **D**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89533b80-79f7-44f8-adfc-b6ed2c93bc55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2ddfa47-e1b9-40a3-a12f-a0cc3f25b3e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1a708bd-5f4e-4c53-ad75-942272a05123)
+
+* Option **A**.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Percentage and DI
 
 * Graph -> **4** are important.
