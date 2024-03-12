@@ -2634,8 +2634,179 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d27d91e0-5a93-4bb7-80d3-7d2a90691eec)
 
-## doubt-clearing-session(49) [15th July 2023]
+## doubt-clearing-session(49) [15th July 2023] [12th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/224af262-3647-4987-9cb8-f026628a1348)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9cd5b24-16ad-4570-a46f-3eb98b2c163e)
+
+* Total Students -> 5000
+
+* Arts -> 1000
+* Management -> 750
+* Science -> 1000
+* Commerce -> 750
+* Engineering -> 1500
+
+* Girls -> 1500
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86f6be8a-eb40-43ce-ada8-aeca1b68924d)
+
+* Arts -> 450
+* Management -> 225
+* Science -> 375
+* Commerce -> 300
+* Engineering -> 150
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/425468c5-3cbf-45da-8cc4-8281bfcb657e)
+
+* Boys -> 5000 - 1500 -> 3500
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/945d9923-6d94-4147-9e3a-35510ac67ec9)
+
+* Arts_T -> 1000
+* Arts_B -> 1000 - 450 -> 550
+* Arts_B : Management_G -> 550 : 225 -> 22 : 9
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/412fa66a-678e-43f8-ab0d-0ceb5b189798)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/760ff739-e25b-4df0-a10f-9a66ac4195b9)
+
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fae79fe-9d3a-4dbe-9553-4f8a6104ff85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57eacdf1-361d-46a1-aa34-9dc3e62eebcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2050ddbb-a1ea-4158-a2ee-fbb7ea459053)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17f3c216-8d69-4628-813e-f2c1f711525b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da6c1571-2e49-4c03-a779-728ea6cb4547)
+
+* Question. [**VERY IMPORTANT**] [Practice Again]
+* C2 + C5 > 100 + 1800 -> 1900
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/076e5c2e-35c2-4a83-a7da-bff36d71b7dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ed3e283-9431-4051-a3ec-607ae52723a7)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31fb318f-2703-4878-90b0-e17a64efdf2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9876a36a-166b-47d1-aed0-a16bca095e60)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8a73733-6082-4f47-9581-3f7fbd7362c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bed377f-1a23-49cb-8a74-c578132fd8bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55d06700-b9ab-49da-88ad-91294a8b5b58)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c60945aa-d797-43f8-9c69-4a627fa79abe)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f59129e9-bd54-4cea-8c0c-670f7467ff7e)
+
+* Trade [Import and Export]
+* Trade deficit.
+* Trade surplus.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/376fc17a-de97-4903-82fe-e6f0e01bfb8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01383766-aed4-4d3e-b6c6-f82081eb7af1)
+
+* Trade Surplus -> 2000, 01, 02
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a15973da-b12a-485b-9a65-665c185e4702)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a79d699-ba99-40d0-9840-f4b387201e26)
+
+* Trade -> 90, 110, 130, 130, 150, 160, 220, 230
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af553da3-671f-4d1d-bece-9b60734e1e8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a986df5c-f0bf-48e3-b85f-59c3700ecf26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03ee8b51-0f7f-45f8-817b-5b78c220e132)
+
+* % change in trade with respect to previous year -> 22.22%, 18,18%, 9%, 15.4%, 6.67%, 37.50, 9.56% [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03bbb981-d39a-449c-9e27-b618afbc1767)
+
+* Question
+
+> 2006 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74479bc6-5037-45ba-8097-d6b2e26e5cac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a5a82de-32d2-455b-8f4c-882be379d46c)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c314e529-18a4-4c15-bfb2-03e8d2564983)
+
+* Trade Deficit -> Import - Export
+* 2003 -> 10
+* 1/5 of export -> 60/5 -> 12
+* 2004 -> 10
+* 1/5 of export -> 70/5 -> 14
+* 2005 -> 20
+* 1/5 of export -> 70/5 -> 14
+* 2006 -> 20
+* 1/5 of export -> 100/5 -> 20
+* 2007 -> 10
+* 1/5 of export -> 110/5 -> 22
+* 2006 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2303e274-2d3e-4554-9b81-4cec33a9b827)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6750a84b-b185-4a22-9753-8c660f646da5)
+
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1b360b8-d100-4299-b667-aa117e43a246)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cfee5bc-c599-41cc-a225-fa05af6ff746)
+
+* Example  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3fe2b3c-813c-494f-99db-2d9084bcd1c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c479d6e5-c4b0-4392-86e0-fd1c90bab535)
+
+* Question
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bdfbd6f-6e9b-4ab2-9e53-e255a1c91c2f)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f410b062-094a-48cc-b558-a1545c9866bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98d65a8c-8359-4c6e-973e-ec9002e5fb8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49a61dcc-88e5-486c-986f-e49a0087b6a4)
+
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04bf7a2d-6601-4af2-afcc-d7ee955a10ab)
+
+* 2014 -> 1
+* 2015 -> 2
+* 2016 -> 3
+* 2017 -> 1
+* 2018 -> 1
+* Difference -> 8
+* Enrolled in P -> 3 + 5 + 5 + 6 + 4 -> 23
+* 23 : 8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcaf7c22-aba3-419c-ae2a-63ab1fe5fb5c)
+
+* Option **B**. [**VERY IMPORTANT**] [Practice Again] [Read question carefully]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9a4e23d-5bec-4ce7-8196-ff3433f9ba9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95554bdf-0a90-42a6-8e30-40d4f3218bac)
+
+* Option **B**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aca7ac30-5548-40c2-a97d-2386585fb4bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8588f3c4-a14d-4b2a-8933-a9bf67b8b33f)
+
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+* Complemented -> fits [**VERY IMPORTANT**]
+* Complimented -> 'i' -> praise [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/185afb28-17cc-4f7a-8353-e5a5ed931185)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d2c96bf-4b46-4729-a13d-636de906f162)
+
+* 0.8 * 0.9 * 0.05 -> 0.684 -> 68.4 -> 100 - 68.4 -> 31.6% [Answer] [**VERY IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfaf8590-6ee2-42e5-8294-d6991882c9fd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6790f4a8-ea65-450b-9dba-52ce363bb73e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd67276c-94f8-4033-a24e-8d09f7381a93)
