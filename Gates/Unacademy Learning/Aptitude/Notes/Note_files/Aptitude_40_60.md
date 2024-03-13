@@ -3088,56 +3088,193 @@
 * Solution.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/668d1050-15de-48a1-84b8-ea774b7c8710)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3edf2f6d-1cea-4d6e-8fc3-efddc76185cc)
 
-* Start from **25mins**.
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43253750-d2ef-435c-a0ee-4806ff31a1e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3850db84-f8d6-4a0b-91bf-90c1cb525b31)
 
+* Solution [Explain] [Example] [**VERY IMPORTANT**] [Trick]
+* (R/(100 + R)) * 100 [Explain] [Example] [**VERY IMPORTANT**] [Trick]
+* 20% increase -> 20/100 -> 1/5 -> 1/(5+1) -> 1/6 -> 16.67% decrease
+* (R/(100 - R)) * 100 [Explain] [Example] [**VERY IMPORTANT**] [Trick]
+* 10% decrease -> 10/100 -> 1/10 -> 1/(10-1) -> 1/9 -> 11.11% increase
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5a95eba-3fc9-42c8-a518-777daa76313a)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8249b50-10a3-493e-9ec4-db095fc51cbe)
 
+* Solution. [Example] [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c510d0c-720e-41b1-a51a-9e02d6168311)
 
+* 8.33% increase -> 1/12 -> 1/(12+1) -> 1/13 -> 7.69% decrease
+* 3.33% decrease -> 1/30 -> 1/(30-1) -> 1/29 -> 3.448% increase
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cc68097-f3c3-490d-8dac-6b38ebd804d1)
 
+* Solution. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aeee382-c566-41a8-9ba9-b3033dbebcd4)
 
+* Note. [**VERY IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/569f12de-0c1e-4108-a757-5e7bd2a45a0a)
 
+* Example.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a794830f-0cf0-4772-a2a8-0e747a3526c2)
 
+* 62.50% decrease -> 5/8 -> 5/(8-5) -> 5/3 -> 166.66% increase.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ce935a-b233-4d3a-9aad-75c33fb56063)
 
+* Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/659b2200-58e4-4a75-b383-0a4ad06d3517)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4adbf30c-8fb7-4756-8873-eec27b250d70)
 
+* Question.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c6863a7-2dde-49a8-a6eb-53f4ffbfed51)
 
+* Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abdf032c-9c17-44f5-98fd-01774b78990b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/524c8fa2-227b-4c22-a7fa-20058fa04ec3)
 
+* Area of Rectangle(A) -> l * b [Formula] [**VERY IMPORTANT**]
+* Revenue(R) = Price(P) * Sale(S).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/132ed662-17b8-433a-b044-f7b9a1aff193)
 
+* 33.33% increase -> 1/3 -> 1/4 -> 25% decrease
+* 4% decrease -> 1/25 -> 1/24 -> 4.16% increase
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7836c2f9-9976-481b-8635-ebc9ff6571b6)
 
+* Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9701ebf9-50d2-4779-9bc4-b190d6b5f3b7)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18a7999f-e9cb-4b96-989c-4dee1e478cc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cea46a81-2c98-49b4-b4a6-80fba55cabc0)
 
+* 25% decrease -> 1/4 -> 1/3 -> 33.33% increase
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79203612-d280-452d-ac9f-865a90476cd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ad9062-c836-4c1b-8f16-b7fe0a33cc49)
 
+* 33.33% increase -> 1/3 -> 1/4-> 25% decrease
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c95e3d3-2eca-4819-814d-ad4dbe94f762)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27d8ea56-0f4d-4e59-a932-48812c24b8b1)
 
+* 37.5% increase -> 3/8 -> 27.27% decrease
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c1e3b8-d2a8-4cdd-89ec-d5c67fa78783)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6062804-e080-42fb-91c2-60b14df4e532)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b603522b-b00d-47d4-8ae4-7459ad626b93)
 
+* 1.1 * 1.2 -> 1.32 -> 32%
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a73eefe-44e2-4390-a2c4-427170274e70)
 
+* 1.3 * 0.8 -> 1.04 -> 4% increase
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c070e70-be59-427b-b483-69ccf5fda2c9)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57be7282-ec3f-4a14-b1fd-0e29fa69f476)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1117de3-6bca-4333-a252-37a1c1682312)
 
+* Cost -> 36.6L
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1d65db9-f525-4419-907e-7ea51d8d4517)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bcdc5b9-17fc-47b9-a559-42e004aebaed)
 
+* Sales = Total Manufacturing Cost(TMC) + Profit = 30 + 10 = 40L.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8966238-1f2b-4e73-927d-5bec7b085730)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0cbaa79-fcfc-4bc4-9185-9f1ee1cd6b5c)
 
+* Price of each unit -> 40L/200 -> 20000 [Answer]
+* Solution. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2f7ed3d-d0e7-4996-add6-1c5c291a65e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11cb0f5f-b84e-48dd-8fba-856c7e0feb6c)
+
+* % increase in total cost -> 22% increase. [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecfce90d-8e0f-40dc-90a3-7a866100046e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5864f9cf-e73a-4f9f-8966-65c1457d5842)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65601014-4356-46b5-86ba-8ca191652c4b)
+
+* 2001.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ef607f4-7467-4ae0-8440-cc02589933fb)
+
+* 2011.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83ca8f04-771c-45f7-b5c6-c9b2e6060666)
+
+* Literates in 2001 -> 46
+* Literates in 2011 -> 60
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd03480e-b925-45a0-8cd0-753b6630bb16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09f281a0-4562-48b8-a3f6-59c38cf7a5aa)
+
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66bb99f7-40c8-42bf-a01a-1712d93b478a)
+
+* Graph.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b7f9a62-3456-4604-a177-cfd09c062eba)
+
+* Import(I)/Export(E).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91c49139-42e0-43ed-81fe-b906ba0db8fd)
+
+* % Change
+* 95 -> 0.20/0.65 * 100 -> 30.769% increase
+* 96 -> .50/0.85*100 -> 58.82% decrease
+* Others are done same as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd6f8590-11d7-4a1d-8a13-621d1febdadd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fa26bb5-ee6b-42cf-b949-784b378c89fc)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/160a5058-9b09-42ca-b458-d5e3da62f548)
+
+* Import(I) -> 250Cr
+* I/E = 1.25
+* 250/E = 1.25
+* 250 = 1.25E
+* E = 250/1.25
+* E98 = 200Cr
+* E98 + E99 = 500
+* E99 = 300Cr
+* I/E = 1.4
+* I/300 = 1.4
+* I = 1.4 * 300 = 420
+* I = 420
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a665d01-d1ae-4ad1-9cff-737cabd70c03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a16d632-cf1f-4a25-8c81-7f3be9f54613)
+
+* Solution. [**VERY IMPORTANT**] [Practice Again]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * Milk(M) : Water(W) -> 3 : 5.
