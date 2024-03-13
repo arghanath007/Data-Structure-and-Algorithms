@@ -3030,8 +3030,116 @@
 
 * Answer is **261%**.
 
-## percentage-and-di-part-ii (50) [16th July 2023]
+## percentage-and-di-part-ii (50) [16th July 2023] [13th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be5a78c-7876-46c4-bfc9-6a854d00340a)
+
+* Expenditure is **constant**.
+* If the price of the fuel is **increased**, the consumption must be **reduced** to keep the **Expenditure** as **constant**.
+* If the price of the fuel is **reduced**, the consumption must be **increased** to keep the **Expenditure** as **constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d78a11e-f734-4445-8c39-537cdfbc1485)
+
+* R -> Rate.
+* If the price of the fuel is **increased** by **R%** then the consumption must be **reduced** by **((R/(100 + R)) * 100** to keep the **Expenditure** as **constant**.
+* If the price of the fuel is **reduced** by **R%** then the consumption must be **increased** by **((R/(100 - R)) * 100** to keep the **Expenditure** as **constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b235c09-906e-41a2-9098-fa14127eab87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f054cf7-063c-423d-ade5-1792d3f396dc)
+
+* **((R/(100 +- R)) * 100** [Formula] [**VERY IMPORTANT**]
+* If we want to **reduce** the **consumption** then **add(+)/increase** the **denominator**. 
+* If we want to **increase** the **consumption** then **minus(-)/decrease** the **denominator**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48a51709-c953-4785-9a05-5673cdc6c845)
+
+* Example.
+* We are doing this to keep the **expenditire constant**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efbf4aac-9bb0-442b-a502-bbe42f4acc2d)
+
+* Example [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce478b67-927c-4caf-bf89-6e519fd1569a)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c0fe8a2-c5eb-453d-bf52-8aabfe8c65f0)
+
+* 6.67 % increase -> (6.67/(100 + 6.67)) * 100 -> 6.25%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3778dbb5-38a2-48a2-a70e-063967b36c1b)
+
+* 5% decrease -> (5/(100 - 5)) * 100 -> 5.26%
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e869731-876b-4db0-98ac-1ada4f2ae7dd)
+
+* Question
+* 1
+* 25% increase -> 20% decrease
+* 12.50% decrease -> 14.28% increase
+* 6.25% decrease -> 6.67% increase
+* 14.28% increase -> 12.49% decrease
+* 4% decrease -> 4.16% increase 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b1f731d-2032-4da7-94e6-917fb1ee43d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecdb2ada-c8d2-40da-bcc4-7a27017aaafd)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/668d1050-15de-48a1-84b8-ea774b7c8710)
+
+* Start from **25mins**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * Milk(M) : Water(W) -> 3 : 5.
 * Quantity of milk -> 3K
 * Quantity of water -> 5K
