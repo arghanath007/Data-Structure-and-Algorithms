@@ -3418,8 +3418,133 @@
 
 * Answer -> **2006**
 
-## percentage-and-di-part-iii (51) [16th July 2023]
+## percentage-and-di-part-iii (51) [16th July 2023] [14th March 2024]
 
+## Percentage
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a4f3afc-7a1b-4a5e-b799-f4563d43ddbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3e95be1-0a2d-4aae-b137-ebb2cba4cead)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12690cb7-8e8b-42ef-8ebf-499760942504)
+
+* Finally the **thief** had only **1-diamond**.
+* ((x - 12)/8) - 2 = 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/424de787-33db-46a3-9161-e34de0863aab)
+
+* Answer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/306ccc45-2e81-4bf9-9615-ae85d54626b9)
+
+* We understood that the **last no** is **important**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9ec05de-6b65-41e4-bff2-410dd7e80c96)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb0fc025-10ce-4e79-925e-03cfb40bc0cd)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66fef2b7-f4fe-4915-aa6e-dd8db2ef1623)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb225e2f-27b3-4122-bc8d-6df014ad219e)
+
+* 0.6 - 0.4 -> 0.2
+* The **last no** is **important**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ddf56d-b859-4b17-9a2f-cecce75388d8)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ea712fe-7441-43d5-907a-324a541a16c0)
+
+* 37.50% [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea70384f-5c88-4c3c-9888-db8343e5ed11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2df9b8b5-5f17-4def-8924-c9a0ed91d2ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f8ca35c-fcec-4cf6-a2ed-1fc949351888)
+
+* 54.54% [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a97dfcd3-0be3-467b-b3c5-cebbf7953354)
+
+* Q - P = 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46c54fa6-4ede-4675-80c3-ea6ee4e4d8bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53fffed2-399a-4b84-987e-c55e96a1e36b)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78aad99b-3849-4ac4-8f46-773ac1805b95)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/befd2539-45f5-4c24-bb2a-29948c9edc92)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92ef62ea-b490-40ae-a611-28c064590bf2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/054723af-da01-4161-935a-c441baa65f91)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd094df3-f824-48a7-87f3-46d043cc1837)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5063aaac-8209-4746-b994-eed36518874b)
+
+* 1/2 * ((x + 12)/2) + 2 = 17
+* x = 48 [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af20f377-8f37-44f9-a3ef-8695812d72a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d3a419c-d136-40b4-a970-d337b30cbec3)
+
+* 0.5x + 12 = 1.1 * 0.5x
+* 12 = 0.05x
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c960644c-4d9f-4d65-9572-8768cb32f931)
+
+* x = 240 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2641b157-9020-4407-a87d-14a18395029b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52bc988a-d38b-4205-96dc-3abd8f8b0b21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc924a7e-1e67-4267-86d3-9683f2ed3d39)
+
+* HW. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/453383ec-f52e-48ec-9d05-ca3aa60bee2a)
+
+* Formula [**VERY IMPORTANT**]
+* If nothing is mentioned then the **discount(D%) or commission(c%)** is always on **marked price(MP)**.
+* Profit or loss % P/L% is always on **cost price(CP)**.
+* Selling Price(SP)
+* Cost Price(CP)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bd71142-41e6-4b97-b45e-70f3e565a838)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a00d638-1a91-47b6-a0ab-348fdadf6a7a)
+
+* C paid -> 1080 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44fdac90-e3be-4989-b451-c629c2870d40)
+
+* Profit -> 33.33% [Example] [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b034074e-e667-4c1b-a997-c2d08e0c4093)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aebcfc8-6bfb-44f7-a4c8-3f94c39d5093)
+
+* Profit -> 44% [Example] [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fae5840-1e14-41d6-b90b-845a4b256f40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59b6a42a-cc45-411c-9f0d-c535ea49ba13)
+
+* Profit -> 1% [Example] [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e3897ec-8f98-45bb-86e1-adeb2617f01b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d56dc867-3f5f-4446-9916-91b6964ce712)
+
+* Original -> 10
+* New pages -> 5
+* * % reduction in pages required -> ((Original - New)/Original) * 100 [Formula] [**VERY IMPORTANT**]
+* % reduction in pages required -> ((Original - New)/Original) * 100 -> (10 - 5)/10 * 100 -> 50% decrease
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f21ad18d-6fb4-49f4-9d59-fb5d2ccf950d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/397c44e8-7031-4009-a9e7-31551093d2d0)
+
+* Original -> 20
+* New -> 16
+* % reduction -> (20-16)/20 * 100 -> 20% decrease
+* Option **A**.
+* [HW] [Next Class]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Percentage and DI
 
 * E = P * C
