@@ -3713,8 +3713,77 @@
 
 * Net chance = ((FV - IV)/IV) * 100% = ((57.75-50)/50) * 100 = (7.75/50) * 100 = 15.5%
 
-## verbal-reasoning-part-vii(52) [16th July 2023]
+## verbal-reasoning-part-vii(52) [16th July 2023] [15th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0629afa-4381-45f1-8ad9-b29a9821099b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e98ef381-7850-40f4-b65a-263e6c5658b9)
+
+* Option **A**. [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8a4a42e-8899-4a9d-ae22-41da3b9ed9df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89cec5b9-ae50-439b-8dc3-8a434b29688b)
+
+* Option **B**. [**VERY IMPORTANT**]
+* Option **D** is **out of scope** of the paragraph. 
+* August -> Month [**VERY IMPORTANT**]
+* august -> occasion. [**VERY IMPORTANT**]
+* should/ought/must -> **IMPORTANT** words.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4550b405-bb5b-4a84-bb2e-50db0f1b7f21)
+
+* Done already.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f76a6bc-27e1-4cc2-b16d-760de6234bfc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc069ad8-b62f-4449-bda3-462acf65c482)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e581023d-05b8-4eb4-81fd-cb8d60b235dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fbcae62-12dc-47da-b2af-9f0ccb5065ad)
+
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
+* fringe -> Extra
+* masochistic -> enjoying an activity that appears to be painful or tedious.
+* Deranged -> Insane.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e329e49-af63-4712-ac8a-d5c6e30d482d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8622fc3-034d-4bd2-8af8-51c57b2b1b21)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a98e0339-6952-43c2-b494-54a02c876a4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06050815-dd1d-4458-8a69-7447a14e75ae)
+
+* Option **A**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3f7a761-737c-4f55-94c1-064978baa061)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9120d17-f610-4ddb-a69f-a06c5c84f2ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81a11258-8e50-49c9-a6d8-3c8e967b2371)
+
+* Option **A**.
+* Insinuation -> Kataksh -> suggestion of something bad
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54b0a0b8-4910-4bcd-8a63-aa4507ca76b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fef75a9d-03bb-4e89-a1a3-daae50710643)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7748b58a-4dae-41cc-91df-ad84e7b4dae5)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85eef8c6-7202-4eb9-b39b-a3fab02dfe9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d908f875-2e11-4e8d-a28e-5298627d118c)
+
+* Option **B**.
+* Belter -> Outstanding.
+* Skirting -> Avoid/shun
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f21cc9ae-1ab1-4661-8bad-df6b335019f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eec8cdc-8520-4322-9f32-25c2c0febf78)
+
+* Option **D**. [**IMPORTANT**]
+* Fact -> It is something which is open to verification.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af1d5ba3-4984-48ed-add7-cf22c927b7fe)
+
+* If **dare** word was in the **paragraph** then option **B** would have been the **correct** answer. [**IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85699fa7-e426-486b-95ca-9ad8fa764faf)
 
 * Question
