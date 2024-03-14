@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c0155fb-1537-44b1-8f3d-77a8a66e517e)## Time speed distance work and time part-IV (40) [29th June 2023] [10th March 2024]
+## Time speed distance work and time part-IV (40) [29th June 2023] [10th March 2024]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e17ed182-ae82-466a-9c97-41cb9289ef07)
 
@@ -4782,3 +4782,7 @@
 * HW.
 
 ## percentage-and-di-part-vii (60) [3rd Aug 2023]
+
+### Extra
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c0155fb-1537-44b1-8f3d-77a8a66e517e)
