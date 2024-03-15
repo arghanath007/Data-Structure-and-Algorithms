@@ -4979,8 +4979,162 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1294145b-c440-4470-8fd2-b849981a193d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57e217c-c962-42af-94b1-d79055b8a88c)
 
-## percentage-and-di-part-v (58) [31st July 2023]
+## percentage-and-di-part-v (58) [31st July 2023] [15th March 2024]
 
+## Mixture and Alligation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34ec97af-2506-490c-a330-9cd8e3fb47a0)
+
+* Mixture -> Similar state of two or more things mixed together.
+* Alligation -> Set of rules we will follow.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/457cd620-c975-4b9c-96f6-1559e8764044)
+
+* Average of Average = Weighed Average(Aw).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e824e55-7b28-4d89-85b4-97a68e143c5e)
+
+* Total Distance Travelled/ Total time taken.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ef6c795-0c36-4e05-943a-7209c15946b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3d70dfa-990c-49b4-99bd-94e76668b940)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92ad2a27-97c5-4919-8813-5399b6112f23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db0a4179-0a4d-4105-8d52-bec8c7fa6a1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df1c8c7e-4691-47a9-868c-23670641ee3c)
+
+* Weighted Average, [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38c88dc1-41c7-4fe1-863a-5f3a26ea997e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e185f2c-8cfb-4fe9-976b-5b15fcf5fbc1)
+
+* 0.80/0.70 -> 80/70 -> 8/7 [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c948334f-8ec7-474a-b19f-3638697e72f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/336fcb0a-4625-4b45-a1f3-94e8a5bb7b5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6621c732-b9ca-401d-ab3e-600c0a757a7b)
+
+* A1 = 62
+* A2 = 72
+* Aw = 64.50
+* n1/n2 = 72 - 64.50/64.50 - 62 -> 7.5/2.5 -> 75/25 -> 15/5 -> 3/1 > 3 : 1
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3264243-495d-42e8-9e3d-c92343d9fbc4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/019ae272-f2c7-463d-af68-1458700f7eda)
+
+* A1 = 15
+* A2 = 20
+* n1 = 2
+* n2 = 3
+* Aw = A1n1 + A2n2/ n1 + n2 -> 30 + 60/ 5 -> 90/5 -> 18
+* Option **A**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d7bffbe-2667-4b84-85cf-ed17017b16d9)
+
+* Example.
+* If **cost price(CP)** of **milk** is not given then we will consider it as **1**.
+* If **cost price(CP)** of **water** is not given then we will consider it as **0**. **Water** is present is in **abdunance** so it is considered as **free**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e39708c-fbaa-488e-9895-bfac85cb0c49)
+
+* CP of water = 0
+* CP of milk = 12
+* Aw = 8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/040ada3e-3280-4e34-b13d-9d465ab2b078)
+
+* Option **A**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5908af76-947f-4eab-b9fa-3df1ba76cebf)
+
+* Formula [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541d9b12-562e-4592-b027-c7eaaf5a6d5c)
+
+* A1 = 126
+* A2 = 135
+* n1 = 1
+* n2 = 1
+* n3 = 2
+* Aw = 153
+* Aw = 126 * 1 + 135 * 1 + x * 2/ 4 -> 153 = (126 + 135 + 2x)/4 -> 2x = 351 -> x = 175.5 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/671378d4-fe45-4aa1-9485-5f672ceecca3)
+
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/177d830b-d193-4bf9-84b7-e0e417fa2260)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b76f261c-5680-4434-81e7-e021adf0b5a4)
+
+* Negative Compounding [Discount]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef11fd5a-1c9e-409a-a586-e943c1a59645)
+
+* Example. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6f620a3-616b-4840-8d30-0aedf5a47160)
+
+* Amount of pure liquid left in the cask. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c585798-814b-4d0b-8729-5c77591a813f)
+
+* Example
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3f86978-a521-403f-8eaf-855e740d26c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23f55f8e-e04b-4ddd-beb2-fad24943aa35)
+
+* x = 40
+* y = 4
+* n = 3
+* x * (1 - y/x) ^ n -> 40 * (0.9) ^ 3 -> 29.16
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d673356-f365-44ab-bc82-94dc4f8b7794)
+
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ee49f21-1a2e-4964-b502-1004a9b03d2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/265ea728-c395-4159-bbeb-4fe1f5a1af46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e280e6c-ad9b-430f-8130-fb745d4372b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6eb78c0-cdc3-4085-9f6f-a7e6788eb3c2)
+
+* Year 2 -> 800
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae4cfa05-60cf-48dc-a976-74a744be9d8f)
+
+* Year 3 -> 600
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf754cfa-fb8a-4e98-82b4-231195078dd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d531c29-0864-4bf9-aeca-dfd8d88faef9)
+
+* Year 1 -> 600
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b5df8e6-7019-4eec-af80-03ad227f5cad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2659de01-a359-43d6-b4ab-e34253985d68)
+
+* Question
+* [**VERY IMPORTANT**] [Practice Again] [Formula]
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae5ed0a5-f86d-415f-ac4e-2fdbea0291e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29b8982f-a87c-4f1c-bcee-0f8e15f284bf)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d16ac85-1841-49d9-b645-9609768d0f2a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbf37189-9fe9-4f42-a6c4-10c895fd8e41)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed489df0-8118-47e3-aa04-7c2efd11b0ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87091188-4e58-454f-a2b8-56d540ac6077)
+
+* When **k = 5** we will get **50**.
+* It should be a **complete multiple**.
+* Option **A**. [**IMPORTANT**]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf6299a7-ee88-4d6f-af05-bf2fe821b47d)
 
 * By what **percentage** has the shopkeeper marked up the goods?
