@@ -4520,8 +4520,135 @@
 
 * Link -> https://gateoverflow.in/313382/gate2018-ce-2-ga-10
 
-## percentage-and-di-part-iv(56) [26th July 2023]
+## percentage-and-di-part-iv (56) [26th July 2023] [15th March 2024]
 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d34992dc-bec4-47e5-b312-3a73b260a070)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b1e40c0-be56-4be2-a79c-83da4803e2bc)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9049627-a588-4d04-ac54-41b15f7781dc)
+
+* Pattern
+* Diametrically opposite.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48acb9cf-85e9-4231-a273-608a385a7a25)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e19cf515-9a1d-48d9-9d05-238f1d674fff)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/514999ef-c85b-4e32-abb0-46f319a9c23b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17204fd8-f09e-4969-a576-269e39658191)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0bd2da7-d56a-4889-b63d-424a158bc138)
+
+* 1 tonne -> 1000Kgs -> 10 ^ 3kgs. [**VERY IMPORTANT**]
+* Total -> 500000
+* 1 -> 55000
+* 2 -> 100000
+* 3 -> 95000
+* 4 -> 110000
+* 5 -> 60000
+* 6 -> 80000
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84391779-bde4-4ef7-aab6-6dd818adeddb)
+
+* Revenue -> 250
+* 1 -> 30
+* 2 -> 50
+* 3 -> 57.5
+* 4 -> 15
+* 5 -> 50
+* 6 -> 47.5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e45a8a44-411a-4169-b5fd-a69d269373aa)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42c7bf65-2d23-4779-8e0f-652bd3777fdb)
+
+* Item_1 = 30/55000 * 1000 -> 30/(55 * 10 ^ 6)
+* Item_4 = 15/110000 * 1000 -> 15/(110 *  10 ^ 6)
+* Ratio of Item_1 by Item_4 = Item_1/Item_4 = 30/(55 * 10 ^ 6)/15/(110 *  10 ^ 6) = 30/55/15/110 = 30/55 * 110/15 = 4 : 1
+* Item_1 : Item_4 = 4 : 1 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/973cf6b7-6c29-492d-a9f5-7ffc79ca602c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f329194c-1fcc-4135-8ba2-acc2f7abf90c)
+
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8a7b008-2c29-4299-bb2c-29b677d6d329)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36888299-7e71-494d-ab1a-9a9590379396)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a28d53dd-390a-4920-afb5-d88307f98e5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce61daf8-1262-4d04-ade5-4164b54955d1)
+
+* Option **A**.
+* perseverance -> Steady persistence in adhering to a course of action, a belief, or a purpose; steadfastness.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5a65ce4-6947-4df6-9fe1-265780a432cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18d1694e-06e6-4cd5-b453-1e402160e699)
+
+* T > M > P > S
+* Option **C**. [**VERY IMPORTANT**] [Practice Again] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4daf4df-3d29-4ce1-8601-ce6f5087cba0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92ca9858-5dae-428a-b7ba-36d038607185)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afcd327a-2fb6-49bc-8a6f-5f79e818c634)
+
+* Option **A**.
+* High -> Overwhelming
+* Option **B and D** is **beyong the scope**.
+* inoculate -> To introduce a serum, vaccine, or antigenic substance into (the body of a person or animal), especially to produce or boost immunity to a specific disease. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1db48b26-e55c-41ff-b8db-974b5f16efaa)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17780e64-4d9a-4412-920f-3b3f1e5b1bcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d44312d3-17b2-4ed7-8118-6f4b16876a96)
+
+* Option **B**.
+* We do not know the gender of **P**.
+* child -> Neutral gender.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc8e58ba-73e2-4ab5-8168-b167b9a4f1b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfef51d3-0f61-40bc-80ba-d50d95db4b3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e85a0ff7-9734-47c5-984a-8120134f99a5)
+
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
+* Take **cases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c01333be-6cbf-42db-9332-c12ba8471868)
+
+* K < G
+* P < G
+* P > S
+* D > G
+* II, IV
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d1ea946-eb09-4a23-a97e-0eed317e06a6)
+
+* Option **C**. [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d79307a-f3a0-47af-aeaa-9c6a6e95f011)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d91388a8-3f46-45c1-84e1-86f2bda24b9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/accc6486-b7c7-4c7e-9cd0-da124b5cc62e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5edd19e6-b5c3-493b-8557-c9e110098efe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c3103f6-dd91-470a-9909-ae90eb2da857)
+
+* So < R
+* Sh > A
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de262b44-7bc3-4a1a-b62f-f4985a3c8c2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1265270-678b-4745-a276-e51be20d6bc0)
+
+* Option **A**.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Percentage and DI
 
 * MP -> Marked Price/Catalouge Price/Max Retail Price/List Price/Original Price
