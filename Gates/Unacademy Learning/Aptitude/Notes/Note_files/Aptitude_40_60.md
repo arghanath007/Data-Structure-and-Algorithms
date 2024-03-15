@@ -4205,8 +4205,141 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f8ab8b2-db20-4882-9bd7-06ac8c10f80d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/febff94a-fddf-4fbb-a55f-7c5ef26d0c2e)
 
-## verbal-reasoning-part-ix(55) [24th July 2023]
+## verbal-reasoning-part-ix(55) [24th July 2023] [15th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d13450ea-a5ec-494a-840b-c53619a64986)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fd36476-d4d8-4b64-b0cd-84ad5d401eca)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c64ae62-7ef8-406a-80cb-6f15e87dfc78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b0cd407-b307-4e2b-a163-b13ef138eef0)
+
+* Option **C**.
+* Untrust -> Archaic/obsorclete word-> Archaic word for **distrust**. [**IMPORTANT**]
+* Intrust -> Archaic/obsorclete word-> Archaic word for **entrust**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6e81765-67fd-45bb-b469-2b81f397113b)
+
+* Entrust -> Entrusted -> Positive word
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4138ea15-1af6-4c0f-bc60-a69bbe375489)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff63d9f8-e84d-40df-b5c1-81f8003aceeb)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/decd7149-07dd-47ac-a2ef-adba5bf422a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ad3cf70-fd89-4355-9634-2545c348a841)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e88ae104-f5cc-49c5-8c2a-004b5dd5294e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd471e27-5837-4df6-b40f-45582b5c70b3)
+
+* Option **A**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f647e302-0c18-45ca-b330-36819a04988d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c7b62cc-c043-4dd8-add7-71c284c43589)
+
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9db86dfd-4802-468a-bd4b-0048a7e7067a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cf80a2a-2353-43a4-bea7-1d0495e09718)
+
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+* Convoluted
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76d9b1c4-c0ed-40de-90c4-a9eb0287f12f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/860f235c-c0b3-446c-81a0-ff0a2465e1dc)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be175258-c907-43b3-9019-9c38d47559be)
+
+* Patterns. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf27e441-798e-4af0-be2e-3bbfc84b2ec5)
+
+* Adjacent
+* Opposite.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a093b79-b760-4ce2-af2a-0be1f08601a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/180105d1-5c92-4572-b99a-872800902343)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14003764-2a67-474c-8c44-02273a805634)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7904a406-fe0d-4b21-adf9-9012b7fbfd34)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbfd6416-fe8c-4106-8f65-29be27d8f982)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b533795-0d39-4f33-b84f-58bd29ae0810)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a10144bb-164c-476e-a8c3-01e15c12033f)
+
+* Large Plants(LP) -> 1, 4, 8, 9
+* Small Plants(SP) -> 2, 3, 5, 6, 7
+* Large plant production -> 160 + 190 + 230 + 190 -> 770
+* Small plant production -> 150 + 160 + 120 + 100 + 120 -> 650
+* Difference -> Large - Small -> 770 - 650 -> 120 [Answer] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d9c4334-db7c-47af-a137-4a9ba1780983)
+
+* Only. [**IMPORTANT** word]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcd67c1e-16ed-49da-84ea-22622de72aaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77019b5d-8ab0-4020-a461-46c31893b0f8)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/487a78ba-1f23-48fa-a156-e77bbb6ee8b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1b3b1c9-9e8c-4195-ad1e-8089afea5cc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d032d806-0412-436a-b326-5f8971565d5b)
+
+* Option **D**.
+* Sylogism is all about **atleast** case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55e72576-e6fe-4440-aea0-a122a14f26f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99d8b2bc-c1ac-4ecc-8666-d599fa92354c)
+
+* Option **A**. [**VERY IMPORTANT**] [Practice Again] [Example]
+* Courses of action [**VERY IMPORTANT**] [Example]
+* Do not go to the **extreme measure** always. [**VERY IMPORTANT**]
+* Appeal -> **IMPORTANT** word
+* significant drop -> **IMPORTANT** word
+* partial cut ->  **IMPORTANT** word
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f91cbb1-bbf1-4048-8dbb-8d998b7c12dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6213f91e-aaa3-4a09-bad7-cc5fef599f9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c195bf2-d14f-4a46-8ee2-4cb8857218a2)
+
+* Average Marks -> Total marks obtained/ Total students. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77286072-8b05-4aa6-867f-6cc283896500)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44d93fa8-3fbb-46b9-8f3b-1731c0a513d8)
+
+* Link -> https://gateoverflow.in/8010/gate-cse-2015-set-1-question-ga-6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/950a7ba1-6c9b-4bed-8c03-0cccb89c8db4)
+
+* Solution.
+* The **no. of students** is the same for all of the questions which is **44** so divide it by **44**.
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f512107-535f-4ba6-bdd7-0a4b5b3e316f)
+
+* HW.
+* Proportion.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9483d81-4d18-4b67-8ec0-a12aabe4f9b1)
+
+* Hint. [**VERY IMPORTANT**]
+
+![Untitled](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b069c1d-c554-481b-84ea-2666b9b077ac)
+
+* Solution [**IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f5c4e83-b700-4da6-b1a2-98b20c39024f)
 
 * Question.
