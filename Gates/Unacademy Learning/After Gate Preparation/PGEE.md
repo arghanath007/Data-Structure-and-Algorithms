@@ -78,9 +78,17 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fa3bea1-8293-4332-ae66-3c049f07fba2)
 
+## Questions
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b525c0a-8ff9-4e7d-9efb-fa5c3084428d)
 
+* MS -> Research
+* M.Tech -> Course work/subjects.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aadb351d-2da8-4e07-94d7-9d95104c5075)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b224b0c1-e184-4d31-b86e-cd4542976049)
+
+* 2022 PYQ questions.
 
 
 
