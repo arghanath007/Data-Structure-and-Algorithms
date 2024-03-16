@@ -320,34 +320,83 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85202bf9-80aa-4d01-802c-6c90b1658c23)
 
 * Best Player -> Zita's brother [Unique Solution] [**VERY IMPORTANT**] [Practice Again]
-* Start from 26mins.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09bd76d2-d0e3-4ae6-b550-02c9d8c32423)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efb664ba-9296-4b9f-ba32-148637855b6e)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a74a3c0-c662-41a0-972d-053e34803c58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7efec0ec-0594-4857-8ae0-cb36f267b9a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/126c8f54-e34b-486e-b954-dbc77621b09f)
+![Untitled](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fad8a730-d849-400f-8eb0-da2ac511bba4)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4af22f4a-f26b-45b2-bdfc-b85f489eb306)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e58e9b2-fe06-4947-8124-0ab4330e8086)
 
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3848c8ae-6bcf-4c91-ad92-9de6db103a5e)
 
+* Done earlier.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a7bc8e5-28c5-4a2e-8e3d-82ab37ef3adf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/705a7031-0371-4133-8b7c-528b1fd604d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15bdfb9f-884d-473d-a6b2-d3af1ba8bedd)
 
+* Option **D**.
+* Simile -> **As/like** words are used.
+* metaphors -> indirect comparison
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/171917e5-68d1-4105-8fec-58344c285fa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a292ab2-f5e4-454d-b3a6-636ff66c7376)
 
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ddd9a3f-036e-4303-bbd3-63857de9bfb4)
 
+* Option **D**.
+* next -> adjacent/beside -> Different words with **same meaning**. [**VERY IMPORTANT**] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e79e50b-4a83-45e1-af2d-0a8a882a9fb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8729e244-8802-4581-9549-a53e1639811a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d89624c-9801-4d05-a037-935c4b132411)
 
+* [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f7ef534-f483-4e19-9915-e1d0212e8936)
 
+* Option **B**. [**VERY IMPORTANT**]  [Practice Again] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b52ae13-efa7-409f-bf39-fceb378d8056)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78c07d88-57f9-4df6-a6da-5bc494aff016)
 
+* Distance(Km)
+* Fuel Consumption -> km/l
+* Km/(Km/l) -> (km * l)/km -> litre(l)
+* Distance/(Fuel consumption) -> litre(l).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef20c817-653a-4141-8eb4-fb57be5bc3af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ead81760-36d4-4b6f-bf44-950517475d4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e3bf9dc-24ef-48a4-a360-8710e78797f2)
 
+* P -> 15/60 -> 1/4 -> 0.25
+* Q -> 75/90 -> 5/6 -> 0.83
+* R -> 40/75 -> 8/15 -> 0.53
+* S -> 10/30 -> 1/3 -> 0.33
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55fd98aa-f940-4937-968b-d2af139dcc13)
 
+* Pattern [Example]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd3d5792-5650-4052-8adc-e96b38d986c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/176c895b-062d-4cd3-9356-607be80a3e04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4aa08a5-2355-4ea2-a9ee-4bbd83857f79)
 
-
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Graphs
