@@ -580,8 +580,219 @@
 
 * Option **D**, **1991**.
 
-## percentage-and-di-part-viii(62) [13th Aug 2023]
+## percentage-and-di-part-viii(62) [13th Aug 2023] [16th March 2024]
 
+## Geometry and Misc.
+
+* Circle
+* Regular Hexagon
+* Equilateral
+* Square
+* **IMPORTANT** diagrams
+* Symmetrical geometry.
+* Point(.) -> Exact location/fine dot.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/040b7830-d17b-4ded-a748-8ad371d057bf)
+
+* It has **no length(l), no breath(b) and no width(w)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f641761-da3c-41cb-979b-a66b5b32ad78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7dd7f261-7bc3-406e-9c7c-b4fd2a2910fa)
+
+* Minimum no. of points required to draw a **straight line(s/l)** -> 2 [**VERY IMPORTANT**] [Formula]
+* Minimum no. of points required to draw a **triangle** -> 3 [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8df1a89-0d18-4f21-a9df-cf6bfb8a82f1)
+
+* There are **n** points and none of them are **co-linear** then the **total no. of straight lines** will be **nC2**. [**VERY IMPORTANT**] [Formula]
+* There are **n** points and also **co-linear** points are there then the **total no. of straight lines** will be **totalC2 - collinearC2 + 1**. [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46275230-ad2f-477b-babb-2b58450609ee)
+
+* Total -> 20
+* Colinear -> 5
+* No. of straight lines -> 20C2 - 5C2 + 1 -> 181
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d87dd8b-0c9e-4f51-b9bc-17ac8e4d2e9a)
+
+* Solution. [**VERY IMPORTANT**] [Example] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/390c80f6-9e27-4757-9fd7-a8fc7042666a)
+
+* Angles.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a29f28-8e85-4c27-a90c-4105fc331977)
+
+* Angle bisecter.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57b82823-ff11-42b5-a779-d2b7b372a0dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3821f608-255b-4e96-84cd-da9559082848)
+
+* If the sum of **2-angles** is equal to **90 degree** then it is called a **complementary angle**. [**VERY IMPORTANT**] [Formula]
+* If the sum of **2-angles** is equal to **180 degree** then it is called a **supplementary angle**. [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f49e5b75-ccef-423b-a74b-f3bfdfc6aa79)
+
+* **Vertically opposite angles** are always **equal**. It means that **Q1 = Q3** and **Q2 = Q4**. [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/751308c0-132c-4b1a-9be0-72848bfe956a)
+
+* Intersection.
+* Overlapping.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ffdcdb3-a20a-4d25-90df-cc774ca9b819)
+
+* Two or more lines are called **parallel** if they do not intersect each other. [**VERY IMPORTANT**] [Formula]
+* Max. point of intersection(POI) of two straight lines can be **only '1'**. [**VERY IMPORTANT**] [Formula]
+* The max. of two points of POI is **only '1'**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4bf8f67-0bfa-4b5d-9f3d-26ea760075a9)
+
+* 2-lines are parallel if they are co-planar and if they do not **intersect** each other even if they are extended to **infinity**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99ae5413-9860-49a8-a175-8475bc388614)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37c04358-813d-4a74-8398-e95e95f92100)
+
+* Transversal -> It is a line that intersects/cuts two or more co-planar lines.  [**VERY IMPORTANT**]
+* Which one is **transversal**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eedd2308-c331-4f5d-b601-c1c51a5b0d36)
+
+* Which are **corresponding angles**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51ecc4fb-631f-4c30-8990-f571860149d9)
+
+* Solution.
+* Corresponding Angles =  Lines Equal. [**VERY IMPORTANT**]
+* Lines Equal = Corresponding Angles. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3d14b81-569b-4713-94f6-2033d76f9c14)
+
+* If 2-lines are parallel then alternate interior angles are **equal**. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/684cd86d-dee3-4597-befe-440be890d193)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e91e8a9-0e5b-4626-927e-0061a379b246)
+
+* Interior Angles.  [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/662522ad-698b-4087-8ac8-d9d794aad262)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7e65f98-f00a-438d-8fbb-c6a2ffabb44b)
+
+* Triangle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bc06f9c-d8bc-4d24-a02f-c1b58c0eac55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/753d5433-8d89-42e9-997b-ffcf8a90fc5f)
+
+* The **sum** of any 2=sides of a triangles must be greather than the 3rd side of the triangle. [**VERY IMPORTANT**]
+* The **difference** between any 2=sides of a triangles must be less than the 3rd side of the triangle. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddffa11b-e6fe-408e-9351-cfb2bb6a8efc)
+
+* 13 values. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79e56671-5c50-425d-aabd-078be1efa4a4)
+
+* The 3rd side is an **integral values**.
+* How many possible values for the **3rd side**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28713175-9be2-4709-9e17-3e4037bff9b2)
+
+* Solution [Example] [**VERY IMPORTANT**] [Practice Again]
+
+### Regular Polygon
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2893c663-011b-4b88-956d-002710dcb071)
+
+* Polygon -> It means **many sides**.
+* Regular polygon -> All the sides are **equal** and all the angles are **equal**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec96e28e-49e6-4269-a3c6-025db29a5b25)
+
+* Interior Angle = ((n-2)/n) * 180 [Formula] [**VERY IMPORTANT**] [Example]
+* **n** -> No. of sides
+* Equilateral triangles, n = 3
+* 3-2/3 * 180 -> 60 degree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92b9168b-a68a-4b29-b9ed-381be0ed897c)
+
+* Square.
+* Hexagon.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5197685c-d341-486e-a908-d9290fa02b91)
+
+* Example. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d9ad34b-6fd4-4d02-b503-80b7dbd2610c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1f15d33-c373-47ce-acbf-d5745402476b)
+
+* Sum of **interior angles** -> (n - 2) * 180 degree. [Example] [**VERY IMPORTANT**]
+* **n** -> No. of sides
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70713076-783d-44f4-bbd4-7519766bd656)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32792343-6830-48a7-ba88-c47db9c6f384)
+
+* Example. [Sum]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/116bb949-1678-4353-9eab-90721295fa7b)
+
+* Decagon -> 10 sides [**VERY IMPORTANT**] [Question]
+* Find the **interior angles**.
+* n = 10
+* (n-2)/n * 180 -> 8/10 * 180 -> 144 degree. [Answer] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0935b7af-0fe2-44fb-9476-0a9d24c5d750)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae4d3ea1-188a-4050-b114-5732581a144e)
+
+* **Star Geometry** is a special case of **regular pentagon**. [**VERY IMPORTANT**]
+* Straight line
+* Linear angle is **180 degree**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d720a3c5-8be5-479d-906f-5e3d149a3e3c)
+
+* Sum of the **3-angles** of a triangle is **180 degree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4596710-86ec-4a42-bf51-99cf7fccaa50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddd73b4a-40be-44bd-acbe-10a9cb454f14)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab1877c5-2e73-4591-8545-866e546175ba)
+
+* No. of sides(n) -> 180.  [**VERY IMPORTANT**] [Question] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be582de-2e31-41c2-8964-e751c2d066a8)
+
+* 180/n -> 180/180 ->  1 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6008ff67-0563-4ed9-b6b3-64cca6b2f8b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c81caea0-2c09-4801-bdfd-c2432b68b258)
+
+* n = 120 sides [Answer] [**VERY IMPORTANT**] [Question] [Practice Again] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63462298-1715-4126-b914-dcbe60b41b54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/267718b5-16b7-45ae-b9d2-c8da272c6457)
+
+* Exterior angle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ce6da6d-aa59-4e93-b8bf-9de41c9a3e10)
+
+* Question
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/868b599c-b2d1-4c22-ab05-48f5bae4a237)
+
+* Solution.
+* In case of any **regular polygon** the sum of **1-interior and 1-exterior** angle is always **180 degree**. [**VERY IMPORTANT**] [Point **1**]
+* Regardless of the **no. of sides** it is always the sum of **1-interior and 1-exterior** angle is always **180 degree**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbaa4e4e-8455-4de9-8b43-8b63140d7b9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73c1f15c-b5f1-47bb-a407-91e34f8895ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8100117c-50df-4099-846f-091b014eada2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c556c782-55b2-4407-a9d8-51f8aced1ffe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab71391d-8dd0-4d39-860e-8e51d1291a3c)
+
+* The **sum** of all **exterior** angles is always equal to **360 degree**. [Point **2**] [**VERY IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Logarithms
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/110b037a-ab37-4cf0-bd51-33ee515253e5)
