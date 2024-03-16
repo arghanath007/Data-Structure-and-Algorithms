@@ -991,8 +991,45 @@
 * Option **A**.
 * HW.
 
-## percentage-and-di-part-ix (63) [13th Aug 2023]
+## percentage-and-di-part-ix (63) [13th Aug 2023] [16th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/032eb76c-3d42-4d28-89e0-56a8459697a2)
+
+* height -> Always 90 degree.
+* Area of triangle, ABC = 1/2 * base * height [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e623cfca-b98e-4448-85e2-66de107df0b7)
+
+* Height between **2-parallel lines** is **constant**. [**VERY IMPORTANT**]
+* Area of all these **triangles** would be **equal**.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5c676d2-ffe5-4ad5-833e-33b45f05336a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b43903ea-1010-40a8-bea0-398e3e3c5498)
+
+* These are not **right angle triangles** so we have to draw the **90 degrees**.
+* **Sum** of any two sides of the triangle regardless must be **greater than** the **3rd side**. [**VERY IMPORTANT**]
+* **Difference** of any two sides of the triangle regardless must be **less than** the **3rd side**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9331b06d-e544-4524-a8cf-acbe0f611798)
+
+* There are **15 values** from **8 to 22**. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37a2b61b-4e23-4a54-85af-ef6bc9d58852)
+
+* If it is a **right angle triangle** then **hypotonuse(h) ^ 2 = a ^ 2 + b ^ 2**. [Formula] [**VERY IMPORTANT**]
+* If it is a **obtuse angle triangle** then **hypotonuse(h) ^ 2 > a ^ 2 + b ^ 2**. [Greater than] [Formula] [**VERY IMPORTANT**]
+* If it is a **acute angle triangle** then **hypotonuse(h) ^ 2 < a ^ 2 + b ^ 2**. [Less than] [Formula] [**VERY IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Inequality
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/868e1441-5d0f-42a7-a594-3063d605c5f8)
