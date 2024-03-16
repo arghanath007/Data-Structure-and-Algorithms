@@ -257,8 +257,99 @@
 2) Paisa double/triple/four time meaning
 3) Annually, semi-annually, quarterly
 
-## doubt-clearing-session (61) [12th Aug 2023]
+## doubt-clearing-session (61) [12th Aug 2023] [16th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bb30ddb-b182-440a-87d1-782f10e01ef2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c28c5b16-3dbf-45b3-b118-95cde8697e3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0c13e64-5e69-466b-a6b3-1e7c45e39bb0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddaa5f7f-0d1b-40ab-a5f5-7445238d4300)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84013889-00f4-465e-ba67-58190b1b5e90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cb84ef5-7aef-4caa-9906-6a41483fcfc9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1b64339-fc73-40cd-a7dc-74c4086fa4a8)
+
+* Statement 1 -> **A** has the ball
+* Statement 2 -> **D** does not have the ball.
+* Statement 3 -> **P** does not have the Pen.
+* Binary Logic. [**VERY IMPORTANT**]
+* The **1st case** can be that the **1st statement** is **True** and the **other '2' statements** are **False**. [**IMPORTANT**]
+* The **2nd case** can be that the **2nd statement** is **True** and the **other '2' statements** are **False**. [**IMPORTANT**]
+* The **3rd case** can be that the **3rd statement** is **True** and the **other '2' statements** are **False**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d5d040b-b234-407e-9b8a-3d34db2c23cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3693355d-62a7-46bb-b6bd-1ed9945c6f0d)
+
+* **CASE 1**. [**VERY IMPORTANT**]
+* **1st statement** is **True** means **A** has the **ball**. **2nd statement** is **false** which means that **D** has the **ball**. Both **A and D** are having the **ball** at the **same time** which is causing the **conflict of interest**.
+* There is **conflict of interest** in the statements that's why **1st case** is **false/wrong**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b652febe-cf4a-4c18-8710-01ed2bceb05b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa7331fe-133c-4571-a82a-14cf9fb1bb05)
+
+* **CASE 2**. [**VERY IMPORTANT**]
+* Always make the **different cases**, it will make it easier to solve the question.
+* **1st statement** is **False** means **A** has either **pen/pencil**. **2nd statement** is **True** which means that **D** either has the **pen/pencil**. **3rd statement** is **False** means that **P** definitely has **Pen**. So, **A and P** are having **pen** at the **same time** which is causing **conflict of interest**.
+* There is **conflict of interest** in the statements that's why **2nd case** is **false/wrong**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20bd056a-fec7-40b3-a321-c56e609bf1ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0aed2cc-f15a-4400-aae9-01a6c9f779a2)
+
+* **CASE 3**. [**VERY IMPORTANT**]
+* Always make the **different cases**, it will make it easier to solve the question.
+* **1st statement** is **False** means **A** has either **pen/pencil**. **2nd statement** is **False** which means that **D** definitely has the **ball**. **3rd statement** is **True** means that **P** either can have **Pencil/Ball**. We are getting **two cases** here. In the **case**, where **A-> Pencil, D-> Ball and P-> Pencil**, both **A and P** are having **pencil** at the **same time** and we are getting **conflict of interest** so that case **wrong/false**. For the **other case** which is **A-> Pen, D-> Ball and P-> Pencil**, there is **no conflict of interes**, everyone has different things. So, the **case III** is **correct/True**.
+* No conflict of interest in **case 3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28e02255-2da9-469b-b1e4-495c1b879246)
+
+* Question.
+* Across -> Infront [**VERY IMPORTANT**]
+* Diagonal -> Cross. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf5e7669-469f-43f2-b1b4-c1466fe9c766)
+
+* Always make the **cases**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/574cb16c-7e11-447a-9bc6-92bc8bcb9dfd)
+
+* Worst Player(WP)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ed93998-b4ee-492d-b3b2-d517c111252e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2712aca3-5aa7-4738-b7f4-c7595ff7c2c4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85202bf9-80aa-4d01-802c-6c90b1658c23)
+
+* Best Player -> Zita's brother [Unique Solution] [**VERY IMPORTANT**] [Practice Again]
+* Start from 26mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Graphs
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a30769d6-aed8-4a52-b7eb-e13d7c2f3124)
