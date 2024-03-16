@@ -1,5 +1,88 @@
-## percentage-and-di-part-vii (60) [3rd Aug 2023]
+## percentage-and-di-part-vii (60) [3rd Aug 2023] [16th March 2024]
 
+## Logarithms
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bc9610d-d068-4962-a1b6-96734ed58001)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/974761ca-fbbb-4721-b274-00b05499431a)
+
+* Formula [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54fb13e5-db3f-48f8-81e2-395c9e484be4)
+
+* Rule 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f736efa9-de6c-4a5d-9c71-a9b731b8ccce)
+
+* Rule 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3102099d-6b9c-401c-b7cd-5d02018848ff)
+
+* Note [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02b98b5f-2108-43ff-a832-0dfa488a560c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fb409e9-c5e3-4933-910e-ba696ca04cea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/092b81f6-5f4b-49f7-8fb7-b3172bdd265a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0ff7570-4beb-4dd3-845c-55b77698f66f)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45b1026e-fbb8-40f9-a1b3-bdfbddb7eae9)
+
+* Rule 3.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ccf7a6b-07ec-4853-8eaa-ad02bd2daa9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f275ad7-3331-41d7-8a13-74c8d12fa2d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6330e916-ada5-45d1-acb9-19573cd762cb)
+
+* Example [Chaning the base of Log] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3989f288-98ed-4de4-adf9-ab77bb068256)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03811a42-129b-47ea-a3cd-338d890a3bef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15af6d1f-78bb-4402-bcca-6b476fc5497d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db0c04d1-5001-4e5b-a55c-cc4ab64962c2)
+
+* Rule 4.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6050be2d-d78d-4291-9dc6-52af822d0c00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fefeb04-44b6-4ad9-9ef7-c9bcb154931b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a08fae8-fc44-49b7-9809-c0e5d7cb88ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/367570ac-a24d-4a09-b198-d8a4665aec97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba077c4c-bd93-4d77-99c8-3c520bc9ef41)
+
+* Examples.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bad6c85-09ae-4d1d-b017-f632dde7227c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4665966-0ba0-4ad2-9686-6739c7bbc55b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/069ff6e6-48b2-4ea6-bd57-feb31a9d904b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0249de73-77f2-4a79-9d87-07af394074a7)
+
+* Examples
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54e7293c-7a24-4729-bbeb-7a6277aafe42)
+
+* 1/2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1d464fc-cf07-405f-aa1a-867c3bbbbd80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/546a7661-aba8-4a71-a511-4d1e42ff8b4f)
+
+* 3/2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69e3b9d3-93a9-4fd9-bb99-85b0b1f47136)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddf3dca8-848b-4bad-b35d-db2524fc8e84)
+
+* 5/6.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54203664-f8a5-4459-94c0-141a0e2a7108)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7703737-86a5-4542-bee9-93fe6c4c8751)
+
+* 7/2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/318c1003-2c1d-415b-bf51-ea91812e3c1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0407ff86-6590-4ce4-8f7f-1ab5ab70a7f2)
+
+* 15 ^ (2/3) [Answer] [**VERY IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## SI and CI
 
 * Amount(A) = P + I
