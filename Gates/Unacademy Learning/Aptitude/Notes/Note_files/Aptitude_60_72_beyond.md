@@ -2298,8 +2298,174 @@
 
 * [**IMPORTANT**]
 
-## geometry-and-miscellaneous-part-ii (66) [13th Aug 2023]
+## geometry-and-miscellaneous-part-ii (66) [13th Aug 2023] [17th March 2024]
 
+## Calendar
+
+* Concept of **remainder**.
+* Divisibility rule of **7**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dd66d57-d781-4d1a-ab4f-e1edb100182a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2a2a943-924e-48a3-bea0-cd9b78d5dd2c)
+
+* CY -> Century Year -> Multiple of **100** -> The last 2-digits are 2-zeroes(0). [Formula] [**VERY IMPORTANT**]
+* NCY -> Not CY -> Not Century Year. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/42cae38b-8dac-476d-a844-c671a4144475)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6492f00-8d74-4c4a-b16b-61ef84560f11)
+
+* 700 -> CY
+* 1780 -> NCY
+* 1700 -> CY
+* 1789 -> NCY
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1326c55-16a1-4807-93e0-f10ea96749ab)
+
+* How do we know any year is a **leap year**?
+* Leap Year(LY) -> 366 days.
+* Ordinary Year(OY) -> 365 days. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e39e5c0-1240-4412-90bd-0e2428416d23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67cbad49-03df-44db-ab34-c124c8521657)
+
+* Examples
+* If the year is a **NCY** then we will divide the year **by 4**. If it is completely divisible then it is a **leap year** otherwise it is an **ordinary year or not a leap year**. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35642908-4a6e-4f78-bc09-eae4fd67709d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9410ae43-fcf1-4f45-9767-fa0ccb211765)
+
+* Divisibility rule of **4** -> Check the last 2-digits of the no. if it is divisible by **4** or not. If it is divisible then the no is **divisible by 4** otherwise it is **not divisible by 4**. [Formula] [**VERY IMPORTANT**]
+* 1320 -> NCY -> it is divisible by 4 -> Leap year.
+* 1124 -> NCY -> it is divisible by 4 -> Leap year.
+* 1729 -> NCY -> it is not divisible by 4 -> Ordinary year.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d50793a-fd64-4278-93cf-7e49807813eb)
+
+* If the year is a **CY** then we will divide the year **by 400**. If it is completely divisible then it is a **leap year** otherwise it is an **ordinary year or not a leap year**. [Formula] [**VERY IMPORTANT**]
+* Year -> NCY -> divisible by 4 -> Leap Year. [Formula] [**VERY IMPORTANT**]
+* Year -> CY -> divisible by 400 -> Leap Year. [Formula] [**VERY IMPORTANT**]
+* Otherwise the **year** is an **ordinary year**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63dbd2a1-8ae5-42be-8207-c318f14b31e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9eb3b971-a07d-44df-b09f-7fe4e7cd272a)
+
+* 1230 -> NCY -> OY
+* 1100 -> CY -> OY
+* 2048 -> NCY -> LY
+* 1900 -> CY -> OY
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fab23aa1-6c7a-43cf-8b5f-919ce45f6db9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4db167a-8b7e-42a9-8c61-5a9bfd2dd352)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/892709fa-2ecf-4ce5-9536-37e27d6c807f)
+
+* The max. gap between two **leap year** can be **8yrs**. [**VERY IMPORTANT**] [NOTE] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/998f544b-dbce-49d6-aac7-ebd94d3dfbe2)
+
+* Odd days -> Extra days. [NOTE] [Formula]
+* 1 week -> 7 days.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49509b05-185d-4c03-b688-e7b31db5a6ba)
+
+* Odd days [**VERY IMPORTANT**] [NOTE] [Formula]
+* 0 -> Sunday.
+* 1 -> Monday.
+* 2 -> Tuesday.
+* 3 -> Wednesday.
+* 4 -> Thusday.
+* 5 -> Friday.
+* 6 -> Saturday.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3ee936d-cdef-4ef6-987e-55c726bf0a65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/702dbcb3-fef9-4ed2-a978-bfd7c44a32fd)
+
+* 23 -> 23/7 -> 2, Tuesday
+* 12 -> 12/7 -> 5, Friday
+* 42 -> 42/7 -> 0, Sunday
+* 71 -> 71/7 -> 1, Monday
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cf5992b-844f-479e-9f01-113dbb98723b)
+
+* 20/4 -> 5
+* 5 leap years and 15 ordinary years.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4559e1e7-928e-4d67-a25d-c55f75c56aa3)
+
+* No. of **odd days**.
+* Every **leap year** will gives us **2-odd days**. [Formula] [**VERY IMPORTANT**]
+* Every **ordinary year** will gives us **1-odd day**. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c0490c4-b950-4d60-a86f-0da181427c42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21b7cc79-c1cc-4d1e-9084-c6a2a466c18d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88fbdeba-fee3-4c75-94f1-16c1df00a153)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c370f278-8e38-4273-837a-159947c62dd0)
+
+* 5 * 2 + 15 * 1 -> 25 odd days -> 25/7 -> 4 odd days -> Thusday. [**VERY IMPORTANT**] [NOTE] [Formula] [Example]
+* **4 odd days** means that **31st of dec 0020** was a **thusday**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/334ed526-2e55-4c27-a62f-221d4ac1506a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2699c52e-a888-4bba-b63f-1df2589cc648)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90c2cbeb-1f9d-4b1a-854f-397178ed5a04)
+
+* 10LY and 30 OY
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e187fea9-e61e-409b-9110-44130bbd9bc6)
+
+* 1, monday.
+* 100th year is a **CY** so we will **divide it by 400** but **100** is not divisible by 400 so **100** is not a **leap year**. It is an ordinary year. [**VERY IMPORTANT**]
+* 100 -> CY -> Not divisible by 400 -> OY
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d025237-f979-4861-ba9e-26fbd96ba185)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b8bf9bf-de67-449a-b4fa-d4a733454175)
+
+* Example [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/062d86d4-a4dd-4010-bedd-9649d9df4f99)
+
+* 100th year is not a leap year. 200th year is not a leap year. 300th year is not a leap year. 400th year would definitely be a leap year.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12ff5ead-9b4c-42e9-9249-be0ed47456dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80260bc8-8529-450e-a495-9258dfa851fd)
+
+* As **400th year** is a **leap year** that's why we did the **5 * 4 + 1 -> 21/7 -> 0 remainder** which means **zero(0)** odd days. [**VERY IMPORTANT**] [Summary] [formula].
+* Start from 46mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3071535f-7010-4915-a886-773cacb4de4b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/249d256d-7699-4b57-a9a4-f201cad40837)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abd869b5-e07c-42f6-8498-7cea50b4c0b1)
