@@ -1015,19 +1015,221 @@
 * There are **15 values** from **8 to 22**. [Example] [**VERY IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37a2b61b-4e23-4a54-85af-ef6bc9d58852)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a819e66-c0ed-4cf6-a9c0-db49e869f856)
 
 * If it is a **right angle triangle** then **hypotonuse(h) ^ 2 = a ^ 2 + b ^ 2**. [Formula] [**VERY IMPORTANT**]
 * If it is a **obtuse angle triangle** then **hypotonuse(h) ^ 2 > a ^ 2 + b ^ 2**. [Greater than] [Formula] [**VERY IMPORTANT**]
 * If it is a **acute angle triangle** then **hypotonuse(h) ^ 2 < a ^ 2 + b ^ 2**. [Less than] [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1355e446-68fa-4963-a48e-921f97881353)
+
+* If we know that the triangle is an **obtuse angle triangle** then we will have **3 cases**. **Case 3** is not possible because **8^2** cannot be **greater than 15 ^ 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17bdbb98-eb7e-4eda-89e8-db2f2ff0f841)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25b6657f-dbca-4c12-a7c1-a3cdd535a72d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f9dca0a-3fbb-4151-aef1-f9de2362f363)
+
+* Out of these **15 triangles**, the triangles from **7 < b < 13** and **17 < b < 23** are the **obtuse angle triangles**.
+* So from **8 to 12** and **18 to 22** are the  **obtuse angle triangles**. It has dropped from **15 triangles** to **10 triangles**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52733ce7-22bf-49ab-be21-77c9b55ddf70)
+
+* If **Probability** is asked. Find the probability of getting **obtuse angle triangles**?
+* Probability = 10/15 = 2/3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e1c0dcd-1a3e-48fa-8076-27367577ef2e)
+
+* **IMPORTANT** figures.
+* Circle
+* Equilateral-Triangle
+* Square
+* Regular Hexagone.
+
+### Shaded Region
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35f4735e-c9ff-4c43-97b8-15566e55f650)
+
+* Find the area of the **shaded region**.
+* Shaded Region -> 12.576 cm^2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9598365a-00eb-45d7-ba80-cf10f1600aee)
+
+* Area of Semi-circle -> 1/2 * pie * (r ^ 2) [Formula] [**VERY IMPORTANT**]
+* Solution. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9756134-1bc3-490a-a997-13da87c5fd3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae6f70f5-af6e-4231-b904-6900125d5e86)
+
+* We have carved out **9-circles** like above.
+* Find the ratio of **perforated circle** to **original circle**. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/908b5af5-6e72-43b5-addc-ed77d75ac282)
+
+* Ratio -> 16/25 [Answer]
+* Solution. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81334680-0786-4626-a4b4-4ff2f6d2ebbc)
+
+* Equilateral-triangle -> All the **sides and angles** are **equal** -> root(3)/4 * (a ^ 2). [Formula] [**VERY IMPORTANT**]
+* a -> side.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67778f71-ba78-4217-9052-b2cde892345d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72c9c590-a534-4f2b-896f-93355523f6f8)
+
+* Regular Hexagon.
+* All the **sides and angles** are **equal**
+* a -> side.
+* We have **6-equilateral** triangles.
+* So it is **6 * (root(3)/4 * (a ^ 2))**. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d2c5809-c858-4902-8bd7-086355b2bf20)
+
+* Ratio of Area of **shaded region**/ Area of regular hexagon.
+* Example. [Question] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac2dd0cb-d32a-4445-8125-4368dde184be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b36d9b0-c990-4f26-8ebe-68f81c6536b0)
+
+* As we have **drawn perpendicular** here so the **1** portion of **equilateral triangle** is divided into **2-parts** that's why we have take **1/2** or half as the area of the **shaded region**. [Explaination]
+* Ratio of Area of **shaded region**/ Area of regular hexagon.
+* Example. [Question] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1c31bbb-830a-4214-b918-be43875c4ad1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76d7ba0c-f13d-4b98-8e7c-272e4fc3bbad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9019b0f0-1e8f-4ca0-a382-607612d60505)
+
+* Out of the **6-vertices** we have taken the **3 alternate vertices**. So **3/6 -> 1/2** which means that the **area of shaded region** is **half or 1/2**. [Explaination] [**VERY IMPORTANT**] [Formula]
+* Ratio of Area of **shaded region**/ Area of regular hexagon -> 3/6 -> 1/2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddaab70b-2c69-4def-8a8a-a28fd958470b)
+
+* Pentagon -> Star geometry.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82a4c48e-59d5-45c7-8445-15e61890690c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16ea9337-7f76-41da-90d6-36e0cdb270d2)
+
+* 180 - (72 + 72) -> 180 - 144 -> 36 degree. [Formula]
+* Star geometry. [**VERY VERY IMPORTANT**] [Practice Again] [Will definitely come]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d26263e2-203b-40c9-89bf-5fbf963b3337)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f2ef9b7-9edb-4e53-8677-0fc747f733d3)
+
+* We have **9-equilateral triangles**. [Example] [**VERY VERY IMPORTANT**] [Practice Again] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5bde61a-e2b8-4686-bc30-d46532bd84ec)
+
+* Ratio of Area of **shaded region**/ Area of regular hexagon -> 1/9 [Example] [**VERY VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d524f454-d18b-49b6-8539-6322bb7fe516)
+
+* Ratio of Area of **shaded region**/ Area of regular hexagon -> 4/9 [Example] [**VERY VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5c7d4e8-ec09-47af-9644-9ab3be3735b7)
+
+* Ratio of Area of **shaded region**/ Area of regular hexagon -> 6/9 -> 2/3 [Example] [**VERY VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/339ce4e9-fae8-45f5-b69b-c4d1b55e4a2f)
+
+* Ratio of Area of **shaded region**/ Area of regular hexagon -> 6 + (1/2 + 1/2) -> 7 -> 7/9 [Example] [**VERY VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89585012-bf33-4fd1-b42c-806829d4fa8a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ac41a8f-f82a-432b-9e2a-a62792142529)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7735a7f-47d7-437b-9da0-ac31cee28069)
+
+* Ratio -> 6/9 -> 2/3 -> 2:3
+* Option **B**. [Example] [**VERY VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b952ccc6-4ddf-46c0-9667-bfa3d416ad1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e01c4334-8ca3-4fea-abc2-3eab15412355)
+
+* [Example] [**VERY VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/391659a7-4625-4646-934a-19d0a24b1f2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75492d30-8c53-44ca-ba58-40ec118760bb)
+
+* From now and onwards whenever we see a **square** and if we keep joining the **mid points** of the **square infinitely/indefinitely**. When we start running from **outside to inside** then whichever nos have units as **centimeters(cm)** then keep multiplying them with **1/(root(2)**. [Example] [**VERY VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2be7ef8f-cd81-4d42-865d-5bfb88734563)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a63d96e-c0d8-4711-9ffb-79719ebe423f)
+
+* Area is **centimeters ^ 2** which is **cm ^ 2**. So **(1/root(2)) ^ 2 -> 1/2**, which means that **cm ^ 2 -> 1/2**.
+* cm -> 1/root(2) [Formula] [**VERY VERY IMPORTANT**]  [Example] [Question]
+* cm ^ 2 -> 1/2 [Formula] [**VERY VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4f8e319-81cf-44bd-9a5d-1d5fd81a5d91)
+
+* a = 10cm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdf45104-6af3-48ed-a211-97dd2ffd2216)
+
+* 10cm -> 10/root(2) ^ 2 -> 10/2 -> 5 [Answer] [**VERY VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f858e226-f7a2-46ff-ab3d-962b5c6e1e69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67cebbff-0930-446e-aae1-8d3029a0aa81)
+
+* 100cm ^2 -> 100/(1/2) ^ 4 -> 100/16 -> 6.25 [Answer] [**VERY VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47cdcd16-053a-4790-9a75-a0ea196e9ba1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5689f999-a208-4fef-9d04-dc0d1502e4e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5793ed87-4b7e-4bd5-99b1-28e5f5f0e645)
+
+* radius(r) cm
+* Circumference(c) cm
+* Area(A) cm^2
+* If the radius of the outermost circle is **r**.  [**VERY VERY IMPORTANT**] [Practice Again] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d0ccc62-ef26-4368-b989-e6b23a804c2d)
+
+* The **circumference(c)** of the outermost circle is **44cm**.
+* Find the **circumference(c)** of the **3rd circle**.
+* C = 44 cm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7365e82-208e-46b9-8329-01dd96cf0fb7)
+
+* 44cm -> 44/root(2) ^ 2 -> 44/2 -> 22cm [Answer] [Solution] [**VERY VERY IMPORTANT**] [Practice Again] [Example] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f60ebd7a-1974-465c-9f87-152ab0497427)
+
+* Infinite GP.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec367a5f-fda2-4a7e-b470-aa6a01cc9b83)
+
+* [Answer] [Solution] [**VERY VERY IMPORTANT**] [Practice Again] [Example]
 
 
+* Area of the **outer circle** is **20 cm^2**.
+* Find the area of all the circles which can be formed like above which are infinitely/indefinitely?
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfdb101d-36e2-405f-80be-e201e20e8f09)
 
+* 2A cm ^ 2 [Formula] [Patter] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2ada5c5-b814-439a-b9ee-7d2f31b78a47)
 
+* 2A -> 2 * 20 -> 40 cm ^ 2 [Answer] [**VERY IMPORTANT**] [Practice Again]  
+* Solution.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ce7db0d-dbc4-4217-8059-51b8dff1ea8b)
 
+* a -> 10 * 10 -> 100cm ^ 2
+* 100cm^2 -> 100/(1/2) ^ 5 -> 100/2 ^ 5 -> 100/32 -> 3.125
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2c129b7-cc10-44b5-bbbb-fec896133533)
+
+* Option **A**. [**VERY IMPORTANT**] [Practice Again] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28519971-a2a6-44d7-88d3-4e21ebff35aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ebe3ab3-1701-4913-a4b5-0712c1b2ff42)
+
+* 100cm^2 -> 100/(1/2) ^ 4 -> 100/2 ^ 4 -> 100/16 -> 6.25cm^2
+* a = 10cm
+* 10cm -> 10/root(2) ^4 -> 10/2^2 -> 10/4 -> 2.5cm [Answer] [**VERY IMPORTANT**] [Practice Again] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea72e1de-f4a8-4399-aeaa-3f94e6400faa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d3955c2-3d59-42c7-b563-e280a6c8b1a9)
+
+* r = 20cm
+* 20cm -> 20/root(2)^2 -> 20/2 -> 10cm [Answer] [**VERY IMPORTANT**] [Practice Again] [Example]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Inequality
