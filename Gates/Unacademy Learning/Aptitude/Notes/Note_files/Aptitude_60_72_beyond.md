@@ -1467,8 +1467,245 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f2931c9-46b3-4bed-a442-e1ce8bdc17f8)
 
-## geometry-and-miscellaneous-part-i (6) [13th Aug 2023]
+## geometry-and-miscellaneous-part-i (64) [13th Aug 2023] [17th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4c2ce30-6b19-4b65-8eca-ad5aa1f45a50)
+
+* **Height** means **altitude** which means **90 degree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a28daa54-bc2a-43a2-876b-675eaff4e679)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33b77ac6-1c06-4a13-8b20-2d9ca2869070)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77a718e7-35ac-4532-a5d3-d1046bfe0ccd)
+
+* Area of the **triangle** -> 1/2 * (r ^ 2). [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76556124-8fbc-4446-88bf-aef442fb0794)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f52275af-985a-4670-a3d2-4a92f81a2e20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf53318e-71cd-4fc5-a9c5-463ed20e2bda)
+
+* Area of the **triangle** -> 200cm^2 [Given]
+* Find the **area** and **circumference** of the circle. [Question]
+* 1/2 * (r ^ 2) = 200 -> r^2 = 400 -> r = 20cm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e1710ae-3dfe-4db8-9ca6-1f36f2f3765c)
+
+* Area of circle -> pie * r ^ 2 -> 400pie cm^2 [Answer] [Formula] [**VERY IMPORTANT**] 
+* Circumference of circle -> 2 * pie * r -> 40pie cm [Answer] [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85f395a4-bf86-4614-9406-8f493dab221a)
+
+* Area of triangle -> 50 cm^2.
+* 1/2 * (r ^ 2) = 50 -> r ^ 2 = 100 -> r = 10cm
+* Area of cicrle -> pie * (r ^ 2) -> 100pie
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc478a44-d5bc-46c7-a633-e15829a0e459)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1baf299e-f3fc-4394-8e34-15c88d832016)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b63e3b19-f2b0-4db4-a9d4-fd6c5e382467)
+
+* Square.
+* Radius(a)
+* Perimeter(P)
+* Area(A)
+* cm ->1/root(2)
+* cm ^ 2 -> 1/2
+* Summary [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97bde8e4-012d-4666-b325-fff0ce5ba880)
+
+* Circle
+* radius(r)
+* Circumference(C)
+* Area(A)
+* cm ->1/root(2)
+* cm ^ 2 -> 1/2
+* Summary [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/022f8c8d-e243-4dc6-80f6-b32418fa5bd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/363f5ce0-e65c-4a4b-914d-130b6c738a79)
+
+* Circum-circle -> Circum-radius(R)
+* In-circle -> In-radius(r)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c948933-f771-461e-84b1-70ef3efe4465)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/107f12f4-4ee4-4304-b56f-963cf96b3d21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10f318a8-89f4-40be-9fc7-25d2aeabb939)
+
+* Equilateral-Triangle [**VERY IMPORTANT**] [Formula]
+* r = R/root(2)
+* Circum-radius/In-radius = R/(R/root(2) = root(2)/1 = root(2) : 1 [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2caa07fe-8d8a-465d-b318-4db754b01416)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/370cf835-afc2-48b4-b0ec-f2a040b2d3c1)
+
+* If we keep drawing **Equilateral triangles** within **triangles infinitely/indefinitely** then the nos which have **cm** as their units, multiply them with **1/2**.
+* If we keep drawing **Equilateral triangles** within **triangles infinitely/indefinitely** then the nos which have **cm ^2** as their units, multiply them with **1/2 ^ 2 0> 1/4**.
+* side(a)
+* Perimeter(P)
+* AreaA(A).
+* cm -> 1/2 [Formula] [**VERY IMPORTANT**]
+* cm ^ 2 -> 1/4 [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91bcb2fd-489e-4722-b674-4c40be0d7747)
+
+* radius(r) [Formula] [**VERY IMPORTANT**] [Example]
+* circumference(C)
+* Area(A)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c596b0ac-361c-4d5f-b7b4-403e2d327b85)
+
+* a = 20cm
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ac5f4fe-4977-4deb-9e60-75519be8cc31)
+
+* 20cm -> 20/(1/2) ^ 3 -> 20/8 -> 2.5cm [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08594de1-4340-4d52-a5e0-240dcec49788)
+
+* Infinite GP [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aac9f917-1ae9-4eb1-90a4-a8f195662a7f)
+
+* Area = 1 cm^2
+* Infinite GP = 4/3 cm ^ 2 = 4/3 * 1 = 4/3 cm^2
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7af171e-f777-40a5-902c-514520f32ce8)
+
+* Area of outer circle -> 300 cm^2. [Given]
+* Find the sum of area of all the circles?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5ddf07e-7498-4211-a16a-f0e9ef35e69f)
+
+* Area = 4/3 * Area cm^2 = 4/3 * 300 = 400 cm^2 [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39161238-a1f7-4433-a083-edd9ecb639dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d54cbbac-bc00-4ced-9a60-1652c4f861f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/542e1fa0-2411-4dab-8d4c-4d1b5871e187)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f8ff43d-cdcd-45bd-89e5-fa5b832592a0)
+
+* Option **D**. [**VERY IMPORTANT**] [Practice Again]
+* Inscribed [**IMPORTANT** words]
+* Circumscribed [**IMPORTANT** words]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95799fb6-c7d6-4ddb-90f5-309f99697b04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f99cc693-de99-44a3-a269-83176e2ef3a0)
+
+* Circumcircle
+* In-circle.
+* What is the relation between **a and r**? [Question]
+* a = 2r
+* r = a/2 [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5167515e-83f9-4a41-882a-e5002c63818a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/189503c3-8fc8-45ef-887e-c63622692ef2)
+
+* a = 20cm [Square]
+* Find the radius(r) of the circle? [Question]
+* a = 20/root(2) ^ 2 = 20/2 ->10 cm
+* a = 2r
+* 10 = 2r
+* r = 5cm [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36b0aebc-c5f9-4fde-9748-8aee7c8d7bf1)
+
+* All **squares** are **rhombus**. [**VERY IMPORTANT**] [Formula]
+* Square <-> Rhombus. [They are **same** only]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf8fa78b-ed60-4507-9570-1d7c9379a225)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f65c3b12-949b-4cb5-a22b-b427b4eab0f2)
+
+* a = 1 unit
+* 1 unit -> 1/root(2) ^ 1 -> 1/root(2)
+* Diameter -> 1/root(2) [a = 2r] [Diameter = 2r] [Formula] [**VERY IMPORTANT**]
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c7f4496-14bb-406f-8a43-d548368d54b4)
+
+* Isoceles triangles
+* The diagonals bisect each other.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe799e1d-182f-47bd-86b5-8c07a200f43f)
+
+* Sector of a circle.
+* Area of sector = (Theta/360) * pie * (r ^ 2) [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c4d03e0-fc9c-412f-bbae-1901d961b5d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f305696f-39e9-4280-96ac-badbaa5bd855)
+
+* Length of the arc(AB), Red color line = (Theta/360) * 2 * pie * r [Formula] [**VERY IMPORTANT**]
+
+* Quarter Circle
+* Area of a Quarter Circle -> (1/4) * pie * (r ^ 2) [Formula] [**VERY IMPORTANT**]
+* length = 1, breath = 1, r = 1
+* Area of triangle -> 1/2 * length * breath [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23f9ec78-f619-449e-852f-b34577354cba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3529d569-de3c-4e44-a4ff-b715910a342f)
+
+* Area of a Quarter Circle - Area of triangle -> (1/4) * pie * (r ^ 2) - 1/2 * length * breath ->  pie/4 - 1/2 [Answer] [Formula] [**VERY IMPORTANT**]
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65116eb2-fe3f-4887-881c-b3c26a7162bb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f438d46f-f683-4393-b5f2-0b627eb46f0f)
+
+* Area = ?
+* l = 10, b = 10
+* r = 10
+* r ^ 2 -> 100
+* Area of triangle -> 1/2 * l * b
+* Area of quarter circle -> 1/4 * pie * (r ^ 2)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25c523aa-9029-4c0b-a9f4-a931a490960b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91012b32-e28c-4ccf-bc9c-e5c37cf11fde)
+
+* Area of quarter circle - Area of triangle -> 1/4 * pie * (r ^ 2) - 1/2 * l * b -> 1/4 * pie * 100 - 50 -> 25pie - 50 cm^2 [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30034059-c824-47b7-8dc5-b67b0e0f1573)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef91bbd0-cbe7-4ac1-a4a9-f34cfa390972)
+
+* Area = 2 * (25pie - 50 cm^2) -> 50pie - 100cm ^ 2 [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/274e70fa-09fd-4582-ba09-112a66f698a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd694386-e6ee-42c8-b876-a521f4fdbc1a)
+
+* [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fefa1534-6d0b-4d1b-a674-944614834cac)
+
+* Find the area of the shaded regions?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12ae2f15-12e2-4a35-8471-c3a79ca83727)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4cfa33a-7b65-4a94-8c7d-debb58ee02cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d1c4e82-0281-4284-9f34-38107b979124)
+
+* 2 cm^2. [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00084d4d-05e2-404e-b7f6-2f949f9529d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/454a29df-23fe-4517-be40-3ecccd96524e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/053ecd22-ebef-4d42-8e26-ff415b2406ea)
+
+* Area of square -> 6 * 6 -> 36
+* We have **half-square** shaded -> 36/2 -> 18
+* Option **B**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e7b1c4d-3b4a-4ffd-88ac-e7ef04c4a957)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c6dd612-c220-4b70-9353-5972926b4308)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a11b2df-a1f0-42af-9172-745018f5eb99)
+
+* Option **A**. [**VERY IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Geometry
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a8e5e4b-498a-4362-9e49-5ef4c50361b8)
