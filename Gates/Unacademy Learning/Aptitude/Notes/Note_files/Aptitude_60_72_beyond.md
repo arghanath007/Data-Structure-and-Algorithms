@@ -1953,8 +1953,164 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7083d3f4-72d0-418c-bcd4-a4f71aa3ed99)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe748a1b-88b1-4503-be0a-c601d4d096e6)
 
-## doubt-clearing-session (65) [13th Aug 2023]
+## doubt-clearing-session (65) [13th Aug 2023] [17th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c045d49-c6b6-40cf-b209-107f55afabb9)
+
+* From **pentagon** we get a special figure which is **star geometry**.
+* n -> No. of sides
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d93848-0178-40a1-9666-4952761ea952)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12ee8126-971e-4cd1-a59d-2843567a0f15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c636524f-56f8-4749-9d53-748f2726ae48)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be0cbc7b-42eb-4817-a4bf-dce7b049f84f)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0761640a-6718-4067-a853-ce6f3d649a9b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbbf46c4-f67d-4668-950b-ca65e9614fcc)
+
+* Option **A**. [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c826432-81c8-4a6d-ad37-b816df805c8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b556dd3-58a3-4483-8ebb-d890f3122f51)
+
+* We will get a half circle
+* Option **A**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/362d778a-0a92-459e-8da1-d8e13494c831)
+
+* Area of Sector [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e0f0ffa-cf73-40ab-a7a8-9c8ab91ebf1f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cef1490d-d670-470a-833b-e3f48a45deb0)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/567e9f3c-4fc0-4e2d-88de-e573f3867a2b)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c14100d1-092e-44d1-85a2-d760efdb0a75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d279e0-aea4-48be-9592-6e1a014d5ba4)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c98c1c4d-82f2-4196-8583-2598cefb5ff3)
+
+* Area of square ABCD -> a ^ 2 -> 10 * 10 -> 100 cm^2 [Formula] [**VERY IMPORTANT**]
+* Area of triangle ACD -> 1/2 * l * b -> 1/2 * 10 * 10 -> 50 cm^2 [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cc2e1bf-e512-4651-9940-720db1a09e4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96dbb81d-88b2-4eec-bcb7-31dc79361a4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/895c26b2-e844-4812-9cfb-57ec54853ea6)
+
+* Area of quarter-circle -> theta/360 * pie * r * r -> 90/360 * 10 * 10 * pie -> 25pie [theta = 90 degree] [Formula] [**VERY IMPORTANT**]
+* Area of shaded region -> Area of quarter-circle - Area of triangle -> 25pie - 50 cm^2  [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35cd1b96-fb2f-474e-90f1-34faaf7e3dde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be871dff-c3a6-4232-b657-df0b31e3d197)
+
+* New Diagram
+* Area of shaded region -> 2 * (25pie - 50 cm^2) -> 50pie - 100cm^2  [Answer] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6eb5b2df-f1c0-4079-825d-3aea7631f8e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/faba3f93-db94-44f3-a17d-a5131fd375ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75a5cf44-3a26-46a4-9b8e-d3c731c504e7)
+
+* 2 * (1/4 * pie * r ^ 2 - 1/2 * r * r)/ r ^ 2 -> 2 * (1/4 * pie * 1 - 1/2 * 1)/ 1 -> 1/2 * pie - 1 -> pie/2 - 1 [Answer] [**VERY IMPORTANT**]
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3904f548-92c4-4990-ba96-25c886802597)
+
+* Area of circle -> pie * r ^ 2
+* Area of rectangle -> 1/2 * l * b
+* Max. possible Ara -> We are talking about **square**.
+* Area of square -> a ^ 2
+* Shaded portion -> Area of circle - Area of square -> pie * a ^ 2 - 1/2 * (2 * a) ^ 2 -> pie * a ^ 2 - 2 * (a ^ 2)  [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/154fdc1d-2485-4250-be92-b56ebcfcb1b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3dde1bc-6e6a-4144-b6b8-dc80d213ceab)
+
+* Option **C**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7229260d-e47d-48cd-8ae5-2d41a6a337d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7cc6246-e3fe-49b6-9eaf-ffb07d650505)
+
+* Maximum possible area.
+* Arithmetic Mean >= Geometric Mean
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d29f6cd3-51b3-4638-82e3-3a39bf77f9e0)
+
+* Rhombus
+* Square.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f64d13a6-a611-4376-a8f4-3bfd03f4b933)
+
+* Circle [NOTE] [**VERY IMPORTANT**] [Diagram]
+* Cord(AB)
+* Diameter(COD) -> It is the longest cord.
+* Secant(EF)
+* Tangent -> It is a line which makes an angle of **90 degree** with either the radius or the diameter of the circle.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e79acc6-7b9f-4389-a364-115a33ca75aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1849f5c0-e161-4d3a-925b-da8c781a8bcf)
+
+* Sector of a circle 
+* Area of the sector -> Theta/360 * (pie * (r ^ 2)). [Formula] [**VERY IMPORTANT**]
+* Length of the arc(Circumference) -> OA + OB -> theta/360 * (2 * pie * r). [AB is not included] [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3a6c123-4a1c-43c1-90b0-e28acc89d11c)
+
+* The angle will always be **90** degree.
+* Pattern [**VERY IMPORTANT**] [Formula]
+* If there is a **cord** and we are drawing a line from the center of the circle to the **cord** such that it is **90** degree. It will divide the **cord** into **2-equal halves**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f94cb4f-3664-4188-ad4d-b76a1abdd8dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/698d2f64-4e98-4f7c-b4be-8b65ecaf8ae3)
+
+* Question [Example]
+* Pythagores -> 8 ^ 2 + 6 ^ 2 -> 64 + 36 -> root(100) -> 10 cm
+* Area of circle -> pie * 10 ^ 2 -> 100pie cm^2 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ea2ac77-06cc-4211-acb7-cb667cd01d34)
+
+* Pattern [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13baffb0-af15-4cb2-be1f-75d74584275f)
+
+* x = root(3) cm.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa3d5caa-1fef-4832-bc65-f144905f5579)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87a8efb4-47b1-4682-acd0-ab4706614500)
+
+* r ^ 2 = 3 + 25 -> r^ 2 = 28 -> r = 2 * root(7).
+* Area = pie * (r ^ 2) -> pie * 28 -> 28pie cm^2 [Answert] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72d100fc-34a0-4dea-8953-afc55a335d89)
+
+* Pattern.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd3c562-b4ec-4ac3-8fc2-e5221e33c69c)
+
+* Example [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b37a64fd-7086-42c6-a615-d4d8eae1f386)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4671a279-d623-45cc-95b1-292420507836)
+
+* Pattern [Pen]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d97171e-22aa-468d-98d0-d4fed6a37c64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5479056f-9307-485f-8d6a-289de08b4b0d)
+
+* Find area of circle. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/847460c1-de38-490e-85eb-358ac6c9350a)
+
+* Diameter -> PD + PC -> 18 + 2 -> 20cm [Answer] [**VERY IMPORTANT**]
+* radius -> D/2 -> 20/2 -> 10cm. [Answer] [**VERY IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0322e966-e589-440c-bb16-6dd8da8d4bf8)
 
 * Area of triangle ABC.
