@@ -1,4 +1,4 @@
-## percentage-and-di-part-vii (60) [3rd Aug 2023] [16th March 2024]
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2c0f934-c7d9-457c-93e9-c911ee5cc146)## percentage-and-di-part-vii (60) [3rd Aug 2023] [16th March 2024]
 
 ## Logarithms
 
@@ -3076,8 +3076,191 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c38a7763-d9a6-4df8-8ee7-68c8ea0bf56a)
 
-## geometry-and-miscellaneous-part-iv (68) [15th Aug 2023]
+## geometry-and-miscellaneous-part-iv (68) [15th Aug 2023] [18th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d541a70c-a28c-4d1e-a1a2-be0f056a9b0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2366aa3-82e7-434c-9add-504377f4e1ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c3b2b1c-5035-4e9e-9093-4c609e33a388)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f02f901-c0c6-4f30-a5b9-43602be52645)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10751c3c-2c60-4f4b-8339-57203ba664e3)
+
+* We have one day extra in the year.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35d2325d-ebe6-4bcc-8335-d43c2a97650a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21da5f06-3c3a-4221-a7a6-6959d6c9cd16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe982a84-2656-4f50-af38-83e770bccf7a)
+
+* After **7yrs** it is repeating itself. [**VERY IMPORTANT**]
+* Option **A**. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68695e46-f1b5-41be-9f3b-ac7d0a64f5af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/368eb4e6-3f55-4339-8cb7-e875865b0d19)
+
+* Yes.
+* Total Angle = 360 degree.
+* Total gaps = 12
+* One Gap = 360/12 = 30 degree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee9923b5-38fb-469b-a349-54da8c96015a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdb5386e-3565-4229-b339-d64827e1f579)
+
+* Minute Hand(MH) -> 60mins [Covered a distance of 60mins]
+* Hour Hand(HH) -> 30 degree [Moved from 1 to 2]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7908aefb-7c68-413a-883b-f57d540f600b)
+
+* When **MH** moved by **1min** then the **HH** moved/covered half or **1/2** degree. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6370ddd-6af3-4811-84fc-5be31edca422)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1da0bc2d-aa82-4156-8c47-ee66d7bdd7e6)
+
+* Find the angle between minute and hour hand at **01:20PM**?
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab4e04e-1892-4a6a-a8f1-7e9fbf7b7d9c)
+
+* Solution [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/026cb874-2b7b-49fa-a56b-2f6c6c90b02c)
+
+* 02:25PM
+* The **HH** has already covered the **12.5 degree**.
+* The degree we are left with is **30 - 12.5 -> 17.5 degree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70982e8a-9704-49b1-8e0e-c7ffdef592ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cbe4b0c-2252-4f0b-9c01-107d8fc797d9)
+
+* 30 + 30 + 17.7 -> 77.7 degree [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c5c8e21-1524-49f8-9f63-2dd382ce32cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bdca609-7247-4efc-85fb-22265655ba86)
+
+* 01:35AM
+* 35mins -> 35/2 -> 17.5 degree
+* Degree left -> 30 - 17.5 -> 12.5 degree.
+* 30 * 5 + 12.5 -> 162.5 degree. [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eca2d537-0a59-4c43-b3e2-e33676f8e5bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ddba622-1487-43ad-9859-af27af514486)
+
+* 04:45pm
+* 45/2 -> 22.5 degree
+* 30 - 22.5 -> 7.5
+* 30 * 4 + 7.5 -> 127.5 degree. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d027a47-7728-40f1-9e98-442a834caced)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16bb61f4-05e7-4566-9dd2-a9db7a48191a)
+
+* 10:35AM
+* 35/2 -> 17.5 degree
+* 30 * 3 + 17.5 -> 107.5 degree [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61892b41-5e82-4953-8732-c822c692c12f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e63e9092-55a1-4df0-a289-53998036da52)
+
+* 11:45AM
+* 45/2 > 22.5
+* 30 * 2 + 22.5 -> 82.5 degree. [Answer] [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d728fd69-cfba-431b-9b51-b5f4ce5b6a3c)
+
+* Formula [**VERY IMPORTANT**]
+* H -> Hour Hand
+* M -> Minute Hand
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ce25f19-0237-4e36-a79d-52e6698daa22)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6961fb55-8310-4285-9b29-8fab934bdd17)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/addff619-f510-4b39-bf95-d8a0e14fba13)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/907281e9-13db-40ad-831b-389d6085b388)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f288d433-2458-4260-8f1d-2b4873e874c0)
+
+* Questions [Example]
+* 1
+* H = 1, M = 33
+* |30 * 1 - 11/2 * 33| -> 151.5 degree [Answer] [**VERY IMPORTANT**]
+
+* 2
+* H = 10, M = 17
+* 30 * 10 - 11/2 * 17 -> 206.5 degree [Answer] [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd3f3ecd-caf1-4b32-b7ba-00af5aa54c2e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed338628-b5c3-42a6-87d5-2af958ea5bd9)
+
+* D = 60
+* Option **A** [**VERY IMPORTANT**]  [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18844437-b804-4ab7-b289-1be34c7b1eda)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b54af6fc-aaee-4e97-a98d-94ac1b944543)
+
+* Quarter Past three -> 3:15 [**VERY IMPORTANT**]  [Practice Again]
+* H = 3, M = 15
+* 30 * 3 - 11/2 * 15 -> 7.5 degree
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc595e93-3c0a-42b4-9b77-9ece95949aa2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/03559951-d193-477a-a246-505d2aba1231)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0739065a-1b63-4a61-a76a-d256cb257916)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45d50efc-1456-43e8-bbaf-f2ac7c2359c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5ecd8c3-e44d-4ef3-a1c2-3ec121cb3b37)
+
+* Option **B**. [**VERY IMPORTANT**]  [Practice Again]
+* height(h) -> altitude
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2789ccc-d676-4b13-ba8d-d0e730a7b93b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d85b51-7c0d-4d83-9264-03fa6883023c)
+
+* Formula [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4f5a360-1207-4fb9-bef3-7fb75effb85c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9297a142-ceb0-4d24-82eb-24636a164ff8)
+
+* P ->  100000 [Answer]
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e740ad76-db16-4fd7-a60d-039116866203)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6cbe17b-ab18-46a2-a014-417e0f056a65)
+
+* Question. [**VERY IMPORTANT**] [Practice Again]
+* Perimeter of an equilateral triangle -> 3 * a [Formula] [**VERY IMPORTANT**]
+* Area of an equilateral triangle -> root(3)/4 * (a ^ 2) [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c83541c-35fa-4540-a4e2-98cfaac6a9a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98fce7b1-4343-4fb1-ad09-614bcdf9e24a)
+
+* Question. [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18323772-635b-4f64-bb99-77b5b24c9cdf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ba8f1d6-3a3f-416a-af2c-3f985e37b427)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3174aba5-9709-413f-b606-95ea2c1d4ae5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1708521-8063-405b-a433-d43e2656c4ba)
+
+* Option **A**.
+* Acceptable value is one which is a **multiple of 10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/983906c8-f46a-4455-a9c2-5f06ce6f0608)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e624023c-fcf4-474e-ab33-938b27ff9c69)
+
+* Total Expend -> 500 * 5 -> 2500 Mil
+* Total Revenue -> 3000 Mil
+* Profit -> 3000 - 2500 -> 500 Mil
+* Profit % -> 500/2500 * 100 -> 20% profit
+* Option **C**.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Analogy Based Question
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edbd4301-a2fd-46a7-8d5b-222a85c0039b)
