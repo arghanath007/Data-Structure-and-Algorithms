@@ -2652,8 +2652,170 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aede1bc5-ff32-4bf8-9286-6c4752bc04a4)
 
-## geometry-and-miscellaneous-part-iii (67) [15th Aug 2023]
+## geometry-and-miscellaneous-part-iii (67) [15th Aug 2023] [18th March 2024]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be22b8e7-c5c6-4325-8f1f-67ca708ea15d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8702b533-f24b-40a1-bba1-36e859368cee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9061726f-ac78-47f0-ba4f-9c9d4335175c)
+
+* Option **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b5cec7f-a478-4fa3-b9b2-24559900e753)
+
+* Paper cutting/folding.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78b03238-99ca-4ada-a636-42fc8d595e98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4410007e-62b4-40e1-a1ec-15429b3a5e37)
+
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/193280f5-ba6e-42de-99ca-48ae6d0c98e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47104015-566e-4941-a671-4e52f40cc7e0)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5b3a23a-3439-4783-b0c2-155089edb74e)
+
+* Folding the paper.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5466db1-f5d1-40e8-b4bd-c69d0cb943c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16d18c25-d368-46c9-9d07-0271b854e72d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4058d310-8237-469c-9284-3dcf8cdea791)
+
+* 1
+* M -> 6|4 -> 6|2 -> 6|1 -> 6|0.5
+* N -> 6|4 -> 3|4 -> 3|2 -> 1.5|2
+* P_M = 2 * 6.5 -> 13
+* P_N = 2 * 3.5 -> 7
+* P_N/P_M = 7/13 = 13/7
+* Option **B**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/509f7cfd-c01d-4bcc-b0b6-2c83510bf0de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae0a4ddc-f769-4efc-be25-24d19f54b630)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/827fa01a-5a38-4670-a46c-9db077ae0f53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b18e60a7-1ab4-48f0-ae61-a59506e99eee)
+
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8acd439d-0186-4d3e-a22d-ad292b750435)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/599e82fd-330b-44b7-9d1d-94649290cbc7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/290a2984-b46a-4c4b-a6d3-426937116fbb)
+
+* Option **C**.
+* Adjacent -> Next/Beside/Adjacent -> Same meaning words. [**VERY IMPORTANT**] [Words]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8036554-96bc-4d2e-8aea-138689e07c9d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80abbcdf-cf76-4639-9ffc-6ef90d1dcd4c)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/187b735f-a5f8-4683-9d19-5242090bf2b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc245ec0-e300-4057-8170-c0b466a7ff0c)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/843e3250-3c3a-4f10-80d2-d2d9e973410b)
+
+* Pattern. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5e0d00c-31f3-419f-bf11-1820281434b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8484886-7b09-4a90-986d-e597ace0fb5d)
+
+* Option **C**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2980dbf8-dea1-4f6c-afb3-b6d6f29f6070)
+
+* 180 degree words. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59d2bae4-479e-4d68-bff0-9437834fe559)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e094ab7-5bae-4866-9f90-9d55944dbaa2)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36adcd1f-3122-42a2-9e80-807c1beb2d05)
+
+* side(a)
+* Area of Equilateral triangle -> root(3)/4 * (a ^ 2) [Formula] [**VERY IMPORTANT**]
+* Perimeter of Equilateral triangle -> 3 * a [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/badad69c-2c48-4911-8182-ae8669cc8599)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d2bc3b-afac-40ef-9f31-65b7029ec646)
+
+* A = root(3)
+* A = root(3)/4 * (a ^ 2)
+* root(3) = root(3)/4 * (a ^ 2) -> 1 = (a ^ 2)/4 -> 4 = (a ^ 2) -> a = 2
+* Perimeter -> 3 * a -> 3 * 2 -> 6 [Answer]
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc37a245-2fd1-41d2-a1ce-98d822312ae0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3839f4bc-8a80-4aec-9e70-24f9b880ed2c)
+
+* [Formula] [**VERY IMPORTANT**]
+* Square
+* Rectangle
+* Cube
+* **AREA**:-
+* Area of square -> a ^ 2
+* Area of rectangle -> l * b
+* **VOLUME**:-
+* Volume of Cube -> a ^ 3
+* Volume of rectangle -> l * b * h
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee0f1e2b-0f3e-4011-86ad-2be3328aa67f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92ddfc22-f31f-435b-ad02-f2b932ad5d00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7099552-6c66-40df-9ac9-35e45d652df2)
+
+* Volume of cylinder -> pie * (r ^ 2) * h. [Formula] [**VERY IMPORTANT**]
+* Volume of sphere -> 4/3 * pie * (r ^ 3).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df5a4502-2128-4234-a836-55b278cd2bf6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00efb1dd-ce79-4fff-b81a-15145465b084)
+
+1) V = 10 * 8 * 6 -> 480
+2) V = 8 ^ 3 -> 512
+3) V = pie * 7 * 7 * 7 -> 1078
+4) V = 4/3 * pie * 7 ^3 -> 1436.755
+
+* 4 -> 3 -> 2 -> 1
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8450ba83-657d-45ac-83e1-5c29ec02ea3e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a341ccec-9e2a-437b-bdab-9512428664c9)
+
+* K < G > P > S
+* D > G
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5c6ac67-5822-460d-8370-22718a6df932)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab8008e4-34b0-4778-bb6f-153d16e74198)
+
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee961cef-94c7-4250-b4ef-1a59b9f8eefa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40a407a4-c195-4ae4-a82b-64a556dcc56b)
+
+* M > S < P
+* M < T
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53f9b8bc-67af-46ae-8aeb-27ae845d7b4c)
+
+* Fibonacci sequence [Pattern] [Formula] [**VERY IMPORTANT**]
+* It is the sum of the **previous two terms**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f896c95b-95be-43da-98c6-e410ae1fa5a1)
+
+* Option **A**. [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cb5379d-70cc-4855-be9f-a2e20cd4d28e)
+
+* Pattern [Pattern] [Formula] [**VERY IMPORTANT**]
+* In fibonacci sequence instead of **plus(+)** we replace it with **minus(-)** then the **sum** of every **6th term** will be **zero(0)**. [**VERY IMPORTANT**]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Calendar
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63f6016e-fbea-4b73-abd8-90aba3f98365)
