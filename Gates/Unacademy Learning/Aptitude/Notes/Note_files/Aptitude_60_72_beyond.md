@@ -2426,44 +2426,72 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12ff5ead-9b4c-42e9-9249-be0ed47456dd)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80260bc8-8529-450e-a495-9258dfa851fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a360bf1-a024-424f-b09c-40c171db0f0b)
 
 * As **400th year** is a **leap year** that's why we did the **5 * 4 + 1 -> 21/7 -> 0 remainder** which means **zero(0)** odd days. [**VERY IMPORTANT**] [Summary] [formula].
-* Start from 46mins.
+  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe4b2b9d-8b92-4339-b3ab-2f7106c2ddf1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e035b20-82bc-4ca1-a348-c7799f22aa04)
 
+* No. of odd days -> Divide by **7**. [**VERY IMPORTANT**] [Formula] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ff83bed-3667-4103-80b9-dd9808c885e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7639e0f7-3bf7-49a1-a2bd-b1c667ea4b72)
 
+* Odd days -> 5 + 3 + 1 + 1 -> 10/7 -> 3 -> Wednesday. [Answer] [Example] [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1532290a-c285-4749-81a4-6c6d4a21020b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e9d6ff8-472d-44f9-b720-8ee2757c46ae)
 
+* Odd days -> 1 + 3 + 3 + 4 -> 11/7 -> 4 -> Thusday. [Answer] [Example] [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/599474fa-bc79-4dab-a60f-e6a8806ec9a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba69b962-ac72-4be0-bddf-06e71f2ea214)
 
+* Odd days -> 3 + 1 + 1 -> 5/7 -> 5 -> Friday. [Answer] [Example] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba160e45-9499-4c4a-bb02-59833073c2da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c3f443a-ff95-4248-a77a-d781c842995f)
 
+* Odd days -> 1 + 3 + 3 + 4 -> 11/7 -> 4 -> Thusday. [Answer] [Example] [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d70e2a47-92d3-4d67-b407-be20d34f44a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/628d1168-e2ee-4c7c-9444-1110fee4ceb7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4fd3694-f852-4849-9e09-28ace769294c)
 
+* Odd days -> 1 + 4 + 3 + 3 + 2 + 2 -> 15/7 -> 1 -> Monday. [Answer] [Example] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dbfb7a8-91c6-4953-b1ad-97e1b7098434)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c0ffe37-c390-4762-bca5-ccf91ff317f9)
 
+* Option **D**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/200e1ebb-3466-465f-99c9-e5d1740e1213)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beca8e6a-8650-41a6-9515-e1e22c352e5c)
 
+* Option **B**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62473174-b6cd-48c5-aaaa-ea9121a58daf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0084af5-dab9-4242-9329-63fd67a7586b)
 
+* Option **A**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2fc0a13-3516-4e7f-a8e1-eb60e4a1a432)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7784d67-bc83-4582-8e86-339a895ca2f8)
 
+* Option **3 or C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73923c1a-9f40-434d-8101-6aafcbbda8ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/512134f9-bd7e-4db1-97fa-25ef48edc469)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd938cd3-c12c-45e0-87b3-52952d084614)
 
+* Option **1**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45552eee-00e5-4acc-89c9-31ede131654a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1bb6236-6c23-499a-a8f1-2ec92bb373fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15e3af04-006b-4455-ada9-6c872ceeac1e)
 
-
-
-
-
-
-
-
-
-
-
-
-
+* Option **1**.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3071535f-7010-4915-a886-773cacb4de4b)
