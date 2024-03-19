@@ -1,10 +1,10 @@
 # Tests
 
-## Test-1
+## Test-2
 
 * Link -> https://unacademy.com/quiz/quiz-part-ii/BBEEXG243C/solutions/SP_5N3H3109OWJVKSOAG
 
-## Test-2
+## Test-3
 
 * Link -> https://unacademy.com/quiz/quiz-iii/AW3TV1M3NL/solutions/SP_QVEM88BA71XHNPUED
 
@@ -52,7 +52,7 @@
 
 * Solution
 
-## Test-3
+## Test-4
 
 * Link -> https://unacademy.com/quiz/quiz-part-iv/P5LG5IROHC/solutions/SP_UKIAFNN72LSGGA58A
 
@@ -68,6 +68,81 @@
 * Link -> https://unacademy.com/goal/gate-csit-dsai-placements/NVLIA/doubts-and-solutions/doubt/78D741378A
 * Solution
 * Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/121c75df-eff1-4b62-8d82-4d23d8a5d329)
+
+* 5 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bb3c765-da07-4147-be2d-58d29d77276a)
+
+* Link -> https://unacademy.com/goal/gate-csit-dsai-placements/NVLIA/doubts-and-solutions/doubt/97FCD5BE24
+* Option **B**.
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df38f850-89d5-42db-b86d-6b84a8b75181)
+
+* 6 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b2adc1-73fd-4a26-8d4e-a7a809864fd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90a9617b-4099-444d-bbfa-1ca62a8f07a5)
+
+* Option **A**.
+* Link -> https://unacademy.com/goal/gate-csit-dsai-placements/NVLIA/doubts-and-solutions/doubt/038A96FB5E
+* Solution
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac948716-3f87-4bbc-8f79-fe5ffc75620d)
+
+* 7
+* Link -> https://unacademy.com/goal/gate-csit-dsai-placements/NVLIA/doubts-and-solutions/doubt/A4C3C27939
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c5332e6-0708-4a0a-a4d1-4cbb1e1f0a5e)
+
+* Solution
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d6a6430-6b28-4540-b96c-7534de32b819)
+
+* 8
+* Prime Numbers -> 15/36
+* Not prime nos -> 1-(15/36) -> 21/36 -> 7/12
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07169b49-a68e-474d-bc98-9bbc433042ce)
+
+* 9 [**VERY IMPORTANT**]
+* Option **B**.
+
+## Test-5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c85f2b4-cb4e-4d53-9dbb-21b10b132e02)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b0edf98-49ec-4aae-a079-1746190844af)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80f7afa9-3e6e-4aa6-90a5-2745384ea6cc)
+
+* 2
+* Link -> https://unacademy.com/goal/gate-csit-dsai-placements/NVLIA/doubts-and-solutions/doubt/561EADED68
+* Option **A**.
+
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/382bf951-37f0-444b-8b28-716c8d4e3f7f)
+
+* 3
+* Link -> https://unacademy.com/goal/gate-csit-dsai-placements/NVLIA/doubts-and-solutions/doubt/A98B0CB079
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64b5d2b8-2cd5-4e1c-829f-fe7274aa2a6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74714568-aa60-47c1-b244-8141f1b0a47e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26c9f9a0-5b14-418d-9828-f69bff8baf90)
+
+* 7 [**VERY VERY IMPORTANT**]
+* Link -> https://unacademy.com/goal/gate-csit-dsai-placements/NVLIA/doubts-and-solutions/doubt/AFB45A74CD
+* Both the **conclusions** are **doubtfull**. We don't know for certain.
+* Option **C**.
+
+## Test-6
+
+
+
+
+
 
 
 
