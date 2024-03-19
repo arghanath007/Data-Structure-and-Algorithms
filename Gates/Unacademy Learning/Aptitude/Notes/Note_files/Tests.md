@@ -139,13 +139,86 @@
 
 ## Test-6
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40063421-f17a-4fca-be1c-e7c9627fa59d)
 
+* 5
+* Link -> https://unacademy.com/goal/gate-csit-dsai-placements/NVLIA/doubts-and-solutions/doubt/82BD5C6A18
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18e63a20-dc21-4ec5-a953-f8cfa6cd62cb)
 
+* 6
+* 0 to 20 -> 21 [Sample Space]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a3a84d6-b47f-48e7-b050-9f34ac77d6c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a860593-2688-4978-a250-06911c962a41)
 
+* 8 [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0988a5a-014c-48a4-a192-df864d2974f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ca175a5-491f-4c90-81e0-a9e60f728708)
 
+* 9 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e42f478-348c-4062-ab98-06e3cd080787)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fe64ec7-3cae-45ef-b349-f11f129fc480)
+
+* 10 [**VERY IMPORTANT**]
+
+## Test-7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6844534f-052b-4e5d-866b-2e6a709938f3)
+
+* 2 [**VERY IMPORTANT**]
+* Antonyms
+* Synonyms
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/711203f6-8679-4eaf-8094-04390bc10c7f)
+
+* 3 [**VERY IMPORTANT**]
+* Rotund -> Rounded in figure; plump. synonym: fat.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db88878c-89b8-4388-968e-ceac1a031c6a)
+
+* 4 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfd100f2-6023-4802-9dff-b60f32b0e593)
+
+* 7 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae87d561-988a-48ab-b883-498a48db2d92)
+
+* 8 [**VERY IMPORTANT**] [Practice Again]
+
+## Test-8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3a1b716-7132-4636-a81a-21433ab2152c)
+
+* 4
+* Check the **meanings**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ee6017e-faef-42d7-8bc4-3d5341e7723b)
+
+* 7
+* Check the **meanings**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc19e533-2e82-4f84-9443-1e11feae6983)
+
+* 8
+* [**VERY IMPORTANT**] [Practice Again]
+* 3q -> 3 * 3 -> 9
+* 5q -> 5 * 3 -> 15
+* 9 + 15 -> 24 [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e99c11a8-513c-4fcb-a99e-b7c95afe3182)
+
+* 10
+* [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41c43db1-8275-44c0-9acd-760abf6cdbed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69b19dae-3f66-4032-988f-b5b9840fba57)
+
+* 9 
+* [**VERY IMPORTANT**] [Practice Again]
 
 
 
