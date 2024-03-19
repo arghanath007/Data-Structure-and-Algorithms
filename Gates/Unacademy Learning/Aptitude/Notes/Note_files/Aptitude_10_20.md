@@ -1,5 +1,7 @@
 ## Verbal reasoning part-I (10) [15th June 2023] [23rd Feb 2024]
 
+* Link -> https://unacademy.com/course/complete-course-on-general-aptitude-gate-ese-2024-2025-430/JQKJCS8GQ
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c1f4e62-39a2-453a-90c3-ea2baa3633cc)
 
 * Option **A**.
