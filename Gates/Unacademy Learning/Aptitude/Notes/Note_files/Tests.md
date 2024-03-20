@@ -243,10 +243,37 @@
 * [**VERY IMPORTANT**] [Practice Again]
 
 
+## Test-9
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a12de43-4ba8-42aa-bba4-71091b705ee3)
 
+* 2 [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/690c11f4-a329-4eec-bcdc-cafadebd892d)
 
+* 3 [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc1f8516-3d71-4e5e-82ca-52b458cb4b8f)
+
+* 4 [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b9800bf-1b28-42c3-ae87-afabe9d8c9cc)
+
+* 5 [**IMPORTANT**]
+
+## Test-10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8042f6a3-5707-4ada-971a-5702a45e6da1)
+
+* 5 [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13cd74ee-589b-412f-a0ce-1b4d7e853653)
+
+* 9 [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ff6034-4338-4730-9db3-49fc5cb444e4)
+
+* 10 [Practice Again]
 
 
 
