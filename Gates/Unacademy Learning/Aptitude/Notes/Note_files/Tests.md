@@ -275,6 +275,27 @@
 
 * 10 [Practice Again]
 
+## Test-11
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eedde169-4e39-46d6-ba6a-78d1708be016)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/323c7322-f0f0-4763-b5bf-63286c6bf478)
+
+* 6 [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b428b64-46c8-4c0b-9f24-ceb8fa01d60d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a1818b8-ceb2-4bbe-acbd-5660a9006024)
+
+* 7 [Practice Again] [Read the question carefully]
+
+## Test-12
+
+
+
+
+
+
+
+
 
 
 
