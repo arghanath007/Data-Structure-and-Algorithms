@@ -140,8 +140,30 @@
 ## Test-6
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40063421-f17a-4fca-be1c-e7c9627fa59d)
+ 
+* 5 [**VERY IMPORTANT**]
 
-* 5
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b816d0f-c856-4a84-82a6-0e5eaefb2e38)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04e3181a-64c6-401b-84f5-6274868ab609)
+
+* We have **6** spaces between the **5 boys** and we have **3** girls so out of the **6** spaces we can choose any of the **3 spaces**. So it is **6C3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88a738a6-1068-4231-8d4a-5baaabe1ec11)
+
+* The **3** girls can be arranged in **3!** ways.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9bf0772-3110-4c49-8250-45255dd694c6)
+
+* As we have **5** boys and they can be arranged in **5!** ways.
+* Total -> 5 + 3 -> 8
+* Favourable Cases -> 6C3 * 3! * 5!
+* Sample Space -> 8!
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3205b9fd-9c52-4cc5-901d-0e2355b3cc3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d58c89a-93b8-4eb5-bc2d-4532f199d5e0)
+
+* Solution. [Practice Again]
+
 * Link -> https://unacademy.com/goal/gate-csit-dsai-placements/NVLIA/doubts-and-solutions/doubt/82BD5C6A18
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18e63a20-dc21-4ec5-a953-f8cfa6cd62cb)
