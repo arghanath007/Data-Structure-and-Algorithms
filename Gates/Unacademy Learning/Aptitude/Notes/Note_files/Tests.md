@@ -317,14 +317,36 @@
 * 9 [**VERY IMPORTANT**]
 * (1845 - 900)/900) * 100 [Answer]
 
+## Test-13
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc7742a7-dddb-41bc-a220-c39fcb718df6)
 
+* 1 [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f5dd468-13e6-487e-a1fe-573c8bb5830d)
 
+* 3
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d57d4f-0d15-4ff9-a2bf-b281f2051872)
 
+* 5
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b9e5539-7cac-417f-b470-738253b27f05)
 
+* 7 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f3d918b-1c82-479b-8992-87dfa4d4a9cc)
+
+* 8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8d37d93-450c-4115-95f5-1304ea447b33)
+
+* 9
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd4377ae-13b7-4316-b18e-7a8a8d6e9935)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1318a055-c141-48bf-b9e8-0e32a3a467d9)
+
+* 10.
 
 
 
