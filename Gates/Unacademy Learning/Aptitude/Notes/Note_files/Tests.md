@@ -289,6 +289,19 @@
 
 ## Test-12
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/563d503c-c7df-4e1f-a588-cc687aab75e2)
+
+* 1 [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c46f5ff-d48f-4772-b789-444eecd9d3b8)
+
+* 3 [**VERY IMPORTANT**] [Practice Again]
+
+
+
+
+
+
 
 
 
