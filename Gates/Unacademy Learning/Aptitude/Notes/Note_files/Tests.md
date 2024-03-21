@@ -297,12 +297,25 @@
 
 * 3 [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1951a894-9d77-43fa-be8d-0589d0d0b59c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba7cadcc-b725-467a-9507-787925c1e91f)
 
+* 5 [**VERY IMPORTANT**] [Practice Again]
+ 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e97a633-245b-41e1-8eb8-b84c7bb60c24)
 
+* 6 [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8d30431-10df-4f41-9bd1-8dca35c74b58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2015b5f0-5434-4598-9867-b4b0dd5d912d)
 
+* 8 [**VERY IMPORTANT**] [Practice Again] [Read questions carefully]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ebcdf65-40d3-491e-831a-53ca1bc46530)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc844949-d9fb-4806-af0b-bcba1cfa9302)
 
+* 9 [**VERY IMPORTANT**]
+* (1845 - 900)/900) * 100 [Answer]
 
 
 
