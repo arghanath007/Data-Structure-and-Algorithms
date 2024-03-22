@@ -138,26 +138,13 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a0a6eb8-4b41-4ad0-b90f-efbe80f71e24)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ebf6e7f-dfdc-4d9b-ba43-e456c4103b23)
 
+## Placement Information
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f09a1a32-9bd5-475c-aff7-1cb150ea7f1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/551ee205-2fb7-4324-b030-3e1a733e3793)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c863fafb-76d6-468f-a968-6a02fe5313ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b283ac8d-7ee6-4bdd-8305-1ca33c66989f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44b86c10-7050-4c08-bc37-696a7fa72122)
 
 
 
