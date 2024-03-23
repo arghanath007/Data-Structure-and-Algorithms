@@ -348,6 +348,36 @@
 
 * 10.
 
+## problems-on-trains
+
+* Link -> https://www.indiabix.com/aptitude/problems-on-trains/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6b0bdae-56aa-495a-bf11-82942985e19d)
+
+* [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d02048-5050-41f7-bbdd-30323c5dc227)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/479aa308-4b52-4f9b-9d73-ecbc6884b570)
+
+* [**VERY IMPORTANT**]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
