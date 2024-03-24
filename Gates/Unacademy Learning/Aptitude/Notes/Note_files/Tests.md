@@ -439,15 +439,31 @@
 * [**IMPORTANT**] [Practice Again]
 * Check the convertion from **sec to mins to hrs**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81c42796-9f3a-4f94-90a3-af67274d31a3)
 
+* [**IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/711b4564-5326-4d03-bc29-1ca4addf170d)
 
+* [**IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34550f51-69ba-4ac5-a40e-bfb2fbf9f990)
 
+* [**IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d264e0f1-6b30-4bc5-adce-8c6de30abc28)
 
+* [**IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4ddc8a3-d27b-45c8-be45-48bf04fb5888)
 
+* [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d502d54-ac7e-4f3b-b85c-ebd2ed379f53)
+
+* [Practice Again]
+
+## Height and Distance
 
 
 
