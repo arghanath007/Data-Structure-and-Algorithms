@@ -364,6 +364,92 @@
 
 * [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cddf8693-2833-4298-942f-167ed5bba541)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9aefb69-2564-4add-b5b0-6dd7ba1c279b)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbb30f44-f966-4d3c-9864-596a95e9138c)
+
+* [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eec1af6-1c82-475d-bf00-e9bac4c4199a)
+
+* [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ab88e65-d24f-4412-9348-0097d1b79573)
+
+* [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b9550f6-060c-4796-b2e1-283ce87ef1fe)
+
+* [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b30d2a4-7cc6-4038-a1ab-5b2fac762d73)
+
+* [**VERY IMPORTANT**] [Practice Again]
+* Look at the units in the options carefully.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23d52de7-b482-4a33-8af0-0d3f32054611)
+
+* [**VERY IMPORTANT**] [Practice Again]
+* Doubt.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb42c2b5-3637-47b4-8065-cbf51881d28c)
+
+* [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffbf8364-a145-47af-b28f-c453bac2ff99)
+
+* [**VERY IMPORTANT**] [Practice Again]
+
+## time-and-distance
+
+* Link -> https://www.indiabix.com/aptitude/time-and-distance/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a401f8-c29a-4330-a363-5d2e8e13272c)
+
+* [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c41320e-a3bd-4f88-a161-489fc930027a)
+
+* [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e80f122f-9b0b-4574-a013-faa9e9bb5fb1)
+
+* [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3ffd81e-f596-4389-92d3-f97d8681e41c)
+
+* [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d5e1ed7-1740-43b6-a7a9-eb15bc69a29b)
+
+* [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9635270b-bdf0-4858-9d5a-d4e44e1a3df9)
+
+* [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872bbb05-7192-408a-a6d7-4d0a25debb56)
+
+* [**IMPORTANT**] [Practice Again]
+* Check the convertion from **sec to mins to hrs**.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
