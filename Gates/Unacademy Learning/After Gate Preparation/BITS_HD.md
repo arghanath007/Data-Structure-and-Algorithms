@@ -11,11 +11,19 @@
 
 * Dates
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65a3534d-1c20-4623-b0a4-056df4fcf253)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27998937-2472-4927-a348-95b6d5631dee)
 
+* Courses
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8fd3df3-b7ee-48a6-8f89-464b3f618e06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec5b3d82-aa93-41db-9f91-021399757286)
 
+* Placements.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbe157e6-6fbc-4e74-8125-cb6cd9ede17f)
 
+* Exam pattern.
 
 
 
