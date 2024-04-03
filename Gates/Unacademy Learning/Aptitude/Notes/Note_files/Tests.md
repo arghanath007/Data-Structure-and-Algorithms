@@ -476,6 +476,50 @@
 
 * Practice Again.
 
+## Work and Time
+
+* Link -> https://www.indiabix.com/aptitude/time-and-work/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93cc9d01-8ecf-4c6e-bc6b-52b003d1dd87)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d096fac-503e-456c-8c95-9291e04e9e4e)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1867192f-567c-4c23-903c-01212cbe93ce)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/751c66be-e4f9-4962-9528-4ef667bc2266)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/144aff41-4425-4cb7-8229-c4514081e7d2)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ae4c67e-600e-46e7-b6af-f3b35eabf4cc)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/028c5b63-8ad8-468a-9d85-55f296cbc7e4)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bea5328-282d-4080-a6a8-f835a9a5ae24)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e73804f-2777-4a53-80cd-cd2b4e321d71)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5cc9205-5ce5-43d3-8d32-4efde8a6b7bb)
+
+* Practice Again. [**VERY IMPORTANT**]
+
 
 
 
