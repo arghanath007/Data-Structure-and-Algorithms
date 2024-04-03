@@ -465,6 +465,23 @@
 
 ## Height and Distance
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a25cef33-be3a-488d-b17c-29feab1ae2b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2520cb64-86d4-4af9-95f9-b890a8cc24f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12dcc293-97aa-4e9e-9eaa-94da716f5040)
+
+* Formulas -> https://www.indiabix.com/aptitude/height-and-distance/formulas
+* [**VERY VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19f0e386-ffe2-4d0b-94bd-da74594586f8)
+
+* Practice Again.
+
+
+
+
+
+
+
 
 
 
