@@ -565,6 +565,33 @@
 
 * Practice Again. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c03fb06-ff11-43a7-b517-14730ca24463)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99de946a-482a-4bae-a8cd-cd8f62639571)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53cb5010-bb1d-4e41-bfec-77f543756a19)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/257ad5ed-a123-430a-9bf5-fcfefbae4077)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c653baa-7486-4926-9e85-297b4e702673)
+
+* Practice Again.
+
+## Compound Interest
+
+
+
+
+
+
 
 
 
