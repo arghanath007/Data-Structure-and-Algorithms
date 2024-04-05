@@ -520,6 +520,51 @@
 
 * Practice Again. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ab60415-1cc0-46e1-b126-096270d68d5f)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea5b33ab-df05-4f6a-aa0b-23baf9ccc7a3)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90fcc4d2-6f8a-4f5f-933c-3ba3051cb334)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eec417c4-88d4-4ae9-868f-a779425dc3d1)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6b6c9da-a04f-4fd1-9493-bfb32f927eab)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca22f371-6fa5-498b-8538-895f85a7d420)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/718a66c3-bdd7-40d6-aeb2-6976a49452b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a48b4609-d4c3-4f93-8817-a76b9d05a80a)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1dad1b7-3654-458b-ac53-b8c446d4da01)
+
+* Practice Again.
+
+## Simple Interest
+
+* Link -> https://www.indiabix.com/aptitude/simple-interest/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a768215-f557-4a60-8137-1ff944875c6f)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c5a7442-773a-41a8-b029-a6fdf157d520)
+
+* Practice Again. [**VERY IMPORTANT**]
+
 
 
 
