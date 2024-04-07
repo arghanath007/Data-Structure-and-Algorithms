@@ -701,6 +701,20 @@
 
 ## Partnership.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81461601-c0a7-4fb1-8857-a61b2c87b7e3)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/660e01aa-5877-4759-a682-fd6154f7f05e)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf5009dd-6b91-4152-86a2-66aca41f5a1a)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+
+
 
 
 
