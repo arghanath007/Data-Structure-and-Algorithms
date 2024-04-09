@@ -741,6 +741,52 @@
 
 * Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12693cc3-bcf6-42ec-9f67-d09ddc6a0f18)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aebdc7e-c4fb-431e-96c7-aa1731a918e2)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/143dbf30-6341-4bae-a46c-f3a12bed7f08)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c3a7daf-1d95-4f40-bdd6-bcb852d30aac)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c749ad71-3f21-48ba-aa1c-7008fcccfc0d)
+
+* Practice Again.
+
+## Percentage
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b3f3ecd-5d36-4a25-b2ac-c89e3d7e5ae3)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c6d9807-dd3f-4b95-a0e7-91bb0f21c72f)
+
+* Practice Again. [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f5b9b8e-fc7a-450d-9856-e3ed87527c85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7da68cd-6813-4700-b052-bc2eed1e19b6)
+
+* Practice Again. [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/004b91d6-da2f-47ce-bbc7-86d2a3e014ae)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9a4686b-5461-41b9-855a-2df53b1957ca)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48882747-b520-432c-a009-1e003e66a46f)
+
+* Practice Again. [Practice Again]
 
 
 
