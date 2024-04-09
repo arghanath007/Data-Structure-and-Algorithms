@@ -725,12 +725,21 @@
 
 * Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39d4a19a-4b17-4be4-8e30-0b2f7af494c8)
 
+* Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb547ee2-51ae-4298-878d-be527444d8d7)
 
+* Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70b63d15-5346-45bb-b183-84a4c4dc0826)
 
+* Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15a82cc5-991b-4745-bbd2-5f06fafe0fe7)
+
+* Practice Again.
 
 
 
