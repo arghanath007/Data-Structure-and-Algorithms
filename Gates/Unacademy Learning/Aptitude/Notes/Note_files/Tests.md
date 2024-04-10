@@ -834,6 +834,50 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e767f46-b580-4d6e-a7d4-5d3944c1f70e)
 
+## Calendar
+
+* Link -> https://www.indiabix.com/aptitude/calendar/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91fc207d-1aa9-41ed-bd8b-83c83969a6a6)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/615c4d38-aaad-4337-9ab7-eae57859d35d)
+
+* Practice Again. [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b98c1f2-cbc9-4474-9552-3a71e8265ff9)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1b33224-b20c-4575-b9e8-a825fc999735)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b5eabc1-f54f-401b-b1ce-ff2544d9dc80)
+
+* Practice Again. [**VERY IMPORTANT**] [Doubt]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bac15851-423e-4b27-9f17-13a03a74ae75)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d60ee586-0518-4d50-920e-d7b99d3342f1)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52240fbd-c5c4-4cfa-bea2-773d412da9d6)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4270284b-596d-40da-b0f2-a47e6eda575a)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ea03fd7-8423-4cc2-ba9d-52aace1dff2f)
+
+* Practice Again. [**VERY IMPORTANT**]
+
 
 
 
