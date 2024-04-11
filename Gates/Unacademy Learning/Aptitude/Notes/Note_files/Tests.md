@@ -878,10 +878,13 @@
 
 * Practice Again. [**VERY IMPORTANT**]
 
+## Clock
 
+* Link -> https://www.indiabix.com/aptitude/clock/
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fdddeac-6c71-48ae-9547-4ea904cf5382)
 
-
+* Practice Again. [**VERY IMPORTANT**]
 
 
 
