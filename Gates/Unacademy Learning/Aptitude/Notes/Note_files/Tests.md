@@ -1130,6 +1130,143 @@
 
 * Practice Again. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84ef4bbe-24be-4969-9737-ada8c6a5a37a)
+
+* Practice Again.
+
+
+## Numbers
+
+* Link -> https://www.indiabix.com/aptitude/numbers/
+* Solved till page **4**. 20 questions done.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c01ec51-7411-4d6d-a19b-6bee746e324f)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/152a5d08-2cf3-438a-8a4b-8d6720628825)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c313bac8-2940-44ea-8f75-438953895da1)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0d67957-69ef-407d-ad08-7ee7b5b86f49)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9d49799-d540-4f35-bb31-9cd5b70c73bd)
+
+* Practice Again.
+
+## Problems on Numbers
+
+* Link -> https://www.indiabix.com/aptitude/problems-on-numbers/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6431c42-9e4a-4514-aa88-1b3f96b8204f)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8c986eb-3347-4556-9578-53f67bf6dcc4)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e75991c-f1cd-4530-ba38-e7347bd237ed)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f8afd31-c2d6-4c5f-bfc7-abc77687dda9)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0107620a-231b-4fbd-b1f6-b5505be1381b)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ea1c32e-8287-4ebd-91f0-fda5e202be90)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ce1604d-ffed-4236-afbd-c9034b174e8f)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6856647-b8b1-4836-b310-a0c328104713)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13d401aa-57d0-4bbd-9444-58ee1abd9409)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a579518-fb1f-4926-96b5-00607b0ee3a7)
+
+* Practice Again.
+
+## HCF and LCM
+
+* Link -> https://www.indiabix.com/aptitude/problems-on-hcf-and-lcm/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbae6720-67d4-4edd-b488-ae99af2fbef9)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2856b3fc-500e-4d6e-9817-bb33689b87d0)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2074df5f-9c0d-48f0-b26a-be8124083b4b)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/262b6aff-8a50-410a-afd7-0b0744473cc8)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbe498d3-8b6f-476d-9e0d-590f190a6f8a)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52ed7577-9ff6-42b9-b648-6a8eb0d9e475)
+
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9877752b-35d5-420a-b66e-e52a66c9c333)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bed9727c-ada0-4458-85c3-314b68cbc68a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b87a6b50-b34a-4e77-abe0-8718ac9f7697)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f706169-4018-40e2-abdc-2554c4f196af)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f48dadd7-ab3b-48c6-9b08-b0b0058e22a4)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a79e65d7-6509-4ba8-8003-0f9bc3d14731)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e685e334-3478-46a5-8629-9968bc4e7a9f)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92406c6e-0ba9-4b33-919d-f7fa74bac557)
+
+* Practice Again.
+
+## Decimal Fraction
+
+
+
+
+
+
+
 
 
 
