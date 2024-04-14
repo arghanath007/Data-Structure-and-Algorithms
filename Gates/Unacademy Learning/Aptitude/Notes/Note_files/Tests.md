@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6006376-88a5-4313-8d88-fea61c5cf885)# Tests
+# Tests
 
 ## Test-2
 
@@ -1261,6 +1261,11 @@
 
 ## Decimal Fraction
 
+* Link -> https://www.indiabix.com/aptitude/decimal-fraction/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83a41c9e-6ca4-4bb1-9bb7-917596c1aaf1)
+
+* Practice Again. [**VERY IMPORTANT**]
 
 
 
@@ -1301,7 +1306,8 @@
 
 
 
+## Extra
 
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6006376-88a5-4313-8d88-fea61c5cf885)
 
 
