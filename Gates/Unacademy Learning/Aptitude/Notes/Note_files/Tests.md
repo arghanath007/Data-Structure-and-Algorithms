@@ -1264,8 +1264,12 @@
 * Link -> https://www.indiabix.com/aptitude/decimal-fraction/
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83a41c9e-6ca4-4bb1-9bb7-917596c1aaf1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a52133aa-bdeb-41b5-8df7-eedab2a6fe65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb8e121a-ecc5-4ac2-951d-280ba50419b6)
 
 * Practice Again. [**VERY IMPORTANT**]
+
+
 
 
 
