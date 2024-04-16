@@ -1335,14 +1335,21 @@
 
 * Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c3ec9f9-f97c-460c-a2e7-e38844ec2a5b)
 
+* Practice Again.
 
+## Surds and Indices
 
+* Link -> https://www.indiabix.com/aptitude/surds-and-indices/
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd910652-3596-4343-84d4-371ba088a8dc)
 
+* Practice Again. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4680ce8-0e14-46b2-995e-f60f4176a820)
 
-
+* Practice Again.
 
 
 
