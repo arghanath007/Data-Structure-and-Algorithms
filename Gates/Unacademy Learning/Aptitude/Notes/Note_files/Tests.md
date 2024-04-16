@@ -1269,16 +1269,71 @@
 
 * Practice Again. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9dbc544-50e5-468a-a3d2-69e69ca7dfac)
 
+* Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09d674d3-2678-4546-9920-32f15e429d70)
 
+* Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ee04a6-6eb0-4007-ad35-bd6eaa22b511)
 
+* Practice Again. [**VERY IMPORTANT**]
 
+## Simplification
 
+* Link -> https://www.indiabix.com/aptitude/simplification/
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f33abf4-80ef-4939-a28a-1c55d1a47836)
 
+* Practice Again. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4e43d16-5a4e-455f-9cfc-80a805b922e7)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6d609ef-9c14-4873-89fb-c9e1eb8851f0)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c8c7a32-5728-4fd8-a557-ac1f1f2feeda)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/716054a2-f191-4007-aa28-0e1bbbb501ae)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93ef29c7-c26b-44f3-9616-5244922976b3)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7375537b-6223-4465-82a7-baf153faf849)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcb60b50-c40b-4513-be00-7cd687bb48d6)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28449de7-3acb-4366-aff4-e3e113563726)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3089a8e1-fcbd-482e-89ab-257e973fb33d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/936e08f5-adb7-4519-af0d-ab820d9eddca)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cfe3b2d-9381-4fbb-b718-4f1c5be7827f)
+
+* Practice Again.
+
+## Square Root and Cube Root
+
+* Link -> https://www.indiabix.com/aptitude/square-root-and-cube-root/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9d28681-80f7-4612-8ee7-89ab7a30dece)
+
+* Practice Again.
 
 
 
@@ -1313,5 +1368,3 @@
 ## Extra
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6006376-88a5-4313-8d88-fea61c5cf885)
-
-
