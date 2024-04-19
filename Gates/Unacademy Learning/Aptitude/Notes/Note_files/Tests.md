@@ -1403,13 +1403,29 @@
 
 * Link -> https://www.indiabix.com/aptitude/chain-rule/
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/572ed4c7-2b7b-4f68-9ee5-fd2376787546)
 
+* Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27a6def9-9192-45cf-be32-484886ce5976)
 
+* Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85b9408a-765e-4168-b918-8b23c5eaa425)
 
+* Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8588080-eedc-4518-8788-42c246711acb)
 
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fb81f47-bae2-4ff9-8319-8b0ec7366bf6)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37b0407d-f07f-4e1a-9fac-ca470b92e0c5)
+
+* Practice Again.
 
 
 
