@@ -1359,6 +1359,56 @@
 
 * Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0babbdc-4406-4a20-8252-c606227e699a)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae087d18-de51-4b6f-a677-258841990c91)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/69eef355-f621-4042-999b-26cdd3c9b2f2)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c93509b7-0012-4b0b-a86c-0b96517a95c0)
+
+* Practice Again.
+
+## Ratio and Proportion
+
+* Link -> https://www.indiabix.com/aptitude/ratio-and-proportion/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6da3c029-4b05-4a50-9e0e-6d22f067a32c)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e06979af-f0a7-4c86-b75f-9feea688feca)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c02523-0a63-470c-bca5-419de3dc0a0a)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41fb93d0-2c98-4528-92e2-ea6115c12c8c)
+
+* Practice Again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56999b15-9057-4d11-aaa3-7e73e816f686)
+
+* Practice Again.
+
+## Chain Rule
+
+* Link -> https://www.indiabix.com/aptitude/chain-rule/
+
+
+
+
+
+
+
 
 
 
