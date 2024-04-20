@@ -1427,13 +1427,34 @@
 
 * Practice Again.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/523ce54f-0794-4d4f-bfb2-be24bf78ba30)
 
+* Practice Again. [Doubt]
 
+## Pipes and Cistern
 
+* Link -> https://www.indiabix.com/aptitude/pipes-and-cistern/
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90ce44f5-
+bc34-4dab-98a9-92bb4f636813)
 
+* Practice Again. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5503e71-6f2c-4d51-b5bf-7ac1b924d748)
 
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d889ba4-bc98-4d46-be1a-a046568cc4cb)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cced7b03-cbeb-45de-84a5-e5385b172da1)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/219d205f-d0a7-47e0-905e-826fedacd5b0)
+
+* Practice Again. 
 
 
 
