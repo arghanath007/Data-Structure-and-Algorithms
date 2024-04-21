@@ -1578,6 +1578,77 @@ bc34-4dab-98a9-92bb4f636813)
 
 * Practice Again. 
 
+## Logarithm
+
+* Link -> https://www.indiabix.com/aptitude/logarithm/053002
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d26c89cf-f29b-47ad-b3ff-e375705c7881)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/007eff01-a9b0-47f4-b5ea-def324da02b4)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bd4e1e9-8a5a-499c-ab46-70647d55b619)
+
+* Practice Again. 
+
+## Races and Games
+
+* Link -> https://www.indiabix.com/aptitude/races-and-games/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d79f8958-a4b2-4090-a822-265077751c92)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24f8b85c-9003-474d-b1c6-ea69c253b481)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4963c709-a982-48d6-889c-db6aec5e4c5e)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19d2ca65-115b-4ad2-8c1a-a1a9be5d0bdc)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7ef0673-d917-43a1-b8e2-1a2b0e72ad03)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36e98634-2bf4-4c74-b682-605517f79f5d)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcb23517-df20-4655-a40a-52408fbfb5a6)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a304d83-c79d-4ac2-911a-97029aff2417)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b1d3dea-58ac-497d-9b6d-6db38dcf4c7b)
+
+* Practice Again. 
+
+## Stocks and Shares
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
