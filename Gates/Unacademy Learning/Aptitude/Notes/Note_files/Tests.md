@@ -1538,6 +1538,50 @@ bc34-4dab-98a9-92bb4f636813)
 
 * Practice Again. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae38a594-226d-464a-824a-c0de7b8b0449)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cc8497e-9889-4f1c-9af8-b5f8c0e04d36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76fc716b-74f0-4ef6-831b-399de9a979cf)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34e85f42-d5ad-4d51-a84a-d31f7dd10b0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7fed326-c713-4d0e-9cc1-98bf99419a7b)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b230c40-00d5-4c9f-a794-c8905ab1f17a)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0918cff-58be-4e83-b91a-e33f60c67628)
+
+* Practice Again.  [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c09e2df-53b2-4c58-9909-7f393120240d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d734e004-b422-4221-a5fd-de1611acfbf1)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/670b71c7-5c66-4692-a5fe-8e48cefaedc3)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f388077c-e30a-4d9d-a1f9-610d770b8dd0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ff4a3c2-c60f-4ce9-a6c2-2fcb3b0b1a42)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/425eb730-6c5c-4fdc-9e16-df1a367c22ee)
+
+* Practice Again. 
+
+
+
+
+
 
 
 
