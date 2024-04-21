@@ -1456,6 +1456,97 @@ bc34-4dab-98a9-92bb4f636813)
 
 * Practice Again. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b66eda7-bc8e-4a47-a8b0-798f7326f449)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bf48f8a-026d-496a-894d-362dc411137f)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ced0211-134d-47a3-aab4-6efe26b6a3ae)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28c644e6-e57c-4a80-8f64-0666553b94cd)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43a6b2bb-accc-41b9-9959-01792c6ced63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca200892-b597-42af-a213-a6f727da53eb)
+
+* Practice Again. 
+
+## Boats and Streams
+
+* Link -> https://www.indiabix.com/aptitude/boats-and-streams/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74277e8a-fcd3-4259-bed9-d15712433155)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce0df452-8f1a-4f55-a434-26d9d06f0d62)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8df729ac-1eec-46ee-a59b-d798140651bd)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae770909-feb5-4323-b209-78c07fd401b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6304f643-e022-445a-8db2-bd4d74b7baef)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1a38c93-a519-48e2-9776-00bff69e37c0)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/843693a0-ecf0-429f-96dc-0502d8bd180f)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4069a13-7fdd-4ae1-b92e-6670d0bc596c)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2860ab7-a0f3-41c5-bfed-992d96a1de2b)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c88fba1c-3bb6-4a9a-967e-baa73f90df46)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1989a646-b20f-4572-8a28-9c61b7360f56)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/061aee6c-101a-49ca-87d8-6e218814393d)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38848f8e-4ee0-4af5-925b-fbd8f40b9fee)
+
+* Practice Again. 
+
+## Alligation or Mixture
+
+* Link -> https://www.indiabix.com/aptitude/alligation-or-mixture/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65db4951-6f03-4c02-a455-21995ee3ca78)
+
+* Practice Again. 
+
+
+
+
+
+
+
+
+
+
 
 
 
