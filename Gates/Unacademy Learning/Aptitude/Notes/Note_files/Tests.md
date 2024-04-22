@@ -1803,8 +1803,51 @@ bc34-4dab-98a9-92bb4f636813)
 
 * Practice Again. 
 
+## Odd Man Out and Series
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52217dd4-8def-44d5-812a-ece18a7536fb)
 
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/318591d9-6323-44c5-be5c-549f3350792e)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be37caba-3d93-496c-bb65-4134cad97872)
+
+* Practice Again. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1efd5f9-f00e-4c42-9b1a-652eb76866bd)
+
+* Practice Again. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93590a15-6abf-4cc3-a83d-f6e1925ffa93)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49acea67-ede0-46ca-be34-0d5cea2de1d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a0f2a45-bcbd-4aeb-bb3d-085f0cf1cab1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48b6bbb4-c2a9-4509-bfbd-a326e27c3a9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f69cada-aa43-45cf-8f02-02d662744881)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5858bffc-172c-4466-b3c0-9afbaf079e0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0124d33b-d703-4938-84d1-9b3f33612537)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8568fa36-468c-42e7-8e2a-cb0326aabed9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be4014c3-2348-43ad-a31c-43c03952a0f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63474a4f-e2db-4375-9352-d268d3fc020b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50ef56da-106a-4d10-820f-4106708a1633)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbba71f2-7812-45a1-9fb1-b92a6c046a41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50908103-38e1-46c2-95d4-97bc380e12ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4de48fb-de7e-4d57-a5ae-1bcaeba8f10c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2e61d7e-f30d-41f2-876e-8ba9aa8c4142)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c19c173-9d4f-4853-a928-03d54686ea35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b3a84c2-d98f-4dcd-b59a-0ae255ea33d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71f8f869-6af8-4a6d-b8e0-bcc40b746b63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb188914-f5d2-439b-a819-964cb807d8f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebc1948e-614f-47f9-8e0e-9206e1e701a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0258e309-7a48-4562-9d87-ed3e264a5fbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ca5b2d9-984e-4292-bf7d-f6160eaff610)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ab3de54-58ba-4468-96b5-5b5f252c5c82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a95e2d38-b829-4a21-8208-fbdbfe8f2550)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a532e17-5ae9-4d67-98ed-17f3f74213b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8926fcb3-ebb2-4fbf-b335-32c87624a625)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5018bb28-c13b-4b1b-a7e7-565c6eca9f23)
 
 
 
