@@ -1849,6 +1849,53 @@ bc34-4dab-98a9-92bb4f636813)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8926fcb3-ebb2-4fbf-b335-32c87624a625)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5018bb28-c13b-4b1b-a7e7-565c6eca9f23)
 
+* Practice Again.
+
+# Data Interpretation
+
+* Link -> https://www.indiabix.com/data-interpretation/questions-and-answers/
+
+## Table Charts
+
+* Done **Table 1 and 2** already.
+* Link -> https://www.indiabix.com/data-interpretation/table-charts/034001
+
+## Bar Charts
+
+* Link -> https://www.indiabix.com/data-interpretation/bar-charts/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/903b406f-6484-4496-8fb6-7784f6715ef7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a0b7a36-ae6a-4d26-8611-759410238278)
+
+* Practice Again
+* Link -> https://www.indiabix.com/data-interpretation/bar-charts/043001
+* Done **Charts 1 and 2** already.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
