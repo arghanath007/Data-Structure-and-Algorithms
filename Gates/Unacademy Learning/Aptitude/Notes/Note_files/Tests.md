@@ -1871,6 +1871,19 @@ bc34-4dab-98a9-92bb4f636813)
 * Link -> https://www.indiabix.com/data-interpretation/bar-charts/043001
 * Done **Charts 1 and 2** already.
 
+## Pie Charts
+
+* Link -> https://www.indiabix.com/data-interpretation/pie-charts/
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b456621f-9f5d-4db8-8fa5-3f2a585d62a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e6dbbe6-b1fa-4bc7-9546-21200d4643b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71ae15e1-73ae-4ee9-9c06-d7d830d7970c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9491cc98-d6a0-425d-a105-c95d96214fe6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f46819cd-1510-4d6b-8984-bf382e9126e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee44ea16-15de-4688-b5ed-2235b495885a)
+
+
+* Practice Again
 
 
 
