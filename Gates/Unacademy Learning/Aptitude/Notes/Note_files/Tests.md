@@ -2169,7 +2169,16 @@ bc34-4dab-98a9-92bb4f636813)
 
 ## Sentence Formation
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a41a533c-9c2c-405b-baef-4022bb28995a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4e88db9-2d0c-4fb5-b75c-04578e868ed1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2a11c2c-b5dc-4e54-9aa0-dbeec4be6fbb)
 
+## Ordering of Words
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/049d5a14-4868-4d18-8c11-9d68dc964dc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a85d187-fdeb-4d03-b93c-834164f944cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c63e303-2291-4911-957f-a280dce5b858)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c489ac5-c36e-40ac-a6a8-9e6b61dbe260)
 
 
 
