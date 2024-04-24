@@ -2179,12 +2179,33 @@ bc34-4dab-98a9-92bb4f636813)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a85d187-fdeb-4d03-b93c-834164f944cf)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c63e303-2291-4911-957f-a280dce5b858)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c489ac5-c36e-40ac-a6a8-9e6b61dbe260)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bac1266-4935-444a-ad39-f6f87ade8458)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f85a8644-268f-4e88-a923-5ac3feaefa09)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad117f51-6146-4e6c-83cc-dfa821b2dc31)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9bc9268-66e7-4429-b250-c1201efc10d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cc86d18-f185-4e39-a324-3f9be36f6b52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49a1011c-c2b9-4508-bff5-4c2630d5572d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9be85c7-5970-47c2-a020-212f3a0703a1)
 
+## Sentence Correction
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/764a3f7d-b5eb-453b-96c1-15224e5fca58)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edf5b811-8bc9-4961-aca1-2a318d29bf06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be9a5b15-fd2d-49aa-9788-cde3f07bc1ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59265cae-21d9-4d9c-bc5a-a8397fb793f7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3a2ebdd-d1d8-4b4e-8e04-4d446dc8d367)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c64a908-02e2-41de-955c-034df6245957)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a6a697c-0a60-4f46-9fa7-82fdd3d95fe0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c31156de-2311-429e-92b5-5e3ed9b9bd97)
 
+## Sentence Improvement
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab15e381-f9e6-486c-be0a-d8d1b3e5cac7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/156920e0-5bed-4db7-8593-447213c0cdea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0452140f-a4f9-4080-bac2-b90355667fbd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bf3f1ef-043c-4fea-93bb-d7ef1e76b8a2)
 
-
+* From **6**.
 
 
 
