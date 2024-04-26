@@ -2318,17 +2318,69 @@ bc34-4dab-98a9-92bb4f636813)
 
 ## Idioms and Phrases
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f5153d9-8bf4-485c-b126-d9a4fcec97b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ee509a9-bd7e-4efb-9799-62f37d18c22b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/706587bd-37f1-4823-b3f0-0baf533a76ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00553186-d9b8-455f-a8fb-b547f2fcdc20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25bf77f2-2ae0-48f0-98ad-76e931f67ea7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbac09d3-cdb8-43f5-b0b9-51f49bc7823f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0212f8b-4217-45d2-b12e-62ed9ab42413)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab67a4b4-4569-404f-aa85-231e00df4a2d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a79220ea-063f-4a44-a787-8c8713105de6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d903b2a2-872a-4876-8c60-994ef4c0b3cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f857bcab-b441-4525-8be4-96e8276483fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/116886e5-b4f2-4548-8777-c28a8b9fae89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0cb9684-ad9f-4c69-b568-066538e35a45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60f26353-6437-4d8c-b4d7-439ff144de0e)
 
+## Change of Voice
 
+* Link -> https://www.indiabix.com/verbal-ability/change-of-voice/
+* See all of the **questions again**. [**VERY IMPORTAMT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad3c3d84-bab6-4bbc-b4dc-e1955c32a7f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0eb3141-d7d8-4e24-884b-4e69faa45b9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45d09b15-d6ac-4a0d-a754-68522ffc12db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76e94901-faf7-440b-b6de-ccb7ad3dfdc7)
 
+* [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91dca021-e7ae-4a93-9cbb-e0957cb368a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d6c4bb8-7f87-47d6-810f-6d91d3f0eb97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b001d6d-bea8-4300-8d85-8bf104bd27fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/118ee6a1-0b40-4292-8e10-ee6166fa2b01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1245022-1605-4db0-ad3f-4c11788d357a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8787b29e-326a-4d11-b48b-6db11562c79d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d931abfd-bb23-4a42-a59c-2acd9e467e52)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e998ba4e-e967-46ec-a60b-2c70fc171d55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4bbf8b3-8d79-4c40-971a-33621477e6f6)
 
+## Change of Speech
 
+* Link -> https://www.indiabix.com/verbal-ability/change-of-speech/
+* See all of the **questions again**. [**VERY IMPORTAMT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/551c3a86-bf2f-4b33-b609-e0ff08fdaf0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc0a13b9-5fba-44af-9106-b9e53f192611)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a573b9e-1807-4235-8868-cb0e7f213a6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bcb6ac7-5d70-4c97-bb27-999c52f9aa5f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d41c4f8-5abf-44d6-b2d1-dd6e5a9e4e77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c620c668-33a1-49bd-bd85-237d7ffa083f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8de13265-d8b7-4bab-b8fe-8b768d5d85ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b21afa8-a976-477a-80a1-6d92cae486ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc7f8a68-2829-4d67-9f1e-f46a601ac668)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0aef1473-ac4b-4dac-a05b-1f996b8d7ccb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f366988-21a3-4f3a-b7fd-5c6fc6fcc32f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fd3a6db-7759-4125-9ed1-05826cbb6e62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af041489-ea4b-4d19-8ce2-c7415e3a2f23)
 
+## Verbal Analogies
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a3f5ff1-f9bd-4696-b858-cbaa7324e2d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/495a2227-f26e-4f1d-b062-b7c8cab70987)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fb1e64e-97ad-4527-8353-57ec6bae6c16)
 
+* Start from **6**.
 
 
 
