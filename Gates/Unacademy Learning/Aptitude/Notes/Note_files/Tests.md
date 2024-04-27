@@ -2376,14 +2376,29 @@ bc34-4dab-98a9-92bb4f636813)
 
 ## Verbal Analogies
 
+* Link -> https://www.indiabix.com/verbal-ability/verbal-analogies/
+* See all of the **questions again**. [**VERY IMPORTAMT**]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a3f5ff1-f9bd-4696-b858-cbaa7324e2d6)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/495a2227-f26e-4f1d-b062-b7c8cab70987)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fb1e64e-97ad-4527-8353-57ec6bae6c16)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10f69636-32aa-4e10-a66b-6ea8b2944cec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09f92753-5f0f-4d7d-8f99-3bfe6963a177)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ed67467-a2c7-44e7-aa0f-709d49bc61bd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c20c55-f571-4b3c-8c62-0f96c48d0837)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a61298b-6a68-46b1-9a12-5ddcde77fe8f)
 
-* Start from **6**.
+* Meaning
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/270277f8-8d27-490b-9d24-edf4228ef23d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f064c899-62fd-4c90-87d8-048e24b7de34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e405753-2344-49ab-b3ea-89f8aa2cb8c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/271aef24-1ccd-4073-8dfd-d3ae9356f1dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cf90215-c444-470b-a94d-4330b3bdd709)
 
+* Meaning
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccf2a7ae-df8d-4063-8434-b2037538b4df)
 
 
 
