@@ -2400,38 +2400,44 @@ bc34-4dab-98a9-92bb4f636813)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccf2a7ae-df8d-4063-8434-b2037538b4df)
 
+# Logical Reasoning
 
+* Link -> https://www.indiabix.com/logical-reasoning/questions-and-answers/
 
+## Number Series
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c4c3775-9525-40a2-954b-902077cca34c)
 
+* 1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c87086c5-3985-43a8-9e4d-2ddfd2f63a22)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea3022fa-f014-4ff8-88e3-c2c023682087)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeb46691-e65f-422e-b0c8-4d652cf38f08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c49e64c3-3044-4c9f-bfcf-ce0de76dd03e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ee09397-3d00-4911-bf40-a2ea6e6acac1)
 
+* [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a474a47-36d0-43b2-8bf4-e7a9e57365b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e82b07f-c825-47c2-a9f9-e3794bdec97e)
 
+* [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e37a262-239f-414e-b5a7-f4319514633a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/242c4c1e-337f-4dfc-85cd-98ae18d849ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ecfb2af-fd2f-48ee-9971-1e40af54012d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18957ba2-4bd9-4659-af21-87f1cfa6740e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4c67c57-5ec3-4fb2-9f5b-3d2b0798555f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c05f9d7c-d487-4968-95a0-86ce0724dab9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c17e7c30-ab30-4e43-bd25-f2086682b6d8)
 
+## Letter and Symbol Series
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1915a0c-8cc0-4198-84ec-942c64c5a25d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b56fa62-6544-400b-9908-24f9c75bfafa)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+122
 
 
 
