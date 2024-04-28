@@ -2567,17 +2567,26 @@ bc34-4dab-98a9-92bb4f636813)
 
 ## Making Judgments
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a95bc9cc-8bee-4814-8d65-c7d80baa322b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4b7836f-a68b-491f-87cf-7cde88b66a71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4755049-4ab9-431a-85bd-9fb6d6eee10c)
 
+## Verbal Reasoning
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e8ae8a1-852f-4a5c-aab7-2ce1a4d78935)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c53ed3a9-54fb-4eb9-b6f1-8e2f14199e50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/255440f4-c7d0-402d-9040-5023bcca52a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d4e1c66-753f-421a-8726-c671803e9fc9)
 
+## Logical Problems
 
-
-
-
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0f3f044-aad6-45cc-8121-727c4832accd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6c2b3be-22f0-48c2-a482-978b618cfcdc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b36c43-0706-476e-a44d-e267dcfe08ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/368111ab-ddf7-492c-91b1-dbae71a9fddf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/475c71e2-52d7-4150-ae0c-a39f1062b80d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1cc50a1-6ece-4293-9234-512ee783d275)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d820ca56-360a-4a4a-ae76-cb49c1c85e9b)
 
 
 
