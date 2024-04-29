@@ -2753,8 +2753,33 @@ bc34-4dab-98a9-92bb4f636813)
 
 ## Cause and Effect
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dcfb420-d9af-4053-9c1e-b4338a9a4413)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a96d4b2-6c66-4cfb-ab8e-d992de0cc71e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/284ae09d-302f-46b6-a35b-aee39a582e83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8bd0ef4-7247-44af-81e2-0ba3ee3badc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd267e89-f4d9-4305-9cbf-c05bcc4d7223)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06e52f44-c367-4d51-b82b-4aecfe89e214)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1037cd37-c730-43d0-9385-33f412bc4b82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c757b757-344b-4c36-a3ab-d8f95b7f343d)
 
+## Statement and Argument
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4df9a51-a4a7-4df8-bc7b-ba57c32bcc84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ecf7d22-92b8-4f8c-87ef-e0f7da620ba6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/491d1c70-ceec-415e-8936-a480ee235598)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b4bcf16-6708-4efb-a156-cf2d791eecc2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b42dfd5-676a-4eaa-b891-6627ed1c4d7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1ffec0f-1617-4924-a8ba-59ac5d7a4a67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/511cc2cf-e590-4d1e-bd8c-fc0fea682dce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cfa5a5cb-c460-4b1e-b007-8da23c2795a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47409073-56fe-412e-abc6-80ff3bd26a35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef7c6e86-ce4d-46e7-9243-910c5f782838)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd7b448a-20b3-43b6-848f-5fd840bd0857)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a849cca-1d14-4778-88c9-171ace95744c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b441884d-7e9f-43be-8091-5bc78e648a4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b246fa92-c64d-4fc6-a589-2308e43542f5)
+
+## Logical Deduction
 
 
 
