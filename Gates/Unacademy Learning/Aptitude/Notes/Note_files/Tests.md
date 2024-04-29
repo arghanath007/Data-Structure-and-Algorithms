@@ -2781,6 +2781,56 @@ bc34-4dab-98a9-92bb4f636813)
 
 ## Logical Deduction
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19281cca-9406-48e9-8039-93f9b5379a1e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c1ffea-3654-4df9-8f35-21ba0a6011b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a842b39-1592-42bf-8a3d-db2cbcde97e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59d6399c-97f8-4e4f-96aa-2f95b77256e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff78ac44-69c0-46bc-af50-58a6c37828ab)
+
+# Verbal Reasoning
+
+## Logical Sequence of Words
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6083aba-3b70-4daf-99ca-bb951ee4918b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0752c213-bd7d-4c2a-a82d-5ece00afef3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ebdde46-3b51-420b-abbc-9d2a0866cfb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/430ddb67-9fcf-487f-96dd-8ffa29527c2f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d694dba-e086-4142-838d-93c759cb5d3b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e304437-215e-449d-b5ea-ac063981678a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3acaeb4-973a-4c4e-b955-dfc9589e4227)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9f8ef7f-9e27-4267-95d4-e2ef48848907)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35a08016-62c3-4c87-8809-560f58a1cd14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd3388bb-f598-4c40-9049-9abc275c3bec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa9a53de-16b0-40f3-9336-73cdb47963f4)
+
+## Blood Relation Test
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b39a276d-bca4-4df0-a9f2-92125acde51a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04f439b4-0557-4979-856f-07be94bf11b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ca60274-dbcf-45f7-a352-f8b96c2d912b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5da51946-8927-433c-b3b2-dca22229b596)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1a8a09c-71cc-4a83-ae1b-1d4b03e4aee1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bc38bfa-346c-4b33-b1e5-5537f01159b9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/225cc49f-34a8-46f2-b441-e4b11068455d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1b04acf-5f6e-4e43-af62-05aafd97b234)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cd4dad4-f42f-4929-8834-f312e1dba940)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3fa46b6-14cd-42a1-b66c-38ab9ec771eb)
+
+* 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
