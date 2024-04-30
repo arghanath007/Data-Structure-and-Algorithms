@@ -2888,16 +2888,41 @@ bc34-4dab-98a9-92bb4f636813)
 
 ## Dice
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34433bb7-9e10-41cc-825f-b72ac5c3f151)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/410cbadb-25ee-4363-a6a0-449bcaa72779)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81d79c27-b37b-47a5-a467-50825304caa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e5a016b-995c-49bd-9efe-51df76720b76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/400df969-2288-4c37-89c3-dc1c33b4416a)
+
+* 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7d31ac-7a8a-449e-bc5d-50e579af3386)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3646c08a-04f4-4226-a5e3-301d821e24e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac213f8c-0476-4dfa-98c5-4b42184c02de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3590ec5c-e4a4-4906-a4a5-c02e6a7ca711)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd723f64-489d-4bb6-b53b-eb8305aceb36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bf49bd1-ffdc-4bab-abff-24ec0d22465c)
+
+* 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae919d92-34c0-4577-b3ab-a07dced7546d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5923df44-fba5-41a2-a27f-07c7780cb023)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a901f90-3ceb-462e-af6d-d33e98cbece4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2467bad3-883a-461d-bc4b-b4c5a2006bb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40f0eca5-a996-4d16-956f-693c5da9514e)
+
+## Venn Diagram 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcb27100-3bd1-4872-8bc9-4cf3c8039bcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b5622b7-b360-4c05-b63f-26e378c3db51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a13c9992-ab9b-4af2-9ec3-35aa10c305a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1ba322a-7855-4889-9736-88be850df31e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7286bce0-4c3d-4433-a8bc-5227254524d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a005fb7-c5d9-4ab9-9cee-87563060333d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ed6ff8c-3237-4de6-b736-5cac2933c8f4)
 
 
-
-
-
-
-
-
-
-
+15
 
 
 
