@@ -2961,13 +2961,51 @@ bc34-4dab-98a9-92bb4f636813)
 * [**VERY IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b20b6fb-e68c-41c4-9596-a5b164290a0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec300011-62e0-402f-9906-a06ad1c1e230)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57c2a250-244f-4bea-b1bc-cce4fb79c484)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62ccf496-8815-4e82-a03b-889161d38f56)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/413521a9-4afc-443d-aa51-ce609acc68ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65833a40-ff0b-4e8b-8a0a-ff0c92602bac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de7e1bba-d928-4aea-a1c8-caa09e9d6771)
 
+* [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62ccdd98-57e1-49ab-ae68-f3629577f79d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3062401c-407a-424b-902f-775cc0900094)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0894b4fb-535b-44ba-83d9-d9829e988afa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ee69674-0924-41de-8684-8d7269758049)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c678fe1-79b6-4260-8510-efa8c75c43c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e572410-ae45-4df5-9f14-23addf8ba882)
 
+* [**VERY IMPORTANT**]
 
+## Analogy
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ea3c57c-01d9-4870-a276-2ae1fb72f52e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f261075-994f-418a-9f16-f4d464a19659)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89ad2f55-e493-4b20-8557-447d4df62ab7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aecf946e-5ed4-488d-81a4-be8e7a654607)
 
+* [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df2551a5-ff30-4ec4-96a6-ccda66f7ad7b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a5dcd6f-08b7-4f78-8446-f7449662bf76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88815c4b-ef27-4bf3-a083-2afacfefb698)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ac71ae1-28c8-4ada-8e4c-8bbe8f5228f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e38ae77e-8f12-4176-b420-96b5f7fe56bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c7603d6-5737-4a72-bf2d-858f313325c2)
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+## Seating Arrangement
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/324fa902-478c-4f82-9d94-7d31ddcc3abb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b0cf8f7-d3fa-4a9d-aafb-f00cc66c511c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/735187ce-7a76-4c43-8970-c5f8923a06f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3d52260-2b09-41e4-985c-b2bcd6d428e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60114e9f-e61b-4637-b04a-231732747a17)
+
+## Character Puzzles 1
 
 
 
