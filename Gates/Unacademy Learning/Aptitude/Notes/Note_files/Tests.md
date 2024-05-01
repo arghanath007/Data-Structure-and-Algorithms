@@ -3007,6 +3007,95 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 ## Character Puzzles 1
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cc62171-5f4c-4f68-a1ed-4dcba548f34d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7501836-cb30-49f8-8322-6e243f327c3d)
+
+## Direction Sense Test
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/953227f7-9b7a-4217-85b8-226aa6f1eb63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db7a7a56-4101-4c14-8c08-2baea5f7c8a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c7a9fdd-3cbf-445e-ab36-24582bf9aa74)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c841ac7-8266-420e-a3ef-d79347c66224)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59c06241-1715-4798-8394-8e9e607130a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/045e5b3b-19c8-483c-a2a6-d7088737c8b0)
+
+## Classification
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/557c5ec4-858c-4a5b-8363-5a1dca634996)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cefcac33-e257-4a05-bbaa-ab9021e377e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9cb928e-e53b-48ef-81ed-0bf509cd8dd6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc3f057f-7dbc-438b-b8fa-34b3d712c746)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd6d018d-42d4-4b2c-89c2-fceae69ef0e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/710fd496-fc25-475e-aa51-5d5b3cab4b5e)
+
+## Data Sufficiency
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/895242da-5808-4904-946f-f77e3a0b0aaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c9d81e0-d284-4767-b80f-81d06becc38b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aad6d16-2306-4ffe-a950-4c250fb7eef4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13145e35-a39c-4229-b56c-933cc0cc357b)
+
+## Arithmetic Reasoning
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7964471b-3dfb-4c89-9bc2-478ca3fc1736)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b827e466-8c33-4c98-a49b-d772d40f8e29)
+
+## Verification of Truth
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eef6ba09-53b1-409b-8f4a-55bbbce1524a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbead8e8-4c3b-451c-9e5d-4e420136cf0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a21f7eeb-e513-47dc-8fe9-0189c398a5c9)
+
+# Non Verbal Reasoning 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
