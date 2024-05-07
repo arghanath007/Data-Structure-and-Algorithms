@@ -3049,6 +3049,73 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 # Non Verbal Reasoning 
 
 
+# Notes [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d12725f-4339-4c47-894c-3c7dccc3d3b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35c58806-be0e-4632-9055-9b60d312fb1d)
+
+* Regardless the value of n, we will get 1.
+* ((a + 1) ^ n)/a = 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b01c202-8f51-4be6-acc4-49e15d9f9ccc)
+
+* (a ^ odd)/(a + 1) -> No. itself(a)
+* (a ^ even)/(a + 1) -> 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a22f8db0-64bb-4d5c-8924-ea5f81ffb151)
+
+* Example
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16db6ad9-10bc-4de5-90ca-83b2c9f8e31d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/870731be-3800-40a2-a47c-fead96e504c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d7d14d4-0a50-416e-9730-fd11b5d88a19)
+
+* As long as there is no factorial, 2023 is odd.
+* (odd ^ (anything)) -> Odd.
+* As long as there is factorial, 2023! is even, whatever the power is.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ef810ec-4ad8-42b0-ba7a-1d1105834da2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a6d1492-f6da-4c09-bd23-284b50d2d833)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe639d56-4b20-487d-a5c1-48f5723c3494)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0762f69f-5cb5-44ca-9144-8963b1781118)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc8399be-b1da-4cc1-9490-a7f40985cf3c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7b51ef-3d2d-4d58-84e1-0b08e21d3d97)
+
+* Remove all of the zeroes(0) and then find the unit digit value(UDV).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a9da707-d6da-4c3e-a249-c24c4bde53db)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4bd72e9-2b70-44c5-bbed-0357f6cdbce3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e12bc0e4-eb54-49ad-9566-ebf8aa2162e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6cae01c-da61-4587-9acf-112f845a34c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb158901-d491-420e-89e4-d4ad4e88c841)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31fab540-2ab4-436b-91ef-ba73c32cd359)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/663acb76-67cb-470a-9331-b244b4b64e64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85b445de-ded3-459a-9f34-c814fe6940b0)
+
+* Attack the condition at the first place. [VERY IMPORTANT]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f993e123-4931-4f9f-a430-970b267336fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb3991e9-f7e2-4483-999f-e72eff8792ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1b71487-1896-471e-bfc0-94e663d23c41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97ba741f-0080-4698-90c5-baa521f97128)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25c2b71f-d672-41e8-b0a5-007fc47df4b6)
+
+* So, for the two nos to be co-prime, it is not at all a mandate that both the nos. must be prime numbers.
+* The condition for two nos to be co-prime, the HCF of the two nos. should be 1, HCF = 1.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/182980f2-9844-4f31-91c1-0f505373e0ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1a7e0d3-f1fa-4fe7-8568-555eda0d16a8)
+
+* Natural nos, less than equal to N and are relatively prime to 'N'.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fa2922d-a8ba-49e7-887e-e464bd11f820)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51dae7a7-d1ff-4716-b284-785ea3f9883b)
+
+* Sum of factors.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1a9156e-2497-4adc-958f-5da8ff64b720)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b11f7d70-a4b8-4b20-868f-c46cd8ffd86d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72065027-23c8-4775-8c65-3eab222ae050)
 
 
 
@@ -3057,15 +3124,11 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 
 
+# Reading Comprehensions
 
-
-
-
-
-
-
-
-
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fc7be8e-ea54-43a5-b121-2321445db782)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81adda75-a421-47b3-b6c3-d4e17769f25b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf14e2df-8ee4-4aaa-9585-3952862ec9b9)
 
 
 
