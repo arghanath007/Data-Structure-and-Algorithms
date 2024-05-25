@@ -286,7 +286,9 @@
 
 * Number Systems.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/831ff2ff-6b5c-403b-8c74-5eb1329e33a0)
 
+* Decimal Number System.
 
 
 
