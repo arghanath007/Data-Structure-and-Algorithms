@@ -181,6 +181,107 @@
 
 * Link -> https://www.youtube.com/watch?v=cLyPzUbx3xo&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=5
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/547f8aa3-55b3-4583-9d4a-bea20097e365)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d1bf99-cfb5-430f-b59f-a80537e51359)
+
+* Expression -> Statement having some values. [**VERY IMPORTANT**]
+* The code will **run**, guranteed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12cd3f53-6b79-465e-9d08-370fe8e109eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f9d99cc-4945-4912-a67e-eab0631851c0)
+
+* Same precedence and **left to right** associativity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a959bb3c-0c47-4ca3-a7a3-13a3c52c3700)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bed59f6-0cbd-4887-8ff1-eb47791df31d)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b8c46f8-b668-44ca-b612-7428f0e3bb2c)
+
+* How many **characters** were printed by the **printf()** statement?
+* There is a **value** associated with the **printf()** statement. The value is determined by **how many characters** that the **printf** statement has **printed** on the **monitor**.
+* Pankaj -> 6 characters -> 6. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b2fdcee-bc81-4477-a6a7-c74c81ed9343)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d22de990-8552-4844-bc1a-9acb82c440ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf3ae4b0-daaf-4a72-b428-5b02f30a0c1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49c601e1-6b4c-4531-b220-47eb2b554c2d)
+
+* Every **non-zero** value is treated as **True**. **-2 or 12.5** are also **True**.
+* **zero(0)** is **False**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbd44ec2-637c-4f1e-b886-9893d6356339)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d41e5cac-75ce-4d0f-8124-3fd061e8ade8)
+
+* Expression is evaluated as **True** then the **value** of the expression is **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55adc39b-f0f1-4c61-9753-61c9ea951a05)
+
+* [NOTE] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3202858-4a1d-4e14-bc5c-47146f21d36d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d173687-e690-4c58-ad16-44de11960f77)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1df72844-0628-4f7c-a31e-1a9fcdb25ec6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfb3868e-e334-43ad-97f4-348c5d0a2937)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2c00642-407f-4525-a2c3-038170585e41)
+
+* [NOTE]
+* Short-Circuit evaluation of **AND(&&)** operator.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbfb773f-9966-4009-967f-41592b8d16ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f43eff3e-9f08-4366-8e07-ae3014907895)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2a46671-a17b-4160-990a-8de3e195a093)
+
+* Nothing is **printed**.
+* The **output** screen will be **blank**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89de214c-70e4-4c0c-9951-ec5ea3fe1e59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39865fd7-8521-4807-b40e-5c3213b7162e)
+
+* **Pankaj** is **printed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31d6811b-0c84-475f-98bd-2a4bc9b03c2f)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/235561e0-cc4d-4092-bdfc-9fb56e20fd1c)
+
+* Precedence List [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4a8ac93-3522-4a51-a3be-a58662042b44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/60e41fa6-7dda-4804-aa70-f8b9e018fa77)
+
+* Modify Operator.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e73e7bc-5379-432c-8930-3ef3de649f29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a48167f3-e9ab-4bd5-9f3c-2067d10fe4f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5171c3ad-700d-4ef3-9918-baca44bf5b7e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17a5e53f-0860-4ed6-a433-296485ff1cf5)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a8e53b0-0751-4bec-8cae-1a62a0cda213)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca6b64d3-c11f-496a-8853-b6ff9ba49988)
+
+* According to **C standards**, we are not allowed to modify the value of a variable more than once between two **sequence points**. There are many **side effects**. [**VERY IMPORTANT**]
+* **sequence points** -> Semi-colon(;).
+* The **output** will be different depending on the **machine i.e compiler to compiler**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7212f623-e38e-46fa-a358-80f945cc661c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25a75af5-04b0-4304-96f8-b9539fd5d4e8)
+
+## Operators - 3 (Part - 6)
+
+* Link -> https://www.youtube.com/watch?v=uy75shhPQOA&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=6
+
+
+
+
+
+
+
+
 
 
 
