@@ -44,8 +44,72 @@
 * Link -> https://www.youtube.com/watch?v=IWJECcYHFc8&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=3
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4502713-08e5-4f79-9716-d614207869c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0b20de1-19d2-4e7e-b765-50fed462ebb1)
 
-* Start from **5mins**.
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f1b66c1-f4a6-40ee-bd30-f371d905bcc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0373705-b881-47ea-83e6-9800b5b3239c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b19148bf-30c8-4133-8654-601dd9a899e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58bd992c-b29e-4196-a98a-bed20114d21c)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4891b785-58fe-4757-ad7a-278723ca36f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc4fcdf6-d85e-4c61-b3f2-c58d087c1363)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac542892-71cd-45f0-be74-9fcb250ce382)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d18ac9ed-6fe4-472f-ad5b-89394da66768)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6696b5df-f942-42c8-a07e-542771a7b681)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ebbaf7d-9039-4d2d-8bb5-9e2b6b97d503)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c27107b1-3562-4448-9164-6a1145fc1bda)
+
+* ASCII is a **character system**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e80d96f8-5278-48c5-8615-da1cfd85d90d)
+
+* 1 byte -> 8 bits.
+* 2 ^ 8 -> 256 sequences.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6fea6b3-024e-4473-bbc4-84aa35b09f3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c46e13f-0380-4d51-87dd-daf3fba16c03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b730a511-909a-4a82-ad01-7255f887e09a)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/460ac6d0-06c3-47aa-bd6a-73fa9aad6767)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45a7f285-96af-4542-80ce-589fad6bc2a1)
+
+* **Character system** is for **positive integers(0 to 255)**. [**IMPORTANT**]
+* So the **-127** is again converted to **positive value** which is **129** and then the **character system** is run on **129**.
+* In **character system** for every **symbol** there is a **fixed positive integer(+ve)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d9e4c37-da71-4355-b1fb-bf00c92e313f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d9ff44b-7156-4715-99cc-99edbcc5b211)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f909d194-8a4e-42e2-9aca-fb244de5076a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6dda3e9-9a55-4427-aa68-2a3b35b23c61)
+
+## Operators (Part - 4)
+
+* Link -> https://www.youtube.com/watch?v=czx4neIVRGw&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=4
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
