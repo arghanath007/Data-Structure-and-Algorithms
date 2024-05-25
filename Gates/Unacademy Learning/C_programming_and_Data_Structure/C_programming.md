@@ -275,7 +275,16 @@
 
 * Link -> https://www.youtube.com/watch?v=uy75shhPQOA&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=6
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f00af636-78a3-4539-ab1a-57dfd38a959e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dee90f61-078d-41cd-889f-fcba43bebd90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79343333-ee9b-4dc0-86a9-63219f390051)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1cc3e73e-7af8-4a7d-8887-b2249be2408a)
 
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/606759a8-85b2-4a34-a1e0-014a19058306)
+
+* Number Systems.
 
 
 
