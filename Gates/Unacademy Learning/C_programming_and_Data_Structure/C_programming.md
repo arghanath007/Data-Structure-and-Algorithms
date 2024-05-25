@@ -98,8 +98,88 @@
 
 * Link -> https://www.youtube.com/watch?v=czx4neIVRGw&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=4
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2e6f981-ff4f-485e-b4d8-8bfe5aabb936)
 
+* Operatos(+) are working on **2 operands(10, 20)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/736c0c13-9e21-44f7-98a0-a631c6e332d4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26e314aa-d5b3-4e71-b3d9-52b965bfdbfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e460bc3-180a-43d6-b0a8-1d1eacf030ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80e05b6b-f2e4-47f9-bfa0-5035dc39f8a8)
+
+* **Lvalue** must be a **variable** only. It cannot be a **literal, expression**. [**IMPORTANT**]
+* **Rvalue** can be a **variable, literal, expression**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4491c970-dc25-4c08-ba17-98a56ee14c9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24742843-a5b6-4f7d-82db-a8e1171d8df7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a61b7e64-35d1-448f-89ee-cfcc6a7861e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ae279fb-aa46-4020-862d-0cbf685edc4f)
+
+* Precedence.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d14ac829-5af8-4523-8825-9c5e54a02eae)
+
+* Associativity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6a46346-f63c-478a-b55d-25715d699601)
+
+* Left to right associative.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f71231b0-8836-46f8-a0dc-7b692416741d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4200563e-62c1-4802-b289-136b6d083635)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c652fedb-2a5c-4463-bebd-9c8fdf9693df)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f1ac5d1-5127-45d3-937e-d1c6d22ce8f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1debbd65-8e9e-47ef-9187-ee9473186318)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a9cde7a-0fb5-46f2-b8b4-4f32d1c85190)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f34133e6-ac62-4753-94b9-c18daa9577c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aeacfc0-ae7e-479d-b6b2-d1ecb55cc152)
+
+* The **result** of **assignment operator** is the **value** which is **assigned**. [**VERY IMPORTANT**]
+* int a = 10;
+* printf("%d", a=200);
+* a = 200;
+* Output -> 200.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb7d0019-56b1-493b-b9ab-46970eb04602)
+
+* Associativity. [**IMPORTANT**]
+* The **associativity** of **assignment operator(=)** is **right to left**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad5642fd-18ca-43c0-94e4-7841a1e29fb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b894ee6e-59c9-481f-acbf-25e791cc1320)
+
+* First it came to **C** then to **B** and lastly to **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5bf33ec-291e-43d8-9be2-1953bee68adb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14d7b88b-27e8-42b9-8bb2-c9e46fac6a91)
+
+* We will get an **Error message**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0906a5c5-778a-48aa-8a87-79d34a9ba7fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e678c24-1a6b-4548-9fdd-3913ca8a265a)
+
+* **Modulos operator** is for **integer values**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cabf6edb-0d37-4088-af56-e29077c5c40f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ffe479e-802c-47e9-8b89-f5c3f25a5744)
+
+* [NOTE] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad4a3b91-c319-41ae-aa56-5c6880d0abd2)
+
+* Whatever is the **sign** of the value that is the **sign** of the **result** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a3d1d2a-a5f9-4137-bac4-bd4b350c55a7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d33008a-75d0-4f9d-8c80-cdba53f3d328)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43af6e4d-5816-469c-9c50-7cc6f31a2d19)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a461cd0b-80a4-43d9-b254-b7e01d1b9be8)
+
+## Operators -2 (Part - 5)
+
+* Link -> https://www.youtube.com/watch?v=cLyPzUbx3xo&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=5
 
 
 
