@@ -56,6 +56,12 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae9d1b45-e420-45d5-9804-3b18c96c39ad)
 
+# Special Round-1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f7f1220-6d6d-4eb9-ac35-52f29210ae0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d8c872d-e82e-4c5c-96c3-8069ddabe3a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/657a8b2f-e23a-432f-80b7-1e3264abb3e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3e11d09-9950-4a62-a5d6-9e407aca19ee)
 
 
 
