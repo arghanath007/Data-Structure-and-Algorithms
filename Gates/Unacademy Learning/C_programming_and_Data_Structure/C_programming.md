@@ -290,6 +290,114 @@
 
 * Decimal Number System.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3be4d8f-cfa2-4c5c-a38e-29d5b9560795)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09c0b7c5-9d56-44f1-978b-ec223040bcef)
+
+* Decimal to Binary
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92c2ee34-6fa9-4942-9d33-c6a4334fe5f1)
+
+* Binary to Decimal
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58d5d44a-6975-4439-8669-93b08a5e698b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ba176bc-cff6-42d5-a1c3-6bb4e54606f0)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd780306-326e-426b-b860-f50a0440278f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bae6b897-251f-4f34-8e9e-a40431508832)
+
+* Decimal to Octal
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b876c806-a0f6-4033-9278-dd6eba823de7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01686fef-3fd8-4dc7-9ce2-1c0205142381)
+
+* Octal to Decimal
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c843d97-21a3-4620-8db5-d6b5e069caa0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0da52cf9-fa53-406b-8015-b9c6734297af)
+
+* Decimal to Hexa-decimal
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01a8adf2-a4d3-40b8-8b12-2aa12e5f7b62)
+
+* Hexa-decimal to Decimal.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05520352-06b9-4b74-a6d2-583d841bc656)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa872877-e4ea-432a-8300-c68c10101a46)
+
+* Bitwise not is the only **unary** operator, others are all **binary** operators.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d1cbd0e-3aef-47af-8bfa-1fc96321ae20)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/302fffd1-59cc-47a3-9204-88b0a36261b7)
+
+* Bitwise OR.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fbdae61-fdff-450d-8b81-16b5810069fc)
+
+* Bitwise AND.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80a435f2-fc98-4aa3-b3a6-bb88397e44b5)
+
+* The last bit of the even number will always be **zero(0)**.
+* The last bit of the odd number will always be **one(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c319b7b2-1dca-4fd8-a1ae-353d63652850)
+
+* If the last bit is **one(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/453a96f5-4ca7-4b67-aaae-89d373785db2)
+
+* If the **number** is **even** then we will get **zero(0)** and if the number is **odd** then we will get **one(1)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97212a99-2956-4f48-976c-30dc1a547a35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b8d59dc-b20f-43a4-b8d7-6658743b6b49)
+
+* Bitwise XOR.
+* 01101
+* 10100
+* 11001 -> 25
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa76520e-0fa8-4102-9ca9-fe080cc8decb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b34083d1-f4bc-435b-8876-58c3a12f4846)
+
+* Bitwise Left shift
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/282e79d1-121b-43e5-83a9-c4163982dbdb)
+
+* Bitwise Right shift
+* **Left and right shift** on **negative** values is machine dependent.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6f38db0-4aa0-4f19-b4de-7e9f9c6276fa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/423d3ec8-c5b6-4046-9fd3-94d16d7fae0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9f2ff75-70c7-429d-a5f7-fe39bf53960a)
+
+* 2's complement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8674f1f-3982-48f5-b71d-380f435fa611)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e31122d0-8904-4dc9-b8ca-b31865869a19)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbf2db25-962c-4341-b729-6cb04487a6ba)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/295f3532-992f-401a-b7e4-12a362159b01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f90b73e3-68be-411a-9d16-2d394c854905)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f339e691-6d04-4ab4-93da-823a6b991d3f)
+
+* Ternary Operator.
+* The no. of question marks(?) are there that many colons(:) should also be there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26ff370b-91aa-432f-b4c1-14182632588b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/034e1912-c61e-4e61-bf0f-b4ee6fd960b4)
+
+## Control Flow Statements -1 (Part - 7)
+
+* Link -> https://www.youtube.com/watch?v=L1VWEjdwzto&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fe0b56d-7746-4921-befc-f35382d1961a)
+
+* By default **sequential order** is followed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1460dd5d-0513-49a1-be51-4be2a1595d9e)
 
 
 
@@ -302,12 +410,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
+ 
