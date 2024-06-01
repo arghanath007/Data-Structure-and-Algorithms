@@ -398,16 +398,144 @@
 * By default **sequential order** is followed.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1460dd5d-0513-49a1-be51-4be2a1595d9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb4cbbea-83b0-4a87-afd1-716ea0e6eeec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b422a5ef-0a45-4fe1-8810-45d7e90f17ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6d2439d-3741-42a5-bee3-bdd3f6c42e78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0db898f9-71b6-4153-a643-ffe1b83cbf87)
 
+* All **4** printf statements will run.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fea6e14-14c9-428d-b48e-6baabf55c044)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fff4e5f-4181-4cdf-9f10-72e5eea2b4d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa16d4e8-c679-4512-ab53-7974efcf7aff)
 
+* Compiler will think that the **semi-colon(;)** is only inside the **if** statement.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a31a280f-0d04-4569-ab35-e936170b8cf9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd740b0d-60f0-46f6-adbe-eacc0b0bb97d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/961fb5dc-42ab-4095-8d31-28a5f1d85967)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d2c6617-6024-4997-9454-bc09e46cfd55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b0b638c-2354-4af9-9922-1eea1ddd3249)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81bc21bb-9dd2-4243-819d-ad993d85b942)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4f48794-839a-4c4f-8fac-c8d7878b90b6)
 
+* We cannot write **else** statement alone or without any **if** statement. It is **not correct**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9323ec3b-1755-4d63-aa9a-2a471cb13be7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea3d00f1-b6ca-437a-a0f4-ced1e2639268)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/139c6ba4-5149-4678-9244-96902616e5f7)
 
+* [**VERY IMPORTANT**]
+* This will give an **error**. We are using the **else** statement without the **if** statement.
+* Using **else** without **if**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67e4382e-9db0-416d-9960-672dc10bdeb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc2d29fb-85ba-43f7-8f20-c87c35b65520)
 
+* As soon as **if** scope ends, the **else** scope should start. In here after the **if** scope ends, there is a **printf** statement and then the **else** scope starts, that's why we got the **error**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ba7266a-bb76-4d3d-9e47-8acbff662f82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2795519c-a54c-46ee-b2b1-498c0d73dc38)
 
+* This has the same **error** as above. There are a **2** statements after the **if** scope ends and after those **2** statements, the **else** statement starts.
+* The **else** scope should starts immediately after the **if** scope **ends**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21835b9b-7d20-4920-bdb7-e110ad94fe3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb35307e-3a27-4a35-a0fe-c8bedf7feb04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/937f9c7f-f4c8-4052-9b29-12e8ac8e8b94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/196ad14c-5445-4ec1-8ab4-1d005324c693)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e609adc2-b264-4461-839e-717dc18bf4a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5345abda-085b-44f4-b4e5-febd26374c04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f339a7b9-46aa-4828-a713-b41e09fd7075)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e942218-1d03-42c4-b51d-37835e63291e)
+
+* All are valid except **5th**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10dbc099-8e4f-4f45-a9c9-88c22c3c83a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05390f6e-3124-4443-9823-fa5ce6b6b98d)
+
+* Keyword.
  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5851c136-63b6-4b15-93d1-eac3c586e004)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b979818-df2a-4e26-8292-7f4314e70497)
+
+* Switch case.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde3ea1e-2daa-4285-b8c7-9e95d405cb3d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d73bca0e-c382-4820-97b1-c8760657d056)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a29e8eb-153f-48c2-848d-017e554518a5)
+
+* **Switch** works in **2 steps**. First the **matching of cases** is done. Once the **matching** is done, we do not need the **cases**. From the **matching**, start executing the **code**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c85f022-bc5a-40b3-9549-4c56ee462cd4)
+
+* Output is **2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b4dd7ad-6959-4e4c-8630-cd07adaef269)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c1a1a46-6326-4f0b-9ecc-123ace0fb1f6)
+
+* The purpose of **break** statement is that we will execute **one(1)** case and we will come out of the **switch** case.
+* If we do not give the **break** statement then we will fall through **cases** or we will be **falling through cases**.
+* This is called as **falling through switch cases**.
+* So **break** statement is **optional**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99a22089-01ab-4ce3-b34a-6cc3fc7bfd41)
+
+* Doesn't matter where the **default** statement is, it can be **anywhere**.
+* Position of **default** statement doesn't matter. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70029ff1-d922-4ba3-a487-349b78f7bd52)
+
+* We cannot use **floating point values** inside the **switch** expression.
+* Character **'A'** is treated as a **constant**.
+* Character **'A'** has an ASCII value which is **65** and **65** in **int**, so it is completely fine. No **error**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efa48d6b-1c7e-4539-8b36-a91adcd13972)
+
+* Plus(+) is defined on **int**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23acb131-d3ba-4772-a768-04f4a08e6f82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a65554b7-6e8f-4bf4-8eee-dcf8bc3a92be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/419d5b7a-fe90-40f0-a3e4-aea6df5074dc)
+
+* We need to give some **expression** to the **switch** statement, otherwise we will get an **error**.
+* Neither **default** matters or the **position** of **default** matters. Default can be **anywhere** or default is **not present**, both are perfectly **fine**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1818e06f-9c28-46c1-9f09-72a02e75d959)
+
+* This is also **OK**.
+* Dummy switch.
+* So the **cases and default** are all optional. Only the manditory thing is **swith(expression)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ebc2db0-0d70-4d38-a667-5d6e7a066c6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1c234df-3f5e-416b-a418-d46c9cf45091)
+
+* Duplicate **case labels** are **not allowed**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebb29adf-a51b-43f9-b51d-60976fc99698)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/693c3e19-1b41-4290-823c-5af3e8e3f968)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e22ea92e-9504-4719-80f3-99b6d1bf9983)
+
+* **Case label** must be a **constant or an expression which is made with constants**, it cannot be a **variable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c49255dd-eec7-4010-a1e7-8b55503fe518)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/872831c1-6607-46ee-9278-806f08d7b940)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f111ff9f-ac26-4bf0-824b-b9422d5395cb)
+
+* We can use **switch** with **set of values**.
+* We can use **nesting** of **switch**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
