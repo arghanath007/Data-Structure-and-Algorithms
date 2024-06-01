@@ -525,6 +525,26 @@
 * We can use **switch** with **set of values**.
 * We can use **nesting** of **switch**.
 
+## Control Flow Statements - 2 (Part - 8)
+
+* Link -> https://www.youtube.com/watch?v=1eBLfPLcPLo&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d97fd438-22f9-4803-a33f-7d3f7bc6a59a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b621073-7a8b-4c7d-89ce-d0d6b91906a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7777bc0-a9fd-461a-a316-c4efa044e380)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad792a99-3499-43a0-8de5-67d5e56c3394)
+
+* For loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a39d329-765d-4f58-8823-4667e5f7aec8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50f055b7-6f91-4bb0-a768-5214aedf12ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/003176dc-4ea5-4320-9d97-91d6ce2a224d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e60e24-1180-48a2-97e5-27d8fb8ca8a4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc5ecfb0-d96c-494c-9e3b-23ca303da2e2)
+
+
+
+
 
 
 
