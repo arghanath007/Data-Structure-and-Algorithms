@@ -541,7 +541,80 @@
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/003176dc-4ea5-4320-9d97-91d6ce2a224d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59e60e24-1180-48a2-97e5-27d8fb8ca8a4)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc5ecfb0-d96c-494c-9e3b-23ca303da2e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc2c35ca-d186-43f5-9452-b6c83ab51d66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd5ca61c-7e48-4ddf-82b2-d6e601879e1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e37af9b3-066b-4ba6-a4da-9c42bd5586da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a46bf1fd-eb96-4f59-8031-ca21a3cb0599)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3044345-7934-4cdf-ab23-ea0f9cbb5c34)
 
+* Factorial.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53cab9a3-4bc9-4fbf-a04d-e532977ca8f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ccc4fe-f73e-4990-868a-039059f9f869)
+
+* Expression -> Some type of value.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5aacc4fc-5b8e-4bb5-b800-410d5464f9e8)
+
+* For loop.
+* In **for** loop, the **1st expression** is always executed **only once**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecd1b197-0f61-482a-9171-9f3faef17401)
+
+* All of the **3 expressions** in the **for** loop are **optional**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02c3193e-e789-4a25-8d23-febc8dfdc2a0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8a4d07f-4508-44a4-960a-45de6104bca4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9866a848-7d75-4774-a965-c79ead56137a)
+
+* Infinite loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/834ddbcf-f2bc-4d74-92e6-18aeebd7999e)
+
+* **One(1)** will be printed **infinite times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fbedd34-9af7-490f-b779-96f837a86344)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8500a0d-69d9-4619-9681-84b9ef5f1982)
+
+* **One(1)** will be printed **infinite times**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d326e32-b7df-4ef5-b590-0f94555cbbaf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/209e8be6-fea4-492f-ad65-8a5e53f5d88a)
+
+* If we omit the **2nd expression** in the **for** loop then the **compiler** will treat it as **True** always. The compiler will think that there is a **non-zero** value there. [**IMPORTANT**]
+* It is always an **infinite** loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4caae30a-63dd-448e-b067-7bfce81ec18d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8a8f493-5ca5-4f58-8a8b-70718fe9cba7)
+
+* value of the **printf("2")** is **1** which is a **non-zero** value which means it is **True**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e102ebbb-f8b3-43e1-a579-fdeb63ec5cd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0578abc-c2d3-4f58-bb42-527dbbb6b913)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f573f7fb-623e-4874-b8bb-cdadc37bf515)
+
+* While loop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57fa98ee-f15c-4c32-bf9f-864578097fce)
+
+* For and while are **pre checking** loops.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1133d36e-db33-44d8-90ce-0a5f576b311b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a32b437-565a-41c5-878b-54a01accf843)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d86b5287-2089-4798-9573-6cc76f5eca68)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b262de7-a74d-43c9-8dbc-d43dc5997d72)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0966282e-a11a-4c6b-8e3d-ebf4e78343c5)
+
+* Nothing is **printed** or **no output** for **both**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33c4c9af-9e1a-4d5a-949f-935a69ac3109)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fa1ec1d-a9d6-462b-8b94-be7bfe6c78c4)
+
+* We are revolving around **odd nos**.
+* It will be printed **infinite times**. * [**VERY IMPORTANT**]
 
 
 
