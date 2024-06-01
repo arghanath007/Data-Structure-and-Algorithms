@@ -616,6 +616,87 @@
 * We are revolving around **odd nos**.
 * It will be printed **infinite times**. * [**VERY IMPORTANT**]
 
+## Control Flow Statements-3 (Part-9)
+
+* Link -> https://www.youtube.com/watch?v=2FzNccxPhV0&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=10
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82207d82-d7e9-4940-b0f3-559b7784934e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11897004-224d-4080-ac68-99c4dcf2049f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3ef368c-d272-4c8b-96f1-97a98b8f2cf9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6ab07d9-a9b4-4a95-b217-827b5898fc03)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25bf32d8-0ac8-48bd-bb1b-0373de5c3e85)
+
+* Factorial of **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/890b12ef-3579-4bc1-877c-067b1c98ddfa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/243e0869-3949-47bd-ac76-81a9103da9e4)
+
+* The code will run **12** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d012d328-1740-47ba-9986-251a7c59bcc8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99fd46c4-ba4a-486a-acaf-f890995c72fc)
+
+* The code will run **3n** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/efb942b9-1857-4ca5-8010-691c1c5583d2)
+
+* The code will run **n^2** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c3445d9-c13b-49cc-b7e2-1d3f3a78535f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e091eeb3-ade7-47e7-840c-5ea6539ffbde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbf6571e-a81d-440b-b838-db7b2203ecc0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22372fab-5e01-47cb-9269-a81db63b80b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bc4ed18-4630-4f51-a03f-64cf45fa17ed)
+
+* The loop will run for **floor(log n base 2) + 1**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb09565e-b51f-45d2-b8cd-248be8fca67c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f18164c-8dc4-440c-a866-d83c00cfa6c5)
+
+* The loop will run for **floor(log n base 3) + 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35c8b788-d11f-483b-abb8-c9c7441e8a06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77bd9467-ccfc-4f17-a72d-d0999e234a91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94e94a88-eecb-4eff-bc96-20b60c0485f1)
+
+* n * (floor(log n base 2) + 1)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a95162d-1a32-4c5c-b60b-0a48e40c3643)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01df1c0b-12ca-47a1-bb0e-990fbcc55ec2)
+
+* floor(log n base 2) ^ 2.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dbae8417-9071-4edc-86d2-72b86715937e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e412e806-b00e-4cab-b45a-9a6d5d83f3c1)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53a58f0f-e988-40c1-bd52-f1add58c1db5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b80e3bfe-0bd5-4153-8c0c-2eb42e7c7697)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/802ef2c0-44e8-406b-ae81-e44e84fec1eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed850590-5ae2-4837-8002-83b4580cf6ce)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22cf76f4-da23-4c47-a5e7-e3b3463f7859)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c9fbaa4-a114-4838-b1f3-287616848f52)
+
+* In **do-while** loop, no matter the condition is **True or False**, the loop will execute atleast **one(1) time**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4fac4be-5d2b-4deb-a52b-82aece0e3adc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abcfe563-37be-4e98-a994-31c98f56ba80)
+
+* [**VERY IMPORTANT**]
+
+## Function And Storage Classes(Part - 10)
+
+* Link -> https://www.youtube.com/watch?v=jtiaEh6tLVI&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=10
+
+
+
+
+
+
 
 
 
