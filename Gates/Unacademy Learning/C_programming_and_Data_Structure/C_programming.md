@@ -692,11 +692,128 @@
 
 * Link -> https://www.youtube.com/watch?v=jtiaEh6tLVI&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=10
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba531814-6fb8-4f85-bc90-224f1063ff8c)
 
+* The biggest advantage of **functions** is code reusability.
+* Program is always compiled from **top to bottom**.
+* Program is always executed from the **main()**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b83cb48f-c020-406c-aed1-a0c1439148be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59c97b7e-72c6-4624-824c-eba52ed7ce8b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/836ad338-8374-4404-b195-6c3d85007ab4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a2e0530-1b4b-4a1f-bb93-a5ac6cbc8e66)
 
+* There will be an **error**.
+* Compiler doesn't know about **sqrt()**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/90865e6d-be16-4c10-b586-c0b256ae7989)
 
+* The **x** variable is missing it's **declaration**. It should be **int x = 10;**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/390ce5d0-48a5-4b14-bfa6-bfa0949b94cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa11b594-0c46-411c-b5b1-5e223f97e032)
+
+* Function declaration/prototype or forward declaration.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc73d376-6fed-4ac4-9ec6-787282ae5b7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5568f538-0721-45a9-aa39-484a683ade8e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ef66813-7af0-4d0b-9d07-a454d876e839)
+
+* The compiler by default assumes the **return type** of a function as **int**.
+* The declaration is done for the **compiler** itself.
+* The **printing** is done at **runtime**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d17f7911-48b0-4739-9471-5672c3b94ed6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58f5d136-c24a-48e7-a0c0-11af6ce6cddf)
+
+* As there is **return type** mismatch that's why we will receive an **error**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcffac26-80dd-4dc3-b506-8cd2ffa7cf1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/299ebcf4-a694-44a0-80c1-e987c0c886b8)
+
+* Activation Record.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd38a0ad-fa6b-441c-a7e2-1ad0615628a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/846c61e0-29f2-4878-9c1e-44b784852578)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2be6c5e-73ee-492f-8689-4c173692e1a7)
+
+* We will get **return type miss match** error.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e0f054f-1d47-46ec-8aba-73109f693a15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99466ad6-b57b-4d3b-9d21-69abbd0ed82c)
+
+* 1354235413542
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5419a2d8-4177-4e8d-9d7f-277b7beafcfa)
+
+* Some random value will be **printed** which is called as **garbage value**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9e0007e-7ba2-4991-84a0-18f24e553745)
+
+* Activation Record(AR).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/105c7eb9-5cfb-43a0-a4d6-d2d6e31c5181)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a2b1cc4-cc9d-4973-a376-4fd91f121fab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba04967e-ff90-4633-8704-81dc3dc56d45)
+
+* BY default all of the local variables are auto variables.
+* It doesn't matter if we write **auto** or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8dea2c77-5a23-4e13-9d88-7d4c1c2d0533)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35fc6992-5cf9-45d6-8799-f1f4d6d39df9)
+
+* auto.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89c29997-a746-4641-b601-2131aef1855f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/136a3a57-0c15-4929-9035-f01d369bdd71)
+
+* The **lifetime or scope** of **b** is not there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e5d4626-4a0e-47e8-90d8-8a895132d37a)
+
+* **Error** will come.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01dbf893-b48f-4065-962c-0a0998ab9d8f)
+
+* **auto** is optional only for **local** variables.
+* We cannot put **auto** with **global** variables. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2060fd6-5bb9-4641-97c1-8355ee4eda9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a8ee966-4dd5-4213-81cc-a039a3f0f786)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af4a06b5-8474-4963-93f0-2120973e7ae3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f83df6a-39ce-47db-8274-1c9b6638e47d)
+
+* register variable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38df00e5-68b3-4701-916d-8c8d9ccc76c9)
+
+* **static** variable are created only once in the program and they remain till the end of the program. It only runs once.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f137d56-409a-423f-9a6e-66d7d53ea018)
+
+* Scope and lifetime are two different things.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a9fd6e9-4be2-422a-8ac0-b14453b51e9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a0cf1b3-da70-4a01-9c46-b44fd97a85d9)
+
+* Extern keyword is used for **global** variables.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2819f6dc-4193-4723-8f73-7724cfe2623d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c006c378-65ee-480c-80a7-b773b01b43be)
+
+* compiler is confused about **x** in **f()**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d44e0bf-3121-4c3a-8df2-0838db1d5ec8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6b4633-b3d0-4aaa-8ab3-232b5ebda0a5)
+
+* Compilation Error(CE).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d04c29f-1025-471b-8e11-1d26cc1d04ab)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f27be3e3-18e9-4fb5-8167-a01a25f19253)
+
+* No memory is allocated with **extern** variable.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b65bb7c-17b7-4300-88f2-e57a0c49be7d)
 
 
 
