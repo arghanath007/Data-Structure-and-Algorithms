@@ -815,6 +815,44 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b65bb7c-17b7-4300-88f2-e57a0c49be7d)
 
+## Recursion (part - 11)
+
+* Link -> https://www.youtube.com/watch?v=d00yBYccOcs&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=12
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b750988-e3c5-485b-a61a-40ef0d248fbf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19beb891-3b75-4a78-8e31-c6d8a17e28cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ded105c7-2c89-4f66-832e-6264a144cb40)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d43cebab-4ad8-4c8a-9398-ebd588e31346)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f85acd59-51df-4814-8eaa-b4b0f6c51b53)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdc6c9d0-c2b4-466e-a93c-ee5a8654597b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b5f1d54-3ec2-4a7b-965b-f95286cc581c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/414b2dce-d1ab-49dc-8780-9541f7ac9f88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f5fed81-0b6b-452a-b8b4-157546dcdaa3)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c67501f-df78-4bab-b343-d58600242444)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/484c3f45-f45b-4361-9a71-68200045ecf6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9de89938-2ac3-4c27-aec9-0b037abf4cb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c79fb62-1ebe-4a6b-a841-30b27fc8b851)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b95ede4-3f54-4227-8f58-9326acd1b3ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dce0cc41-84d0-4e31-9b1c-e6d113d27f65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/456adff4-0c59-4df6-9cd7-4fe61a42831c)
+
+* Recursion Tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aabb436-a61d-4191-a130-8679b6308dee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a44731b-36b1-47c8-85aa-bd0ee75472c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a855b03f-17de-48bb-acd3-bd2d86cf3ce9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/885bad72-194d-4b87-9df8-1e22c6b2cec4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c60d740f-1429-4541-ad12-96e2c33c20ff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f4c139c-2cec-4946-833c-1d6249009116)
+
+## Arrays And Pointers - 1 (Part - 12)
+
+* Link -> https://www.youtube.com/watch?v=DXeDnmF0ONE&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=13
+
+
 
 
 
