@@ -852,8 +852,70 @@
 
 * Link -> https://www.youtube.com/watch?v=DXeDnmF0ONE&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=13
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c3cfdd4-6561-4983-b3d7-3873006b057b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c121bd26-cf13-4097-a12b-363273926838)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34c7f3d6-a1e8-4d9c-8e3e-235cdfe15c98)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1ecf9cc-b5e3-4712-9100-c733247783ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a68f5e2-6997-47cc-9dc8-0727c83b22a6)
 
+* They are **same**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc9431c9-0293-4b36-ba87-af680d8b647e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/742e4e24-9558-47b4-bba4-ad0524fbc89a)
+
+* Output is **10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e89a7c-12bf-4da4-aef5-8d5b4ba35a15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c3976cc-6bb7-4cdf-9af5-fbd9dc47e4da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/261490c9-592d-4d5e-a96d-103ea88dd2da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/921dab07-af9e-443c-a41f-87d79848214c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3363a73e-3620-41e3-956b-b9dff729bb98)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a6279ac-dd3b-4d5a-a890-ea3189f221d5)
+
+* Rest of the places are initialized with **zero(0)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0db49380-260d-45f5-910b-34be8431b53e)
+
+* This is also **correct**, the **extra numbers** are **ignored** by the compiler.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/411f138f-238b-485b-ab33-60e3cd95322a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae0ab41b-0d41-4e65-8347-d8eb229cda99)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c85c653-9ff9-4970-bdc2-a8b5b9217d6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed0a5dab-bf08-4ccb-a299-b986e90d0b84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f038a688-0b25-4473-bccd-a82c0f76a11a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e3352d8-9da7-43b1-8708-1e943bbc56dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5eaee79a-797f-42a2-b257-ba9d8217f5c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34e1262d-1cb4-41da-9be5-6cfbfe10bdd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/245d4098-f82b-46cc-80cb-ac759a55974a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/971fea7c-122f-4cff-996a-bce1a67d2d29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebccaa01-eca4-4959-a6b9-f784835b1583)
+
+* [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/538fb54b-8eb4-46d9-b009-448447612bc9)
+
+* When we write **&a** then we are referencing the **whole array** i.e all of the **16 bytes** here. [**IMPORTANT**]
+* When we write **&a[0]** then we are referencing the **index zero(0)** of the array(a) i.e the **4 bytes** here.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d64728dc-8e49-4e07-96e7-6c0053aef5a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d94d7d8a-bbf8-49c2-8673-f544d122a548)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f22579b-787d-41c6-8317-2e13ac88db91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e428a17d-4d43-432b-923f-2c97cf97f0c2)
+
+* [**VERY IMPORTANT**]
+
+## Arrays And Pointers -2 (Part - 13)
+
+* Link -> https://www.youtube.com/watch?v=EnH1q8i5FoI&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=13
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aac8a6c-f189-4ddd-874a-8c03a2ee565c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f79ebb8e-7eb9-4207-b2bb-8f45fd0578ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/343d5c68-8b87-444a-afff-3c20c33ca8cc)
+
+* Start from 23mins.
 
 
 
