@@ -2,6 +2,8 @@
 
 ## Time Complexity (Part - 1)
 
+* Link -> https://dazzlingcareer.classx.co.in/new-courses/2/content?activeTab=Content
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0e703a5-e70c-45f0-9b03-675de7101e74)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66f6156b-41ec-408c-8feb-d7f8fe002af2)
 
