@@ -1,3 +1,8 @@
+# Crash Course 
+
+* Data Structures -> https://www.youtube.com/watch?v=zewIhSiv7dE&list=PL3eEXnCBViH-D-X8940NKo0ouhK0Mg-hf&index=17
+* C Programming(Done till 12) -> https://www.youtube.com/watch?v=EnH1q8i5FoI&list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC&index=16 
+
 # C Programming
 
 * Link (Playlist) -> https://www.youtube.com/playlist?list=PL3eEXnCBViH_Phqkk2k_WFWHz0rDBBubC
