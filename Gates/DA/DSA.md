@@ -1,6 +1,6 @@
 # DSA
 
-## Time Complexity (Part - 1)
+## Time Complexity (Part - 2)
 
 * Link -> https://dazzlingcareer.classx.co.in/new-courses/2/content?activeTab=Content
 
@@ -111,23 +111,98 @@
 * SDM -> Source(S), Destination(D) and Movement(M)
 * The time complexity will be **dependent/determined** by the **SDM** of the loops(for/while).
 
+## Array (Part - 3)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43e62858-7424-4e9d-9919-b627ac67ea5e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dffe1af-c950-490f-8022-de8813fa3f96)
 
+ * The advantage of **arrangement** is that we are **saving time, proper arrangement of things**. So the overall **time complexity** is **reduced**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0279fd62-ad8b-42de-bf87-3de199a5ad6e)
 
+* Data structuring is **directly** related to **time**.
+* Data structuring varies from program to program.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ec481c3-26aa-40e5-b5f4-7fe75ea0da55)
 
+* Both **jet plane and cycle** are **data structures** but they are used at the **wrong place**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1ee6e0a-0232-40a2-b36b-65fc820e244e)
 
+### Array
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/79bc1b58-edc2-47a6-8b6b-745c6ee5bc67)
 
+1) Slots should be continious.
+2) Similar data should be placed. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09aa7cdf-5e63-4450-8ba0-50a43285523c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b000bb4-79ce-4ad5-8fdc-398a72ee6ccc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eda19df1-38fb-49ec-9858-0568352a5f81)
 
+* Insertion from the beginning. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53840a2f-ad27-41c0-8eae-cf6c9d02e283)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/013f13c0-d9f4-4e1f-805d-44c6781526d2)
 
+* The time complexity is going to be **O(1)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7fd106c-314a-402c-970e-f2d2bdade337)
 
+1) We must know the index where we put the data.
+2) If the slots are void then just go to that room and place the value **x**. It always takes **constant** amount of time which is **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3da423ac-2817-46a0-85e5-1f5729a0e649)
+
+* If we want to do **insertion** in an array then it would be **constant** amount of time which is **O(1)** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ad57aca-4bb6-4a62-a5eb-fb325d8303dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25874c2f-1690-4b79-9c62-3614382340f6)
+
+* To insert the element 25 at location 2, we have used up **3 units** of time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b44d732-14d6-4954-bcfc-5ca90d9db422)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b11979b-1659-48ce-926d-64d3dc91a6dd)
+
+* We have **100** rooms and **99** rooms are filled. We have to insert the **98** no in the **1st** room. The last or the **100th** room is **empty**. So we will shift all of the **99 elements** by **1** place to the **right** so that the **1st** room will be **empty** and now we can place the **98** no at the **1st** place.
+* We have to do right shift on the **99** numbers.
+* **99 units** for shifting the **99** nos and **1 unit** for placing the **98** no at the **1st** place.
+* So total time taken is **99 + 1 -> 100** units of time. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f42b357b-0b16-4b8b-b483-ec41f66e20de)
+
+* We are doing **shifting** so that there is **no data loss**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be2c8518-1b08-43cc-a26f-728fe1d3f514)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ae162b8e-ecc2-45f1-ba0b-64459e8b9b78)
+
+* Insertion at the beginning -> O(1) -> Best case [**IMPORTANT**]
+* Insertion at the middle position -> O(n) -> Worst case [**IMPORTANT**]
  
+### Deletion
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93fd7880-fb04-46bf-9b35-33b26ba11e24)
+
+* Deletion of **end element**.
+* Time complexity is **O(1)**. [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91b41084-0d10-4c45-abff-f298c151918c)
+
+* Deletion of **mid element(4th)**.
+* Time complexity is **O(n)**. [**IMPORTANT**]
+* In **array** no place can be vacant in the **middle or the starting** of the array. At the **ending**, vacant places can be possible. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e08e923-1abf-4134-b508-f83a7a4651cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/538a9eb1-b91f-43f7-bbb7-7eeab093ffb6)
+
+* We have to do **left shift**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32b04714-ec54-45e2-bd1a-370ea9dc4988)
+
+* Deletion from the end -> **O(1)**. [**IMPORTANT**]
+
+
+
 
 
 
