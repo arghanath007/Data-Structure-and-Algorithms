@@ -203,6 +203,61 @@
 
 ## Arrays (Part - 4)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af8bffaf-bfdb-442e-bd43-8d0f9828453e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffd27c7b-907f-4bf9-acb4-efa6aeebdfdf)
+
+* We want to **delete** the element at the **3rd** position.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72583fa7-db3f-47d4-bd5e-1f358f8fd896)
+
+* **Array** doesn't work like that. It is not valid.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/678831fb-ec58-4abb-ba25-859eea79ecfa)
+
+* We are **left shifting** the elements(40 and 50) so that the **void** at the **3rd place** is filled and the array becomes valid again.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c74e617d-ad86-4342-97c1-2d9038dbcb23)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53f28cec-0ec5-48c8-9b7e-cfc337ad6855)
+
+* Deletion of the **mid** element in the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3961514-15c7-4c7c-b898-32c60cb5ad5f)
+
+* We don't know how much **left shifting** we have to do.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99bd73ce-2208-4f81-bcbd-8e77be98379c)
+
+* GATE 2008 [Question] [**IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23cd7fca-2f1e-4465-809c-22b29bbe2f33)
+
+* We have **n** elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac0afc63-b0ba-4ac9-b023-c3f076c4007b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b93a5e16-8a29-47c5-bd31-b21b06eb8592)
+
+* Time complexity of the deletion of the **mid element** of the array is **O(n)**. This is the **worst** case. [**IMPORTANT**]
+* Time complexity of the deletion of the **right most element** of the array is **O(1)**. This is the **best** case. This is the **ideal** case. [**IMPORTANT**]
+
+### Searching
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a88402b-0d28-4d63-80aa-597db93e37a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fbdb27a-3dcb-4a74-a409-4f0e61238fa2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0934d5d-93f8-4f70-a33a-2c63034ed176)
+
+* **O(100)**  is not the correct interpretation. We have to write **O(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/718821b0-955e-49df-8fd1-b791ad23240c)
+
+* GATE 2005 [Question] [**IMPORTANT**]
+* We have to do **n** times checking.
+* For **n** rooms we have to write **O(n)**.
+
+
+
+
+
+
 
 
 
