@@ -264,8 +264,63 @@
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c54aec37-4b24-4732-8ae1-c09f076d5964)
 
-* We went to the 3rd position and checked what element is there. It has **30**.
+* We went to the 3rd position and checked what element is there. It has **30**. We want **50** so we will go to the **right** of **30** as the array is a **sorted** array.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7b8b0d9-05ee-43c0-be0c-2c6c066ef82f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c2adad3-0472-44f3-b24b-3009fa4b7a84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c5ff18b-fc33-4d05-b9cd-cc3a8896daea)
+
+* It should be **floor(4.5) -> 4**. So the **no. of comparisons** will be **1 + 1 + 1 -> 3** comparisions. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a30265dc-6e28-4460-b4c2-b36de7ac2533)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d62a75b-ab10-4d0b-8e92-13cd8799826f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d831e862-adbb-4cc3-a2e0-fe16abbbb190)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fb54d3a-da49-48c9-9785-7ac2e900a32d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41c33bd4-ab5a-493c-80fa-cc87b5b27435)
+
+* We get this **flexibility** in **sorted array** only and not in **unsorted** array.
+* This is called as **binary search**.
+* There is a need of **sorted array** for **binary search**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74c388c9-2845-4798-a755-675b6d191f74)
+
+* Linear Search(LS)
+* Binary Search(BS)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a4ee409-dee1-40cd-b1c0-bbb00b9fe604)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb82bbe7-1f7f-48a0-88b5-d2a8437ad20c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44eb82fa-e936-4447-85d4-1680b5f04f16)
+
+* Remove/avoid the decimal part. So look at the **3rd** position.
+* Indexes are never in **decimal form**.
+
+## Array (Part - 5)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e757fa2-a3c6-44f6-afb2-c0bbda27775a)
+
+* In **Algo and DS** we would not be talking about **best case**, we would be talking about **worst or average** cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94261384-8293-4eb4-84b8-a3952d7ef96b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2d131fb-42d3-4787-8dd7-fdaf6e39194c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/464ca48b-4522-4811-8c51-1f78b2ea3bf5)
+
+* We don't have to scan the **left part** now.
+* We have to scan the **right part** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c84714c7-456d-4418-9da7-f7a0b31a8443)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04ce799c-1baf-4fdd-8c66-c28538c336c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edab70a3-94ef-434a-8aac-2e22c380f567)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf71475a-30ba-48a1-acbe-ca8fbe6675f9)
+
+* 1st attempt -> 30.
+* 2nd attempt -> 50.
+* 3rd attempt -> 60.
+* After **3 attempts/comparisons** we will then get the no which we want which is **60**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5facf657-2a2e-4193-b4ef-80d48aa0c3c7)
+
+* We don't have to scan the **n/2** elements on the **left side** of the **mid element** which is **a**.
+* Start from **22mins**.
 
 
 
