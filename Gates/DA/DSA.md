@@ -253,6 +253,20 @@
 * We have to do **n** times checking.
 * For **n** rooms we have to write **O(n)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8abc5026-6e47-4046-8598-a800aca364c9)
+
+* If we **search** anything in an **unsorted** array then we have **no choice** and we have to search the array **completely**. It will take **O(n)** time in the **worst case**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84a96ed9-d506-45ea-b85d-b21c17ae9fa3)
+
+* SI -> Starting Index
+* LI -> Last Index
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c54aec37-4b24-4732-8ae1-c09f076d5964)
+
+* We went to the 3rd position and checked what element is there. It has **30**.
+
+
 
 
 
