@@ -414,8 +414,58 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ## Recursion (Part - 7)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/342faee0-cca4-46a9-956f-67fe51d717ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/926c272a-3d34-4f38-85f1-b3182e6dedd0)
 
+* For **n = 4**, the output is **4321**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b04f4067-6a1a-4fea-aec4-9b016e0fda1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db1dad07-98e4-4708-b0b8-d3237b10eb4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6db3246-a9e8-4d98-aa0d-8cc1df73332f)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44de0dea-aa9d-4efd-8e7f-bb8d6af4c660)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ba1d71b-c657-4242-8bd7-f0c0f31656b2)
+
+* For **n = 4**, the output is **1234**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c87bf94e-d26e-4121-b49e-62d2da70b45b)
+
+* When **terminating condition(TC)** is executed successfully then we will **stop** and we will go to the **statements '2' and '3'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d21cea3-7961-4ce8-98ff-361e4f293a58)
+
+* Example. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20d72b07-bac3-4851-9b43-234e3f6d3cf7)
+
+* When we are coming back then we are **printing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d07d102-33d2-4130-a944-f568cb9726ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8270f488-41a5-49be-b611-d0e380a8883b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89fbc2bd-b5dd-4fea-8e21-7979a5cef987)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de327c29-5146-4006-9de6-58d00f9d483c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc9a85b8-b82b-4259-a8f0-0d0476c92a54)
+
+* We will get **pending** work in **recursion**. First complete the work which is **before the pending** work and then we will complete the pending work. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/395cc594-7736-463a-8ec3-9bf294a48c5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d0aaedb3-2d2e-4188-b0c4-5cfd1d319d82)
+
+* Whatever **statments** that come after the **self calling** statement, those statements before the **pending statements** of the **recursion**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c838f895-416c-453d-b86f-4ec6b5d6f5de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/439ac89b-9e0e-4a43-b623-16b9ff250958)
+
+* Whenever the **terminationg condition** is successfully executed then we don't have to move forward in that **iteration**. Recursion is **stopped**. We will now **go back** and complete all of the **pending statements** that we **left before**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f41df2ea-d324-4bc1-b786-b99f1bf0147c)
+
+* Print addition of **n** natural numbers.
+* Question [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bb3d847-4261-49f2-8fb6-0e79f46bc719)
 
 
 
