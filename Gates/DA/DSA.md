@@ -509,8 +509,45 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcb0d0fa-43cc-4852-8612-348ee39fcdd1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/946b3ab3-0183-4d66-932b-faf5de9daca6)
 
+## Stack (Part - 9)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d019d74-94c8-4de6-bb35-e9d56ffa5cb3)
 
+* Push and Pop.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58513d54-b4e5-46ce-8c64-54314fc99a65)
+
+* **a** is the address.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48c068e2-43d5-494e-bf0a-5d2892faca4c)
+
+* **Empty** means **Top** is not inside the **stack**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/999aa8d8-a5c5-4d69-a4b6-496e4ba6566f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77ae5709-0a9b-4284-8fd1-f7515eea3d4e)
+
+* If the **index** is within/inside the **stack index(0,1,2,3)**.
+* If the **index** is outside of the **stack index** i.e any index other than (0,1,2,3).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/789317d2-59b9-47e3-95a7-f228370c502a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a088543-b2ef-4e02-ba89-bea14c159143)
+
+* If instead of **-1**, the **top** is at **-100** which indicates that it is **outside** of the stack. It means that the stack is **empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/082e409d-afce-4fcd-87e0-bcbb923e72a8)
+
+* **Out of the stack** means **empty stack** only. [**VERY IMPORTANT**]
+* When the **top** is at **500** which indicates that it is **empty** which means that it is **outside** of the stack.
+* If **TOP == -1**:-
+
+1) Ye bhi ek empty condition hai.
+2) Ye hi ek empty condition hai.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2134287-e6e8-45fd-86e4-78ab10592c51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/890300fe-115c-4150-b8dd-e6430c06ef12)
+
+* **TOP == -500** and **TOP == 500**
+* This both are **empty conditions** for the **stack**. [**VERY IMPORTANT**]
 
 
 
