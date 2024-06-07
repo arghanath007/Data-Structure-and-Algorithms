@@ -485,8 +485,29 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f10e6aad-acd1-46a7-a188-e1c4668c0779)
 
 * **Stack top** is **open** and **stack bottom** is **closed**.
-* Last In First Out(LIFO).
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eb496b5-96bf-4f8c-84b8-31127334ae3e)
+
+* Last In First Out(LIFO) -> Open **Top** -> **Top** is open.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66832d24-8d25-4e2e-8bc4-c9773045c157)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c816f1d4-fcd7-4330-824c-a25f941776b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6b4b379-75a9-4dd8-a8fc-15a51a221d97)
+
+* **Static** means **size is fixed**.
+* Stack is static -> array
+* Stack is dynamic -> Linked List.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/190103bb-ac20-476a-98a8-5248d8e056c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17d4df37-852a-4213-806d-19fa06644b54)
+
+* If we have to remove something then we can only remove the **top** element. After that the **next element** from the **top** are now **accessible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35cc7d68-4efc-43e5-9d93-9b550821ee79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9d98316-0bae-4d87-9ce4-326d5a6e2db4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea8009e6-8349-4dad-8e84-98fd37e30c71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcb0d0fa-43cc-4852-8612-348ee39fcdd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/946b3ab3-0183-4d66-932b-faf5de9daca6)
 
 
 
