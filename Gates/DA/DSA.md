@@ -318,13 +318,47 @@
 * After **3 attempts/comparisons** we will then get the no which we want which is **60**. [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5facf657-2a2e-4193-b4ef-80d48aa0c3c7)
+f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9fe828c-7418-4bb4-bac4-63141cd16257)
 
 * We don't have to scan the **n/2** elements on the **left side** of the **mid element** which is **a**.
-* Start from **22mins**.
+* Either we will reject the whole **left portion** or we will reject the whole **right portion**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66d4242e-13e4-4ed4-af20-ddb852f76a9e)
 
+* We are always **dividing by 2**.
+* After **log n** time we will get from **'n' to '1'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e6be99e-f1c8-48de-9496-6b45a4a3d01d)
 
+* In **sorted array** we need only **log n** time in the **worst case**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26fd6c2b-dd8c-4aa4-bd1a-b97a6cbcffcd)
+
+* **Binary search** is always in **sorted order**. It's time is **log n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf47083b-5600-4fb9-816a-edc89b49fe14)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e76576f7-849a-4bd0-a8b5-953b82924e10)
+
+* All of the rooms have their own **addresses and indexes**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e460dfba-8c27-45f0-b389-f63fb8efbe47)
+
+* Filling the entire array with **values**.
+* Time to fill the array would be **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e6d2e8a-a244-449f-ba57-268f8f572655)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d498552-68ce-43b4-ac52-658c00f8981f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8247adef-8717-4a90-8c72-660f88cfdcc6)
+
+* We are interested with the **room no 'y'** only. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/667ba458-6fa7-42cf-bf38-c47215e7c4e4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af4fa22a-c5a3-4f62-921a-cbf35729e067)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a22455e1-7c91-4be2-8ae7-ea6bf3fb32d6)
+
+* List.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16f41905-ab6d-4949-8581-fb28d2702867)
 
 
 
