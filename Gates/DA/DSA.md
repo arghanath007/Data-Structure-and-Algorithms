@@ -362,6 +362,58 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ## Recursion (Part - 6)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ac3bbd8-b4ab-411b-900a-a0e4f94970e1)
+
+* Recursion -> Repeatation of same work.
+* Breathing pattern.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a49abc2-c493-4cf6-ab67-2bc1390bd02f)
+
+* Structure of recursion
+* Self calling.
+* Destination means **terminating** condition(TC).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/56209f81-e59b-4620-85f3-68d8d3c74f8b)
+
+* This is **not correct**, if the **terminating** condition(TC) is **below** the function call then the function will run **indefinitely/infinitely** and will never stop. So it is useless.
+* We have to write the **terminating** condition(TC) before/above the function call.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2af633d4-632d-4f52-b3e3-72d1c68e7528)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58aa2eab-50a0-4117-9f4b-07afbfd86562)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7043f708-034f-44c3-b83b-974b26b2920c)
+
+* Recursion.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff25478b-a6ff-4f52-aaf0-57d07c6a5a75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dde8f2ce-f973-4451-9660-63f225ce576a)
+
+* **Multiplication** is **repeated addition** in terms of **recursion**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/477e7c29-c664-4767-b00a-d53456969c42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/913872ee-06c7-4fd9-be52-f76186ed1b44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1ec1da2-850c-4cdd-a0c4-7973452b3afe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3cba40c-3f04-4dd0-8eae-fbc0b7809f0c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc4ba836-c65f-4978-ae20-fcf54be8cb5a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83e2415d-ca8b-4b07-849f-2e0b8c202797)
+
+* The **terminating** condition always gives us the **output**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3efa0de9-2d4d-4f47-a03d-986b0bf0de94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32fc6417-dfc2-4fd2-b67f-ecee9744b543)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12364dc7-2688-4dea-a18c-aecf0318a3c5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c427953-f86d-464e-b1e4-97c2a0ab5944)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a3c4985-4e8e-4742-a2b1-3a4899bc601b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eef0805-5ab6-4f6a-8fee-85e1e8aed52d)
+
+* For **n = 5**, we will get the output of **Gate DA** for **4** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62af7eff-e578-4f7c-8af0-afe0184a8533)
+
+## Recursion (Part - 7)
+
 
 
 
