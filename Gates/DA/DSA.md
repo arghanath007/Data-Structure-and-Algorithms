@@ -466,6 +466,27 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 * Question [**IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4bb3d847-4261-49f2-8fb6-0e79f46bc719)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f58ca547-7164-4d24-81d2-9682b54660b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09b99c6c-9a43-4b72-b416-068a10ca8fa1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d7c700b-9c4c-4945-95fe-a5c18f8919fd)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c5e6065-3aa3-42ae-877f-37bfa379192d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3289daf-78a8-4d6e-970f-be3fdf347f8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1eac1129-58be-4891-8c97-61ed59e3133b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc77098a-ac35-4ef1-9837-25eab5846d49)
+
+* Example. [**IMPORTANT**]
+
+## Stack (Part - 8)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12d87b20-61d8-47e1-b6c4-bc1820fb4c4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f10e6aad-acd1-46a7-a188-e1c4668c0779)
+
+* **Stack top** is **open** and **stack bottom** is **closed**.
+* Last In First Out(LIFO).
+
 
 
 
