@@ -888,11 +888,40 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
  
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43f91754-4c3a-4fd7-968e-9054cabf0cc4)
 
-## (Part - 13)
+## Stack(Part - 13)
 
-* Part -> Lec 13.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b64d13e5-5d7b-4b81-b53e-8eabe4dc6da6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/385393a9-a802-4fe3-9e6c-56d5a361c9b2)
 
+* Array has **space** but **Stack '5'** shows **overflow**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac1992b1-ea08-44df-a2f5-7ff963f91cfa)
+
+* Overflow but array has **space**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/add99843-282b-40ea-9420-14de10c4df3f)
+
+* Unsuccessfull model of multistack in single array.
+* This is not the **successfull model**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cd03fd9-f22e-4893-a969-be289fd730df)
+
+* The element **9** will be kept in **S2** stack. As **S2** stack is **full** so we are getting the **overflow** condition.
+* If we see in the whole array then we can clearly see that there is **some empty space** within the **array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8d8afbe-a1a1-4486-a852-4866d8ef7590)
+
+* There is some space which is **empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5238a73e-bd92-4825-a3ff-fbbefb707eb9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05cac9bf-93b3-4582-b853-241d96016073)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffe2f461-bef4-4464-a198-d787704dcbcc)
+
+* We will implement **multi-stack** without wasting any **space**. We will do in **next class**.
+
+## Stack(Part - 14)
+
+* Lec - 14.
 
 
 
