@@ -819,22 +819,88 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 * if (Top == i-N+1) [**Formula**] [**VERY IMPORTANT**]
 *  print("Underflow");
 
-## (Part - 12)
+## Stack (Part - 12)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f14647df-30de-42a7-a370-4209e35e5775)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3590e94c-b72e-44b5-a4af-0dc9b3b8d283)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb0427fd-8ddd-48f9-86af-6e62783f0e8e)
 
+* Multiple stacks within single array.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0907e99d-e5f9-4165-9637-a7b32d2b3e4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4c2e80d-86ce-45f7-b32c-c8dd8178ba4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce9acec9-1c21-4e5b-bde2-ecc4ab986fa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a21565e-364f-4747-97f5-f002f4afd983)
 
+* For the **stack 6**, we have to go from **stack 0 to stack 5**. Every stack size is **3** and we have crossed **6** stacks, so it is **3 * 6 -> 18** elements. We have started from **zero(0)**, so we have gone from **0 to 17** positions in the array to reach **stack 6**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a8412ca-f98a-4561-beea-2cb784386be4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36c485d7-670e-4edb-b233-35e2d6287318)
 
+* What will be the **empty condition** of **stack '50'**?
 
+> **(50 * 3) - 1 -> 149**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbfc663e-6b2d-416c-8376-03ddb9a05757)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4944c334-3c09-49e4-a537-7bde9fe7e70b)
 
+* **Overflow** condition.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7116e3-45f2-4841-99a4-2a1803c4ba95)
 
+* When the **array** is very big and it has many **stacks**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/596aa81e-9b74-4479-97af-b0c24571f506)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5296f660-8645-4d87-bd21-76015ebe8138)
 
+* **Overflow** condition of **stack 2** is **equal to** the **empty condition** of **stack 3**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba9727a6-77c2-4864-86c6-898b03fbba0c)
 
+* We are doing **-1** because we are starting from **zero(0)**.
+* N -> Array Size
+* M -> No. of stacks
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b51fc75-64b1-4774-9b91-362a8d14c46f)
 
+* Overflow condition [Formula] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ce58668-2443-4c99-8ffd-79a23b48b4b0)
+
+* Underflow condition [Formula] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6455e080-12da-4ab1-9e78-5e94568fbfbc)
+
+* Overflow and Underflow.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5d48f23-e029-4810-899d-b21352665cfc)
+
+* Question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5824de1c-2ffc-47ac-ac0f-70899f51c059)
+
+* Overflow.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9154059b-2923-49dd-9f09-aa45340d8139)
+
+* Top(T) to bottom(B).
+* Overflow and Underflow. 
  
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43f91754-4c3a-4fd7-968e-9054cabf0cc4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
