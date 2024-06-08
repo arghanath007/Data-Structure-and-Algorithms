@@ -625,15 +625,123 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/684ac442-bbe6-4bc8-a732-821ef58c7089)
 
-## (Part - 10)
+## Stack (Part - 10)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ff6eb9a-373a-4095-b1d6-9eb6705a203e)
 
+* Outside of the stack -> Empty condition
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdfcfa38-9cf9-4394-a6e1-11bafa84d4d3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48ea5fd8-45db-4fea-a03c-a2c428a688fc)
 
+* There is **no space** to push **50** into the stack.
+* We are having **overflow condition**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3baea738-95d9-44ea-b522-f9b4bdae5db0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0d2cab0-72da-465e-93ba-6fa1462bf9b5)
 
+* Top pointer should be the end point of the stack.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f4dc8912-cf23-4cc8-a444-fa9287c89212)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9033ac48-1374-48f4-9197-c7a8b2092b8c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31089ddd-474b-42c6-9242-822201ea16a0)
 
+* Stack **overflow** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08a48c92-0c3e-4c61-97b8-f358b8514dab)
+
+* If **stack_size** is **N** then the **overflow** condition is **N - 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8cfd2ccd-99b7-417d-9639-c56eb280e824)
+
+* The **reference point** is **zero(0)**. [**VERY IMPORTANT**]
+* We have started **indexing** from **zero(0)**.
+* If we change the **reference point** then the **overflow** condition will not be **N - 1**. It will change **accordingly**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd9016af-3908-43c3-bf00-d2bc1071d14b)
+
+* What is the overflow condition? [Question] [**VERY IMPORTANT**]
+
+* N = 4 [Here]
+> We cannot put the **overflow** condition as **N - 1** because the stack is starting from **2**. The **overflow** condition is **N + 1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b42a9266-ee48-4bb3-aecf-ebbdd534e100)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/303d71c5-cada-45fd-9df2-66cf399602cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/516808f1-d455-4e1e-b807-cfc8e78c3740)
+
+* As we have changed the **reference point** that's why **N - 1** has failed in the above **example**. In the previous problem we were starting from **zero(0)** and here we are starting from **2**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23a4146f-32f8-45ca-b150-6c614a8e074b)
+
+* From **2** things we will get the **answer**, the **reference point(RP)** we are **starting from** and what is the **stack size**. Then we will easily find out the **overflow** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b226ddf0-54e8-469f-af44-e5733121677d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/368b23de-852a-40ec-9a4a-5069958ce323)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31d30cd8-685b-4768-8b0d-9f1102807358)
+
+* **Overflow** condition will be **129**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b595f8c1-133c-44fa-8f25-5c4b336c70b7)
+
+* We are doing **N + i - 1** because the **i** is already included within the **N**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ba46a71-74ab-4c6d-93fb-ed7f5b388b6f)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77bec6d7-8469-4080-a400-61ad8954e73f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e14c3c10-089b-478b-a5b6-c4f71fc7168d)
+
+* When we fill the stack from **bottom(B) to top(T)**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7fffc4fb-7cbf-4cea-ad16-340a1d1a41ec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c84c35d-070b-4f18-8cba-d1f26d4787dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/015843fd-a6f5-4549-9191-2465cb3df5f0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fc31ec3-ed6e-4bdd-9443-41ee81886cf5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2082ad0-ebe3-44a2-aa87-ef46f9b30ba1)
+
+* When we fill the stack from **top(T) to bottom(B)**.
+* Find the **overflow** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a9bd0c6-43bc-400f-9819-70af72de3003)
+
+* [Question] [**IMPORTANT**]
+* Option **D**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c32cab6-1b43-4e6d-985c-4bf9cc6d39f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53882dd1-f96b-407c-8c32-18a4bf9b1cd7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/042ada23-cd09-45d8-98ca-b4d3822b2545)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c0425a5-4acf-402e-8d4a-cf4157a1f1be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/207601c0-4574-4641-845b-a76ccda528d6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ae62874-41d6-43e3-9092-2e7add0e620b)
+
+* cdab -> Not a valid string.
+* Last In First Print(LIFP). [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f93fdf3d-af02-4321-9c8d-9abbe76907f2)
+
+* [Question] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5790498d-5b09-4625-980b-2da4c76ba5c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53c67151-92c4-4ace-8790-665209445e85)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/132bc9b8-c0f5-41a8-a6e6-20019032862a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/044f71fb-3350-4759-90a5-1ea1e4d8dc26)
+
+* We are pushing **5** onto the **stack**. We are performing **stack push** operation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4e3dd5ca-3c5f-4248-8ef0-718f4bb857b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa00081b-af18-4112-bec8-8873e0d3695c)
+
+* **stkFunc(1,0)** is doing **pop** operation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edfc0a79-11a6-40ed-9ebe-3875c3085403)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/704e3215-b309-4812-8050-7b22b197a159)
+
+* Explained **more** in the **next class**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0ea441a-be0c-4c28-8978-c6a2d35c40a6)
+
+## (Part - 11)
 
 
 
