@@ -741,10 +741,13 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0ea441a-be0c-4c28-8978-c6a2d35c40a6)
 
-## (Part - 11)
+## Stack (Part - 11)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45fbc4a2-7f6e-41d4-9260-83147b658ac3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5c035e2-d6c3-4dac-a319-97260ee214d7)
 
-
+* No space -> Overflow.
+* We were filling the **stack** from **top to bottom** before.
 
 
 
