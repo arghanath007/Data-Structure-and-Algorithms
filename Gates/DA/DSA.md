@@ -545,9 +545,90 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2134287-e6e8-45fd-86e4-78ab10592c51)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/890300fe-115c-4150-b8dd-e6430c06ef12)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4e3cd34-8af8-4995-b9db-027ab62d0884)
 
 * **TOP == -500** and **TOP == 500**
 * This both are **empty conditions** for the **stack**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f11d5961-42be-49fc-b126-46dd308dd9c9)
+
+* **Out of the stack** means that the stack is **empty**. [**VERY IMPORTANT**]
+* Any index that is **not** the index of stack, can be the condition of empty.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68e2c20d-ed62-4265-aa96-8082e9c2b98d)
+
+* **zero(0)** is the **first index of the stack** and **-1** is the **empty condition** because **-1** is the closest neighbour of **0**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/259664d5-3b51-4a2d-a07d-443eee2ddeed)
+
+* Inside of the **stack area** is **3 to 5** i.e **3,4 and 5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa340489-96a6-4d3a-ba09-84fde4a45e56)
+
+* Stack is empty or not? [Question]
+* **1** doesn't belong to the **stack area** which are **3,4 and 5**. Which means that it is **out of the stack**. It means that the **stack is empty**. [**VERY IMPORTANT**]
+* Stack always starts from **zero(0)**? [Question] [**VERY IMPORTANT**]
+
+> **NO**. Interesting concept.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a067f384-7c54-43e5-840b-30b5961b353b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f06e32a-9aed-4c12-8d16-2999b6d7c6c4)
+
+* We started the **stack** from the position **3 or 3rd**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f29f6ff9-9670-4007-bff2-d067fe7bfed4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0379f916-a393-4285-a379-71f8bdbc04dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/26cf62ba-504b-4bbc-9294-4bb4c2a4a3e1)
+
+* Additional logic is needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5ad457b-058c-42af-a6cd-05e06ff458cf)
+
+* Is **Top == 7**, empty? [Question] [**VERY IMPORTANT**]
+
+> **YES**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d24bef2-ae39-4569-8ccf-3418cbaa179a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95b23cf7-bdd0-4081-ad1d-c4667b0857b8)
+
+* We did **push(30)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0b7bcc3-9525-4637-83f5-611e7f52b1aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a2d679e5-41ed-4e8a-b508-3884b1ae1c7f)
+
+* Before we were filling the **stack** from **bottom to top**.
+* Here we have filled the **stack** from **top to bottom**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7afd3a6-c703-434a-ab06-5919aa62199a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aecabc4-e896-4ecb-83e3-b6a0cf99b140)
+
+* We did **pop()**.
+* We are looking into the **stack** from the **bottom**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc33054b-47a0-4f97-aaec-a35ee5b3687d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cffec7a7-5696-44cf-8a5f-153c5670c6e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c7adda5-e45d-45cf-a6fe-c59613456a79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02412384-2312-4dcd-b477-3a49aa8e6784)
+
+* Stack can be **filled** in many ways:- [**IMPORTANT**]
+
+1) Top to bottom
+2) Bottom to top.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f3d9958-081a-4c6f-9046-7e024c30b5b0)
+
+* **SUMMARY**:-
+* Any index that **does not** belong to the **stack index**, it shows that it is an **empty index**.
+* Stack index can be **started** from anywhere.
+* We can fill the stack from **Top to bottom** or **Bottom to top**.
+* In **Top to bottom** for **push** operation we have to do **top --** and in the **pop** operation we have to do **top++**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/684ac442-bbe6-4bc8-a732-821ef58c7089)
+
+## (Part - 10)
+
+
+
 
 
 
