@@ -749,6 +749,77 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 * No space -> Overflow.
 * We were filling the **stack** from **top to bottom** before.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1361d57-4c12-4436-9025-bc254d3fd516)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c60f549-929d-485b-a553-10356f8b0775)
+
+* This is **correct**. **Overflow** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f143dd2-4f43-49fb-a203-90c34bd2bdcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/724cb32f-259f-4768-90ed-f84ba71d193d)
+
+* Formula [**VERY IMPORTANT**]
+* Overflow Condition -> i - N + 1
+* i -> Top numbers
+* N -> Total size
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c6b2fe8a-a7cd-4fff-9134-b59fb26fbfd4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6dc3a88e-c69e-4245-a6ca-7750af9696dd)
+
+* Example [Formula] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e646853d-e14c-4f9d-a7e6-f4f00e05e09e)
+
+* Example [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/981b6cda-c672-4268-ab9e-f4d09f26cfb8)
+
+* Overflow Condition. [Formula] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23150e7e-4d01-41ab-8559-f6383795cd68)
+
+* **Top** will be initially at **-1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddfbd611-2213-48c5-853d-9be7c58e464b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96c75b1b-faa9-4dff-94c4-afffd3863ef5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/905cee10-3eaa-4654-9f9a-8068bfeab035)
+
+* Now **Top** is pointing to **3**.
+* We now have the **overflow** condition and we have **no space**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a070938-6116-453e-abf4-6b7e03cf8fec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a3d0cdf-1099-4c31-9d00-e405c0a252ad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bd26760-f7be-4b0c-be2d-7b914610c0d4)
+
+* **If** condition is running when we have **no space**. [**IMPORTANT**]
+* **Else** condition is running when we have **space available/left**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b9613d5-5702-4ca4-ad2d-df1db0715784)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ed90372-14af-438c-9514-a990b4c3998b)
+
+* If **Top == -1** and we have called the **pop()** then it means that the top is **outside of the stack** which means that the **stack is empty**. This condition is called as **underflow**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f71f8025-cd57-4caa-8b83-52ee64f54496)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de1ff365-b206-45a8-ad8f-1e7e3045f880)
+
+* **If** condition is running when we have **no elements** in the **stack**. **Underflow** condition. [**IMPORTANT**]
+* **Else** condition is running when we have **elements in the stack**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d4e6b9a-8ff6-4887-95d6-e797c6ed5c6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e13414b6-6b16-4efc-8455-0451fe7e5c16)
+
+* LIFO
+
+1) Push()
+2) Pop()
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6d94fce-33d9-49e2-9c94-305ae977f626)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d9fd091-655f-4631-a736-2b3c267a88c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d929b45a-9b6c-4bf2-8583-0243b8ba2e04)
+
+* if (Top == i-N+1) [**Formula**] [**VERY IMPORTANT**]
+*  print("Underflow");
+
+## (Part - 12)
 
 
 
@@ -756,3 +827,14 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 
 
+
+
+
+
+
+
+
+
+
+
+ 
