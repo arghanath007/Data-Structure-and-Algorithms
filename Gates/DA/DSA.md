@@ -959,10 +959,58 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 * When the **stack is full** we will get **Top1 = Top2 - 1**. [**VERY IMPORTANT**]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a780148b-67a3-448b-8484-fca92bbf218a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a1290d2-291c-412f-95f2-ebd4dc870e4d)
 
 * **9** is **empty condition** of **S2**.
 * S2 grows downward from top to bottom.
 * Reverse stack 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c9640e-7e6a-48e3-92f0-7811db214b55)
+
+* We have **6** stacks here.
+* +, * -> Operator(Operation).
+* 2,3,6 -> Operand(Data).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/419d934b-b2fe-4571-97ee-97a3e01ea429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f54a5f9-6496-4fbb-b14c-547c509e06fb)
+
+* Computer cannot read **infix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1d0d9ae-99b6-4d7b-8339-75b9a410f40c)
+
+*Infix and postfix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc07281a-57d8-406d-b54b-e68d6b5833ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c5c1ded-4bab-4aff-8517-23748347bcc7)
+
+* Real life math writing is done in **infix**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2fd947db-ce8c-4e42-829b-07f34e3405e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72187ea0-829e-4ba0-9915-f0f1d8b44494)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b47eb010-bf7f-4aed-ab56-013d3765c57a)
+
+* Example
+* Our job is to convert the expression from **infix** to **postfix** expression.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57fd3862-0211-4710-a3a0-6fa6bb67ed0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/186f5286-5598-495f-b7dd-053264704b53)
+
+* We have to cross **'69' stacks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45ab281a-c55b-497f-b951-d5cdf0dffab1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdcc6796-6d9e-43ba-9769-b2834082ba4f)
+
+* For **underflow** we have to cover **'68' stacks**.
+* For **overflow** we have to cover **'69' stacks**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/46ae4e5e-474b-4b82-9a19-9d4925ccde45)
+
+* Overflow condition.
+
+## (Part - 15)
+
+
+
 
 
 
