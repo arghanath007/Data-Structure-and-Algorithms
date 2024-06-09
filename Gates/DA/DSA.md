@@ -921,7 +921,52 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ## Stack(Part - 14)
 
-* Lec - 14.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e13b05e3-8216-4e04-acb6-4867e5e3f60f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fcc9978-0b1e-48bf-b2f1-5be8782b3992)
+
+* This is not the **best way**.
+* We have to find the **best way** so that there is **no memory/space** wastage is there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b54cec0d-99fc-44b0-b66c-f8d4f7eec3bd)
+
+* Question [**IMPORTANT**]
+* Maxsize -> Max. of stack size.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33752f5d-d447-483b-8adc-6de18afda741)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd7615c9-d48c-4578-aeda-706f5a2af654)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6298444b-b794-4aa7-986d-aec1910eecea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34286e1b-eba9-41a5-949f-34fa157565d9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3af7c9ba-aae4-4541-9e65-0d20ccc153dd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ea488f4-9b5a-431c-b5d3-a4d2ac5b56db)
+
+* Option **D**. [Example] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e022d0fa-f7f0-42a2-898b-438fafd7d8e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/494864c8-20ca-4f03-8cde-df6833d105aa)
+
+* Efficient utilization.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9432b7f4-b786-43ed-8db7-c0cd6e6fea30)
+
+* When stack is **full**.
+* Top1 = 0 then Top2 = 1
+* Top1 = 4 then Top2 = 5
+* This is the **pattern**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/759bc87d-3a9d-47cc-b2f4-866b0bcd93e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1737881-48fb-4739-bc36-7d8a20b8d2e7)
+
+* When the **stack is full** we will get **Top1 = Top2 - 1**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a780148b-67a3-448b-8484-fca92bbf218a)
+
+* **9** is **empty condition** of **S2**.
+* S2 grows downward from top to bottom.
+* Reverse stack 
+
+
+
+
 
 
 
