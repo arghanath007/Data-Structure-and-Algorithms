@@ -1007,7 +1007,183 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 * Overflow condition.
 
-## (Part - 15)
+## Stack (Part - 15)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34d5e0b8-a177-4d03-acdb-3f6705d98eb6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8e89365-d35d-4dce-892c-0529dd2ac443)
+
+* Priority wise operators.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/124e9244-f984-402d-a2e3-3df04540ec99)
+
+* Prefix, Infix, postfix. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e89e46dc-59dd-4266-be00-5b3de2e0a35e)
+
+* We have to read from **left to right**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c24888e2-5142-4bc3-a0af-79032fbadb76)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aec092f1-f040-4408-91f0-b71a32721a32)
+
+* Rule no 1:-
+
+> Higher precedence will be always on **top of the stack**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b102d18-1aca-4079-8374-5ab7fadbfd85)
+
+* We have to go **left(L) to right(R)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6788507-a3e9-4fba-89e9-2596a7a23d0c)
+
+* This is **invalid**. We cannot keep **X2** and then **X1**. We have to keep **X1** on **top** and then **X2** at the **bottom**. This is because **X1** is to be executed **first** and then **X2** is executed. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9c2ff11-e791-4dfe-97d1-858aca27a127)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d02c0814-a110-4557-9c2d-1219963903a3)
+
+* This is **invalid** structure.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac6af190-ecdb-48cb-ae70-f60d2691537a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6d24595-687f-4a32-9658-a0b5ea8aaef3)
+
+* This is **correct**.
+* This is the **postfix** expression.
+* The **1st plus(+)** ran first and then the **2nd plus(+)** ran.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8531303-1589-4bf3-adae-e7dd61092fa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61359524-1836-4d04-97cc-340c32d329b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee7c9566-d142-40e4-b274-edd366049581)
+
+* Brackets has the **highest precedence**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/138aae8a-e862-47c7-8cc7-481b3c89a8d4)
+
+* **Minus(-) and plus(+)** have the **same precedence**. **Minus(-) and plus(+)** have to be started from **left to right**. [**IMPORTANT**]
+* **Multiplication(*) and division(\)** have the **same precedence**. **Multiplication(*) and division(\)** have to be started from **left to right**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0e4ea67-2209-4f3f-9659-7cf158c5e24a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0df6a3e7-9f16-4d93-9f3d-8656ac70cb3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b5b2092-2970-4511-8b45-ed0feba53669)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/482eedc8-c7cc-4edd-836f-7f0125ff7d30)
+
+* Example. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc20a79f-1cea-4ec9-a91d-bf852eac423a)
+
+* This is **incorrect**. Plus(+) came first so it should leave the stack before minus(-) only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af72d2db-38ab-4199-aa2a-7ad1411f74dc)
+
+* Infix to postfix expression.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a52c497-28a8-40ad-bf58-4bd60e9b72c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66aab95b-9775-4fd8-b27d-064f773d563d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f69e3c5-2a38-4fe4-afbb-4f5086886615)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aca27f9-d158-4aee-9ba0-b347fe3103f6)
+
+* Example. [Cross-checking postfix]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f0071d4-fb98-4bb2-bcc9-fbba8356b881)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38e27f70-e858-42ce-8cc1-1f9e80755ec1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/528182b6-ffcd-4d46-a55e-bc346663d8a4)
+
+* **RULES**:- [**VERY IMPORTANT**]
+
+1) when **Higher precedency** operator comes then it will go to the **top of the stack**.
+2) When **Same precedency** operator comes then we will **pop** the **same precedence operator** from the stack.
+3) When **Lower precedency** operator comes to the stack then we will **pop** the **Higher precedency operator** from the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/642277e6-3f07-4680-a780-e51b01a641ea)
+
+* This is for the **2nd rule**.
+* Minus(-) can only enter when plus(+) is firstly **popped** out of the stack and then minus(-) is pushed into the stack. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ae5e017-d9cc-4a6d-a5cd-9bc996738928)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3671f92-9ce6-4d10-8c25-8c82314ba0fd)
+
+* This is for the **3rd rule**.
+* **Higher precedency operator** cannot be **bottom/below** the **lower precedency operator**. So firstly we will **pop** the **Higher precedency operator** and then we will push the **lower precedency operator** to the stack. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/552f5ed0-8e27-41c4-a15c-35b3cfb1e0e5)
+
+* Find the **postfix** expression. [Question] [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/25ba5b1b-4b0c-496e-9644-f1866f094526)
+
+* As **multi and divide** are of the **same precedence**, so we will pop **divide** first as it came before **multi** and then we will push multi into the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db151703-a89c-497b-a56f-dc4fb98e78d0)
+
+* As **minus** is of **lower precedence** than multi, so we will pop **multi** first and then we will push **minus** into the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44948278-5162-446e-9784-db2539618994)
+
+* As **plus and minus** are of the **same precedence**, so we will pop **plus** first as it came before **minus** and then we will push minus into the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eee3d561-7947-4d2d-868e-e8416827b705)
+
+* This is the **same** as **above**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8a2dc14-cb8a-426d-89d6-397ea283d9bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce7f3907-e514-4dd8-bd0f-3b2f1ce8a8f1)
+
+* As **multi** has **higher precedence** than **plus** so we will just push **multi** into the **stack**, on top of **plus**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/808d5d82-a697-41b2-9401-0e7d52fb91a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e36740c-81cf-458a-b20f-26ca6f626061)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13c46aee-04b3-4c2e-8da7-ecd11de4a9aa)
+
+* Postfix expression. [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea59c08b-21ec-4fdb-a562-e36d2aeffd66)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e91b942b-12ea-487f-b36b-a22dc958b89a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4108d38-7345-4d25-a94a-46cfa2499f0f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/70b00d6b-6959-4593-b897-697181273d5f)
+
+* This is **correct**. Postfix expression. [Answer] [**IMPORTANT**]
+* To calculate the **value** of the expression, we have to start from **left to right**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c561eee-d42d-476d-9135-0375e504f429)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57d92833-65f0-4b2e-98ec-ddbdba760984)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f8ad36b-4bfb-428c-ad49-ef61a3f63c79)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/00089bd6-b626-43de-b35a-2ce32520d98a)
+
+* The **value** of the expression is **17**. [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4dda4acf-0544-454a-8651-9961260b68d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/115ad941-ae45-45d4-affc-eda398d6a699)
+
+* Question [**IMPORTANT**]
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82bbe309-5c85-4551-89f9-1ce1451c1264)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b370667a-a719-4930-9d50-d29407308b44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77d87d89-6f12-45a9-ace3-baa72e827412)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e2baccc-053d-43b6-9990-baaba7d1a0a3)
+
+* [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68d1eafe-ec08-4910-80c4-2d23793be0d1)
+
+* Question [**IMPORTANT**].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
