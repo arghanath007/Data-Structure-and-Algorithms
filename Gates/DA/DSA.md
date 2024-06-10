@@ -1226,6 +1226,64 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 * The earlier **power(^)** will not be **popped** from the stack.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6751ec07-6f91-4a2b-9b96-b301d572a0a7)
+
+* This is **OK**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30979dd4-8272-493e-b14d-ce1cce643dea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3b3367e-6f54-451e-9990-94bbe216c22e)
+
+* **Divide** has **less/lower** precedence than **power(^)**, so **divide** will not be allowed to enter the stack. So we will **pop** the **power** out of the stack and then we will push divide into the stack.
+* So both the **left(L) and right(R)** powers are popped from the stack. Now divide can be pushed into the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f29a65bd-a1eb-49b6-a582-a33c5cc7a0d2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/423bb7d6-666f-438f-a224-368d6545b2bc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/772bbb90-a9ac-4c7c-9138-e19b2e7a8641)
+
+* Let's calculate the **value** of the expression.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fda6c98f-6981-44ef-9515-96edb90d83c4)
+
+* Question [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0fdf7532-bada-46ff-8d11-6fad202e0e6d)
+
+* Solution.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/be2a2d18-b842-446a-94f6-5e0d1dfa87a4)
+
+* Question [**IMPORTANT**]
+* **plus** has higher precedence than **minus** in the above question.
+* **multi and divide** have **right to left** associativity.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eccae45-b756-4f0a-b314-7f23073195d2)
+
+* It is given that **multi and divide** have the **same precedence** and **plus** has **lower precedence** than **multi and divide**. **Minus** has even **lower precedence** than **plus**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7db9b47b-a1d0-406d-ba72-63f3c39f6f75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce034717-28c1-42c2-bd9f-46504e12530d)
+
+* Solution [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7472938f-755e-4ef3-bfea-493c733fe34c)
+
+* The value of the expression is **-3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cae9c7b0-d7c5-4199-989a-c9a654e66d8c)
+
+* Question [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48a6992a-3527-4307-96b7-557c22b8dbfe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0b94c47-5008-49fa-9ee0-41916af32e6c)
+
+* [Solutiom] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/195e9c7c-0851-4a3c-ab8e-bcc84cf5208e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2825be51-a6a1-4fab-bd10-742bd5fc5a6e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b46db65e-6c60-4bff-923f-22f14ea03e1c)
+
+* Question [**VERY IMPORTANT**]
+* Option **C**.
 
 
 
