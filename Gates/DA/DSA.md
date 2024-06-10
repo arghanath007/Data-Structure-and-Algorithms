@@ -1215,6 +1215,19 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 * Find the value of the expression. [Answer] [Solution]
 * The value is **18**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b33c233-09d1-41d3-96c4-647a27f9291c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a582a743-3c7f-4374-b6c5-2d3232aefed9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4be73632-000a-48e5-970a-234611e48349)
+
+* Power(^) should be from **right to left**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/153151e7-04e6-407e-a58b-96874f14aea3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c583e126-0319-41ea-9d04-0f6710ab434a)
+
+* The earlier **power(^)** will not be **popped** from the stack.
+
+
+
 
 
 
