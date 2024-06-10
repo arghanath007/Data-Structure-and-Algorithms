@@ -1166,6 +1166,44 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 * Question [**IMPORTANT**].
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e15acd-0461-48c8-b9a1-8fd9d4f9d006)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dfc1674-2b15-4f07-ab01-0f145b769023)
+
+ * The bottom one(2) is the **left operand** and the top one(3) is the **right operand**. So it is **2 ^ 3 -> 8**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa207d05-5ccb-4a76-87e8-1124409f97e7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc812dd5-424b-4f9f-93f9-4573ad48d2e7)
+
+* Find the value of postfix expression. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f569dac2-57c9-473c-a84f-45bb5c70618f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/559e6995-24e8-467b-8928-54e846a73d17)
+
+* [Solution] [Answers]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57f2d35e-f1a9-4e41-9997-b4c02b4cf0a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3f45ef0-2764-48f2-826d-7a59e64fd485)
+
+* For **brackets**, whenever a **bracket** comes then all of the **operators** which comes next to the bracket are pushed into the stack.
+* **Bracket** has the **highest priority**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4759e2c2-b297-4742-a38e-d92b9ebbb412)
+
+* Assignment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
