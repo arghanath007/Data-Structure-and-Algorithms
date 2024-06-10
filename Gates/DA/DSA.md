@@ -1285,18 +1285,80 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 * Question [**VERY IMPORTANT**]
 * Option **C**.
 
+### Questions
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6a28083-321f-4465-902d-1daff2e6280a)
 
+* 1
+* s -> 62
+* q -> 24
+* s + q -> 86
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6a72dd53-ccad-4d6d-ae8a-538ef20df8ee)
 
+* Link -> https://gateoverflow.in/357430/gate-cse-2021-set-1-question-21 [Solution]
+* Option **D**. [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/191e482a-67ec-486d-8f96-b8ec420ba1ef)
 
+* 2
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31c54c28-4463-4256-863e-5febfadbf94f)
 
+* Link -> https://gateoverflow.in/2633/gate-cse-1995-question-2-21
+* Option **D**. [Solution]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d67f71ba-f294-4460-9e0c-547b0327157f)
 
+* 3
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0ea157e-c7ac-49ae-980f-620a7c5770a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c51f8db-1923-44ce-88aa-de636269f554)
 
+* Option **B**. [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ada37d00-6362-4771-b72d-ca203f692d38)
+
+* 4
+* We have **3** elements pushed into the stack and there is a value for the **max()**. So it is **4 * 4 -> 16** bytes.
+* 16 bytes [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3033fd41-4db4-4929-9234-60256cf18c1d)
+
+* Solution. [DOUBT] [Check Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58a1c05f-863f-4692-9bcb-6f40f686f739)
+
+* 5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44bb481c-9bd0-46dd-90bf-58ac28829e74)
+
+* Option **C**. [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c495b49-439c-430f-a027-0213fb5614c8)
+
+* 6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de39523b-5d9c-4764-a966-ceede9820232)
+
+* Option **B**. [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3ed35577-89bd-4491-bfb0-97861eaa53e9)
+
+* 7
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/006498d5-5309-4017-a2b8-f98f662b64e0)
+
+* [Solution] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d373c0e-0652-48c5-b74f-2ccdd2ad43a3)
+
+* 8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08f4a74d-28ce-4c11-9391-937dce82c05e)
+
+* Option **C**. [**IMPORTANT**] [Solution]
 
 
 
