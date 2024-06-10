@@ -1191,7 +1191,39 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 * Assignment.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c8ecbf4-0b52-4fe4-8749-6cfb4c36c63c)
+
+* Solution.
+
 ## Stack and Queue (Part - 16)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb0fd1b0-d189-4786-bee2-58a8c5f3b33b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c47f521-8987-439f-8c87-1e612b1b4c08)
+
+* Example [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97a4b4fa-364c-411f-9a60-7accbc3f6427)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a808da2b-a740-4cb9-a473-d9295784db80)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b938545f-02a9-40a8-ac21-ec1f38d50e51)
+
+* Postfix.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bcc1c1a-bbf2-470d-bb51-6ca430c30b33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed83bf95-2013-4400-bef0-e83a97beba21)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cf288c7-213d-40bf-8385-7d9e4dde513b)
+
+* Find the value of the expression. [Answer] [Solution]
+* The value is **18**.
+
+
+
+
+
+
+
+
+
+
 
 
 
