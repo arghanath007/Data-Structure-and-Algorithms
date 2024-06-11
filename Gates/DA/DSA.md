@@ -1678,20 +1678,69 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ## Circular Queue (Part - 20)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96891e1c-0c2f-4dc7-b317-99962b00a520)
 
+* There will be **no wastage of space**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31509fb1-a864-425e-80a5-aae9c2467b0e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d183c38b-d876-4b9a-9023-82ee5f469ffe)
 
+* Circular Queue.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96c1889e-a5c2-4d81-b007-536c7523a28e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/116ffa74-a33d-4a47-bc67-ca935737b7ab)
 
+* F = (R + 1) % Q_size [Formula] [**VERY IMPORTANT**]
+* The condition is **True**.
+* The queue is full and we have **overflow** condition.
+* **Overflow** condition of **circular queue**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa124518-bf54-44ef-b9a2-54158155c66e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c123262-5de5-48d8-8963-b53d6e4bf039)
 
+* As the **overflow** condition is **false** which means we still have some **empty space** in the **circular queue**. [**IMPORTANT**]
+* Room is available, which means queue is **partial empty**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cea50bc9-431a-4199-ad37-5dfe966c0e88)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c39c74e8-ede1-4684-80cf-d6971cf8da16)
 
+* **R** got the clear indication of leaving the position **3** and going to the position of **0**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a723929-7c46-4de8-92de-f53a4138b417)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a8ea2cd9-63bc-4ae5-83ac-3996f7e75e7f)
 
+* **F** is currently **3** and we are getting **1** from the equation.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/854e6b95-b3bb-4599-af9b-89a598325054)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ec4738b-6c31-48ac-8ec5-725d4a1b96eb)
 
+* In **circular movement(CM)**, the **linear movement(LM)** is included.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91dcabe6-e16e-438e-94fc-597b90fcac69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f31fcdf1-7d66-4f15-a93e-37a4bcaf225d)
+
+* If **F and R** are standing near each other then the circular queue is **full**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de003af9-526a-4ffd-85ba-296552560ed4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b473ad1-4ca5-401b-9619-cd8f84881fe4)
+
+* Enqueue and Dequeue, Queue [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b76dd1aa-987c-4da0-9958-8ac54eeffa84)
+
+* When the **if** condition is **True** then we have to run only **'1'** statement.
+* When the **else** condition is **True** then we have to run **'3'** statements.
+* When the last **else** condition is **True** then we have to run **'2'** statements.
+* This is for **enqueue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58d3d4ec-6268-4958-a659-f5bba104de62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41341dbe-8842-4a1a-acf3-7b47d0c02525)
+
+* The same think of **enqueue** happens in **dequeue** as well.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6693d8a-f9c3-44ec-97dd-46471b6a0b00)
+
+* We can write the **constants** 
 
 
 
