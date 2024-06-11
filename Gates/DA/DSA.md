@@ -1558,17 +1558,83 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ## Queue (Part - 18)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffcd8f69-5099-4511-ade1-aebb1bef547e)
 
+* Enqueue.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cced853-74cf-4ed1-9b94-855f48e188cf)
 
+* Overflow condition.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3d694ed-5481-4221-ae2b-4a08d03c173e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/49f0ec72-a08b-464d-adcf-bfe265ff9498)
 
+* The value of **R** would be for the **overflow** condition is **100** when the **Queue size(Q_size)** is **100**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08d208af-0bbb-4b7d-9e82-e05245c275e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e831c701-25ad-4d34-9a5d-c41593bd8e33)
 
+* The value of **R** would be for the **overflow** condition is **N** when the **Queue size(Q_size)** is **N**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c4244e-3ba8-4e94-a0e4-c571126290d5)
 
+* Queue is starting from **2 to 4**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c04baa7-aa63-464e-bcdc-c62d78ae1988)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/12c8a541-e350-4b0b-863a-25a6055e252b)
 
+* Examples [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c296136-b7fa-4903-ad11-e39929fb72e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a56673ee-337f-4ac7-a7e5-e081e2f4570f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/413992c3-ec37-4301-9f0e-4dda6f88654b)
+
+* Enqueue.
+* **i** is included in **N**.
+* Overflow condition -> N + i - 1 [Formula] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0c14c45-1b25-4725-8780-094713f923f9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e33a633-fafe-41d2-bfa8-aadfae78e30b)
+
+* Dequeue(DQ).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac2228a8-1ce6-43b1-b744-71837e7688ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e677259-b216-4b76-a5b4-301af774254d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb869dfb-e2e5-4112-81b1-687854ebb02b)
+
+* Both **rear and front** will be pointing to the **same index** as there is only one(1) element left in the queue. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82ef6a4f-354f-4c1e-adc1-34d43af42c4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a704b08-4233-4cfa-a43b-38bd77a18ab0)
+
+* If part -> For **one element** condition.
+* Else part -> For **more than one element** condition.
+* Front(F) -> Deletion(D)
+* Rear(R) -> Insertion(I)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b7afafde-7df7-4d8e-81d3-9377d96bedde)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d87f64b-1f6a-433d-a020-db40c329e165)
+
+* Underflow -> Empty Condition. [**VERY IMPORTANT**] [Code]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4fb2823-4869-42d6-a1fa-e568a4ffed05)
+
+* The conditions are **mutually exclusive**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/447637ff-f5c2-454e-bec2-50be07df235a)
+
+1) Underflow condition.
+2) Only single/one element there.
+3) More than one element there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2cabbea4-4762-4e3e-bd3b-f9c3f210be3f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2982b1bd-18e1-490d-be8c-0c3d1b58e3cb)
+
+* **Time complexity** of **dequeue** operation is **O(1)**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1806ae88-1fcc-436e-af9d-134126216c81)
+
+## Queue (Part - 19)
 
 
 
