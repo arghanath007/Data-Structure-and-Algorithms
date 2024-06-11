@@ -1556,7 +1556,28 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6275681-6746-4931-bba7-adc36182d26c)
 
-## Queue
+## Queue (Part - 18)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
