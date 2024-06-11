@@ -1739,15 +1739,25 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 * The same think of **enqueue** happens in **dequeue** as well.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6693d8a-f9c3-44ec-97dd-46471b6a0b00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c88d833d-ad99-4397-b0ab-3ffffe072b10)
 
-* We can write the **constants** 
+* We can write the **constants** in terms of **O(1)**.
+* Both the **enqueue and dequeue** are in terms of **O(1)**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15168064-0370-4bff-aa52-ac6345e7e783)
 
+* Linear Queue(LQ).
+* Circular Queue(CQ).
+* Both the **LQ and CQ** time complexity is **O(1)**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c49877e-927e-459b-beda-f17c0bc1a638)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a5c18a69-949e-43ad-bfe5-c50602497566)
 
+* [**VERY IMPORTANT**]
 
+## Queue (Part-21)
 
-
+* Lec -> 21.
 
 
 
