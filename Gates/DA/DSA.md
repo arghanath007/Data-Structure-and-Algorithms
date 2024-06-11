@@ -1195,7 +1195,7 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 * Solution.
 
-## Stack and Queue (Part - 16)
+## Stack (Part - 16)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb0fd1b0-d189-4786-bee2-58a8c5f3b33b)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c47f521-8987-439f-8c87-1e612b1b4c08)
@@ -1416,6 +1416,195 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6780c8d9-76d4-41f1-b77d-7e378224a403)
 
 * 5 [Solution] [**IMPORTANT**]
+
+## Queue (Part - 17)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba8b4049-0d67-4690-a8c0-2bdaf3b96885)
+
+* Both the ends should be open for a **queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f2ff1e4-4386-4e87-93ea-c36c2685de99)
+
+* Queue:-
+
+1) Static Queue -> The size is **fixed**.
+2) Dynamic Queue -> The size can be **changed**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/07842ff6-17cb-46f4-9a90-ce59ca8187bd)
+
+* We are talking about **static queue** for now. The pillar of **static queue** is **array**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33f86a05-c157-4b31-89e0-27808856f5fe)
+
+* We get the **empty queue** condition when the **indexes** does not belong to **0,1 and 2**.
+* If we are **not inside the queue** then it means that we are **outside of the queue**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d7012fd-9c1e-4d5f-9672-ac4571d3d2cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e7b3a90-9157-4790-9562-31b06b44bf00)
+
+* Empty Queue -> Outside of the Queue. [Meaning] [**IMPORTANT**]
+* **Queue** starts with being **empty**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2d82f1b-9f66-42bd-a85d-db3f9dc918dd)
+
+* Delete -> Front.
+* Insert -> Rear.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e3ba11d6-17a4-487b-bf56-0167cfc14cbc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bba93a5d-f13f-4912-afe1-28c299d8fb04)
+
+* Insertion -> Rear(R) -> Enqueue.
+* Deletion -> Front(F) -> Dequeue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c441331c-cef4-4cce-b202-08ef8837628f)
+
+* If **F and R** are outside of the queue which means that **Queue is empty**. [**IMPORTANT**]
+* It doesn't mean that **front(F) and rear(R)** are at **-1** only. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c1631b0-b9ef-4b56-b4a5-eeb1126c3f5a)
+
+* This is also an **empty condition**. As both the **F and R** are outside of the queue, so the **Queue is empty**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc21aee9-dbf6-4b9c-a35b-f59a775fe402)
+
+* This is an **empty condition**. [**IMPORTANT**]
+* It is **True(T)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ad7acaf-ea79-47dc-a831-34d103c1eea8)
+
+* This is an **empty condition**. [**IMPORTANT**]
+* It is **True(T)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4120a412-bf42-44de-becd-99b30f58c5cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54c86a1d-60f9-4dae-a6f4-b1d1ddefcbdc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a0725b96-c667-404b-b298-be5fc27e6d35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/959bb571-4f0f-4e6a-b3bd-3cb3b2c3bb35)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/acf9c1ee-48e4-4349-818a-3b867cef50c4)
+
+* If **front(F) and rear(R)**, does not belong to **0, 1 and 2** then it is an **empty condition**.  [**VERY IMPORTANT**]
+
+### Enqueue
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65100c07-257a-4deb-9017-319a6977795b)
+
+* Insertion(I)
+* Deletion(D)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e94e3089-50e8-47a9-ac2d-b0260473385d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bbdfa5d-5860-44bc-bdd9-68491f036431)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c0095c0-be38-4e46-97fb-7aca31a73467)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91f309ef-5bd8-45fe-bd76-7b76bc8d992d)
+
+* We should also set the **front** to **zero(0)** along with **rear** only.
+* We are doing **Enqueue(10)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e00baceb-75b2-41b7-90fb-507e67a666ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/893a3400-b8ec-42ec-9917-a29ec66e1359)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b990bbe3-f516-4a3d-9955-5ea86c69f675)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5449c33-cac2-4ba5-b72c-6e91bc24ecb5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ec05842-9e0c-41cd-b810-1cfd3d053ab4)
+
+* FIFO -> First In First Out -> Queue. [**IMPORTANT**]
+* FCFS -> First Come First Serve.
+* LIFO -> Last In First Out -> Stack.
+* Why is front pointing to zero(0) still? [**IMPORTANT**] [Question]
+
+> It is because 0th position is the position where the 1st inserted element is located. So when **dequeue** is called then the first inserted element is deleted which **front** is pointing to currently. That's why.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bfea1df-4d1e-48b6-b4aa-8cac9a9f92a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd46cf8f-555e-4497-bec6-7d3a6ddbfa44)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f842678f-b3c3-42e6-a455-bd651fa5f5fb)
+
+* Queue **overflow** condition. [**IMPORTANT**]
+* If **Rear(R) == (Queue_Size - 1)** then we have the **overflow** condition in **queue**. This is for the **above question**.
+* Q_Size -> Queue_Size [Same thing]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72ce53fa-9297-47ef-aab2-7707b18bcf90)
+
+* The **overflow** condition can be explained by **rear(R)** only. It cannot be done by **front(F)**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6b1962b-8bfd-4e71-93ce-c6ac9fe62b69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7050e87-103b-4e4e-9128-934a9ceccbfc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2dbe429-911d-47f2-af0e-cfd3ee2bb9cd)
+
+* Q_Size = N
+* Overflow Condition -> R = (N - 1). [Formula] [**VERY IMPORTANT**]
+* This is the **general condition** of **overflow** in **queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/998efb8c-a835-40a6-b5dd-b01e9af3b0f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3256c904-748f-4659-b7e8-fe703d4224f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f3ad28e-a734-44b5-b746-c83cf4cbb200)
+
+* **Queue** is not empty. As **10** is inside the **queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/83c90bf6-d877-4147-b718-f8ef3a3c00a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9ed6f01-b5da-4d5e-ad17-c716b4f05144)
+
+* **Overflow** condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72f067c2-1337-4782-b1ba-84a970087282)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c63c90bd-fbce-4ff1-b521-84b7eead5e04)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df76bc32-12f9-445f-bd54-36ceb107ed13)
+
+* Time complexity(TC) of **enqueue** operation is always **O(1)**. [**VERY IMPORTANT**]
+* Via the time complexity of the **enqueue** operation we check if the **queue** is the best or not.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20788c94-01c5-4591-ac93-70e52f143d1d)
+
+* Queue [**VERY IMPORTANT**] [Summary]
+* If the time complexity of the **enqueue** operation is not in **O(1)** then we have not structured the **queue** data structure properly. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6275681-6746-4931-bba7-adc36182d26c)
+
+## Queue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
