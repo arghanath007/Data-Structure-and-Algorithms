@@ -1636,10 +1636,47 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ## Queue (Part - 19)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7983e142-78d5-4fd1-9923-6dade90a3c05)
 
+* Which is correct? [Question] [Practice]
 
+> Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/187de81b-f7b8-460c-b1cc-da7caa91b2da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ff0b840-0412-490a-a545-0b5cc10df2ec)
 
+* This is **linear queue**.
+* Rear(R) -> Put.
+* Front(F) -> Saphai.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f80a2305-d331-453e-9f25-cc1f0906c245)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d7953ae-c972-4501-bff4-73fd5d390f86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa2f300c-b35f-4d5c-9cb9-c87e67c07662)
+
+* There is a **problem/flaw** in this way of storing elements in the **queue**. It is that the **queue** is saying that it is **full** but we can clearly see that there is an **empty space** at location zero(0) of the queue.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd28a514-d252-4868-ad1f-94f84ec30046)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28071194-5412-4f9f-b215-e23573c84604)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cecb52b-a7bc-46da-bb3a-e364040f133d)
+
+* In **linear queue(LQ)** there is **wastage of memory**. **Rear(R), R++** can only move forward. [**IMPORTANT**]
+
+### Circular Queue
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/97130565-d67e-4eba-90a2-e87e966878e0)
+
+* Circular Queue
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d52dd60-da81-4dd4-80e8-e6aaf6baadd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa227cc4-bc84-4870-8fa1-b91f635893cb)
+
+* We have to make the **Linear Queue(LQ)** into **Circular Queue(CQ)** by logic.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86098423-c583-4e99-a12c-5e26bdca8874)
+
+* LQ + Logic -> CQ.
+
+## Circular Queue (Part - 20)
 
 
 
