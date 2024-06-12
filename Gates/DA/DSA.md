@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f34cefa-8cd0-4f1c-9414-f1156bf56c6f)# DSA
+# DSA
 
 ## Time Complexity (Part - 2)
 
@@ -1886,51 +1886,121 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 * The smallest element in the queue is **left behind** in the stack.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/917549e0-d3eb-4056-ac8f-652f0dd7abd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5d59324-6105-4448-b112-6b3703c957d1)
 
+* The queue is completely empty and we have to stop the procedure.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84005eed-40bd-4eae-a6fa-4e16cab1446e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aceadef-dfed-428c-b443-3bf7cfeaf13f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4dd2db6-a6ca-4df1-b29f-725b181b3e0d)
 
+* If they asked that they wanted the elements order in **queue** to be the same as in **stack** as well? [Question] [Solution] [**IMPORTANT**]
 
+> Then also we would have used the **decreasing order** of numbers.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62c572f9-9689-4a40-add4-7030d1ac7e59)
 
+* 2 [Question]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/210ae70b-6499-4643-8615-c5702479ff3a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecd510d1-dbac-44dc-8b91-7c565c51b6fd)
 
+* Take some **small value of 'n'**. Note the **pattern** and solve it for a bigger value of **n**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4113769c-947f-429b-bcf2-58c32d89df29)
 
+* We are taking the **sum** of the previous **'2' nos**. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15d1fb21-1fc7-44ca-b273-27f7dc1f5a4f)
 
+* Note the **pattern** and repeat it.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de402967-3911-4ce7-8624-21d267a9bd27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fbfdc4d-8052-4ea7-b8cd-f4af7212b45e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d730f2c-c774-46ed-8455-2aa09e66bb29)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac6b825c-1e6e-4b7b-a32b-a3a327ca3c06)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2eb95188-cceb-4469-9401-836739b85647)
 
+* This is the **fibonacci series**. [Solution] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21fb0570-1eb7-4442-a782-237acf926ff4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7791e654-b0f7-4d24-9fc6-25d6b60c718b)
 
+* How many **queues** are needed to implement a **stack**, without any additional space?
+* We have to implement **LIFO** using **FIFO**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a8468e9-5db2-46d7-8776-c5e18a84f4fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62f4a51f-dc96-49f2-a1bf-4d4577af4e90)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec6119da-9da0-42f3-a968-960a2734b3d9)
 
+* Logic of stack but it should be implemented via **queue**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb6fcc67-d377-4d1e-b101-67f4a1fc7e59)
 
+* Stack(S).
+* Queue(Q).
+* Linked List(L).
 
+## Queue (Part - 22)
 
+### Questions
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9e43539-07b8-436e-9945-71c55dbfd51a)
 
+* 1 [Question]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e580ffc8-0ae9-4b39-9a51-e9c4e55fbd4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9811a26d-3cc0-4822-82b3-c5fb7c671a33)
 
+* 8 [Solution] [Answer]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93927913-fc99-43ae-b029-4f8aebb22c7a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c36a9d3-e634-4eb1-bc45-325770463cfd)
 
+* 2 [Question]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35847f89-f379-414d-bd06-eb3d45c9b9aa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f92adf11-25ab-4724-9f27-99b7b3dd35f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b257dc86-58eb-4efe-ad21-7e1ae8318be9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/176bc393-db4b-473e-89fc-b23c1f945205)
 
+* We got the desired output. 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3191321b-8928-401e-944a-7ebdd83db572)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23a2659f-3e2b-4344-a7ef-5afa970e7005)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04552780-4053-4251-abf2-613d163a4708)
 
+* We had **zero(0)** enqueue operations in **Q1**. [Solution] [**VERY IMPORTANT**] [Practice Again] [Answer]
+* We had to do the **enqueue(EQ) and dequeue(DQ)** operations in **Q2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54e51e3c-804c-4375-9918-8246f20f7afd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5cb67f4-f168-4b64-be1f-ffaa2785d36b)
 
+* The **questions** is asking for **rearrangement** in **Q2**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec253cb6-85ca-4ed6-bc6f-82668a7d0fe6)
 
+* No. of operations will be **16**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f206d8be-9404-4d98-8802-bed72367e621)
 
+* 3 [Question]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/873dac7b-d68a-4d4c-b662-002c56cf2c41)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/816f757d-b56b-42c8-84ab-c01fb4d3e07a)
 
+* 86 [Answer] [Solution]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1975f6eb-a57f-47dc-8974-d5e7abcd782e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78ac8386-167b-4a7c-add1-eaf39f025e26)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8661cd4f-e8c6-47eb-a3b5-ded5481ba2da)
 
+### Queue Questions
 
 
 
+## Linked List(Part - 24)
 
 
 
@@ -1964,3 +2034,65 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Misc
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f34cefa-8cd0-4f1c-9414-f1156bf56c6f)
