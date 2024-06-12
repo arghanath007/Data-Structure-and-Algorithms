@@ -1998,9 +1998,110 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ### Queue Questions
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c10a9f7b-3838-4df2-8013-ce7da4474dca)
 
+* 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2bd319a-a824-42e1-a5ef-3d0547328c37)
+
+* Option **A**. [Solution] [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96b44d36-dc01-4945-8fcf-6c0b44f4b942)
+
+* 2
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c293825a-9526-48c3-accd-3dcc2d8e1d9c)
+
+* Option **B**. [Solution] [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a4a4a2d-4148-437d-83ba-687ce04ab54e)
+
+* 3
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c81dab04-e16f-4586-ab80-de9b974a5c82)
+
+* Option **B**. [Solution] [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c932cef-b476-4cbc-8b5f-6e392fe5d624)
+
+* 4
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da679192-ca3c-40c5-a0c0-e54f3731a380)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04723bd1-f3af-4865-959a-48633b54b76a)
+
+* Option **A**. [Wrong]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3310257b-362c-4f74-a196-fb8ba284a5d0)
+
+* Option **B** [Solution] [Answer] [Practice Again] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1969c05b-f44e-48f8-ae70-5833e1d0a858)
+
+* 5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a8e0837-52ca-4e82-a40e-14b0b57a6a36)
+
+* Option **C**. [Solution] [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9153ee72-b447-4c56-90a8-2a004c1a9789)
+
+* 6
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e6d8c91-8e4b-4b9d-8513-96d6673a54cd)
+
+* Push -> 9.
+* Pop -> 8. [Solution] [Answer] [Wrong]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/314e54b3-754f-4d8a-b9ea-20e10863e476)
+
+* Answer -> 11 [Solution] [Answer] [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c1a3ec53-65a4-40cc-8851-e1af724d122e)
+
+* 7
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/266a5821-f497-4210-876a-a9107ffb6965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f321fe26-0be6-4cab-9310-66165c67699c)
+
+* Element -> 6 [Answer] [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85e93663-b49e-4877-bec3-08a9810bb5ce)
+
+* 8
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4530a067-4b24-4617-9939-8ed277c744e4)
+
+* Option **D**. [Solution] [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06c9ff0a-c006-4fde-a59c-11e9ee629495)
+
+* 9 [Doubt]
+* Question is not given.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c4c950b-9df0-417c-bc19-a3a2546534a7)
+
+* 10 [Doubt]
+* Question is not given.
 
 ## Linked List(Part - 24)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/332468a0-70f5-4376-a5cf-44812635c9b5)
+
+* List -> Collection of data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3097fa26-d225-4e65-abfc-74ce8e15ffa5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/912207d9-6f17-43d1-bdb2-fcbf658b56b4)
+
+* The storage is created **runtime-dynamically**.
+* Linked list can be **static** as well as **dynamic**.
+* start from 18mins.
+
+
+
+
+
+
+
 
 
 
