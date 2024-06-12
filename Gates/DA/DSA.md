@@ -1,4 +1,4 @@
-# DSA
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f34cefa-8cd0-4f1c-9414-f1156bf56c6f)# DSA
 
 ## Time Complexity (Part - 2)
 
@@ -1757,7 +1757,149 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ## Queue (Part-21)
 
-* Lec -> 21.
+### Questions (PYQs)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5f05c2b-f5bb-427a-800e-9ec1792ab016)
+
+* 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71e99907-c48c-4e42-bc58-195c0983f7ff)
+
+* If -> Dequeue -> Push.
+* Else -> Pop -> Enqueue.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/760b2873-2a04-45c8-b397-420ad1ea1504)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2c64cd5-a0a5-4085-85d3-f5e2f42fb47b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/119e7dc2-f64b-4017-a999-ea5993fc0248)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/22a421d9-19fa-47d2-afd0-43fa173e6290)
+
+* False
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c3ff20a-1bad-46bc-a80b-ab273b964411)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/375eb894-4f41-400b-8088-af7b55bcc18c)
+
+* If the **maximum** word was not used in the **question** then we could have **lots of answers** for the **question**.
+* As **maximum** word was used in the **question** so we will get **only one answer**.
+* Iteration -> No. of times the **loop** has executed/ran.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fcee167-6f65-465a-950b-f22c284a6f4a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d0bf985-706c-4e4a-87af-9bf48202d22f)
+
+* The **order of arrangement of elements**, matters a lot in the **time complexity**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d04b5ee6-bc1d-4aa1-92b6-f8221a5b8e46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76e24b87-246a-4803-8f2f-aaa18dee1a21)
+
+* Now the stack(S) is not empty.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0825b3a6-6848-4a89-9dc2-02c9c9a636c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/202404c5-134b-45cf-9ce7-ea8a8a8a3768)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2025a2a5-ebd5-40e1-bf88-6fcd0bdfc6ac)
+
+* As the queue(Q) is empty so we will not run the while loop.
+* Ascending order means that we are going in the direction of **min**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/911cca1a-37ca-43a4-806b-945541973176)
+
+* So the **min** arrangement is **ascending order**.
+* For the **max** arrangement we have to do **descending order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/836475eb-02f8-49b1-8956-96cf46c8f19e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9dd5197-9be0-4dc7-817b-a16a8de49799)
+
+* **If** condition is **false** and we have to come to the **else** part.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01e23a6e-5b45-4df8-9b6b-1ca079b6761a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/386a3828-7c4c-49e0-81a8-572d4c77082e)
+
+* We are emptying out **queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61266b3c-31bb-4428-bfd0-dab24bf312c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/398c65f6-f009-4596-94f7-a7e21368da6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da503aab-75f2-4567-873e-cab42ef0a1fa)
+
+* Queue is **empty** now. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0f257bb-2f56-477d-b07d-8b24b4ccaad7)
+
+* When we are putting the elements in **descending order** in the queue then we are getting the **maximum arrangements**. [**IMPORTANT**]
+* When we are arranging the elements in **descending order** then we will get **maximum**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4e4619f-3d6f-4c99-a0ee-77213839b1ba)
+
+* Note the **pattern** and repeat it. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fbec1d79-7b2f-40c7-b0b8-2d6029c09a55)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b41fbad0-8825-4006-893f-b9e8c9500617)
+
+* A **cycle** is happening. This is the **pattern**. Note it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcec9219-a36e-462c-8bec-e34bf31a3565)
+
+* Queue(Q) -> Stack(S) -> Queue(Q).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/104befa4-664d-4410-96b3-101f3c97006c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40e4328c-f895-4eab-8b38-064fbcd178f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb4681eb-cd0e-4a26-8fb4-513acca1645a)
+
+* For **1** the **if** condition will be **True**.
+* **1** will never be popped from the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9567055-34f8-4117-9a41-21d977da905f)
+
+* The elements from **16 to 2** where taken from the queue to the stack and then those **15** elements where taken from the stack back to the queue. [**IMPORTANT**]
+* For the 1st iteration we did **15 + 15 + 1 -> 31** elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0d13630-3c9b-481b-8d34-2b39650c45ea)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4993efe2-cf78-493f-8e6a-5bd9380b2111)
+
+* Now the queue is for **15** elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7c34b43-ef00-4a90-b9ad-a3ee67d2a251)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4a02cd5-dc50-493a-8dc4-e16ab2d371e5)
+
+* There is nothing smaller than **2** in the **queue**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8311193e-f1fd-4b21-8964-33350b52ffc1)
+
+* This is the **pattern**, which is repeated. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bfab19c1-9731-40d8-a7ee-6233cf1406b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa4a6506-c348-4e06-b5bc-96207843d079)
+
+* Initially in the **1st iteration**, we have **16** elements in the queue that's why it is **16 * 2 - 1 -> 31**. [**VERY IMPORTANT**]
+* In the **2nd iteration**, we have **15** elements in the queue that's why it is **15 * 2 - 1 -> 29**.
+* In the **3rd iteration**, we have **14** elements in the queue that's why it is **14 * 2 - 1 -> 27**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b7b5ca0-8413-4691-9060-b67d2392f01b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6714d24-1bfa-4e90-8d6d-d15ca77204e6)
+
+* Now the stack is **filled** in the order than the **queue** was initially filled.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3db2e6f0-327f-424a-86a4-e4a500c6f113)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3ae02ab-99e7-4077-96fe-416ed7f77748)
+
+* Solution [**VERY VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95887d80-e802-4842-bce5-0a2801dde326)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/964cfafd-2829-4f88-ab79-44bfadf0d602)
+
+* The smallest element in the queue is **left behind** in the stack.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
