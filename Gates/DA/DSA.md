@@ -2139,6 +2139,43 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 * Now we will get **linked list**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c626a70-a55c-40b2-a405-c41c36a0a656)
+
+* Insert node at the end.
+* Insert node from the beginning.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/33473c1b-a4ce-423a-824a-35dc5745abea)
+
+* We need both the information i.e **head and x** in the **Insertnode(head, x)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ed06338-70ed-4ca7-a675-47eb47221508)
+
+* **head** means the **complete linked list**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a95228a5-60db-471e-8d08-16ffaa1f5a5f)
+
+* Data will be provided by the programmer.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe21da99-6d7e-47c3-97b9-8cc6f0347efc)
+
+* Singly Linked-list -> It is **linear**.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
