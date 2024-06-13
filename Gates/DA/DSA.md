@@ -1,4 +1,4 @@
-# DSA
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64fddea6-3e89-452b-870c-001c9517f7ee)# DSA
 
 ## Time Complexity (Part - 2)
 
@@ -2160,25 +2160,130 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 * Singly Linked-list -> It is **linear**.
 
- 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6d2778e-0a66-4a23-b8f9-672835f1064f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ea2e065-eedb-466a-ad45-5d6e94142453)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e87acc2e-a49a-4175-beff-52e371ae43d3)
 
+* We need to go to the **last node** to add the **new node** in the **end**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4765b859-9e54-43d2-8f95-59ec7a44cb1b)
 
+* This is an **incomplete code**. This code only works when we have **1 or 2 nodes** in the **list**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/08e2d05d-1bfd-42ac-8563-2d70416c25a4)
 
+* 1 [Question] [Queue] [**VERY IMPORTANT**] [Practice Again]
+* Option **C**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/76cb5c70-84c1-49d4-b0b0-1241d2106243)
 
+* The stack is behaving like a **queue**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bc6ee45e-3c49-4a6c-a395-1943ee108e34)
 
+* Now the arrangement within the stack is unordered/wrong.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e80d11c-d7aa-4132-938d-e722bfee1fcb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e70e430-eb5d-4c45-8ba9-9d358073c182)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb3f2ad6-7c6f-421e-b5dc-3ef98eabe397)
 
+* Using the **reverse** operation on the stack. We got the resired **order**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e32017e3-d430-47a6-9fd9-5a3c61af4118)
 
+* Now the **stack** is behaving like a **queue**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2856501b-f2e8-4d7d-af30-fd0fa1899d0e)
 
+* We are inserting **3** into the **stack** so that we get the **same order** as the **queue** which is **1, 2, 3**.
+* Firstly we will do **reverse** on the stack, we will get **2, 1** and then we will **push(3)** into the stack. So the order is **3, 2, 1**. Now again we will do **reverse**, wich gets us the order as **1, 2, 3**. It is the **same order** as that of the **queue**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1435432-06dd-428e-9562-07121748e70c)
 
+* **Enqueue(3)**:- [**VERY IMPORTANT**] [Practice Again] [Formula]
 
+1) Reverse()
+2) Push(3) [Push(some_element)]
+3) Reverse()
+
+* **Dequeue(3)**:- [**VERY IMPORTANT**] [Practice Again] [Formula]
+
+1) Pop()
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/236d6357-1d43-4b0e-a9f2-ba62c0eb35b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6c8463ca-a072-4471-804c-2a5d4b885683)
+
+* Enqueue -> 3
+* Dequeue -> 1
+* Option **C** [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again]
+
+## Linked List (Part - 25)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0091104f-6cbc-44dd-aea5-22fc6401d269)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b169763-4ec9-4a54-844b-5a907a77f0a9)
+
+* InsertnodeEnd()
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d312fc9c-c5de-40d6-85c4-5c885a516718)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f9b0e01-55d9-42c5-bf57-97216eb29035)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cb3b049c-d884-4f80-bbb2-bdae9fa96cb3)
+
+* InsertatEnd(head, x)
+* We cannot directly calculate how many **nodes** are there in the **list**. This is the beauty of **dynamic space creation**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77607338-d335-4fef-9957-c40e8d2b900f)
+
+* We know the **starting point(SP)** of **linear linked list(LL)** only. We don't know anything about the **ending point** of the list.
+* We know the **SP** via the **head**.
+* With the help of **head** we can **add** more nodes to the list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06d10169-ed22-4e9f-af1c-132a0e6700ac)
+
+* We don't know the **ending point(EP)** of the **list**. 
+* What will be the **logic** to find the **ending point** of the **list**? [Question]
+
+> Whichever node's **next field** is **NULL***, then we can conclude that's the **ending point(EP)** of the **list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ab09f03-1f2a-42cf-b28f-ee8d79112f00)
+
+* node's next == NULL. [Formula] [**IMPORTANT**]
+* This is the **last node** of the **list**.
+* We can see that other than the **last node**, none of the **node's next** is **NULL**. This is the **logic**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/722851c0-679e-4250-92da-a6fc60637059)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1823f65-a469-4adb-bb05-ecfede8bda58)
+
+* Logic [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/427f5946-4be8-4fa5-b209-bfaeffe47baa)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f75b77e5-e9bf-4c6a-bbeb-754fea2cceb4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdf05f10-c430-49dc-97fe-c0fa5a7fafa0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a991000-2c83-4375-be4d-8ca2d703195d)
+
+* Insertion at the **end**. [**IMPORTANT**]
+
+1) Find out the last node
+2) Create a new node
+3) Link/clip it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e78b8bca-117c-4ec2-b417-bc280efa1982)
+
+* If the linked list size is **10** then the loop has to run for **10** times only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31ea3cab-a203-4b61-846e-e69be5e606a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d97e9fb2-657b-40cc-a1b5-2038e0c9abc6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca1098d2-b546-4d35-9f54-9759e773ceb3)
+
+* If the linked list size is **n** or it has **n** nodes then the loop has to run for **n** times.
+* If linked list has **n** no. of nodes then **inserting the node at the end** will take **O(n)** time. [**VERY IMPORTANT**] [Time Complexity(TC)] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0222fe8-64b6-48e7-89b6-07a20542a7ae)
+
+* Logic to find all of the nodes in the list. [**IMPORTANT**]
+
+## Linked List (Part - 26)
+
+* Lec -> 26.
 
 
 
