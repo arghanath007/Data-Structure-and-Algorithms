@@ -2093,11 +2093,51 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/912207d9-6f17-43d1-bdb2-fcbf658b56b4)
 
 * The storage is created **runtime-dynamically**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37bae28f-cb06-4f5b-8f93-50ebbb8f1a62)
+
 * Linked list can be **static** as well as **dynamic**.
-* start from 18mins.
+* **Static** means that the size is **fixed** from the start.
+* **Dynamic** means that the size is **not fixed** from the start. It can **vary**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80023bac-a563-46f5-a094-d610da0a7fab)
 
+* This is a **runtime** requirement. It is **not fixed**.
+* We keep **saving phone numbers** as per the **requirements**. The **requirement** comes at the **runtime**.
+* We will use **linked list** when there is **some unpredictability** and there is management of **runtime**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65f0320c-507c-4ab4-be51-6fd79bfaae50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703bfaf6-447c-4c1b-99d1-6e8cb980bc68)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1ee790e8-4943-4dbb-966d-38e5571390f9)
+
+* Design code to create **first node** of linked list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98da8749-de51-46df-b6f2-029b0cf95de1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cab8cbcf-8bb7-40b4-ac91-0512faec8a52)
+
+* We are creating a **house** at the **address '2000'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c97b10fa-fefe-4aea-8b25-5c0d6bb04d6c)
+
+* **New node creation** logic. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf8daba8-7594-4169-a8ab-25c6d6765ac5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50cbba5c-aaf3-4ce5-81f7-31b7a5f29c61)
+
+* **getnode()** features.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63c08882-3223-43e3-bd10-15215d10fbdd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34cd92cc-93e2-425f-bbf9-9d7c7c011d9a)
+
+* Linking of nodes.
+
+1) Create nodes
+2) Link the nodes
+
+* Now we will get **linked list**.
 
 
 
