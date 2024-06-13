@@ -2283,7 +2283,221 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ## Linked List (Part - 26)
 
-* Lec -> 26.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f3e81524-c4fa-4f84-aef9-1badf843491e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e32cbed6-026e-4e40-902a-55931c84bd4a)
+
+* Deletion of a node from linked list. [**IMPORTANT**] 
+* Delete the **last node**.
+* We directly don't know the **end point(EP)** of a singly linked list.
+* We know that when we check the **next part** of the **last node** of the linked list we will see that the **next part** has **NULL** stored with in.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6bbcee2a-4c0a-46a6-a3e9-a3014a189c9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b28e662-b5a6-4a6b-a78e-8144a5d10efb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccbf3d82-d774-442c-9a5e-2514c8a99219)
+
+* How we will reach the **3rd node**? [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7f562ee-987c-4764-b8f5-19d21396f1b1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19b82d71-4cab-4d24-b08c-58de8224519e)
+
+* This code is **valid**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e44f679-2e90-4574-8b10-12665ecc2778)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8459002a-cdd8-4388-913f-30ed6847715a)
+
+* V.next.next -> This is still **managable**.
+* More than **2** is not **managable**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0083f0e9-d3aa-4c20-97a2-ac0db74ae933)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eeb21fa-61c2-4b31-85fc-f9fad9a5d95d)
+
+* Time complexity -> **O(n)** [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e70a0e03-0139-4b75-a486-62a0820f8248)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4687a86-c022-4eec-861f-9d0b02eb7783)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18836062-be34-4275-bd14-e51765e63487)
+
+* Now the **1st node** is successfully **deleted**.
+* Head = Head.next;
+* This is the code for going to the **next code** one by one. [**IMPORTANT**]
+* We have handled all of the **deletion** cases.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e79f22a-6180-42ab-8846-74deb745254f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ced29983-42b8-40ef-8b65-94e87dac91ab)
+
+* Deleting the last node -> **O(n)** [**VERY IMPORTANT**] [Time Complexity] [Practice Again]
+* Deleting the middle node -> **O(n)**
+* Deleting the first node -> **O(1)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0ed7080-c03d-4153-aa66-0de8a56f9151)
+
+* Data Field(D)
+* Next Field(N)
+* **Head** is always used as the **starting point(SP)** and nothing else.
+* **V** can only go **forward** and **not backward** as it is a **singly linked list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3833bef-8226-4202-9f1e-ce7a3f60808f)
+
+* We have to delete the **node** to which **V** is currently pointing to. [Question] [Interview Question] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/267058a0-a98c-44b8-9887-20d810ff3cbb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/603998fc-e21c-44ec-a315-c7d68cdf4fef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe941dec-2752-4fcc-9c71-71124912876e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/beaf65db-afb8-4de1-baf5-4e287cf0c5cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b82a5b34-5b71-4bcb-a059-1e69f50e7dc9)
+
+* The **node(b)** was deleted. [Solution] [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35580705-f250-437d-984a-c09753beb5c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ce23415-a5c8-40f0-bc6d-edb97e841904)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8afa9982-3a05-46b8-981c-f1ca4ff857d5)
+
+* We are actually **shuffling** the data.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5fa31d4-8feb-4c8a-84d0-a02dcfc625e3)
+
+* Why **V** cannot go to the **last node** and have to stay at the **2nd node** only?
+
+> As it is a singly linked list we can only go forward and cannot go backward and we have to deleted the **2nd node** of the list. The linked list will be disturbed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94491119-6810-435c-9c37-c5e257b5d66e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1b107fe-d04a-43ce-8457-290e80529407)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c9c6700-5876-4c7f-9279-ae244a0ba9ef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d523264-49f4-4d36-a46a-9f3c529072ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/234c5376-59d9-485d-879b-134af1bf3d67)
+
+* Explaination.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dcb44aaf-e75d-4c61-98c1-e01e9a395049)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29ced29f-78d5-45a2-96c2-b26666438595)
+
+* Code [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4c5d459-4d6e-46d6-8701-6060c847610a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10a29bd9-f8d0-49dd-ace6-4ca4d8602fc0)
+
+* V.next.Data -> neighbour's data (Parosi's data). [**VERY IMPORTANT**] [Conclusion]
+* V.next -> neighbour/parosi.
+* V -> You/Me.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2e41a04-9a44-4f5c-b386-9b28c741c142)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/67b5cb40-32b8-4260-853e-d2d37a66dd78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0dc1d7c5-2173-498c-a002-a1a5f87d5f47)
+
+* Time Complexity -> **O(n)**. [**VERY IMPORTANT**] [Time Complexity]
+* We have to approximately travel the entire **linked list**. 
+
+## Linked List (Part - 27)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8b1b8b4-6984-4e48-8a0b-e2524f82ea4b)
+
+* We are interested in the **3rd node** from the **last**, then how many times we have to scan the **linked list**? [Question]
+
+> **2 times** only. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63feece3-f1a1-42c5-80c5-6548cd98bc27)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21cb9b77-c746-491e-9805-206b9f9ec7c3)
+
+* Find the total no. of nodes to scan the entire linked list?
+
+> We will use a loop and scan the entire linked list once. We will use a variable **counter** initialize it to **zero(0)** and everytime we visit a **new node**, we increment the value of the **counter** variable. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05782876-d5d9-468e-8e24-3c1e4af4465c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d9999e8-1d27-4347-9bde-f89dd61fed08)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/087a04e6-0af5-4150-9a71-3fe93e42898c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51611886-7f7e-49a1-8beb-b249231b2695)
+
+* Roughly we are scanning the linked list **2** times to get the desired result/output. [Solution] [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3d7e223-7d79-44bd-8544-d833057b15e8)
+
+* Both **'V' and 'J'** are moving **'1'** step forward everytime.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6bc9dd1-5365-4a6b-b623-aa2809991b34)
+
+* Now **V** cannot go forward.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ee31657-4c19-499e-891d-3e525127279c)
+
+* **J** is at the **3rd node** from the **last**.
+* Simply in **1** scan now, we can find the **solution**. [Answer] [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98a55d7a-f961-4a8b-8b0e-83c6f0e3d033)
+
+1) **V** will move forward **3** steps from the 1st node.
+2) Now take **J** point and point it to the 1st node.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d8c6a60-7b7b-4a1f-8f73-d4e2c5631f2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e0455581-5d6f-446b-90e7-43912843de11)
+
+* First we have to run the **1st pointer** till the **kth** node. Then the remaining distance will be **(n - k)**, if **n** is the total distance.
+* If **V** takes **(n - k)** distance then **J** also has to take **(n - k)** distance.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6cb2023d-56f8-4dd0-8909-f5ebc191ff7c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b5a5373-f0ce-4cb9-ae40-c34b411111fa)
+
+* Now **J** would be at the **kth** node which we will finding from the **start**. [Solution] [Answer] [Explaination] [**VERY IMPORTANT**]
+* We don't have to scan the linked list **multiple times**. Only **1** scan is enough to find the desired result/output.
+* start from **32mins**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
