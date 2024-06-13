@@ -2438,7 +2438,75 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 * Now **J** would be at the **kth** node which we will finding from the **start**. [Solution] [Answer] [Explaination] [**VERY IMPORTANT**]
 * We don't have to scan the linked list **multiple times**. Only **1** scan is enough to find the desired result/output.
-* start from **32mins**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d2090630-137e-4165-b40d-509089889794)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edf9a6e1-6b3b-4fdb-bc17-c709186c237b)
+
+* We have to know the **full length** or **all of the nodes** of the linked list first then only we are able to **formulate/find** the logic to get to a specific node in the linked list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ceef6b32-ebac-4d8a-9c7b-3bfb370e4849)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8c4dab1-b8e8-4cbb-ba6e-d6f19117f6ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d41439fb-6869-4ac2-ab8d-be77aec5184d)
+
+* Code [Explaination] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4fdb3c38-19b2-4d91-bff2-7160d912890d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89996348-32d7-4e7f-aa87-2ee537a72523)
+
+1) First calculate total no. of nodes in linked list
+2) Find the middle, roof(7/2) = 4
+3) V.Data = 40
+
+* We are scanning the linked list almost **'2'** times.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8eca4c4c-a829-4c01-adc6-88e3a68ee328)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b178670-c899-491c-ab66-9ba5847150f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c1aeaee-dd47-4f89-b45b-98256c4af609)
+
+* Wherever **Sj** will be standing at the **end** that is the **mid position/index** of the linked list. This is the **mid/middle** index. [Explaination] [**VERY IMPORTANT**]
+* We have completed the **question** in **'1'** attempt/scan only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/458e1152-b298-4fcc-8c1e-402d8558781d)
+
+* Even no. of nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7b2cb6f1-2baf-4857-9bd2-21f1a2c2a794)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/613d3af1-5979-4dd0-9233-bc823a99334f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28fca8ac-e658-46e6-abc5-1199c47a6cc6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3df06ad7-cbc9-4628-8567-6cad27f253bf)
+
+* As there is **no 'NULL'** in the **next part** of the **last node** of the linked list. So there is **no ending/stopping position/condition** for the linked list. That's why we will get an **infinite** loop in the linked list.
+* The linked list has created a **circular loop** within itself. We will get **infinite loop** problem in the linked list.
+* If the last node does not contains any **NULL** value we can not find the length of the linked list. [Explaination] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/414d47fe-b103-4f6b-91c9-955397943465)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/629d80e3-5832-4a3e-8142-fbad5924874b)
+
+* If we keep the address of an earlier node in the next part of a later node then **infinite loop** will happen.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6f6c940-a7fe-4110-b330-1553774478a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27a9e5bf-b5bc-4114-aef4-39f3d822db96)
+
+1) How to detect infinite loop in singly linked list.
+2) Detection
+3) Correction
+
+* Doubly linked list.
+* Circular Linked list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
