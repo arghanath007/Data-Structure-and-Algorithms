@@ -2494,8 +2494,9 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 * Doubly linked list.
 * Circular Linked list.
 
+## Linked List (Part - 28)
 
-
+* Lec -> 28
 
 
 
