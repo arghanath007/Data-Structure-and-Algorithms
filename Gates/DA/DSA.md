@@ -2511,6 +2511,204 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 * First **V** is going forward **'3'** positions. Then **J** is pointing to the **1st node**. Now both **V and J** are moved **'1'** position forward everytime until **V** cannot go any further. The current position of **J** is the position of node we wanted in the linked list. [Explaination] [**VERY IMPORTANT**] [Practice Again] [Example]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f64b2c6-0b3d-430b-ad44-47ba4617a3c2)
+
+* What is the issue with the above **linked list**?
+
+> The linked list is stuck with an **infinite loop**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f821117-78e2-4974-8455-35ab24e76b75)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/712f6219-ce2d-4aeb-969c-d0dd4c938e43)
+
+* Problem:-
+* If we want to find out the length or the end point of the linked list? [Question]
+
+> Solution above.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c09fd8a9-043e-4d62-a5f1-a2e363b88ae7)
+
+* Infinite loop
+* Solution to detect within a linked list if there is an infinite loop or not? [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39419562-38c9-4d17-8812-c6df39309846)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/59951a3d-f308-4abd-af76-19ec28a96884)
+
+* It is not a **circular linked list**. It is a **singly linked list** only with an **infinite loop** within itself.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63cd2b30-285e-45f4-966d-176fbdae855a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dfb35e2e-29ae-4196-b437-93a7ee2a3211)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb3398ff-c46e-44bc-9bca-e43825028861)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b5c04a9-0a80-4434-8fb6-550e648b1a1d)
+
+* It is taking very much **extra space(ES)** as well as a lot of **time**.
+* Alot of extra space and effort(EE) is needed.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e1806cc-e976-495b-994f-a617e3b2817d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53783f7d-8572-4fcc-b180-20ac49ce5fa5)
+
+* **F** will now go to **4th** index.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2232d6d2-1d7b-4054-91ce-534c40c12286)
+
+* We are able to detect the **infinite loop** within the **linked list**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/546aef80-0c01-42d8-88cd-e0523713e2de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7abb25e-f32d-4cc5-8163-6141ed0fbc2c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/958c838b-9320-4a89-8421-c7126bab4e6a)
+
+* Find/Detect infinite loop in linked list -> Code [Explaination] [**VERY IMPORTANT**]
+* Start **S** from **1** and **F** from **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a7032f3-630a-4c3a-b55f-54cda1808ce3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2993d17b-3b2b-47c5-bd28-329f6e345fbf)
+
+* Starting doesn't matter, the code matters.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e9a7188-c40a-43e3-a6d4-93db5cf87066)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf1f10a2-43c1-409b-a5dd-14f3b04521c6)
+
+* 1 [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/169c4944-da42-4aa1-8a7e-e0d694d20719)
+
+* L -> Length of the linked list -> It is same as the no. of nodes in the linked list. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0609699-0e90-49e7-92f4-7c19c56fd1f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee43cc4a-6c3d-4adf-84fe-ae2cb512a798)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/498103fe-2a28-4832-90d1-9934af1ef16b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bbd6944-daed-47a1-a794-1ddc4d4d2a9c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6fbbbde1-2f98-446d-b400-46adf508f56b)
+
+* Time Complexity -> **O(L)**.
+* Option **A**. [Solution] [Answer] [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf8a3cd9-5886-4a2c-a877-3b645aa577e8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad40abe3-4004-407a-a54a-ded28fcdb302)
+
+* Detecting the **infinite loop** and fixing it.
+* Loop is created because of the **3rd node's address** is present in the **next part** of the **7th node(7)** in the list. We have to remove the **3rd node's address** in the **next part** of the **7th node(7)** and then we can **correct** the linked list. [Explaination] [**IMPORTANT**]
+
+## Linked List (Part - 29)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b8bb4ed7-222b-4dcc-a894-2ffa6abecf24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bd47c7ab-6cdc-4cb8-8503-d315f4cae324)
+
+* 1 [Question] [PYQ] [GATE 2022]
+* Take **2** pointers, **1** will start from **head** and the other will **start** from **head.next**.
+* We have to scan the linked list **only once(1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80d45d4e-d69c-4789-934c-a5b1aba383cc)
+
+* Option **A**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/51014d39-11d2-427a-8452-5594e9126da9)
+
+* **Reversing** logic. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7320d239-f3f5-44c9-9db6-9e9ddd7de283)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9a585b3e-850d-49bb-a6c7-7525be6492da)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62c9847b-fb26-4bb7-889c-39cf1ab293ce)
+
+* Initial State.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3320940f-58d4-4fed-8c7a-1a45a234eb5c)
+
+* Reverse of the linked list.
+
+1) First node's next part is **NULL**.
+2) Visit the next node, just place the address of the previous node into the next field
+3) **Last node** is now the **first node**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c773a38-9c2e-4787-aeb2-9b1f09c48daf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15815fa0-91b2-4da8-a10d-ef91ed9499ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a6b75b2-4bd8-4da8-9241-f5b51e6411fe)
+
+* Option **A**. [Solution] [Answer] [Explaination] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/541b1107-d1a6-4514-b8c1-06ed4e6ffc67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b33dc07a-cfee-43f6-84d4-a724f3023f49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad38e7a9-7a26-498d-be6f-3130491c32d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f58b25b9-0c35-43d7-aeab-b27463198340)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df1f7dd5-6aa4-4ddb-aecf-780aa047f8c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b0f58920-be32-4d36-be28-1f87db9ebe36)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc972a10-e6bd-4c28-bf28-8335d79a75a2)
+
+* **Reversing** of a linked list [Code] [Explaination] [Example] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0794de82-c49c-4239-9781-8fc3515f1d4e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a5814ec-b082-4c04-be93-fe0ac3363dd9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a070e70-3cc2-4261-88f7-96b4f0e48929)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4e0ceb5-8e98-46e8-8b08-b4607f3613eb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c160a9b6-cc89-45eb-924b-d1cc3ae94413)
+
+* We are calling **B** even though **B** is already set to **NULL**. We will get an **error** if we run that **code/line**.
+
+```
+Reverse(Head)
+{
+ v = Head;
+ j = NULL;
+ b = v.next; 
+ while(v!=NULL)
+ {
+  v.next =j; // To reverse the link
+  j = v;
+  v = b;
+  if(B)
+  {
+    B = B.next;
+  }
+ }
+ Head = j;
+}
+```
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7b51ed0-66bf-45f2-907d-c6667eb3e452)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbf0a3b6-5326-45f6-aa4b-10f043ae66ae)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/31ff36c3-71e8-4a44-9fcf-25b00d81f958)
+
+* Now **Head** is pointing to the **1st node** of the linked list.
+* [Code] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43cdb25a-49b5-407c-a515-f6627c999a9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1bbb2242-b6be-492b-a454-a0403c37ec51)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/211035c0-389d-4b25-b8c6-6c7469566df0)
+
+* The loop runs **n** times for **n** nodes in the singly linked list.
+* We cannot **reverse a linked list** in **less than O(n)** time. [**IMPORTANT**]
+* Time Complexity(TC) -> **O(n)** [Time Complexity] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4053dfc0-5ae1-42ae-b326-af82ba7882e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1fd20ddd-5eed-45fa-b7ff-ffefb3b4cd01)
+
+* Instead of **3 pointers** use **2 pointers** and find the **reverse of the linked list**. [Assignment]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3f8676f-cbb3-4736-95c9-94aafb49ffa4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/332b7552-a96b-4759-aaa6-c79c1912caa9)
+
+## Linked List (Part - 30)
+
+* Lec _> 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
