@@ -2496,7 +2496,21 @@ f![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/5
 
 ## Linked List (Part - 28)
 
-* Lec -> 28
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0c9428dc-2353-431a-a5c1-fda3010c53fe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/823bf5e1-86b4-476d-9bda-79721389a995)
+
+* This is **Technique 1(T1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88c12344-4170-4ef9-909f-35537ca9ce3d)
+
+* We have the information of **3rd node** from the **last**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d4feed81-2f5c-4a96-86ec-c90920fd0762)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/796f581f-9649-42b5-ac5e-659d13787d65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ccb8cf1f-785e-4b38-9437-9103d4a77bd3)
+
+* First **V** is going forward **'3'** positions. Then **J** is pointing to the **1st node**. Now both **V and J** are moved **'1'** position forward everytime until **V** cannot go any further. The current position of **J** is the position of node we wanted in the linked list. [Explaination] [**VERY IMPORTANT**] [Practice Again] [Example]
+
 
 
 
