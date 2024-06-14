@@ -2688,7 +2688,80 @@ Reverse(Head)
 
 ## Linked List (Part - 30)
 
-* Lec _> 30
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9865e06-0af7-4604-9a03-f201c66353a9)
+
+* 1 [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4395ac48-88ed-4a9f-a392-6315f8eace80)
+
+* **Head** means the whole linked list, always remember that. [**VERY IMPORTANT**]
+* We will always solve **recursion question** using the **recursion tree method** only. [**VERY IMPORTANT**]
+* Option **B**. [Answer] [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41b9f34e-3c5e-4d7a-b624-ea43d2777614)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f6c7c7b0-4faf-4739-b23a-99cfaa2e50df)
+
+* We are not reversing the linked list here. Whatever the linked list was, it is as it is. We have made no changes to the links of the linked list.
+* We are not doing anything to the linked list.
+* We have simply printed the values of the nodes of the linked list in **reverse order**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bf447bf-2257-4196-b17a-e0ba697adf59)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1bd1b92-8b1d-406e-aa41-dcbe18f898a8)
+
+* Time Complexity -> **O(n)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94810ed0-2a56-4a32-9fd2-4fee54711772)
+
+* 2 [GATE 2021]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/361f1813-37c2-4cd3-9b5b-909ef41aac61)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1256187d-b590-4e44-863f-aff5d79bece0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48ad91c8-9eaf-44d0-b2a4-9a54ab991ed9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/589c6eec-68c8-4dd2-a147-79f916fffdd2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d14a3fc-e5eb-459b-9137-722dadc3bcf8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0403ebb6-dd01-4546-9304-64c8302c5469)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8c377c9-0437-4b8d-9dc5-05f1747cae83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df3ec178-5117-44b8-88d9-1baea50da9a6)
+
+* Note the pattern and repeat it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3a51c45-01ad-4b69-ba16-fdbf61cf22c1)
+
+* This is a **defective linked list**. It is not a **correct linked list** because there is no **ending point** of the linked list. The next part of the last node of the linked list is **not NULL** and there is some random **address** in that place. This will cause **problems/error**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb9fa70e-d136-4686-8f11-ce75b35cbcc0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf089f69-d1be-4ca3-9f63-05205b6e59f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cd867c2-72ab-48f5-84d1-45f296833b29)
+
+* The issue is that we have **not kept 'NULL'** at the next part of the last node of the linked list.
+* There is **nothing missing** in this code as stated in the **option 3**, so **option 3** is **not correct**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dca51fed-fedc-4858-9074-8ac2f5ae9b5c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3fa6c470-2043-43fd-845d-f970130b699e)
+
+* There was no code/mention of keeping **NULL** at the **last node** of the linked list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6385e3d-2021-49ae-bb2f-70b9a901815c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dac4bdcf-fe59-4443-a4de-3c9e6d5d924d)
+
+* Option **D or 4**. [Answer] [Solution] [**VERY VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec8e0614-4ce1-4d1d-afcd-45ccc753d4e3)
+
+* If we have **NULL** at the next part of the last node of the linked list.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38fd4301-35da-4ba6-b2d5-35b459fd667d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52fe1dcc-1c56-4531-ba9f-22b374ea51e5)
+
+* The program may **crash** on **runtime**. [**IMPORTANT**]
+* 1hrs 20mins.
+
+
+
+
+
+
+
 
 
 
