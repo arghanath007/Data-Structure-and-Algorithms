@@ -2752,24 +2752,106 @@ Reverse(Head)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38fd4301-35da-4ba6-b2d5-35b459fd667d)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52fe1dcc-1c56-4531-ba9f-22b374ea51e5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65855d9c-fc3a-4030-9be7-62d5f87a922f)
 
 * The program may **crash** on **runtime**. [**IMPORTANT**]
-* 1hrs 20mins.
 
+## Linked List (Part - 31)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/52664951-36e2-4a89-9030-0f9031765aa2)
 
+* We are making a **queue** using a **linked list** in the above question.
+* 1 [Question] [GATE 2018]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/270324f9-e35b-4270-8b91-8afc094a6915)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb0f6ef4-a728-436c-89ff-cdf27b88037b)
 
+* Standard **enqueue and dequeue** operations, standard **push and pop** operations, all of them take **O(1)** time complexity. [**VERY IMPORTANT**]
+* If the **enqueue and dequeue** operations of a **queue** are implemented in **O(1)** time complexity then the **queue** is implemented **correctly**. [**VERY IMPORTANT**]
+* If the **push and pop** operations of a **stack** are implemented in **O(1)** time complexity then the **stack** is implemented **correctly**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/82403ddb-90f5-4325-b97e-ffc89d8de359)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c05da0b1-94bd-4423-be16-f2ba06b8917f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0b2d3f9-35c9-4f31-a0dc-02864f73d778)
 
+* Insertion at the **head** took **O(1)** or **constant time** only. [**IMPORTANT**]
+* Enqueue is taking **O(1)** time complexity.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a90f81e-97b7-4efa-a5b5-c06fa249a63e)
 
+* If we simply remove the **tail** node from the linked list then the linked list is **not complete/correct**. It doesn't have an ending point. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d93185b-fc52-4749-8a27-917ec25cac56)
 
+* We have to traverse to the **2nd last node** of the list and then we have to perform the **dequeue** operation and remove the last node of the list. We can now place the **NULL** at the last node of the list and creating an ending point for the list. This is a **complete/correct** linked list. [**IMPORTANT**]
+* Dequeue is taking **O(n)** time complexity.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30323335-e66b-41de-ad16-67c7ed384f5d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/172f96e4-ae0e-44a8-8efe-dd84caa7626f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d14dbd3b-264d-4c9c-bdf9-9497d8b1aa45)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/838a99e6-3ea5-49a0-9836-f74d3d00b999)
 
+* Both operations(Enqueue and dequeue) should take **O(1)** time. Therefore it is **not suggestable** that we implement a **queue** using a **singly linked list**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3cce495-f752-4b12-8b01-3434c60378db)
 
+* Option **B**. [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc88bbe3-1426-48b4-b0c5-47112dfdc2fe)
+
+* 2 [GATE 2017] 
+* Option **B**. [Solution] [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/54ece393-6a17-4291-b905-f5870075b2b5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/540cc692-023f-401a-893b-65c43b242904)
+
+* If we want to **delete the 1st node**, we can delete it in **O(1)** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/713501cd-9ea8-4040-944d-b2d100243912)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84dd6200-e0cb-4b19-be06-7d3e2264bccc)
+
+* We are easily able to delete the 1st node.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/548e893f-8362-4dcc-b5fa-59f8e8a2a85c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/830cf61f-345d-4452-bd80-d64e8a2fc262)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c13c700-c5f3-4bfd-a4a2-26c0fac8e3fc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf46771d-839a-4ac2-a5b2-56c901df44d8)
+
+* We are getting both the **enqueue and dequeue** operations in **O(1)** time.
+* We are implementing **circular queue(CQ)** using **linked list(LL)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d965ae6b-094e-443b-8e17-71b02136e79f)
+
+* As we are getting **O(1)** time in both the **enqueue and dequeue** operations which means that we are perfectly able to implement a **circular queue(CQ)** using **linked list(LL)**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fc397ad-27e4-479c-b045-81e96cf7cd1d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf812de9-9172-49df-bfbf-e9a7ad6c499e)
+
+* Using the logic of **Next pointer of read node points to the front node**, we are perfectly able to implement a **circular queue(CQ)** using **linked list(LL)**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/06ad091b-e969-4e81-aecd-057428846645)
+
+* 3 [Question] [GATE 2008]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e4399a64-ddc4-4cf3-9aa0-25ef28596aec)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94e4cedb-3476-4845-8cc2-2ae6284fcc47)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23343587-e8ef-46e2-affc-19ef68cc7830)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d362c741-ec5e-407c-98f3-1aa656aabda9)
+
+* [Assignment] [HW] [Next Class]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b01677fd-31af-46cb-9aa8-22b1875ca61b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a84dc02-37c6-4ebd-93ce-9795ed3e5a39)
+
+* Assignments for **next class**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62230215-bd23-4542-af6d-661554ca42ce)
+
+* Assignments
+
+## Linked List (Part - 32)
+
+* Lec -> 32
 
 
 
