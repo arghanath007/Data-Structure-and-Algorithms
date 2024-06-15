@@ -1,4 +1,4 @@
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/912d4fc5-046a-4fb8-b24c-58e2049b91e5)# DSA
+# DSA
 
 ## Time Complexity (Part - 2)
 
@@ -3077,7 +3077,9 @@ Reverse(Head)
 
 * Option **C** [Answer] [Solution] [Doubt] [**VERY IMPORTANT**] [Practice Again]
 
+## Tree (Part - 33)
 
+* Lec -> 33
 
 
 
@@ -3195,3 +3197,4 @@ Reverse(Head)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f34cefa-8cd0-4f1c-9414-f1156bf56c6f)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64fddea6-3e89-452b-870c-001c9517f7ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/912d4fc5-046a-4fb8-b24c-58e2049b91e5)
