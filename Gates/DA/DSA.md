@@ -2851,7 +2851,119 @@ Reverse(Head)
 
 ## Linked List (Part - 32)
 
-* Lec -> 32
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e150828e-7b36-4713-b5bd-a1472d49f7e7)
+
+* 1 [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5d20c9c-043a-440f-b61f-ba425e01919f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f209f5f0-d3d8-4f75-ab00-dde564070ded)
+
+* **Enqueue** operation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cb9720f-8086-4cc1-a636-c01f62b00f84)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb44c2ad-d53d-4081-947a-4099f4bd7f97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/251f4802-31e6-4ea8-bd2f-4e58309a7334)
+
+* Process to implement **queue** using **linked list**.
+* They have mentioned **circular queue** that is a **trap** to confuse students.
+* We cannot implement a **circular queue** via a **linked list**. It is not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f567106d-213d-4ee8-9fe1-85cdd88a985e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/459ca246-0eb0-466c-ae91-ac21de9cec85)
+
+* Option **B** [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again] [Explaination]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e15fdafe-1e8e-47a3-a34f-28bbf9a9326c)
+
+* 2 [Question] [GATE 2008]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/527ac752-9423-4c12-9ab5-066bc32c8eb2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92756d85-ffbb-4bc8-a296-efa6cc8f841c)
+
+* Note the **pattern** and repeat it.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c29b3fa-bf0f-4914-a980-052dc0ac0c2d)
+
+* q.next =NULL.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35fb829e-c5b9-4a26-ba11-8416a3ff0a7d)
+
+* Why there was no rearrangement in the **last node**?
+
+> There was none else to make a pair with. It was alone. No pair was possible. That's why no rearrangement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ab265a8-d3e4-4e84-83ea-fb75429547f3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/419be37d-2b84-4925-955a-232846d4acc1)
+
+* Option **B** [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3bdbe001-b518-4ce8-aade-76ceef2504f0)
+
+* If we had **added** another node(8) at the end of the list then a 4th pair would have been possible and there would be rearrangement.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b279f68b-f5f7-4333-8de0-62848c40f0e3)
+
+* Arrangement -> 2, 4, 3, 6, 5, 8, 7 [Answer] [Solution]
+* The question was about **even and odd**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ca8723f-ecc7-4b38-90dc-eebd71dac6dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3a7afee0-e5bf-48a3-b2fa-59febfbdf64c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8037d8d7-aa39-4a7b-9b48-22601f747fea)
+
+* Slow pointer(S)
+* Fast pointer(F)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f79f967e-7aa5-4504-a55d-b9d5989dd94c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bf289e8-a64a-4bde-9568-b42c8a3bf067)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a37ec25-75e1-4966-9156-1680ce5cc130)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/74763f4b-28c0-4ba7-8123-ac39fc4575c9)
+
+* **S** is starting at **6** and **F** is starting at **1**.
+* Cancer Detected.
+
+### Doubly Linked List
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3aa1892a-9f05-48bf-9f61-836e38aa9298)
+
+* Doubly Linked List
+* We need **more space** than the singly linked list to store the **Doubly Linked List** as we are using **3 spaces** in each node of the **Doubly Linked List**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32bdd2fe-3f2c-4806-ba4b-917def744df6)
+
+* Previous(P)
+* Value(V)
+* Next(N)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/44662c2a-f27b-4f75-abc0-d5beba54f8ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9f768a0-2a7c-423f-9faa-e33e7e1a98a1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5139c15-3843-424a-8559-6860e3973bbe)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f9c800d4-c7fc-4d5c-a90b-c4b706b9d1cb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f61c061-1103-4fcb-8e59-0ce1fc785edb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e42a533c-20ea-4ab7-a01d-9d1fdce47168)
+
+* SLL -> Singly linked list
+* CSLL -> Circular SLL
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7c6c77d-52bb-46a4-b221-f39534263bef)
+
+* We need to **decrease** the **time** and the **space** of the applications we are creating.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d7eb32bc-54db-4e9e-ba67-1bc26e9b0d7e)
+
+* In **doubly linked list** also, the pointer(V) has to traverse the **whole list** to find the **end point** of the list. There is no other option.
+* Time Complexity -> **O(n)**. [**VERY IMPORTANT**] [Time Complexity]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6817b280-4fab-4bc8-990f-a23f23755476)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/951d369d-18e7-419e-b459-caf897b926f5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8db9e7b1-8db7-4c40-8cff-0a07c1271fb1)
+
+* Delete the **last node** in the **doubly linked list** -> **O(1)** [**VERY IMPORTANT**] [Time Complexity]
+* Insertion -> Beginning(B), Middle(M), Ending(E)
+* Deletion -> Beginning(B), Middle(M), Ending(E)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/238e2fed-812e-4c56-a08e-591e5d94c10c)
+
+## Doubly Linked List
 
 
 
@@ -2863,43 +2975,7 @@ Reverse(Head)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
