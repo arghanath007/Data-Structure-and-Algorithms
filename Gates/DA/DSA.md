@@ -3079,26 +3079,68 @@ Reverse(Head)
 
 ## Tree (Part - 33)
 
-* Lec -> 33
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7454b98b-d083-4e04-9f83-8ea2e7fc1cff)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/470a92b2-d8e6-4616-b07b-d7df67a6dadf)
 
+* a -> Root node
+* b and c -> children of 'a'.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8746b37f-8c8c-41bb-bafa-746ad6fd80c7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e67d3f2a-2b30-4297-9350-40d7cb94b64a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa530a42-18ef-471a-82ba-dee26cecf2b6)
 
+1) Internal Node(IN) -> Have atleast one child/children.
+2) Leaf node(LN) -> Node with no children .
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/43ce8d1d-358f-4caf-91a3-a4b69ec35a31)
 
+* Internal Node(IN) + Leaf node(LN) -> Total nodes [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2f54eaaf-98d5-4b6b-b38e-d207f66cde4f)
 
+* The distance between the **'2' nodes** is called as **edge**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/564d4a17-df83-457f-8c1d-136e4e39ae9a)
 
+* **Height** of the tree.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf981730-3d1f-490f-b963-e7515a255583)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5d2ab178-54bd-47a3-9435-4d77845ef1a9)
 
+* Height of the tree -> Largest level node from the root is called the height of the tree. [Explaination] [**IMPORTANT(
 
+### Binary Tree
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef216975-5fa3-4cd2-a328-9fd0b99dc589)
 
+* Binary Tree -> Any node has atmost **2** child.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7c5dd7c-a751-4626-8b46-393680b5f690)
 
+* Examples.
 
+### Complete Binary Tree(CBT)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da12ccbb-cca3-4fd1-a925-546b2028ef11)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc17afe7-5577-47a9-b3fe-1a76834fdfff)
 
+* Recursive design of binary tree.
+* Left subtree and right subtree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc5ec906-a416-49fd-9d07-a2d173fb5f38)
+
+1) Find and fix the root node [**VERY IMPORTANT**] [Steps] 
+2) Hang left subtree in that root node
+3) Hang right subtree in that root node
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd235e36-f499-49ea-95f4-a63f6f5bae4d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/177824ec-1d80-4c46-b6e2-7e4fd084aa0c)
+
+* We are **constructing** a complete tree(T).
+
+## Tree (Part - 34
+
+* Lec -> 34
 
 
 
