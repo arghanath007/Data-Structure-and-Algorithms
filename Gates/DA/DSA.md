@@ -3138,52 +3138,112 @@ Reverse(Head)
 
 * We are **constructing** a complete tree(T).
 
-## Tree (Part - 34
+## Tree (Part - 34)
 
-* Lec -> 34
+* In **binary tree**, the parent node can have **atmost '2' childs**.
 
+### Complete Binary Tree
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19386e91-4d65-42f7-af6e-8ec3adcbb032)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab4d1484-824c-47c1-b4d9-3ad2065017e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df60d924-5686-43ef-a87c-2c3f236c5978)
 
+* Conditions for CBT:- [**IMPORTANT**]
 
+1) All leaves must be at the **same level**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ffa5026-6d94-4ad9-b129-26286c212200)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee2d7f76-1596-4434-ab1f-b674fb47e354)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57ab69c0-ae5a-4a01-bc62-6cb220d13e1e)
 
+* At level 'i' there must be **2 ^ i** nodes. [**VERY IMPORTANT**] [Formula] [Practice Again]
+* Every parent has **'2'** nodes. [**VERY IMPORTANT**]
+* All leaves must be at **same level**. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d487733-f8f4-4ba3-a2c8-9d615803b199)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/515f2cec-61f4-441f-8d36-5cb564d51c4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/317cb79e-77d1-431c-b991-accf35e2f90d)
 
+* CBT: Tree height(h), All **leaves** must be at height(h).
+* All of the **leaves** are collected at the **same place/level**, then it is called as **CBT**.
+* If it is **less than that** or **more than that** then it will violate the **2^i** formula. We should not be **moving** the leaves here and there. [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4966abd4-4369-485a-b49a-9542f5d2ae1b)
 
+* Height of the tree is **100**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50cdd374-7820-4d0f-93cc-f30274d8a6bf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/57993878-0937-427a-9859-7e81db3f261f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/37a38ebe-9d6c-4234-92f7-613d2bc81456)
 
+* GP series formula
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e45a4c1-6674-4346-b18f-d5dfb7d4a343)
 
+* **h** is the height of the tree.
+* N = (2 ^ (h + 1) - 1)/2 [Formula] [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc8d6747-2142-4142-917c-cd20cb2ee4e8) 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe7d43b1-61f9-448a-840a-6004cbfb19f6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f9a9db5-9ce9-4cbd-bcf7-15730f54d556)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/397e0c11-07dd-4711-b853-c60036f03770)
 
+* N -> Total no. of nodes [Formula] [**VERY IMPORTANT**] [Practice Again]
+* H -> Height of the tree for that Total no. of nodes
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a4186731-39f0-4ac0-a4f0-9c573ab00da4)
 
+* In the case of **CBT**, the **no. of leaf nodes(L)** will be **'1'** more than the **no. of internal nodes(I)**.
+* I + L = N [Formula] [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/64d4c25a-2bc0-4748-a28b-ace3a0e1bebc)
 
+* [Formula] [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f70e2d41-6e8c-415c-bc37-3faf60158959)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e51a904f-e480-44ca-8488-294763db45eb)
 
+* This is **correct**. The previous was **wrong**. [Formula] [**VERY IMPORTANT**] [Practice Again]
+* GP formula.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88b9e37e-064f-418c-a9c0-bb9b221156cf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/141520f1-6d96-4c4f-8e00-cc106a5ad224)
 
+* This is **correct**. The previous was **wrong**. [Formula] [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ddfba139-2114-4f59-80ed-8ea17fea05b9)
 
+* N -> No. of nodes in the tree. [Total no. of nodes]
+* No. of leaves(L) -> (N + 1)/2 [Formula] [**VERY IMPORTANT**] [Practice Again]
+* h = 3
+* N = 2 ^(h+1) - 1 = 15 [Formula] [**VERY IMPORTANT**] [Practice Again]
+* L = (N + 1)/2 = 16/2 = 8 [Answer] [Example] 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d750ce44-4b88-407f-bcc5-42ee4ccaf669)
 
+* N = 31
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27977215-dd4e-4f4b-bf12-bb51c22fe87a)
 
+* CBT [Example] [Formula] [**VERY IMPORTANT**] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b678b0e5-3dc4-4263-9d89-354222a933bf)
 
+* When we remove the **constant** values.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eca7d148-2f72-4a64-9d9f-61f28c6f3710)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5da2fd7-b636-40de-82c5-5976f083d190)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24272cc2-6b41-407a-8d37-decaaf0c4dd8)
 
+* No. of leaves(L) = (N + 1)/2 [Example] [Summary] [All Formulas] [**VERY IMPORTANT**] [Practice Again] [Solution] [Answer]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/abf02b80-de5a-4a0d-9e7f-57b32e2408d8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27b2b1cc-df29-4288-9eec-6409ddc06ff7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e2d8d43c-76dc-455c-849c-84e0633edf5d)
 
+## Tree (Part - 35)
 
-
-
-
-
-
-
+* Lec -> 35.
 
 
 
