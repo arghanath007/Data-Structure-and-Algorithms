@@ -3343,11 +3343,12 @@ Reverse(Head)
 * We are visiting all of the **n** nodes in the tree. So it is taking **n** time for the **inorder** traversal.
 * Time Complexity of **inorder** traversal is **O(n)**. [Formula] [**VERY IMPORTANT**]
 
-* Yellow -> 1hr 14mins.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2091756e-6b9f-44d3-bf42-c64c9f881e15)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d39d20b-0c0b-4ed5-8f51-24daf1dbad15)
 
+## Tree (Part - 37)
 
-
-
+* Lec -> 37
 
 
 
