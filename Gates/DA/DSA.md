@@ -3243,9 +3243,79 @@ Reverse(Head)
 
 ## Tree (Part - 35)
 
-* Lec -> 35.
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/464494e7-af44-461b-abc4-15658b6aec0b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/73704f66-d80d-4662-88ee-7c3ba440868f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6e32c9ad-0e64-489f-a9c5-e8ad32ce9bfc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dae32b7a-ee67-496f-a893-6a373a10b43a)
 
+* ith level = 2 ^ i. [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/726cebad-8e9b-4610-b55a-1b094d8636ac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5c8664c-e388-4b2c-8d70-cc627ee57ca6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fc9acc9e-3db9-49c6-b5f2-24f1e5faee08)
+
+* This is the **relation** between the **height of the CBT(h)** and the **total no. of nodes(N)** in the CBT. [Formula] [**VERY IMPORTANT**] [Practice Again]
+* This is for **CBT** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5a73fe31-a413-4a68-996e-25a28eada895)
+
+* **h** proportional to **log(N)**. This is for **CBT** only. [**VERY IMPORTANT**] [Formula] [Practice Again]
+* **h >= log(N)**. This is for **binary Tree(BT)** only. [**VERY IMPORTANT**] [Formula] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75e0c4f4-8e8c-4d29-8435-feaf1ecbcbd1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/458a62ce-fe4b-48fb-96c3-83691b4572ca)
+ ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f933b926-1490-4d50-b5d4-bbedd5f3e95d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f276d563-605a-444e-9ceb-b785ce2112cd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4aab2cf5-dcaf-4b60-8cab-cd5a9ffd0d54)
+
+* This for **CBT**.
+* H_max = N - 1 [**VERY IMPORTANT**] [Formula] [Practice Again]
+* H_min -> Ceil(log N) [**VERY IMPORTANT**] [Formula] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/981dc224-9b69-47be-9e4b-2940114fbbe4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89ee41e4-8149-4f74-94cc-72085b83063b)
+
+* Degree ->  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b52a7547-ed7e-46d5-9cb3-f03d624d3665)
+
+* Node holds some **information**.
+* Traversal of a tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ca171d3-f493-4578-b246-637781724ae2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b243b01f-c866-4e5c-a62b-46ae31b3dd89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e433ad3-6aa1-462b-8e4c-5bf268b87a0d)
+
+* Process 1(P1): Vist the root first and then visit the **childs/children**.
+* Process 2(P2): Vist all of the children and then visit the room.
+* In both of the processes we have to visit every single one of the nodes in the tree. [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d788b851-40f7-4b35-9bb9-98242c95f5d5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02ef91ea-f38a-43fd-9d76-99b5e5205839)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7ccb0f5-dca4-454e-a879-4d5b3b5521f6)
+
+* Pre-order traversal. [Formula]  [**VERY IMPORTANT**] [Practice Again]
+
+1) Vist the root
+2) Vist the left(L) children
+3) Vist the right(R) children
+
+* Post-order traversal. [Formula]  [**VERY IMPORTANT**] [Practice Again]
+
+1) Vist the left(L) children
+2) Vist the right(R) children
+3) Vist the root
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6aa2c442-a2a1-4463-b743-f7469451de1c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/28b8d273-57df-4c19-915d-b509d86eff9a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bdeafa73-fac3-4c20-840c-c4dee0b00cd5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea09e30e-99b4-4cee-a981-f06b0f5fad84)
+
+* Pre-order traversal(pre) -> root, left(L), right(R). [Formula]  [**VERY IMPORTANT**] [Practice Again]
+* Post-order traversal(post) -> left(L), right(R), root. [Formula]  [**VERY IMPORTANT**] [Practice Again]
+* In-order traversal(In) -> left(L), root, right(R). [Formula]  [**VERY IMPORTANT**] [Practice Again]
+
+## Part - 36
 
 
 
