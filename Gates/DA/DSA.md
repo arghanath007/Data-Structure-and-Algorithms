@@ -3315,20 +3315,35 @@ Reverse(Head)
 * Post-order traversal(post) -> left(L), right(R), root. [Formula]  [**VERY IMPORTANT**] [Practice Again]
 * In-order traversal(In) -> left(L), root, right(R). [Formula]  [**VERY IMPORTANT**] [Practice Again]
 
-## Part - 36
+## Tree (Part - 36)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2df13a22-a324-4f7a-a54b-44053077bdbd)
 
+* Preorder traversal. [**VERY IMPORTANT**] [Example] [Practice Again]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8ecf63a-ab00-42db-a5ab-759058a81620)
 
+* We are visiting all of the **n** nodes in the tree. So it is taking **n** time for the **preorder** traversal.
+* Time Complexity of **preorder** traversal is **O(n)**. [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d797d354-83f4-4be8-a723-c05469fb0eac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09d58796-a8ea-4cc3-8510-5858551cf511)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1471f94a-10ff-4b0f-a726-2954914fb9c9)
 
+* Postorder traversal. [**VERY IMPORTANT**] [Example] [Practice Again]
+* We are visiting all of the **n** nodes in the tree. So it is taking **n** time for the **postorder** traversal.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98b44bb8-2536-4a2a-b0c8-b79d4b923d15)
 
+* Time Complexity of **postorder** traversal is **O(n)**. [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd2b9dfd-fd94-4e79-9668-c7eea49a4bd5)
 
+* Inorder traversal. [**VERY IMPORTANT**] [Example] [Practice Again]
+* We are visiting all of the **n** nodes in the tree. So it is taking **n** time for the **inorder** traversal.
+* Time Complexity of **inorder** traversal is **O(n)**. [Formula] [**VERY IMPORTANT**]
 
-
-
+* Yellow -> 1hr 14mins.
 
 
 
