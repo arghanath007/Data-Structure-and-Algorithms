@@ -3348,11 +3348,131 @@ Reverse(Head)
 
 ## Tree (Part - 37)
 
-* Lec -> 37
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/158a7395-1f06-4d44-8dec-cdfa918bae2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/85935776-34de-4e55-9184-c52e63d0a88c)
 
+* Strategies.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/760c5532-b791-4647-b155-43a38e5c3032)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9ec04da-1622-4a69-ab33-ee54a123d9a6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecd5b0df-d459-4258-a1c1-06c0ef28d50f)
 
+* 1 [Question] [GATE 2018]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11b20d54-501f-4820-bc2e-95b64c69730a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fe721268-9dba-4136-93d3-9532c64c1378)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aec3aa2f-8996-42d9-a977-1461a3d51ade)
+
+* Option **C**. [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/528abd74-650c-4596-b2c4-71d9b282a5c3)
+
+* Instead of **postorder** given, **preorder** was given. We could solve it in the **same way** only. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de60ef28-7269-4471-8e4e-87dbd154b789)
+
+* Can be asked to find out the **preorder** traversal also. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2c6f2d0-6e7e-4f58-9eba-308ecadf5b78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/71c640d7-e19f-4829-a76e-97bb30d1182d)
+
+* How many leaves in the tree? [Question]
+
+> **5** [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6835f29-c23b-4f84-9239-e5c63e224cc5)
+
+* 2 [Question] [GATE 2007]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee480a63-6b80-4221-992f-3adeb85312e9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d36f1929-5048-4ee5-a1be-63e990a9a53a)
+
+* Option **A**. [Solution] [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6880b91a-fe2f-4ca3-a7ef-8a924d5cdc8d)
+
+* By default we will follow the **Left(L) to Right(R)** convention.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f455b7d-9f00-4df5-a498-90e96667c15e)
+
+* If it is asked to do in **Right(R) to Left(L)** convention. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/805b6c8e-aab6-47f5-ac31-44144943f1e3)
+
+* 3 [Question] [GATE 2015] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/463dded6-dd8a-4047-8455-514b76f48c96)
+
+* [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a5e517a-8b07-49cf-b9ff-001729db3d9e)
+
+* Tell a node which is not a child of any other node? [Question] [**VERY IMPORTANT**]
+
+> **Root** node. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63168c9a-b11c-4126-aceb-89a0c14e3dd1)
+
+* All of the others nodes are children of some other node but **root node(a)** is not a child of any other node. [**VERY IMPORTANT**]
+
+* Total no. of nodes in tree(N) -> 7
+* Total no. of edges in a tree(E) -> 6.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3e287739-c152-4692-923a-307a38fb3afc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16a72369-9650-4006-af23-4fb1dc590b19)
+
+* N = N
+* E = N - 1
+* This is the **relation** between the **nodes of a tree** and the **edges of the tree**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2901c9ff-179c-43f1-8af0-36f561b64b2e)
+
+* We are calculating the **degree(d)** of the nodes of the tree.
+* d(a) -> 2
+* d(b) -> 3
+* d(c) -> 3
+* d(d) -> 1
+* d(e) -> 1
+* d(f) -> 1
+* d(g) -> 1
+* The **total degree** of the nodes is **12**.
+* **Total no. of edges(E)** in tree is **6**.
+* Vertices(V)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b86caf48-0020-4c4a-8721-53c67287cb22)
+
+* This is the **relation** between the **total degree** of the nodes and the **total no. of edges(E)** in tree. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b4c153e-7d9f-4f84-be19-92215db6e524)
+
+1) E = N - 1 [Formula] [**VERY IMPORTANT**] [Practice Again]
+2) Sum of the degree(d) of the vertices(v) = 2 * E [Formula] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f47ecad-c846-40bb-9d5e-491f694f02ba)
+
+* How many nodes who are having exactly **'2' children**? [Question]
+
+> **3** -> a,b,c.
+
+* How many nodes who are having exactly **'1' child**? [Question]
+
+> **2** -> e,f.
+
+* The nodes that are having **'2' children**, have a **degree of '3'**.
+* The nodes that are having **'1' child**, have a **degree of '2'**.
+
+* How many nodes who are having exactly **'0' children**? [Question]
+
+> **4** -> d, g, h, I
+
+* The nodes that are having **'0' children**, have a **degree of '1'**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5561ea25-e72f-4b62-8a29-cf5a2ef1e76a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/29adba0a-ed82-47b1-9a8d-502118d4def0)
+
+* Calculation of the **total degree**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e0a71f6-66db-4e27-a61d-0e5438928da3)
 
 
 
