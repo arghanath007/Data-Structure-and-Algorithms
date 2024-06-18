@@ -3514,6 +3514,135 @@ Reverse(Head)
 
 ## Tree (Part - 38)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5fc302a-6c65-4bab-8956-698c287d97a7)
+
+### Binary Search Tree(BST)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78cdaf1e-dddc-437e-b0e4-b2fc9999af80)
+
+* Multiway search Tree.
+* BT + searching -> BST
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db25d542-05e5-44eb-b7e2-500fb87ec4ac)
+
+1) Duplicates are not allowed .
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/def55e3d-8f4f-4ceb-8e79-3679e5fae296)
+
+* BST.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2496d74e-6b17-476e-9fea-199484155295)
+
+* Find the **inorder** traversal. [Question]
+* Inorder traversal -> 70, 80, 86, 90, 96, 100, 110, 120, 180
+* It is in **sorted order**. It is in **increasing/ascending order**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6d1201d8-bc67-4921-83bd-dcd2c368ad18)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f64ae505-9a28-47d0-965e-8fda60ec8707)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf9536b3-349b-45f5-8548-46828272ce25)
+
+* Whenever we print a **BST** in **inorder traversal** then we get it in **sorted order**. [**VERY IMPORTANT**] [Formula]
+* As the default traversal is from **left to right** so it is in **increasing/ascending order**. [**VERY IMPORTANT**] [Formula]
+* If the traversal is from **right to left** then it is in **decreasing/descending order**. [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e4d8f01-d64e-4fef-a030-509a6c3a7cf7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d15a455-ad1e-4c5d-9d9f-23d69d7b57eb)
+
+* Insertion -> **Worst case** time to insert an element into **BST**. [Question] [Came 3 times in GATE] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3273177d-ccad-4d49-91b9-45b674631067)
+
+* If we want to insert **220** into **T1 and T2**, where the **effort** will be **more** to insert **220**? [Question] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb109d27-ef81-44db-973e-77e4136a76a2)
+
+* T1 -> 2 comparisons
+* T2 -> 7 comparisons
+* Both **T1 and T2** had **7 nodes each**.
+* **Insertion** is dependent on the **structure** of the tree. It is **not dependent** on the **no. of nodes** in the tree. [**IMPORTANT**] [Answer] [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/627ceea7-b9b3-43fe-918b-86219a0de050)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f8afdc0-2ebd-485c-8ee4-95055cf1115f)
+
+* T1 -> Better BST
+* T2 -> Worst BST.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ea5b7ab-ad1a-481f-9070-1ee776f20d05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0eae67a8-d827-4809-85ba-0b2cc8059d64)
+
+* Ceil(log 7)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fd2492e1-7f12-4849-ad10-0f1a16f6efc5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db16bebc-aa5b-4cd6-abc6-f3dea272a18e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a03da53f-de0b-4484-a6b3-33240a9ab803)
+
+* To do a **new insertion** we have to spend a time which is **same/equal** as the **height(h) of the tree**.
+* height(h) = log n [Formula] [**VERY IMPORTANT**]
+* This is for **CBT** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c2eef621-fb58-407a-8cee-2b8d78fccfcc)
+
+* BT(Best Case)
+* WT(Worst Case)
+* Always focus on **worst case**.
+* AVL tree.
+
+1) Insertion:- [**VERY IMPORTANT**]
+
+* CBST(Complete Binary Search Tree) -> Log n [**VERY IMPORTANT**]
+* BST -> O(n) [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b20d40fc-d890-49e7-b3f8-a392a1163b3b)
+
+2) Searching:- [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7203800b-8a33-4861-8247-7495453c8458)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b082e6fa-7e49-40d5-bfd5-ace82a6868c8)
+
+* **BST**:-
+* height(h), no. of nodes in the tree(N)
+* h = N - 1 = 5
+* Time complexity -> **O(h)** [**VERY IMPORTANT**]
+* In **worst case** the height of the tree is **equal** to **N**. So Time complexity is **O(N)**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e543a38d-c119-486b-b755-b242e57866a8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fafac095-bf69-479e-b675-123cba5c7bec)
+
+* **CBST**:-
+* Time complexity -> **O(h)**
+* In **worst case** the height of the tree is **equal** to **log n**. So Time complexity is **O(log n)**. [**VERY IMPORTANT**]
+* h = log n
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e705dc5-cf19-4608-854d-e98b291d9752)
+
+* Insertion -> It is unsuccessful searching only. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ff60c2bd-4e96-4526-a43d-569e8dc4e220)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8228a79-9d7d-4a7f-a4ab-5f94861c6374)
+
+* Deletion -> It is also searching only. It is successful searching. [**IMPORTANT**]
+* **Deletion** of the element takes **O(1)** time only. The main time is taken up by the **searching of the element to be deleted**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b438e58-bd1f-4add-b13c-5ba2b12b82ba)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55252885-de2e-4cbd-8940-ebc0454350fc)
+
+* Worst case of deletion:- [**VERY IMPORTANT**]
+* Worst case for CBST -> **O(log n)**. [**VERY IMPORTANT**]
+* Worst case for BST -> **O(n)**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19d1b3e3-cc66-44e2-96fb-3597f37b0622)
+
+* Assingnment.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c9bc3a44-95db-493c-a0da-1d390fb7a7d3)
+
+## Tree (Part - 39)
+
+
+
+
+
+
 
 
 
