@@ -3473,14 +3473,46 @@ Reverse(Head)
 * Calculation of the **total degree**.
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e0a71f6-66db-4e27-a61d-0e5438928da3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd93a01e-4b94-4416-8041-063af69db7e9)
 
+* [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed52c32a-21f7-44d5-9579-df7df60b0f20)
 
+* E = N - 1. [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffa1f358-d4fb-4a33-a2a0-ad53eca6ebad)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55c6a312-ee66-4ebb-9ad2-f31c2b9f8cb5)
 
+* We are replacing **E** with **(N - 1)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/53e43f96-b168-4320-aa5a-75d57bc7dfcc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f68690c4-c95d-40bb-a73d-427b0f373cd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35b2829d-7bbb-431d-9a8c-2555f517bdb8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e049c650-2ab6-4aaa-99e5-843cc0d77fe7)
 
+* x = 199. [**VERY IMPORTANT**] [Formula]
+* **x** are the nodes which have **'2' children**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2978cb5-865a-4c9e-88e2-51ef1ad35c86)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3cbdc5f7-e5e1-42a5-8d42-72c9e3d133fc)
+
+* Option **A**. [Solution] [Answer] [**VERY IMPORTANT**] [Practice Again] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dd88d299-ce81-4064-87aa-0e49fc348ac9)
+
+* Finding **y** will be **difficult**. [Assignment] [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ebfa3307-9fd0-449f-944c-32d21f2c4844)
+
+* 4 [Question] [GATE] [PYQ] [Assignment]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/291a0db3-aa76-4cc9-ab4f-5de8e2d8dc00)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7be08a7-cfe9-40e1-8033-f613c3dad144)
+
+* [Assignment]
+
+## Tree (Part - 38)
 
 
 
