@@ -3638,10 +3638,108 @@ Reverse(Head)
 
 ## Tree (Part - 39)
 
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7072a33e-166c-453b-a2d2-8d54b7fa93eb)
-![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ab659e7-ed60-44e5-9c6f-de6f651bd203)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f623debd-07aa-40fd-a62e-5630531a17e8)
 
-* Start from 22mins.
+* Find **min/max** in **BST**.
+* **Minimum** -> The **left most** node of the tree is the **minimum** node. [**VERY IMPORTANT**]
+* **Maximum** -> The **right most** node of the tree is the **maximum** node. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7569d7bc-85b3-4264-8564-4f4b5a464d4f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aba9a7ec-b20c-4063-baa0-2ab7ddeb756b)
+
+* This is for **BST**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a23a9775-e669-410f-a393-92bd8b870518)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d1700554-6681-42e2-bf3d-790b93ec9b1a)
+
+* **Worst case time complexity** for a **BST** to find out the **maximum** node is **O(n)**. [**VERY IMPORTANT**] [Formula]
+* **Worst case time complexity** for a **BST** to find out the **minimum** node is **O(n)**. [**VERY IMPORTANT**] [Formula]
+* For **BST**, we have to think about the **worst case** of the **BST** which is **O(n)** and not **O(log n)**. [**VERY IMPORTANT**] [Formula] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b651e87-34ab-469c-9dbb-84e5263238c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee35a8e4-d037-4af5-bf7f-d0808f60092c)
+
+* For **CBT**:-
+* height(h) -> log n.
+* **Worst case time complexity** for a **CBT** to find out the **maximum** node is **O(log n)**. [**VERY IMPORTANT**] [Formula]
+* **Worst case time complexity** for a **CBT** to find out the **minimum** node is **O(log n)**. [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/585742e7-8225-437e-a7c9-677f43ce2b64)
+
+* Successor.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c4172d61-0ca5-421f-9d75-bd6e1c8cf900)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/df478973-f745-450d-aab1-e938a0e644b6)
+
+* Find the successor(100)?
+
+> 110.
+
+* Find the predecessor(100)?
+
+> 92.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d163a73c-0926-4e27-8d48-a3712ed043c0)
+
+* The **successor and predecessor** is given by **inorder**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/30d07dbb-8baa-4d55-ae72-bb31192f3015)
+
+* Instead of **numerical values**, **alphabetic values** are given? [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c2d8393-6d0e-4e9c-8c49-27c2dde0b41b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4a00722c-cede-47df-acd7-36d0d6978e1c)
+
+* successor(a) -> I [Left most element in the right tree(T2)]
+* predecessor(a) -> 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84f5d3ae-bed7-4249-af5f-0bcd96c7cc13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72985bd9-9a9d-43d3-939f-7ae5f857fdcf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8e7be4c-0ea3-4e77-a061-b5e6bb65564d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f08abb0-fd79-4d2a-b845-143fe0bcb7c9)
+
+* When the **left most** value is not there.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6bd23dd-4c9c-481f-8803-a565e0b2ce17)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23c4d366-4a47-4e34-9812-c91d44741960)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f8d435b7-4a38-43a2-b143-7c214cf63af2)
+
+* 1 [Question] [GATE 2023]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d667a4da-bdc6-4596-a8ec-a1d82fe46893)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c85dae9-5695-4207-8695-26e1456e6f69)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50957713-3286-4de2-b643-e594a6e79c38)
+
+* Option **C**. [Solution] [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e320462e-4e5f-4fac-9371-239398439416)
+
+* Time Complexity -> **O(n)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5444db9-66d5-4971-b6be-33ed3ab4df07)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5ce9e3d6-72e7-46fa-a7f3-223a41777eb1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f26dd1bf-03e3-450e-8923-52ad89955ea3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/624afc2a-c1f9-4110-99c8-60e94ea058e0)
+
+* 2 [Question] [GATE]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd2b380-db87-44fb-b62c-ba66f747326b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01daf910-f26d-462f-8340-47d4958ab84e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/517065b0-58be-45f9-b307-181e0e2dc8c4)
+
+* Leaf node condition.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c78a2e7a-5b5c-4441-87e8-7ec75793d57a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b9f0bb6f-cace-41d5-bfb6-09e11015ff42)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a13c3396-01ef-480e-8e48-b570d8fbc5c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/843b33f5-2dde-4223-a3f0-b3518ddc569b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16b57c15-cbd3-4cf8-877e-4177a9f80e3e)
+
+* The **question** is just **counting the no. of leaf nodes** in the tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/68146087-50f3-41c3-84d8-7383bdf6acb6)
+
+* Leaf_counting = 3 [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again]
 
 
 
