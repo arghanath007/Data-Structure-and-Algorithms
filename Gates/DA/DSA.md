@@ -3813,12 +3813,17 @@ Reverse(Head)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87261d2a-02ce-44e0-aa32-440f18e4b77e)
   ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0abf2d8c-af01-4ee4-993a-95d025fcf944)
 
-* Sir changed the **return 0** to **return 1** from the previous question.
+* Sir changed the **return 1** to **return 0** from the previous question.
 * 5 [Question] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a04746a7-d1fd-4d48-b542-c89b69905374)
+
+* Answer -> 2 [Solution] [Answer]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/254fc54c-ed30-455d-b5e9-ced3014e0139)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/35eeb8ec-3050-4d28-976c-e301a80d9f83)
 
+* Solved for both **0 and 1** above, check the **answers there**.
 * 5 [Question] [**IMPORTANT**] [Assignment]
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8ba0386-8d01-4672-949a-284657858177)
@@ -3829,8 +3834,39 @@ Reverse(Head)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2655c573-ec9c-45f5-9ea6-3eef4a1fdd8e)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1714f4f-27b3-4f62-a4a1-0170becbc434)
 
-
 ## Tree (Part 41)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80a63275-6279-4a75-8afe-b2371d6a9c6a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a44959b3-11a8-4f8a-b790-dc4dc91c3ee9)
+
+* Last class's **question**. [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/95bd898f-485b-4179-b77c-bccff35be506)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/784d0c04-03b2-4804-bf97-a122b03444e1)
+
+* Answer -> 2 [Solution] [**VERY IMPORTANT**] [Explaination] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
