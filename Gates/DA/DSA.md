@@ -3845,14 +3845,50 @@ Reverse(Head)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/784d0c04-03b2-4804-bf97-a122b03444e1)
 
 * Answer -> 2 [Solution] [**VERY IMPORTANT**] [Explaination] 
-* start from **11mins**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b712d5b-3fde-4841-b915-0575e0efb3de)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91d1aa78-07c1-4bcf-ba87-d7abd3d788f2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5ee7bfc-a491-43d4-9a29-50e791d33bbd)
 
+* [Explaination]
 
+### AVL tree
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/287dcd28-02cb-412d-8a67-db14acd87bf5)
 
+* AVL -> Balanced Binary Search Tree.
+* They are both the **same thing**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24b00fc3-3ef0-48f1-b3fe-8c32d21f7ce1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5c570ee-8537-41de-9e19-847d664adeef)
 
+* height of the tree(h).
+* All of the operations in tree are done in **O(h)** time.
+* We want **h_min** instead of **h_max**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7cac1e60-3ecb-4350-8c68-008566fc6ae8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcf43752-482d-48c6-8c06-483580b27d9d)
+
+* Time complexity -> **O(h)**.
+* It is different for **T1 and T2** trees. One is **log n** and the other is **n**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/21a5b85e-c8e6-4f8d-99fa-fc4223bbe630)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14980aac-e6ac-45f5-a2d4-d8fede6f1e13)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/96649b4a-0b36-4fc4-a74a-bde0db89a1e3)
+
+* **Balance** states that the **height(h)** of the tree **will not be** greater than **O(log n)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/adee0fe3-1a76-4112-ba47-afd7f1d577e6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/881da0af-66f3-422d-977d-05d36645094b)
+
+* h = log n.
+* Insertion -> O(h) -> O(log n)
+* Deletion -> O(h) -> O(log n)
+* Searching -> O(h) -> O(log n)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bcff91c-e7ba-476d-b0e0-f67fba2b55c3)
+
+* start from **33mins**.
 
 
 
