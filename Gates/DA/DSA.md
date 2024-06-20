@@ -3741,7 +3741,65 @@ Reverse(Head)
 
 * Leaf_counting = 3 [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again]
 
-## Part - 40
+## Tree (Part - 40)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8165f460-7b30-4c43-a86e-d104bf5aba38)
+
+* 1 [Question] [Last class's question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6053582f-bbf4-4443-918a-7cd84f5fa9c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a54cc531-ad5b-47d2-833c-2f4068d8cc46)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9abecd7a-810e-4cdb-9474-26d6f6a7a831)
+
+* count = 3
+* We are calculating the **total no. of leaf nodes**. [Answer] [Solution]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80c73d69-4abe-43c7-ab6e-1ac0f989f15d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/61fdc236-672f-4ba5-ae4c-185ba1df1f17)
+
+* [Example]
+* count = 5
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b810b390-8ceb-457a-a651-c2e5f5214045)
+
+* [Question] [Example] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b13187b-b4ed-441d-858f-b7adb760fb9d)
+
+* Option **B**. [**VERY IMPORTANT**] [Solution] [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a59b2e43-f6c5-4634-a30b-3448f9e7cf80)
+
+* 2 [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1085ad95-bc1f-4eec-a46f-b97258723ad1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/87dead02-f936-44c0-98b1-16625d20ed9f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bd562fd-8313-4d35-bd24-44b2aad0cf1b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e88ac3e-e59e-4365-8f28-f9bb120104f7)
+
+* Option **A**. [Solution] [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/412c112c-d67b-4162-8145-52491d1e52fd)
+
+* 3 [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e9fb2e0e-5ca4-4ea1-9601-b0438fe144c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f17c21ae-e0ad-4cf6-9bd0-b971007e3f83)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3d5040d8-bf54-4568-9773-7611365daba9)
+
+* Option **A**. [Solution] [Answer] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ded8437-46e9-46c9-b860-fcae288c2f34)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f000cdb-bcc8-42df-b369-fc23a9a87985)
+
+* if(root == NULL) -> It means that there is **no tree**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/786a6335-5e00-401d-b77a-fc90ad77938e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f6bae19-26c5-4dea-8a4b-5d0f59f524a3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/da291030-d893-47bd-b811-1bd62f9b7327)
+
+* [Explaination] [Example]
+
 
 
 
