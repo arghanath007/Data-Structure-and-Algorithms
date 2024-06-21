@@ -3988,8 +3988,10 @@ Reverse(Head)
 * Max -> log n. [Formula] [**VERY IMPORTANT**]
 * Min -> log n. [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/18855bef-3f55-4993-8c38-6ee11fe282cc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b76c647a-f535-4915-b05a-32ba7d76c087)
 
-
+* We cannot tell about the flow of the **keys**.
 
 
 
