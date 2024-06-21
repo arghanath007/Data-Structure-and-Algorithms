@@ -3887,11 +3887,106 @@ Reverse(Head)
 * Searching -> O(h) -> O(log n)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2bcff91c-e7ba-476d-b0e0-f67fba2b55c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cd9110bb-d65d-400b-b1aa-30713cdb6b55)
 
-* start from **33mins**.
+* One is needing **10 ^ 6 units** of comparisons and the other is taking **20** units of comparison. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1056f7ec-5f89-46fa-afc4-98e463e8b80f)
+
+* This **difference** in **comparison** is coming due to the **balance/balancing factor**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a170469a-d1b9-46de-9737-0b63e2c837c1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ec73e7c0-591d-4a84-bb56-62d34714133c)
+
+* AVL -> balancing property.
+* **Height_balance_tree** is made of the **height_balance_factor**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/346d0d54-bad9-4e98-88de-47f5a7e96949)
+
+* h1 - h2 <= 1, then the **height balance** will be maintained.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81d5ed2e-233b-486f-aad6-d3fd0c0f875c)
+
+* In **AVL** we are going to assume that the **height(h)** of the **leaf nodes** is going to be **1**. [**VERY IMPORTANT**] [Formula] [Assume]
 
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5484e41d-6ca2-4a60-bc83-2320de450ceb)
 
+* h1 - h2 = 1 - 1 = 0
+* h1 - h2 <= 1
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c988dcde-31a2-4d0b-89c2-297ea71370d7)
+
+* h1 - h2 = 0 - 0 = 0
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d01f0d4b-1fd5-42b4-ae53-310fa06de568)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf644251-054d-455c-a151-cd843c5f0af4)
+
+* Height Balance Tree(HBL) -> AVL tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0175dc2b-b1eb-4cad-a755-cb144d831e0d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9f8e757d-9258-4a37-bda0-50f1213e215f)
+
+* This is **not an AVL** tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72f850de-57f6-4814-93f0-669037cb6a1a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8f082ffa-0c9e-4208-af58-66cd939d387d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d3adf12c-4460-4dc7-857f-5dfa98c79d53)
+
+* AVL tree. [Questions] [Analysis] [Summary] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c012a5f0-d358-41c9-b62e-3439656c46ab)
+
+* Every **complete binary tree(CBT)** is an **AVL** tree. [**IMPORTANT**]
+* **CBT** is the **best AVL** tree.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703d16d6-3eda-49b6-8696-3789a7418df6)
+
+* It is an **AVL** tree.
+* Left tree height(h) is **2**.
+* Right tree height(h) is **3**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb7c22ac-48b3-473e-9c94-2443d5d7d281)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/04ae4c2e-4d22-401b-929e-38fd948a071c)
+
+* Example.
+* H1 <= H2.
+* They both will be in **log n** time only. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce386c2a-36e4-4285-ae73-0bdcc945b1d6)
+
+* Evertime **CBT** is not formed. [**VERY IMPORTANT**] [Fromula] [Practice Again]
+* Nmax
+* Nmin
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34a2c612-a0e6-4ee6-b358-3629de83910d)
+
+* We want **height(h) = 2**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/48b1dfec-dd17-417f-9237-58b276ff34c2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8250840c-a244-4019-a9f9-2b10db4a885a)
+
+* But the tree is not **AVL** tree now. It is **not height balanced**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c8ab9b5-8c36-490f-91b0-1ef239d1c3a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8a0cb7d-a757-4066-b2f0-d162a8b618a0)
+
+* Nmax -> CBT -> log n. [**VERY IMPORTANT**]
+* Nmin -> log n. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1214bf2a-6022-47b1-831f-432df2231379)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f62a4c99-b633-47be-b30b-d656fc9a4791)
+
+* Balanced BST -> Time will be **log n**.
+
+## Tree (Part - 42)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0a56562-e44f-40ff-badc-225c694995f7)
+
+* Max. node AVL tree. [Example]
+* Min. node AVL tree.
+* Max -> log n. [Formula] [**VERY IMPORTANT**]
+* Min -> log n. [Formula] [**VERY IMPORTANT**]
 
 
 
