@@ -3993,10 +3993,108 @@ Reverse(Head)
 
 * We cannot tell about the flow of the **keys**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c24741b-fec8-49a4-ac90-a15a620df7ba)
 
+* **50** is **Height balanced(HB)**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3b870538-4136-418b-aa11-a2b599c0d226)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39d4a831-fd54-497a-bed1-6c7ec829276c)
 
+* **50** is now **not Height balanced(HB)**. 
 
+### Rotation
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a1c21a03-8229-4758-9d2d-ac6f47b9346d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a5cf527-12aa-4f08-9e5a-8a234d9a6035)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7ebb9690-41d8-434d-ab8a-1d732cba320b)
+
+* We are doing **RR** rotation here.
+* We are getting **AVL** tree now. So the time will be **log n** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d9dca6b9-d20f-4c75-b949-a16c51ae1926)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/406f6c85-0935-4201-b96d-84540039037f)
+
+* Height of Left(HL), Height of Right(HR)
+* **a** can be **Height balanced(HB)** when **HL - HR = 0 OR 1**. [**VERY IMPORTANT**]
+* There are **'2' possibilities** for the height(h) of the tree. It can be either **(h - 1)** or it can be **(h - 2)**. These are the **'2' possibilities**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c5e2d06-c7c7-4a32-b80e-68a5646a5f05)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2523a9ac-9fbd-4950-b551-23c49d8a2635)
+
+* The **no. of nodes(N)** in **(h - 2)** will be **lower/less** than the **no. of nodes(N)** in **(h - 1)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c087e84e-fe52-4862-b54f-a419a4581b82)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac7a4427-2195-4b42-b441-01f07d2bd5e3)
+
+* This is the equation of the **minimum**. [Example]
+* This is the **min. amount of nodes** needed for **height(h)** for an **AVL** tree. [Formula] [**VERY IMPORTANT**]
+* **Less than** this is **not possible**.
+* N_h = 1 + N_h_1 + N_h_2; [Formula [**VERY IMPORTANT**]
+* **1** is for the **root node**.
+* Left subtree -> N_h_1. [**VERY IMPORTANT**]
+* Right subtree -> N_h_2. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ecc21d3f-fb6b-44ad-a3f9-104ec6b1a181)
+
+* This for **min. nodes** only. [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/98d83cfb-588d-45c7-b696-7f4798d8a266)
+
+* 1 [Question] [GATE 2009]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b60cd6e-615b-4f0b-a73f-854558482d81)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2df327c0-2dec-4cd2-bd8d-cbd6c634435d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/674f826a-c0d5-451e-9e1d-b2aeb68a6695)
+
+* Option **B**. [Solution] [Answer] [**IMPORTANT**]
+* We want the **max. height** of the **AVL tree** with **'7'** nodes.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b80d59ee-25c0-4f1f-b886-f24fb07acc0e)
+
+* 2 
+* For **height = 2**, what is the **min. no. of nodes(N_min)** needed in an AVL tree? [Question] [**IMPORTANT**]
+
+> We are going to use the **min. formula**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7f6a348f-4bcd-44f8-a6bd-9faca75aabc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4699cef9-2638-45cb-9099-446ccdc8bba2)
+
+* **N_h_1 and N_h_0** are the **terminating** conditions, so they will be **2** and **1** respectively. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9e74b953-78e2-497b-9ae2-43d3dbd610d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/991da0b5-0c24-41ee-aaca-1f96a40dc023)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/45f060a0-afc1-49bb-a47c-ccb93c5b383f)
+
+* For **height(h) = 0** which is a **leaf node**, the **no. of nodes(N)** is **1**.
+* For **height(h) = 1**, the **no. of nodes(N)** is **2**.
+* Answer -> 7 [Solution] [Answer] [**VERY IMPORTANT**] [Practice Again] Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6ab47d97-9960-4e45-8b15-39ae9b81cda9)
+
+* They are the **same** question.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e233464f-543b-49c3-8cfc-06e6824133cb)
+
+* h = 4, Hmin = 12 [Answer] [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fd600e8-86c4-448b-92f9-784a13e460e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/796a95eb-5820-4e01-bea2-dcde50cd20a7)
+
+* h = 5, Hmin = 20 [Answer] [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7baf30c9-1e4e-430e-b599-a745659578fd)
+
+* h = 6, Hmin = 33 [Answer] [Solution] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e926cf4-2ef8-436c-a9ff-f15a35a3feb6)
+
+* This is why it is called as **recurrence relation(recursion)**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2e29a4a7-b411-4a91-a6db-b8d11bf59d0a)
+
+* Explaination.
+
+## Tree (Part - 43)
 
 
 
