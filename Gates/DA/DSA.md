@@ -4086,6 +4086,11 @@ Reverse(Head)
 
 * h = 6, Hmin = 33 [Answer] [Solution] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3b21be1-1286-4328-b90c-a3da4e1a86fd)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbcf97d7-eea7-43cb-8217-d795bfa20ec9)
+
+* [Answer] [Solution]
+
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8e926cf4-2ef8-436c-a9ff-f15a35a3feb6)
 
 * This is why it is called as **recurrence relation(recursion)**.
