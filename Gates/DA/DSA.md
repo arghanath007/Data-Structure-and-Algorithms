@@ -4101,9 +4101,63 @@ Reverse(Head)
 
 ## Tree (Part - 43)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/398f059c-0da4-4146-930f-b2429e4099a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc7f3a25-811b-4d37-8938-033a17cb7e47)
 
+* Explaination. [Doubts]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5cd8b5cc-7c5a-4da3-a796-b7776e7a998a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab9c46ad-63eb-412c-aad7-24b47843ecf0)
 
+* 1 [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65306272-0aad-43e2-87dd-7b957fadb06c)
+
+* 2 [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/febf6034-648d-4daa-9578-b7043a7c1411)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e14c4648-e5ba-4d97-ba6e-f465cb83578e)
+
+* Insert a new element into AVL then what is the **time complexity**? [Question]
+* Time complexity -> **O(log n)**.
+* h -> log n
+* Balance -> log n
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bffaefe4-ec9d-4d3d-90f4-f94ea854a706)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cdc63dbe-30e7-498f-b521-b47156247bef)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/312566c4-99ef-486e-98f1-43728a1c47fd)
+
+* Option **C**. [Solution] [Answer] [**VERY IMPORTANT**]
+* Time to search the tree is **O(log n)**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba52d25d-964d-4755-9641-3156ea68a550)
+
+* 3 [Question] [Next Class]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/81dde415-9585-4805-b20a-52b0fbbd86cb)
+
+* 4 [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/65ca91a8-b738-4560-a26f-7ca632808997)
+
+* **Balanced Binary Search Tree(BBST)** means that it is **AVL** treee. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/398c7eb1-657b-47fb-8e38-c16e738debc6)
+
+* Option **C**. [Answer] [Solution] [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/63910588-af1f-420a-ac35-0774a0748377)
+
+* If **N = n ^ 4** then it is **log N -> log (n ^ 4) -> 4 * log n**. It is **4 * log n** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/687bf9c7-7aa9-4826-9c06-59e17ebdf907)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10243822-4492-468a-b485-ecc44f588d6b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ae826c5-2e74-4b7c-8ddd-0e78b43eadb6)
+
+* For **BST**, the **time complexity** was **n** for all of the operations which are **insertion, searching, deletion and update**. [**VERY IMPORTANT**] [Formula] [Practice Again]
+* For **AVL**, the **time complexity** is **log n** for all of the operations which are **insertion, searching, deletion and update**. [**VERY IMPORTANT**] [Formula] [Practice Again]
+
+## Tree (Part 44)
 
 
 
