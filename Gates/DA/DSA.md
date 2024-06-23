@@ -4503,19 +4503,24 @@ Reverse(Head)
 
 * [Solution] [Answers]
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## Hashing (Part - 45)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8f12df6-b42e-42cb-baf1-149fcdfd7d20)
+
+* **2 marks** questions every year.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7a6d7e9-41af-4459-9459-584fd92c67e1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78d74901-1d33-4d1f-ac98-826316454845)
+
+* Start from **9mins**.
+
+
+
+
+
+
+
+
 
 
 
