@@ -4159,6 +4159,186 @@ Reverse(Head)
 
 ## Tree (Part 44)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3f4234e7-88fc-4062-8896-fcc6e7a3b7ec)
+
+* 1 [Question] [GATE 2020]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1d396c02-3462-4436-9521-47b87dd54866)
+
+* N = 17, K = 9.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b3c035da-c2b7-454b-b33d-1ba17f4ba05e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aad0c8a1-6b08-4edb-9e03-1cfdcfdff1de)
+
+* height(h) = 4.
+* h -> log n
+* O(h) -> O(log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0ed215f-97a0-4bf1-8f1d-b383a8e67355)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c0347017-f13c-4636-9723-7ed682deff2f)
+
+* **13** is a **bigger** no when comparing with **log 17**. It is more than half of **17**. [Process 1]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7bcb5843-6f42-47bd-80f9-b6056e224a9e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b1f08036-b4cd-4f46-ba28-7601cd0e8c49)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a954cd5-6cbe-4c58-9fd0-764d6fbc6be4)
+
+* We got only the **'9' elements**. [Process 2]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32709109-e868-4ad5-a2cb-c88afeb56ec2)
+
+* **Process '2'** is **better** than **Process '1'**. 
+* **Process '2'** is taking **less time** than **Process '1'**. 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcf6b896-945d-49c6-8915-fc323c480f87)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1c71a3d2-9565-4da5-a6e5-08d7c5827a78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47b00af0-189f-483c-b1ec-f5778f1d3ece)
+
+* [**VERY IMPORTANT**] [Solution] [Answer] [Explaination]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2703d409-9e12-4a7c-a094-cad033fea92e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7042e94a-1399-4fbb-bc47-a25b8621387e)
+
+* 2 [Question] [GATE 2014]
+* Tightest upper bound -> Worst Case [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ac07383c-dc6f-4fe2-8d04-e8b42c7def71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/491ab580-6c14-4dfe-b620-6dd292ad1ad7)
+
+* **STEPS**:- [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3eede716-78c9-4b21-baa5-a19803dc52cb)
+
+1) As there is nothing on the **right side of '17'**, so we will add **17** only. Remove **17** from the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7a889842-6cf9-4469-b3cb-cd14dbcc640b)
+
+2) We got **20**. It has elements on it's right side. So we will **add** all of the elements that are on the right side of **20**, which are **22, 24 and 25**. Now add **20** also to the sum and remove **20** from the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/086382e6-2316-4160-b501-388cdf6ccb1d)
+
+3) We got **30**. It has elements on it's right side. Our limit is unto and including **38**. So we will **add** all of the elements that are on the right side of **30**, which are **less than equal to '38'**, which are **33, 35 and 38**. Now add **30** also to the sum and remove **30** from the stack.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50e690a0-c22b-4c85-9e92-4b3cb6724255)
+
+* We did it in **k = 9** time only.
+* So the **time complexity is **O(log n + k)**. [**IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/72123083-68de-4602-9937-ff64ff51adfb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d616460-e814-4283-9a9e-e1610fe034e2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/992d1cee-36f8-491d-a87b-32090f164493)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91f19b3d-7d96-432d-8edf-db2bc97bf214)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/02bfb42d-eb8f-46af-8ac8-c2e11128fbcd)
+
+* Option **B**. [Solution] [Answer] [**VERY IMPORTANT**] [Explaination] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/894277de-25e8-4643-9947-47e4d9535bcf)
+
+* 3 [Question]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16a91973-64e2-4c9e-b453-909a33919c54)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17be0e88-ef52-4c9d-bc0a-34e9c2ce98ad)
+
+* Node **20** is **imbalanced**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fa599f3f-c5d6-471b-bebc-0049b1cb2c0a)
+
+1) Detect first node whose height is not balanced.
+2) Count 3 nodes from that node to downwards and then balance the node.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8aa26746-8ae7-4b69-a989-71e1632fbac5)
+
+* LL problem.  
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9519ca98-533e-4bd0-a0c4-3100cf7872f1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/354bbe44-1e9b-4f14-b327-ea7b1d80e29e)
+
+* LR problem.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b15338f1-b962-46fb-a796-c4767037fac7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7d07126c-14fe-4aab-8f0d-e608ed44a83e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/773e46d4-1c93-4281-b23a-e1db3ba35108)
+
+* RR rotation.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1e51477-7eb7-424e-a644-560d6e1885b6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ef1bbe1f-5d4d-4633-be54-fb14f814659b)
+
+* Now, the **tree** is an **AVL** tree now. [Answer] [Solution] [**IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c475fb34-4f21-44e6-a2e2-627c05124ed0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad1768e4-e1cd-4e4f-81fd-e442ecd3dfe0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66a5192a-c7c4-4884-a7bb-1050977c5186)
+
+* Rotation(R).
+* LL -> 1 Rotation(R).
+* RR -> 1 Rotation(R).
+* LR -> 1 Rotation(R).
+* RL -> 1 Rotation(R).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1dabdf27-b0b2-4471-8edb-13c545a0aa44)
+
+## Tree Assignments
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb8d20fe-2139-4bdc-a8f7-2dc6e884a667)
+
+* 1
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8611e830-e96d-4096-8306-df7e25be18fa)
+
+* 2
+* Option **C**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/735edcd2-2385-4e34-96e9-ffcff10d8858)
+
+* 3
+* Option **B**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0d8f4aec-7982-42a9-ab92-9ff20e8f7c46)
+
+* 4 [**VERY IMPORTANT**] [Practice Again] [Not able to solve it]
+* Link -> https://gateoverflow.in/8428/gate-cse-2015-set-3-question-25 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9ebbdaba-d5cb-4d38-a35f-755c6163b084)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93cb1228-63c9-4ba2-adf3-b196dbf7185a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5b483333-d2b5-41ff-9937-d6ebaa397fbe)
+
+* n -> leaf nodes
+* General Formula -> n - 1 -> 200 - 1 -> 199. 
+* Option **C**. [Solution] [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cbeb3b22-ffaa-4743-90d7-f99255dd36c4)
+
+* 5 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Hashing (Part - 45)
+
+
+
+
+
+
+
+
 
 
 
