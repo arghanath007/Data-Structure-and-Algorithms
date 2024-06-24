@@ -4512,24 +4512,307 @@ Reverse(Head)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7a6d7e9-41af-4459-9459-584fd92c67e1)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78d74901-1d33-4d1f-ac98-826316454845)
 
-* Start from **9mins**.
+* Use **sorted sequence**. The keys are in **sorted** order**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b2553a1-faca-4021-a2b0-c079474b8cc9)
 
+* Find the **mid** value first.
+* As **40 > 14** so we have to go to the **right side** of the **mid element** which is **14**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5c759293-e644-4574-a913-9e9e584c3d7b)
 
+* We didn't have to **scan** the entire list.
+* For the **above example**, we had to do **'3' comparisons** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/094d85f1-e757-464b-8208-29f9e6cca965)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a395b1b6-8499-48df-8d8e-c5335e97dec4)
 
+* We don't have to **search** the entire **array** which is **N** keys, we only have to **search** for **log N** keys.
+* log N = 3
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/025d355a-5d27-4f89-bf7e-014bcf6e5e12)
 
+* We are using **linked list** data structure for storing the **data**.
+* So for **searching** in **linked list**, the **time complexity** is going to be in **O(n)**.
+* This is **not the best solution** because everytime for **searching** something in the **database**, it is going to take **O(n)** time. The **efficiency** of the program will be **not good/worse**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e8464d58-4655-4154-9ecd-6636b0550650)
 
+* For the **'8' digits**, the no. of phone numbers can be created is **(10 ^ 8) - 1** as the **zero(0) no** is not allowed. [**VERY IMPORTANT**] [Formula]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/599ed117-57b3-42ea-9dd4-e56d6f92b78c)
 
+* We are making the **phone no** as the **index** of the array.
+* The **searching index** is the **phone no** only.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/720dcc9b-ccde-4615-ba7c-2d8bcf4eb68f)
 
+* When implementing the problem using an **array**.
+* The time complexity of **searching** will be **O(1)**.
+* The amount of **space** that is being **wasted** is **not comprehendable/managable**.
+* This is **not an effective solution**.
+* We have to think of a **solution** in terms of **time and space**. [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f7560690-acde-4b60-897e-b0f1cf51a31d)
 
+* Search Time -> **O(1)**.
+* Space is also **decreased**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/38ab4699-84a5-49f4-947b-db36d3434c10)
+
+* This is called as **collision**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/118a76e8-a6ef-4c1d-8acc-f61d1ee11ff3)
+
+* The **objective** of **hashing** is that we can do **any operation** in **O(1)** or in **constant, O(C)** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afed829f-8ce1-4872-b211-8f3854a064c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/88da9a75-d848-4c5d-8fc1-2a0baf143e90)
+
+* We want to make **search time** as **O(1)**. For the **O(1)** to happen for **search time** we got a **problem** and the **solution** to that problem was **collision**. To give a **solution** to the **problem of collision**, we got **chaining**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/621b299c-361a-4f83-aa44-5753f24c666d)
+
+* Modulous function.
+* Hash function.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2aa33eaa-c1bf-4a8b-bea9-a3263f1ff794)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/851162bb-df07-4c8e-b538-483e7d5729d4)
+
+* We are able to give **everytime** a **room/place**  to all of the elements in **O(1)** time which is **insertion** operation. [**VERY IMPORTANT**]
+* The **modulus** operation is a **mathematical operation** which can be done in **O(1) or constant** time. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78832dfe-eea3-4d34-8ec1-05f929805650)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/16dc4b43-d979-4f9f-a77c-9ddf92b0dc89)
+
+* Searching is done in **O(1)** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/80758a64-10eb-4c51-8624-9ebfd0bc3135)
+
+* Now **20 and 30** came.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/39ee2189-938a-42d0-8729-a60c90bca43d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9c10ae7d-8704-457d-90fc-1593b1298139)
+
+* **0** place was already occupied by **10**. So now we have **collision** between **20 and 10**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5909d48b-061e-47ec-8b18-afdb2f11d9dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58b44543-9568-4a46-90f0-e57e07e756f0)
+
+* Now the **collision** is resolved.
+* The time to **resolve** the **collision** is in **O(1)** time. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d9eb32c-8ca4-4d9a-9d2a-b9239a428b83)
+
+* 30.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d4197f1-ffbf-4dfd-a412-bc9cdd5fc2b4)
+
+* 21.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0f07c97f-3191-4281-aaae-01584d58ab89)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8a346cd8-55c3-4a6b-aaff-2e9eac6cd610)
+
+* **Chaining** method.
+* Load factor.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6040ad4-d2d4-440c-8d3e-25d588fecdbc)
+
+* If **N** is **very big/huge** then the **hashing operations** will happen in **O(1)** time?  
+
+### Hashing Performance Analysis
+
+* It depends on **various factors**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/254a6dde-334d-4da7-be0b-92ddf40a8c91)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/058fbc29-f0c7-4132-9ae8-785fb3078bfc)
+
+1) Order of keys.
+2) What/How is the hash function.
+3) Many more etc etc.
+
+* Modulus operator(%). 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7614df4d-2ce4-458b-ab73-63b0ede54fa8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ce40d951-eb00-460e-91b5-4e1ea6c4e280)
+
+* Hash function type.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01b84e47-30ba-4c51-9653-da81da9357d0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d66c1014-457e-43ed-8370-40c4d559116a)
+
+* All of the operations of **hashing** are to be done in **O(1)** time. [**VERY IMPORTANT**]
+* Objective/goal of **hashing** -> Collision is minimized -> **O(1)** time. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/555236e7-5f2b-403a-978d-7839714a05a7)
+
+## Hashing (Part 46)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8d0ba940-09f3-47d7-9f12-8dfa1b9ca12f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c27f3325-23a3-44ff-a50a-036f8397cd50)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a7fc9959-1385-43f1-a494-e7d681ec4ac6)
+
+* We have to **resolve** the **collision**.
+
+1) We have to give a solution for the **collision**.
+2) We have to make the **data** collide as **minimum as possible**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75ee3b0c-aa66-432f-adfb-e06781e05571)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99eacd40-9194-478b-81e5-35b39aef1483)
+
+* Hashing function(HF)
+* Hashing techniques(HT)
+* The time complexity we want is **O(1)** time.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5848c219-b237-4f6f-bb3d-ea18f056a755)
+
+* Hashing.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6644bac2-bb6e-492b-a6d0-bdc98d4b884c)
+
+* **Collision** between **10 and 15**.
+
+1) How to resolve **collision** ? [Question]
+
+> **Chaining**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2d8d5a60-c26c-4b46-a557-6f05006eb26e)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcc88f63-8f7d-4413-a1d4-85c4717ce79a)
+
+* **Searching** the element **40**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5c5e80b-d3e3-4dca-bfbc-02056c64431e)
+
+* We have added the element **40**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e88ec79-2bbc-408a-a2aa-c0d229b45264)
+
+* For the **insertion(40)** we have to **traverse/search** all of the nodes of the **linked list(LL)**. If **40** is not found in the list then we will **insert '40'** into the list otherwise we don't have to **insert '40'**.
+* We have **n** nodes in the list.
+* To **search** for an element in the list, for the **worst case** it is **O(n)** time. [**VERY IMPORTANT**] [Formula]
+* Time Complexity for **searching** in **worst case** -> **O(n)**. [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8fcfef8e-19fc-4317-a1ff-997e323cf641)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fcaafd90-d2b1-4934-aa1a-cdd2e4115ceb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b81861ca-1f51-48f0-9bfb-f50c10f41c39)
+
+* As **max. collisions** are happening that why the time complexity is **O(n)** for the **worst case** of **searching**. We have to visit all of the **nodes** in the list. [**IMPORTANT**]
+* We are getting **O(n)** time complexity but we want the time complexity to be **O(1)** which means that we have **failed**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91e0f453-d09e-48fd-8379-fceea8673356)
+
+* 1 [Question] [GATE 2014]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e1b7f09-359d-4700-ac63-4d3d3d90e773)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75d0d97e-321e-407f-b086-93972901857e)
+
+* Option **A**. [**VERY IMPORTANT**] [Practice Again] [Got it wrong] [Solution] [Answer]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/58044eee-fe0e-40f8-b21b-b08bf6c4c79c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5f1d8e6-7d79-4557-85e7-4ce79ba03fac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1725d2ef-f117-4a94-bdba-6f841c998366)
+
+* The **stack** is used to store the **addresses** of the **1st nodes** of the **linked list**. The rest are kept at the **linked list**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/222548fc-68ff-42bd-a694-dc1400e1bb69)
+
+* Hashing Techniques.
+
+### Closed Address Hashing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c7b9c5c-3e22-45f7-bfd8-3390d0250cf1)
+
+* Chaining -> Already discussed.
+
+### Open Address Hashing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5e34d7a4-aa3c-4943-9077-a3c12200843f)
+
+1) Linear Probing.
+2) Double Hashing.
+
+#### Linear Probing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1557aca7-cdfa-4403-b3ad-0b43de862f9a)
+
+* n -> Total keys
+* m -> No. of rooms/space.
+* n <= m.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1b83d62c-c1d3-499f-8acc-6eaba349d081)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bed5c113-5adc-40a4-9e0f-1d9328d7170a)
+
+* **n > m**. The **no. of keys(n)** cannot be **greater than** the **no. of rooms/space(m)**.
+* This is not possible.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb46f8b8-7110-4b15-9819-684b48a81a85)
+
+* Example of **linear probing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/17654918-28a3-4a71-a8ac-091e1ba72ddf)
+
+* Collision between **44 and 18**  at **5th position**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75f068df-ebe9-4def-87dc-ac7f73d661ca)
+
+* **STEPS** to resolve **collision**:-
+* First we have to **resolve** the collision and then we have to **minimize the collision**. [**VERY IMPORTANT**] [Formula] [Collision]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36f48cea-605a-495a-b2e9-d56a1206f0c8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/608dc394-5c57-4c50-b264-6f28b4af32d5)
+
+* In **linear probing**, we are going to the **next location(+1)** to check if it is **empty or not**. If it is **empty** then put the element in that empty **location**. [**VERY IMPORTANT**] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c7d6a9da-fd86-4e6a-a901-268d4e5f41a7)
+
+* We can do this also. It is the **same thing** only as **above**. [**IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aeced855-2aa0-4a25-9676-bbf6684bab38)
+
+* 32.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f36f70cd-4f13-4e47-8342-a8552f908643)
+
+* 31.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6060811f-2a4c-4a00-aee9-7791ab1d2ee2)
+
+* Linear probing sequence.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27ddbe74-0fa6-4080-b3fa-fb1261975689)
+
+* **Empty place/location** is giving the **gurantee** that the **element/elements** are **not present** in the table. [**VERY IMPORTANT**] [Clue] [Formula]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7e2177e2-429d-4aa7-8b7c-b22bcc0c3a33)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1be5da35-05c5-42e1-9109-c9ce05424323)
+
+* This is **invalid linear probing**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b6efe39-8239-44b6-94a7-a2dcb7d30601)
+
+* Whenever we will get the **1st empty place** in that place only we have to fill the **element** otherwise we will get the **invalid linear probing** problem/issue. We will not be able to properly **search** for elements within the **array**.  [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9b272c6a-220f-4ecf-b63d-69bd67904ff4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9edee450-612d-48b3-8c89-0dd4a6a1e50b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f79110a-744f-4b33-9674-e10b69b54706)
+
+* Delete element **31**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ab9ad946-b626-49f2-81ea-03b99e101311)
+
+* We are searching for **73**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b2a6e02-ed24-4bed-b3d6-bca0a29203ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d5b2179b-759d-4673-9565-04a7fd308234)
+
+* Mistake/Error -> If we get **empty location** while **searching** which means that the element we are **searching** is not present in the **array** but we can clearly see that **73** is definitely present in the **array**. This happens because of the **empty place/space** we encounted which searching for the element **73**. [**VERY IMPORTANT**]
+* **73** is not present in the table -> False/Not corrent/Wrong.
+* While doing **deletion** we have done something **wrong**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aa935113-54d3-4e50-870e-3e592e7629a9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6453773-bea7-4011-842b-30a7c92b571e)
+
+* We will give/provide some **info** on the **empty place/space** so that whenever someone else comes **searching** for elements in the **array**, they see the **info** and they continue on after the **empty place/space** to find the element they are **searching** for. [Video cut mid way]
 
 
 
