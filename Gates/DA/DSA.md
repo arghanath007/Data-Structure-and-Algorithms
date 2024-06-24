@@ -4705,6 +4705,7 @@ Reverse(Head)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e1b7f09-359d-4700-ac63-4d3d3d90e773)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/75d0d97e-321e-407f-b086-93972901857e)
+![Untitled](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db566f4b-436a-4934-b4e8-47f547a8ea8b)
 
 * Option **A**. [**VERY IMPORTANT**] [Practice Again] [Got it wrong] [Solution] [Answer]
 
