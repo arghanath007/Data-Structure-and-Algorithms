@@ -4814,6 +4814,11 @@ Reverse(Head)
 
 * We will give/provide some **info** on the **empty place/space** so that whenever someone else comes **searching** for elements in the **array**, they see the **info** and they continue on after the **empty place/space** to find the element they are **searching** for. [Video cut mid way]
 
+## Hashing (Part - 47)
+
+
+
+
 
 
 
