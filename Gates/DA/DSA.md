@@ -4817,11 +4817,122 @@ Reverse(Head)
 
 ## Hashing (Part - 47)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ee3cd594-e8b8-44fa-98cd-4336114de41a)
 
+* We are using a **marker** to **show/prove** that someone/some element was there previously in that **empty place/spot** within the **array**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5f7eec59-8074-40f0-8733-e23967b8d895)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2a536bcc-753d-4588-a166-78c742b7c3ea)
 
+* We have done **rehashing** and removed all of the **empty places/spots** within the array.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9fbc583b-e67e-46ff-9eda-f673730cc456)
 
+* Question [GATE 2005]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bbb871d5-15ab-48e7-b8ba-992ed181ff71)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffd792dd-1782-4296-a3b9-24f3e0e57b1c)
+![Untitled](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/529e0b8e-ce91-4643-bc41-c8a61f75343d)
+
+* Option **D**. [Solution] [Answer] [**IMPORTANT**]
+
+### Double Hashing
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1633707f-dec5-409c-a63c-55ea4de5ba24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bf7bab5d-47f1-4914-ac90-f90fae852910)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b86437b4-1863-4e45-bbe2-2d86d7366c44)
+
+* First Collision(C) between **18 and 44**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c133599-7c99-4c7f-bca2-66416610ae6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ace1410-909f-4a81-b014-bde38ba3dd29)
+
+* For **44**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/534e97b2-bb93-466f-b7bf-26f3fe586898)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5bd1ce4c-4684-4060-89a6-69d47ca7262d)
+
+* **Collision** between **18 and 31**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c3d06ce9-c803-411e-91dc-291cdb1e1ce4)
+
+* 31.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4c4e6468-6ab8-4a77-9a5c-8efd3bbb20a7)
+
+* **Collision** between **31 and 73**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7eb523c4-2bd9-4482-9b36-46f1b66483b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3c5324e4-3d7c-477d-bd51-89d02d5cdac6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9d6022f5-eda7-426b-ba44-c8b249aac952)
+
+* **73** is placed at **3rd place**. [**VERY IMPORTANT**] [Practice] [Example]
+* This is the **problem** of **double hashing**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10926e70-a637-4555-a131-4171b90b3532)
+
+* Attempt -> Probe. [Same thing only]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3701d7d-96dd-4cba-b779-fd2edc47d632)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09c465e0-7ec0-4761-8130-205e479d059b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/66d97b1f-5d41-47a3-a07d-96787688458a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a60b9d1-cafe-4842-a935-987e3c3cf6ec)
+
+* 2 [Question] [GATE 2021] [**VERY IMPORTANT**] [Practice Again]
+* Link -> https://gateoverflow.in/357404/gate-cse-2021-set-1-question-47
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cce8aa6a-5181-402a-9d84-ec84506d051c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/afa4d376-7cdf-4b84-b186-4b46ef8c256a)
+
+* Option **C**. [Solution] [Answer] [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10b9e947-9685-4c46-8666-d696406ed7a6)
+
+* 5.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5892b227-8a62-4148-9b0a-9b8d16fb7444)
+
+* 9.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b2a2ebef-7a40-4da8-bdbb-766f76d81927)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e9955d1-13c1-4155-bd2e-ade441311faf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c702941-12e8-435f-a950-e4c9b2c6b8f7)
+
+* **Solution** above, check.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb9643dc-a265-4fbc-a604-c69a15e2bd67)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/92bf6628-bda9-4afd-aea9-1b81b59c9fed)
+
+* 3 [Question] [Gate 2020] [**VERY IMPORTANT**]
+* Link -> https://gateoverflow.in/333208/gate-cse-2020-question-23
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c6b864-7103-41e9-9219-52df0b8afe01)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/19a5d025-e163-4098-ab0c-ec2df446bfc1)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/edd1be4b-2a03-4329-9b67-4392906768eb)
+
+* Answer -> 13 [Solution] [Answer] [**VERY IMPORTANT**] [Practice Again] [Got it wrong]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/244593cd-1f9d-43df-bd6a-5b9539f63fec)
+
+* 1 [Question] [GATE 2017] [Assignment]
+* Link -> https://gateoverflow.in/155711/algorithm-hashing
+
+![Untitled](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3df8af36-5619-465e-9e47-821f476ad78b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cc37aa5c-4433-494c-855d-35de60d09b68)
+![Untitled](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f57ff195-2b5d-4285-b4d0-2d82102faf2b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/cf43df81-e380-48a9-ad09-e51fc20fbd90)
+
+* Option **D**. [Solution] [Answer] [Doubt]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b02bb5a-a25b-4818-9b1c-634903e2c876)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ea5076f3-092a-4269-825f-1ad9f77293c2)
+
+* 2 [Question] [Assignment] [**VERY IMPORTANT**] [Practice Again] [Got it wrong]
+* Link -> https://gateoverflow.in/43327/gate-cse-2010-question-53
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0e0a6f87-bf41-47e7-b2d2-b1208d71ca68)
+
+* Option **C**.  [Solution] [Answer] [**VERY IMPORTANT**] [Practice Again]
 
 
 
