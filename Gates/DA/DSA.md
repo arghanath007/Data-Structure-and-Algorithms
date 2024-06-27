@@ -5141,7 +5141,86 @@ Reverse(Head)
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c783d503-bd7e-4f0c-a6ad-47ac9dfbda0b)
 
 * Insertion Sort. [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again]
-* Start from **33mins**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6b2ca135-4bbe-4a5b-b546-25643778c042)
+
+* Left(L) -> Sorted elements
+* Right(R) -> Unsorted elements.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2b87c0e-7346-4ea8-8935-09b042ab1c2c)
+
+* 100
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d8196ed4-c2c5-46ac-bdf7-674732ebded8)
+
+* 70.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/94826235-9698-4e79-baee-c2064f77f421)
+
+* 200.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50079ce6-6532-40a8-94b5-b7bd8d3061f8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4cd3ff0e-28cb-470b-be88-828159fd4c15)
+
+* Example [**VERY IMPORTANT**] [Practice Again]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/997faf3b-c2b6-48ec-a129-fe873b4ffb30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a6f7d104-6567-44f5-9e9b-ed522d6ba0f2)
+
+* The array is completely **sorted** now.
+* **(n - 1)** is the **no. of comparison** as well as the **no. of swapping**. [Formula] [**VERY IMPORTANT**] 
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/09a6fbc6-f6f0-4835-a31e-a254f1c7cb4b)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/77824da9-266e-419a-b2b4-15d6b8beda4f)
+
+* Time complexity for **insertion sort** with the **worst case** is **O(n ^ 2)**. [Formula] [**VERY IMPORTANT**] 
+* (n * (n - 1))/2 -> No. of comparison. [Formula] [**IMPORTANT**] 
+* n * (n - 1))/2 -> No. of swapping.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4046f5e8-054d-4727-8de7-6a60a8f70be6)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4eaa4f98-7eb9-4eab-b657-0ee47372af65)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c159921-434a-4214-a290-9048d6e4af8c)
+
+* Time complexity for **insertion sort** for **worst case** is **O(n ^ 2)**. [Formula] [**VERY IMPORTANT**] [**Time complexity**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6360af29-2cf1-4598-ae80-8563a785e611)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b6113daa-b66f-42fe-9f35-c65357997cab)
+
+* Time complexity for **insertion sort** for **best case** is **O(n)**. [Formula] [**VERY IMPORTANT**] [**Time complexity**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5dfb3dc0-6021-4545-817f-72a1dbe81b95)
+
+* Time complexity for **insertion sort** for **average case** is **O(n ^ 2)**. [Formula] [**VERY IMPORTANT**] [**Time complexity**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2db275a9-b396-4ef3-ad31-466cc25c16ee)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/521f5f92-30c3-483e-9bad-71a81f789460)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ed8bc0f4-dc1f-440b-8d50-53a859b72a38)
+
+* Linked list(LL) datas structure is a very bad datas structure for **sorting**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d088caac-0269-4c22-ad59-754075421cac)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84ced96a-5fdd-44d3-aee3-8a91041a6ddc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5092c4ad-65b7-4c17-9590-c9452593f61f)
+
+* Sorting:-
+
+1) O(n ^ 2).
+2) O(n * log n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4ba752e8-83bf-49e8-b6fb-a382c4a7b186)
+
+* Merge sort.
+* Quick sort.
+* Selection sort.
+* Bubble sort.
+
+
+
+
+
+
+
+
 
 
 
