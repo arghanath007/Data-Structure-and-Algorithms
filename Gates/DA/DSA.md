@@ -5020,36 +5020,128 @@ Reverse(Head)
 
 ![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5a73e88-917a-4b59-b8da-b05d7536c9c7)
 
+* Algo
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/5fa076df-65ed-4d01-a6e1-c0e71e57f92f)
 
+* The array is completely **unsorted**.
+* We have to check every element in the array and see if it is **74** or not.
+* **74** is present at index **'7'**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9862d9f4-0d7c-4621-80ee-f89bb17c6971)
 
+* This is a **successful** search.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f624a005-998f-404a-b5f1-a16e74b33b64)
 
+* Pseudo Code.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ffd9963a-8b61-4f3e-bc60-f0652059995d)
 
+* Time complexity for **worst case** is **O(n)**. [Time Complexity] [Formula] [**IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/14e1b181-81cb-41fc-ae35-f802fb10484a)
 
+* **Searching** in **unsorted array** is **O(n)** time complexity.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/23bad20f-1f60-4498-bb9a-3bbba3550c7f)
 
+* We are now **sorting** the array and the algo we will use to **search the element '74'** in the array is called as **binary search**.
+* First we are going to find the **mid location** of the array and check if the element we are searching is **bigger or smaller** than the **mid element**. If the element to be searched is **bigger** then we will go to the **right side** of the **mid location** otherwise we will go to the **left side** of the **mid location**. [Explained] [**VERY IMPORTANT**] [Formula]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/32c85a42-d4f2-4f37-999c-f3000f92d30c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b75c39ee-8141-402c-b728-654809924330)
 
+* Every **time/iteration** we are saving **half** of the efforts/work.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/db9293bb-af4a-4904-b46a-6ced2483abd4)
 
+* Total workdone = 3.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c8d45346-3aa1-491e-b547-e85f268c9461)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41abb4cd-cde4-4e41-a548-21403b5231ed)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4f94daa6-fd9e-486c-824c-1627db61da79)
 
+* Binary Search. [Code] [Logic]
+* TC -> Terminating Condition.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c038e334-095a-40db-a5b0-be3a283c4702)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6130112d-b26f-426a-9f4b-90f8642f19b0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/13bf2bd1-58e3-4b45-b2d9-61cc6ae82f4b)
 
+* Example
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6f876e10-ba25-4f50-830e-4a741455e0fb)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2b69fa36-f7e2-467c-81da-1fc2f10ba8b2)
 
+* Binary Search.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ba58eee1-2e83-4962-b93e-72bfa36445e3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34408b17-e260-48c6-b1a6-77353732fcd8)
 
+* Time Complexity of **Binary Search** is **O(log n)**. [Formula] [**VERY IMPORTANT**] [Time Complexity]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2ed86781-476e-4ae3-9e65-2b4d13bed530)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f16cd659-4c6f-483a-bca5-199f493cba2d)
 
+* Last class's problem. [Hashing] [Explaination] [**IMPORTANT**] [GATE 2021]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/785057ea-8dd7-4fe4-9c76-7eb831d0e93f)
 
+* Option **A** is not supporting the **diagram**. So option **A** is **wrong**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b5fe7a27-7419-4320-a748-ecbe4fd1a6a5)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01f6478c-7814-4148-948d-d200536311f0)
 
+* Option **B** does not have **13** which is in the **diagram**. So option **B** is **wrong**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9311b45e-452f-49ec-8a65-69f33995e46f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3df8593d-be59-483e-90a0-ec7160fc0e0f)
+
+* In Option **D** when **14** comes then the **diagram** does not match. So option **D** is **wrong**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41aacbe6-edee-477d-a38c-07d8c340ff63)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b7e6516-f723-4704-9bf8-84511d81fa97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f5dc99ff-f94b-45ea-9efd-e3534fb113ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40fef155-b60c-442d-aebc-0196223d4984)
+
+* Option **C**. [Solution] [Answer] [**VERY IMPORTANT**] [Practice Again] 
+
+## Sorting (Part - 49)
+
+### Insertion Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b055977-b511-4c82-b654-e2b0133f03ab)
+
+* Insertion Order. [Pseudo Code]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/360eaf7e-9625-4545-96cb-acb7a5e5628a)
+
+* Increasing order(inc)
+* Decreasing order(desc)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e57359b8-9bf2-464a-aef3-4f91b3adf3be)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8813a995-c067-4753-9ff3-0ee2e2a5b871)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9de6468e-ef67-4231-9958-e716c1cc52b7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a3c2d543-5cde-4de9-a019-8b7f9a632bdc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/11c10751-420c-486d-bafe-ab03b83e38c9)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f024902-4a51-44e2-9413-f053f6452e29)
+
+* Example [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e286466b-ef8f-41b9-9ec3-e5df2de18c59)
+
+* Left(L) -> Sorted data [**IMPORTANT**]
+* Right(R) -> Unsorted data. [**IMPORTANT**]
+* We will check first **30 and 100** as **30** is **smaller** than **100** so we will check **30 and 50**. Also **30** is **smaller** than **50**. So **30** will be at the **front**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f14970e8-e196-437d-8927-3ee66bf8eedf)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/312f0111-55a2-44d2-82b2-f5824be06b43)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3dcbe621-e5b2-47cd-a4dd-2750caf609f4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c783d503-bd7e-4f0c-a6ad-47ac9dfbda0b)
+
+* Insertion Sort. [Answer] [Solution] [**VERY IMPORTANT**] [Practice Again]
+* Start from **33mins**.
 
 
 
