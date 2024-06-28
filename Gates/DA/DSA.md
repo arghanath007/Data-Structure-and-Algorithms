@@ -5416,24 +5416,59 @@ Reverse(Head)
 
 ## Sorting (Part - 53)
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fb1d9d2d-342a-44f1-b7e7-1f1bb24d36d9)
 
+* Merge Algo
 
+### Merge Sort
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0ac5cb9f-60bf-46ae-959b-0fe0108e6c9f)
 
+* Now we will call the **merge algo**.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01158c1c-5ea3-441a-b0e1-6c87ddc31814)
 
+* Merge Sort -> code.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ad7bd074-b732-4116-9f27-444d3ab1b9d7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/15c460e9-42ec-4e89-b695-601447262a6d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f2cfa77e-caa9-4828-a4ca-fabeb43495b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b76bca60-e679-4c79-a84d-2f0edc8b3bcc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/6767126b-1ef4-4b96-9d43-9a181895f219)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/36ef9196-c3f8-4436-9390-f3847a85c8b4)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/2c879485-6133-4aca-89da-efce02d0734c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f0b7cdb9-550c-4f24-a20f-acbcbf8524af)
 
+* The **power** is the **height of the tree**.
+* For comparison of **n** elements we need **n/2** comparison as the elements are compared in pairs.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e1d089e1-4c52-4e4a-9631-b9755b7f61a2)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d55826b5-0560-4da1-8874-d2b8e3ee2b28)
 
+* No. of comparison -> n/2 -> **O(n)**. [Time complexity] [formula] [**VERY IMPORTANT**]
+* No. of copy -> **O(n)**. [Time complexity] [formula] [**VERY IMPORTANT**]
+* We have to do both **copy and compare**. First **comparison** is done and then **copy** of the elements happen.
+* We have to go **log n** steps and for every step we are spending **O(n)** time.
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/55ebb79e-9f49-4883-855b-a4590c39c4d1)
 
+* Time complexity for sorting the elements is **O(n * log n)**. [Time Complexity] [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1fdb24e-216a-4276-8a48-12c170e2ac64)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/aca84ddf-5e58-4287-b9e1-87be5d04df97)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f508ae8e-bc83-4ffd-a49f-d9d28c5d4b83)
 
+* **Best algo** for **sorting** anything.
+* Time complexity for **merge sort(MS)** is **O(n * log n)** for **best, worst, avg** cases. [Time Complexity] [Formula] [**VERY IMPORTANT**]
 
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/703428e2-382d-4c04-8caa-b3f1305d6646)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8682d7bb-0230-4a14-b100-b48dbca8d86c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/dc98d1af-ab87-4ac5-b741-c40b76ea5086)
 
+* Difference. [Example] [**VERY IMPORTANT**] [Time Complexity] [Formula]
+* Selection(S) sort, Insertion(I) sort, Bubble(B) sort, Merge Sort(MS).
 
-
+## Sorting (Part - 54)
 
 
 
