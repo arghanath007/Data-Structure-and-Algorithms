@@ -5214,7 +5214,105 @@ Reverse(Head)
 * Selection sort.
 * Bubble sort.
 
+## Sorting (Part-50)
 
+### Insertion Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f116b06f-8878-4960-b295-5dca9775675a)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/86265c3e-4b7d-4d3b-8b94-177db86bf226)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/27561cd6-2592-41a8-b3e1-ee4eeb09bdb3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/af507539-ca44-4d7d-a4a2-f08f66b0677a)
+
+* Comparison(C), Swapping(S).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/339a92f0-4750-4224-8796-4d39b63b628d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20dc49b1-568d-4e75-b74e-d3f76895abf0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/d6c8f6f3-edde-48db-b5b1-dcea10ed6f47)
+
+* Example.
+
+### Selection Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/24f94a32-3b33-4aaf-bd52-34ddb1f4a677)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1e718710-c720-43e3-8e62-d00a45e1069c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e5f20107-57b5-481f-9459-932d64c8be30)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/eb1174c3-c12d-4ebf-adc9-b2e50ebdbe3a)
+
+* We have **sorted** the elements from **1 to 5**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7aea76da-f967-4d19-9b73-5babc49dab8d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4d8885e6-300f-4589-829b-392931e85173)
+
+* Taking a **new array**.
+* What will be the array elements order after **1st pass**? [Question] [**VERY IMPORTANT**]
+
+1) Swap the 1st element with the minimum element of the array.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0bbc08c9-333e-4442-88e3-d48935b08274)
+
+* This is after the **1st pass**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9cca5fb0-6801-4ac5-95ae-23ca0bf4bf10)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f2940bd-2058-4e97-9389-61428636d711)
+
+* Find for the **3rd pass**.
+* **20** was **not swapped** because **20** was the **minimum element** only, that's why.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1a18a126-ca03-4219-9213-5dfa3b2b0c25)
+
+* We are taking **'1' element** from the **unsorted bucket** and placing it in the **sorted bucket**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f1ee40cb-bfa9-440a-833b-4f580448450d)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3758de81-6366-4b12-8835-dfebd721b264)
+
+* After **1st pass**, how many **comparisons(C)** and **swapping(S)**? [Question] [**IMPORTANT**]
+
+>  **no. of comparison** is **5** and the **no. of swaps** is **1**.
+
+* If there are **'6'** elements in the array, then the **no. of comparison** will be **5** and the **no. of swaps** will be **1**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/248b0b5d-38ab-4906-baac-6716c715d657)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/20efab36-6861-4d5c-a92f-70b879f687ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bb55b15c-9a67-4bdb-a701-c16aaa52126b)
+
+* For **n** elements, the **no. of comparison** is **(n - 1)**
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8bf51c24-c6ed-4e56-b4ee-58b4c34430dc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8ac84d01-5c79-4a6d-80e3-3ccd7b57010f)
+
+* Everytime we are doing **swapping** only once(1) for every **iteration/pass**. [**IMPORTANT**]
+* Time Complexity of **selection sort** for **worst case** is **O(n ^ 2)**. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+* No. of comparison is **(n ^ 2)**. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+* No. of swapping is **n**. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/7c620d32-7a1d-46b5-a039-5d665b615d2c)
+
+* Time Complexity of **selection sort** for **worst, best, avg** is **O(n ^ 2)**. It is **same** for all three of the cases. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a641c80f-eda3-4b38-8f00-fd0700701e6f)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/9bb1039b-5d38-4a30-8aaf-88401b48f3dd)
+
+* Time Complexity of **insertion sort** for **best case** is **O(n)**. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+* Time Complexity of **insertion sort** for **avg case** is **O(n ^ 2)**. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+* Time Complexity of **insertion sort** for **best case** is **O(n ^ 2)**. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/40b502b2-3422-4d08-b66f-b09b56e69f24)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/84b1afb9-7a0f-4f0f-a0e9-a0803af5e54b)
+
+* **Insertion Sort** VS **Selection Sort**. [Formula] [**VERY IMPORTANT**] [Time Complexity] 
+
+![Untitled](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/50ba3052-ad02-4214-88cc-fed985129f8f)
+
+### Bubble Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/4b8d6285-f1e6-40c2-8a44-c409d11e3101)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/de5cf24f-96e2-4bf1-85b3-b8d8cc768b76)
+
+* Bubble sort. [Example]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/fdc69047-3a62-42ed-bd8c-887f48175e61)
+
+## Sorting (Part - 51)
 
 
 
