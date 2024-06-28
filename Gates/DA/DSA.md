@@ -5314,6 +5314,123 @@ Reverse(Head)
 
 ## Sorting (Part - 51)
 
+### Bubble Sort
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/f21421e0-8fca-448d-b7d3-b9659aeaf9ba)
+
+* Code.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/b4b0d0f5-f2b5-4b71-8d45-ec4d6be56839)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8c672428-dc54-49d7-9e3d-f59344fea16e)
+
+* Total Elementsd -> 5.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/732a0799-30a9-4bc2-a38f-7d5de9c8b779)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/93d4e0d0-400f-40cc-a97b-b53a98efa8ca)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/bcd2ef68-b921-4a16-9ace-720677afe5e6)
+
+* We are also doing **comparison9C) and swapping(S)** in **bubble sort**.
+* No. of comparison -> No. of swapping -> (n * (n - 1))/2 [Formula] [**VERY IMPORTANT**] [Time Complexity]
+* Time complexity for **no. of comparison** -> **O(n ^ 2)**. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+* Time complexity for **no. of swapping** -> **O(n ^ 2)**. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+* **Comparison and swapping** are coming **same** only.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/91d009c0-e6cc-433c-ba4d-0ae428eafc62)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/608a7302-b855-4074-9947-99622790b0c0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5e2906c-7d2c-4952-8a47-8d286d6299e0)
+
+* We do not need **swapping** when the array is in the form of **ascending order**. It means **'0' swapping**. The **no. of comparison** will not be **less**.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/1f9dd625-6b38-43ff-8929-ed1381392ec8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/34f6836d-c1c9-4eb4-9cc3-1d12076d7f16)
+
+* Comparison(C) and swapping(S).
+* There is no need for **swap/swapping**. Only **comparison-comparison** happening.
+* The no. of comparison will be **same** only and the **no. of swapping** will be **zero(0)** only as the **array** is sorted in **ascending order**. [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/89f1f6f1-20db-4ec4-b963-ff82cd728706)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/78cbdeb4-53fa-4023-aec3-0a7f4655e38d)
+
+* We have to do **O(n ^ 2)** effort only.
+* O(C + S) -> O(n ^ 2 + 0) -> O(n ^ 2). [Formula] [**VERY IMPORTANT**]
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/10d4daaa-096b-4994-a2a4-1b3e1e809baf)
+
+* Time complexity for **bubble sort** for **best, worst and avg** is **O(n ^ 2)**. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+* Time complexity for **no. of comparison** in **bubble sort** is **O(n ^ 2)** for **best, worst and avg** cases. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+* Time complexity for **no. of swapping** in **bubble sort** is **O(1) or constant(0)** for **best** cases. [Formula] [**VERY IMPORTANT**] [Time Complexity]
+
+## Sorting (Part - 52)
+
+### Divide and Conquor
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e6d969fd-50ec-4504-af9d-6a03b35cc1b8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/99d23783-0e7c-4424-91e3-09bbbdfec9e0)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c36d6995-90c6-4d9d-ba6e-370986956df7)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/c5a3c688-3846-446e-8455-4dd024084403)
+
+* Example. [Solution]
+
+### Merge Sort
+
+#### Merge Procedure or function(Merge Algo)
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0b070921-aa57-4cf9-9d50-c79693b400c3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/a9b527c9-21c1-41ee-9715-ea04a8302705)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/41bd86f2-110e-4fda-9d13-b0f080d7558c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0cf13de3-1988-45bf-97f7-f54c4de55cd8)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/e7b3f465-4273-4542-abf3-bd08904cb7a3)
+
+* Merge Algo -> Code.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/177c80dd-58f2-47b7-be2e-b362326daf78)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/01925926-522b-4a36-b7f9-c1683a95c7b3)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/62d2741d-460a-4878-b5f1-57cde36d9307)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/415aa4d8-e595-482d-9322-7c51209c12a8)
+
+* Example.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/0a4d7a78-fc11-4d3a-85ee-101885a6cecc)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/05cb9368-47c3-4fba-9940-4d8d4af4c5ce)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/47d63792-cdfc-44df-80ed-42783540b8f2)
+
+* Initial array -> 11, 13, 15, 17, 12, 14, 16, 18. [Example] [Explaination] [**VERY IMPORTANT**]
+* Final array -> 11, 12, 13, 14, 15, 16, 17, 18.
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/8b56c03a-633a-4110-b4bb-10f9b5492a4c)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/289b080a-3ef3-4987-b513-219e600cfd94)
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/3203dd82-ba73-48f6-87ff-b64e1181cc56)
+
+* We had **n** elements and we had copied **n/2 + n/2** elements which is **n** only. So we have copied **n** elements only.
+* We have to do **comparison and copy** throughout the array. [**IMPORTANT**]
+* For **comparison** we had to do **n** time and for **copy** also we have to do **n** time. [**IMPORTANT**]
+* Time Complexity of **merge algo** is **O(n)** for **best, worst, avg** cases. [Time Complexity] [Formula] [**VERY IMPORTANT**]
+* O(n + n) -> O(2 * n) -> O(n).
+
+![image](https://github.com/arghanath007/Data-Structure-and-Algorithms/assets/54589605/ca9fe6cc-d4c8-44e8-911e-70308fedcd89)
+
+* Minimum time is **O(n)** and it cannot be **less than** this.
+
+## Sorting (Part - 53)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
